@@ -1,0 +1,37 @@
+---
+permalink: installconfig/optional-remapping-network-ports-for-appliance.html
+sidebar: sidebar
+keywords: remap appliance ports, network, internal to external port mapping 
+summary: 'You can optionally remap the internal ports on an appliance node to different external ports. For example, you might need to remap ports because of a firewall issue.'
+---
+= Optional: Remap network ports for appliance
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can optionally remap the internal ports on an appliance node to different external ports. For example, you might need to remap ports because of a firewall issue.
+
+.Before you begin
+
+* You have previously accessed the StorageGRID Appliance Installer.
+
+.About this task
+
+You can't use remapped ports for load balancer endpoints. If you need to remove a remapped port, follow the steps in link:../maintain/removing-port-remaps.html[Remove port remaps].
+
+.Steps
+
+. From the StorageGRID Appliance Installer, select *Configure Networking* > *Remap Ports*.
++
+The Remap Port page appears.
+
+. From the *Network* drop-down box, select the network for the port you want to remap: Grid, Admin, or Client.
+. From the *Protocol* drop-down box, select the IP protocol: TCP or UDP.
+. From the *Remap Direction* drop-down box, select which traffic direction you want to remap for this port: Inbound, Outbound, or Bi-directional.
+. For *Original Port*, enter the number of the port you want to remap.
+. For *Mapped-To Port*, enter the number of the port you want to use instead.
+. Select *Add Rule*.
++
+The new port mapping is added to the table, and the remapping takes effect immediately.
+
+. To remove a port mapping, select the radio button for the rule you want to remove, and select *Remove Selected Rule*.

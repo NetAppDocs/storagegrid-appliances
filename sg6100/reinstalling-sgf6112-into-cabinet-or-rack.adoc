@@ -1,0 +1,91 @@
+---
+permalink: sg6100/reinstalling-sgf6112-into-cabinet-or-rack.html
+sidebar: sidebar
+keywords: storagegrid, sgf6112, storage node, storage appliance, install, installing, installation, cabinet, rack
+summary: 'Remove the SGF6112 from a cabinet or rack to access the top cover or to move the appliance to a different location, then reinstall the appliance into a cabinet or rack when hardware maintenance is complete.'
+---
+= Relocate SGF6112 in cabinet or rack
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Remove the SGF6112 from a cabinet or rack to access the top cover or to move the appliance to a different location, then reinstall the appliance into a cabinet or rack when hardware maintenance is complete.
+
+[#remove-from-rack]
+== Remove SGF6112 from cabinet or rack
+
+.Before you begin
+
+* You have labels to identify each cable that is connected to the SGF6112.
+* You have physically located the SGF6112 where you are performing maintenance in the data center.
++
+link:locating-sgf6112-in-data-center.html[Locate SGF6112 in data center]
+
+* You have shut down the SGF6112.
++
+link:shut-down-sgf6112.html[Shut down SGF6112]
++
+CAUTION: Don't shut down the appliance using the power switch.
+
+.Steps
+
+. Label and then disconnect the appliance power cables.
+. Wrap the strap end of the ESD wristband around your wrist, and secure the clip end to a metal ground to prevent static discharge.
+. Label and then disconnect the appliance data cables and any SFP+ or SFP28 transceivers.
++
+IMPORTANT: To prevent degraded performance, don't twist, fold, pinch, or step on the cables.
+
+. Loosen the two captive screws on the appliance front panel.
++
+image::../media/sg6060_rack_retaining_screws.png[SGF6112 rack retaining screws]
+
+. Slide the SGF6112 forward out of the rack until the mounting rails are fully extended and you hear the latches on both sides click.
++
+The appliance top cover is accessible.
+
+. Optional: If you are fully removing the appliance from the cabinet or rack, follow the instructions for the rail kit to remove the appliance from the rails.
+
+include::../_include/fru-statement.adoc[]
+
+
+== Reinstall SGF6112 into cabinet or rack
+:icons: font
+:imagesdir: ../media/
+
+
+.Before you begin
+
+You have reinstalled the appliance cover.
+
+link:reinstalling-sgf6112-cover.html[Reinstall SGF6112 cover]
+
+.Steps
+
+. Press the blue rail releases both rack rails at the same time and slide the SGF6112 into the rack until it is fully seated.
++
+When you can't move the controller any further, pull the blue latches on both sides of the chassis to slide the controller all the way in.
++
+image::../media/sg6000_cn_rails_blue_button.gif[SG6000 Sliding on Rails]
++
+NOTE: Don't attach the front bezel until after you power on the controller.
+
+. Tighten the captive screws on the controller front panel to secure the controller in the rack.
++
+image::../media/sg6060_rack_retaining_screws.png[SG6060 rack retaining screws]
+
+. Wrap the strap end of the ESD wristband around your wrist, and secure the clip end to a metal ground to prevent static discharge.
+. Reconnect the controller data cables and any SFP+ or SFP28 transceivers.
++
+IMPORTANT: To prevent degraded performance, don't twist, fold, pinch, or step on the cables.
++
+link:../installconfig/cabling-appliance-sgf6112.html[Cable appliance (SGF6112)]
+
+. Reconnect the controller power cables.
++
+link:../installconfig/connecting-power-cords-and-applying-power-sgf6112.html[Connect power cords and apply power (SGF6112)]
+
+.After you finish
+
+The appliance can be restarted.
+
+link:powering-on-sgf6112-and-verifying-operation.html[Power on SGF6112 and verify operation]

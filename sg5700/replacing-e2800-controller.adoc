@@ -1,0 +1,116 @@
+---
+permalink: sg5700/replacing-e2800-controller.html
+sidebar: sidebar
+keywords: storagegrid, sg5700, storage node, storage appliance, Replacing, replace, e2800, controller, remove, removing, removal, install, installing, installation
+summary: 'You might need to replace the E2800 controller if it is not functioning optimally or if it has failed.'
+---
+= Replace E2800 series storage controller in the SG5700
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You might need to replace the E2800 series controller if it is not functioning optimally or if it has failed.
+
+.About this task
+
+* You have a replacement controller with the same part number as the controller you are replacing.
++
+IMPORTANT: Don't rely on the E-Series instructions to replace a controller in the StorageGRID appliance, because the procedures aren't the same.
+
+* You have labels to identify each cable that is connected to the controller.
+* If all drives are secured, you have reviewed the steps in the simplex E2800 series controller replacement procedure, which include downloading and installing E-Series SANtricity System Manager from the NetApp Support Site and then using the Enterprise Management Window (EMW) to unlock the secured drives after you have replaced the controller.
++
+IMPORTANT: You will not be able to use the appliance until you unlock the drives with the saved key.
+
+* You must have specific access permissions.
+* You must be signed in to the Grid Manager using a link:../admin/web-browser-requirements.html[supported web browser].
+
+.About this task
+
+You can determine if you have a failed controller canister in two ways:
+
+* The Recovery Guru in SANtricity System Manager directs you to replace the controller.
+* The amber Attention LED on the controller is on, indicating that the controller has a fault.
+
+The appliance Storage Node will not be accessible when you replace the controller. If the E2800 series controller is functioning sufficiently, you can link:../maintain/placing-appliance-into-maintenance-mode.html[place the E5700SG controller into maintenance mode].
+
+When you replace a controller, you must remove the battery from the original controller and install it in the replacement controller. In some cases, you might also need to remove the host interface card from the original controller and install it in the replacement controller.
+
+NOTE: The storage controllers in most appliance models don't include host interface cards (HIC).
+
+This task has the following parts: 
+
+. Prepare
+. Take controller offline
+. Remove controller
+. Move battery to new controller
+. Move HIC to new controller, if needed
+. Replace controller
+
+== Prepare
+include::../_include/e2800_series_rear.adoc[] 
+.Steps
+
+. Follow the instructions in the E2800 controller replacement procedure to prepare to remove the controller.
++
+You use SANtricity System Manager to perform these steps.
+
+ .. Make a note of which version of SANtricity OS software is currently installed on the controller.
+ .. Make a note of which version of NVSRAM is currently installed.
+ .. If the Drive Security feature is enabled, be sure a saved key exists and that you know the pass phrase required to install it.
++
+IMPORTANT: *Possible loss of data access &#8212;* If all drives in the appliance are security enabled, the new controller will not be able to access the appliance until you unlock the secured drives using the Enterprise Management Window in SANtricity System Manager.
+
+ .. Back up the configuration database.
++
+If a problem occurs when you remove a controller, you can use the saved file to restore your configuration.
+
+ .. Collect support data for the appliance.
++
+NOTE: Collecting support data before and after replacing a component ensures you can send a full set of logs to technical support if the replacement does not resolve the problem.
+
+== Take the controller offline
+.Steps
+. If the StorageGRID appliance is running in a StorageGRID system, link:../maintain/placing-appliance-into-maintenance-mode.html[place the E5700SG controller into maintenance mode].
+
+. If the E2800 controller is functioning sufficiently to allow for a controlled shutdown, confirm that all operations have completed.
+ .. From the home page of SANtricity System Manager, select *View Operations in Progress*.
+ .. Confirm that all operations have completed.
+include::../_include/remove_controller_e2800.adoc[]
+include::../_include/remove_battery_e2800.adoc[]
+include::../_include/HIC_replacement.adoc[] 
+
+== Replace controller
+.Steps
+. Install the replacement controller into the appliance.
+ .. Turn the controller over, so that the removable cover faces down.
+ .. With the cam handle in the open position, slide the controller all the way into the appliance.
+ .. Move the cam handle to the left to lock the controller in place.
+ .. Replace the cables and SFPs.
+ .. Wait for the E2800 controller to reboot. Verify that the seven-segment display shows a state of `99`.
+ .. Determine how you will assign an IP address to the replacement controller.
++
+NOTE: The steps for assigning an IP address to the replacement controller depend on whether you connected management port 1 to a network with a DHCP server and on whether all drives are secured.
++
+If management port 1 is connected to a network with a DHCP server, the new controller will obtain its IP address from the DHCP server. This value might be different than the original controller's IP address.
+
+. If the appliance uses secured drives, follow the instructions in the E2800 controller replacement procedure to import the drive security key.
+. Return the appliance to normal operating mode. From the StorageGRID Appliance Installer, select *Advanced* > *Reboot Controller*, and then select *Reboot into StorageGRID*.
++
+image::../media/reboot_controller_from_maintenance_mode.png[Reboot controller in maintenance mode]
+
+. During the reboot, monitor the node's status to determine when it has rejoined the grid. 
++
+The appliance reboots and rejoins the grid. This process can take up to 20 minutes.
+
+. Confirm that the reboot is complete and that the node has rejoined the grid. In the Grid Manager, verify that the Nodes page displays a normal status (green check mark icon image:../media/icon_alert_green_checkmark.png[green check mark] to the left of the node name) for the appliance node, indicating that no alerts are active and the node is connected to the grid.
++
+image::../media/nodes_menu.png[Appliance node rejoined grid]
+
+. From SANtricity System Manager, confirm that the new controller is Optimal, and collect support data.
+
+include::../_include/fru-statement.adoc[]
+
+.Related information
+
+http://mysupport.netapp.com/info/web/ECMP1658252.html[NetApp E-Series Systems Documentation Site^]

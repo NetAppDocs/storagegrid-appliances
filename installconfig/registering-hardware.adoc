@@ -1,0 +1,48 @@
+---
+permalink: installconfig/registering-hardware.html
+sidebar: sidebar
+keywords: register, registering, registration, support
+summary: 'Registering the appliance hardware provides support benefits.'
+---
+= Register hardware
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Registering the appliance hardware provides support benefits.
+
+.Steps
+
+. Locate the chassis serial number for the appliance. For SG6000 appliances the chassis serial number is on the storage controller shelf.
++
+You can find the number on the packing slip, in your confirmation email, or on the appliance after you unpack it.
++
+image::../media/appliance_label.gif[Label including serial number]
++
+NOTE: There are several serial numbers on the SG6000 storage appliance. The serial number on the storage controller shelf is the one that must be registered and used if you call for service or support on the SG6000 appliance.
+
+. Go to the NetApp Support Site at http://mysupport.netapp.com/[mysupport.netapp.com^].
+. Determine whether you need to register the hardware:
++
+[cols="1a,2a" options="header"]
+|===
+| If you are a...| Follow these steps...
+a|
+Existing NetApp customer
+a|
+
+ .. Sign in with your username and password.
+ .. Select *Products* > *My Products*.
+ .. Confirm that the new serial number is listed.
+ .. If it is not, follow the instructions for new NetApp customers.
+
+a|
+New NetApp customer
+a|
+
+ .. Click *Register Now*, and create an account.
+ .. Select *Products* > *Register Products*.
+ .. Enter the product serial number and requested details.
+
+After your registration is approved, you can download any required software. The approval process might take up to 24 hours.
+|===

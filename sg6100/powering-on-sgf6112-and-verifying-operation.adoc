@@ -1,0 +1,58 @@
+---
+permalink: sg6100/powering-on-sgf6112-and-verifying-operation.html
+sidebar: sidebar
+keywords: storagegrid, sg6100, sgf6112,storage node, storage appliance, power on, turn on, start
+summary: 'Power on the appliance after completing maintenance.'
+---
+= Power on SGF6112 and verify operation
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Power on the controller after completing maintenance.
+
+.Before you begin
+
+* You have installed the controller in a cabinet or rack and connected the data and power cables.
++
+link:reinstalling-sgf6112-into-cabinet-or-rack.html[Reinstall SGF6112 controller into cabinet or rack]
+
+* You have physically located the controller in the data center.
++
+link:locating-sgf6112-in-data-center.html[Locate SGF6112 appliance in data center]
+
+.Steps
+
+. Power on the appliance.
++
+You might have to remove the bezel to access the power switch; if so, remember to reinstall it afterwards.
+. Monitor the controller LEDs and boot-up codes using one of the following methods:
+ ** Press the power switch on the front of the controller.
+ ** Use the controller BMC interface:
+  ... Access the controller BMC interface.
++
+link:../installconfig/accessing-bmc-interface.html[Access BMC interface]
+
+  ... Select *Power Control*.
+  ... Select *Power On* and then select *Perform Action*.
++
+image::../media/sgf6112_power_on_from_bmc.png[Power on appliance from BMC]
++
+Use the BMC interface to monitor start-up status.
+. Confirm that the appliance controller displays in the Grid Manager and with no alerts.
++
+It might take up to 20 minutes for the controller to display in the Grid Manager.
++
+CAUTION: Don't take another appliance node offline unless this appliance has a green icon.
+
+. Confirm that the new appliance is fully operational by logging in to the grid node using PuTTY or another ssh client:
+  .. Enter the following command: `ssh _Appliance_IP_`
+  .. Enter the password listed in the `Passwords.txt` file.
+  .. Enter the following command to switch to root: `su -`
+  .. Enter the password listed in the `Passwords.txt` file.
++
+When you are logged in as root, the prompt changes from `$` to `#`.
+
+.Related information
+
+link:../installconfig/viewing-status-indicators.html[View status indicators]

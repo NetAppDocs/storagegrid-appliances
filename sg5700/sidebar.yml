@@ -1,0 +1,31 @@
+section: sg5700
+title: Maintain SG5700 hardware
+entries:
+  - title: Overview
+    pdf-filename: SG5700 hardware maintenance
+    url: "/sg5700/index.html"
+  - title: Maintenance configuration procedures
+    pdf-filename: Maintenance configuration procedures - SG5700
+    entries:
+    - title: Upgrade SANtricity OS on storage controller
+      url: "/sg5700/upgrading-santricity-os-on-storage-controller.html"
+      entries:
+      - title: Upgrade SANtricity OS on storage controllers using Grid Manager
+        url: "/sg5700/upgrading-santricity-os-on-storage-controllers-using-grid-manager-sg5700.html"
+      - title: Upgrade SANtricity OS on E2800 controller using maintenance mode
+        url: "/sg5700/upgrading-santricity-os-on-e2800-controller-using-maintenance-mode.html"
+    - title: Upgrade drive firmware using SANtricity System Manager
+      url: "/sg5700/upgrading-drive-firmware-using-santricity-system-manager.html"
+    - title: Change link configuration of E5700SG controller
+      url: "/sg5700/changing-link-configuration-of-e5700sg-controller.html"
+
+
+  - title: Hardware procedures
+    pdf-filename: Hardware procedures - SG5700
+    entries:
+    - title: Replace E2800 controller
+      url: "/sg5700/replacing-e2800-controller.html"
+    - title: Replace E5700SG controller
+      url: "/sg5700/replacing-e5700sg-controller.html"
+    - title: Replace other hardware components
+      url: "/sg5700/replacing-other-hardware-components-sg5700.html"

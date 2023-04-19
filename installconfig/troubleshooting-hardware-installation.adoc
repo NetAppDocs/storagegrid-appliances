@@ -1,0 +1,12 @@
+---
+permalink: installconfig/troubleshooting-hardware-installation.html
+sidebar: sidebar
+keywords: storage node, storage appliance, troubleshoot, troubleshooting, hardware, install, installation 
+summary: 'If you encounter issues during the installation, you might find it helpful to review troubleshooting information related to hardware setup and connectivity issues.'
+---
+= Troubleshoot hardware installation (SG6000 or SG5700)
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+If you encounter issues during the installation, you might find it helpful to review troubleshooting information related to hardware setup and connectivity issues.

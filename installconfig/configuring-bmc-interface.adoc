@@ -1,0 +1,22 @@
+---
+permalink: installconfig/configuring-bmc-interface.html
+sidebar: sidebar
+keywords: BMC, baseboard management controller, configure, setup, set up
+summary: 'The user interface for the baseboard management controller \(BMC\) on the SGF6112, SG6000, or services appliance provides status information about the hardware and allows you to configure SNMP settings and other options for the appliances.'
+---
+= BMC interface: Overview (SGF6112, SG6000, SG100, and SG1000)
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The user interface for the baseboard management controller (BMC) on the SGF6112, SG6000, or services appliance provides status information about the hardware and allows you to configure SNMP settings and other options for the appliances.
+
+Use the following procedures in this section to configure the BMC when you install the appliance:
+
+* Change root password for BMC interface
+* Set IP address for BMC management port
+* Access BMC interface
+* Configure SNMP settings
+* Set up email notifications and alerts
+
+NOTE: If the appliance has already been installed into a grid and is running StorageGRID software, see the following procedures for an alternative mechanism for BMC configuration.

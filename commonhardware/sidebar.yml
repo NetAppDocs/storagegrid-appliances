@@ -1,0 +1,26 @@
+section: commonhardware
+title: Maintain appliance configuration
+entries:
+  - title: Overview
+    pdf-filename: Maintain appliance configuration (all nodes)
+    url: "/commonhardware/index.html"
+  - title: Place appliance into maintenance mode
+    url: "/commonhardware/placing-appliance-into-maintenance-mode.html"
+  - title: Change MTU setting
+    url: "/commonhardware/changing-mtu-setting.html"
+  - title: Check DNS server configuration
+    url: "/commonhardware/checking-dns-server-configuration.html"
+  - title: Update MAC address references
+    url: "/commonhardware/locate-mac-address.html"
+  - title: Monitor node encryption in maintenance mode
+    url: "/commonhardware/monitoring-node-encryption-in-maintenance-mode.html"
+  - title: Appliance node cloning
+    entries:
+    - title: Overview
+      pdf-filename: Appliance node cloning
+      url: "/commonhardware/how-appliance-node-cloning-works.html"
+    - title: Considerations and requirements for appliance node cloning
+      url: "/commonhardware/considerations-and-requirements-for-appliance-node-cloning.html"
+    - title: Clone appliance node
+      url: "/commonhardware/appliance-node-cloning-procedure.html"
+

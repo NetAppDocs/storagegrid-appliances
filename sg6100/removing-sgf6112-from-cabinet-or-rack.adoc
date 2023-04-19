@@ -1,0 +1,49 @@
+---
+permalink: sg6100/removing-sgf6112-from-cabinet-or-rack.html
+sidebar: sidebar
+keywords: storagegrid, sg6100, storage node, storage appliance, remove, removing, removal, cabinet, rack, appliance, sgf6112
+summary: 'Remove the SGF6112 from a cabinet or rack to access the top cover or to move the appliance to a different location.'
+---
+= Remove SGF6112 from cabinet or rack
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Remove the SGF6112 from a cabinet or rack to access the top cover or to move the appliance to a different location.
+
+.Before you begin
+
+* You have labels to identify each cable that is connected to the SGF6112.
+* You have physically located the SGF6112 where you are performing maintenance in the data center.
++
+link:locating-sgf6112-in-data-center.html[Locate SGF6112 in data center]
+
+* You have shut down the SGF6112.
++
+link:shut-down-sgf6112.html[Shut down SGF6112]
++
+CAUTION: Don't shut down the appliance using the power switch.
+
+.Steps
+
+. Label and then disconnect the appliance power cables.
+. Wrap the strap end of the ESD wristband around your wrist, and secure the clip end to a metal ground to prevent static discharge.
+. Label and then disconnect the appliance data cables and any SFP+ or SFP28 transceivers.
++
+IMPORTANT: To prevent degraded performance, don't twist, fold, pinch, or step on the cables.
+
+. Loosen the two captive screws on the appliance front panel.
++
+image::../media/sg6060_rack_retaining_screws.png[SGF6112 rack retaining screws]
+
+. Slide the SGF6112 forward out of the rack until the mounting rails are fully extended and you hear the latches on both sides click.
++
+The appliance top cover is accessible.
+
+. Optional: If you are fully removing the appliance from the cabinet or rack, follow the instructions for the rail kit to remove the appliance from the rails.
+
+include::../_include/fru-statement.adoc[]
+
+.Related information
+
+link:removing-sgf6112-cover.html[Remove SGF6112 cover]

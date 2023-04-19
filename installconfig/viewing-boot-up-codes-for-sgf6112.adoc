@@ -1,0 +1,92 @@
+---
+permalink: installconfig/viewing-boot-up-codes-for-sgf6112.html
+sidebar: sidebar
+keywords: storagegrid, sgf6112, sg6100, boot codes, boot-up codes, start codes, codes, boot, start, bmc 
+summary: 'When you apply power to the appliance, the BMC logs a series of boot-up codes. You can view these codes on a graphical console that is connected to the BMC management port.'
+---
+= View boot-up codes (SGF6112)
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+When you apply power to the appliance, the BMC logs a series of boot-up codes. You can view these codes on a graphical console that is connected to the BMC management port.
+
+.Before you begin
+
+* You know how to access the BMC dashboard.
+* If you want to use serial-over-LAN (SOL), you have experience using IPMI SOL console applications.
+
+.Steps
+
+. Select one of the following methods for viewing the boot-up codes for the appliance controller, and gather the required equipment.
++
+[cols="1a,2a" options="header"]
+|===
+| Method| Required equipment
+| VGA console
+| 
+* VGA-capable monitor
+* VGA cable
+
+| KVM
+| * RJ-45 cable
+
+| Serial port
+| 
+* DB-9 serial cable
+* Virtual serial terminal
+
+| SOL
+| * Virtual serial terminal
+|===
+
+. If you are using a VGA console, perform these steps:
+ .. Connect a VGA-capable monitor to the VGA port on the back of the appliance.
+ .. View the codes displayed on the monitor.
+. If you are using BMC KVM, perform these steps:
+ .. Connect to the BMC management port and log in to the BMC web interface.
+ .. Select *Remote Control*.
+ .. Launch the KVM.
+ .. View the codes on the virtual monitor.
+. If you are using a serial port and terminal, perform these steps:
+ .. Connect to the serial USB port on the back of the appliance.
+ .. Use settings `115200 8-N-1`.
+ .. View the codes printed over the serial terminal.
+. If you are using SOL, perform these steps:
+ .. Connect to the IPMI SOL using the BMC IP address and login credentials.
++
+`ipmitool -I lanplus -H _BMC_Port_IP_ -U root -P _Password_ sol activate`
+
+.. View the codes on the virtual serial terminal.
+
+. Use the table to look up the codes for your appliance.
++
+[cols="1a,3a" options="header"]
+|===
+| Code| Indicates
+
+| HI
+| The master boot script has started.
+
+| HP
+| The system is checking to see if the network interface card (NIC) firmware needs to be updated.
+
+| RB
+| The system is rebooting after applying firmware updates.
+
+| FP
+| The hardware subsystem firmware update checks have been completed. Inter-controller communication services are starting.
+
+| HC
+| The system is checking for existing StorageGRID installation data.
+
+| HO
+| The StorageGRID appliance is running.
+
+| HA
+| StorageGRID is running.
+|===
+
+.Related information
+
+link:accessing-bmc-interface.html[Access BMC interface]

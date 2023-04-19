@@ -1,0 +1,14 @@
+---
+sidebar: sidebar
+permalink: commonhardware/admin-node-maintenance.html
+keywords: admin Node maintenance
+summary: 'Admin Node maintenance.'
+---
+
+= Admin Node maintenance
+
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Are there any maintenance topics specific to all admin nodes?

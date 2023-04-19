@@ -1,0 +1,194 @@
+section: installconfig
+title: Install appliance hardware
+entries:
+  - title: Quick start
+    pdf-filename: Install StorageGRID appliance hardware
+    url: "/installconfig/index.html"
+  - title: Hardware overviews
+    entries:
+    - title: SGF6112
+      url: "/installconfig/hardware-description-sg6100.html"    
+    - title: SG6000
+      url: "/installconfig/hardware-description-sg6000.html"
+    - title: SG6000 controllers
+      url: "/installconfig/controllers-in-sg6000-appliances.html"  
+    - title: SG5700
+      url: "/installconfig/hardware-description-sg5700.html"
+    - title: SG5700 controllers
+      url: "/installconfig/controllers-in-sg5700-appliances.html"        
+    - title: SG100 and SG1000
+      url: "/installconfig/hardware-description-sg100-and-1000.html"
+  - title: Prepare for installation
+    entries:
+    - title: Prepare site
+      url: "/installconfig/preparing-site.html"
+    - title: Unpack boxes
+      url: "/installconfig/unpacking-boxes.html"
+    - title: Obtain additional equipment and tools
+      url: "/installconfig/obtaining-additional-equipment-and-tools.html"
+    - title: Web browser requirements
+      url: "/installconfig/web-browser-requirements.html"
+    - title: Review appliance network connections
+      entries:
+      - title: Overview
+        url: "/installconfig/reviewing-appliance-network-connections.html"
+      - title: Network connections (SG5700)
+        url: "/installconfig/sg5700-appliance-connections.html"
+      - title: 'Port bond modes (SGF6112)'
+        url: "/installconfig/port-bond-modes-for-sgf6112.html"
+      - title: 'Port bond modes (SG6000-CN controller)' 
+        url: "/installconfig/port-bond-modes-for-sg6000-cn-controller.html"
+      - title: 'Port bond modes (E5700SG controller)'
+        url: "/installconfig/port-bond-modes-for-e5700sg-controller-ports.html"
+      - title: 'Port bond modes (SG100 and SG1000)'
+        url: "/installconfig/port-bond-modes-for-sg100-and-sg1000.html"
+    - title: Gather installation information
+      entries:
+      - title: Overview
+        url: "/installconfig/gathering-installation-information-overview.html"
+      - title: SGF6112
+        url: "/installconfig/gathering-installation-information-sg6100.html"
+      - title: SG6000
+        url: "/installconfig/gathering-installation-information-sg6000.html"
+      - title: SG5700
+        url: "/installconfig/gathering-installation-information-sg5700.html"
+      - title: SG100 and SG1000
+        url: "/installconfig/gathering-installation-information-sg100-and-sg1000.html"
+  - title: 'Automate appliance installation and configuration'
+    url: "/installconfig/automating-appliance-installation-and-configuration.html"
+  - title: Automate StorageGRID configuration
+    url: "/installconfig/automating-configuration-of-storagegrid.html"
+  - title: Overview of installation REST APIs
+    url: "/installconfig/overview-of-installation-rest-apis.html"
+  - title: Install hardware
+    entries:
+    - title: Register hardware
+      url: "/installconfig/registering-hardware.html"
+    - title: Install into cabinet or rack
+      entries:
+      - title: SGF6112
+        url: "/installconfig/installing-appliance-in-cabinet-or-rack-sgf6112.html"      
+      - title: SG6000
+        entries:
+        - title: Overview
+          pdf-filename: Install SG6000 into cabinet or rack
+          url: "/installconfig/installing-hardware-sg6000.html"
+        - title: 'Install 60-drive shelves (SG6060)'
+          url: "/installconfig/sg6060-installing-60-drive-shelves-into-cabinet-or-rack.html"
+        - title: 'Install drives (SG6060)'
+          url: "/installconfig/sg6060-installing-drives.html"
+        - title: 'Install 24-drive shelves (SGF6024)'
+          url: "/installconfig/sgf6024-installing-24-drive-shelves-into-cabinet-or-rack.html"
+        - title: 'Install SG6000-CN controller (SG6060 and SG6024)'
+          url: "/installconfig/sg6000-cn-installing-into-cabinet-or-rack.html"
+      - title: SG5700
+        url: "/installconfig/installing-appliance-in-cabinet-or-rack-sg5700.html"
+      - title: SG100 and SG1000
+        url: "/installconfig/installing-appliance-in-cabinet-or-rack-sg100-and-sg1000.html"
+    - title: Cable appliance
+      entries:
+      - title: SGF6112
+        url: "/installconfig/cabling-appliance-sgf6112.html"      
+      - title: SG6000
+        url: "/installconfig/cabling-appliance-sg6000.html"
+      - title: SG5700
+        url: "/installconfig/cabling-appliance-sg5700.html"
+      - title: SG100 and SG1000
+        url: "/installconfig/cabling-appliance-sg100-and-sg1000.html"
+    - title: Connect power cords and apply power
+      entries:
+      - title: SGF6112
+        url: "/installconfig/connecting-power-cords-and-applying-power-sgf6112.html"
+      - title: SG6000
+        url: "/installconfig/connecting-power-cords-and-applying-power-sg6000.html"
+      - title: SG5700
+        url: "/installconfig/connecting-power-cords-and-applying-power-sg5700.html"
+      - title: SG100 and SG1000
+        url: "/installconfig/connecting-power-cords-and-applying-power-sg100-and-sg1000.html"
+    - title: View status indicators and codes
+      url: "/installconfig/viewing-status-indicators.html"
+  - title: Set up hardware
+    entries:
+    - title: Overview
+      url: "/installconfig/configuring-hardware.html"
+    - title: Configure StorageGRID connections
+      entries:
+      - title: Access StorageGRID Appliance Installer
+        url: "/installconfig/accessing-storagegrid-appliance-installer.html"
+      - title: Verify and upgrade StorageGRID Appliance Installer version
+        url: "/installconfig/verifying-and-upgrading-storagegrid-appliance-installer-version.html"
+      - title: Configure network links
+        url: "/installconfig/configuring-network-links.html"
+      - title: Configure StorageGRID IP addresses
+        url: "/installconfig/setting-ip-configuration.html"
+      - title: Verify network connections
+        url: "/installconfig/verifying-network-connections.html"
+      - title: Verify port-level network connections
+        url: "/installconfig/verifying-port-level-network-connections.html"
+      - title: 'Set up SANtricity System Manager (SG6000 and SG5700)'
+        url: "/installconfig/accessing-and-configuring-santricity-system-manager.html"
+    - title: 'Configure BMC interface (SGF6112, SG6000, SG100, and SG1000)'
+      entries:
+      - title: Overview
+        url: "/installconfig/configuring-bmc-interface.html"
+      - title: Change root password
+        url: "/installconfig/changing-root-password-for-bmc-interface.html"
+      - title: Set IP address for BMC management port
+        url: "/installconfig/setting-ip-address-for-bmc-management-port.html"
+      - title: Access BMC interface
+        url: "/installconfig/accessing-bmc-interface.html"
+      - title: Configure SNMP settings
+        url: "/installconfig/configuring-snmp-settings-for-bmc.html"
+      - title: Set up email notifications
+        url: "/installconfig/setting-up-email-notifications-for-alerts.html"
+    - title: 'Optional: Enable node encryption'
+      url: "/installconfig/optional-enabling-node-encryption.html"
+    - title: 'Optional: Change RAID mode (SG5760 and SG6000)'
+      url: "/installconfig/optional-changing-raid-mode.html"
+    - title: 'Optional: Remap network ports'
+      url: "/installconfig/optional-remapping-network-ports-for-appliance.html"
+  - title: Deploy appliance node
+    entries:
+    - title: Deploy appliance Storage Node
+      url: "/installconfig/deploying-appliance-storage-node.html"
+    - title: Deploy services appliance node
+      url: "/installconfig/deploying-services-appliance-node.html"
+    - title: Monitor appliance installation
+      url: "/installconfig/monitoring-appliance-installation.html"
+    - title: Reboot appliance while StorageGRID Appliance Installer is running
+      url: "/installconfig/rebooting-appliance-while-sg-appliance-installer-is-running.html"
+    - title: 'Troubleshoot installation (SGF6112)'
+      url: "/installconfig/troubleshooting-hardware-installation-sg6100.html"
+      entries:
+      - title: 'Boot-up codes (SGF6112)'
+        url: "/installconfig/viewing-boot-up-codes-for-sgf6112.html"
+      - title: 'Error codes (SGF6112)'
+        url: "/installconfig/viewing-error-codes-for-sgf6112.html"
+      - title: 'Hardware setup appears to hang (SGF6112)'
+        url: "/installconfig/hardware-setup-appears-to-hang-sgf6112.html"
+      - title: 'Connection issues (SGF6112)'
+        url: "/installconfig/troubleshooting-connection-issues-sgf6112.html"      
+    - title: 'Troubleshoot installation (SG6000 or SG5700)'
+      url: "/installconfig/troubleshooting-hardware-installation.html"
+      entries:
+      - title: 'Boot-up codes (SG6000-CN controller)'
+        url: "/installconfig/viewing-boot-up-codes-for-sg6000-cn-controller.html"
+      - title: 'Error codes (SG6000-CN controller)'
+        url: "/installconfig/viewing-error-codes-for-sg6000-cn-controller.html"      
+      - title: Hardware setup appears to hang (SG6000 or SG5700)
+        url: "/installconfig/hardware-setup-appears-to-hang.html"
+      - title: Connection issues (SG6000 or SG5700)
+        url: "/installconfig/troubleshooting-connection-issues.html"    
+      - title: 'HE error: Error synchronizing with SANtricity OS Software (SG5700)'
+        url: "/installconfig/he-error-error-synchronizing-with-santricity-os-software.html"        
+    - title: 'Troubleshoot installation (SG100 and SG1000)'
+      url: "/installconfig/troubleshooting-hardware-installation-sg100-and-sg1000.html"
+      entries:
+      - title: 'Boot-up codes (SG100 and SG1000)'
+        url: "/installconfig/viewing-boot-up-codes-for-appliance-sg100-and-sg1000.html"
+      - title: 'Error codes (SG100 and SG1000)'
+        url: "/installconfig/viewing-error-codes-for-sg1000-controller-sg100-and-sg1000.html"
+      - title: 'Hardware setup appears to hang (SG100 and SG1000)'
+        url: "/installconfig/hardware-setup-appears-to-hang-sg100-and-sg1000.html"
+      - title: 'Connection issues (SG100 and SG1000)'
+        url: "/installconfig/troubleshooting-connection-issues-sg100-and-sg1000.html"

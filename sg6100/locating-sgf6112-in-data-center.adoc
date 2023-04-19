@@ -1,0 +1,33 @@
+---
+permalink: sg6100/locating-sgf6112-in-data-center.html
+sidebar: sidebar
+keywords: storagegrid, sgf6112, appliance, locate, find, locating, finding, identify, blue led, blue light
+summary: 'Locate the appliance so that you can perform hardware maintenance or upgrades.'
+---
+= Locate appliance in data center
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Locate the appliance so that you can perform hardware maintenance or upgrades.
+
+.Before you begin
+
+* You have determined which appliance requires maintenance.
+
+* To help locate the appliance in your data center, link:turning-sgf6112-identify-led-on-and-off.html[turn on the blue identify LED].
+
+.Steps
+
+. Find the appliance in the data center.
+ ** Look for a lit blue identify LED on the front or rear of the appliance.
++
+The front identify LED is behind the front bezel and might be difficult to see if the bezel is installed.
++
+image::../media/sgf6112_front_panel_service_led_on.png[Front identify LED - on]
+
+ ** Check the tags attached to the front of the appliance for a matching part number to confirm you have found the correct appliance.
+. Remove the front bezel, if one is installed, to access the front panel controls and indicators.
+. Turn off the blue identify LED if you used it to locate the appliance.
+ ** Press the identify LED switch on the appliance front panel.
+ ** Use the appliance BMC interface.

@@ -1,0 +1,43 @@
+---
+permalink: installconfig/configuring-hardware.html
+sidebar: sidebar
+keywords: storage node, storage appliance, hardware, configure, configuration, set up, setup, network, networking
+summary: 'After applying power to the appliance, you configure the network connections that will be used by StorageGRID. '
+---
+= Set up hardware: Overview
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+After applying power to the appliance, you configure the network connections that will be used by StorageGRID. 
+
+== Configure required network connections
+For all appliances, you perform several tasks to configure required network connections such as:
+
+* Access the Appliance Installer
+* Configure network links
+* Verify port-level network connections
+
+== Additional configuration that might be required
+Depending upon which appliance types you are configuring, additional hardware configuration might be required.
+
+=== SANtricity System Manager
+
+For SG6000 and SG5700, you configure SANtricity System Manager. The SANtricity software is used to monitor the hardware for these appliances. 
+
+=== BMC interface 
+The following appliances have a BMC interface that must be configured: 
+
+* SGF6112
+* SG6000
+* SG1000
+* SG100
+
+== Optional configuration
+
+* Storage appliances
+** Configure SANtricity System Manager (SG6000 and SG5700) the software you will use to monitor the hardware
+** Change the RAID mode
+
+* Services appliances
+** Access the BMC interface for the SG100 and SG1000 and the SG6000-CN controller

@@ -1,0 +1,61 @@
+---
+permalink: sg6100/verify-component-to-replace.html
+sidebar: sidebar
+keywords: sgf6112
+summary: 'If you are unsure which hardware component to replace in your appliance, complete this procedure to identify the component and the location of the appliance in the data center.'
+---
+= Verify component to replace in the SGF6112
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+If you are unsure which hardware component to replace in your appliance, complete this procedure to identify the component and the location of the appliance in the data center.
+
+.Before you begin
+
+* You have the serial number of the storage appliance where the component needs to be replaced.
+
+* You are signed in to the Grid Manager using a link:../admin/web-browser-requirements.html[supported web browser].
+
+.About this task
+
+Use this procedure to identify the appliance with failed hardware and which of the following replaceable hardware components is not operating properly: 
+
+* Power supplies
+* Fans
+* Solid state drives (SSDs)
+* Network Interface Cards (NICs)
+* CMOS battery
+
+.Steps
+
+. Identify the failed component and the name of the appliance that it is installed in. 
+.. In Grid Manager, Select *ALERTS* > *Current*.
++
+The Alerts page appears.
+
+.. Select the alert to see the alert details.
++
+NOTE: Select the alert, not the heading for a group of alerts.
+
+.. Record the node name and unique identifying label of the component that has failed.
++
+image::../media/nic-alert-sgf6112.jpg[Alert with component ID]
+
+. Identify the chassis with the component that needs to be replaced.
+.. From the Grid Manager, select *NODES*.
+.. From the table on the Nodes page, select the appliance Storage Node name with the failed component.
+.. Select the *Hardware* tab.
++
+Check the *Compute controller serial number* in the StorageGRID Appliance section. Check if the serial number matches the serial number of the storage appliance where you are replacing the component. If the serial number matches, you have found the correct appliance.
++
+image::../media/nodes_page_hardware_tab_appliance_verify_nic.png[Appliance section for hardware components]
+
+ ** If the StorageGRID Appliance section in Grid Manager does not display, the node selected is not a StorageGRID appliance. Select a different node from the tree view.
+ ** If the serial numbers don't match, select a different node from the tree view.
+
+. After you locate the node where the component needs to be replaced, write down the appliance BMC IP address listed the StorageGRID Appliance section.
++
+To help you locate the appliance in the data center, you can use the BMC IP address to turn on the appliance identify LED.
++
+link:turning-sgf6112-identify-led-on-and-off.html[Turn the appliance identify LED on and off]

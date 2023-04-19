@@ -1,0 +1,29 @@
+---
+permalink: installconfig/connecting-power-cords-and-applying-power-sgf6112.html
+sidebar: sidebar
+keywords: storagegrid, sgf6112, wire, wiring, cabling, cable, Connecting, connect, power cords, power, applying power, apply power, turn on, power up, ac, ac power 
+summary: 'After connecting the network cables, you are ready to apply power to the appliance.'
+---
+= Connect power cords and apply power (SGF6112)
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+After connecting the network cables, you are ready to apply power to the appliance.
+
+.Steps
+
+. Connect a power cord to each of the two power supply units in the appliance.
+. Connect these two power cords to two different power distribution units (PDUs) in the cabinet or rack.
+. If the power button on the front of the appliance is not currently illuminated blue, press the button to turn on power to the appliance.
++
+Don't press the power button again during the power-on process.
++
+The LED on the power supply should be illuminated green without blinking. 
+
+. If errors occur, correct any issues.
+. Attach the front bezel to the appliance if removed.
+
+.Related information
+
+link:viewing-status-indicators.html[View status indicators]

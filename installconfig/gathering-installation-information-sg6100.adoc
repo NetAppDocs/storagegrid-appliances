@@ -1,0 +1,245 @@
+---
+permalink: installconfig/gathering-installation-information-sg6100.html
+sidebar: sidebar
+keywords: storagegrid, sg6100, sgf6112, install, information, site, pre-install, preparing, prepare, preinstall, info, preparation
+summary: 'Using the following tables, record the required information for each network you connect to the appliance. These values are required to install and configure the hardware.'
+---
+= Gather installation information (SGF6112)
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Using the following tables, record the required information for each network you connect to the appliance. These values are required to install and configure the hardware.
+
+TIP: Instead of using the tables, use the workbook provided with ConfigBuilder. Using the ConfigBuilder workbook allows you to upload your system information and generate a JSON file to automatically complete some configuration steps in the StorageGRID Appliance Installer. See link:automating-appliance-installation-and-configuration.html[Automate appliance installation and configuration].
+
+== Check StorageGRID version
+
+Before installing an SGF6112 appliance, confirm your StorageGRID system is using a required version of StorageGRID software.
+
+[cols="1a,2a" options="header"]
+|===
+| Appliance| Required StorageGRID version
+
+| SGF6112
+| 11.7 or later (latest hotfix recommended)
+
+|===
+
+== Administration and maintenance ports
+
+The Admin Network for StorageGRID is an optional network, used for system administration and maintenance. The appliance connects to the Admin Network using the following ports on the appliance.
+
+The following figure shows the RJ-45 ports on the SG6112 appliance.
+
+image::../media/sg6100_rj_45_ports_circled.png[SG6112 RJ-45 ports]
+
+[cols="2a,1a" options="header"]
+|===
+| Information needed| Your value
+
+| Admin Network enabled
+| Choose one:
+
+* No
+* Yes (default)
+
+| Network bond mode
+| Choose one:
+
+* Independent (default)
+* Active-Backup
+
+| Switch port for the left port circled in the diagram (default active port for Independent network bond mode)
+| 
+
+| Switch port for the right port circled in the diagram (Active-Backup network bond mode only)
+| 
+
+| MAC address for the Admin Network port
+
+*Note:* The MAC address label on the front of the appliance lists the MAC address for the BMC management port. To determine the MAC address for the Admin Network port, you must add *2* to the hexadecimal number on the label. For example, if the MAC address on the label ends in *09*, the MAC address for the Admin Port would end in *0B*. If the MAC address on the label ends in *(_y_)FF*, the MAC address for the Admin Port would end in *(_y_+1)01*. You can easily make this calculation by opening Calculator in Windows, setting it to Programmer mode, selecting Hex, typing the MAC address, then typing *+ 2 =*.
+
+| 
+
+| DHCP-assigned IP address for the Admin Network port, if available after power on
+
+*Note:* You can determine the DHCP-assigned IP address by using the MAC address to look up the assigned IP.
+
+| 
+* IPv4 address (CIDR):
+* Gateway:
+
+| Static IP address you plan to use for the appliance node on the Admin Network
+
+*Note:* If your network does not have a gateway, specify the same static IPv4 address for the gateway.
+
+| 
+* IPv4 address (CIDR):
+* Gateway:
+
+| Admin Network subnets (CIDR)
+| 
+
+|===
+
+== Networking ports
+
+The four networking ports on the appliance connect to the StorageGRID Grid Network and the optional Client Network.
+
+[cols="2a,1a" options="header"]
+|===
+| Information needed| Your value
+
+| Link speed
+
+| For the SGF6112, choose one of the following:
+
+* Auto (default)
+* 10 GbE
+* 25 GbE
+
+| Port bond mode
+| Choose one:
+
+* Fixed (default)
+* Aggregate
+
+| Switch port for port 1 (Client Network for Fixed mode)
+| 
+
+| Switch port for port 2 (Grid Network for Fixed mode)
+| 
+
+| Switch port for port 3 (Client Network for Fixed mode)
+| 
+
+| Switch port for port 4 (Grid Network for Fixed mode)
+| 
+
+|===
+
+== Grid Network ports
+
+The Grid Network for StorageGRID is a required network, used for all internal StorageGRID traffic. The appliance connects to the Grid Network using the four network ports.
+
+[cols="2a,1a" options="header"]
+|===
+| Information needed| Your value
+
+| Network bond mode
+| Choose one:
+
+* Active-Backup (default)
+* LACP (802.3ad)
+
+| VLAN tagging enabled
+| Choose one:
+
+* No (default)
+* Yes
+
+| VLAN tag (if VLAN tagging is enabled)
+| Enter a value between 0 and 4095:
+
+| DHCP-assigned IP address for the Grid Network, if available after power on
+| 
+* IPv4 address (CIDR):
+* Gateway:
+
+| Static IP address you plan to use for the appliance node on the Grid Network
+
+*Note:* If your network does not have a gateway, specify the same static IPv4 address for the gateway.
+
+| 
+* IPv4 address (CIDR):
+* Gateway:
+
+| Grid Network subnets (CIDRs)
+| 
+
+| Maximum transmission unit (MTU) setting (optional). You can use the default value of 1500, or set the MTU to a value suitable for jumbo frames, such as 9000.
+| 
+
+|===
+
+== Client Network ports
+
+The Client Network for StorageGRID is an optional network, typically used to provide client protocol access to the grid. The appliance connects to the Client Network using the four network ports.
+
+
+[cols="2a,1a" options="header"]
+|===
+| Information needed| Your value
+
+| Client Network enabled
+| Choose one:
+
+* No (default)
+* Yes
+
+| Network bond mode
+| Choose one:
+
+* Active-Backup (default)
+* LACP (802.3ad)
+
+| VLAN tagging enabled
+| Choose one:
+
+* No (default)
+* Yes
+
+| VLAN tag(If VLAN tagging is enabled)
+| Enter a value between 0 and 4095:
+
+| DHCP-assigned IP address for the Client Network, if available after power on
+| 
+* IPv4 address (CIDR):
+* Gateway:
+
+| Static IP address you plan to use for the appliance node on the Client Network
+
+*Note:* If the Client Network is enabled, the default route on the appliance will use the gateway specified here.
+
+| 
+* IPv4 address (CIDR):
+* Gateway:
+
+|===
+
+== BMC management network ports
+
+You can access the BMC interface on the appliance using the 1-GbE management port circled in the diagram. This port supports remote management of the controller hardware over Ethernet using the Intelligent Platform Management Interface (IPMI) standard.
+
+include::../_include/enable-disable-ipmi.adoc[]
+
+The following figure shows the BMC management port on the SG6112 appliance.
+
+image::../media/sgf6112_cn_bmc_management_port.png[SG6100 management port]
+
+[cols="2a,1a" options="header"]
+|===
+
+| Information needed| Your value
+
+| Ethernet switch port you will connect to the BMC management port (circled in the diagram)
+| 
+
+| DHCP-assigned IP address for the BMC management network, if available after power on
+| 
+* IPv4 address (CIDR):
+* Gateway:
+
+| Static IP address you plan to use for the BMC management port
+| 
+* IPv4 address (CIDR):
+* Gateway:
+
+|===
+
+.Related information
+
+* link:cabling-appliance-sgf6112.html[Cable appliance (SGF6112)]
+
+* link:setting-ip-configuration.html[Configure StorageGRID IP addresses]

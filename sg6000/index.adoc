@@ -1,0 +1,22 @@
+---
+permalink: sg6000/index.html
+sidebar: sidebar
+keywords: storagegrid, sg6000, storage node, storage appliance, maintain, maintaining, hardware, procedures, tasks
+summary: 'You might need to perform maintenance procedures on the SG6000 appliance. The procedures in this section assume that the appliance has already been deployed as a Storage Node in a StorageGRID system.'
+---
+= Maintain SG6000 appliance
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You might need to perform maintenance procedures on the SG6000 appliance.
+
+Procedures specific to maintaining your SG6000 appliance are in this section and assume that the appliance has already been deployed as a Storage Node in a StorageGRID system. 
+
+See link:../commonhardware/index.html[Common procedures] for maintenance procedures that are used by all appliances. 
+
+See link:../installconfig/configuring-hardware.html[Set up hardware] for maintenance procedures that are also performed during initial appliance installation and configuration.
+
+To prevent service interruptions, confirm that all other Storage Nodes are connected to the grid before shutting down the appliance or shut down the appliance during a scheduled maintenance window when periods of service disruption are acceptable. See the information about link:../monitor/monitoring-system-health.html#monitor-node-connection-states[monitoring node connection states].
+
+IMPORTANT: If you have ever used an ILM rule that creates only one copy of an object, you must shut down the appliance during a scheduled maintenance window. Otherwise, you might temporarily lose access to those objects during any maintenance procedure that takes a storage node out of service. See the information about link:../ilm/index.html[managing objects with information lifecycle management].

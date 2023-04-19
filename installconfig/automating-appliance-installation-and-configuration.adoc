@@ -1,0 +1,261 @@
+---
+permalink: installconfig/automating-appliance-installation-and-configuration.html
+sidebar: sidebar
+keywords: automate, automating, automation, automatic, install, installation, configuration, configure
+summary: 'Automating installation and configuration can be useful for deploying multiple StorageGRID instances or one large, complex StorageGRID instance.'
+---
+= Automate appliance installation and configuration
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Automating installation and configuration can be useful for deploying multiple StorageGRID instances or one large, complex StorageGRID instance.
+
+Using NetApp StorageGRID tools, you can automate the installation and configuration of your StorageGRID appliances. After you install and configure the appliances, you can link:automating-configuration-of-storagegrid.html[automate the configuration of the entire StorageGRID system].
+
+You can automate the configuration of the following:
+
+* Grid Network, Admin Network, and Client Network IP addresses
+* BMC interface
+* Network links
+** Port bond mode
+** Network bond mode
+** Link speed
+
+[[automation-options]]
+== Automation options
+
+To automate appliance installation and configuration, use one or more of the following options:
+
+* Generate a JSON file that contains configuration details. Work with your NetApp Professional Services consultant to use the link:https://configbuilder.netapp.com/index.aspx[NetApp ConfigBuilder tool^] to complete these steps:
++
+[cols="1a,5a,3a" options="header"]
+|===
+| Step| Consult NetApp Professional Services| Use ConfigBuilder
+
+| 1
+| Get sales order number
+| 
+
+| 2
+| 
+| Get workbook
+
+| 3
+| Complete workbook
+| 
+
+| 4
+| 
+| Upload workbook
+
+| 5
+| 
+| Generate JSON file
+
+| 6
+| Upload JSON file to appliance
+| 
+
+| 7
+2+| Appliance ready for configuration. See <<automate-with-appliance-installer,Automate using Appliance Installer>>.
+|===
++
+NOTE: You can use the same JSON file to configure more than one appliance.
++
+Configuring your appliance using an uploaded JSON file is often more efficient than performing the configuration manually, especially if you have to configure many nodes. Performing the configuration manually requires using multiple pages in the StorageGRID Appliance Installer and applying the configuration file for each node one at a time.
+
+* If you are an advanced user, you can use the following StorageGRID Python scripts to install and configure your system:
+** `configure-sga.py`: Automate the installation and configuration of your appliances. See <<automate-with-configure-sga-py-script,Automate appliance installation and configuration using configure-sga.py script>>.
+** `configure-storagegrid.py`: Configure other components of the entire StorageGRID system (the "grid"). See link:automating-configuration-of-storagegrid.html[Automate StorageGRID configuration].
+
+NOTE: You can use StorageGRID automation Python scripts directly, or you can use them as examples of how to use the StorageGRID Installation REST API in grid deployment and configuration tools you develop yourself. See the instructions for link:../maintain/downloading-and-extracting-storagegrid-installation-files.html[downloading and extracting the StorageGRID installation files].
+
+[[automate-with-appliance-installer]]
+== Automate appliance configuration using StorageGRID Appliance Installer
+
+After you have generated a JSON file, you can automate the configuration of one or more appliances by using the StorageGRID Appliance Installer to upload the JSON file.
+
+.Before you begin
+
+*	The appliance has been installed in a rack, connected to your networks, and powered on.
+* You have <<automation-options,generated the JSON file>> with the guidance of your NetApp Professional Services consultant.
+* Your appliance contains the latest firmware compatible with StorageGRID 11.5 or higher.
+* You are connected to the StorageGRID Appliance Installer on the appliance you are configuring using a link:../admin/web-browser-requirements.html[supported web browser].
+
+.Steps
+
+. In the StorageGRID Appliance Installer, select *Advanced* > *Update Appliance Configuration*. The Update Appliance Configuration page appears.
+
+. Browse for and select the JSON file with the configuration you want to upload.
++
+The file is uploaded and validated. When the validation process is complete, the file name is shown next to a green check mark.
++
+IMPORTANT: You might lose connection to the appliance if the configuration from the JSON file includes sections for `link_config`, `networks`, or both. If you aren't reconnected within 1 minute, re-enter the appliance URL using one of the other IP addresses assigned to the appliance.
++
+image::../media/update_appliance_configuration_valid_json.png[Update appliance configuration JSON uploaded]
++
+The *Node name* drop down is populated with the top-level node names defined in the JSON file.
++
+NOTE: If the file is not valid, the file name is shown in red and an error message is displayed in a yellow banner. The invalid file is not applied to the appliance. ConfigBuilder verifies that you have a valid JSON file.
+
+. Select a node from the list in the *Node name* drop down.
++
+The *Apply JSON configuration* button becomes enabled.
+
+. Select *Apply JSON configuration*.
++
+The configuration is applied to the selected node.
+
+[[automate-with-configure-sga-py-script]]
+== Automate appliance installation and configuration using configure-sga.py script
+
+If you are an advanced user, you can use the `configure-sga.py` script to automate many of the installation and configuration tasks for StorageGRID appliance nodes, including installing and configuring a primary Admin Node. This script can be useful if you have a large number of appliances to configure.
+
+You can also use the script to generate a JSON file that contains appliance configuration information. You can upload the JSON file to the StorageGRID Appliance Installer to configure all appliance nodes at the same time. You can also edit the JSON file, then upload it to apply a new configuration to one or more appliances.
+
+NOTE: This procedure is for advanced users with experience using command-line interfaces. Alternatively, you can <<automate-with-appliance-installer,use the StorageGRID Appliance Installer to automate the configuration>>.
+
+.Before you begin
+
+* The appliance has been installed in a rack, connected to your networks, and powered on.
+* You have <<automation-options,generated the JSON file>> with the guidance of your NetApp Professional Services consultant.
+* Your appliance contains the latest firmware compatible with StorageGRID 11.5 or higher.
+* You have configured the IP address of the Admin Network for the appliance.
+* You have downloaded the `configure-sga.py` file. The file is included in the installation archive, or you can access it by clicking *Help* > *Appliance Installation Script* in the StorageGRID Appliance Installer.
+
+.Steps
+
+. Log in to the Linux machine you are using to run the Python script.
+. For general help with the script syntax and to see a list of the available parameters, enter the following:
++
+----
+configure-sga.py --help
+----
++
+The `configure-sga.py` script uses five subcommands:
+
+ ** `advanced` for advanced StorageGRID appliance interactions, including BMC configuration and creating a JSON file containing the current configuration of the appliance
+ ** `configure` for configuring the RAID mode, node name, and networking parameters
+ ** `install` for starting a StorageGRID installation
+ ** `monitor` for monitoring a StorageGRID installation
+ ** `reboot` for rebooting the appliance
++
+If you enter a subcommand (advanced, configure, install, monitor, or reboot) argument followed by the `--help` option you will get a different help text providing more detail on the options available within that subcommand: +
+`configure-sga.py _subcommand_ --help`
++
+If you will <<back-up-appliance-config,back up the appliance configuration to a JSON file>>, ensure the node names follow these requirements:
++
+* Each node name is unique if you want to automatically configure all appliance nodes using a JSON file.
+* Must be a valid hostname containing at least 1 and no more than 32 characters.
+* Can use letters, numbers, and hyphens.
+* Can't start or end with a hyphen.
+* Can't contain only numbers.
+
+. To apply the configuration from the JSON file to the appliance, enter the following, where `_SGA-INSTALL-IP_` is the Admin Network IP address for the appliance, `_json-file-name_` is the name of the JSON file, and `_node-name-inside-json-file_` is the name of the node with the configuration being applied: +
+`configure-sga.py advanced --restore-file _json-file-name_ --restore-node _node-name-inside-json-file_ _SGA-INSTALL-IP_`
+
+. To confirm the current configuration of the appliance node, enter the following where `_SGA-INSTALL-IP_` is the Admin Network IP address for the appliance: +
+`configure-sga.py configure _SGA-INSTALL-IP_`
++
+The results show current IP information for the appliance, including the IP address of the primary Admin Node and information about the Admin, Grid, and Client Networks.
++
+----
+Connecting to +https://10.224.2.30:8443+ (Checking version and connectivity.)
+2021/02/25 16:25:11: Performing GET on /api/versions... Received 200
+2021/02/25 16:25:11: Performing GET on /api/v2/system-info... Received 200
+2021/02/25 16:25:11: Performing GET on /api/v2/admin-connection... Received 200
+2021/02/25 16:25:11: Performing GET on /api/v2/link-config... Received 200
+2021/02/25 16:25:11: Performing GET on /api/v2/networks... Received 200
+2021/02/25 16:25:11: Performing GET on /api/v2/system-config... Received 200
+
+  StorageGRID Appliance
+    Name:        LAB-SGA-2-30
+    Node type:   storage
+
+  StorageGRID primary Admin Node
+    IP:        172.16.1.170
+    State:     unknown
+    Message:   Initializing...
+    Version:   Unknown
+
+  Network Link Configuration
+    Link Status
+          Link      State      Speed (Gbps)
+          ----      -----      -----
+          1         Up         10
+          2         Up         10
+          3         Up         10
+          4         Up         10
+          5         Up         1
+          6         Down       N/A
+
+    Link Settings
+        Port bond mode:      FIXED
+        Link speed:          10GBE
+
+        Grid Network:        ENABLED
+            Bonding mode:    active-backup
+            VLAN:            novlan
+            MAC Addresses:   00:a0:98:59:8e:8a  00:a0:98:59:8e:82
+
+        Admin Network:       ENABLED
+            Bonding mode:    no-bond
+            MAC Addresses:   00:80:e5:29:70:f4
+
+        Client Network:      ENABLED
+            Bonding mode:    active-backup
+            VLAN:            novlan
+            MAC Addresses:   00:a0:98:59:8e:89  00:a0:98:59:8e:81
+
+  Grid Network
+    CIDR:      172.16.2.30/21 (Static)
+    MAC:       00:A0:98:59:8E:8A
+    Gateway:   172.16.0.1
+    Subnets:   172.17.0.0/21
+               172.18.0.0/21
+               192.168.0.0/21
+    MTU:       1500
+
+  Admin Network
+    CIDR:      10.224.2.30/21 (Static)
+    MAC:       00:80:E5:29:70:F4
+    Gateway:   10.224.0.1
+    Subnets:   10.0.0.0/8
+               172.19.0.0/16
+               172.21.0.0/16
+    MTU:       1500
+
+  Client Network
+    CIDR:      47.47.2.30/21 (Static)
+    MAC:       00:A0:98:59:8E:89
+    Gateway:   47.47.0.1
+    MTU:       2000
+
+##############################################################
+#####   If you are satisfied with this configuration,    #####
+##### execute the script with the "install" sub-command. #####
+##############################################################
+----
++
+
+. If you need to change any of the values in the current configuration, use the `configure` subcommand to update them. For example, if you want to change the IP address that the appliance uses for connection to the primary Admin Node to `172.16.2.99`, enter the following:
++
+----
+configure-sga.py configure --admin-ip 172.16.2.99 _SGA-INSTALL-IP_
+----
+
++
+. [[back-up-appliance-config]] If you want to back up the appliance configuration to a JSON file, use the advanced and `backup-file` subcommands. For example, if you want to back up the configuration of an appliance with IP address `_SGA-INSTALL-IP_` to a file named `appliance-SG1000.json`, enter the following: +
+`configure-sga.py advanced --backup-file appliance-SG1000.json _SGA-INSTALL-IP_`
+
++
+The JSON file containing the configuration information is written to the same directory you executed the script from.
++
+IMPORTANT: Check that the top-level node name in the generated JSON file matches the appliance name. Don't make any changes to this file unless you are an experienced user and have a thorough understanding of StorageGRID APIs.
+
+. When you are satisfied with the appliance configuration, use the `install` and `monitor` subcommands to install the appliance: +
+`configure-sga.py install --monitor _SGA-INSTALL-IP_`
+
+. If you want to reboot the appliance, enter the following: +
+`configure-sga.py reboot _SGA-INSTALL-IP_`

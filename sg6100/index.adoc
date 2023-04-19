@@ -1,0 +1,36 @@
+---
+permalink: sg6100/index.html
+sidebar: sidebar
+keywords: storagegrid, sg6100 storage appliance, SGF6112 storage appliance, maintain, maintaining, hardware, procedures, tasks
+summary: 'You might need to perform maintenance procedures on your appliance. Procedures specific to maintaining your SGF6112 appliance are in this section.'
+---
+= Maintain SGF6112 appliance
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You might need to perform maintenance procedures on your appliance. Procedures specific to maintaining your SGF6112 appliance are in this section. 
+
+The procedures in this section assume that the appliance has already been deployed as a Storage Node in a StorageGRID system.
+
+*Configuration maintenance procedures* are performed using the Appliance Installer, Grid Manager, or BMC interface. These procedures include:
+
+* Turn appliance identify LED on and off
+* Locate appliance in data center
+* Shut down the appliance
+* Change link configuration of the appliance
+
+*Hardware maintenance procedures* require the physical manipulation of specific SGF6112 components. 
+
+== Drive firmware upgrade
+
+The firmware on the drives in the SGF6112 is automatically checked every time the appliance is rebooted. When necessary, the firmware is automatically upgraded to the version expected by the current StorageGRID release. Usually, firmware upgrades occur during StorageGRID software upgrades. Any necessary drive firmware upgrades for existing StorageGRID versions will be included in hotfixes. Follow the instructions provided with each hotfix to ensure that the upgrade is applied to all drives that could benefit from it. 
+
+NOTE:  SANtricity System Manager is not needed to maintain the SGF6112 appliance. 
+
+== General Maintenance procedures
+
+See link:../commonhardware/index.html[Common maintenance procedures] for procedures that are the same for all appliances, such as applying a hotfix, recovering a node or site, and performing network maintenance.
+
+See link:../installconfig/configuring-hardware.html[Set up appliance hardware] for appliance maintenance procedures that are also performed during initial appliance installation and configuration.
+

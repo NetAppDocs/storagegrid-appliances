@@ -1,0 +1,49 @@
+---
+permalink: sg6000/reinstalling-sg6000-cn-controller-into-cabinet-or-rack.html
+sidebar: sidebar
+keywords: storagegrid, sg6000, storage node, storage appliance, install, installing, installation, cabinet, rack, controller, sg6000-cn 
+summary: 'Reinstall the controller into a cabinet or rack when hardware maintenance is complete.'
+---
+= Reinstall SG6000-CN controller into cabinet or rack
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Reinstall the controller into a cabinet or rack when hardware maintenance is complete.
+
+.Before you begin
+
+You have reinstalled the controller cover.
+
+link:reinstalling-sg6000-cn-controller-cover.html[Reinstall SG6000-CN controller cover]
+
+.Steps
+
+. Press the blue rail releases both rack rails at the same time and slide the SG6000-CN controller into the rack until it is fully seated.
++
+When you can't move the controller any further, pull the blue latches on both sides of the chassis to slide the controller all the way in.
++
+image::../media/sg6000_cn_rails_blue_button.gif[SG6000 Sliding on Rails]
++
+NOTE: Don't attach the front bezel until after you power on the controller.
+
+. Tighten the captive screws on the controller front panel to secure the controller in the rack.
++
+image::../media/sg6060_rack_retaining_screws.png[SG6060 rack retaining screws]
+
+. Wrap the strap end of the ESD wristband around your wrist, and secure the clip end to a metal ground to prevent static discharge.
+. Reconnect the controller data cables and any SFP+ or SFP28 transceivers.
++
+IMPORTANT: To prevent degraded performance, don't twist, fold, pinch, or step on the cables.
++
+link:../installconfig/cabling-appliance-sg6000.html[Cable appliance (SG6000)]
+
+. Reconnect the controller power cables.
++
+link:../installconfig/connecting-power-cords-and-applying-power-sg6000.html[Connect power cords and apply power (SG6000)]
+
+.After you finish
+
+The controller can be restarted.
+
+link:powering-on-sg6000-cn-controller-and-verifying-operation.html[Power on SG6000-CN controller and verify operation]
