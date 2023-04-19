@@ -1,12 +1,50 @@
 settings:
-  name: "Product Name"
+  name: "StorageGRID Appliances"
   internal:
-    pdf_enabled: true
+    pdf_enabled: false
   prod:
-    pdf_enabled: true
+    pdf_enabled: false
     harmony_enabled: true
-
-sidebar: 
+sidebar:
   entries:
-  - title: Legal notices
-    url: /legal-notices.html
+    - title: StorageGRID Appliance Docs
+      url: /index.html
+    - title: Release notes
+      url: "/release-notes/index.html"  
+    - title: What's new for appliances
+      url: "/whats-new-appliances.html"  
+    - title: Storage appliance overviews
+      entries:
+      - title: SGF6112 appliance
+        url: "/installconfig/hardware-description-sg6100.html"    
+      - title: SG6000 appliances
+        url: "/installconfig/hardware-description-sg6000.html"
+      - title: SG6000 controllers
+        url: "/installconfig/controllers-in-sg6000-appliances.html"  
+      - title: SG5700 appliances
+        url: "/installconfig/hardware-description-sg5700.html"
+      - title: SG5700 controllers
+        url: "/installconfig/controllers-in-sg5700-appliances.html"  
+    - title: Services appliance overview
+      entries:              
+      - title: SG100 and SG1000 appliances
+        url: "/installconfig/hardware-description-sg100-and-1000.html"       
+    - section: installconfig
+    - section: commonhardware   
+    - title: Maintain storage appliances
+      entries:
+      - section: sg6100
+      - section: sg6000
+      - section: sg5700
+      - section: sg5600
+    - title: Maintain services appliances
+      entries:      
+      - section: sg100-1000
+    - title: StorageGRID software documentation
+      url: /storagegrid-documentation.html  
+    - title: Enable StorageGRID
+      url: /storagegrid-enable.html
+    - title: Earlier versions
+      url: /earlier-versions.html
+    - title: Legal notices
+      url: /legal-notices.html

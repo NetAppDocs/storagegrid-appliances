@@ -1,0 +1,38 @@
+---
+sidebar: sidebar
+permalink: storagegrid-documentation.html
+keywords: storagegrid, software, grid
+summary: "Learn how to configure and use a StorageGRID system."
+---
+= StorageGRID software documentation
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+Go to https://docs.netapp.com/us-en/storagegrid-11.7/index.html[StorageGRID 11.7 Documentation^] to learn how to configure and use a StorageGRID 11.7 system.
+
+The StorageGRID doc site includes information such as:
+
+* StorageGRID quick start.
+* Networking guidelines.
+* Installation instructions for Linux and VMware nodes.
+* Upgrade instructions.
+* Administration instructions for configuring your system, including using information lifecycle management (ILM) to protect object data.
+* Instructions for using StorageGRID tenant accounts and the S3 REST API.
+* Monitoring and troubleshooting instructions, including information about alerts, audit messages, and system logs.
+* Instructions for maintaining a StorageGRID system, which includes adding new StorageGRID volumes, nodes, or site; recovering failed nodes and volumes; decommissioning nodes or sites; and performing other maintenance on your grid.
+
+== Earlier version
+
+You can find documentation for earlier releases of NetApp StorageGRID software here:
+
+* https://docs.netapp.com/us-en/storagegrid-116/index.html[StorageGRID 11.6 documentation^]
+
+* https://docs.netapp.com/us-en/storagegrid-115/index.html[StorageGRID 11.5 documentation^]
+
+* https://docs.netapp.com/sgws-114/index.jsp[StorageGRID 11.4 Documentation Center^]
+
+* https://docs.netapp.com/sgws-113/index.jsp[StorageGRID 11.3 Documentation Center^]
