@@ -1,0 +1,14 @@
+---
+permalink: sg5600/index.html
+sidebar: sidebar
+keywords: storagegrid, sg5600, storage node, storage appliance'
+summary: 'The SG5600 appliance has reached End Of Support. Contact your NetApp Sales Representative for hardware refresh options.'
+---
+= Maintain SG5600 appliance
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The SG5600 appliance has reached End Of Support. Contact your NetApp Sales Representative for hardware refresh options.
+
+If you need to perform maintenance procedures on SG5600 hardware, use the https://docs.netapp.com/us-en/storagegrid-116/sg5600/maintaining-sg5600-appliance.html[StorageGRID 11.6 instructions^].
