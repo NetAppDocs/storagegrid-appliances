@@ -1,0 +1,92 @@
+---
+permalink: installconfig/port-bond-modes-for-sgf6112.html
+sidebar: sidebar
+keywords: sgf6112, sg6100, port bond, Network bonding, fixed, Aggregate, independent, active-backup, active backup, management port
+summary: 'When configuring network links for the SGF6112 appliance, you can use port bonding for the ports that connect to the Grid Network and optional Client Network, and the 1/10-GbE management ports that connect to the optional Admin Network. Port bonding helps protect your data by providing redundant paths between StorageGRID networks and the appliance.'
+---
+= Port bond modes (SGF6112)
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+When link:configuring-network-links.html[configuring network links] for the SGF6112 appliance, you can use port bonding for the ports that connect to the Grid Network and optional Client Network, and the 1/10-GbE management ports that connect to the optional Admin Network. Port bonding helps protect your data by providing redundant paths between StorageGRID networks and the appliance.
+
+== Network bond modes
+
+The networking ports on the appliance support Fixed port bond mode or Aggregate port bond mode for the Grid Network and Client Network connections.
+
+=== Fixed port bond mode
+
+Fixed port bond mode is the default configuration for the networking ports.
+
+image::../media/sgf6112_fixed_port.png[SGF6112 Fixed Port Bond Mode]
+
+[cols="1a,3a" options="header"]
+|===
+| Callout| Which ports are bonded
+a|
+C
+a|
+Ports 1 and 3 are bonded together for the Client Network, if this network is used.
+a|
+G
+a|
+Ports 2 and 4 are bonded together for the Grid Network.
+|===
+When using Fixed port bond mode, the ports can be bonded using active-backup mode or Link Aggregation Control Protocol mode (LACP 802.3ad).
+
+* In active-backup mode (default), only one port is active at a time. If the active port fails, its backup port automatically provides a failover connection. Port 4 provides a backup path for port 2 (Grid Network), and port 3 provides a backup path for port 1 (Client Network).
+* In LACP mode, each pair of ports forms a logical channel between the appliance and the network, allowing for higher throughput. If one port fails, the other port continues to provide the channel. Throughput is reduced, but connectivity is not impacted.
+
+NOTE: If you don't need redundant connections, you can use only one port for each network. However, be aware that the *Storage appliance link down* alert might be triggered in the Grid Manager after StorageGRID is installed, indicating that a cable is unplugged. You can safely disable this alert rule.
+
+=== Aggregate port bond mode
+
+Aggregate port bond mode significantly increases the throughput for each StorageGRID network and provides additional failover paths.
+
+image::../media/sgf6112_aggregate_ports.png[SGF6100 aggregate port bond mode]
+
+
+[cols="1a,3a" options="header"]
+|===
+| Callout| Which ports are bonded
+a|
+1
+a|
+All connected ports are grouped in a single LACP bond, allowing all ports to be used for Grid Network and Client Network traffic.
+|===
+If you plan to use aggregate port bond mode:
+
+* You must use LACP network bond mode.
+* You must specify a unique VLAN tag for each network. This VLAN tag will be added to each network packet to ensure that network traffic is routed to the correct network.
+* The ports must be connected to switches that can support VLAN and LACP. If multiple switches are participating in the LACP bond, the switches must support multi-chassis link aggregation groups (MLAG), or equivalent.
+* You understand how to configure the switches to use VLAN, LACP, and MLAG, or equivalent.
+
+If you don't want to use all four ports, you can use one, two, or three ports. Using more than one port maximizes the chance that some network connectivity will remain available if one of the ports fails.
+
+NOTE: If you choose to use fewer than four network ports, be aware that a *Services appliance link down* alert might be triggered in the Grid Manager after the appliance node is installed, indicating that a cable is unplugged. You can safely disable this alert rule for the triggered alert.
+
+== Network bond modes for management ports
+
+For the two 1/10-GbE management ports, you can choose Independent network bond mode or Active-Backup network bond mode to connect to the optional Admin Network.
+
+image::../media/sgf6112_bonded_management_ports.png[Network Management Ports]
+
+In Independent mode, only the management port on the left is connected to the Admin Network. This mode does not provide a redundant path. The management port on the right is unconnected and available for temporary local connections (uses IP address 169.254.0.1).
+
+In Active-Backup mode, both management ports are connected to the Admin Network. Only one port is active at a time. If the active port fails, its backup port automatically provides a failover connection. Bonding these two physical ports into one logical management port provides a redundant path to the Admin Network.
+
+NOTE: If you need to make a temporary local connection to the appliance when the 1/10-GbE management ports are configured for Active-Backup mode, remove the cables from both management ports, plug your temporary cable into the management port on the right, and access the appliance using IP address 169.254.0.1.
+
+[cols="1a,3a" options="header"]
+|===
+| Callout| Network bond mode
+a|
+A
+a|
+Active-Backup mode. Both management ports are bonded into one logical management port connected to the Admin Network.
+a|
+I
+a|
+Independent mode. The port on the left is connected to the Admin Network. The port on the right is available for temporary local connections (IP address 169.254.0.1).
+|===

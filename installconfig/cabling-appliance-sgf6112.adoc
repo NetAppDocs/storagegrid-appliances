@@ -1,0 +1,107 @@
+---
+permalink: installconfig/cabling-appliance-sgf6112.html
+sidebar: sidebar
+keywords: storagegrid, sg6100, cabling, wiring, connecting, cable, wire, connect, SGF6112
+summary: 'You connect the management port on the appliance to the service laptop and connect the network ports on the appliance to the Grid Network and optional Client Network for StorageGRID.'
+---
+= Cable appliance (SGF6112)
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You connect the management port on the appliance to the service laptop and connect the network ports on the appliance to the Grid Network and optional Client Network for StorageGRID.
+
+.Before you begin
+
+* You have an RJ-45 Ethernet cable for connecting the management port.
+* You have one of the following options for the network ports. These items aren't provided with the appliance.
+ ** One to four TwinAx cables for connecting the four network ports.
+ ** One to four SFP+ or SFP28 transceivers if you plan to use optical cables for the ports.
+
+CAUTION: *Risk of exposure to laser radiation* -- Don't disassemble or remove any part of an SFP transceiver. You might be exposed to laser radiation.
+
+.About this task
+
+The following figures show the ports on the back of the SGF6112.
+
+
+image::../media/sgf6112_connections.png[SGF6112 rear connectors]
+
+[cols="1a,2a,2a,3a" options="header"]
+|===
+| Callout | Port| Type of port| Use
+
+|1
+|BMC management port on the appliance
+|1-GbE (RJ-45)
+|Connects to the network where you access the BMC interface.
+
+|2
+|Four 10/25-GbE network ports on the appliance
+| 
+|Connect to the Grid Network and the Client Network for StorageGRID.
+
+|3
+|Admin Network port on the appliance (labeled P1 in the figure)
+|1-GbE (RJ-45)
+
+*Important:* This port operates only at 1/10-GbE (RJ-45) and does not support 100-megabit speeds.
+|Connects the appliance to the Admin Network for StorageGRID.
+
+|
+|Rightmost RJ-45 port on the appliance
+|1-GbE (RJ-45)
+
+*Important:* This port operates only at 1/10-GbE (RJ-45) and does not support 100-megabit speeds.
+|
+* Can be bonded with management port 1 if you want a redundant connection to the Admin Network.
+* Can be left disconnected and available for temporary local access (IP 169.254.0.1).
+* During installation, can be used to connect the appliance to a service laptop if DHCP-assigned IP addresses aren't available.
+|===
+
+.Steps
+
+. Connect the BMC management port on the appliance to the management network, using an Ethernet cable.
++
+Although this connection is optional, it is recommended to facilitate support.
+
+. Connect the network ports on the appliance to the appropriate network switches, using TwinAx cables or optical cables and transceivers.
++
+[NOTE]
+====
+All four network ports must use the same link speed.
+
+[cols="2a,2a" options="header"]
+|===
+| SGF6112 link speed (GbE)| Required equipment
+|10
+|SFP+ transceiver
+
+|25
+|SFP28 transceiver
+
+|===
+
+====
+
+ ** If you plan to use Fixed port bond mode (default), connect the ports to the StorageGRID Grid and Client Networks, as shown in the table.
++
+[cols="1a,2a" options="header"]
+|===
+| Port| Connects to...
+|Port 1
+|Client Network (optional)
+
+|Port 2
+|Grid Network
+
+|Port 3
+|Client Network (optional)
+
+|Port 4
+|Grid Network
+|===
+
+ ** If you plan to use the Aggregate port bond mode, connect one or more of the network ports to one or more switches. You should connect at least two of the four ports to avoid having a single point of failure. If you use more than one switch for a single LACP bond, the switches must support MLAG or equivalent.
+
+. If you plan to use the Admin Network for StorageGRID, connect the Admin Network port on the appliance to the Admin Network, using an Ethernet cable.

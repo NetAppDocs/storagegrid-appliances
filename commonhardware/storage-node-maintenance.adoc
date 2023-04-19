@@ -1,0 +1,33 @@
+---
+sidebar: sidebar
+permalink: commonhardware/storage-node-maintenance.html
+keywords: stub, layered
+summary: Storage Node maintenance.
+---
+
+= Storage Node maintenance
+
+
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Storage Node maintenance. Does this make sense to consolidate?
+
+(New intro topic)
+
+== Upgrading SANtricity OS on the storage controllers (storage nodes)
+
+(Pick up from existing appliance topic - need to combine)
+
+=== Upgrading SANtricity OS on the storage controllers using the Grid Manager
+
+(Pick up from existing appliance topic - need to combine)
+
+=== Upgrading SANtricity OS on the storage controllers using maintenance mode
+
+(Pick up from existing appliance topic - need to combine)
+
+== Upgrading drive firmware using SANtricity System Manager
+
+(Pick up from existing appliance topic - already combined)

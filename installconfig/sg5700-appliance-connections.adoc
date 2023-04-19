@@ -1,0 +1,60 @@
+---
+permalink: installconfig/sg5700-appliance-connections.html
+sidebar: sidebar
+keywords: network connections, appliance, grid, admin, client, bmc, management
+summary: 'When you install a SG5700 StorageGRID appliance, you connect the two controllers to each other and to the required networks.'
+---
+= Network connections (SG5700)
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+When you install a SG5700 StorageGRID appliance, you connect the two controllers to each other and to the required networks. 
+
+The figure shows the two controllers in the SG5760, with the E2800 controller on the top and the E5700SG controller on the bottom. In the SG5712, the E2800 controller is to the left of the E5700SG controller.
+
+image::../media/sg5760_connections.gif[Connections on SG5760 appliance]
+
+
+[cols="1a,2a,2a,2a" options=header] 
+|===
+| Callout  
+| Port
+| Type of port
+| Use
+
+| 1
+| Two interconnect ports on each controller
+| 16Gb/s FC optical SFP+
+| Connect the two controllers to each other.
+
+.2+| 2
+| Management port 1 on the E2800 controller
+| 1-GbE (RJ-45)
+| Connects to the network where you access SANtricity System Manager. You can use the Admin Network for StorageGRID or an independent management network.
+
+
+| Management port 2 on the E2800 controller
+| 1-GbE (RJ-45)
+| Reserved for technical support.
+
+.2+| 3
+| Management port 1 on the E5700SG controller
+| 1-GbE (RJ-45)
+| Connects the E5700SG controller to the Admin Network for StorageGRID.
+
+
+| Management port 2 on the E5700SG controller
+| 1-GbE (RJ-45)
+| * Can be bonded with management port 1 if you want a redundant connection to the Admin Network.
+* Can be left unwired and available for temporary local access (IP 169.254.0.1).
+* During installation, can be used to connect the E5700SG controller to a service laptop if DHCP-assigned IP addresses aren't available.
+
+| 4
+| 10/25-GbE ports 1-4 on the E5700SG controller
+| 10-GbE or 25-GbE
+
+*Note:* The SFP+ transceivers included with the appliance support 10-GbE link speeds. If you want to use 25-GbE link speeds for the four network ports, you must provide SFP28 transceivers.
+
+| Connect to the Grid Network and the Client Network for StorageGRID. See link:port-bond-modes-for-e5700sg-controller-ports.html[Port bond modes (E5700SG controller)].
+|===

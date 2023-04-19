@@ -1,0 +1,235 @@
+---
+permalink: installconfig/unpacking-boxes.html
+sidebar: sidebar
+keywords: unpack, unbox, prepare, inventory, components, contents 
+summary: 'Before installing the StorageGRID appliance, unpack all boxes and compare the contents to the items on the packing slip.'
+---
+= Unpack boxes
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Before installing your StorageGRID appliance, unpack all boxes and compare the contents to the items on the packing slip.
+
+== SGF6112 appliances
+
+=== Hardware
+
+[cols="1a,4a" options="header"]
+|===
+| Item| What it looks like
+
+| SGF6112
+| image::../media/sg6000_cn_front_without_bezel.gif[Front drives SGF6112 appliance]
+
+| Rail kit with instructions
+| image::../media/rail_kit.gif[Rail kit]
+
+| Front bezel
+| image::../media/sgf_6112_front_bezel.png[Front bezel]
+
+|===
+
+=== Power cords
+
+The shipment for an SGF6112 appliance includes the following power cords.
+
+TIP: Your cabinet might have special power cords that you use instead of the power cords that ship with the appliance.
+
+[cols="1a,4a" options="header"]
+|===
+| Item| What it looks like
+
+| Two power cords for your country
+| image::../media/power_cords.gif[Power cords]
+
+|===
+
+== SG6000 appliances
+
+=== SG6060 hardware
+
+[cols="1a,4a" options="header"]
+|===
+| Item| What it looks like
+
+| SG6000-CN controller
+| image::../media/sg6000_cn_front_without_bezel.gif[SG6000-CN controller]
+
+| E2860 controller shelf with no drives installed
+| image::../media/de460c_table_size.gif[SG5760 4U appliance]
+
+|Two front bezels
+| image::../media/sg6000_front_bezels_for_table.gif[Front Bezels]
+
+| Two rail kits with instructions
+| image::../media/rail_kit.gif[Rail kit]
+
+| 60 drives (2 SSD and 58 NL-SAS)
+| image::../media/sg5760_drive.gif[Drive]
+
+| Four handles
+| image::../media/handles.gif[SG5760 handles]
+
+| Back brackets and cage nuts for square-hole rack installation
+| image::../media/back_brackets_table_size.gif[Back brackets and cage nuts for SG5760]
+
+|===
+
+=== SG6060 expansion shelf
+
+[cols="1a,4a" options="header"]
+|===
+| Item| What it looks like
+
+| Expansion shelf with no drives installed
+| image::../media/de460c_table_size.gif[SG5760 4U appliance]
+
+| Front bezel
+| image::../media/front_bezel_for_table_de460c.gif[Front Bezel DE460C]
+
+| 60 NL-SAS drives
+| image::../media/sg5760_drive.gif[Drive]
+
+| One rail kit with instructions
+| image::../media/rail_kit.gif[Rail kit]
+
+| Four handles
+| image::../media/handles.gif[SG5760 handles]
+
+| Back brackets and cage nuts for square-hole rack installation
+| image::../media/back_brackets_table_size.gif[Back brackets and cage nuts for SG5760]
+
+|===
+
+=== SGF6024 hardware
+
+[cols="1a,4a" options="header"]
+|===
+| Item| What it looks like
+
+| SG6000-CN controller
+| image::../media/sg6000_cn_front_without_bezel.gif[SG6000-CN controller]
+
+| EF570 flash array with 24 solid state (flash) drives installed
+| image::../media/de224c_with_drives.gif[EF570 Controller Shelf]
+
+| Two front bezels
+| image::../media/sgf6024_front_bezels_for_table.png[SG6024 Front Bezels]
+
+| Two rail kits with instructions
+| image::../media/rail_kit.gif[Rail kit]
+
+| Shelf endcaps
+| image::../media/endcaps.png[Endcaps]
+
+|===
+
+
+=== Cables and connectors
+
+The shipment for an SG6000 appliance includes the following cables and connectors.
+
+TIP: Your cabinet might have special power cords that you use instead of the power cords that ship with the appliance.
+
+[cols="1a,4a" options="header"]
+|===
+| Item| What it looks like
+
+| Four power cords for your country
+| 
+image::../media/power_cords.gif[Power cords]
+
+| Optical cables and SFP transceivers
+| image::../media/fc_cable_and_sfp.gif[Optical cables and SFPs]
+
+* Four optical cables for the FC interconnect ports
+* Four SFP+ transceivers, which support 16-Gb/s FC
+
+| Optional: Two SAS cables for connecting each SG6060 expansion shelf
+| image::../media/sas_cable.gif[SAS Cables]
+
+|===
+
+== SG5700 appliances
+
+=== Hardware
+
+[cols="1a,4a" options="header"]
+|===
+| Item| What it looks like
+
+| SG5712 appliance with 12 drives installed
+| image::../media/de212c_table_size.gif[SG5712 2U appliance]
+
+| SG5760 appliance with no drives installed
+| image::../media/de460c_table_size.gif[SG5760 4U appliance]
+
+| Front bezel for the appliance
+| image::../media/sg5700_front_bezels.gif[Bezels of SG5712 and SG5760]
+
+| Rail kit with instructions
+| image::../media/rail_kit.gif[Rail kit]
+
+| SG5760: Sixty drives
+| image::../media/sg5760_drive.gif[Drive]
+
+| SG5760:  Handles
+| image::../media/handles.gif[SG5760 handles]
+
+| SG5760: Back brackets and cage nuts for square-hole rack installation
+| image::../media/back_brackets_table_size.gif[Back brackets and cage nuts for SG5760]
+
+|===
+
+=== Cables and connectors
+
+The shipment for an SG5700 appliance includes the following cables and connectors.
+
+TIP: Your cabinet might have special power cords that you use instead of the power cords that ship with the appliance.
+
+[cols="1a,4a" options="header"]
+|===
+| Item| What it looks like
+
+| Two power cords for your country
+| image::../media/power_cords.gif[Power cords]
+
+| Optical cables and SFP transceivers
+| image::../media/fc_cable_and_sfp.gif[Optical cables and SFPs]
+
+* Two optical cables for the FC interconnect ports
+* Eight SFP+ transceivers, compatible with both the four 16Gb/s FC interconnect ports and the four 10-GbE network ports
+
+|===
+
+== SG100 and SG1000 appliances
+
+=== Hardware
+
+[cols="1a,4a" options="header"]
+|===
+| Item| What it looks like
+
+| SG100 or SG1000
+| image::../media/sg6000_cn_front_without_bezel.gif[Front drives SG 100 or SG1000 services appliance]
+
+| Rail kit with instructions
+| image::../media/rail_kit.gif[Rail kit]
+
+|===
+
+=== Power cords
+
+The shipment for an SG100 or SG1000 appliance includes the following power cords.
+
+TIP: Your cabinet might have special power cords that you use instead of the power cords that ship with the appliance.
+
+[cols="1a,4a" options="header"]
+|===
+| Item| What it looks like
+
+| Two power cords for your country
+| image::../media/power_cords.gif[Power cords]
+
+|===

@@ -1,0 +1,14 @@
+---
+permalink: installconfig/web-browser-requirements.html
+sidebar: sidebar
+keywords: web browser requirements, supported browser, chrome, edge, firefox
+summary: 'You must use a supported web browser.'
+---
+= Web browser requirements
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You must use a supported web browser.
+
+include::../_include/web-browser-requirements.adoc[]

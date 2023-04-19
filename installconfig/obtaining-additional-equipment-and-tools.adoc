@@ -1,0 +1,155 @@
+---
+permalink: installconfig/obtaining-additional-equipment-and-tools.html
+sidebar: sidebar
+keywords: equipment to install appliance, tools for installation
+summary: 'Before installing a StorageGRID appliance, confirm you have all of the additional equipment and tools that you need.'
+---
+= Obtain additional equipment and tools
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Before installing a StorageGRID appliance, confirm you have all of the additional equipment and tools that you need.
+
+== All appliances
+
+You need the following equipment to install and configure all appliances.
+
+[cols="1a,4a" options="header"]
+|===
+| Item| What it looks like
+
+| Screwdrivers
+| image::../media/screwdrivers.gif[Two screwdrivers]
+
+* Phillips No. 2 screwdriver
+* Medium flat-blade screwdriver
+
+| ESD wrist strap
+| image::../media/appliance_wriststrap.gif[ESD wrist strap]
+
+| Service laptop
+| image::../media/sam_management_client.gif[Service laptop]
+
+* link:web-browser-requirements.html[Supported web browser]
+* SSH client, such as PuTTY
+* 1-GbE (RJ-45) port
+
+NOTE: Some ports might not support 10/100 Ethernet speeds.
+
+| Optional tools
+| image::../media/optional_tools.gif[Power drill and flashlight]
+
+* Power drill with Phillips head bit
+* Flashlight
+
+|===
+
+== SGF6112
+
+You need the following additional equipment to install and configure the SGF6112 hardware.
+
+[cols="1a,4a" options="header"]
+|===
+| Item| What it looks like
+
+| Optical cables and transceivers
+| image::../media/fc_cable_and_sfp.gif[Optical cable and QSFP+ transceiver]
+
+* One to four of either of these types of cables:
+
+** TwinAx/Copper
+** Fibre/Optical
+
+* One to four of each of these transceivers/adapters based on link speed (mixed speeds aren't supported):
+
+** 10-GbE SFP+ 
+** 25-GbE SFP28 
+
+| RJ-45 (Cat5/Cat5e/Cat6/Cat6a) Ethernet cables
+| image::../media/ethernet_cables.png[Ethernet cable]
+
+|===
+
+== SG6000
+
+You need the following additional equipment to install and configure the SG6000 hardware.
+
+[cols="1a,4a" options="header"]
+|===
+| Item| What it looks like
+
+| Optical cables and SFP transceivers
+| image::../media/fc_cable_and_sfp.gif[Optical cable and SFP+ transceiver]
+
+* One to four of either of these types of cables:
+** TwinAx/Copper
+** Fibre/Optical
+
+* One to four of each of these transceivers/adapters, based on link speed (mixed speeds aren't supported):
+** 10-GbE SFP+
+** 25-GbE SFP28
+
+| RJ-45 (Cat5/Cat5e/Cat6) Ethernet cables
+| image::../media/ethernet_cables.png[Ethernet cables]
+
+| Optional tools
+| Mechanized lift for 60-drive shelves
+
+|===
+
+== SG5700
+
+You need the following additional equipment to install and configure the SG5700 hardware.
+
+[cols="1a,4a" options="header"]
+|===
+| Item| What it looks like
+
+| Optical cables and SFP transceivers
+| image::../media/fc_cable_and_sfp.gif[Optical cable and SFP+ transceiver]
+
+* Optical cables for the 10/25-GbE ports you plan to use
+* Optional: SFP28 transceivers if you want to use 25-GbE link speed
+
+| Ethernet cables
+| image::../media/ethernet_cables.png[Ethernet cables]
+
+| Optional tools
+| Mechanized lift for SG5760
+
+|===
+
+== SG100 and SG1000
+
+You need the following additional equipment to install and configure the SG100 and SG1000 hardware.
+
+[cols="1a,4a" options="header"]
+|===
+| Item| What it looks like
+
+| Optical cables and transceivers
+| image::../media/fc_cable_and_sfp.gif[Optical cable and QSFP+ transceiver]
+
+* One to four of either of these cable types:
+** TwinAx/Copper 
+** Fibre/Optical 
+
+* One to four of each of these transceivers/adapters based on link speed (mixed speeds aren't supported):
+** SG100:
+*** 10-GbE SFP+
+*** 25-GbE SFP28
+
+** SG1000:
+
+*** 10-GbE QSFP-to-SFP adapter (QSA) and SFP+ 
+*** 25-GbE QSFP-to-SFP adapter (QSA) and SFP28 
+*** 40-GbE QSFP+
+*** 100-GbE QFSP28
+
+
+| RJ-45 (Cat5/Cat5e/Cat6/Cat6a) Ethernet cables
+| image::../media/ethernet_cables.png[Ethernet cable]
+
+|===
+

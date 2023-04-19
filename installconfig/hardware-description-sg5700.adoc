@@ -1,0 +1,211 @@
+---
+permalink: installconfig/hardware-description-sg5700.html
+sidebar: sidebar
+keywords: sg5700, sg5712, sg5712x, sg5760, sg5760x, storage appliance 
+summary: 'The SG5700 StorageGRID appliance is an integrated storage and computing platform that operates as a Storage Node in a StorageGRID grid. The appliance can be used in a hybrid grid environment that combines appliance Storage Nodes and virtual \(software-based\) Storage Nodes.'
+---
+= SG5700 appliance: Overview
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The SG5700 StorageGRID appliance is an integrated storage and computing platform that operates as a Storage Node in a StorageGRID grid. The appliance can be used in a hybrid grid environment that combines appliance Storage Nodes and virtual (software-based) Storage Nodes.
+
+StorageGRID SG5700 series appliance provides the following features:
+
+* Integrate the storage and computing elements for a StorageGRID Storage Node.
+* Include the StorageGRID Appliance Installer to simplify Storage Node deployment and configuration.
+* Includes E-Series SANtricity System Manager for hardware management and monitoring.
+* Support up to four 10-GbE or 25-GbE connections to the StorageGRID Grid Network and Client Network.
+* Support Full Disk Encryption (FDE) drives or FIPS drives. When these drives are used with the Drive Security feature in SANtricity System Manager, unauthorized access to data is prevented.
+
+The SG5700 appliance is available in four models: the SG5712 and SG5712X, and the SG5760 and SG5760X. There are no specification or functional differences between the SG5712 and SG5712X except for the location of the interconnect ports on the storage controller. Similarly, there are no specification or functional differences between the SG5760 and SG5760X except for the location of the interconnect ports on the storage controller.  
+
+== SG5700 components
+
+The SG5700 models include the following components:
+[cols="1a,1a,1a,1a,1a" options="header"]
+|===
+|Component |SG5712 |SG5712X |SG5760 |SG5760X
+a|
+Compute controller
+a|
+E5700SG controller
+a|
+E5700SG controller
+a|
+E5700SG controller
+a|
+E5700SG controller
+a|
+Storage controller
+a|
+E2800A controller
+a|
+E2800B controller
+a|
+E2800A controller
+a|
+E2800B controller
+a|
+Chassis
+a|
+E-Series DE212C enclosure, a two rack-unit (2U) enclosure
+a|
+E-Series DE212C enclosure, a two rack-unit (2U) enclosure
+a|
+E-Series DE460C enclosure, a four rack-unit (4U) enclosure
+a|
+E-Series DE460C enclosure, a four rack-unit (4U) enclosure
+a|
+Drives
+a|
+12 NL-SAS drives (3.5-inch)
+a|
+12 NL-SAS drives (3.5-inch)
+a|
+60 NL-SAS drives (3.5-inch)
+a|
+60 NL-SAS drives (3.5-inch)
+a|
+Redundant power supplies and fans
+a|
+Two power-fan canisters
+a|
+Two power-fan canisters
+a|
+Two power canisters and two fan canisters
+a|
+Two power canisters and two fan canisters
+|===
+The maximum raw storage available in the StorageGRID appliance is fixed, based on the number of drives in each enclosure. You can't expand the available storage by adding a shelf with additional drives.
+
+== SG5700 diagrams
+
+=== SG5712 front and rear views
+
+The figures show the front and back of the SG5712, a 2U enclosure that holds 12 drives.
+
+image::../media/sg5712_front_and_back_views.gif[The front and back of the SG5712 appliance]
+
+=== SG5712 components
+
+The SG5712 includes two controllers and two power-fan canisters.
+
+image::../media/sg5712_with_callouts.gif[Controllers and power-fan canisters in the SG5712 appliance]
+
+[cols="1a,3a" options="header"]
+|===
+| Callout| Description
+a|
+1
+a|
+E2800A controller (storage controller)
+a|
+2
+a|
+E5700SG controller (compute controller)
+a|
+3
+a|
+Power-fan canisters
+|===
+
+=== SG5712X front and rear views
+The figures show the front and back of the SG5712X, a 2U enclosure that holds 12 drives.
+
+image::../media/sg5712x_front_and_back_views.gif[The front and back of the SG5712X appliance]
+
+
+=== SG5712X components
+
+The SG5712X includes two controllers and two power-fan canisters.
+
+image::../media/sg5712x_with_callouts.gif[Controllers and power-fan canisters in the SG5712X appliance]
+
+
+[cols="1a,3a" options="header"]
+|===
+| Callout| Description
+a|
+1
+a|
+E2800B controller (storage controller)
+a|
+2
+a|
+E5700SG controller (compute controller)
+a|
+3
+a|
+Power-fan canisters
+|===
+
+=== SG5760 front and rear views
+The figures show the front and back of the SG5760 model, a 4U enclosure that holds 60 drives in 5 drive drawers.
+
+image::../media/sg5760_front_and_back_views.gif[Front and back of the SG5760 appliance]
+
+=== SG5760 components
+
+The SG5760 includes two controllers, two fan canisters, and two power canisters.
+
+image::../media/sg5760_with_callouts.gif[Controllers, fan canisters, and power canisters in SG5760 appliance]
+
+[cols="1a,2a" options="header"]
+|===
+| Callout| Description
+a|
+1
+a|
+E2800A controller (storage controller)
+a|
+2
+a|
+E5700SG controller (compute controller)
+a|
+3
+a|
+Fan canister (1 of 2)
+a|
+4
+a|
+Power canister (1 of 2)
+|===
+
+=== SG5760X front and rear views
+
+The figures show the front and back of the SG5760X model, a 4U enclosure that holds 60 drives in 5 drive drawers.
+
+image::../media/sg5760x_front_and_back_views.gif[Front and back of the SG5760X appliance]
+
+=== SG5760X components
+
+The SG5760X includes two controllers, two fan canisters, and two power canisters.
+
+image::../media/sg5760x_with_callouts.gif[Controllers, fan canisters, and power canisters in SG5760X appliance]
+
+[cols="1a,3a" options="header"]
+|===
+| Callout| Description
+a|
+1
+a|
+E2800B controller (storage controller)
+a|
+2
+a|
+E5700SG controller (compute controller)
+a|
+3
+a|
+Fan canister (1 of 2)
+a|
+4
+a|
+Power canister (1 of 2)
+|===
+
+.Related information
+
+http://mysupport.netapp.com/info/web/ECMP1658252.html[NetApp E-Series Systems Documentation Site^]

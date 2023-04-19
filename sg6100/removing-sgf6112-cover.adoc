@@ -1,0 +1,33 @@
+---
+permalink: sg6100/removing-sgf6112-cover.html
+sidebar: sidebar
+keywords: storagegrid, sg6100, sgf6112, storage node, storage appliance, cover, remove, removing, removal
+summary: 'Remove the appliance cover to access internal components for maintenance.'
+---
+= Remove SGF6112 cover
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Remove the appliance cover to access internal components for maintenance.
+
+.Before you begin
+
+Remove the appliance from the cabinet or rack to access the top cover.
+
+link:reinstalling-sgf6112-into-cabinet-or-rack.html#remove-from-rack[Remove SGF6112 from cabinet or rack]
+
+.Steps
+
+. Make sure that the SGF6112 cover latch is not locked. If necessary, turn the blue plastic latch lock one-quarter turn in the unlock direction, as shown on the latch lock.
+. Rotate the latch up and back toward the rear of the SGF6112 chassis until it stops; then, carefully lift the cover from the chassis and set it aside.
++
+image::../media/sg6060_cover_latch_open.jpg[SGF6112 cover latch open]
++
+IMPORTANT: Wrap the strap end of an ESD wristband around your wrist and secure the clip end to a metal ground to prevent static discharge when working inside the SGF6112.
+
+include::../_include/fru-statement.adoc[]
+
+.Related information
+
+link:replace-nic-in-sgf6112.html[Replace NIC]

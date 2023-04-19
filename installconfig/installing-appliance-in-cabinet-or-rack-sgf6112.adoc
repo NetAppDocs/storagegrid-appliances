@@ -1,0 +1,38 @@
+---
+permalink: installconfig/installing-appliance-in-cabinet-or-rack-sgf6112.html
+sidebar: sidebar
+keywords: storagegrid, sgf6112, storage node, install, installing, installation, cabinet, rack, rail, rails 
+summary: 'You install a set of rails for the appliance in your cabinet or rack, and then slide the appliance onto the rails.'
+---
+= Install into cabinet or rack (SGF6112)
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You install a set of rails for the appliance in your cabinet or rack, and then slide the appliance onto the rails.
+
+.Before you begin
+
+* You have reviewed the Safety Notices document included in the box, and understand the precautions for moving and installing hardware.
+* You have the instructions packaged with the rail kit.
+
+.Steps
+
+. Carefully follow the instructions for the rail kit to install the rails in your cabinet or rack.
+. On the two rails installed in the cabinet or rack, extend the movable parts of the rails until you hear a click.
++
+image::../media/rails_extended_out.gif[SG100 and SG 1000 Rails]
+
+. Insert the appliance into the rails.
+. Slide the appliance into the cabinet or rack.
++
+When you can't move the appliance any further, pull the blue latches on both sides of the chassis to slide the appliance all the way in.
++
+image::../media/sg6000_cn_rails_blue_button.gif[SG 100 and SG1000 Sliding on Rails]
+
+. Tighten the captive screws on the appliance front panel to secure the appliance in the rack.
++
+image::../media/sg6060_rack_retaining_screws.png[SG6060 rack retaining screws]
+
++
+NOTE: Don't attach the front bezel until after you power on the appliance.

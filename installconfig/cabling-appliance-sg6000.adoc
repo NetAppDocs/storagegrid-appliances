@@ -1,0 +1,140 @@
+---
+permalink: installconfig/cabling-appliance-sg6000.html
+sidebar: sidebar
+keywords: storagegrid, sg6000, storage node, storage appliance, cabling, wiring, connecting, cable, wire, connect
+summary: 'You connect the storage controllers to the SG6000-CN controller, connect the management ports on all three controllers, and connect the network ports on the SG6000-CN controller to the Grid Network and optional Client Network for StorageGRID.'
+---
+= Cable appliance (SG6000)
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You connect the storage controllers to the SG6000-CN controller, connect the management ports on all three controllers, and connect the network ports on the SG6000-CN controller to the Grid Network and optional Client Network for StorageGRID.
+
+.Before you begin
+
+* You have the four optical cables provided with the appliance for connecting the two storage controllers to the SG6000-CN controller.
+* You have RJ-45 Ethernet cables (four minimum) for connecting the management ports.
+* You have one of the following options for the network ports. These items aren't provided with the appliance.
+ ** One to four TwinAx cables for connecting the four network ports.
+ ** One to four SFP+ or SFP28 transceivers if you plan to use optical cables for the ports.
++
+CAUTION: *Risk of exposure to laser radiation* -- Don't disassemble or remove any part of an SFP transceiver. You might be exposed to laser radiation.
+
+.About this task
+
+The following figures show the three controllers in the SG6060 and SG6060X appliances, with the SG6000-CN compute controller on the top and the two E2800 storage controllers on the bottom. The SG6060 uses E2800A controllers, and the SG6060X uses E2800B controllers. 
+
+NOTE: Both versions of the E2800 controller have identical specifications and function except for the location of the interconnect ports.
+
+CAUTION: Don't use an E2800A and E2800B controller in the same appliance. 
+
+SG6060 connections:
+
+image::../media/sg6000_e2800_connections.png[SG6060 to E2800A Connections]
+
+SG6060X connections:
+
+image::../media/sg6000x_e2800B_connections.png[SG6060 to E2800B Connections]
+
+The following figure shows the three controllers in the SGF6024 appliance, with the SG6000-CN compute controller on the top and the two EF570 storage controllers side by side below the compute controller.
+
+SGF6024 connections:
+
+image::../media/sg6000_ef570_connections.png[SG6000 to SGF570 Connections]
+
+[cols="1a,2a,2a,3a" options="header"]
+|===
+| Callout | Port| Type of port| Use
+|1
+|BMC management port on the SG6000-CN controller
+|1-GbE (RJ-45)
+|Connects to the network where you access the BMC interface.
+
+|2
+|FC connection ports:
+
+* 4 on the SG6000-CN controller
+* 2 on each storage controller
+|16-Gb/s FC optical SFP+
+|Connect each storage controller to the SG6000-CN controller.
+
+|3
+|Four network ports on the SG6000-CN controller
+|10/25-GbE
+|Connect to the Grid Network and the Client Network for StorageGRID.
+
+|4
+|Admin Network port on the SG6000-CN controller (labeled P1 in the figure)
+|1-GbE (RJ-45)
+
+*Important:* This port operates only at 1000 baseT/full and does not support 10- or 100-megabit speeds.
+|Connects the SG6000-CN controller to the Admin Network for StorageGRID.
+
+|
+|Rightmost RJ-45 port on the SG6000-CN controller
+|1-GbE (RJ-45)
+
+*Important:* This port operates only at 1000 baseT/full and does not support 10- or 100-megabit speeds.
+|
+* Can be bonded with management port 1 if you want a redundant connection to the Admin Network.
+* Can be left unwired and available for temporary local access (IP 169.254.0.1).
+* During installation, can be used to connect the SG6000-CN controller to a service laptop if DHCP-assigned IP addresses aren't available.
+
+|5
+|Management port 1 on each storage controller
+|1-GbE (RJ-45)
+|Connects to the network where you access SANtricity System Manager.
+
+|
+|Management port 2 on each storage controller
+|1-GbE (RJ-45)
+|Reserved for technical support.
+|===
+
+.Steps
+
+. Connect the BMC management port on the SG6000-CN controller to the management network, using an Ethernet cable.
++
+Although this connection is optional, it is recommended to facilitate support.
+
+. Connect the two FC ports on each storage controller to the FC ports on the SG6000-CN controller, using four optical cables and four SFP+ transceivers for the storage controllers.
+. Connect the network ports on the SG6000-CN controller to the appropriate network switches, using TwinAx cables or optical cables and SFP+ or SFP28 transceivers.
++
+NOTE: The four network ports must use the same link speed. Install SFP+ transceivers if you plan to use 10-GbE link speeds. Install SFP28 transceivers if you plan to use 25-GbE link speeds.
+
+ ** If you plan to use Fixed port bond mode (default), connect the ports to the StorageGRID Grid and Client Networks, as shown in the table.
++
+[cols="1a,2a" options="header"]
+|===
+| Port| Connects to...
+a|
+Port 1
+a|
+Client Network (optional)
+a|
+Port 2
+a|
+Grid Network
+a|
+Port 3
+a|
+Client Network (optional)
+a|
+Port 4
+a|
+Grid Network
+|===
+
+ ** If you plan to use the Aggregate port bond mode, connect one or more of the network ports to one or more switches. You should connect at least two of the four ports to avoid having a single point of failure. If you use more than one switch for a single LACP bond, the switches must support MLAG or equivalent.
+
+. If you plan to use the Admin Network for StorageGRID, connect the Admin Network port on the SG6000-CN controller to the Admin Network, using an Ethernet cable.
+
+. If you plan to use the management network for SANtricity System Manager, connect management port 1 (P1) on each storage controller (the RJ-45 port on the left) to the management network for SANtricity System Manager, using an Ethernet cable.
+
++
+Don't use management port 2 (P2) on the storage controllers (the RJ-45 port on the right). This port is reserved for technical support.
+
+.Related information
+
+link:../installconfig/port-bond-modes-for-sg6000-cn-controller.html[Port bond modes (SG6000-CN controller)]

@@ -1,0 +1,20 @@
+---
+permalink: sg5700/upgrading-santricity-os-on-storage-controllers-using-grid-manager-sg5700.html
+sidebar: sidebar
+keywords: storage node, storage appliance, controller, storage controller, upgrade, upgrading, SANtricity OS, SANtricity
+summary: 'For storage controllers currently using SANtricity OS 08.42.20.00 \(11.42\) or newer, you must use the Grid Manager to apply an upgrade.'
+---
+= Upgrade SANtricity OS on storage controllers using Grid Manager
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+For storage controllers currently using SANtricity OS 08.42.20.00 (11.42) or newer, you must use the Grid Manager to apply an upgrade.
+
+include::../_include/upgrading-santricity-os-on-storage-controllers-using-grid-manager-steps.adoc[] 
+
+.Related information
+
+https://mysupport.netapp.com/matrix[NetApp Interoperability Matrix Tool^]
+
+link:upgrading-santricity-os-on-e2800-controller-using-maintenance-mode.html[Upgrade SANtricity OS on E2800 controller using maintenance mode]

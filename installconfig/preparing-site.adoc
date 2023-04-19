@@ -1,0 +1,231 @@
+---
+permalink: installconfig/preparing-site.html
+sidebar: sidebar
+keywords: site prep, site preparation, preparing site, site requirements, requirements, site, dimensions, weight, weights, temperature, humidity, altitude, airflow, heat, wiring, power, grounding, facility
+summary: 'Before installing the appliance, you must make sure that the site and the cabinet or rack you plan to use meet the specifications for a StorageGRID appliance.'
+---
+= Prepare site
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Before installing the appliance, you must make sure that the site and the cabinet or rack you plan to use meet the specifications for a StorageGRID appliance.
+
+.Steps
+
+. Confirm that the site meets the requirements for temperature, humidity, altitude range, airflow, heat dissipation, wiring, power, and grounding. See the https://hwu.netapp.com[NetApp Hardware Universe^] for more information.
+
+. Confirm that your location provides the correct voltage of AC power:
++
+[cols="1a,1a" options="header"]
+|===
+| Model
+| Requirement
+
+| SGF6112
+| 100 to 240 volts AC
+
+| SG6060
+| 240-volt AC 
+
+| SGF6024
+| 120-volt AC
+
+| SG5760
+| 240-volt AC
+
+| SG100 and SG1000
+| 120 to 240 volts AC
+|===
+
+. Obtain a 19-inch (48.3-cm) cabinet or rack to fit shelves of the following size (without cables).
++
+[role="tabbed-block"]
+====
+.SGF6112
+--
+[cols="1a,1a,1a,1a" options="header"]
+|===
+| Height| Width| Depth| Maximum weight
+a|
+1.70 in.
+
+(4.31 cm)
+a|
+18.98 in.
+
+(48.2 cm)
+a|
+33.11 in.
+
+(84.1 cm)
+a|
+43.83 lb.
+
+(19.88 kg)
+
+|===
+--
+
+.SG6000
+--
+[cols="2a,1a,1a,1a,1a" options="header"]
+|===
+| Type of shelf| Height| Width| Depth| Maximum weight
+a|
+E2860 controller shelf (SG6060)
+a|
+6.87 in.
+
+(17.46 cm)
+a|
+17.66 in.
+
+(44.86 cm)
+a|
+38.25 in.
+
+(97.16 cm)
+a|
+250 lb.
+
+(113 kg)
+a|
+Expansion shelf (SG6060) - Optional
+a|
+6.87 in.
+
+(17.46 cm)
+a|
+17.66 in.
+
+(44.86 cm)
+a|
+38.25 in.
+
+(97.16 cm)
+a|
+250 lb.
+
+(113 kg)
+a|
+EF570 controller shelf (SGF6024)
+a|
+3.35 in.
+
+(8.50 cm)
+a|
+17.66 in.
+
+(44.86 cm)
+a|
+19.00 in.
+
+(48.26 cm)
+a|
+51.74 lb.
+
+(23.47 kg)
+a|
+SG6000-CN compute controller
+a|
+1.70 in.
+
+(4.32 cm)
+a|
+17.32 in.
+
+(44.0 cm)
+a|
+32.0 in.
+
+(81.3 cm)
+a|
+39 lb.
+
+(17.7 kg)
+|===
+--
+
+.SG5700
+--
+[cols="1a,1a,1a,1a,1a" options="header"]
+|===
+| Appliance model| Height| Width| Depth| Maximum weight
+a|
+SG5712
+
+(12 drives)
+a|
+3.41 in.
+
+(8.68 cm)
+a|
+17.6 in.
+
+(44.7 cm)
+a|
+21.1 in.
+
+(53.6 cm)
+a|
+63.9 lb
+
+(29.0 kg)
+a|
+SG5760
+
+(60 drives)
+a|
+6.87 in.
+
+(17.46 cm)
+a|
+17.66 in.
+
+(44.86 cm)
+a|
+38.25 in.
+
+(97.16 cm)
+a|
+250 lb.
+
+(113 kg)
+
+|===
+--
+
+.SG100 and SG1000
+--
+[cols="1a,1a,1a,1a" options="header"]
+|===
+| Height| Width| Depth| Maximum weight
+a|
+1.70 in.
+
+(4.32 cm)
+a|
+17.32 in.
+
+(44.0 cm)
+a|
+32.0 in.
+
+(81.3 cm)
+a|
+39 lb.
+
+(17.7 kg)
+
+|===
+--
+====
+
+. Decide where you are going to install the appliance.
++
+CAUTION: When installing the E2860 controller shelf or optional expansion shelves, install hardware from the bottom to the top of the rack or cabinet to prevent the equipment from tipping over. To ensure that the heaviest equipment is at the bottom of the cabinet or rack, install the SG6000-CN controller above the E2860 controller shelf and expansion shelves.
++
+IMPORTANT: Before committing to the installation, verify that the 0.5m optic cables shipped with an SG6000 appliance, or cables that you supply, are long enough for the planned layout.
+
+. Install any required network switches. See the link:https://imt.netapp.com/matrix/#welcome[NetApp Interoperability Matrix Tool^] for compatibility information.

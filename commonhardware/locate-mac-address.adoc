@@ -1,0 +1,30 @@
+---
+permalink: commonhardware/locate-mac-address.html
+sidebar: sidebar
+keywords: storagegrid, mac, mac address
+summary: 'In some cases you might need to update MAC address references after the replacement of an appliance.'
+---
+= Update MAC address references
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+In some cases you might need to update MAC address references after the replacement of an appliance. 
+
+.About this task
+If any of the network interfaces on an appliance you are replacing are configured for DHCP, you might need to update the permanent DHCP lease assignments on the DHCP servers to reference the MAC addresses of the replacement appliance. The update ensures the replacement appliance is assigned the expected IP addresses.
+
+.Steps
+
+. Locate the label on the front of the appliance. The label lists the MAC address for the BMC management port of the appliance. 
+. To determine the MAC address for the Admin Network port, you must add *2* to the hexadecimal number on the label.
++
+For example, if the MAC address on the label ends in *09*, the MAC address for the Admin Port would end in *0B*. If the MAC address on the label ends in *(_y_)FF*, the MAC address for the Admin Port would end in *(_y_+1)01*. 
++
+You can easily make this calculation by opening Calculator in Windows, setting it to Programmer mode, selecting Hex, typing the MAC address, then typing *+ 2 =*.
+
+. Ask your network administrator to associate the DNS/network and IP address for the appliance you removed with the MAC address for the replacement appliance.
++
+IMPORTANT: You must ensure that all IP addresses for the original appliance have been updated before you apply power to the replacement appliance. Otherwise, the appliance will obtain new DHCP IP addresses when it boots up and might not be able to reconnect to StorageGRID. This step applies to all StorageGRID networks that are attached to the appliance.
++
+NOTE: If the original appliance used static IP address, the new appliance will automatically adopt the IP addresses of the appliance you removed.

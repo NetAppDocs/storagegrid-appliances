@@ -1,0 +1,29 @@
+---
+permalink: sg6000/upgrading-santricity-os-on-storage-controllers.html
+sidebar: sidebar
+keywords: storagegrid, sg6000, storage node, storage appliance, controller, storage controller, upgrade, upgrading, SANtricity OS, SANtricity 
+summary: 'To ensure optimal functioning of the storage controller, you must upgrade to the latest maintenance release of the SANtricity OS that is qualified for your StorageGRID appliance.'
+---
+= Upgrade SANtricity OS on storage controllers
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+To ensure optimal functioning of the storage controller, you must upgrade to the latest maintenance release of the SANtricity OS that is qualified for your StorageGRID appliance. 
+
+Consult the https://imt.netapp.com/matrix/#welcome[NetApp Interoperability Matrix Tool (IMT)^] to determine which version you should be using. 
+
+Download the new SANtricity OS Software file from https://mysupport.netapp.com/site/products/all/details/storagegrid-appliance/downloads-tab[NetApp Downloads: StorageGRID Appliance^].
+
+Use one of the following procedures based on the version of SANtricity OS currently installed:
+
+* If the storage controller is using SANtricity OS 08.42.20.00 (11.42) or newer, use the Grid Manager to perform the upgrade.
++
+link:upgrading-santricity-os-on-storage-controllers-using-grid-manager-sg6000.html[Upgrade SANtricity OS on storage controllers using Grid Manager]
+
+* If the storage controller is using a SANtricity OS version older than 08.42.20.00 (11.42), use maintenance mode to perform the upgrade.
++
+link:upgrading-santricity-os-on-storage-controllers-using-maintenance-mode-sg6000.html[Upgrade SANtricity OS on storage controllers using maintenance mode]
+
+IMPORTANT: When upgrading the SANtricity OS for your storage appliance, you must follow the instructions in the StorageGRID documentation. If you use any other instructions, your appliance could become inoperable.
+

@@ -1,0 +1,121 @@
+---
+permalink: installconfig/troubleshooting-connection-issues.html
+sidebar: sidebar
+keywords: storage node, storage appliance, troubleshoot, troubleshooting, connection, unable to connect, no connection, Expansion, shelves, don't appear, Appliance Installer, missing, not shown
+summary: 'If you encounter connection issues during the StorageGRID appliance installation, you should perform the corrective action steps listed.'
+---
+= Troubleshoot connection issues (SG6000 or SG5700)
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+If you encounter connection issues during the StorageGRID appliance installation, you should perform the corrective action steps listed.
+
+== Unable to connect to SG6000 appliance
+
+If you can't connect to the appliance, there might be a network issue, or the hardware installation might not have been completed successfully.
+
+.Steps
+
+. If you are unable to connect to SANtricity System Manager:
+ .. Try to ping the appliance using the IP address for either storage controller on the management network for SANtricity System Manager: +
+`*ping _Storage_Controller_IP_*`
+ .. If you receive no response from the ping, confirm you are using the correct IP address.
++
+Use the IP address for management port 1 on either storage controller.
+
+ .. If the IP address is correct, check appliance cabling and the network setup.
++
+If that does not resolve the issue, contact technical support.
+
+ .. If the ping was successful, open a web browser.
+ .. Enter the URL for SANtricity System Manager: +
+`*https://_Storage_Controller_IP_*`
++
+The log in page for SANtricity System Manager appears.
+. If you are unable to connect to the SG6000-CN controller:
+ .. Try to ping the appliance using the IP address for the SG6000-CN controller: +
+`*ping _SG6000-CN_Controller_IP_*`
+ .. If you receive no response from the ping, confirm you are using the correct IP address.
++
+You can use the IP address of the appliance on the Grid Network, the Admin Network, or the Client Network.
+
+ .. If the IP address is correct, check appliance cabling, SFP transceivers, and the network setup.
+
+ .. If physical access to the SG6000-CN is available, you can use a direct connection to the permanent link-local IP `169.254.0.1` to check controller networking configuration and update if necessary. For detailed instructions, see step 2 in link:accessing-storagegrid-appliance-installer.html[Accessing StorageGRID Appliance Installer].
++
+If that does not resolve the issue, contact technical support.
+
+ .. If the ping was successful, open a web browser.
+ .. Enter the URL for the StorageGRID Appliance Installer: +
+`*https://_SG6000-CN_Controller_IP_:8443*`
++
+The Home page appears.
+
+== SG6060 expansion shelves don't appear in Appliance Installer
+
+If you have installed expansion shelves for the SG6060 and they don't appear in the StorageGRID Appliance Installer, you should verify that the shelves have been completely installed and powered on.
+
+.About this task
+
+You can verify that the expansion shelves are connected to the appliance by viewing the following information in the StorageGRID Appliance Installer:
+
+* The *Home* page contains a message about expansion shelves.
++
+image::../media/expansion_shelf_home_page_msg.png[Expansion Shelves Msg]
+
+* The *Advanced* > *RAID Mode* page indicates by number of drives whether or not the appliance includes expansion shelves. For example, in the following screen shot, two SSDs and 178 HDDs are shown. An SG6060 with two expansion shelves contains 180 total drives.
+
+image::../media/expansion_shelves_shown_by_num_of_drives.png[Number of Drives]
+
+If the StorageGRID Appliance Installer pages don't indicate that expansion shelves are present, follow this procedure.
+
+.Steps
+
+. Verify that all required cables have been firmly connected. See link:cabling-appliance-sg6000.html[Cable appliance (SG6000)].
+. Verify that you have powered on the expansion shelves. See link:connecting-power-cords-and-applying-power-sg6000.html[Connect power cords and apply power (SG6000)].
+. If you need help resolving an issue, contact technical support.
+
+
+== Unable to connect to SG5700 appliance
+
+If you can't connect to the appliance, there might be a network issue, or the hardware installation might not have been completed successfully.
+
+.Steps
+
+. If you are unable to connect to SANtricity System Manager:
+ .. Try to ping the appliance using the IP address for the E2800 controller on the management network for SANtricity System Manager: +
+`*ping _E2800_Controller_IP_*`
+ .. If you receive no response from the ping, confirm you are using the correct IP address.
++
+Use the IP address for management port 1 on the E2800 controller.
+
+ .. If the IP address is correct, check appliance cabling and the network setup.
++
+If that does not resolve the issue, contact technical support.
+
+ .. If the ping was successful, open a web browser.
+ .. Enter the URL for SANtricity System Manager: +
+ `*https://_E2800_Controller_IP_*`
++
+The log in page for SANtricity System Manager appears.
+. If you are unable to connect to the E5700SG controller:
+ .. Try to ping the appliance using the IP address for the E5700SG controller: +
+`*ping _E5700SG_Controller_IP_*`
+ .. If you receive no response from the ping, confirm you are using the correct IP address.
++
+You can use the IP address of the appliance on the Grid Network, the Admin Network, or the Client Network.
+
+ .. If the IP address is correct, check appliance cabling, SFP transceivers, and the network setup.
++
+If that does not resolve the issue, contact technical support.
+
+ .. If the ping was successful, open a web browser.
+ .. Enter the URL for the StorageGRID Appliance Installer: +
+`*https://_E5700SG_Controller_IP_:8443*`
++
+The Home page appears.
+
+.Related information
+
+link:../installconfig/viewing-status-indicators.html[View status indicators]

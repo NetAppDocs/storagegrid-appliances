@@ -1,0 +1,86 @@
+---
+permalink: installconfig/index.html
+sidebar: sidebar
+keywords: Installation, deployment, Install, deploy, Installing, deploying
+summary: 'Follow these high-level steps to install and set up a StorageGRID appliance and deploy it as a node in your StorageGRID system.'
+---
+= Quick start for hardware installation
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Follow these high-level steps to install and set up a StorageGRID appliance and deploy it as a node in your StorageGRID system.
+
+// Start snippet: Quick start headings as block titles
+// 1 placeholder per entry: Heading text here
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png[One] Prepare for installation
+
+[role="quick-margin-list"]
+. Work with your NetApp Professional Services consultant to automate installation and configuration. See link:automating-appliance-installation-and-configuration.html[Automate appliance installation and configuration].
++
+This step is optional. However, streamlining and automating configuration steps can save time and provide consistency in the configuration of multiple appliances.
+. link:preparing-site.html[Prepare site]
+. link:unpacking-boxes.html[Unpack boxes]
+. link:obtaining-additional-equipment-and-tools.html[Obtain additional equipment and tools]
+. link:../admin/web-browser-requirements.html[Review web browser requirements]
+. link:reviewing-appliance-network-connections.html[Review appliance network connections]
+. link:gathering-installation-information-overview.html[Gather installation information]
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png[Two] Install hardware
+
+[role="quick-margin-list"]
+. link:registering-hardware.html[Register hardware]
+
+. Install into cabinet or rack
+** link:installing-appliance-in-cabinet-or-rack-sgf6112.html[SGF6112]
+** link:installing-hardware-sg6000.html[SG6000]
+** link:installing-appliance-in-cabinet-or-rack-sg5700.html[SG5700]
+** link:installing-appliance-in-cabinet-or-rack-sg100-and-sg1000.html[SG100 and SG1000]
+
+. Cable appliance
+** link:cabling-appliance-sgf6112.html[SGF6112]
+** link:cabling-appliance-sg6000.html[SG6000]
+** link:cabling-appliance-sg5700.html[SG5700]
+** link:cabling-appliance-sg100-and-sg1000.html[SG100 and SG1000]
+
+. Connect power cords and apply power
+** link:connecting-power-cords-and-applying-power-sgf6112.html[SGF6112]
+** link:connecting-power-cords-and-applying-power-sg6000.html[SG6000]
+** link:connecting-power-cords-and-applying-power-sg5700.html[SG5700]
+** link:connecting-power-cords-and-applying-power-sg100-and-sg1000.html[SG100 and SG1000]
+
+. link:viewing-status-indicators.html[View status indicators and codes]
+
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png[Three] Set up hardware
+
+[role="quick-margin-para"]
+If you are configuring and deploying more than one appliance, use the NetApp ConfigBuilder tool to automate the following configuration and deployment steps. For guidance, contact your NetApp Professional Services consultant. See link:automating-appliance-installation-and-configuration.html[Automate appliance installation and configuration]. 
+
+[role="quick-margin-list"]
+
+. Configure StorageGRID connections
+** link:accessing-storagegrid-appliance-installer.html[Access StorageGRID Appliance Installer] and verify you are running most recent version
+** link:configuring-network-links.html[Configure network links]
+** link:setting-ip-configuration.html[Configure StorageGRID IP addresses]
+** link:verifying-network-connections.html[Verify network connections]
+** link:verifying-port-level-network-connections.html[Verify port-level network connections]
+
+. link:accessing-and-configuring-santricity-system-manager.html[Access and configure SANtricity System Manager] (SG6000 and SG5700)
+
+. link:configuring-bmc-interface.html[Configure the BMC interface] (SGF6112, SG6000, SG100, and SG1000)
+
+. Perform optional setup steps
+** link:optional-enabling-node-encryption.html[Enable node encryption]
+** link:optional-changing-raid-mode.html[Change RAID mode (SG6000 and SG5700)]
+** link:optional-remapping-network-ports-for-appliance.html[Remap network ports]
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png[Four] Deploy appliance node
+
+[role="quick-margin-para"]
+Deploy the appliance as a new node in your StorageGRID system. 
+
+[role="quick-margin-list"]
+* link:deploying-appliance-storage-node.html[Deploy appliance Storage Node]
+* link:deploying-services-appliance-node.html[Deploy services appliance node]

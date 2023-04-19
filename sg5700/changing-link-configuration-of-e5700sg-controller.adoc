@@ -1,0 +1,60 @@
+---
+permalink: sg5700/changing-link-configuration-of-e5700sg-controller.html
+sidebar: sidebar
+keywords: storagegrid, sg5700, storage node, storage appliance, admin node, link configuration, link, configure, configuring, ethernet, port bond mode, port bond, network bond mode, network bond, link speed, vlan tagging, vlan tag
+summary: 'You can change the Ethernet link configuration of the E5700SG controller. You can change the port bond mode, the network bond mode, and the link speed.'
+---
+= Change link configuration of E5700SG controller
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can change the Ethernet link configuration of the E5700SG controller. You can change the port bond mode, the network bond mode, and the link speed.
+
+.Before you begin
+
+link:../commonhardware/placing-appliance-into-maintenance-mode.html[Place E5700SG controller into maintenance mode]. 
+
+NOTE: In rare instances, placing a StorageGRID appliance into maintenance mode might make the appliance unavailable for remote access.
+
+.About this task
+
+Options for changing the Ethernet link configuration of the E5700SG controller include:
+
+* Changing *Port bond mode* from Fixed to Aggregate, or from Aggregate to Fixed
+* Changing *Network bond mode* from Active-Backup to LACP, or from LACP to Active-Backup
+* Enabling or disabling VLAN tagging, or changing the value of a VLAN tag
+* Changing the link speed from 10-GbE to 25-GbE, or from 25-GbE to 10-GbE
+
+.Steps
+
+. Select *Configure Networking* > *Link Configuration* from the menu.
++
+image::../media/link_configuration_option.gif[Link Configuration]
+
+. [[change_link_configuration_sg5700, start=2]]Make the desired changes to the link configuration.
++
+For more information about the options, see link:../installconfig/configuring-network-links.html[Configure network links].
+
+. When you are satisfied with your selections, click *Save*.
++
+NOTE: You might lose your connection if you made changes to the network or link you are connected through. If you aren't reconnected within 1 minute, re-enter the URL for the StorageGRID Appliance Installer using one of the other IP addresses assigned to the appliance: +
+`*https://_E5700SG_Controller_IP_:8443*`
++
+If you made changes to the VLAN settings, the subnet for the appliance might have changed. If you need to change the IP addresses for the appliance, follow the link:../installconfig/setting-ip-configuration.html[configure StorageGRID IP addresses] instructions.
+
+. From the StorageGRID Appliance Installer, select *Configure Networking* > *Ping Test*.
+. Use the Ping Test tool to check connectivity to IP addresses on any networks that might have been affected by the link configuration changes you made in the  <<change_link_configuration_sg5700,Change link configuration>> step.
++
+In addition to any other tests you choose to perform, confirm that you can ping the grid IP address of the primary Admin Node, and the grid IP address of at least one other Storage Node. If necessary, correct any link configuration issues.
+
+. Once you are satisfied that your link configuration changes are working, reboot the node. From the StorageGRID Appliance Installer, select *Advanced* > *Reboot Controller*, and then select one of these options:
+ ** Select *Reboot into StorageGRID* to reboot the controller with the node rejoining the grid. Select this option if you are done working in maintenance mode and are ready to return the node to normal operation.
+ ** Select *Reboot into Maintenance Mode* to reboot the controller with the node remaining in maintenance mode. (This option is available only when the controller is in maintenance mode.) Select this option if there are additional maintenance operations you need to perform on the node before rejoining the grid.
++
+image::../media/reboot_controller_from_maintenance_mode.png[Reboot controller in maintenance mode]
++
+It can take up to 20 minutes for the appliance to reboot and rejoin the grid. To confirm that the reboot is complete and that the node has rejoined the grid, go back to the Grid Manager. The *NODES* page should display a normal status (green check mark icon image:../media/icon_alert_green_checkmark.png[green check mark] to the left of the node name) for the appliance node, indicating that no alerts are active and the node is connected to the grid.
++
+image::../media/nodes_menu.png[Appliance node rejoined grid]
+

@@ -1,0 +1,42 @@
+section: sg6100
+title: Maintain SGF6112 hardware
+entries:
+  - title: Overview
+    pdf-filename: sg6100 hardware maintenance
+    url: "/sg6100/index.html"
+
+  - title: Configuration maintenance procedures
+    pdf-filename: Configuration maintenance procedures - SGF6112
+    entries:
+    - title: Turn appliance LED on and off
+      url: "/sg6100/turning-sgf6112-identify-led-on-and-off.html"
+    - title: Locate appliance in data center
+      url: "/sg6100/locating-sgf6112-in-data-center.html"
+    - title: Shut down the appliance
+      url: "/sg6100/shut-down-sgf6112.html"
+    - title: Power on SGF6112 and verify operation
+      url: "/sg6100/powering-on-sgf6112-and-verifying-operation.html"      
+    - title: Change link configuration
+      url: "/sg6100/changing-link-configuration-of-sgf6112-appliance.html"
+
+  - title: Hardware maintenance procedures
+    pdf-filename: Hardware maintenance procedures - SGF6112
+    entries:
+    - title: Verify component to replace
+      url: "/sg6100/verify-component-to-replace.html"    
+    - title: Replace one or more power supplies 
+      url: "/sg6100/replacing-one-or-more-power-supplies-in-sgf6112-appliance.html"
+    - title: Replace fan
+      url: "/sg6100/replacing-fan-in-sgf6112.html"
+    - title: Replace drive
+      url: "/sg6100/replacing-drive-in-sgf6112.html"
+    - title: Replace NIC
+      url: "/sg6100/replace-nic-in-sgf6112.html"
+    - title: Replace CMOS battery
+      url: "/sg6100/replace-cmos-in-sgf6112.html"
+    - title: Replace SGF6112 appliance
+      url: "/sg6100/replacing-sgf6112-appliance.html"
+    - title: Relocate SGF6112 in rack
+      url: "/sg6100/reinstalling-sgf6112-into-cabinet-or-rack.html"  
+    - title: Replace cover
+      url: "/sg6100/reinstalling-sgf6112-cover.html"    

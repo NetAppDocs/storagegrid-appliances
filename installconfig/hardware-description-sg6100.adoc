@@ -1,0 +1,103 @@
+---
+permalink: installconfig/hardware-description-sg6100.html
+sidebar: sidebar
+keywords: storagegrid, sg6100, sgf6112, storage node, storage appliance, appliance models, appliance features, specifications
+summary: 'The StorageGRID SGF6112 appliance operates as a Storage Node in a StorageGRID system. The appliance can be used in a hybrid grid environment that combines appliance Storage Nodes and virtual (software-based) Storage Nodes.'
+---
+= SGF6112 appliance: Overview
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The StorageGRID SGF6112 appliance operates as a Storage Node in a StorageGRID system. The appliance can be used in a hybrid grid environment that combines appliance Storage Nodes and virtual (software-based) Storage Nodes.
+
+The SGF6112 appliance provides the following features:
+
+* 12 NVMe (nonvolatile memory express) SSD drives with integrated compute and storage controllers. 
+* Integrates the storage and computing elements for a StorageGRID Storage Node.
+* Includes the StorageGRID Appliance Installer to simplify Storage Node deployment and configuration.
+* Includes a baseboard management controller (BMC) for monitoring and diagnosing the hardware in the compute controller.
+* Supports up to four 10-GbE or 25-GbE connections to the StorageGRID Grid Network and Client Network.
+
+== SGF6112 hardware description
+The StorageGRID SGF6112 is an all-flash appliance that features a compact design with compute controller and storage controller integrated into a 1U chassis. The appliance supports 12 SSD NVMe drives with a storage capacity of up to 15.3 TB per drive.
+
+=== Resilient object storage
+The SGF6112 is designed with SSDs in a RAID that provides the following data protection features: 
+
+* Ability to function after the failure of a single SSD with no impact on object availability.
+* Ability to function after multiple SSD failures with a minimum necessary reduction in object availability (based on the design of the underlying RAID scheme).
+* Fully recoverable, while in service, from SSD failures that don't result in extreme damage to the RAID housing the node's root volume (the StorageGRID operating system).
+
+== SGF6112 hardware components
+The SGF6112 appliance includes the following components:
+
+[cols="1a,2a" options="header"]
+|===
+| Component| Description
+
+| Compute and storage platform
+| A one-rack unit (1U) server that includes:
+
+* Two 2.1/2.6 GHz 165 W processors providing 48 cores
+* 256 GB RAM
+* 2 × 1/10 GBase-T ports
+* 4 × 10/25 GbE Ethernet ports
+* 1 × 256 GB Internal Boot drive (includes StorageGRID software) 
+* Baseboard management controller (BMC) that simplifies hardware management
+* Redundant power supplies and fans
+
+|===
+
+== SGF6112 diagrams
+
+=== SGF6112 front view
+
+This figure shows the front of the SGF6112 without the bezel. The appliance includes a 1U compute and storage platform that contains 12 SSD drives. 
+
+image::../media/sgf6112_front_with_ssds.png[SGF6112 Front View]
+
+=== SGF6112 rear view
+
+This figure shows the back of the SGF6112, including the ports, fans, and power supplies.
+
+image::../media/sgf6112_rear_view.png[SGF6112 Rear View]
+
+[cols="1a,2a,2a,2a" options="header"]
+|===
+| Callout| Port| Type| Use
+
+| 1
+| Network ports 1-4
+| 10/25-GbE, based on cable or SFP transceiver type (SFP28 and SFP+ modules are supported), switch speed, and configured link speed.  
+| Connect to the Grid Network and the Client Network for StorageGRID.
+
+| 2
+| BMC management port
+| 1-GbE (RJ-45)
+| Connect to the appliance baseboard management controller.
+
+| 3
+| Diagnostic and support ports
+| 
+* VGA
+* USB
+* Micro-USB console port
+* Micro-SD slot module
+
+| Reserved for technical support use.
+
+| 4
+| Admin Network port 1
+| 1/10-GbE (RJ-45)
+| Connect the appliance to the Admin Network for StorageGRID.
+
+| 5
+| Admin Network port 2
+| 1/10-GbE (RJ-45)
+|  Options:
+
+* Bond with Admin Network port 1 for a redundant connection to the Admin Network for StorageGRID.
+* Leave disconnected and available for temporary local access (IP 169.254.0.1).
+* During installation, use port 2 for IP configuration if DHCP-assigned IP addresses aren't available.
+|===

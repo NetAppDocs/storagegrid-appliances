@@ -1,0 +1,14 @@
+---
+permalink: sg5700/upgrading-drive-firmware-using-santricity-system-manager.html
+sidebar: sidebar
+keywords: storagegrid, sg5700, storage node, storage appliance, upgrade, upgrading, firmware, drive, disk, SANtricity System Manager, SANtricity
+summary: 'You upgrade your drive firmware to make sure you have all the latest features and bug fixes.'
+---
+= Upgrade drive firmware using SANtricity System Manager
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Upgrade the firmware on the drives in your appliance to make sure you have all the latest features and bug fixes. 
+
+include::../_include/upgrading-drive-firmware-using-santricity-system-manager-common.adoc[]

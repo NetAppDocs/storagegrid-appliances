@@ -1,0 +1,42 @@
+---
+permalink: commonhardware/index.html
+sidebar: sidebar
+keywords: maintain overview, maintenance overview, about maintain, about maintenance
+summary: 'Use these instructions to maintain your StorageGRID system.'
+---
+= Common procedures for node maintenance: Overview
+:icons: font
+:imagesdir: ../media/
+
+
+[.lead]
+
+Use these instructions to maintain your StorageGRID system.
+
+== About these instructions
+These instructions describe procedures common to all nodes such as how to apply a software hotfix, recover grid nodes, recover a failed site, decommission grid nodes or an entire site, perform network maintenance, perform host-level and middleware maintenance procedures, and perform grid node procedures.
+
+NOTE: In these instructions, "`Linux`" refers to a Red Hat® Enterprise Linux®, Ubuntu®, CentOS, or Debian® deployment. Use the https://imt.netapp.com/matrix/#welcome[NetApp Interoperability Matrix Tool (IMT)^] to get a list of supported versions. 
+
+
+== Before you begin
+
+* You have a broad understanding of the StorageGRID system. 
+
+* You have reviewed your StorageGRID system's topology and you understand the grid configuration.
+
+* You understand that you must follow all instructions exactly and heed all warnings.
+
+* You understand that maintenance procedures not described aren't supported or require a services engagement.
+
+== Maintenance procedures for appliances
+
+Specific maintenance procedures for each type of StorageGRID appliance are in the appliance maintenance sections:
+
+* link:../sg6100/index.html[Maintain SGF6112 appliance]
+
+* link:../sg6000/index.html[Maintain SG6000 appliance]
+
+* link:../sg5700/index.html[Maintain SG5700 appliance]
+
+* link:../sg100-1000/index.html[Maintain SG100 and SG1000 appliances]
