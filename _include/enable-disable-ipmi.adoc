@@ -1,0 +1,4 @@
+//This is the shared note on how to enable or disable the IPMI//
+
+NOTE: You can enable or disable remote IPMI access for all appliances containing a BMC by using the management API private endpoint, PUT /private/bmc.
+

@@ -1,0 +1,27 @@
+//used in /admin and /installconfig
+[cols="1a,1a" options="header"]
+|===
+| Web browser| Minimum supported version
+
+|Google Chrome
+|107.0.5304
+
+|Microsoft Edge
+|107.0.1418.8
+
+|Mozilla Firefox
+|106
+|===
+
+You should set the browser window to a recommended width.
+
+[cols="1a,1a" options="header"]
+|===
+| Browser width| Pixels
+
+|Minimum
+|1024
+
+|Optimum
+|1280
+|===
