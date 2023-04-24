@@ -53,7 +53,8 @@ IMPORTANT: To prevent degraded performance, don't twist, fold, pinch, or step on
  .. Replace the cables and any SFP+ or SFP28 transceivers.
  .. Power on the controller and monitor the controller LEDs and boot-up codes.
 . If the appliance where you replaced the controller used a key management server (KMS) to encrypt data, additional configuration might be required before the node can join the grid. If the node does not automatically join the grid, make sure that these configuration settings have transferred to the new controller and manually configure any settings that don't have the expected configuration:
-** link:../installconfig/accessing-storagegrid-appliance-installer.html[Configure StorageGRID connections] 
+** link:../installconfig/configuring-network-links.html[Configure network links]
+** link:../installconfig/setting-ip-configuration.html[Configure StorageGRID IP addresses]
 ** link:../admin/kms-overview-of-kms-and-appliance-configuration.html#set-up-the-appliance[Configure node encryption for the appliance]
 
 . Log in to the appliance with the replaced controller:
