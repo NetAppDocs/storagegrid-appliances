@@ -68,3 +68,6 @@ image::../media/fan_connector_check.png[Fan Connector Check]
 Use the BMC interface to monitor boot-up status.
 
 . Confirm that the appliance node appears in the Grid Manager and that no alerts appear.
+
+include::../_include/fru-statement.adoc[]
+

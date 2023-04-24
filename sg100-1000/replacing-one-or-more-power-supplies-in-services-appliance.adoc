@@ -62,3 +62,6 @@ image::../media/sg6000_cn_insert_power_supply.gif[Sliding power supply into SG60
 . Push the cam handle down to secure the replacement power supply.
 . If you are replacing both power supplies, repeat steps 2 though 6 to replace the second power supply. 
 . link:../installconfig/connecting-power-cords-and-applying-power-sg100-and-sg1000.html[Connect the power cords to the replaced units and apply power].
+
+include::../_include/fru-statement.adoc[]
+
