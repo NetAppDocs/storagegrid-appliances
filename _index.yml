@@ -7,10 +7,6 @@ indexpage:
         url: /release-notes/index.html
       - title: What's new for appliances
         url: "/whats-new-appliances.html"    
-      - title: Grid primer
-        url: https://docs.netapp.com/us-en/storagegrid-117/primer/index.html
-      - title: Networking guidelines 
-        url: https://docs.netapp.com/us-en/storagegrid-117/network/index.html  
     - title: Appliance overviews
       links:        
       - title: SGF6112 overview
@@ -45,20 +41,20 @@ indexpage:
         url: /sg100-1000/index.html
     - title: StorageGRID software
       links:
+      - title: StorageGRID 11.8 documentation
+        url: https://review.docs.netapp.com/us-en/storagegrid-118_main/index.html
       - title: StorageGRID 11.7 documentation
-        url:  https://docs.netapp.com/us-en/storagegrid-117/index.html
+        url: https://docs.netapp.com/us-en/storagegrid-117/index.html
       - title: StorageGRID 11.6 documentation
-        url:  https://docs.netapp.com/us-en/storagegrid-116/index.html
+        url: https://docs.netapp.com/us-en/storagegrid-116/index.html
       - title: StorageGRID 11.5 documentation
         url: https://docs.netapp.com/us-en/storagegrid-115/index.html
-      - title: StorageGRID 11.4 documentation
-        url: https://docs.netapp.com/sgws-114/index.jsp
-      - title: StorageGRID 11.3 documentation
-        url: https://docs.netapp.com/sgws-113/index.jsp
-    - title: Demos & tutorials
+    - title: Enable StorageGRID
       links:
-      - title: Learn how to enable StorageGRID
+      - title: Integrate other applications
         url: https://docs.netapp.com/us-en/storagegrid-enable/index.html
+    - title:  Demos & tutorials
+      links:
       - title: StorageGRID video library
         url: https://www.youtube.com/playlist?list=PLdXI3bZJEw7nh2wGRA65iulXhtXwLiqrY
       - title: NetApp learning services
