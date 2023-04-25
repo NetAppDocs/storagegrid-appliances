@@ -81,7 +81,7 @@ After you have generated a JSON file, you can automate the configuration of one 
 *	The appliance has been installed in a rack, connected to your networks, and powered on.
 * You have <<automation-options,generated the JSON file>> with the guidance of your NetApp Professional Services consultant.
 * Your appliance contains the latest firmware compatible with StorageGRID 11.5 or higher.
-* You are connected to the StorageGRID Appliance Installer on the appliance you are configuring using a link:../admin/web-browser-requirements.html[supported web browser].
+* You are connected to the StorageGRID Appliance Installer on the appliance you are configuring using a https://review.docs.netapp.com/us-en/storagegrid-118_main/admin/web-browser-requirements.html[supported web browser^].
 
 .Steps
 

@@ -15,7 +15,7 @@ If you are using ConfigBuilder to generate a JSON file, you can enable node encr
 
 .Before you begin
 
-Review the information about link:../admin/kms-configuring.html[configuring KMS].
+Review the information about https://review.docs.netapp.com/us-en/storagegrid-118_main/admin/kms-configuring.html[configuring KMS^].
 
 .About this task
 

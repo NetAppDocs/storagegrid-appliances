@@ -35,7 +35,7 @@ IMPORTANT: If any volumes have already been configured or if StorageGRID was pre
 .Before you begin
 
 * You are using any client that can connect to StorageGRID.
-* The client has a  link:../admin/web-browser-requirements.html[supported web browser].
+* The client has a  https://review.docs.netapp.com/us-en/storagegrid-118_main/admin/web-browser-requirements.html[supported web browser^].
 
 .Steps
 
@@ -58,7 +58,7 @@ The StorageGRID Appliance Installer Home page appears.
 
 * You have an SG5760 with 60 drives. If you have an SG5712, you must use the default DDP mode.
 * You are using any client that can connect to StorageGRID.
-* The client has a link:../admin/web-browser-requirements.html[supported web browser].
+* The client has a https://review.docs.netapp.com/us-en/storagegrid-118_main/admin/web-browser-requirements.html[supported web browser^].
 
 .Steps
 

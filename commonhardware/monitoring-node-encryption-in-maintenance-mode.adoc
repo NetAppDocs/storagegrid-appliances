@@ -11,7 +11,7 @@ summary: 'If you enabled node encryption for the appliance during installation, 
 [.lead]
 If you enabled node encryption for the appliance during installation, you can monitor the node-encryption status of each appliance node, including the node-encryption state and key management server (KMS) details.
 
-See link:../admin/kms-configuring.html[Configure key management servers] for information about implementing KMS for StorageGRID appliances.
+See https://review.docs.netapp.com/us-en/storagegrid-118_main/admin/kms-configuring.html[Configure key management servers^] for information about implementing KMS for StorageGRID appliances.
 
 .Before you begin
 
@@ -28,7 +28,7 @@ The Node Encryption page includes three sections:
 
  ** Encryption Status shows whether node encryption is enabled or disabled for the appliance.
  ** Key Management Server Details shows information about the KMS being used to encrypt the appliance. You can expand the server and client certificate sections to view certificate details and status.
-  *** To address issues with the certificates themselves, such as renewing expired certificates, see the link:../admin/kms-configuring.html[instructions for configuring KMS].
+  *** To address issues with the certificates themselves, such as renewing expired certificates, see the https://review.docs.netapp.com/us-en/storagegrid-118_main/admin/kms-configuring.html[instructions for configuring KMS^].
   *** If there are unexpected problems connecting to KMS hosts, verify that the link:../commonhardware/checking-dns-server-configuration.html[DNS servers are correct] and that link:../installconfig/configuring-network-links.html[appliance networking is correctly configured].
   *** If you are unable to resolve your certificate issues, contact technical support.
  ** Clear KMS Key disables node encryption for the appliance, removes the association between the appliance and the key management server that was configured for the StorageGRID site, and deletes all data from the appliance. You must <<Clear key management server configuration,clear the KMS key>> before you can install the appliance into another StorageGRID system.
