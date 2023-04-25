@@ -9,7 +9,7 @@ summary: 'Before installing the StorageGRID appliance, you should understand whi
 :imagesdir: ../media/
 
 [.lead]
-Before installing the StorageGRID appliance, you should understand which networks can be connected to the appliance and how the ports on each controller are used. StorageGRID network requirements are fully explained in the link:../network/index.html[Networking guidelines].
+Before installing the StorageGRID appliance, you should understand which networks can be connected to the appliance and how the ports on each controller are used. StorageGRID network requirements are fully explained in the https://review.docs.netapp.com/us-en/storagegrid-118_main/network/index.html[Networking guidelines^].
 
 When you deploy a StorageGRID appliance as a node in a StorageGRID system, you can connect it to the following networks:
 
@@ -24,4 +24,4 @@ When you deploy a StorageGRID appliance as a node in a StorageGRID system, you c
 +
 If the optional BMC management network is not connected, some support and maintenance procedures will be more difficult to perform. You can leave the BMC management network unconnected except when needed for support purposes.
 
-NOTE: For detailed information about StorageGRID networks, see the link:../network/storagegrid-network-types.html[StorageGRID network types].
+NOTE: For detailed information about StorageGRID networks, see the https://review.docs.netapp.com/us-en/storagegrid-118_main/network/storagegrid-network-types.html[StorageGRID network types^].
