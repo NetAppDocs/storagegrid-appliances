@@ -12,7 +12,7 @@ summary: "Learn how to configure and use a StorageGRID system."
 :imagesdir: ./media/
 
 [.lead]
-Go to https://docs.netapp.com/us-en/storagegrid-11.7/index.html[StorageGRID 11.7 Documentation^] to learn how to configure and use a StorageGRID 11.7 system.
+Go to https://docs.netapp.com/us-en/storagegrid-117/index.html[StorageGRID 11.7 Documentation^] to learn how to configure and use a StorageGRID 11.7 system.
 
 The StorageGRID doc site includes information such as:
 
