@@ -17,7 +17,7 @@ CAUTION: The following steps are only applicable when you are using the Grid Man
 
 NOTE: This procedure will automatically upgrade the NVSRAM to the most recent version associated with the SANtricity OS upgrade. You don't need to apply a separate NVSRAM upgrade file.
 
-IMPORTANT: Be sure to apply the latest StorageGRID hotfix before you begin this procedure. See link:../maintain/storagegrid-hotfix-procedure.html[StorageGRID hotfix procedure] for details. 
+IMPORTANT: Be sure to apply the latest StorageGRID hotfix before you begin this procedure. See https://review.docs.netapp.com/us-en/storagegrid-118_main/maintain/storagegrid-hotfix-procedure.html[StorageGRID hotfix procedure^] for details. 
 
 .Steps
 

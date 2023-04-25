@@ -69,7 +69,7 @@ Configuring your appliance using an uploaded JSON file is often more efficient t
 ** `configure-sga.py`: Automate the installation and configuration of your appliances. See <<automate-with-configure-sga-py-script,Automate appliance installation and configuration using configure-sga.py script>>.
 ** `configure-storagegrid.py`: Configure other components of the entire StorageGRID system (the "grid"). See link:automating-configuration-of-storagegrid.html[Automate StorageGRID configuration].
 
-NOTE: You can use StorageGRID automation Python scripts directly, or you can use them as examples of how to use the StorageGRID Installation REST API in grid deployment and configuration tools you develop yourself. See the instructions for link:../maintain/downloading-and-extracting-storagegrid-installation-files.html[downloading and extracting the StorageGRID installation files].
+NOTE: You can use StorageGRID automation Python scripts directly, or you can use them as examples of how to use the StorageGRID Installation REST API in grid deployment and configuration tools you develop yourself. See the instructions for https://review.docs.netapp.com/us-en/storagegrid-118_main/maintain/downloading-and-extracting-storagegrid-installation-files.html[downloading and extracting the StorageGRID installation files^].
 
 [[automate-with-appliance-installer]]
 == Automate appliance configuration using StorageGRID Appliance Installer

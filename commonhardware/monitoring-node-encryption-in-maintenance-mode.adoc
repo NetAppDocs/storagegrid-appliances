@@ -55,7 +55,7 @@ If you need to preserve data on the appliance, you must either perform a node de
 
 IMPORTANT: When KMS is cleared, data on the appliance will be permanently deleted and no longer accessible. This data is not recoverable.
 
-link:../maintain/grid-node-decommissioning.html[Decommission the node] to move any data it contains to other nodes in StorageGRID.
+https://review.docs.netapp.com/us-en/storagegrid-118_main/maintain/grid-node-decommissioning.html[Decommission the node^] to move any data it contains to other nodes in StorageGRID.
 
 .About this task
 
@@ -106,4 +106,4 @@ Node encryption can't be reenabled on the appliance until it is reinstalled in a
 
 .After you finish
 
-After the appliance reboots and you have verified that KMS has been cleared and that the appliance is in a pre-install state, you can physically remove the appliance from your StorageGRID system. See the link:../maintain/preparing-appliance-for-reinstallation-platform-replacement-only.html[instructions for preparing the appliance for reinstallation].
+After the appliance reboots and you have verified that KMS has been cleared and that the appliance is in a pre-install state, you can physically remove the appliance from your StorageGRID system. See the https://review.docs.netapp.com/us-en/storagegrid-118_main/maintain/preparing-appliance-for-reinstallation-platform-replacement-only.html[instructions for preparing the appliance for reinstallation]^.
