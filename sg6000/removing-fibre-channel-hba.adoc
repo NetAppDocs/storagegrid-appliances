@@ -33,7 +33,7 @@ CAUTION: A controlled shutdown is required before you remove the controller from
 To prevent service interruptions, confirm that all other Storage Nodes are connected to the grid before starting the Fibre Channel HBA replacement or replace the adapter during a scheduled maintenance window when periods of service disruption are normally expected. See the information about link:../monitor/monitoring-system-health.html#monitor-node-connection-states[monitoring node connection states].
 
 IMPORTANT: If you have ever used an ILM rule that creates only one copy of an object, you must replace the Fibre Channel HBA during a scheduled maintenance window. Otherwise, you might temporarily lose access to those objects during this procedure. +
-See information about link:../ilm/why-you-should-not-use-single-copy-replication.html[why you should not use single-copy replication].
+See information about https://review.docs.netapp.com/us-en/storagegrid-118_main/ilm/why-you-should-not-use-single-copy-replication.html[why you should not use single-copy replication^].
 
 .Steps
 
