@@ -2,8 +2,8 @@
 .Before you begin
 
 * You have consulted the https://imt.netapp.com/matrix/#welcome[NetApp Interoperability Matrix Tool (IMT)^] to confirm that the SANtricity OS version you are using for the upgrade is compatible with your appliance.
-* You have the link:../admin/admin-group-permissions.html[Maintenance or Root access permission].
-* You are signed in to the Grid Manager using a link:../admin/web-browser-requirements.html[supported web browser].
+* You have the https://review.docs.netapp.com/us-en/storagegrid-118_main/admin/admin-group-permissions.html[Maintenance or Root access permission^].
+* You are signed in to the Grid Manager using a https://review.docs.netapp.com/us-en/storagegrid-118_main/admin/web-browser-requirements.html[supported web browser^].
 * You have the provisioning passphrase.
 * You have access to https://mysupport.netapp.com/site/products/all/details/storagegrid-appliance/downloads-tab[NetApp Downloads: StorageGRID Appliance^].
 
@@ -17,7 +17,7 @@ CAUTION: The following steps are only applicable when you are using the Grid Man
 
 NOTE: This procedure will automatically upgrade the NVSRAM to the most recent version associated with the SANtricity OS upgrade. You don't need to apply a separate NVSRAM upgrade file.
 
-IMPORTANT: Be sure to apply the latest StorageGRID hotfix before you begin this procedure. See link:../maintain/storagegrid-hotfix-procedure.html[StorageGRID hotfix procedure] for details. 
+IMPORTANT: Be sure to apply the latest StorageGRID hotfix before you begin this procedure. See https://review.docs.netapp.com/us-en/storagegrid-118_main/maintain/storagegrid-hotfix-procedure.html[StorageGRID hotfix procedure^] for details. 
 
 .Steps
 

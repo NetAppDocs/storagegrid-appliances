@@ -23,7 +23,7 @@ IMPORTANT: Don't rely on the E-Series instructions to replace a controller in th
 IMPORTANT: You will not be able to use the appliance until you unlock the drives with the saved key.
 
 * You must have specific access permissions.
-* You must be signed in to the Grid Manager using a link:../admin/web-browser-requirements.html[supported web browser].
+* You must be signed in to the Grid Manager using a https://review.docs.netapp.com/us-en/storagegrid-118_main/admin/web-browser-requirements.html[supported web browser^].
 
 .About this task
 
@@ -32,7 +32,7 @@ You can determine if you have a failed controller canister in two ways:
 * The Recovery Guru in SANtricity System Manager directs you to replace the controller.
 * The amber Attention LED on the controller is on, indicating that the controller has a fault.
 
-The appliance Storage Node will not be accessible when you replace the controller. If the E2800 series controller is functioning sufficiently, you can link:../maintain/placing-appliance-into-maintenance-mode.html[place the E5700SG controller into maintenance mode].
+The appliance Storage Node will not be accessible when you replace the controller. If the E2800 series controller is functioning sufficiently, you can https://review.docs.netapp.com/us-en/storagegrid-118_main/maintain/placing-appliance-into-maintenance-mode.html[place the E5700SG controller into maintenance mode^].
 
 When you replace a controller, you must remove the battery from the original controller and install it in the replacement controller. In some cases, you might also need to remove the host interface card from the original controller and install it in the replacement controller.
 
@@ -71,7 +71,7 @@ NOTE: Collecting support data before and after replacing a component ensures you
 
 == Take the controller offline
 .Steps
-. If the StorageGRID appliance is running in a StorageGRID system, link:../maintain/placing-appliance-into-maintenance-mode.html[place the E5700SG controller into maintenance mode].
+. If the StorageGRID appliance is running in a StorageGRID system, https://review.docs.netapp.com/us-en/storagegrid-118_main/maintain/placing-appliance-into-maintenance-mode.html[place the E5700SG controller into maintenance mode^].
 
 . If the E2800 controller is functioning sufficiently to allow for a controlled shutdown, confirm that all operations have completed.
  .. From the home page of SANtricity System Manager, select *View Operations in Progress*.
