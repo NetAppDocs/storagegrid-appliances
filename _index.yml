@@ -3,19 +3,17 @@ indexpage:
   tiles:
     - title: Get started
       links:
-      - title: Release notes
-        url: /release-notes/index.html
       - title: What's new for appliances
         url: "/whats-new-appliances.html"    
     - title: Appliance overviews
       links:        
-      - title: SGF6112 overview
+      - title: SGF6112
         url: "/installconfig/hardware-description-sg6100.html"    
-      - title: SG6000  overview
+      - title: SG6000
         url: "/installconfig/hardware-description-sg6000.html"
-      - title: SG5700  overview
+      - title: SG5700
         url: "/installconfig/hardware-description-sg5700.html"            
-      - title: SG100 and SG1000 overview
+      - title: SG100 and SG1000
         url: "/installconfig/hardware-description-sg100-and-1000.html"           
     - title: Install hardware
       links:
