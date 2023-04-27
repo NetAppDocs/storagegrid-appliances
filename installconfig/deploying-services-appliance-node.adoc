@@ -20,7 +20,7 @@ When you deploy a services appliance as a primary Admin Node, you use the Storag
 * The appliance has been installed in a rack or cabinet, connected to your networks, and powered on.
 * Network links, IP addresses, and port remapping (if necessary) have been configured for the appliance using the StorageGRID Appliance Installer.
 
-* You have a service laptop with a link:../admin/web-browser-requirements.html[supported web browser].
+* You have a service laptop with a https://review.docs.netapp.com/us-en/storagegrid-118_main/admin/web-browser-requirements.html[supported web browser^].
 * You know one of the IP addresses assigned to the appliance. You can use the IP address for any attached StorageGRID network.
 
 .About this task
@@ -81,7 +81,7 @@ When you deploy a services appliance as a Gateway Node or non-primary Admin Node
 
 * The primary Admin Node for the StorageGRID system has been deployed.
 * All Grid Network subnets listed on the IP Configuration page of the StorageGRID Appliance Installer have been defined in the Grid Network Subnet List on the primary Admin Node.
-* You have a service laptop with a link:../admin/web-browser-requirements.html[supported web browser].
+* You have a service laptop with a https://review.docs.netapp.com/us-en/storagegrid-118_main/admin/web-browser-requirements.html[supported web browser^].
 * You know the IP address assigned to the appliance. You can use the IP address for any attached StorageGRID network.
 
 .About this task

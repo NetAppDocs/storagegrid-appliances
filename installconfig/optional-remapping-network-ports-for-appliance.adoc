@@ -17,7 +17,7 @@ You can optionally remap the internal ports on an appliance node to different ex
 
 .About this task
 
-You can't use remapped ports for load balancer endpoints. If you need to remove a remapped port, follow the steps in link:../maintain/removing-port-remaps.html[Remove port remaps].
+You can't use remapped ports for load balancer endpoints. If you need to remove a remapped port, follow the steps in https://review.docs.netapp.com/us-en/storagegrid-118_main/maintain/removing-port-remaps.html[Remove port remaps^].
 
 .Steps
 
