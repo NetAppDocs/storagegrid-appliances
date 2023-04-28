@@ -31,7 +31,7 @@ You need the following equipment to install and configure all appliances.
 | Service laptop
 | image::../media/sam_management_client.gif[Service laptop]
 
-* link:web-browser-requirements.html[Supported web browser]
+* https://review.docs.netapp.com/us-en/storagegrid-118_main/admin/web-browser-requirements.html[Supported web browser^]
 * SSH client, such as PuTTY
 * 1-GbE (RJ-45) port
 

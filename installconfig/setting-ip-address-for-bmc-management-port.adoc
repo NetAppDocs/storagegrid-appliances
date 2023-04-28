@@ -15,7 +15,7 @@ If you are using ConfigBuilder to generate a JSON file, you can configure IP add
 
 .Before you begin
 
-* The management client is using a link:web-browser-requirements.html[supported web browser].
+* The management client is using a https://review.docs.netapp.com/us-en/storagegrid-118_main/admin/web-browser-requirements.html[supported web browser^].
 * You are using any management client that can connect to a StorageGRID network.
 * The BMC management port is connected to the management network you plan to use.
 +
