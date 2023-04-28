@@ -26,8 +26,6 @@ entries:
       url: "/installconfig/unpacking-boxes.html"
     - title: Obtain additional equipment and tools
       url: "/installconfig/obtaining-additional-equipment-and-tools.html"
-    - title: Web browser requirements
-      url: "/installconfig/web-browser-requirements.html"
     - title: Review appliance network connections
       entries:
       - title: Overview
