@@ -4,20 +4,6 @@ entries:
   - title: Quick start
     pdf-filename: Install StorageGRID appliance hardware
     url: "/installconfig/index.html"
-  - title: Hardware overviews
-    entries:
-    - title: SGF6112
-      url: "/installconfig/hardware-description-sg6100.html"    
-    - title: SG6000
-      url: "/installconfig/hardware-description-sg6000.html"
-    - title: SG6000 controllers
-      url: "/installconfig/controllers-in-sg6000-appliances.html"  
-    - title: SG5700
-      url: "/installconfig/hardware-description-sg5700.html"
-    - title: SG5700 controllers
-      url: "/installconfig/controllers-in-sg5700-appliances.html"        
-    - title: SG100 and SG1000
-      url: "/installconfig/hardware-description-sg100-and-1000.html"
   - title: Prepare for installation
     entries:
     - title: Prepare site
