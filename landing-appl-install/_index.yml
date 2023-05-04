@@ -46,3 +46,9 @@ indexpage:
       links:
       - title: Register hardware
         url: ../installconfig/registering-hardware.html
+      - title: Set up hardware
+        url: ../installconfig/configuring-hardware.html
+      - title: Deploy appliance Storage Node
+        url: ../installconfig/deploying-appliance-storage-node.html
+      - title: Deploy services appliance node
+        url: ../installconfig/deploying-services-appliance-node.html
