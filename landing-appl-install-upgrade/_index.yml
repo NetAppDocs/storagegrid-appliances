@@ -1,0 +1,48 @@
+indexpage:
+   tiles:
+    - title: Quick start
+      links:
+        - title: Install appliance hardware
+          url: ../installconfig/index.html
+        - title: Automate appliance installation and configuration
+          url: ../installconfig/automating-appliance-installation-and-configuration.html
+        - title: Automate StorageGRID configuration
+          url: ../installconfig/automating-configuration-of-storagegrid.html
+        - title: Installation REST APIs (advanced users)
+          url: ../installconfig/overview-of-installation-rest-apis.html
+    - title: Prepare for installation
+      links:
+        - title: Prepare site
+          url: ../installconfig/preparing-site.html
+        - title: Unpack boxes
+          url: ../installconfig/unpacking-boxes.html
+        - title: Obtain additional equipment and tools
+          url: ../installconfig/obtaining-additional-equipment-and-tools.html
+    - title: Review appliance network connections
+      links:          
+        - title: Review appliance network connections
+          url:  ../installconfig/reviewing-appliance-network-connections.html
+        - title: Network connections (SG5700)
+          url:  ../installconfig/sg5700-appliance-connections.html
+        - title: Port bond modes (SGF6112)
+          url:  ../installconfig/port-bond-modes-for-sgf6112.html
+        - title: Port bond modes (SG6000-CN controller)
+          url:  ../installconfig/port-bond-modes-for-sg6000-cn-controller.html
+        - title: Port bond modes (E5700SG controller)
+          url:  ../installconfig/port-bond-modes-for-e5700sg-controller-ports.html
+        - title: Port bond modes (SG100 and SG1000)
+          url:  ../installconfig/port-bond-modes-for-sg100-and-sg1000.html
+    - title: Gather installation information
+      links:  
+        - title: SGF6112
+          url:  ../installconfig/gathering-installation-information-sg6100.html
+        - title: SG6000
+          url:  ../installconfig/gathering-installation-information-sg6000.html
+        - title: SG5700
+          url:  ../installconfig/gathering-installation-information-sg5700.html
+        - title: SG100 and SG1000
+          url:  ../installconfig/gathering-installation-information-sg100-and-sg1000.html
+    - title: Install hardware
+      links:
+      - title: Register hardware
+        url: ../installconfig/registering-hardware.html

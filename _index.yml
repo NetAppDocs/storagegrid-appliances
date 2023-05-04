@@ -4,17 +4,19 @@ indexpage:
     - title: Get started
       links:
       - title: What's new for appliances
-        url: "/whats-new-appliances.html"    
+        url: "/whats-new-appliances.html" 
+      - title: Installation quick start
+        url: "/installconfig/index.html" 
     - title: Appliance overviews
       links:        
       - title: SGF6112
-        url: "/installconfig/hardware-description-sg6100.html"    
+        url: "/installconfig/hardware-description-sg6100.html"
       - title: SG6000
         url: "/installconfig/hardware-description-sg6000.html"
       - title: SG5700
         url: "/installconfig/hardware-description-sg5700.html"            
       - title: SG100 and SG1000
-        url: "/installconfig/hardware-description-sg100-and-1000.html"           
+        url: "/installconfig/hardware-description-sg100-and-1000.html"
     - title: Install hardware
       links:
       - title: Installation quick start
@@ -22,7 +24,7 @@ indexpage:
       - title: Automate installation and configuration
         url: "/installconfig/automating-appliance-installation-and-configuration.html"
       - title: Automate StorageGRID configuration
-        url: "/installconfig/automating-configuration-of-storagegrid.html"  
+        url: "/installconfig/automating-configuration-of-storagegrid.html"
     - title: Maintain storage appliances
       links:
       - title: SGF6112
