@@ -29,8 +29,9 @@ sidebar:
         url: "/installconfig/hardware-description-sg100-and-1000.html"   
     - title: Install appliance hardware
       url: "/landing-appl-install/index.html"
-    - section: installconfig
-    - section: commonhardware
+      entries:
+      - section: installconfig
+      - section: commonhardware
     - title: Maintain storage appliances
       entries:
       - section: sg6100
