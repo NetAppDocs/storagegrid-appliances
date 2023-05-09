@@ -79,16 +79,8 @@ entries:
         url: "/installconfig/cabling-appliance-sg5700.html"
       - title: SG100 and SG1000
         url: "/installconfig/cabling-appliance-sg100-and-sg1000.html"
-    - title: Connect power cords and apply power
-      entries:
-      - title: SGF6112
-        url: "/installconfig/connecting-power-cords-and-applying-power-sgf6112.html"
-      - title: SG6000
-        url: "/installconfig/connecting-power-cords-and-applying-power-sg6000.html"
-      - title: SG5700
-        url: "/installconfig/connecting-power-cords-and-applying-power-sg5700.html"
-      - title: SG100 and SG1000
-        url: "/installconfig/connecting-power-cords-and-applying-power-sg100-and-sg1000.html"
+    - title: Connect and apply power
+      url: "/installconfig/connecting-power-cords-and-applying-power.html"
     - title: View status indicators and codes
       url: "/installconfig/viewing-status-indicators.html"
   - title: Set up hardware

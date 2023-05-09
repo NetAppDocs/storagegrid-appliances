@@ -73,7 +73,7 @@ If the StorageGRID Appliance Installer pages don't indicate that expansion shelv
 .Steps
 
 . Verify that all required cables have been firmly connected. See link:cabling-appliance-sg6000.html[Cable appliance (SG6000)].
-. Verify that you have powered on the expansion shelves. See link:connecting-power-cords-and-applying-power-sg6000.html[Connect power cords and apply power (SG6000)].
+. Verify that you have powered on the expansion shelves. See link:connecting-power-cords-and-applying-power.html[Connect power cords and apply power (SG6000)].
 . If you need help resolving an issue, contact technical support.
 
 

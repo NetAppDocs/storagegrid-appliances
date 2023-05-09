@@ -44,11 +44,7 @@ This step is optional. However, streamlining and automating configuration steps 
 ** link:cabling-appliance-sg5700.html[SG5700]
 ** link:cabling-appliance-sg100-and-sg1000.html[SG100 and SG1000]
 
-. Connect power cords and apply power
-** link:connecting-power-cords-and-applying-power-sgf6112.html[SGF6112]
-** link:connecting-power-cords-and-applying-power-sg6000.html[SG6000]
-** link:connecting-power-cords-and-applying-power-sg5700.html[SG5700]
-** link:connecting-power-cords-and-applying-power-sg100-and-sg1000.html[SG100 and SG1000]
+. link:connecting-power-cords-and-applying-power.html[Connect power cords and apply power]
 
 . link:viewing-status-indicators.html[View status indicators and codes]
 

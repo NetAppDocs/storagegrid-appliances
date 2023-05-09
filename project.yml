@@ -11,8 +11,6 @@ sidebar:
       url: "/index.html"
     - title: Quick start for StorageGRID
       url: "/quick-start.html"
-    - title: What's new for appliances
-      url: "/whats-new-appliances.html"
     - title: Learn about StorageGRID appliances
       entries:
       - title: SGF6112 storage appliance

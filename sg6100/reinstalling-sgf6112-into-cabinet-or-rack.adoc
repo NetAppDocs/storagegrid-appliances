@@ -82,7 +82,7 @@ link:../installconfig/cabling-appliance-sgf6112.html[Cable appliance (SGF6112)]
 
 . Reconnect the controller power cables.
 +
-link:../installconfig/connecting-power-cords-and-applying-power-sgf6112.html[Connect power cords and apply power (SGF6112)]
+link:../installconfig/connecting-power-cords-and-applying-power.html[Connect power cords and apply power (SGF6112)]
 
 .After you finish
 
