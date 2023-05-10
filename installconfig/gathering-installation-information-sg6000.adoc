@@ -358,7 +358,7 @@ a|
 
 * link:../installconfig/controllers-in-sg6000-appliances.html[SG6000 controllers]
 
-* link:../installconfig/reviewing-appliance-network-connections.html[Review appliance network connections]
+* link:../installconfig/reviewing-appliance-network-connections.html[Determine appliance network connections]
 
 * link:../installconfig/port-bond-modes-for-sg6000-cn-controller.html[Port bond modes (SG6000-CN controller)]
 

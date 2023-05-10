@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: network connections, appliance, grid, admin, client, bmc, management
 summary: 'Before installing the StorageGRID appliance, you should understand which networks can be connected to the appliance.'
 ---
-= Review appliance network connections
+= StorageGRID network types
 :icons: font
 :imagesdir: ../media/
 

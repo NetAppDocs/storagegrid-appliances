@@ -12,9 +12,9 @@ entries:
       url: "/installconfig/unpacking-boxes.html"
     - title: Obtain additional equipment and tools
       url: "/installconfig/obtaining-additional-equipment-and-tools.html"
-    - title: Review appliance network connections
+    - title: Determine appliance network connections
       entries:
-      - title: Overview
+      - title: StorageGRID network types
         url: "/installconfig/reviewing-appliance-network-connections.html"
       - title: Network connections (SG5700)
         url: "/installconfig/sg5700-appliance-connections.html"
