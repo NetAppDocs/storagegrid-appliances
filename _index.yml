@@ -23,7 +23,7 @@ indexpage:
         url: "/installconfig/automating-appliance-installation-and-configuration.html"
       - title: Automate StorageGRID configuration
         url: "/installconfig/automating-configuration-of-storagegrid.html"
-    - title: Maintain storage appliances
+    - title: Maintain appliance hardware
       links:
       - title: SGF6112
         url: /sg6100/index.html
@@ -33,8 +33,6 @@ indexpage:
         url: /sg5700/index.html
       - title: SG5600
         url: /sg5600/index.html
-    - title: Maintain services appliances
-      links:        
       - title: SG100 and SG1000
         url: /sg100-1000/index.html
     - title: StorageGRID software

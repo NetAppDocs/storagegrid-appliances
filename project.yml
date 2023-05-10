@@ -30,14 +30,12 @@ sidebar:
       entries:
       - section: installconfig
       - section: commonhardware
-    - title: Maintain storage appliances
+    - title: Maintain appliance hardware
       entries:
       - section: sg6100
       - section: sg6000
       - section: sg5700
       - section: sg5600
-    - title: Maintain services appliances
-      entries:      
       - section: sg100-1000
     - title: StorageGRID software documentation
       url: /storagegrid-documentation.html
