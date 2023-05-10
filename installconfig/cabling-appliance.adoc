@@ -75,10 +75,8 @@ Although this connection is optional, it is recommended to facilitate support.
 
 . Connect the network ports on the appliance to the appropriate network switches, using TwinAx cables or optical cables and transceivers.
 +
-[NOTE]
-====
 All four network ports must use the same link speed.
-
++
 [cols="2a,2a" options="header"]
 |===
 | SGF6112 link speed (GbE)| Required equipment
@@ -89,8 +87,6 @@ All four network ports must use the same link speed.
 |SFP28 transceiver
 
 |===
-
-====
 
  ** If you plan to use Fixed port bond mode (default), connect the ports to the StorageGRID Grid and Client Networks, as shown in the table.
 +
@@ -463,10 +459,8 @@ Although this connection is optional, it is recommended to facilitate support.
 
 . Connect the network ports on the appliance to the appropriate network switches, using TwinAx cables or optical cables and transceivers.
 +
-[NOTE]
-====
 All four network ports must use the same link speed. See the following table for the equipment required for your hardware and link speed.
-
++
 [cols="2a,2a" options="header"]
 |===
 | SG100 link speed (GbE)| Required equipment
@@ -489,8 +483,6 @@ h| SG1000 link speed (GbE) h| Required equipment
 |100
 |QFSP28 transceiver
 |===
-
-====
 
  ** If you plan to use Fixed port bond mode (default), connect the ports to the StorageGRID Grid and Client Networks, as shown in the table.
 +
