@@ -362,6 +362,6 @@ a|
 
 * link:../installconfig/port-bond-modes-for-sg6000-cn-controller.html[Port bond modes (SG6000-CN controller)]
 
-* link:cabling-appliance-sg6000.html[Cable appliance (SG6000)]
+* link:cabling-appliance.html[Cable appliance]
 
 * link:../installconfig/setting-ip-configuration.html[Configure StorageGRID IP addresses]

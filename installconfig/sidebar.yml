@@ -70,15 +70,7 @@ entries:
       - title: SG100 and SG1000
         url: "/installconfig/installing-appliance-in-cabinet-or-rack-sg100-and-sg1000.html"
     - title: Cable appliance
-      entries:
-      - title: SGF6112
-        url: "/installconfig/cabling-appliance-sgf6112.html"      
-      - title: SG6000
-        url: "/installconfig/cabling-appliance-sg6000.html"
-      - title: SG5700
-        url: "/installconfig/cabling-appliance-sg5700.html"
-      - title: SG100 and SG1000
-        url: "/installconfig/cabling-appliance-sg100-and-sg1000.html"
+      url: "/installconfig/cabling-appliance.html"
     - title: Connect and apply power
       url: "/installconfig/connecting-power-cords-and-applying-power.html"
     - title: View status indicators and codes

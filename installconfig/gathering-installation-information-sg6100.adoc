@@ -240,6 +240,6 @@ image::../media/sgf6112_cn_bmc_management_port.png[SG6100 management port]
 
 .Related information
 
-* link:cabling-appliance-sgf6112.html[Cable appliance (SGF6112)]
+* link:cabling-appliance.html[Cable appliance]
 
 * link:setting-ip-configuration.html[Configure StorageGRID IP addresses]

@@ -304,6 +304,6 @@ image::../media/sg1000_bmc_management_port.png[SG1000 BMC management port]
 
 .Related information
 
-* link:cabling-appliance-sg100-and-sg1000.html[Cable appliance (SG100 and SG1000)]
+* link:cabling-appliance.html[Cable appliance]
 
 * link:setting-ip-configuration.html[Configure StorageGRID IP addresses]

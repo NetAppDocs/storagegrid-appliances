@@ -78,7 +78,7 @@ image::../media/sg6060_rack_retaining_screws.png[SG6060 rack retaining screws]
 +
 IMPORTANT: To prevent degraded performance, don't twist, fold, pinch, or step on the cables.
 +
-link:../installconfig/cabling-appliance-sgf6112.html[Cable appliance (SGF6112)]
+link:../installconfig/cabling-appliance.html[Cable appliance]
 
 . Reconnect the controller power cables.
 +
