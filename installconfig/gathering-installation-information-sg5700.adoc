@@ -295,7 +295,7 @@ a|
 |===
 .Related information
 
-* link:sg5700-appliance-connections.html[Network connections (SG5700)]
+* link:cabling-appliance-sg5700.html[Cable appliance (SG5700)]
 
 * link:port-bond-modes-for-e5700sg-controller-ports.html[Port bond modes (E5700SG controller)]
 

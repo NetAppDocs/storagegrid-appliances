@@ -22,8 +22,6 @@ indexpage:
       links:          
         - title: Determine appliance network connections
           url:  ../installconfig/reviewing-appliance-network-connections.html
-        - title: Network connections (SG5700)
-          url:  ../installconfig/sg5700-appliance-connections.html
         - title: Port bond modes (SGF6112)
           url:  ../installconfig/port-bond-modes-for-sgf6112.html
         - title: Port bond modes (SG6000-CN controller)
