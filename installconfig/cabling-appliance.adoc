@@ -47,7 +47,7 @@ image::../media/sgf6112_connections.png[SGF6112 rear connectors]
 |2
 |Four 10/25-GbE network ports on the appliance
 | 
-|Connect to the Grid Network and the Client Network for StorageGRID. See link:../installconfig/port-bond-modes-for-sgf6112.html[Port bond modes (SGF6112)]
+|Connect to the Grid Network and the Client Network for StorageGRID. See link:gathering-installation-information-sg6100.html#port-bond-modes[Port bond modes (SGF6112)]
 
 |3
 |Admin Network port on the appliance (labeled P1 in the figure)
@@ -168,7 +168,7 @@ image::../media/sg6000_ef570_connections.png[SG6000 to SGF570 Connections]
 |3
 |Four network ports on the SG6000-CN controller
 |10/25-GbE
-|Connect to the Grid Network and the Client Network for StorageGRID. See link:../installconfig/port-bond-modes-for-sg6000-cn-controller.html[Port bond modes (SG6000-CN controller)].
+|Connect to the Grid Network and the Client Network for StorageGRID. See link:../installconfig/gathering-installation-information-sg6000.html#port-bond-modes[Port bond modes (SG6000-CN controller)].
 
 |4
 |Admin Network port on the SG6000-CN controller (labeled P1 in the figure)
@@ -331,7 +331,7 @@ a|
 *Note:* The SFP+ transceivers included with the appliance support 10-GbE link speeds. If you want to use 25-GbE link speeds for the four network ports, you must provide SFP28 transceivers.
 
 a|
-Connect to the Grid Network and the Client Network for StorageGRID. See link:port-bond-modes-for-e5700sg-controller-ports.html[Port bond modes (E5700SG controller)].
+Connect to the Grid Network and the Client Network for StorageGRID. See link:gathering-installation-information-sg5700.html#port-bond-modes[Port bond modes (E5700SG controller)].
 |===
 
 .Steps
@@ -431,7 +431,7 @@ image::../media/sg1000_connections.png[SG1000 port connections]
 |
 * For the SG100: 10/25-GbE
 * For the SG1000: 10/25/40/100-GbE
-|Connect to the Grid Network and the Client Network for StorageGRID.  See link:../installconfig/port-bond-modes-for-sg100-and-sg1000.html[Port bond modes (Port bond modes (SG100 and SG1000)].
+|Connect to the Grid Network and the Client Network for StorageGRID.  See link:../installconfig/gathering-installation-information-sg100-and-sg1000.html#port-bond-modes[Port bond modes (Port bond modes (SG100 and SG1000)].
 
 |3
 |Admin Network port on the appliance (labeled P1 in the figures)

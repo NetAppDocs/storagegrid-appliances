@@ -18,20 +18,10 @@ indexpage:
           url: ../installconfig/unpacking-boxes.html
         - title: Obtain additional equipment and tools
           url: ../installconfig/obtaining-additional-equipment-and-tools.html
-    - title: Determine appliance network connections
-      links:          
-        - title: Determine appliance network connections
-          url:  ../installconfig/reviewing-appliance-network-connections.html
-        - title: Port bond modes (SGF6112)
-          url:  ../installconfig/port-bond-modes-for-sgf6112.html
-        - title: Port bond modes (SG6000-CN controller)
-          url:  ../installconfig/port-bond-modes-for-sg6000-cn-controller.html
-        - title: Port bond modes (E5700SG controller)
-          url:  ../installconfig/port-bond-modes-for-e5700sg-controller-ports.html
-        - title: Port bond modes (SG100 and SG1000)
-          url:  ../installconfig/port-bond-modes-for-sg100-and-sg1000.html
-    - title: Gather installation information
-      links:  
+    - title: Gather network information
+      links:
+        - title: StorageGRID network types
+          url: "/installconfig/reviewing-appliance-network-connections.html"  
         - title: SGF6112
           url:  ../installconfig/gathering-installation-information-sg6100.html
         - title: SG6000

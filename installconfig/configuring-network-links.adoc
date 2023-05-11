@@ -34,10 +34,10 @@ NOTE: The LACP transmit hash policy is layer2+3.
 
 The figures and tables summarize the options for the port bond mode and network bond mode for each appliance. See the following for more information:
 
-* link:port-bond-modes-for-sgf6112.html[Port bond modes (SGF6112)]
-* link:port-bond-modes-for-sg6000-cn-controller.html[Port bond modes (SG6000-CN)]
-* link:port-bond-modes-for-e5700sg-controller-ports.html[Port bond modes (E5700SG)]
-* link:port-bond-modes-for-sg100-and-sg1000.html[Port bond modes (SG1000 and SG100)]
+* link:gathering-installation-information-sg6100.html#port-bond-modes[Port bond modes (SGF6112)]
+* link:gathering-installation-information-sg6000.html#port-bond-modes[Port bond modes (SG6000-CN)]
+* link:gathering-installation-information-sg5700.html#port-bond-modes[Port bond modes (E5700SG)]
+* link:gathering-installation-information-sg100-and-sg1000.html#port-bond-modes[Port bond modes (SG1000 and SG100)]
 
 
 [role="tabbed-block"]
