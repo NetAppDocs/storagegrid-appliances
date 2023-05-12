@@ -38,7 +38,7 @@ image::../media/sg6000_cn_power_supplies.gif[back of SG6000-CN with two power su
 
 . If you are replacing only one power supply, you don't need to shut down the appliance. Go to the <<Unplug_the_power_cord,Unplug the power cord>> step. If you are replacing both power supplies at the same time, do the following before unplugging the power cords:
 
-.. link:shutting-down-sg6000-cn-controller.html[Shut down the appliance].
+.. link:power-sg6000-cn-controller-off-on.html#shut-down-sg6000-cn-controller[Shut down the appliance].
 
 . [[Unplug_the_power_cord, start=2]]Unplug the power cord from each power supply to be replaced.
 . Lift the cam handle on the first supply to be replaced.

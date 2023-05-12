@@ -21,11 +21,7 @@ entries:
     - title: Locate controller in data center
       url: "/sg6000/locating-controller-in-data-center.html"
     - title: Power controller on and off
-      entries:
-      - title: Shut down SG6000-CN controller
-        url: "/sg6000/shutting-down-sg6000-cn-controller.html"
-      - title: Power on SG6000-CN controller and verify operation
-        url: "/sg6000/powering-on-sg6000-cn-controller-and-verifying-operation.html"
+      url: "/sg6000/power-sg6000-cn-controller-off-on.html"
     - title: Change link configuration of SG6000-CN controller
       url: "/sg6000/changing-link-configuration-of-sg6000-cn-controller.html"
 

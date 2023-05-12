@@ -42,4 +42,4 @@ link:removing-fibre-channel-hba.html[Remove Fibre Channel HBA]
 
 link:removing-sg6000-cn-controller-from-cabinet-or-rack.html[Remove SG6000-CN controller from cabinet or rack]
 
-link:shutting-down-sg6000-cn-controller.html[Shut down SG6000-CN controller]
+link:power-sg6000-cn-controller-off-on.html#shut-down-sg6000-cn-controller[Shut down SG6000-CN controller]

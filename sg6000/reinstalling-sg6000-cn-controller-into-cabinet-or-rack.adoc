@@ -46,4 +46,4 @@ link:../installconfig/connecting-power-cords-and-applying-power.html[Connect pow
 
 The controller can be restarted.
 
-link:powering-on-sg6000-cn-controller-and-verifying-operation.html[Power on SG6000-CN controller and verify operation]
+link:power-sg6000-cn-controller-off-on.html#power-on-sg6000-cn-controller-and-verify-operation[Power on SG6000-CN controller and verify operation]
