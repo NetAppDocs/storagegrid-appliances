@@ -22,7 +22,7 @@ link:verify-component-to-replace.html[Verify component to replace]
 +
 link:locating-sgf6112-in-data-center.html[Locate appliance in data center]
 +
-NOTE: A link:shut-down-sgf6112.html[controlled shutdown of the appliance] is required before removing the appliance from the rack.
+NOTE: A link:power-sgf6112-off-on.html#shut-down-the-sgf6112-appliance[controlled shutdown of the appliance] is required before removing the appliance from the rack.
 
 * You have disconnected all cables and removed the appliance cover.
 +

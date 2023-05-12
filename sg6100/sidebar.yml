@@ -12,10 +12,8 @@ entries:
       url: "/sg6100/turning-sgf6112-identify-led-on-and-off.html"
     - title: Locate appliance in data center
       url: "/sg6100/locating-sgf6112-in-data-center.html"
-    - title: Shut down the appliance
-      url: "/sg6100/shut-down-sgf6112.html"
-    - title: Power on SGF6112 and verify operation
-      url: "/sg6100/powering-on-sgf6112-and-verifying-operation.html"      
+    - title: Power the appliance off and on
+      url: "/sg6100/power-sgf6112-off-on.html"      
     - title: Change link configuration
       url: "/sg6100/changing-link-configuration-of-sgf6112-appliance.html"
 
