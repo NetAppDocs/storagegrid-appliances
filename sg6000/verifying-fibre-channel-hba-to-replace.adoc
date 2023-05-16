@@ -35,9 +35,7 @@ image::../media/nodes_page_hardware_tab_for_appliance_verify_HBA.png[Appliance s
 
 . After you locate the node where the Fibre Channel HBA needs to be replaced, write down the Compute controller BMC IP address listed the StorageGRID Appliance section.
 +
-You can use this IP address to turn on the compute controller identify LED, to help you locate the appliance in the data center.
-+
-link:turning-controller-identify-led-on-and-off.html[Turn the controller identify LED on and off]
+You can use this IP address to link:turning-controller-identify-led-on-and-off.html[turn on the compute controller identify LED], to help you locate the appliance in the data center.
 
 .Related information
 

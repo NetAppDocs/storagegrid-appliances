@@ -56,6 +56,4 @@ image::../media/nodes_page_hardware_tab_appliance_verify_nic.png[Appliance secti
 
 . After you locate the node where the component needs to be replaced, write down the appliance BMC IP address listed the StorageGRID Appliance section.
 +
-To help you locate the appliance in the data center, you can use the BMC IP address to turn on the appliance identify LED.
-+
-link:turning-sgf6112-identify-led-on-and-off.html[Turn the appliance identify LED on and off]
+To help you locate the appliance in the data center, you can use the BMC IP address to link:turning-sgf6112-identify-led-on-and-off.html[turn on the appliance identify LED].

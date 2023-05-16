@@ -29,7 +29,7 @@ image::../media/sgf6112_front_panel_service_led_on.png[Front identify LED - on]
 +
 NOTE: If a bezel is installed on the controller, it might be difficult to see the front identify LED.
 +
-. Turn the LED on and off as needed.
+.  Turn the identify LED on and off as needed.
 
 .Related information
 
