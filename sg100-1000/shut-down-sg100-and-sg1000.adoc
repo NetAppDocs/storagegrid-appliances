@@ -13,9 +13,7 @@ Shut down the services appliance to perform hardware maintenance.
 
 .Before you begin
 
-* You have physically located the services appliance requiring maintenance in the data center.
-+
-link:locating-controller-in-data-center.html[Locating the controller in a data center].
+* You have physically link:locating-controller-in-data-center.html[located the services appliance] requiring maintenance in the data center.
 
 .About this task
 

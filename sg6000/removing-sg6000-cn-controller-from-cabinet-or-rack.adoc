@@ -18,9 +18,7 @@ Remove the SG6000-CN controller from a cabinet or rack to access the top cover o
 +
 link:locating-controller-in-data-center.html[Locate controller in data center]
 
-* You have shut down the SG6000-CN controller.
-+
-link:power-sg6000-cn-controller-off-on.html#shut-down-sg6000-cn-controller[Shut down SG6000-CN controller]
+* You have link:power-sg6000-cn-controller-off-on.html#shut-down-sg6000-cn-controller[shut down the SG6000-CN controller].
 +
 CAUTION: Don't shut down the controller using the power switch.
 
