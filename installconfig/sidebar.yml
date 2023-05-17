@@ -79,8 +79,8 @@ entries:
         url: "/installconfig/verifying-network-connections.html"
       - title: Verify port-level network connections
         url: "/installconfig/verifying-port-level-network-connections.html"
-      - title: 'Set up SANtricity System Manager (SG6000 and SG5700)'
-        url: "/installconfig/accessing-and-configuring-santricity-system-manager.html"
+    - title: 'Set up SANtricity System Manager (SG6000 and SG5700)'
+      url: "/installconfig/accessing-and-configuring-santricity-system-manager.html"
     - title: 'Configure BMC interface (SGF6112, SG6000, SG100, and SG1000)'
       entries:
       - title: Overview
