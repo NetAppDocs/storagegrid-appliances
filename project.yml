@@ -29,9 +29,9 @@ sidebar:
       url: "/landing-appl-install/index.html"
       entries:
       - section: installconfig
-      - section: commonhardware
     - title: Maintain appliance hardware
       entries:
+      - section: commonhardware
       - section: sg6100
       - section: sg6000
       - section: sg5700
