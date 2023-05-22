@@ -442,7 +442,7 @@ The port on the left is connected to the Admin Network. The port on the right is
 
 .Related information
 
-* link:../installconfig/controllers-in-sg6000-appliances.html[SG6000 controllers]
+* link:../installconfig/hardware-description-sg6000.html#sg6000-controllers[SG6000 controllers]
 
 * link:../installconfig/reviewing-appliance-network-connections.html[Determine appliance network connections]
 
