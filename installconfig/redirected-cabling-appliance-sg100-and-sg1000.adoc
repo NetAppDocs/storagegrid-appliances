@@ -1,0 +1,4 @@
+---
+permalink: installconfig/cabling-appliance-sg100-and-sg1000.html
+redirect: installconfig/cabling-appliance.html
+---

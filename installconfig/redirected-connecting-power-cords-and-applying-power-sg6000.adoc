@@ -1,0 +1,4 @@
+---
+permalink: installconfig/connecting-power-cords-and-applying-power-sg6000.html
+redirect: installconfig/connecting-power-cords-and-applying-power.html
+---

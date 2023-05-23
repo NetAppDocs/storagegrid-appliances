@@ -1,0 +1,4 @@
+---
+permalink: installconfig/controllers-in-sg6000-appliances.html
+redirect: installconfig/hardware-description-sg6000.html#sg6000-controllers
+---

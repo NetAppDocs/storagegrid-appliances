@@ -1,0 +1,4 @@
+---
+permalink: installconfig/port-bond-modes-for-sg6000-cn-controller.html
+redirect: installconfig/gathering-installation-information-sg6000.html#port-bond-modes
+---

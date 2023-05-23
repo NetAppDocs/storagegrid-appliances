@@ -1,0 +1,4 @@
+---
+permalink: installconfig/cabling-appliance-sg6000.html
+redirect: installconfig/cabling-appliance.html
+---

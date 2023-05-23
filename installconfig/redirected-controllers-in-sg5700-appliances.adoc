@@ -1,0 +1,4 @@
+---
+permalink: installconfig/controllers-in-sg5700-appliances.html
+redirect: installconfig/hardware-description-sg5700.html#sg5700-controllers
+---

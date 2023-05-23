@@ -1,0 +1,4 @@
+---
+permalink: installconfig/cabling-appliance-sg5700.html
+redirect: installconfig/cabling-appliance.html
+---
