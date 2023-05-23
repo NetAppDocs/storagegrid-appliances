@@ -12,6 +12,7 @@ sidebar:
     - title: Quick start for StorageGRID
       url: "/quick-start.html"
     - title: Learn about StorageGRID appliances
+      url: "/landing-learn-hdwr/index.html"
       entries:
       - title: SGF6112 storage appliance
         url: "/installconfig/hardware-description-sg6100.html"
