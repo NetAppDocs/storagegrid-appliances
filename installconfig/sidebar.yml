@@ -31,6 +31,7 @@ entries:
   - title: Overview of installation REST APIs
     url: "/installconfig/overview-of-installation-rest-apis.html"
   - title: Install hardware
+    url: "/landing-install-hdwr/index.html"
     entries:
     - title: Register hardware
       url: "/installconfig/registering-hardware.html"
