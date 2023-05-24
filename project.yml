@@ -21,9 +21,8 @@ sidebar:
       - title: SG5700 storage appliances
         url: "/installconfig/hardware-description-sg5700.html"
       - title: SG100 and SG1000 services appliances
-        url: "/installconfig/hardware-description-sg100-and-1000.html"   
-    - title: Install appliance hardware
-      url: "/landing-appl-install/index.html"
+        url: "/installconfig/hardware-description-sg100-and-1000.html"
+    - url: "/landing-appl-install/index.html"
       entries:
       - section: installconfig
     - title: Maintain appliance hardware

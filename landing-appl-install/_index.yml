@@ -34,9 +34,12 @@ indexpage:
       links:
       - title: Register hardware
         url: ../installconfig/registering-hardware.html
+      - title: Install appliance
+        url: "/landing-install-hdwr/index.html"
       - title: Set up hardware
         url: ../installconfig/configuring-hardware.html
-      - title: Deploy appliance Storage Node
+      - title: Deploy storage appliance
         url: ../installconfig/deploying-appliance-storage-node.html
       - title: Deploy services appliance node
         url: ../installconfig/deploying-services-appliance-node.html
+    
