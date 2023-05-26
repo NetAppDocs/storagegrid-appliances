@@ -9,6 +9,8 @@ sidebar:
   entries:
     - title: StorageGRID Appliance Docs
       url: "/index.html"
+    - title: Get started
+      url: "/landing-get-started/index.html"
       entries:
       - title: Learn about StorageGRID appliances
         url: "/landing-learn-hdwr/index.html"
@@ -21,7 +23,7 @@ sidebar:
           url: "/installconfig/hardware-description-sg5700.html"
         - title: SG100 and SG1000 services appliances
           url: "/installconfig/hardware-description-sg100-and-1000.html"
-      - title: Quick start for StorageGRID install
+      - title: Quick Start for StorageGRID install
         url: "/quick-start.html"
     - section: installconfig
     - title: Maintain appliance hardware
