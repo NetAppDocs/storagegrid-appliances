@@ -9,19 +9,20 @@ sidebar:
   entries:
     - title: StorageGRID Appliance Docs
       url: "/index.html"
-    - title: Quick start for StorageGRID
-      url: "/quick-start.html"
-    - title: Learn about StorageGRID appliances
-      url: "/landing-learn-hdwr/index.html"
       entries:
-      - title: SGF6112 storage appliance
-        url: "/installconfig/hardware-description-sg6100.html"
-      - title: SG6000 storage appliances
-        url: "/installconfig/hardware-description-sg6000.html"
-      - title: SG5700 storage appliances
-        url: "/installconfig/hardware-description-sg5700.html"
-      - title: SG100 and SG1000 services appliances
-        url: "/installconfig/hardware-description-sg100-and-1000.html"
+      - title: Learn about StorageGRID appliances
+        url: "/landing-learn-hdwr/index.html"
+        entries:
+        - title: SGF6112 storage appliance
+          url: "/installconfig/hardware-description-sg6100.html"
+        - title: SG6000 storage appliances
+          url: "/installconfig/hardware-description-sg6000.html"
+        - title: SG5700 storage appliances
+          url: "/installconfig/hardware-description-sg5700.html"
+        - title: SG100 and SG1000 services appliances
+          url: "/installconfig/hardware-description-sg100-and-1000.html"
+      - title: Quick start for StorageGRID install
+        url: "/quick-start.html"
     - section: installconfig
     - title: Maintain appliance hardware
       entries:
