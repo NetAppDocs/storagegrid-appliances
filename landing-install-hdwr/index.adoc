@@ -4,7 +4,7 @@ sidebar: sidebar
 permalink: landing-install-hdwr/index.html
 summary: Install appliance hardware at your site.
 ---
-= Install an appliance
+= Install appliance hardware
 :hardbreaks:
 :linkattrs:
 :imagesdir: ./media/

@@ -1,5 +1,6 @@
 section: installconfig
-title: Install appliance hardware
+title: Install appliance
+url: "/landing-appl-install/index.html"
 entries:
   - title: Quick start
     pdf-filename: Install StorageGRID appliance hardware
@@ -30,7 +31,7 @@ entries:
     url: "/installconfig/automating-configuration-of-storagegrid.html"
   - title: Overview of installation REST APIs
     url: "/installconfig/overview-of-installation-rest-apis.html"
-  - title: Install hardware
+  - title: Install appliance hardware
     url: "/landing-install-hdwr/index.html"
     entries:
     - title: Register hardware
