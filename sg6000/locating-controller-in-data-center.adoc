@@ -36,6 +36,6 @@ image::../media/sg6060_front_panel_service_led_on.jpg[Front identify LED - on]
 
 link:removing-fibre-channel-hba.html[Remove Fibre Channel HBA]
 
-link:removing-sg6000-cn-controller-from-cabinet-or-rack.html[Remove SG6000-CN controller from cabinet or rack]
+link:reinstalling-sg6000-cn-controller-into-cabinet-or-rack.html#remove-sg6000-cn-controller-from-cabinet-or-rack[Remove SG6000-CN controller from cabinet or rack]
 
 link:power-sg6000-cn-controller-off-on.html#shut-down-sg6000-cn-controller[Shut down SG6000-CN controller]

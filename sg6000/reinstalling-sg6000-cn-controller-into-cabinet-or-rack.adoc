@@ -1,14 +1,55 @@
 ---
 permalink: sg6000/reinstalling-sg6000-cn-controller-into-cabinet-or-rack.html
 sidebar: sidebar
-keywords: storagegrid, sg6000, storage node, storage appliance, install, installing, installation, cabinet, rack, controller, sg6000-cn 
-summary: 'Reinstall the controller into a cabinet or rack when hardware maintenance is complete.'
+keywords: storagegrid, sg6000, storage node, storage appliance, install, installing, installation, cabinet, rack, controller, sg6000-cn, remove, removing, removal
+summary: 'Remove the SG6000-CN controller from a cabinet or rack to access the top cover or to move the appliance to a different location, then reinstall the controller into a cabinet or rack when hardware maintenance is complete.'
 ---
-= Reinstall SG6000-CN controller into cabinet or rack
+
+= Relocate SG6000-CN controller in cabinet or rack
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
+Remove the SG6000-CN controller from a cabinet or rack to access the top cover or to move the appliance to a different location, then reinstall the controller into a cabinet or rack when hardware maintenance is complete.
+
+== Remove SG6000-CN controller from cabinet or rack
+
+Remove the SG6000-CN controller from a cabinet or rack to access the top cover or to move the controller to a different location.
+
+.Before you begin
+
+* You have labels to identify each cable that is connected to the SG6000-CN controller.
+* You have physically located the SG6000-CN controller where you are performing maintenance in the data center.
++
+link:locating-controller-in-data-center.html[Locate controller in data center]
+
+* You have link:power-sg6000-cn-controller-off-on.html#shut-down-sg6000-cn-controller[shut down the SG6000-CN controller].
++
+CAUTION: Don't shut down the controller using the power switch.
+
+.Steps
+
+. Label and then disconnect the controller power cables.
+. Wrap the strap end of the ESD wristband around your wrist, and secure the clip end to a metal ground to prevent static discharge.
+. Label and then disconnect the controller data cables and any SFP+ or SFP28 transceivers.
++
+IMPORTANT: To prevent degraded performance, don't twist, fold, pinch, or step on the cables.
+
+. Loosen the two captive screws on the controller front panel.
++
+image::../media/sg6060_rack_retaining_screws.png[SG6060 rack retaining screws]
+
+. Slide the SG6000-CN controller forward out of the rack until the mounting rails are fully extended and you hear the latches on both sides click.
++
+The controller top cover is accessible.
+
+. Optional: If you are fully removing the controller from the cabinet or rack, follow the instructions for the rail kit to remove the controller from the rails.
+
+include::../_include/fru-statement.adoc[]
+
+
+== Reinstall SG6000-CN controller into cabinet or rack
+
 Reinstall the controller into a cabinet or rack when hardware maintenance is complete.
 
 .Before you begin
@@ -44,6 +85,4 @@ link:../installconfig/connecting-power-cords-and-applying-power.html[Connect pow
 
 .After you finish
 
-The controller can be restarted.
-
-link:power-sg6000-cn-controller-off-on.html#power-on-sg6000-cn-controller-and-verify-operation[Power on SG6000-CN controller and verify operation]
+The controller can be restarted link:power-sg6000-cn-controller-off-on.html#power-on-sg6000-cn-controller-and-verify-operation[restarted].

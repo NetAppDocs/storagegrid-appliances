@@ -19,7 +19,7 @@ Remove the controller cover to access internal components for maintenance.
 
 Remove the controller from the cabinet or rack to access the top cover.
 
-link:removing-sg6000-cn-controller-from-cabinet-or-rack.html[Remove SG6000-CN controller from cabinet or rack]
+link:reinstalling-sg6000-cn-controller-into-cabinet-or-rack.html#remove-sg6000-cn-controller-from-cabinet-or-rack[Remove SG6000-CN controller from cabinet or rack]
 
 .Steps
 
