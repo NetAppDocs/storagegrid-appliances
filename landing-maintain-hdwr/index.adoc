@@ -1,0 +1,10 @@
+---
+layout: landing-page
+sidebar: sidebar
+permalink: landing-maintain-hdwr/index.html
+summary: Maintain the hardware for your storage or services appliance.
+---
+= Maintain appliance hardware
+:hardbreaks:
+:linkattrs:
+:imagesdir: ./media/

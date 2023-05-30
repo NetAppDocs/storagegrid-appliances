@@ -1,0 +1,28 @@
+indexpage:
+   tiles:
+    - title: General configuration maintanance
+      links:
+        - title: Place appliance in maintanance mode
+          url: "../installconfig/hardware-description-sg6100.html"
+        - title: Change MTU setting
+          url: "../installconfig/hardware-description-sg6000.html"
+        - title: Check DNS configuration
+          url: "../installconfig/hardware-description-sg5700.html"
+        - title: Update MAC address
+          url: "../installconfig/hardware-description-sg6100.html"
+        - title: Monitor node encryption
+          url: "../installconfig/hardware-description-sg6000.html"
+        - title: Node cloning
+          url: "../installconfig/hardware-description-sg5700.html"
+    - title: Appliance specific maintanance
+      links:
+        - title: SGF6112 specific maintanance
+          url: "../landing-maintain-sgf6112/index.html"
+        - title: SG6000 specific maintanance
+          url: "../landing-maintain-sg6000/index.html"
+        - title: SG5700 specific maintanance
+          url: "../landing-maintain-sg5700/index.html"
+        - title: SG5600 specific maintanance
+          url: "../sg5600/index.html"         
+        - title: SG1000 and SG100 specific maintanance
+          url: "../landing-maintain-sg1000-100/index.html"

@@ -1,0 +1,10 @@
+---
+layout: landing-page
+sidebar: sidebar
+permalink: landing-maintain-sg6000/index.html
+summary: Maintain the hardware for your SG6000 storage appliance.
+---
+= Maintain hardware for SG6000 storage appliance
+:hardbreaks:
+:linkattrs:
+:imagesdir: ./media/
