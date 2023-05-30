@@ -44,4 +44,4 @@ include::../_include/fru-statement.adoc[]
 
 .Related information
 
-link:removing-sg6000-cn-controller-cover.html[Remove SG6000-CN controller cover]
+link:reinstalling-sg6000-cn-controller-cover.html#remove-sg6000-cn-controller-cover[Remove SG6000-CN controller cover]

@@ -48,11 +48,7 @@ entries:
       - title: Reinstall SG6000-CN controller into cabinet or rack
         url: "/sg6000/reinstalling-sg6000-cn-controller-into-cabinet-or-rack.html"
     - title: Replace controller cover
-      entries:
-      - title: Remove SG6000-CN controller cover
-        url: "/sg6000/removing-sg6000-cn-controller-cover.html"
-      - title: Reinstall SG6000-CN controller cover
-        url: "/sg6000/reinstalling-sg6000-cn-controller-cover.html"
+      url: "/sg6000/reinstalling-sg6000-cn-controller-cover.html"
     - title: Replace Fibre Channel HBA in SG6000-CN controller
       entries:
       - title: Verify Fibre Channel HBA to replace

@@ -25,7 +25,7 @@ CAUTION: A controlled shutdown is required before you remove the controller from
 
 * You have link:removing-sg6000-cn-controller-from-cabinet-or-rack.html[removed the controller from the cabinet or rack].
 
-* You have link:removing-sg6000-cn-controller-cover.html[removed the controller cover].
+* You have link:reinstalling-sg6000-cn-controller-cover.html#remove-sg6000-cn-controller-cover[removed the controller cover].
 
 
 .About this task
