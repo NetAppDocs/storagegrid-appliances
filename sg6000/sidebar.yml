@@ -46,11 +46,5 @@ entries:
     - title: Replace controller cover
       url: "/sg6000/reinstalling-sg6000-cn-controller-cover.html"
     - title: Replace Fibre Channel HBA in SG6000-CN controller
-      entries:
-      - title: Verify Fibre Channel HBA to replace
-        url: "/sg6000/verifying-fibre-channel-hba-to-replace.html"
-      - title: Remove Fibre Channel HBA
-        url: "/sg6000/removing-fibre-channel-hba.html"
-      - title: Reinstall Fibre Channel HBA
-        url: "/sg6000/reinstalling-fibre-channel-hba.html"
+      url: "/sg6000/reinstalling-fibre-channel-hba.html"
 
