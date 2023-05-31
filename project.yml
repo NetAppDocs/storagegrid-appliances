@@ -26,6 +26,7 @@ sidebar:
         url: "/quick-start.html"
     - section: installconfig
     - title: Maintain appliance hardware
+      url: "/landing-maintain-hdwr/index.html"
       entries:
       - section: commonhardware
       - section: sg6100
