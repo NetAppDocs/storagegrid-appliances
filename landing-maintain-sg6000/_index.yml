@@ -16,12 +16,14 @@ indexpage:
           url: "../sg6000/upgrading-drive-firmware-using-santricity-system-manager.html"
     - title: SG6000 rack procedures
       links:
-        - title: Add expansion shelf
-          url: "../sg6000/adding-expansion-shelf-to-deployed-sg6060.html"
         - title: Replace controller in rack
           url: "../sg6000/reinstalling-sg6000-cn-controller-into-cabinet-or-rack.html"
+        - title: Add expansion shelf
+          url: "../sg6000/adding-expansion-shelf-to-deployed-sg6060.html"
     - title: SG6000 hardware maintenance
       links:
+        - title: Replace controller cover
+          url: "../sg6000/reinstalling-sg6000-cn-controller-cover.html"
         - title: Replace storage controller
           url: "../sg6000/replacing-storage-controller-sg6000.html"
         - title: Replace storage controller components
@@ -34,6 +36,4 @@ indexpage:
           url: "../sg6000/replacing-one-or-both-power-supplies-in-sg6000-cn-controller.html"
         - title: Replace Fibre Channel HBA
           url: "../sg6000/reinstalling-fibre-channel-hba.html"
-        - title: Replace controller cover
-          url: "../sg6000/reinstalling-sg6000-cn-controller-cover.html"
           

@@ -20,6 +20,8 @@ indexpage:
           url: "../sg6100/reinstalling-sgf6112-into-cabinet-or-rack.html"
     - title: SGF6112 hardware maintenance
       links:
+        - title: Replace cover
+          url: "../sg6100/reinstalling-sgf6112-cover.html"
         - title: Replace power supply
           url: "../sg6100/replacing-one-or-more-power-supplies-in-sgf6112-appliance.html"
         - title: Replace fan
@@ -30,5 +32,3 @@ indexpage:
           url: "../sg6100/replace-nic-in-sgf6112.html"
         - title: Replace CMOS battery
           url: "../sg6100/replace-cmos-in-sgf6112.html"
-        - title: Replace cover
-          url: "../sg6100/reinstalling-sgf6112-cover.html"

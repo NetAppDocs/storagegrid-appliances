@@ -4,7 +4,7 @@ sidebar: sidebar
 permalink: landing-maintain-sg1000-100/index.html
 summary: Maintain the hardware for your SG1000 and SG100 services appliance.
 ---
-= Maintain hardware for SG1000 and SG100 services appliance
+= Maintain SG1000 and SG100 services appliance hardware
 :hardbreaks:
 :linkattrs:
 :imagesdir: ./media/

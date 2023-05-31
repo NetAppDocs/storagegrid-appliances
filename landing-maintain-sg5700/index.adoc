@@ -4,7 +4,7 @@ sidebar: sidebar
 permalink: landing-maintain-sg5700/index.html
 summary: Maintain the hardware for your SG5700 storage appliance.
 ---
-= Maintain hardware for SG5700 storage appliance
+= Maintain SG5700 storage appliance hardware
 :hardbreaks:
 :linkattrs:
 :imagesdir: ./media/

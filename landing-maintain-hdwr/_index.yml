@@ -1,8 +1,8 @@
 indexpage:
    tiles:
-    - title: General configuration maintanance
+    - title: General configuration maintenance
       links:
-        - title: Place appliance in maintanance mode
+        - title: Place appliance in maintenance mode
           url: "../installconfig/hardware-description-sg6100.html"
         - title: Change MTU setting
           url: "../installconfig/hardware-description-sg6000.html"
@@ -14,15 +14,15 @@ indexpage:
           url: "../installconfig/hardware-description-sg6000.html"
         - title: Node cloning
           url: "../installconfig/hardware-description-sg5700.html"
-    - title: Appliance specific maintanance
+    - title: Appliance specific maintenance
       links:
-        - title: SGF6112 specific maintanance
+        - title: SGF6112
           url: "../landing-maintain-sgf6112/index.html"
-        - title: SG6000 specific maintanance
+        - title: SG6000
           url: "../landing-maintain-sg6000/index.html"
-        - title: SG5700 specific maintanance
+        - title: SG5700
           url: "../landing-maintain-sg5700/index.html"
-        - title: SG5600 specific maintanance
+        - title: SG5600
           url: "../sg5600/index.html"         
-        - title: SG1000 and SG100 specific maintanance
+        - title: SG1000 and SG100
           url: "../landing-maintain-sg1000-100/index.html"
