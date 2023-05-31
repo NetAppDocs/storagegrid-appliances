@@ -3,17 +3,17 @@ indexpage:
     - title: General configuration maintenance
       links:
         - title: Place appliance in maintenance mode
-          url: "../installconfig/hardware-description-sg6100.html"
+          url: "../commonhardware/placing-appliance-into-maintenance-mode.html"
         - title: Change MTU setting
-          url: "../installconfig/hardware-description-sg6000.html"
+          url: "../commonhardware/changing-mtu-setting.html"
         - title: Check DNS configuration
-          url: "../installconfig/hardware-description-sg5700.html"
+          url: "../commonhardware/checking-dns-server-configuration.html"
         - title: Update MAC address
-          url: "../installconfig/hardware-description-sg6100.html"
+          url: "../commonhardware/locate-mac-address.html"
         - title: Monitor node encryption
-          url: "../installconfig/hardware-description-sg6000.html"
+          url: "../commonhardware/monitoring-node-encryption-in-maintenance-mode.html"
         - title: Node cloning
-          url: "../installconfig/hardware-description-sg5700.html"
+          url: "../commonhardware/appliance-node-cloning-procedure.html"
     - title: Appliance specific maintenance
       links:
         - title: SGF6112
