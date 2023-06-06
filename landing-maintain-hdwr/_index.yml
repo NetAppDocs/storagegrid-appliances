@@ -13,8 +13,9 @@ indexpage:
         - title: Monitor node encryption
           url: "../commonhardware/monitoring-node-encryption-in-maintenance-mode.html"
     - title: Node cloning
+      links:
         - title: Node cloning requirements
-          url: "../commonhardware/considerations-and-requirements-for-appliance-node-cloning.html
+          url: "../commonhardware/considerations-and-requirements-for-appliance-node-cloning.html"
         - title: Clone appliance node
           url: "../commonhardware/appliance-node-cloning-procedure.html"
     - title: Appliance-specific maintenance
