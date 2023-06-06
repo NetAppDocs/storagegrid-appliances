@@ -1,6 +1,6 @@
 indexpage:
    tiles:
-    - title: SGF6112 maintenance configuration
+    - title: Frequently performed procedures
       links:
         - title: Turn location LED on or off
           url: "../sg6100/turning-sgf6112-identify-led-on-and-off.html"
@@ -12,13 +12,13 @@ indexpage:
           url: "../sg6100/changing-link-configuration-of-sgf6112-appliance.html" 
         - title: Verify component to replace
           url: "../sg6100/verify-component-to-replace.html"
-    - title: SGF6112 rack procedures
+    - title: Rack procedures
       links:
         - title: Replace SGF6112 appliance
           url: "../sg6100/replacing-sgf6112-appliance.html"
         - title: Relocate SGF6112 in a rack
           url: "../sg6100/reinstalling-sgf6112-into-cabinet-or-rack.html"
-    - title: SGF6112 hardware maintenance
+    - title: Hardware procedures
       links:
         - title: Replace cover
           url: "../sg6100/reinstalling-sgf6112-cover.html"

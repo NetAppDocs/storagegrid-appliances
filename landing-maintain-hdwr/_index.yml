@@ -1,6 +1,6 @@
 indexpage:
    tiles:
-    - title: General configuration maintenance
+    - title: Frequently performed procedures
       links:
         - title: Place appliance in maintenance mode
           url: "../commonhardware/placing-appliance-into-maintenance-mode.html"
@@ -12,9 +12,12 @@ indexpage:
           url: "../commonhardware/locate-mac-address.html"
         - title: Monitor node encryption
           url: "../commonhardware/monitoring-node-encryption-in-maintenance-mode.html"
-        - title: Node cloning
+    - title: Node cloning
+        - title: Node cloning requirements
+          url: "../commonhardware/considerations-and-requirements-for-appliance-node-cloning.html
+        - title: Clone appliance node
           url: "../commonhardware/appliance-node-cloning-procedure.html"
-    - title: Appliance specific maintenance
+    - title: Appliance-specific maintenance
       links:
         - title: SGF6112
           url: "../landing-maintain-sgf6112/index.html"

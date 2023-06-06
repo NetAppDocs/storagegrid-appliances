@@ -14,7 +14,7 @@ sidebar:
       entries:
       - title: Learn about StorageGRID appliances
         entries:
-        - title: SGF6112 storage appliance
+        - title: SGF6112 storage appliances
           url: "/installconfig/hardware-description-sg6100.html"
         - title: SG6000 storage appliances
           url: "/installconfig/hardware-description-sg6000.html"
@@ -22,13 +22,22 @@ sidebar:
           url: "/installconfig/hardware-description-sg5700.html"
         - title: SG100 and SG1000 services appliances
           url: "/installconfig/hardware-description-sg100-and-1000.html"
-      - title: Quick Start for StorageGRID install
+      - title: Quick start for StorageGRID install
         url: "/quick-start.html"
     - section: installconfig
     - title: Maintain appliance hardware
       url: "/landing-maintain-hdwr/index.html"
       entries:
       - section: commonhardware
+      - title: Appliance node cloning
+        entries:
+        - title: Overview
+          pdf-filename: Appliance node cloning
+          url: "/commonhardware/how-appliance-node-cloning-works.html"
+        - title: Considerations and requirements for appliance node cloning
+          url: "/commonhardware/considerations-and-requirements-for-appliance-node-cloning.html"
+        - title: Clone appliance node
+          url: "/commonhardware/appliance-node-cloning-procedure.html"
       - section: sg6100
       - section: sg6000
       - section: sg5700

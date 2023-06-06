@@ -2,7 +2,7 @@ indexpage:
    tiles:
     - title: Quick start
       links:
-        - title: Quick start for StorageGRID installation
+        - title: Quick start for appliance installation
           url: ../installconfig/index.html
         - title: Automate appliance installation and configuration
           url: ../installconfig/automating-appliance-installation-and-configuration.html
@@ -38,7 +38,7 @@ indexpage:
         url: "../landing-install-hdwr/index.html"
       - title: Set up hardware
         url: ../installconfig/configuring-hardware.html
-      - title: Deploy storage appliance
+      - title: Deploy storage appliance node
         url: ../installconfig/deploying-appliance-storage-node.html
       - title: Deploy services appliance node
         url: ../installconfig/deploying-services-appliance-node.html

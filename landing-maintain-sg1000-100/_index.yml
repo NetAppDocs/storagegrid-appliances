@@ -1,6 +1,6 @@
 indexpage:
    tiles:
-    - title: SG1000 and SG100 maintenance configuration
+    - title: Frequently performed procedures
       links:
         - title: Turn location LED on or off
           url: "../sg100-1000/turning-controller-identify-led-on-and-off.html"
@@ -10,11 +10,11 @@ indexpage:
           url: "../sg100-1000/shut-down-sg100-and-sg1000.html"
         - title: Change link configuration
           url: "../sg100-1000/changing-link-configuration-of-services-appliance.html"
-    - title: SG1000 and SG100 rack procedures
+    - title: Rack procedures
       links:
         - title: Replace appliance
           url: "../sg100-1000/replacing-services-appliance.html"
-    - title: SG1000 and SG100 hardware maintenance
+    - title: Hardware procedures
       links:
         - title: Replace power supply
           url: "../sg100-1000/replacing-one-or-more-power-supplies-in-services-appliance.html"

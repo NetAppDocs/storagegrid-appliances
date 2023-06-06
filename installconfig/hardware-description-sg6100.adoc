@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storagegrid, sg6100, sgf6112, storage node, storage appliance, appliance models, appliance features, specifications
 summary: 'The StorageGRID SGF6112 appliance operates as a Storage Node in a StorageGRID system. The appliance can be used in a hybrid grid environment that combines appliance Storage Nodes and virtual (software-based) Storage Nodes.'
 ---
-= SGF6112 appliance: Overview
+= SGF6112 appliances: Overview
 :icons: font
 :imagesdir: ../media/
 

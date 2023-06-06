@@ -2,7 +2,7 @@ indexpage:
    tiles:
     - title: Learn about storage appliances
       links:
-        - title: SGF6112 storage appliance
+        - title: SGF6112 storage appliances
           url: "../installconfig/hardware-description-sg6100.html"
         - title: SG6000 storage appliances
           url: "../installconfig/hardware-description-sg6000.html"
@@ -14,5 +14,7 @@ indexpage:
           url: "../installconfig/hardware-description-sg100-and-1000.html"
     - title: Get started
       links:
-        - title: Quick start for StorageGRID installation
+        - title: Learn about StorageGRID
+          url: "https://review.docs.netapp.com/us-en/storagegrid-118_main/primer/index.html"
+        - title: Quick start for appliance installation
           url: ../installconfig/index.html
