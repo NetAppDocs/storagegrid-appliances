@@ -15,6 +15,6 @@ indexpage:
     - title: Get started
       links:
         - title: Learn about StorageGRID
-          url: "https://review.docs.netapp.com/us-en/storagegrid-118_main/primer/index.html"
+          url: https://review.docs.netapp.com/us-en/storagegrid-118_main/primer/index.html
         - title: Quick start for appliance installation
           url: ../installconfig/index.html

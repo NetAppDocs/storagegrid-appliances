@@ -4,9 +4,9 @@ indexpage:
     - title: Get started
       links: 
       - title: StorageGRID quick start
-        url: "https://review.docs.netapp.com/us-en/storagegrid-118_main/primer/index.html"
+        url: https://review.docs.netapp.com/us-en/storagegrid-118_main/primer/index.html
       - title: StorageGRID installation quick start
-        url: "/index.html" 
+        url: "/quick-start.html" 
     - title: Appliance overviews
       links:        
       - title: SGF6112 (New)
