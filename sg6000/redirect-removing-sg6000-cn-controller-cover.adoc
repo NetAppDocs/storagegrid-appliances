@@ -1,0 +1,5 @@
+---
+permalink: sg6000/removing-sg6000-cn-controller-cover.html
+redirect: sg6000/reinstalling-sg6000-cn-controller-cover.html#remove-sg6000-cn-controller-cover
+---
+

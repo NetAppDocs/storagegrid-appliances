@@ -88,4 +88,4 @@ include::../_include/fru-statement.adoc[]
 
 link:../installconfig/viewing-status-indicators.html[View status indicators]
 
-link:../installconfig/viewing-boot-up-codes-for-appliance-sg100-and-sg1000.html[View boot-up codes for appliance]
+link:../installconfig/troubleshooting-hardware-installation-sg100-and-sg1000.html#view-boot-codes[View boot-up codes for appliance]

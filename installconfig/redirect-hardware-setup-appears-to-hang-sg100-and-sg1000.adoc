@@ -1,0 +1,4 @@
+---
+permalink: installconfig/hardware-setup-appears-to-hang-sg100-and-sg1000.html
+redirect: installconfig/troubleshooting-hardware-installation-sg100-and-sg1000.html#hardware-setup-hangs
+---

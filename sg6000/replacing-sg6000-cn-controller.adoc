@@ -87,4 +87,4 @@ link:../installconfig/sg6000-cn-installing-into-cabinet-or-rack.html[Install SG6
 
 link:../installconfig/viewing-status-indicators.html[View status indicators]
 
-link:../installconfig/viewing-boot-up-codes-for-sg6000-cn-controller.html[View boot-up codes for SG6000-CN controller]
+link:../installconfig/troubleshooting-hardware-installation.html#view-boot-codes[View boot-up codes for SG6000-CN controller]

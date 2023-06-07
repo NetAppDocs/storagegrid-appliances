@@ -1,0 +1,4 @@
+---
+permalink: installconfig/viewing-error-codes-for-sg6000-cn-controller.html
+redirect: installconfig/troubleshooting-hardware-installation.html#error-codes
+---

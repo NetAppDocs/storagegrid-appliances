@@ -1,0 +1,4 @@
+---
+permalink: installconfig/hardware-setup-appears-to-hang.html
+redirect: installconfig/troubleshooting-hardware-installation.html#hardware-setup-hangs
+---

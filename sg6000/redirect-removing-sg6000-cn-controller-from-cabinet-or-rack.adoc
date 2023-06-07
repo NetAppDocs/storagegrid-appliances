@@ -1,0 +1,4 @@
+---
+permalink: sg6000/removing-sg6000-cn-controller-from-cabinet-or-rack.html
+redirect: sg6000/reinstalling-sg6000-cn-controller-into-cabinet-or-rack.html#remove-sg6000-cn-controller-from-cabinet-or-rack
+---
