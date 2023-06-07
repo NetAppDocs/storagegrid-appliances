@@ -6,6 +6,7 @@ entries:
     pdf-filename: Install StorageGRID appliance hardware
     url: "/installconfig/index.html"
   - title: Prepare for installation
+    url: "/landing-install-prep/index.html"
     entries:
     - title: Prepare site
       url: "/installconfig/preparing-site.html"
@@ -104,6 +105,7 @@ entries:
     - title: 'Optional: Remap network ports'
       url: "/installconfig/optional-remapping-network-ports-for-appliance.html"
   - title: Deploy appliance node
+    url: "/landing-deploy-appliance/index.html"
     entries:
     - title: Deploy appliance Storage Node
       url: "/installconfig/deploying-appliance-storage-node.html"
