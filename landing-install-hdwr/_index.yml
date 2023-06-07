@@ -11,13 +11,13 @@ indexpage:
     - title: Install services appliance in cabinet or rack
       links:
         - title: SG100 and SG1000
-          url: "/installconfig/installing-appliance-in-cabinet-or-rack-sg100-and-sg1000.html"
+          url: "../installconfig/installing-appliance-in-cabinet-or-rack-sg100-and-sg1000.html"
     - title: Cable and apply power
       links:
         - title: Connect cables
           url: "../installconfig/cabling-appliance.html"
         - title: Connect and apply power
-          url: "/installconfig/connecting-power-cords-and-applying-power.html"
+          url: "../installconfig/connecting-power-cords-and-applying-power.html"
         - title: View status indicators and codes
-          url: "/installconfig/viewing-status-indicators.html"
+          url: "../installconfig/viewing-status-indicators.html"
  
