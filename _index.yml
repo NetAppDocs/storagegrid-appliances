@@ -7,6 +7,12 @@ indexpage:
         url: https://review.docs.netapp.com/us-en/storagegrid-118_main/primer/index.html
       - title: StorageGRID installation quick start
         url: "/quick-start.html" 
+      - title: Appliance installation quick start
+        url: /installconfig/index.html
+      - title: Automate installation and configuration
+        url: "/installconfig/automating-appliance-installation-and-configuration.html"
+      - title: Automate StorageGRID configuration
+        url: "/installconfig/automating-configuration-of-storagegrid.html"
     - title: Appliance overviews
       links:        
       - title: SGF6112 (New)
@@ -19,12 +25,14 @@ indexpage:
         url: "/installconfig/hardware-description-sg100-and-1000.html"
     - title: Install hardware
       links:
-      - title: Appliance installation quick start
-        url: /installconfig/index.html
-      - title: Automate installation and configuration
-        url: "/installconfig/automating-appliance-installation-and-configuration.html"
-      - title: Automate StorageGRID configuration
-        url: "/installconfig/automating-configuration-of-storagegrid.html"
+      - title: Prepare for installation
+        url: /landing-install-prep/index.html
+      - title: Install hardware
+        url: "/landing-install-hdwr/index.html"
+      - title: Set up hardware
+        url: "/installconfig/configuring-hardware.html"
+      - title: Deploy appliance node
+        url: "/landing-deploy-appliance/index.html"
     - title: Maintain appliance hardware
       links:
       - title: SGF6112
