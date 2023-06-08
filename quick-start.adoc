@@ -47,7 +47,7 @@ To complete the installation, you install StorageGRID software on each appliance
 Learn how:
 
 [role="quick-margin-list"]
-* link:../installconfig/index.html[Install appliance hardware]
+* link:./installconfig/index.html[Install appliance hardware]
 * https://review.docs.netapp.com/us-en/storagegrid-118_main/rhel/index.html[Install Red Hat Enterprise Linux or CentOS^]
 * https://review.docs.netapp.com/us-en/storagegrid-118_main/ubuntu/index.html[Install Ubuntu or Debian^]
 * https://review.docs.netapp.com/us-en/storagegrid-118_main/vmware/index.html[Install VMware^]
