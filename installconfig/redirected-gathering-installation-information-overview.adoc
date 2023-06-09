@@ -1,4 +1,0 @@
----
-permalink: installconfig/gathering-installation-information-overview.html
-redirect: installconfig/reviewing-appliance-network-connections.html
----

@@ -1,4 +1,0 @@
----
-permalink: sg6000/shutting-down-sg6000-cn-controller.html
-redirect: sg6000/power-sg6000-cn-controller-off-on.html#shut-down-sg6000-cn-controller
----

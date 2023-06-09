@@ -1,4 +1,0 @@
----
-permalink: sg6000/removing-fibre-channel-hba.html
-redirect: sg6000/reinstalling-fibre-channel-hba.html#remove-fibre-channel-hba
----

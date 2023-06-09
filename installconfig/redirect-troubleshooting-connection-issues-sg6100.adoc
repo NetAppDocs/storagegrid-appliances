@@ -1,4 +1,0 @@
----
-permalink: installconfig/troubleshooting-connection-issues-sg6100.html
-redirect: installconfig/troubleshooting-hardware-installation-sg6100.html#connection-issues
----

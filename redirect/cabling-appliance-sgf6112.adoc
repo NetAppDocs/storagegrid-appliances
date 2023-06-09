@@ -1,0 +1,4 @@
+---
+permalink: installconfig/cabling-appliance-sgf6112.html
+redirect: storagegrid-appliances/installconfig/cabling-appliance.html
+---

@@ -1,4 +1,0 @@
----
-permalink: installconfig/port-bond-modes-for-sg100-and-sg1000.html
-redirect: installconfig/gathering-installation-information-sg100-and-sg1000.html#port-bond-modes
----

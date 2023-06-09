@@ -1,4 +1,0 @@
----
-permalink: installconfig/viewing-error-codes-for-sg1000-controller-sg100-and-sg1000.html
-redirect: installconfig/troubleshooting-hardware-installation-sg100-and-sg1000.html#view-error-codes
----

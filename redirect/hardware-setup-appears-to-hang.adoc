@@ -1,0 +1,4 @@
+---
+permalink: installconfig/hardware-setup-appears-to-hang.html
+redirect: storagegrid-appliances/installconfig/troubleshooting-hardware-installation.html#hardware-setup-hangs
+---

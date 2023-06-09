@@ -1,4 +1,0 @@
----
-permalink: installconfig/port-bond-modes-for-e5700sg-controller-ports.html
-redirect: installconfig/gathering-installation-information-sg5700.html#port-bond-modes
----

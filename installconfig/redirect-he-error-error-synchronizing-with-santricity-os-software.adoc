@@ -1,4 +1,0 @@
----
-permalink: installconfig/he-error-error-synchronizing-with-santricity-os-software.html
-redirect: installconfig/troubleshooting-hardware-installation.html#he-error
----

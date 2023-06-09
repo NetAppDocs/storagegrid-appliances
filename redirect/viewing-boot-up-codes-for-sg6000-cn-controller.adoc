@@ -1,0 +1,4 @@
+---
+permalink: installconfig/viewing-boot-up-codes-for-sg6000-cn-controller.html
+redirect: storagegrid-appliances/installconfig/troubleshooting-hardware-installation.html#view-boot-codes
+---

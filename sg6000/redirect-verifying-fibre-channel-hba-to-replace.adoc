@@ -1,4 +1,0 @@
----
-permalink: sg6000/verifying-fibre-channel-hba-to-replace.html
-redirect: sg6000/reinstalling-fibre-channel-hba.html#verify-fibre-channel-hba-to-replace
----

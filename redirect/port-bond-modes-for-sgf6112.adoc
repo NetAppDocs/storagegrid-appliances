@@ -1,0 +1,4 @@
+---
+permalink: installconfig/port-bond-modes-for-sgf6112.html
+redirect: storagegrid-appliances/installconfig/gathering-installation-information-sg6100.html#port-bond-modes
+---
