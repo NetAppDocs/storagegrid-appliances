@@ -113,8 +113,8 @@ When your system is up and running, you should monitor its activities on a regul
 Learn how:
 
 [role="quick-margin-list"]
-* https://review.docs.netapp.com/us-en/storagegrid-118_main/monitor/index.html[Monitor StorageGRID^]
-* https://review.docs.netapp.com/us-en/storagegrid-118_main/troubleshoot/index.html[Troubleshoot StorageGRID^]
+* https://review.docs.netapp.com/us-en/storagegrid-118_main/landing-monitor-troubleshoot/index.html[Monitor StorageGRID^]
+* https://review.docs.netapp.com/us-en/storagegrid-118_main/landing-monitor-troubleshoot/index.html[Troubleshoot StorageGRID^]
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-8.png[Eight] Expand and maintain
 
@@ -125,8 +125,9 @@ You can add nodes or sites to expand the capacity or functionality of your syste
 Learn how:
 
 [role="quick-margin-list"]
-* https://review.docs.netapp.com/us-en/storagegrid-118_main/expand/index.html[Expand your grid^]
-* https://review.docs.netapp.com/us-en/storagegrid-118_main/maintain/index.html[Recover nodes and maintain your grid^]
+* https://review.docs.netapp.com/us-en/storagegrid-118_main/landing-expand/index-landing-expand.html[Expand your grid^]
+* https://review.docs.netapp.com/us-en/storagegrid-118_main/landing-recover/index.html[Recover nodes^]
+* https://review.docs.netapp.com/us-en/storagegrid-118_main/landing-maintain/index.html[Maintain your grid^]
 
 
 // End snippet

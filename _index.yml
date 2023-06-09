@@ -3,7 +3,7 @@ indexpage:
   tiles:
     - title: Get started
       links: 
-      - title: StorageGRID quick start
+      - title: Learn about StorageGRID
         url: https://review.docs.netapp.com/us-en/storagegrid-118_main/primer/index.html
       - title: StorageGRID installation quick start
         url: "/quick-start.html" 
