@@ -5,8 +5,8 @@ indexpage:
       links: 
       - title: Learn about StorageGRID
         url: https://review.docs.netapp.com/us-en/storagegrid-118_main/primer/index.html
-      - title: StorageGRID installation quick start
-        url: "/quick-start.html" 
+      - title: StorageGRID quick start
+        url: "https://review.docs.netapp.com/us-en/storagegrid-118_main/quick-start.html" 
       - title: Appliance installation quick start
         url: /installconfig/index.html
       - title: Automate installation and configuration
