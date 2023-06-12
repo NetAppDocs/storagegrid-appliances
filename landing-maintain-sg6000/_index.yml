@@ -20,7 +20,7 @@ indexpage:
           url: "../sg6000/reinstalling-sg6000-cn-controller-into-cabinet-or-rack.html"
         - title: Add expansion shelf
           url: "../sg6000/adding-expansion-shelf-to-deployed-sg6060.html"
-    - title: SG6000 hardware procedures
+    - title: Hardware procedures
       links:
         - title: Replace controller cover
           url: "../sg6000/reinstalling-sg6000-cn-controller-cover.html"
