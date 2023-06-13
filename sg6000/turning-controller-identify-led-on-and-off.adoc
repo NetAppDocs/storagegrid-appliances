@@ -33,7 +33,7 @@ NOTE: If a bezel is installed on the controller, it might be difficult to see th
 
 .Related information
 
-link:verifying-fibre-channel-hba-to-replace.html[Verify Fibre Channel HBA to replace]
+link:reinstalling-fibre-channel-hba.html#verify-fibre-channel-hba-to-replace[Verify Fibre Channel HBA to replace]
 
 link:locating-controller-in-data-center.html[Locate controller in data center]
 

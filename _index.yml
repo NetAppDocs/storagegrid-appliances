@@ -2,41 +2,49 @@ indexpage:
   lead: NetApp StorageGRID is a software-defined object storage suite that supports a wide range of use cases across public, private, and hybrid multicloud environments. StorageGRID offers native support for the Amazon S3 API and delivers industry-leading innovations such as automated lifecycle management to store, secure, protect, and preserve unstructured data cost effectively over long periods.
   tiles:
     - title: Get started
-      links:
-      - title: What's new for appliances
-        url: "/whats-new-appliances.html"    
+      links: 
+      - title: Learn about StorageGRID
+        url: https://review.docs.netapp.com/us-en/storagegrid-118_main/primer/index.html
+      - title: StorageGRID quick start
+        url: "https://review.docs.netapp.com/us-en/storagegrid-118_main/quick-start.html" 
+      - title: Appliance installation quick start
+        url: /installconfig/index.html
+      - title: Automate installation and configuration
+        url: "/installconfig/automating-appliance-installation-and-configuration.html"
+      - title: Automate StorageGRID configuration
+        url: "/installconfig/automating-configuration-of-storagegrid.html"
     - title: Appliance overviews
       links:        
-      - title: SGF6112
-        url: "/installconfig/hardware-description-sg6100.html"    
+      - title: SGF6112 (New)
+        url: "/installconfig/hardware-description-sg6100.html"
       - title: SG6000
         url: "/installconfig/hardware-description-sg6000.html"
       - title: SG5700
         url: "/installconfig/hardware-description-sg5700.html"            
       - title: SG100 and SG1000
-        url: "/installconfig/hardware-description-sg100-and-1000.html"           
+        url: "/installconfig/hardware-description-sg100-and-1000.html"
     - title: Install hardware
       links:
-      - title: Installation quick start
-        url: /installconfig/index.html
-      - title: Automate installation and configuration
-        url: "/installconfig/automating-appliance-installation-and-configuration.html"
-      - title: Automate StorageGRID configuration
-        url: "/installconfig/automating-configuration-of-storagegrid.html"  
-    - title: Maintain storage appliances
+      - title: Prepare for installation
+        url: /landing-install-prep/index.html
+      - title: Install hardware
+        url: "/landing-install-hdwr/index.html"
+      - title: Set up hardware
+        url: "/installconfig/configuring-hardware.html"
+      - title: Deploy appliance node
+        url: "/landing-deploy-appliance/index.html"
+    - title: Maintain appliance hardware
       links:
       - title: SGF6112
-        url: /sg6100/index.html
+        url: /landing-maintain-sgf6112/index.html
       - title: SG6000
-        url: /sg6000/index.html
+        url: /landing-maintain-sg6000/index.html
       - title: SG5700
-        url: /sg5700/index.html
+        url: /landing-maintain-sg5700/index.html
       - title: SG5600
         url: /sg5600/index.html
-    - title: Maintain services appliances
-      links:        
       - title: SG100 and SG1000
-        url: /sg100-1000/index.html
+        url: /landing-maintain-sg1000-100/index.html
     - title: StorageGRID software
       links:
       - title: StorageGRID 11.8 documentation

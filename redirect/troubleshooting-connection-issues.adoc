@@ -1,0 +1,4 @@
+---
+permalink: installconfig/troubleshooting-connection-issues.html
+redirect: storagegrid-appliances/installconfig/troubleshooting-hardware-installation.html#connection-issues
+---

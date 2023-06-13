@@ -15,127 +15,80 @@ Before installing a StorageGRID appliance, confirm you have all of the additiona
 
 You need the following equipment to install and configure all appliances.
 
-[cols="1a,4a" options="header"]
-|===
-| Item| What it looks like
-
-| Screwdrivers
-| image::../media/screwdrivers.gif[Two screwdrivers]
-
+Screwdrivers::
 * Phillips No. 2 screwdriver
 * Medium flat-blade screwdriver
 
-| ESD wrist strap
-| image::../media/appliance_wriststrap.gif[ESD wrist strap]
+ESD wrist strap::
 
-| Service laptop
-| image::../media/sam_management_client.gif[Service laptop]
-
+Service laptop::
 * https://review.docs.netapp.com/us-en/storagegrid-118_main/admin/web-browser-requirements.html[Supported web browser^]
 * SSH client, such as PuTTY
 * 1-GbE (RJ-45) port
 
 NOTE: Some ports might not support 10/100 Ethernet speeds.
 
-| Optional tools
-| image::../media/optional_tools.gif[Power drill and flashlight]
-
+Optional tools::
 * Power drill with Phillips head bit
 * Flashlight
-
-|===
 
 == SGF6112
 
 You need the following additional equipment to install and configure the SGF6112 hardware.
 
-[cols="1a,4a" options="header"]
-|===
-| Item| What it looks like
-
-| Optical cables and transceivers
-| image::../media/fc_cable_and_sfp.gif[Optical cable and QSFP+ transceiver]
-
-* One to four of either of these types of cables:
-
+Optical cables and transceivers::
+* Cables, 1 to 4 of either:
 ** TwinAx/Copper
 ** Fibre/Optical
 
-* One to four of each of these transceivers/adapters based on link speed (mixed speeds aren't supported):
-
+* Transceivers/adapters, 1 to 4 of each, based on link speed (mixed speeds aren't supported):
 ** 10-GbE SFP+ 
 ** 25-GbE SFP28 
 
-| RJ-45 (Cat5/Cat5e/Cat6/Cat6a) Ethernet cables
-| image::../media/ethernet_cables.png[Ethernet cable]
-
-|===
+Ethernet cables::
+RJ-45 (Cat5/Cat5e/Cat6/Cat6a)
 
 == SG6000
 
 You need the following additional equipment to install and configure the SG6000 hardware.
 
-[cols="1a,4a" options="header"]
-|===
-| Item| What it looks like
+Optical cables and SFP transceivers::
 
-| Optical cables and SFP transceivers
-| image::../media/fc_cable_and_sfp.gif[Optical cable and SFP+ transceiver]
-
-* One to four of either of these types of cables:
+* Cables, 1 to 4 of either:
 ** TwinAx/Copper
 ** Fibre/Optical
 
-* One to four of each of these transceivers/adapters, based on link speed (mixed speeds aren't supported):
+* Transceivers/adapters, 1 to 4 of each, based on link speed (mixed speeds aren't supported):
 ** 10-GbE SFP+
 ** 25-GbE SFP28
 
-| RJ-45 (Cat5/Cat5e/Cat6) Ethernet cables
-| image::../media/ethernet_cables.png[Ethernet cables]
+Ethernet cables:: RJ-45 (Cat5/Cat5e/Cat6)
 
-| Optional tools
-| Mechanized lift for 60-drive shelves
-
-|===
+Optional tools::
+Mechanized lift for 60-drive shelves
 
 == SG5700
 
 You need the following additional equipment to install and configure the SG5700 hardware.
 
-[cols="1a,4a" options="header"]
-|===
-| Item| What it looks like
-
-| Optical cables and SFP transceivers
-| image::../media/fc_cable_and_sfp.gif[Optical cable and SFP+ transceiver]
-
+Optical cables and SFP transceivers::
 * Optical cables for the 10/25-GbE ports you plan to use
 * Optional: SFP28 transceivers if you want to use 25-GbE link speed
 
-| Ethernet cables
-| image::../media/ethernet_cables.png[Ethernet cables]
+Ethernet cables::
 
-| Optional tools
-| Mechanized lift for SG5760
-
-|===
+Optional tools:: Mechanized lift for SG5760
 
 == SG100 and SG1000
 
 You need the following additional equipment to install and configure the SG100 and SG1000 hardware.
 
-[cols="1a,4a" options="header"]
-|===
-| Item| What it looks like
-
-| Optical cables and transceivers
-| image::../media/fc_cable_and_sfp.gif[Optical cable and QSFP+ transceiver]
-
-* One to four of either of these cable types:
+Optical cables and transceivers::
+* Cables, 1 to 4 of either:
 ** TwinAx/Copper 
 ** Fibre/Optical 
 
-* One to four of each of these transceivers/adapters based on link speed (mixed speeds aren't supported):
+* Transceivers/adapters, 1 to 4 of each, based on link speed (mixed speeds aren't supported):
 ** SG100:
 *** 10-GbE SFP+
 *** 25-GbE SFP28
@@ -147,9 +100,4 @@ You need the following additional equipment to install and configure the SG100 a
 *** 40-GbE QSFP+
 *** 100-GbE QFSP28
 
-
-| RJ-45 (Cat5/Cat5e/Cat6/Cat6a) Ethernet cables
-| image::../media/ethernet_cables.png[Ethernet cable]
-
-|===
-
+Ethernet cables:: RJ-45 (Cat5/Cat5e/Cat6/Cat6a)

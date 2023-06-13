@@ -18,9 +18,7 @@ Remove the SGF6112 from a cabinet or rack to access the top cover or to move the
 +
 link:locating-sgf6112-in-data-center.html[Locate SGF6112 in data center]
 
-* You have shut down the SGF6112.
-+
-link:shut-down-sgf6112.html[Shut down SGF6112]
+* You have link:power-sgf6112-off-on.html#shut-down-the-sgf6112-appliance[shut down the SGF6112].
 +
 CAUTION: Don't shut down the appliance using the power switch.
 

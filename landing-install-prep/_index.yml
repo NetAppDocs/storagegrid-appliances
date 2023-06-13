@@ -1,0 +1,22 @@
+indexpage:
+   tiles:
+    - title: Prepare
+      links:
+        - title: Prepare site
+          url: "../installconfig/preparing-site.html"
+        - title: Unpack boxes
+          url: "../installconfig/unpacking-boxes.html"
+        - title: Obtain additional equipment and tools
+          url: "../installconfig/obtaining-additional-equipment-and-tools.html"
+    - title: Gather network information
+      links:
+        - title: Learn about StorageGRID network types
+          url: "../installconfig/reviewing-appliance-network-connections.html"
+        - title: SGF6112 network information
+          url: "../installconfig/gathering-installation-information-sg6100.html"
+        - title: SG6000 network information
+          url: "../installconfig/gathering-installation-information-sg6000.html"
+        - title: SG5700 network information
+          url: "../installconfig/gathering-installation-information-sg5700.html"
+        - title: SG100 and SG1000 network information
+          url: "../installconfig/gathering-installation-information-sg100-and-sg1000.html"

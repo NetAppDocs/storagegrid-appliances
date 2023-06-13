@@ -1,0 +1,4 @@
+---
+permalink: sg6000/removing-fibre-channel-hba.html
+redirect: storagegrid-appliances/sg6000/reinstalling-fibre-channel-hba.html#remove-fibre-channel-hba
+---

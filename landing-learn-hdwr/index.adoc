@@ -1,0 +1,10 @@
+---
+layout: landing-page
+sidebar: sidebar
+permalink: landing-learn-hdwr/index.html
+summary: Learn about the storage or services appliance in your StorageGRID system.
+---
+= Get started with StorageGRID appliances
+:hardbreaks:
+:linkattrs:
+:imagesdir: ./media/

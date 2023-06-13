@@ -190,7 +190,7 @@ image::../media/seven_segment_display_codes_for_e2800.gif[Seven-Segment Display 
 
 * https://mysupport.netapp.com/site/global/dashboard[NetApp Support^]
 
-* link:../sg6000/powering-on-sg6000-cn-controller-and-verifying-operation.html[Power on SG6000-CN controller and verify operation]
+* link:../sg6000/power-sg6000-cn-controller-off-on.html#power-on-sg6000-cn-controller-and-verify-operation[Power on SG6000-CN controller and verify operation]
 --
 
 .SG5700

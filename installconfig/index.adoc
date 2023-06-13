@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: Installation, deployment, Install, deploy, Installing, deploying
 summary: 'Follow these high-level steps to install and set up a StorageGRID appliance and deploy it as a node in your StorageGRID system.'
 ---
-= Quick start for hardware installation
+= Quick start for appliance installation
 :icons: font
 :imagesdir: ../media/
 
@@ -24,8 +24,7 @@ This step is optional. However, streamlining and automating configuration steps 
 . link:unpacking-boxes.html[Unpack boxes]
 . link:obtaining-additional-equipment-and-tools.html[Obtain additional equipment and tools]
 . https://review.docs.netapp.com/us-en/storagegrid-118_main/admin/web-browser-requirements.html[Review web browser requirements^]
-. link:reviewing-appliance-network-connections.html[Review appliance network connections]
-. link:gathering-installation-information-overview.html[Gather installation information]
+. link:reviewing-appliance-network-connections.html[Gather network information]
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png[Two] Install hardware
 
@@ -38,17 +37,9 @@ This step is optional. However, streamlining and automating configuration steps 
 ** link:installing-appliance-in-cabinet-or-rack-sg5700.html[SG5700]
 ** link:installing-appliance-in-cabinet-or-rack-sg100-and-sg1000.html[SG100 and SG1000]
 
-. Cable appliance
-** link:cabling-appliance-sgf6112.html[SGF6112]
-** link:cabling-appliance-sg6000.html[SG6000]
-** link:cabling-appliance-sg5700.html[SG5700]
-** link:cabling-appliance-sg100-and-sg1000.html[SG100 and SG1000]
+. link:cabling-appliance.html[Cable appliance]
 
-. Connect power cords and apply power
-** link:connecting-power-cords-and-applying-power-sgf6112.html[SGF6112]
-** link:connecting-power-cords-and-applying-power-sg6000.html[SG6000]
-** link:connecting-power-cords-and-applying-power-sg5700.html[SG5700]
-** link:connecting-power-cords-and-applying-power-sg100-and-sg1000.html[SG100 and SG1000]
+. link:connecting-power-cords-and-applying-power.html[Connect power cords and apply power]
 
 . link:viewing-status-indicators.html[View status indicators and codes]
 

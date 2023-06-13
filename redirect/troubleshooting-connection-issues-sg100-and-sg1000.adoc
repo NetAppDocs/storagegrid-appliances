@@ -1,0 +1,5 @@
+---
+permalink: installconfig/troubleshooting-connection-issues-sg100-and-sg1000.html
+redirect: storagegrid-appliances/installconfig/troubleshooting-hardware-installation-sg100-and-sg1000.html#connection-issues
+---
+

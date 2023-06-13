@@ -1,7 +1,7 @@
 ---
 permalink: installconfig/troubleshooting-hardware-installation-sg6100.html
 sidebar: sidebar
-keywords: storagegrid, sg6100, sgf6112,troubleshoot, troubleshooting, hardware, install, installation 
+keywords: storagegrid, sg6100, sgf6112,troubleshoot, troubleshooting, hardware, install, installation, boot codes, boot-up codes, start codes, codes, boot, start, bmc, error codes, setup, hang, hangs, fails, failure, stop, terminate, terminates, stuck, connection
 summary: 'If you encounter issues during the installation, you might find it helpful to review troubleshooting information related to hardware setup and connectivity issues.'
 ---
 = Troubleshoot hardware installation (SGF6112)
@@ -10,3 +10,334 @@ summary: 'If you encounter issues during the installation, you might find it hel
 
 [.lead]
 If you encounter issues during the installation, you might find it helpful to review troubleshooting information related to hardware setup and connectivity issues.
+
+== View boot-up codes
+
+When you apply power to the appliance, the BMC logs a series of boot-up codes. You can view these codes on a graphical console that is connected to the BMC management port.
+
+.Before you begin
+
+* You know how to link:accessing-bmc-interface.html[access the BMC dashboard].
+* If you want to use serial-over-LAN (SOL), you have experience using IPMI SOL console applications.
+
+.Steps
+
+. Select one of the following methods for viewing the boot-up codes for the appliance controller, and gather the required equipment.
++
+[cols="1a,2a" options="header"]
+|===
+| Method| Required equipment
+| VGA console
+| 
+* VGA-capable monitor
+* VGA cable
+
+| KVM
+| * RJ-45 cable
+
+| Serial port
+| 
+* DB-9 serial cable
+* Virtual serial terminal
+
+| SOL
+| * Virtual serial terminal
+|===
+
+. If you are using a VGA console, perform these steps:
+ .. Connect a VGA-capable monitor to the VGA port on the back of the appliance.
+ .. View the codes displayed on the monitor.
+. If you are using BMC KVM, perform these steps:
+ .. Connect to the BMC management port and log in to the BMC web interface.
+ .. Select *Remote Control*.
+ .. Launch the KVM.
+ .. View the codes on the virtual monitor.
+. If you are using a serial port and terminal, perform these steps:
+ .. Connect to the serial USB port on the back of the appliance.
+ .. Use settings `115200 8-N-1`.
+ .. View the codes printed over the serial terminal.
+. If you are using SOL, perform these steps:
+ .. Connect to the IPMI SOL using the BMC IP address and login credentials.
++
+`ipmitool -I lanplus -H _BMC_Port_IP_ -U root -P _Password_ sol activate`
+
+.. View the codes on the virtual serial terminal.
+
+. Use the table to look up the codes for your appliance.
++
+[cols="1a,3a" options="header"]
+|===
+| Code| Indicates
+
+| HI
+| The master boot script has started.
+
+| HP
+| The system is checking to see if the network interface card (NIC) firmware needs to be updated.
+
+| RB
+| The system is rebooting after applying firmware updates.
+
+| FP
+| The hardware subsystem firmware update checks have been completed. Inter-controller communication services are starting.
+
+| HC
+| The system is checking for existing StorageGRID installation data.
+
+| HO
+| The StorageGRID appliance is running.
+
+| HA
+| StorageGRID is running.
+|===
+
+== View error codes
+
+If a hardware error occurs when the appliance is booting up, the BMC logs an error code. As required, you can view these error codes using the BMC interface, and then work with technical support to resolve the issue.
+
+.Before you begin
+
+* You know how to access the BMC dashboard.
+
+.Steps
+
+. From the BMC dashboard, select *BIOS POST Code*.
+. Review the information displayed for Current Code and the Previous Code.
++
+If any of the following error codes are shown, work with technical support to resolve the issue.
++
+[cols="1a,3a" options="header"]
+|===
+| Code| Indicates
+a|
+0x0E
+a|
+Microcode not found
+a|
+0x0F
+a|
+Microcode not loaded
+a|
+0x50
+a|
+Memory initialization error. Invalid memory type or incompatible memory speed.
+a|
+0x51
+a|
+Memory initialization error. SPD reading has failed.
+a|
+0x52
+a|
+Memory initialization error. Invalid memory size or memory modules don't match.
+a|
+0x53
+a|
+Memory initialization error. No usable memory detected.
+a|
+0x54
+a|
+Unspecified memory initialization error
+a|
+0x55
+a|
+Memory not installed
+a|
+0x56
+a|
+Invalid CPU type or speed
+a|
+0x57
+a|
+CPU mismatch
+a|
+0x58
+a|
+CPU self-test failed, or possible CPU cache error
+a|
+0x59
+a|
+CPU micro-code is not found, or micro-code update failed
+a|
+0x5A
+a|
+Internal CPU error
+a|
+0x5B
+a|
+Reset PPI is not available
+a|
+0x5C
+a|
+PEI phase BMC self-test failure
+a|
+0xD0
+a|
+CPU initialization error
+a|
+0xD1
+a|
+North bridge initialization error
+a|
+0xD2
+a|
+South bridge initialization error
+a|
+0xD3
+a|
+Some architectural protocols aren't available
+a|
+0xD4
+a|
+PCI resource allocation error. Out of resources.
+a|
+0xD5
+a|
+No space for legacy option ROM
+a|
+0xD6
+a|
+No console output devices are found
+a|
+0xD7
+a|
+No console input devices are found
+a|
+0xD8
+a|
+Invalid password
+a|
+0xD9
+a|
+Error loading boot option (LoadImage returned error)
+a|
+0xDA
+a|
+Boot option failed (StartImage returned error)
+a|
+0xDB
+a|
+Flash update failed
+a|
+0xDC
+a|
+Reset protocol is not available
+a|
+0xDD
+a|
+DXE phase BMC self-test failure
+a|
+0xE8
+a|
+MRC: ERR_NO_MEMORY
+a|
+0xE9
+a|
+MRC: ERR_LT_LOCK
+a|
+0xEA
+a|
+MRC: ERR_DDR_INIT
+a|
+0xEB
+a|
+MRC: ERR_MEM_TEST
+a|
+0xEC
+a|
+MRC: ERR_VENDOR_SPECIFIC
+a|
+0xED
+a|
+MRC: ERR_DIMM_COMPAT
+a|
+0xEE
+a|
+MRC: ERR_MRC_COMPATIBILITY
+a|
+0xEF
+a|
+MRC: ERR_MRC_STRUCT
+a|
+0xF0
+a|
+MRC: ERR_SET_VDD
+a|
+0xF1
+a|
+MRC: ERR_IOT_MEM_BUFFER
+a|
+0xF2
+a|
+MRC: ERR_RC_INTERNAL
+a|
+0xF3
+a|
+MRC: ERR_INVALID_REG_ACCESS
+a|
+0xF4
+a|
+MRC: ERR_SET_MC_FREQ
+a|
+0xF5
+a|
+MRC: ERR_READ_MC_FREQ
+a|
+0x70
+a|
+MRC: ERR_DIMM_CHANNEL
+a|
+0x74
+a|
+MRC: ERR_BIST_CHECK
+a|
+0xF6
+a|
+MRC: ERR_SMBUS
+a|
+0xF7
+a|
+MRC: ERR_PCU
+a|
+0xF8
+a|
+MRC: ERR_NGN
+a|
+0xF9
+a|
+MRC: ERR_INTERLEAVE_FAILURE
+|===
+
+[[hardware-setup-hangs]]
+== Hardware setup appears to hang
+
+The StorageGRID Appliance Installer might not be available if hardware faults or cabling errors prevent the appliance from completing its boot-up processing.
+
+.Steps
+
+. Review the LEDs on the appliance and the boot-up and error codes displayed in the BMC.
+. If you need help resolving an issue, contact technical support.
+
+== Connection issues
+
+If you can't connect to the services appliance, there might be a network issue, or the hardware installation might not have been completed successfully.
+
+.Steps
+
+. Try to ping the appliance using the IP address for the appliance : +
+`*ping _appliance_IP_*`
+. If you receive no response from the ping, confirm you are using the correct IP address.
++
+You can use the IP address of the appliance on the Grid Network, the Admin Network, or the Client Network.
+
+. If the IP address is correct, check appliance cabling, QSFP or SFP transceivers, and the network setup.
+
+. If physical access to the appliance is available, you can use a direct connection to the permanent link-local IP `169.254.0.1` to check controller networking configuration and update if necessary. For detailed instructions, see step 2 in link:accessing-storagegrid-appliance-installer.html[Access StorageGRID Appliance Installer].
++
+If that does not resolve the issue, contact technical support.
+
+. If the ping was successful, open a web browser.
+. Enter the URL for the StorageGRID Appliance Installer: +
+`*https://_appliances_controller_IP_:8443*`
++
+The Home page appears.
+

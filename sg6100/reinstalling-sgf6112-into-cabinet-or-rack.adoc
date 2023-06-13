@@ -21,9 +21,7 @@ Remove the SGF6112 from a cabinet or rack to access the top cover or to move the
 +
 link:locating-sgf6112-in-data-center.html[Locate SGF6112 in data center]
 
-* You have shut down the SGF6112.
-+
-link:shut-down-sgf6112.html[Shut down SGF6112]
+* You have link:power-sgf6112-off-on.html#shut-down-the-sgf6112-appliance[shut down the SGF6112].
 +
 CAUTION: Don't shut down the appliance using the power switch.
 
@@ -78,11 +76,11 @@ image::../media/sg6060_rack_retaining_screws.png[SG6060 rack retaining screws]
 +
 IMPORTANT: To prevent degraded performance, don't twist, fold, pinch, or step on the cables.
 +
-link:../installconfig/cabling-appliance-sgf6112.html[Cable appliance (SGF6112)]
+link:../installconfig/cabling-appliance.html[Cable appliance]
 
 . Reconnect the controller power cables.
 +
-link:../installconfig/connecting-power-cords-and-applying-power-sgf6112.html[Connect power cords and apply power (SGF6112)]
+link:../installconfig/connecting-power-cords-and-applying-power.html[Connect power cords and apply power (SGF6112)]
 
 .After you finish
 

@@ -1,7 +1,7 @@
 settings:
   name: "StorageGRID Appliances"
   internal:
-    pdf_enabled: false
+    pdf_enabled: true
   prod:
     pdf_enabled: false
     harmony_enabled: true
@@ -9,39 +9,40 @@ sidebar:
   entries:
     - title: StorageGRID Appliance Docs
       url: "/index.html"
-    - title: Quick start for StorageGRID
-      url: "/quick-start.html"  
-    - title: What's new for appliances
-      url: "/whats-new-appliances.html"  
-    - title: Storage appliance overviews
+    - title: Get started
+      url: "/landing-learn-hdwr/index.html"
       entries:
-      - title: SGF6112 appliance
-        url: "/installconfig/hardware-description-sg6100.html"    
-      - title: SG6000 appliances
-        url: "/installconfig/hardware-description-sg6000.html"
-      - title: SG6000 controllers
-        url: "/installconfig/controllers-in-sg6000-appliances.html"  
-      - title: SG5700 appliances
-        url: "/installconfig/hardware-description-sg5700.html"
-      - title: SG5700 controllers
-        url: "/installconfig/controllers-in-sg5700-appliances.html"  
-    - title: Services appliance overview
-      entries:              
-      - title: SG100 and SG1000 appliances
-        url: "/installconfig/hardware-description-sg100-and-1000.html"       
+      - title: Learn about StorageGRID appliances
+        entries:
+        - title: SGF6112 storage appliances
+          url: "/installconfig/hardware-description-sg6100.html"
+        - title: SG6000 storage appliances
+          url: "/installconfig/hardware-description-sg6000.html"
+        - title: SG5700 storage appliances
+          url: "/installconfig/hardware-description-sg5700.html"
+        - title: SG100 and SG1000 services appliances
+          url: "/installconfig/hardware-description-sg100-and-1000.html"
     - section: installconfig
-    - section: commonhardware   
-    - title: Maintain storage appliances
+    - title: Maintain appliance hardware
+      url: "/landing-maintain-hdwr/index.html"
       entries:
+      - section: commonhardware
+      - title: Appliance node cloning
+        entries:
+        - title: Overview
+          pdf-filename: Appliance node cloning
+          url: "/commonhardware/how-appliance-node-cloning-works.html"
+        - title: Considerations and requirements for appliance node cloning
+          url: "/commonhardware/considerations-and-requirements-for-appliance-node-cloning.html"
+        - title: Clone appliance node
+          url: "/commonhardware/appliance-node-cloning-procedure.html"
       - section: sg6100
       - section: sg6000
       - section: sg5700
       - section: sg5600
-    - title: Maintain services appliances
-      entries:      
       - section: sg100-1000
     - title: StorageGRID software documentation
-      url: /storagegrid-documentation.html  
+      url: /storagegrid-documentation.html
     - title: Enable StorageGRID
       url: /storagegrid-enable.html
     - title: Legal notices

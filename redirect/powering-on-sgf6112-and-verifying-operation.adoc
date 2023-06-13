@@ -1,0 +1,4 @@
+---
+permalink: sg6100/powering-on-sgf6112-and-verifying-operation.html
+redirect: storagegrid-appliances/sg6100/power-sgf6112-off-on.html#power-on-sgf6112-and-verify-operation
+---

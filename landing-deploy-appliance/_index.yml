@@ -1,0 +1,20 @@
+indexpage:
+   tiles:
+    - title: Deploy appliance
+      links:
+        - title: Deploy appliance Storage Node
+          url: "../installconfig/deploying-appliance-storage-node.html"
+        - title: Deploy services appliance node
+          url: "../installconfig/deploying-services-appliance-node.html"
+        - title: Monitor appliance installation
+          url: "../installconfig/monitoring-appliance-installation.html"
+        - title: Reboot appliance while installer is running
+          url: "../installconfig/rebooting-appliance-while-sg-appliance-installer-is-running.html"
+    - title: Troubleshoot appliance installation
+      links:
+        - title: SGF6112
+          url: "../installconfig/troubleshooting-hardware-installation-sg6100.html"
+        - title: SG6000 and SG5700
+          url: "../installconfig/troubleshooting-hardware-installation.html"
+        - title: SG100 and SG1000
+          url: "../installconfig/troubleshooting-hardware-installation-sg100-and-sg1000.html"

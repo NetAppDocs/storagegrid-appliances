@@ -1,0 +1,4 @@
+---
+permalink: sg6000/powering-on-sg6000-cn-controller-and-verifying-operation.html
+redirect: storagegrid-appliances/sg6000/power-sg6000-cn-controller-off-on.html#power-on-sg6000-cn-controller-and-verify-operation
+---
