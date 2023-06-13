@@ -32,13 +32,9 @@ The SGF6112 is designed with SSDs in a RAID that provides the following data pro
 == SGF6112 hardware components
 The SGF6112 appliance includes the following components:
 
-[cols="1a,2a" options="header"]
-|===
-| Component| Description
-
-| Compute and storage platform
-| A one-rack unit (1U) server that includes:
-
+Compute and storage platform::
+A one-rack unit (1U) server that includes:
++
 * Two 2.1/2.6 GHz 165 W processors providing 48 cores
 * 256 GB RAM
 * 2 × 1/10 GBase-T ports
@@ -46,8 +42,6 @@ The SGF6112 appliance includes the following components:
 * 1 × 256 GB Internal Boot drive (includes StorageGRID software) 
 * Baseboard management controller (BMC) that simplifies hardware management
 * Redundant power supplies and fans
-
-|===
 
 == SGF6112 diagrams
 

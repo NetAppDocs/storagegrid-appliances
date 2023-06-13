@@ -24,60 +24,83 @@ The SG5700 appliance is available in four models: the SG5712 and SG5712X, and th
 == SG5700 components
 
 The SG5700 models include the following components:
-[cols="1a,1a,1a,1a,1a" options="header"]
-|===
-|Component |SG5712 |SG5712X |SG5760 |SG5760X
-a|
-Compute controller
-a|
+
+[role="tabbed-block"]
+====
+
+.SG5712
+--
+Compute controller::
 E5700SG controller
-a|
-E5700SG controller
-a|
-E5700SG controller
-a|
-E5700SG controller
-a|
-Storage controller
-a|
+
+Storage controller::
 E2800A controller
-a|
+
+Chassis::
+E-Series DE212C enclosure, a two rack-unit (2U) enclosure
+
+Drives::
+12 NL-SAS drives (3.5-inch)
+
+Redundant power supplies and fans::
+Two power-fan canisters
+--
+
+.SG5712X
+--
+Compute controller::
+E5700SG controller
+
+Storage controller::
 E2800B controller
-a|
+
+Chassis::
+E-Series DE212C enclosure, a two rack-unit (2U) enclosure
+
+Drives::
+12 NL-SAS drives (3.5-inch)
+
+Redundant power supplies and fans::
+Two power-fan canisters
+--
+
+.SG5760
+--
+Compute controller::
+E5700SG controller
+
+Storage controller::
 E2800A controller
-a|
+
+Chassis::
+E-Series DE460C enclosure, a four rack-unit (4U) enclosure
+
+Drives::
+60 NL-SAS drives (3.5-inch)
+
+Redundant power supplies and fans::
+Two power canisters and two fan canisters
+--
+
+.SG5760X
+--
+Compute controller::
+E5700SG controller
+
+Storage controller::
 E2800B controller
-a|
-Chassis
-a|
-E-Series DE212C enclosure, a two rack-unit (2U) enclosure
-a|
-E-Series DE212C enclosure, a two rack-unit (2U) enclosure
-a|
+
+Chassis::
 E-Series DE460C enclosure, a four rack-unit (4U) enclosure
-a|
-E-Series DE460C enclosure, a four rack-unit (4U) enclosure
-a|
-Drives
-a|
-12 NL-SAS drives (3.5-inch)
-a|
-12 NL-SAS drives (3.5-inch)
-a|
+
+Drives::
 60 NL-SAS drives (3.5-inch)
-a|
-60 NL-SAS drives (3.5-inch)
-a|
-Redundant power supplies and fans
-a|
-Two power-fan canisters
-a|
-Two power-fan canisters
-a|
+
+Redundant power supplies and fans::
 Two power canisters and two fan canisters
-a|
-Two power canisters and two fan canisters
-|===
+--
+====
+
 The maximum raw storage available in the StorageGRID appliance is fixed, based on the number of drives in each enclosure. You can't expand the available storage by adding a shelf with additional drives.
 
 == SG5700 diagrams
