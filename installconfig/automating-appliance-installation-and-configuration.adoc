@@ -28,40 +28,20 @@ You can automate the configuration of the following:
 To automate appliance installation and configuration, use one or more of the following options:
 
 * Generate a JSON file that contains configuration details. Work with your NetApp Professional Services consultant to use the link:https://configbuilder.netapp.com/index.aspx[NetApp ConfigBuilder tool^] to complete these steps:
+
+. Consult with NetApp Professional Services to get a sales order number.
+. Get the workbook from ConfigBuilder.
+. Consult with Professional Services to complete the workbook.
+. Use ConfigBuilder to upload the workbook.
+. Use ConfigBuilder to generate a JSON file.
+. Consult with Professional Services to upload the JSON file to the appliance.
+
 +
-[cols="1a,5a,3a" options="header"]
-|===
-| Step| Consult NetApp Professional Services| Use ConfigBuilder
+See <<automate-with-appliance-installer,Automate using Appliance Installer>>.
 
-| 1
-| Get sales order number
-| 
-
-| 2
-| 
-| Get workbook
-
-| 3
-| Complete workbook
-| 
-
-| 4
-| 
-| Upload workbook
-
-| 5
-| 
-| Generate JSON file
-
-| 6
-| Upload JSON file to appliance
-| 
-
-| 7
-2+| Appliance ready for configuration. See <<automate-with-appliance-installer,Automate using Appliance Installer>>.
-|===
 +
 NOTE: You can use the same JSON file to configure more than one appliance.
+
 +
 Configuring your appliance using an uploaded JSON file is often more efficient than performing the configuration manually, especially if you have to configure many nodes. Performing the configuration manually requires using multiple pages in the StorageGRID Appliance Installer and applying the configuration file for each node one at a time.
 
@@ -69,6 +49,7 @@ Configuring your appliance using an uploaded JSON file is often more efficient t
 ** `configure-sga.py`: Automate the installation and configuration of your appliances. See <<automate-with-configure-sga-py-script,Automate appliance installation and configuration using configure-sga.py script>>.
 ** `configure-storagegrid.py`: Configure other components of the entire StorageGRID system (the "grid"). See link:automating-configuration-of-storagegrid.html[Automate StorageGRID configuration].
 
++
 NOTE: You can use StorageGRID automation Python scripts directly, or you can use them as examples of how to use the StorageGRID Installation REST API in grid deployment and configuration tools you develop yourself. See the instructions for https://review.docs.netapp.com/us-en/storagegrid-118_main/maintain/downloading-and-extracting-storagegrid-installation-files.html[downloading and extracting the StorageGRID installation files^].
 
 [[automate-with-appliance-installer]]
