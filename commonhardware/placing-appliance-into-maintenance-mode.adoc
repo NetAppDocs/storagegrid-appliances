@@ -27,8 +27,6 @@ NOTE: The admin account password and SSH host keys for a StorageGRID appliance i
 . From the Grid Manager, select *NODES*.
 . From the tree view of the Nodes page, select the appliance Storage Node.
 . Select *Tasks*.
-+
-image::../media/maintenance_mode.png[Maintenance Mode button for appliance]
 
 . Select *Maintenance mode*. A confirmation dialog box appears.
 

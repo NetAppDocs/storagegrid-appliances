@@ -14,7 +14,7 @@ You might need to replace a controller battery, drive, fan, or power supply, in 
 .Before you begin
 
 * You have the E-Series hardware replacement procedure.
-* The appliance has been https://review.docs.netapp.com/us-en/storagegrid-118_main/maintain/placing-appliance-into-maintenance-mode.html[placed into maintenance mode^] if the component replacement procedure requires that you shut down the appliance.
+* The appliance has been link:../commonhardware/placing-appliance-into-maintenance-mode.html[placed into maintenance mode] if the component replacement procedure requires that you shut down the appliance.
 
 .About this task
 

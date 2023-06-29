@@ -4,7 +4,7 @@
 * The storage appliance has an Optimal status.
 * All drives have an Optimal status.
 * You have the latest version of SANtricity System Manager installed that is compatible with your StorageGRID version.
-* If you are performing an offline upgrade, you have https://review.docs.netapp.com/us-en/storagegrid-118_main/maintain/placing-appliance-into-maintenance-mode.html[placed the StorageGRID appliance into maintenance mode^].
+* If you are performing an offline upgrade, you have link:../commonhardware/placing-appliance-into-maintenance-mode.html[placed the StorageGRID appliance into maintenance mode].
 +
 NOTE: While in maintenance mode I/O activity to the storage controller is stopped to make disruptive storage operations safe.
 
@@ -27,7 +27,7 @@ IMPORTANT: There are two types of drives in the SG6060: SSD and HDD. You must us
 
 .Steps
 
-. If you are performing an offline upgrade, confirm that the appliance is in https://review.docs.netapp.com/us-en/storagegrid-118_main/maintain/placing-appliance-into-maintenance-mode.html[maintenance mode^].
+. If you are performing an offline upgrade, confirm that the appliance is in link:../commonhardware/placing-appliance-into-maintenance-mode.html[maintenance mode].
 
 . Access SANtricity System Manager using one of these methods:
  ** Use the StorageGRID Appliance Installer and select *Advanced* > *SANtricity System Manager*
