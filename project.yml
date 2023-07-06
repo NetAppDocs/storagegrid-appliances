@@ -40,6 +40,7 @@ sidebar:
       - section: sg6000
       - section: sg5700
       - section: sg5600
+      - section: sg110-1100
       - section: sg100-1000
     - title: StorageGRID software documentation
       url: /storagegrid-documentation.html

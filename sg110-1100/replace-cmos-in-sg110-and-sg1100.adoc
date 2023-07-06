@@ -1,0 +1,36 @@
+---
+permalink: sg110-1100/replace-cmos-in-sg110-and-sg1100.html
+sidebar: sidebar
+keywords: storagegrid, sg110, sg1100, admin node, admin appliance, replacing, replace, CMOS, battery
+summary: 'Use this procedure to replace the CMOS coin cell battery on the system board.'
+---
+= Replace the CMOS battery in an SG110 or SG1100
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Use this procedure to replace the CMOS coin cell battery on the system board.
+
+Use these procedures to: 
+
+* Remove the CMOS battery
+* Reinstall the CMOS battery
+
+== Remove the CMOS battery
+
+.Before you begin
+
+* You have verified that the CMOS battery in the SG110 or SG1100 needs to be replaced. 
++
+link:verify-component-to-replace.html[Verify component to replace]
+* You have physically located the SG110 or SG1100 appliance where you are replacing the CMOS battery in the data center.
++
+link:locating-sg110-and-sg1100-in-data-center.html[Locate appliance in data center]
++
+NOTE: A link:power-sg110-and-sg1100-off-on.html#shut-down-the-sg110-or-sg1100-appliance[controlled shutdown of the appliance] is required before removing the appliance from the rack.
+
+* You have disconnected all cables and removed the appliance cover.
++
+link:reinstalling-sgf6112-cover.html[Remove SG110 or SG1100 cover]
+
+include::../_include/2023-replace-cmos.adoc[]
