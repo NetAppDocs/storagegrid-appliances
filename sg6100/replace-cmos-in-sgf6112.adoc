@@ -20,17 +20,11 @@ Use these procedures to:
 
 .Before you begin
 
-* You have verified that the CMOS battery in the SGF6112 needs to be replaced. 
-+
-link:verify-component-to-replace.html[Verify component to replace]
-* You have physically located the SGF6112 appliance where you are replacing the CMOS battery in the data center.
-+
-link:locating-sgf6112-in-data-center.html[Locate appliance in data center]
+* You have link:verify-component-to-replace.html[verified the appliance where the CMOS battery needs to be replaced].
+* You have link:locating-sgf6112-in-data-center.html[physically located the SGF6112 appliance] where you are replacing the CMOS battery in the data center.
 +
 NOTE: A link:power-sgf6112-off-on.html#shut-down-the-sgf6112-appliance[controlled shutdown of the appliance] is required before removing the appliance from the rack.
 
-* You have disconnected all cables and removed the appliance cover.
-+
-link:reinstalling-sgf6112-cover.html[Remove SGF6112 cover]
+* You have disconnected all cables and link:reinstalling-sgf6112-cover.html[removed the appliance cover].
 
 include::../_include/2023-replace-cmos.adoc[]

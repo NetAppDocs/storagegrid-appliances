@@ -14,19 +14,13 @@ The SG110 or SG1100 appliances have eight cooling fans. If one of the fans fails
 .Before you begin
 
 * You have the correct replacement fan.
-* You have determined the location of the fan to replace.
-+
-link:verify-component-to-replace.html[Verify component to replace]
+* You have link:verify-component-to-replace.html[determined the location of the fan to replace].
 
-* You have physically located the SG110 or SG1100 appliance where you are replacing the fan in the data center.
-+
-link:locating-sg110-and-sg1100-in-data-center.html[Locate appliance in data center]
+* You have link:locating-sg110-and-sg1100-in-data-center.html[physically located the SG110 or SG1100 appliance] where you are replacing the fan in the data center.
 +
 NOTE: A link:power-sg110-and-sg1100-off-on.html#shut-down-the-sg110-or-sg1100-appliance[controlled shutdown of the appliance] is required before removing the appliance from the rack.
 
-* You have disconnected all cables and removed the appliance cover.
-+
-link:reinstalling-sg110-and-sg1100-cover.html[Remove SG110 or SG1100 cover]
+* You have disconnected all cables and link:reinstalling-sg110-and-sg1100-cover.html[removed the appliance cover].
 
 * You have confirmed that the other fans are installed and running.
 

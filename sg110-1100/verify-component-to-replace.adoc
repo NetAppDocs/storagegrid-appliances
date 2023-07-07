@@ -1,10 +1,10 @@
 ---
-permalink: sg6100/verify-component-to-replace.html
+permalink: sg110-1100/verify-component-to-replace.html
 sidebar: sidebar
-keywords: sgf6112
+keywords: sg110, sg1100
 summary: 'If you are unsure which hardware component to replace in your appliance, complete this procedure to identify the component and the location of the appliance in the data center.'
 ---
-= Verify component to replace in the SGF6112
+= Verify component to replace in the SG110 or SG1100
 :icons: font
 :imagesdir: ../media/
 
@@ -15,4 +15,4 @@ include::../_include/2023-verify-component.adoc[]
 
 .Related information
 
-link:turning-sgf6112-identify-led-on-and-off.html[Turn on the appliance identify LED]
+link:turning-sg110-and-sg1100-identify-led-on-and-off.html[Turn on the appliance identify LED]

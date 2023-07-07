@@ -20,17 +20,11 @@ Use these procedures to:
 
 .Before you begin
 
-* You have verified that the CMOS battery in the SG110 or SG1100 needs to be replaced. 
-+
-link:verify-component-to-replace.html[Verify component to replace]
-* You have physically located the SG110 or SG1100 appliance where you are replacing the CMOS battery in the data center.
-+
-link:locating-sg110-and-sg1100-in-data-center.html[Locate appliance in data center]
+* You have link:verify-component-to-replace.html[verified the SG110 or SG1100 where the CMOS battery needs to be replaced].
+* You have link:locating-sg110-and-sg1100-in-data-center.html[physically located the SG110 or SG1100 appliance] where you are replacing the CMOS battery in the data center.
 +
 NOTE: A link:power-sg110-and-sg1100-off-on.html#shut-down-the-sg110-or-sg1100-appliance[controlled shutdown of the appliance] is required before removing the appliance from the rack.
 
-* You have disconnected all cables and removed the appliance cover.
-+
-link:reinstalling-sgf6112-cover.html[Remove SG110 or SG1100 cover]
+* You have disconnected all cables and link:reinstalling-sgf6112-cover.html[removed the appliance cover].
 
 include::../_include/2023-replace-cmos.adoc[]

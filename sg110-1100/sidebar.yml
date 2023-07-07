@@ -9,7 +9,7 @@ entries:
   - title: Configuration maintenance procedures
     pdf-filename: Configuration maintenance procedures - SG110 and SG1100
     entries:
-    - title: Turn appliance LED on and off
+    - title: Turn identify LED on and off
       url: "/sg110-1100/turning-sg110-and-sg1100-identify-led-on-and-off.html"
     - title: Locate appliance in data center
       url: "/sg110-1100/locating-sg110-and-sg1100-in-data-center.html"
