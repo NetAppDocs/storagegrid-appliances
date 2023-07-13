@@ -1,4 +1,4 @@
-// Same procedure for SGF6112 - unable to use includes due to specific links in steps.
+// Same procedure for SGF6112 - unable to use includes due to specific links in steps
 ---
 permalink: sg110-1100/reinstalling-sg110-and-sg1100-into-cabinet-or-rack.html
 sidebar: sidebar

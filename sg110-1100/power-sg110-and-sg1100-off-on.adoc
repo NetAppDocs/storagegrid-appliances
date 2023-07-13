@@ -1,17 +1,17 @@
-// Same procedure for SG110 and SG1100 - unable to use includes due to specific links in steps---
-permalink: sg6100/power-sgf6112-off-on.html
+// Same procedure for SGF6112 - unable to use includes due to specific links in steps
+permalink: sg110-1100/power-sg110-and-sg1100-off-on.html
 sidebar: sidebar
-keywords: storagegrid, sgf6112, power off, turn off, shut off, shutdown, shut down, power on, turn on, start
+keywords: storagegrid, sg110, sg1100, power off, turn off, shut off, shutdown, shut down, power on, turn on, start
 summary: 'You can shut down the SGF6112 appliance and power it back on to perform maintenance.'
 ---
-= Power SGF6112 appliance off and on
+= Power SG110 or SG1100 appliance off and on
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can shut down the SGF6112 appliance and power it back on to perform maintenance.
+You can shut down the SG110 or SG1100 appliance and power it back on to perform maintenance.
 
-== Shut down the SGF6112 appliance
+== Shut down the SG110 or SG1100 appliance
 
 Shut down the appliance to perform hardware maintenance.
 
@@ -46,15 +46,15 @@ This command might take up to 10 minutes to complete.
  ** Look at the power LED on the front of the appliance and confirm that it is off.
  ** Check the Power Control page of the BMC interface to confirm the appliance is off. 
 
-== Power on SGF6112 and verify operation
+== Power on SG110 or SG1100 and verify operation
 
 Power on the controller after completing maintenance.
 
 .Before you begin
 
-* You have link:reinstalling-sgf6112-into-cabinet-or-rack.html[installed the controller in a cabinet or rack] and connected the data and power cables.
+* You have link:reinstalling-sg110-and-sg1100-into-cabinet-or-rack.html[installed the controller in a cabinet or rack] and connected the data and power cables.
 
-* You have link:locating-sgf6112-in-data-center.html[physically located the controller in the data center].
+* You have link:locating-sg110-and-sg1100-in-data-center.html[physically located the controller in the data center].
 
 .Steps
 

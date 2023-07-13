@@ -1,3 +1,4 @@
+// Similar procedure for SG110 and SG1100 - unable to use includes due to differences in configuration, not operation.
 ---
 permalink: sg6100/replacing-drive-in-sgf6112.html
 sidebar: sidebar
@@ -31,7 +32,7 @@ IMPORTANT: See the information about viewing status indicators to verify the fai
 +
 The twelve drives are in the following positions in the chassis (front of chassis with bezel removed shown): 
 
-image::../media/sgf6112_ssds_locations.png[Fan locations]
+image::../media/sgf6112_ssds_locations.png[Drive locations]
 
 [options="header"]
 |===
