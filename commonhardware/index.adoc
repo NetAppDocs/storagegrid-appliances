@@ -39,4 +39,6 @@ Specific maintenance procedures for each type of StorageGRID appliance are in th
 
 * link:../sg5700/index.html[Maintain SG5700 appliance]
 
+* link:../sg110-1100/index.html[Maintain SG110 and SG1100 appliances]
+
 * link:../sg100-1000/index.html[Maintain SG100 and SG1000 appliances]

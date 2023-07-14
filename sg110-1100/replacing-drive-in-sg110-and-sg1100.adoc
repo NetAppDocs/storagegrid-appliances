@@ -30,7 +30,7 @@ IMPORTANT: See the information about viewing status indicators to verify the fai
 +
 The drives are in the following positions in the chassis (front of chassis with bezel removed shown): 
 
-image::../media/sg110-1100-ssds-locations.png[SG110 and SG1100 drive locations]
+image::../media/sg1100_front_with_ssds.png[SG110 and SG1100 drive locations]
 
 [start=2]
 . Wrap the strap end of the ESD wristband around your wrist, and secure the clip end to a metal ground to prevent static discharge.

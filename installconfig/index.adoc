@@ -35,6 +35,7 @@ This step is optional. However, streamlining and automating configuration steps 
 ** link:installing-appliance-in-cabinet-or-rack-sgf6112.html[SGF6112]
 ** link:installing-hardware-sg6000.html[SG6000]
 ** link:installing-appliance-in-cabinet-or-rack-sg5700.html[SG5700]
+** link:installing-appliance-in-cabinet-or-rack-sg110-and-sg1100.html[SG110 and SG1100]
 ** link:installing-appliance-in-cabinet-or-rack-sg100-and-sg1000.html[SG100 and SG1000]
 
 . link:cabling-appliance.html[Cable appliance]

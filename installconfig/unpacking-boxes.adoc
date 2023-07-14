@@ -179,6 +179,31 @@ image::../media/fc_cable_and_sfp.gif[Optical cables and SFPs]
 * Two optical cables for the FC interconnect ports
 * Eight SFP+ transceivers, compatible with both the four 16Gb/s FC interconnect ports and the four 10-GbE network ports
 
+== SG110 and SG1100 appliances
+
+=== Hardware
+
+SG110 or SG1100::
++
+image::../media/sg6000_cn_front_without_bezel.gif[Front drives SG110 and SG1100 appliances]
+
+Rail kit with instructions::
++
+image::../media/rail_kit.gif[Rail kit]
+
+Front bezel::
++
+image::../media/sgf_6112_front_bezel.png[Front bezel]
+
+=== Power cords
+
+TIP: Your cabinet might have special power cords that you use instead of the power cords that ship with the appliance.
+
+Two power cords for your country::
++
+image::../media/power_cords.gif[Power cords]
+
+
 == SG100 and SG1000 appliances
 
 === Hardware

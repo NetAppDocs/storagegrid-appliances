@@ -20,6 +20,8 @@ sidebar:
           url: "/installconfig/hardware-description-sg6000.html"
         - title: SG5700 storage appliances
           url: "/installconfig/hardware-description-sg5700.html"
+        - title: SG110 and SG1100 services appliances
+          url: "/installconfig/hardware-description-sg110-and-1100.html"
         - title: SG100 and SG1000 services appliances
           url: "/installconfig/hardware-description-sg100-and-1000.html"
     - section: installconfig

@@ -10,6 +10,8 @@ indexpage:
           url: "../installconfig/hardware-description-sg5700.html"
     - title: Learn about services appliances
       links:
+        - title: SG110 and SG1100 services appliances
+          url: "../installconfig/hardware-description-sg110-and-1100.html"
         - title: SG100 and SG1000 services appliances
           url: "../installconfig/hardware-description-sg100-and-1000.html"
     - title: Get started

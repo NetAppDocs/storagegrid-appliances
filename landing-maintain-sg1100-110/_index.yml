@@ -1,0 +1,25 @@
+indexpage:
+   tiles:
+    - title: Frequently performed procedures
+      links:
+        - title: Turn location LED on or off
+          url: "../sg110-1100/turning-controller-identify-led-on-and-off.html"
+        - title: Locate appliance in data center
+          url: "../sg110-1100/locating-controller-in-data-center.html"
+        - title: Power appliance off
+          url: "../sg110-1100/shut-down-sg110-and-sg1100.html"
+        - title: Change link configuration
+          url: "../sg110-1100/changing-link-configuration-of-services-appliance.html"
+    - title: Rack procedures
+      links:
+        - title: Replace appliance
+          url: "../sg110-1100/replacing-services-appliance.html"
+    - title: Hardware procedures
+      links:
+        - title: Replace power supply
+          url: "../sg110-1100/replacing-one-or-more-power-supplies-in-services-appliance.html"
+        - title: Replace fan
+          url: "../sg110-1100/replacing-fan-in-services-appliance.html"
+        - title: Replace drive
+          url: "../sg110-1100/replacing-drive-in-services-appliance.html"
+          
