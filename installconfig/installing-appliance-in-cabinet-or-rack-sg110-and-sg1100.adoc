@@ -1,10 +1,10 @@
 ---
-permalink: installconfig/installing-appliance-in-cabinet-or-rack-sgf6112.html
+permalink: installconfig/installing-appliance-in-cabinet-or-rack-sg110-and-sg1100.html
 sidebar: sidebar
-keywords: storagegrid, sgf6112, storage node, install, installing, installation, cabinet, rack, rail, rails 
+keywords: storagegrid, sg110, sg1100, storage node, install, installing, installation, cabinet, rack, rail, rails 
 summary: 'You install a set of rails for the appliance in your cabinet or rack, and then slide the appliance onto the rails.'
 ---
-= Install into cabinet or rack (SGF6112)
+= Install into cabinet or rack (SG110 or SG1100)
 :icons: font
 :imagesdir: ../media/
 

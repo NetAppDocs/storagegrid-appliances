@@ -86,6 +86,24 @@ CAUTION: *Risk of electrical shock* -- Before connecting the power cords, make s
 
 --
 
+.SG110 and SG1100
+--
+
+.Steps
+
+. Connect a power cord to each of the two power supply units in the appliance.
+. Connect these two power cords to two different power distribution units (PDUs) in the cabinet or rack.
+. If the power button on the front of the appliance is not currently illuminated blue, press the button to turn on power to the appliance.
++
+Don't press the power button again during the power-on process.
++
+The LED on the power supply should be illuminated green without blinking. 
+
+. If errors occur, correct any issues.
+. Attach the front bezel to the appliance if removed.
+
+--
+
 .SG100 and SG1000
 --
 
