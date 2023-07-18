@@ -13,6 +13,8 @@ You can access the BMC interface using the DHCP or static IP address for the BMC
 
 * SGF6112
 * SG6000
+* SG1100
+* SG110
 * SG1000
 * SG100
 
@@ -33,6 +35,16 @@ image::../media/sgf6112_cn_bmc_management_port.png[SGF6112 BMC management port]
 .SG6000
 --
 image::../media/sg6000_cn_bmc_management_port.gif[SG6000-CN controller BMC management port]
+--
+
+.SG1100
+--
+image::../media/sg1100_bmc_management_port.png[BMC management port SG1100]
+--
+
+.SG110
+--
+image::../media/sgf6112_cn_bmc_management_port.png[BMC management port SG110]
 --
 
 .SG1000
