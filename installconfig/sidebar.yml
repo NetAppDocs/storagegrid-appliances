@@ -121,5 +121,7 @@ entries:
       url: "/installconfig/troubleshooting-hardware-installation-sg6100.html"      
     - title: 'Troubleshoot installation (SG6000 or SG5700)'
       url: "/installconfig/troubleshooting-hardware-installation.html"
+    - title: 'Troubleshoot installation (SG110 and SG1100)'
+      url: "/installconfig/troubleshooting-hardware-installation-sg110-and-sg1100.html"
     - title: 'Troubleshoot installation (SG100 and SG1000)'
       url: "/installconfig/troubleshooting-hardware-installation-sg100-and-sg1000.html"

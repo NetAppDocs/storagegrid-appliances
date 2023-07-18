@@ -97,7 +97,7 @@ If a hardware error occurs when the appliance is booting up, the BMC logs an err
 
 .Before you begin
 
-* You know how to access the BMC dashboard.
+* You know how to link:accessing-bmc-interface.html[access the BMC dashboard].
 
 .Steps
 
@@ -319,7 +319,7 @@ The StorageGRID Appliance Installer might not be available if hardware faults or
 
 == Connection issues
 
-If you can't connect to the services appliance, there might be a network issue, or the hardware installation might not have been completed successfully.
+If you can't connect to the appliance, there might be a network issue, or the hardware installation might not have been completed successfully.
 
 .Steps
 

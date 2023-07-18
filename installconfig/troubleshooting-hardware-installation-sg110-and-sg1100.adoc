@@ -1,24 +1,23 @@
 ---
-permalink: installconfig/troubleshooting-hardware-installation-sg100-and-sg1000.html
+permalink: installconfig/troubleshooting-hardware-installation-sg110-and-sg1100.html
 sidebar: sidebar
-keywords: storagegrid, sg100, sg1000, service appliance, services appliance, gateway Node, admin node, troubleshoot, troubleshooting, hardware, install, installation, boot codes, boot-up codes, start codes, codes, boot, start, error codes, errors, error, codes, bmc, setup, hang, hangs, fails, failure, stop, terminate, terminates, stuck, connection 
+keywords: storagegrid, sg110, sg1100, troubleshoot, troubleshooting, hardware, install, installation, boot codes, boot-up codes, start codes, codes, boot, start, bmc, error codes, setup, hang, hangs, fails, failure, stop, terminate, terminates, stuck, connection
 summary: 'If you encounter issues during the installation, you might find it helpful to review troubleshooting information related to hardware setup and connectivity issues.'
 ---
-= Troubleshoot hardware installation (SG100 and SG1000)
+= Troubleshoot hardware installation (SG110 and SG1100)
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 If you encounter issues during the installation, you might find it helpful to review troubleshooting information related to hardware setup and connectivity issues.
 
-[[view-boot-codes]]
 == View boot-up codes
 
 When you apply power to the appliance, the BMC logs a series of boot-up codes. You can view these codes on a graphical console that is connected to the BMC management port.
 
 .Before you begin
 
-* You know how to link:../installconfig/accessing-bmc-interface.html[access the BMC dashboard].
+* You know how to link:accessing-bmc-interface.html[access the BMC dashboard].
 * If you want to use serial-over-LAN (SOL), you have experience using IPMI SOL console applications.
 
 .Steps
@@ -28,21 +27,21 @@ When you apply power to the appliance, the BMC logs a series of boot-up codes. Y
 [cols="1a,2a" options="header"]
 |===
 | Method| Required equipment
-|VGA console
-|
+| VGA console
+| 
 * VGA-capable monitor
 * VGA cable
 
-|KVM
-|* RJ-45 cable
+| KVM
+| * RJ-45 cable
 
-|Serial port
-|
+| Serial port
+| 
 * DB-9 serial cable
 * Virtual serial terminal
 
-|SOL
-|* Virtual serial terminal
+| SOL
+| * Virtual serial terminal
 |===
 
 . If you are using a VGA console, perform these steps:
@@ -54,7 +53,7 @@ When you apply power to the appliance, the BMC logs a series of boot-up codes. Y
  .. Launch the KVM.
  .. View the codes on the virtual monitor.
 . If you are using a serial port and terminal, perform these steps:
- .. Connect to the DB-9 serial port on the back of the appliance.
+ .. Connect to the serial USB port on the back of the appliance.
  .. Use settings `115200 8-N-1`.
  .. View the codes printed over the serial terminal.
 . If you are using SOL, perform these steps:
@@ -62,40 +61,34 @@ When you apply power to the appliance, the BMC logs a series of boot-up codes. Y
 +
 `ipmitool -I lanplus -H _BMC_Port_IP_ -U root -P _Password_ sol activate`
 
- .. View the codes on the virtual serial terminal.
+.. View the codes on the virtual serial terminal.
+
 . Use the table to look up the codes for your appliance.
 +
 [cols="1a,3a" options="header"]
 |===
 | Code| Indicates
-a|
-HI
-a|
-The master boot script has started.
-a|
-HP
-a|
-The system is checking to see if the network interface card (NIC) firmware needs to be updated.
-a|
-RB
-a|
-The system is rebooting after applying firmware updates.
-a|
-FP
-a|
-The hardware subsystem firmware update checks have been completed. Inter-controller communication services are starting.
-a|
-HC
-a|
-The system is checking for existing StorageGRID installation data.
-a|
-HO
-a|
-The StorageGRID appliance is running.
-a|
-HA
-a|
-StorageGRID is running.
+
+| HI
+| The master boot script has started.
+
+| HP
+| The system is checking to see if the network interface card (NIC) firmware needs to be updated.
+
+| RB
+| The system is rebooting after applying firmware updates.
+
+| FP
+| The hardware subsystem firmware update checks have been completed. Inter-controller communication services are starting.
+
+| HC
+| The system is checking for existing StorageGRID installation data.
+
+| HO
+| The StorageGRID appliance is running.
+
+| HA
+| StorageGRID is running.
 |===
 
 == View error codes
@@ -331,7 +324,7 @@ If you can't connect to the services appliance, there might be a network issue, 
 .Steps
 
 . Try to ping the appliance using the IP address for the appliance : +
-`*ping _services_appliance_IP_*`
+`*ping _appliance_IP_*`
 . If you receive no response from the ping, confirm you are using the correct IP address.
 +
 You can use the IP address of the appliance on the Grid Network, the Admin Network, or the Client Network.

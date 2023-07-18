@@ -18,7 +18,7 @@ When you apply power to the appliance, the BMC logs a series of boot-up codes fo
 
 .Before you begin
 
-* You know how to access the BMC dashboard.
+* You know how to link:accessing-bmc-interface.html[access the BMC dashboard].
 * If you want to use serial-over-LAN (SOL), you have experience using IPMI SOL console applications.
 
 .Steps
@@ -128,7 +128,7 @@ If a hardware error occurs when the SG6000-CN controller is booting up, the BMC 
 
 .Before you begin
 
-* You know how to access the BMC dashboard.
+* You know how to link:accessing-bmc-interface.html[access the BMC dashboard].
 
 .Steps
 
