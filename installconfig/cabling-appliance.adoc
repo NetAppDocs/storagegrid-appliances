@@ -431,7 +431,7 @@ image::../media/sg1100_connections.png[SG1000 port connections]
 |
 * For the SG110: 10/25-GbE
 * For the SG1100: 10/25/40/100-GbE 
-|Connect to the Grid Network and the Client Network for StorageGRID. See link:gathering-installation-information-sg6100.html#port-bond-modes[Port bond modes (SGF6112)]
+|Connect to the Grid Network and the Client Network for StorageGRID. See link:gathering-installation-information-sg110-and-sg1100.html#port-bond-modes[Port bond modes (SG110 and SG1100)]
 
 |3
 |Admin Network port on the appliance
