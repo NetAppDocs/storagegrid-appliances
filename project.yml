@@ -1,7 +1,7 @@
 settings:
   name: "StorageGRID Appliances"
   internal:
-    pdf_enabled: true
+    pdf_enabled: false
   prod:
     pdf_enabled: false
     harmony_enabled: true
