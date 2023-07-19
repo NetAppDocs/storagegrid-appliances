@@ -1,4 +1,5 @@
 // Same procedure for SGF6112 - unable to use includes due to specific links in steps
+---
 permalink: sg110-1100/power-sg110-and-sg1100-off-on.html
 sidebar: sidebar
 keywords: storagegrid, sg110, sg1100, power off, turn off, shut off, shutdown, shut down, power on, turn on, start

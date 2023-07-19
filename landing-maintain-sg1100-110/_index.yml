@@ -3,23 +3,23 @@ indexpage:
     - title: Frequently performed procedures
       links:
         - title: Turn location LED on or off
-          url: "../sg110-1100/turning-controller-identify-led-on-and-off.html"
+          url: "../sg110-1100/turning-sg110-and-sg1100-identify-led-on-and-off.html"
         - title: Locate appliance in data center
-          url: "../sg110-1100/locating-controller-in-data-center.html"
+          url: "../sg110-1100/locating-sg110-and-sg1100-in-data-center.html"
         - title: Power appliance off
-          url: "../sg110-1100/shut-down-sg110-and-sg1100.html"
+          url: "../sg110-1100/power-sg110-and-sg1100-off-on.html"
         - title: Change link configuration
-          url: "../sg110-1100/changing-link-configuration-of-services-appliance.html"
+          url: "../sg110-1100/changing-link-configuration-of-sg110-and-sg1100-appliance.html"
     - title: Rack procedures
       links:
         - title: Replace appliance
-          url: "../sg110-1100/replacing-services-appliance.html"
+          url: "../sg110-1100/reinstalling-sg110-and-sg1100-into-cabinet-or-rack.html"
     - title: Hardware procedures
       links:
         - title: Replace power supply
-          url: "../sg110-1100/replacing-one-or-more-power-supplies-in-services-appliance.html"
+          url: "../sg110-1100/replacing-one-or-more-power-supplies-in-sg110-and-sg1100-appliance.html"
         - title: Replace fan
-          url: "../sg110-1100/replacing-fan-in-services-appliance.html"
+          url: "../sg110-1100/replacing-fan-in-sg110-and-sg1100.html"
         - title: Replace drive
-          url: "../sg110-1100/replacing-drive-in-services-appliance.html"
+          url: "../sg110-1100/replacing-drive-in-sg110-and-sg1100.html"
           
