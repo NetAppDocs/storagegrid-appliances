@@ -32,7 +32,7 @@ To initially access the StorageGRID Appliance Installer, you can use the DHCP-as
 
 .SGF6112
 --
-image:../media/sg6100_admin_network_port.png[Admin Network port on the SGF6112]
+image::../media/sg6100_admin_network_port.png[Admin Network port on the SGF6112]
 --
 
 .SG6000-CN
@@ -60,17 +60,17 @@ NOTE: If an IP address could not be assigned using DHCP, 0.0.0.0 is displayed.
 
 .SG110
 --
-image:../media/sg6100_admin_network_port.png[Admin Network port on the SG110]
+image::../media/sg6100_admin_network_port.png[Admin Network port on the SG110]
 --
 
 .SG1100
 --
-image:../media/sg1100_admin_network_port.png[Admin Network port on the SG1100]
+image::../media/sg1100_admin_network_port.png[Admin Network port on the SG1100]
 --
 
 .SG100
 --
-image:../media/sg100_admin_network_port.png[Admin Network port on the SG100]
+image::../media/sg100_admin_network_port.png[Admin Network port on the SG100]
 --
 
 .SG1000
