@@ -1,10 +1,11 @@
-// Same procedure for SGF6112 - unable to use includes due to specific links in steps.
 ---
 permalink: sg110-1100/replacing-sg110-and-sg1100-appliance.html
 sidebar: sidebar
 keywords: storagegrid, sg110, sg1100, Replacing, replace, remove, removing, removal, install, installing, installation
 summary: 'You might need to replace the appliance if it is not functioning optimally or if it has failed.'
 ---
+// Same procedure for SGF6112 - unable to use includes due to specific links in steps.
+
 = Replace SG110 and SG110 appliance
 :icons: font
 :imagesdir: ../media/

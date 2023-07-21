@@ -1,10 +1,11 @@
-// Same procedure for SGF6112 - unable to use includes due to specific links in steps
 ---
 permalink: sg110-1100/power-sg110-and-sg1100-off-on.html
 sidebar: sidebar
 keywords: storagegrid, sg110, sg1100, power off, turn off, shut off, shutdown, shut down, power on, turn on, start
 summary: 'You can shut down the SGF6112 appliance and power it back on to perform maintenance.'
 ---
+// Same procedure for SGF6112 - unable to use includes due to specific links in steps
+
 = Power SG110 or SG1100 appliance off and on
 :icons: font
 :imagesdir: ../media/

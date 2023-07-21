@@ -1,10 +1,11 @@
-// Similar procedure for SG110 and SG1100 - unable to use includes due to differences in configuration, not operation.
 ---
 permalink: sg6100/replacing-drive-in-sgf6112.html
 sidebar: sidebar
 keywords: storagegrid, sg6112, Replacing, replace, drive, remove, removing, removal, install, installing, installation
 summary: 'The SGF6112 storage appliance contains 12 SSD drives. Data on the drives is protected by a RAID scheme that enables the appliance to recover from any single drive failure without having to copy data from another node. '
 ---
+// Similar procedure for SG110 and SG1100 - unable to use includes due to differences in configuration, not operation.
+
 = Replace drives in the SGF6112 appliance
 :icons: font
 :imagesdir: ../media/
