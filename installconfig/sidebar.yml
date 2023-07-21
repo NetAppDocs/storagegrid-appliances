@@ -58,6 +58,8 @@ entries:
           url: "/installconfig/sg6000-cn-installing-into-cabinet-or-rack.html"
       - title: SG5700
         url: "/installconfig/installing-appliance-in-cabinet-or-rack-sg5700.html"
+      - title: SG110 and SG1100
+        url: "/installconfig/installing-appliance-in-cabinet-or-rack-sg110-and-sg1100.html"
       - title: SG100 and SG1000
         url: "/installconfig/installing-appliance-in-cabinet-or-rack-sg100-and-sg1000.html"
     - title: Cable appliance
