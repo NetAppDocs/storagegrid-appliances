@@ -42,7 +42,7 @@ Before installing the appliance, you must make sure that the site and the cabine
 +
 [role="tabbed-block"]
 ====
-.SGF6112
+.SG6100
 --
 [cols="1a,1a,1a,1a" options="header"]
 |===

@@ -11,7 +11,7 @@ summary: 'Before installing the StorageGRID appliance, unpack all boxes and comp
 [.lead]
 Before installing your StorageGRID appliance, unpack all boxes and compare the contents to the items on the packing slip.
 
-== SGF6112 appliances
+== SG6100 appliances
 
 === Hardware
 
