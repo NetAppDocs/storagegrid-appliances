@@ -12,11 +12,11 @@ indexpage:
       links:
         - title: Learn about StorageGRID network types
           url: "../installconfig/reviewing-appliance-network-connections.html"
-        - title: SGF6112 network information
-          url: "../installconfig/gathering-installation-information-sg6100.html"
-        - title: SG6000 network information
-          url: "../installconfig/gathering-installation-information-sg6000.html"
-        - title: SG5700 network information
-          url: "../installconfig/gathering-installation-information-sg5700.html"
         - title: SG100 and SG1000 network information
           url: "../installconfig/gathering-installation-information-sg100-and-sg1000.html"
+        - title: SG5700 network information
+          url: "../installconfig/gathering-installation-information-sg5700.html"
+        - title: SG6000 network information
+          url: "../installconfig/gathering-installation-information-sg6000.html"
+        - title: SG6100 network information
+          url: "../installconfig/gathering-installation-information-sg6100.html"

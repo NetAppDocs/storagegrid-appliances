@@ -14,7 +14,7 @@ The appliances and controllers include indicators that help you determine the st
 [role="tabbed-block"]
 ====
 
-.SGF6112
+.SG6100
 --
 
 The appliance includes indicators that help you determine the status of the appliance controller and the SSDs:
@@ -23,7 +23,7 @@ The appliance includes indicators that help you determine the status of the appl
 * <<general_boot_codes_SG6100,General boot-up codes>>
 * <<ssd_indicators_SG6100,SSD indicators>>
 
-Use this information to help link:troubleshooting-hardware-installation-sg6100.html[troubleshoot SGF6112 hardware installation].
+Use this information to help link:troubleshooting-hardware-installation-sg6100.html[troubleshoot SG6100 hardware installation].
 
 [[appliance_indicators_SG6100]]
 Appliance indicators and buttons::

@@ -2,9 +2,9 @@
 layout: landing-page
 sidebar: sidebar
 permalink: landing-maintain-sgf6112/index.html
-summary: Maintain the hardware for your SGF6112 storage appliance.
+summary: Maintain the hardware for your SG6100 storage appliance.
 ---
-= Maintain SGF6112 storage appliance hardware
+= Maintain SG6100 storage appliance hardware
 :hardbreaks:
 :linkattrs:
 :imagesdir: ./media/
