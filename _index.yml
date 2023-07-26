@@ -14,17 +14,17 @@ indexpage:
       - title: Automate StorageGRID configuration
         url: "/installconfig/automating-configuration-of-storagegrid.html"
     - title: Appliance overviews
-      links:        
-      - title: SGF6112 (New)
-        url: "/installconfig/hardware-description-sg6100.html"
-      - title: SG6000
-        url: "/installconfig/hardware-description-sg6000.html"
-      - title: SG5700
-        url: "/installconfig/hardware-description-sg5700.html"            
-      - title: SG110 and SG1100
-        url: "/installconfig/hardware-description-sg110-and-1100.html"           
+      links:            
       - title: SG100 and SG1000
-        url: "/installconfig/hardware-description-sg100-and-1000.html"
+        url: "/installconfig/hardware-description-sg100-and-1000.html"            
+      - title: SG110 and SG1100
+        url: "/installconfig/hardware-description-sg110-and-1100.html"
+      - title: SG5700
+        url: "/installconfig/hardware-description-sg5700.html"
+      - title: SG6000
+        url: "/installconfig/hardware-description-sg6000.html"        
+      - title: SG6100 (New)
+        url: "/installconfig/hardware-description-sg6100.html"
     - title: Install hardware
       links:
       - title: Prepare for installation
@@ -37,18 +37,18 @@ indexpage:
         url: "/landing-deploy-appliance/index.html"
     - title: Maintain appliance hardware
       links:
-      - title: SGF6112
-        url: /landing-maintain-sgf6112/index.html
-      - title: SG6000
-        url: /landing-maintain-sg6000/index.html
-      - title: SG5700
-        url: /landing-maintain-sg5700/index.html
-      - title: SG5600
-        url: /sg5600/index.html
-      - title: SG110 and SG1100
-        url: /landing-maintain-sg1100-110/index.html
       - title: SG100 and SG1000
         url: /landing-maintain-sg1000-100/index.html
+      - title: SG110 and SG1100
+        url: /landing-maintain-sg1100-110/index.html
+      - title: SG5600
+        url: /sg5600/index.html
+      - title: SG5700
+        url: /landing-maintain-sg5700/index.html
+      - title: SG6000
+        url: /landing-maintain-sg6000/index.html
+      - title: SG6100
+        url: /landing-maintain-sgf6112/index.html
     - title: StorageGRID software
       links:
       - title: StorageGRID 11.8 documentation

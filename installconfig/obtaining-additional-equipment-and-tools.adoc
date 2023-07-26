@@ -32,7 +32,7 @@ Optional tools::
 * Power drill with Phillips head bit
 * Flashlight
 
-== SGF6112
+== SG6100
 
 You need the following additional equipment to install and configure the SGF6112 hardware.
 

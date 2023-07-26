@@ -33,7 +33,7 @@ NOTE: In these instructions, "`Linux`" refers to a Red Hat® Enterprise Linux®,
 
 Specific maintenance procedures for each type of StorageGRID appliance are in the appliance maintenance sections:
 
-* link:../sg6100/index.html[Maintain SGF6112 appliance]
+* link:../sg6100/index.html[Maintain SG6100 appliance]
 
 * link:../sg6000/index.html[Maintain SG6000 appliance]
 

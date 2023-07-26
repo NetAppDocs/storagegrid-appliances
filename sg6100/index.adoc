@@ -2,14 +2,14 @@
 permalink: sg6100/index.html
 sidebar: sidebar
 keywords: storagegrid, sg6100 storage appliance, SGF6112 storage appliance, maintain, maintaining, hardware, procedures, tasks
-summary: 'You might need to perform maintenance procedures on your appliance. Procedures specific to maintaining your SGF6112 appliance are in this section.'
+summary: 'You might need to perform maintenance procedures on your appliance. Procedures specific to maintaining your SG6100 appliance are in this section.'
 ---
-= Maintain SGF6112 appliance
+= Maintain SG6100 appliance
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You might need to perform maintenance procedures on your appliance. Procedures specific to maintaining your SGF6112 appliance are in this section. 
+You might need to perform maintenance procedures on your appliance. Procedures specific to maintaining your SG6100 appliance are in this section. 
 
 The procedures in this section assume that the appliance has already been deployed as a Storage Node in a StorageGRID system.
 

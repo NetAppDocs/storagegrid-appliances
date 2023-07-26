@@ -2,12 +2,12 @@ indexpage:
    tiles:
     - title: Learn about storage appliances
       links:
-        - title: SGF6112 storage appliances
-          url: "../installconfig/hardware-description-sg6100.html"
-        - title: SG6000 storage appliances
-          url: "../installconfig/hardware-description-sg6000.html"
         - title: SG5700 storage appliances
           url: "../installconfig/hardware-description-sg5700.html"
+        - title: SG6000 storage appliances
+          url: "../installconfig/hardware-description-sg6000.html"
+        - title: SG6100 storage appliances
+          url: "../installconfig/hardware-description-sg6100.html"
     - title: Learn about services appliances
       links:
         - title: SG110 and SG1100 services appliances

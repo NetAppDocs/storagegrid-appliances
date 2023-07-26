@@ -22,7 +22,7 @@ If you are using ConfigBuilder to generate a JSON file, you can configure IP add
 [role="tabbed-block"]
 ====
 
-.SG6112
+.SG6100
 --
 image::../media/sgf6112_cn_bmc_management_port.png[BMC management port SGF6112]
 --

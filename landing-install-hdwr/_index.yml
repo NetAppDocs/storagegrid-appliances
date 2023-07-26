@@ -2,12 +2,12 @@ indexpage:
    tiles:
     - title: Install storage appliance in cabinet or rack
       links:
-        - title: SGF6112
-          url: "../installconfig/installing-appliance-in-cabinet-or-rack-sgf6112.html"      
+        - title: SG5700
+          url: "../installconfig/installing-appliance-in-cabinet-or-rack-sg5700.html"      
         - title: SG6000
           url: "../installconfig/installing-hardware-sg6000.html"
-        - title: SG5700
-          url: "../installconfig/installing-appliance-in-cabinet-or-rack-sg5700.html"
+        - title: SG6100
+          url: "../installconfig/installing-appliance-in-cabinet-or-rack-sgf6112.html"
     - title: Install services appliance in cabinet or rack
       links:
         - title: SG110 and SG1100
