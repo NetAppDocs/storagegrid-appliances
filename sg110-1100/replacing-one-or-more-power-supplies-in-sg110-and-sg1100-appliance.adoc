@@ -6,7 +6,7 @@ summary: 'SG110 and SG1100 appliances have two power supplies for redundancy. If
 ---
 // Same procedure for SGF6112 - unable to use includes due to specific links in steps.
 
-= Replace one or both power supplies in the SG110 or  SG1100 appliance
+= Replace one or both power supplies in the SG110 or SG1100 appliance
 :icons: font
 :imagesdir: ../media/
 
