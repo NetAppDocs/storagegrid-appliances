@@ -12,7 +12,9 @@ indexpage:
           url: "../sg110-1100/changing-link-configuration-of-sg110-and-sg1100-appliance.html"
     - title: Rack procedures
       links:
-        - title: Replace appliance
+        - title: Replace SG110 or SG1100 appliance
+          url: "../sg110-1100/replacing-sg110-and-sg1100-appliance.html"
+        - title: Relocate SG110 or SG1100 in a rack
           url: "../sg110-1100/reinstalling-sg110-and-sg1100-into-cabinet-or-rack.html"
     - title: Hardware procedures
       links:

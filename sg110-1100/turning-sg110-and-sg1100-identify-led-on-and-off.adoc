@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: sg110, sg1100, locate, find, locating, finding, identify, blue led, blue light
 summary: 'The blue identify LED on the front of the appliance can be turned on to help locate the appliance in a data center.'
 ---
-= Turn appliance identify LED on and off
+= Turn SG110 or SG1100 appliance identify LED on and off
 :icons: font
 :imagesdir: ../media/
 

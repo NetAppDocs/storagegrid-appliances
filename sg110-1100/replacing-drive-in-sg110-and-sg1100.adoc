@@ -4,7 +4,6 @@ sidebar: sidebar
 keywords: storagegrid, sg110, sg1100, Replacing, replace, drive, remove, removing, removal, install, installing, installation
 summary: 'The SG110 and SG1100 services appliances contains two SSD drives. The drives are mirrored using RAID1 for redundancy. If one of the drives fails, you must replace it as soon as possible to ensure redundancy.'
 ---
-// Similar procedure for SGF6112 - unable to use includes due to differences in configuration, not operation.
 
 = Replace drives in the SG110 and SG1100 appliances
 :icons: font
@@ -12,6 +11,8 @@ summary: 'The SG110 and SG1100 services appliances contains two SSD drives. The 
 
 [.lead]
 The SG110 and SG1100 services appliances contains two SSD drives. The drives are mirrored using RAID1 for redundancy. If one of the drives fails, you must replace it as soon as possible to ensure redundancy. 
+
+// Similar procedure for SGF6112 - unable to use includes due to differences in configuration, not operation.
 
 .Before you begin
 
