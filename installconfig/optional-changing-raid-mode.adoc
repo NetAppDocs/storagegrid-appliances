@@ -30,27 +30,6 @@ IMPORTANT: If any volumes have already been configured or if StorageGRID was pre
 
 [role="tabbed-block"]
 ====
-.SG6000
---
-.Before you begin
-
-* You are using any client that can connect to StorageGRID.
-* The client has a  https://review.docs.netapp.com/us-en/storagegrid-118_main/admin/web-browser-requirements.html[supported web browser^].
-
-.Steps
-
-. Open a browser, and enter one of the IP addresses for the appliance's compute controller.
-+
-`*https://_Controller_IP_:8443*`
-+
-`_Controller_IP_` is the IP address of the compute controller (not the storage controller) on any of the three StorageGRID networks.
-+
-The StorageGRID Appliance Installer Home page appears.
-
-. Select *Advanced* > *RAID Mode*.
-. On the *Configure RAID Mode* page, select the desired RAID mode from the Mode drop-down list.
-. Click *Save*.
---
 
 .SG5760
 --
@@ -72,6 +51,27 @@ Where `_E5700SG_Controller_IP_` is any of the IP addresses for the E5700SG contr
 . Click *Save*.
 --
 
+.SG6000
+--
+.Before you begin
+
+* You are using any client that can connect to StorageGRID.
+* The client has a  https://review.docs.netapp.com/us-en/storagegrid-118_main/admin/web-browser-requirements.html[supported web browser^].
+
+.Steps
+
+. Open a browser, and enter one of the IP addresses for the appliance's compute controller.
++
+`*https://_Controller_IP_:8443*`
++
+`_Controller_IP_` is the IP address of the compute controller (not the storage controller) on any of the three StorageGRID networks.
++
+The StorageGRID Appliance Installer Home page appears.
+
+. Select *Advanced* > *RAID Mode*.
+. On the *Configure RAID Mode* page, select the desired RAID mode from the Mode drop-down list.
+. Click *Save*.
+--
 
 ====
 

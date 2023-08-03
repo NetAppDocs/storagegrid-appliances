@@ -11,12 +11,12 @@ summary: 'You can access the BMC interface using the DHCP or static IP address f
 [.lead]
 You can access the BMC interface using the DHCP or static IP address for the BMC management port on the following appliance models: 
 
-* SG6100
-* SG6000
-* SG1100
+* SG100
 * SG110
 * SG1000
-* SG100
+* SG1100
+* SG6000
+* SG6100
 
 .Before you begin
 
@@ -27,19 +27,10 @@ You can access the BMC interface using the DHCP or static IP address for the BMC
 [role="tabbed-block"]
 ====
 
-.SG6100
---
-image::../media/sgf6112_cn_bmc_management_port.png[SGF6112 BMC management port]
---
 
-.SG6000
+.SG100
 --
-image::../media/sg6000_cn_bmc_management_port.gif[SG6000-CN controller BMC management port]
---
-
-.SG1100
---
-image::../media/sg1100_bmc_management_port.png[BMC management port SG1100]
+image::../media/sg100_bmc_management_port.png[SG100 BMC management port]
 --
 
 .SG110
@@ -52,11 +43,20 @@ image::../media/sgf6112_cn_bmc_management_port.png[BMC management port SG110]
 image::../media/sg1000_bmc_management_port.png[SG1000 BMC Management Port]
 --
 
-.SG100
+.SG1100
 --
-image::../media/sg100_bmc_management_port.png[SG100 BMC management port]
+image::../media/sg1100_bmc_management_port.png[BMC management port SG1100]
 --
 
+.SG6000
+--
+image::../media/sg6000_cn_bmc_management_port.gif[SG6000-CN controller BMC management port]
+--
+
+.SG6100
+--
+image::../media/sgf6112_cn_bmc_management_port.png[SGF6112 BMC management port]
+--
 ====
 
 .Steps

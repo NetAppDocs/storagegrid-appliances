@@ -36,6 +36,7 @@ Optional tools::
 
 [role="tabbed-block"]
 ====
+
 .SG100 and SG1000
 --
 You need the following additional equipment to install and configure the SG100 and SG1000 hardware.

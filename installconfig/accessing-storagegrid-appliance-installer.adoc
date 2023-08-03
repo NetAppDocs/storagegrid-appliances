@@ -30,14 +30,24 @@ To initially access the StorageGRID Appliance Installer, you can use the DHCP-as
 [role="tabbed-block"]
 ====
 
-.SGF6112
+.SG100
 --
-image::../media/sg6100_admin_network_port.png[Admin Network port on the SGF6112]
+image::../media/sg100_admin_network_port.png[Admin Network port on the SG100]
 --
 
-.SG6000-CN
+.SG110
 --
-image::../media/sg6000_cn_admin_network_port.png[Admin Network port on the SG6000-CN controller]
+image::../media/sg6100_admin_network_port.png[Admin Network port on the SG110]
+--
+
+.SG1000
+--
+image::../media/sg1000_admin_network_port.png[Admin Network port on the SG1000]
+--
+
+.SG1100
+--
+image::../media/sg1100_admin_network_port.png[Admin Network port on the SG1100]
 --
 
 .E5700SG
@@ -58,26 +68,15 @@ In the sequence:
 NOTE: If an IP address could not be assigned using DHCP, 0.0.0.0 is displayed.
 --
 
-.SG110
+.SG6000-CN
 --
-image::../media/sg6100_admin_network_port.png[Admin Network port on the SG110]
---
-
-.SG1100
---
-image::../media/sg1100_admin_network_port.png[Admin Network port on the SG1100]
+image::../media/sg6000_cn_admin_network_port.png[Admin Network port on the SG6000-CN controller]
 --
 
-.SG100
+.SGF6112
 --
-image::../media/sg100_admin_network_port.png[Admin Network port on the SG100]
+image::../media/sg6100_admin_network_port.png[Admin Network port on the SGF6112]
 --
-
-.SG1000
---
-image::../media/sg1000_admin_network_port.png[Admin Network port on the SG1000]
---
-
 ====
 
  .. Locate the MAC address label on the front of the services appliance or storage appliance, and determine the MAC address for the Admin Network port.
@@ -105,26 +104,11 @@ image::../media/appliance_installer_home_5700_5600.png[Screen shot of the top pa
 [role="tabbed-block"]
 ====
 
-.SGF6112
+.SG100
 --
-Connect a service laptop directly to the rightmost RJ-45 port on the appliance, using an Ethernet cable.
+Connect a service laptop directly to the rightmost RJ-45 port on the services appliance, using an Ethernet cable.
 
-image::../media/sg6100_link_local_port.png[SGF6112 Link-Local Connection]
---
-
-
-.SG6000-CN
---
-Connect a service laptop directly to the rightmost RJ-45 port on the SG6000-CN controller, using an Ethernet cable.
-
-image::../media/sg6000_cn_link_local_port.png[Location of Management Port for SG6000-CN]
---
-
-.E5700SG
---
-Connect the service laptop to management port 2 on the E5700SG controller, using an Ethernet cable.
-
-image::../media/e5700sg_mgmt_port_2.gif[Location of Management Port 2 on the E5700SG controller]
+image::../media/sg100_link_local_port.png[SG100 Link-Local Connection]
 --
 
 .SG110
@@ -134,6 +118,13 @@ Connect a service laptop directly to the rightmost RJ-45 port on the appliance, 
 image::../media/sg6100_link_local_port.png[SG110 Link-Local Connection]
 --
 
+.SG1000
+--
+Connect a service laptop directly to the rightmost RJ-45 port on the services appliance, using an Ethernet cable.
+
+image::../media/sg1000_link_local_port.png[SG1000 Link-Local Connection]
+--
+
 .SG1100
 --
 Connect a service laptop directly to the rightmost RJ-45 port on the appliance, using an Ethernet cable.
@@ -141,18 +132,23 @@ Connect a service laptop directly to the rightmost RJ-45 port on the appliance, 
 image::../media/sg1100_link_local_port.png[SG1100 Link-Local Connection]
 --
 
-.SG100
+.E5700SG
 --
-Connect a service laptop directly to the rightmost RJ-45 port on the services appliance, using an Ethernet cable.
+Connect the service laptop to management port 2 on the E5700SG controller, using an Ethernet cable.
 
-image::../media/sg100_link_local_port.png[SG100 Link-Local Connection]
+image::../media/e5700sg_mgmt_port_2.gif[Location of Management Port 2 on the E5700SG controller]
 --
-
-.SG1000
+.SG6000-CN
 --
-Connect a service laptop directly to the rightmost RJ-45 port on the services appliance, using an Ethernet cable.
+Connect a service laptop directly to the rightmost RJ-45 port on the SG6000-CN controller, using an Ethernet cable.
 
-image::../media/sg1000_link_local_port.png[SG1000 Link-Local Connection]
+image::../media/sg6000_cn_link_local_port.png[Location of Management Port for SG6000-CN]
+--
+.SGF6112
+--
+Connect a service laptop directly to the rightmost RJ-45 port on the appliance, using an Ethernet cable.
+
+image::../media/sg6100_link_local_port.png[SGF6112 Link-Local Connection]
 --
 
 ====
