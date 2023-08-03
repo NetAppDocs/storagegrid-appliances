@@ -4,7 +4,6 @@ sidebar: sidebar
 keywords: storagegrid, sgf6112, power off, turn off, shut off, shutdown, shut down, power on, turn on, start
 summary: 'You can shut down the SGF6112 appliance and power it back on to perform maintenance.'
 ---
-// Same procedure for SG110 and SG1100 - unable to use includes due to specific links in steps
 
 = Power SGF6112 appliance off and on
 :icons: font
@@ -12,6 +11,8 @@ summary: 'You can shut down the SGF6112 appliance and power it back on to perfor
 
 [.lead]
 You can shut down the SGF6112 appliance and power it back on to perform maintenance.
+
+// Same procedure for SG110 and SG1100 - unable to use includes due to specific links in steps
 
 == Shut down the SGF6112 appliance
 

@@ -4,7 +4,6 @@ sidebar: sidebar
 keywords: storagegrid, sgf6112, storage node, storage appliance, install, installing, installation, cabinet, rack
 summary: 'Remove the SGF6112 from a cabinet or rack to access the top cover or to move the appliance to a different location, then reinstall the appliance into a cabinet or rack when hardware maintenance is complete.'
 ---
-// Same procedure for SG110 and SG1100 - unable to use includes due to specific links in steps.
 
 = Relocate SGF6112 in cabinet or rack
 :icons: font
@@ -12,6 +11,8 @@ summary: 'Remove the SGF6112 from a cabinet or rack to access the top cover or t
 
 [.lead]
 Remove the SGF6112 from a cabinet or rack to access the top cover or to move the appliance to a different location, then reinstall the appliance into a cabinet or rack when hardware maintenance is complete.
+
+// Same procedure for SG110 and SG1100 - unable to use includes due to specific links in steps.
 
 [#remove-from-rack]
 == Remove SGF6112 from cabinet or rack
