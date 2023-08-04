@@ -3,7 +3,7 @@ indexpage:
     - title: Learn about storage appliances
       links: 
         - title: What's new for appliances
-          url: "/whats-new-appliances.html"
+          url: "../whats-new-appliances.html"
         - title: SG5700 storage appliances
           url: "../installconfig/hardware-description-sg5700.html"
         - title: SG6000 storage appliances
