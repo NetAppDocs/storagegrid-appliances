@@ -1,9 +1,17 @@
 indexpage:
    tiles:
-    - title: Learn about storage appliances
+    - title: Get started
       links: 
         - title: What's new for appliances
           url: "../whats-new-appliances.html"
+        - title: Learn about StorageGRID
+          url: https://review.docs.netapp.com/us-en/storagegrid-118_main/primer/index.html
+        - title: StorageGRID quick start
+          url: "https://review.docs.netapp.com/us-en/storagegrid-118_main/quick-start.html"
+        - title: Quick start for appliance installation
+          url: ../installconfig/index.html
+    - title: Learn about storage appliances
+      links:
         - title: SG5700 storage appliances
           url: "../installconfig/hardware-description-sg5700.html"
         - title: SG6000 storage appliances
@@ -16,11 +24,4 @@ indexpage:
           url: "../installconfig/hardware-description-sg100-and-1000.html"
         - title: SG110 and SG1100 services appliances
           url: "../installconfig/hardware-description-sg110-and-1100.html"
-    - title: Get started
-      links:
-        - title: Learn about StorageGRID
-          url: https://review.docs.netapp.com/us-en/storagegrid-118_main/primer/index.html
-        - title: StorageGRID quick start
-          url: "https://review.docs.netapp.com/us-en/storagegrid-118_main/quick-start.html"
-        - title: Quick start for appliance installation
-          url: ../installconfig/index.html
+    
