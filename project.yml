@@ -13,7 +13,7 @@ sidebar:
       url: "/landing-learn-hdwr/index.html"
       entries:
       - title: What's new for appliances
-          url: "/whats-new-appliances.html"
+        url: "/whats-new-appliances.html"
       - title: Learn about StorageGRID appliances
         entries:
         - title: SG100 and SG1000 services appliances
