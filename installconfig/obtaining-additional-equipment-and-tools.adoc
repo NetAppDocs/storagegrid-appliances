@@ -32,55 +32,13 @@ Optional tools::
 * Power drill with Phillips head bit
 * Flashlight
 
-== SGF6112
+== Appliance-specific equipment and tools
 
-You need the following additional equipment to install and configure the SGF6112 hardware.
+[role="tabbed-block"]
+====
 
-Optical cables and transceivers::
-* Cables, 1 to 4 of either:
-** TwinAx/Copper
-** Fibre/Optical
-
-* Transceivers/adapters, 1 to 4 of each, based on link speed (mixed speeds aren't supported):
-** 10-GbE SFP+ 
-** 25-GbE SFP28 
-
-Ethernet cables::
-RJ-45 (Cat5/Cat5e/Cat6/Cat6a)
-
-== SG6000
-
-You need the following additional equipment to install and configure the SG6000 hardware.
-
-Optical cables and SFP transceivers::
-
-* Cables, 1 to 4 of either:
-** TwinAx/Copper
-** Fibre/Optical
-
-* Transceivers/adapters, 1 to 4 of each, based on link speed (mixed speeds aren't supported):
-** 10-GbE SFP+
-** 25-GbE SFP28
-
-Ethernet cables:: RJ-45 (Cat5/Cat5e/Cat6)
-
-Optional tools::
-Mechanized lift for 60-drive shelves
-
-== SG5700
-
-You need the following additional equipment to install and configure the SG5700 hardware.
-
-Optical cables and SFP transceivers::
-* Optical cables for the 10/25-GbE ports you plan to use
-* Optional: SFP28 transceivers if you want to use 25-GbE link speed
-
-Ethernet cables::
-
-Optional tools:: Mechanized lift for SG5760
-
-== SG100 and SG1000
-
+.SG100 and SG1000
+--
 You need the following additional equipment to install and configure the SG100 and SG1000 hardware.
 
 Optical cables and transceivers::
@@ -101,3 +59,79 @@ Optical cables and transceivers::
 *** 100-GbE QFSP28
 
 Ethernet cables:: RJ-45 (Cat5/Cat5e/Cat6/Cat6a)
+--
+
+.SG110 and SG1100
+--
+You need the following additional equipment to install and configure the SG110 and SG1100 hardware.
+
+Optical cables and transceivers::
+* Cables, 1 to 4 of either:
+** TwinAx/Copper 
+** Fibre/Optical 
+
+* Transceivers/adapters, 1 to 4 of each, based on link speed (mixed speeds aren't supported):
+** SG110:
+*** 10-GbE SFP+
+*** 25-GbE SFP28
+
+** SG1100:
+
+*** 10-GbE QSFP-to-SFP adapter (QSA) and SFP+ 
+*** 25-GbE QSFP-to-SFP adapter (QSA) and SFP28 
+*** 40-GbE QSFP+
+*** 100-GbE QFSP28
+
+Ethernet cables:: RJ-45 (Cat5/Cat5e/Cat6/Cat6a)
+--
+
+.SG5700
+--
+You need the following additional equipment to install and configure the SG5700 hardware.
+
+Optical cables and SFP transceivers::
+* Optical cables for the 10/25-GbE ports you plan to use
+* Optional: SFP28 transceivers if you want to use 25-GbE link speed
+
+Ethernet cables::
+
+Optional tools:: Mechanized lift for SG5760
+--
+
+.SG6000
+--
+You need the following additional equipment to install and configure the SG6000 hardware.
+
+Optical cables and SFP transceivers::
+
+* Cables, 1 to 4 of either:
+** TwinAx/Copper
+** Fibre/Optical
+
+* Transceivers/adapters, 1 to 4 of each, based on link speed (mixed speeds aren't supported):
+** 10-GbE SFP+
+** 25-GbE SFP28
+
+Ethernet cables:: RJ-45 (Cat5/Cat5e/Cat6)
+
+Optional tools::
+Mechanized lift for 60-drive shelves
+--
+
+.SG6100
+--
+You need the following additional equipment to install and configure the SGF6112 hardware.
+
+Optical cables and transceivers::
+* Cables, 1 to 4 of either:
+** TwinAx/Copper
+** Fibre/Optical
+
+* Transceivers/adapters, 1 to 4 of each, based on link speed (mixed speeds aren't supported):
+** 10-GbE SFP+ 
+** 25-GbE SFP28 
+
+Ethernet cables::
+RJ-45 (Cat5/Cat5e/Cat6/Cat6a)
+--
+====

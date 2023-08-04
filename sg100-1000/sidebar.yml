@@ -9,23 +9,23 @@ entries:
   - title: Maintenance configuration procedures
     pdf-filename: Maintenance configuration procedures - SG100 and SG1000
     entries:
-    - title: Turn controller identify LED on and off
+    - title: Turn identify LED on and off
       url: "/sg100-1000/turning-controller-identify-led-on-and-off.html"
     - title: Locate controller in data center
       url: "/sg100-1000/locating-controller-in-data-center.html"
-    - title: Shut down the appliance
+    - title: Shut down appliance
       url: "/sg100-1000/shut-down-sg100-and-sg1000.html" 
-    - title: Change link configuration of services appliance
+    - title: Change link configuration
       url: "/sg100-1000/changing-link-configuration-of-services-appliance.html"
 
   - title: Hardware procedures
     pdf-filename: Hardware procedures - SG100 and SG1000
     entries:
-    - title: Replace one or both power supplies in the services appliance
+    - title: Replace one or both power supplies
       url: "/sg100-1000/replacing-one-or-more-power-supplies-in-services-appliance.html"
-    - title: Replace fan in services appliance
+    - title: Replace fan
       url: "/sg100-1000/replacing-fan-in-services-appliance.html"
-    - title: Replace drive in services appliance
+    - title: Replace drive
       url: "/sg100-1000/replacing-drive-in-services-appliance.html"
-    - title: Replace the services appliance
+    - title: Replace appliance
       url: "/sg100-1000/replacing-services-appliance.html"

@@ -14,23 +14,109 @@ The appliances and controllers include indicators that help you determine the st
 [role="tabbed-block"]
 ====
 
-.SGF6112
+.SG100 and SG1000
+--
+
+The appliance includes indicators that help you determine the status of the appliance controller and the two SSDs:
+
+* <<appliance_indicators_SG100_1000,Appliance indicators and buttons>>
+* <<general_boot_codes_SG100_1000,General boot-up codes>>
+* <<ssd_indicators_SG100_1000,SSD indicators>>
+
+Use this information to help link:troubleshooting-hardware-installation-sg100-and-sg1000.html[troubleshoot SG100 and SG1000 hardware installation].
+
+[[appliance_indicators_SG100_1000]]
+Appliance indicators and buttons::
++
+The following figure shows status indicators and buttons on the SG100 and SG1000.
++
+image::../media/sg6000_cn_front_indicators.gif[Front Indicators - SG1000]
++
+[cols="1a,2a,2a" options="header"]
+|===
+| Callout | Display| State
+
+|1
+|Power button
+|
+* Blue: the appliance is powered on.
+* Off: the appliance is powered off.
+
+|2
+|Reset button
+|Use this button to perform a hard reset of the controller.
+
+|3
+|Identify button
+|This button can be set to Blink, On (Solid), or Off.
+
+* Blue, blinking: Identifies the appliance in the cabinet or rack.
+* Blue, solid: Identifies the appliance in the cabinet or rack.
+* Off: The appliance is not visually identifiable in the cabinet or rack.
+
+|4
+|Alarm LED
+|
+* Amber, solid: An error has occurred.
++
+*Note:* To view the boot-up and error codes, link:accessing-bmc-interface.html[access the BMC interface].
+
+* Off: No errors are present.
+
+|===
+
+[[general_boot_codes_SG100_1000]]
+General boot-up codes::
++
+During boot-up or after a hard reset of the appliance, the following occurs:
++
+. The baseboard management controller (BMC) logs codes for the boot-up sequence, including any errors that occur.
+. The power button lights up.
+. If any errors occur during boot-up, the alarm LED lights up.
++
+To view the boot-up and error codes, link:accessing-bmc-interface.html[access the BMC interface].
+
+[[ssd_indicators_SG100_1000]]
+SSD indicators::
++
+The following figure shows SSD indicators on the SG100 and SG1000.
++
+image::../media/ssd_indicators.png[SSD Indicators]
++
+[cols="1a,2a,2a" options="header"]
+|===
+| LED| Display| State
+
+|1
+|Drive status/fault
+|
+* Blue (solid): drive is online
+* Amber (blinking): drive failure
+* Off: slot is empty
+
+|2
+|Drive active
+|Blue (blinking): drive is being accessed
+|===
+--
+
+.SG110 and SG1100
 --
 
 The appliance includes indicators that help you determine the status of the appliance controller and the SSDs:
 
-* <<appliance_indicators_SG6100,Appliance indicators and buttons>>
-* <<general_boot_codes_SG6100,General boot-up codes>>
-* <<ssd_indicators_SG6100,SSD indicators>>
+* <<appliance_indicators,Appliance indicators and buttons>>
+* <<general_boot_codes,General boot-up codes>>
+* <<ssd_indicators,SSD indicators>>
 
-Use this information to help link:troubleshooting-hardware-installation-sg6100.html[troubleshoot SGF6112 hardware installation].
+Use this information to help link:troubleshooting-hardware-installation-sg110-and-sg1100.html[troubleshoot SG110 and SG1100 hardware installation].
 
-[[appliance_indicators_SG6100]]
+[[appliance_indicators]]
 Appliance indicators and buttons::
 +
-The following figure shows indicators and buttons on the SG6112 appliance.
+The following figure shows indicators and buttons on the SG110 and SG1100 appliances.
 +
-image::../media/sgf6112_front_indicators.png[Front Indicators - SGF6112]
+image::../media/sgf6112_front_indicators.png[Front Indicators - SG110 and SG1100]
 +
 [cols="1a,2a,3a" options="header"]
 |===
@@ -62,11 +148,11 @@ image::../media/sgf6112_front_indicators.png[Front Indicators - SGF6112]
 
 | 5
 | PFR
-| This light is not used by the SGF6112 appliance and remains off. 
+| This light is not used by the SG110 and SG1100 appliances and remains off. 
 
 |===
 
-[[general_boot_codes_SG6100]]
+[[general_boot_codes]]
 General boot-up codes::
 +
 During boot-up or after a hard reset of the appliance, the following occurs:
@@ -77,10 +163,10 @@ During boot-up or after a hard reset of the appliance, the following occurs:
 +
 To view the boot-up and error codes, link:accessing-bmc-interface.html[access the BMC interface].
 
-[[ssd_indicators_SG6100]]
+[[ssd_indicators]]
 SSD indicators::
 +
-The following figure shows SSD indicators on the SG6112 appliance.
+The following figure shows SSD indicators on the SG110 and SG1100 appliances.
 +
 image::../media/ssd_indicators.png[SSD Indicators]
 +
@@ -94,103 +180,10 @@ image::../media/ssd_indicators.png[SSD Indicators]
 * Amber (solid): drive failure
 * Off: slot is empty
 
-*Note:* If a new working SSD is inserted into a working SGF6112 StorageGRID node, the LEDs on the SSD should blink initially, but stop blinking as soon as the system determines that the drive has enough capacity and is functional.
-
 | 2
 | Drive active
 | Blue (blinking): drive is being accessed
 |===
---
-
-
-.SG6000
---
-
-The SG6000 appliance controllers include indicators that help you determine the status of the appliance controller:
-
-* <<status_indicators_sg6000cn,Status indicators and buttons on SG6000-CN controller>>
-* <<general_boot_codes_sg6000,General boot-up codes>>
-* <<boot_codes_sg6000_storage_controller,Boot-up status codes for SG6000 storage controllers>>
-
-Use this information to help link:troubleshooting-hardware-installation.html[troubleshoot SG6000 installation].
-
-[[status_indicators_sg6000cn]]
-Status indicators and buttons on SG6000-CN controller::
-+
-The SG6000-CN controller includes indicators that help you determine the status of the controller, including the following indicators and buttons.
-+
-The following figure shows status indicators and buttons on the SG6000-CN controller.
-+
-image::../media/sg6000_cn_front_indicators.gif[Front Indicators - SG6000-CN]
-+
-[cols="1a,2a,3a" options="header"]
-|===
-| Callout  | Display| Description
-
-| 1
-| Power button
-| * Blue: The controller is powered on.
-* Off: The controller is powered off.
-
-| 2
-| Reset button
-| _No indicator_
-
-Use this button to perform a hard reset of the controller.
-
-| 3
-| Identify button
-| 
-* Blinking or solid blue: Identifies the controller in the cabinet or rack.
-* Off: The controller is not visually identifiable in the cabinet or rack.
-
-This button can be set to Blink, On (Solid), or Off.
-
-| 4
-| Alarm LED
-| * Amber: An error has occurred.
-+
-*Note:* To view the boot-up and error codes, link:accessing-bmc-interface.html[access the BMC interface].
-* Off: No errors are present.
-|===
-
-[[general_boot_codes_sg6000]]
-General boot-up codes::
-+
-During boot-up or after a hard reset of the SG6000-CN controller, the following occurs:
-+
-. The baseboard management controller (BMC) logs codes for the boot-up sequence, including any errors that occur.
-. The power button lights up.
-. If any errors occur during boot-up, the alarm LED lights up.
-+
-To view the boot-up and error codes, link:accessing-bmc-interface.html[access the BMC interface].
-
-[[boot_codes_sg6000_storage_controller]]
-Boot-up status codes for SG6000 storage controllers::
-+
-Each storage controller has a seven-segment display that provides status codes as the controller powers up. The status codes are the same for both the E2800 controller and the EF570 controller.
-+
-For descriptions of these codes, see the E-Series system monitoring information for you storage controller type.
-
-.Steps
-
-. During boot-up, monitor progress by viewing the codes shown on the seven-segment display for each storage controller.
-+
-The seven-segment display on each storage controller shows the repeating sequence *OS*, *Sd*, `*_blank_*` to indicate that the controller is performing start-of-day processing.
-
-. After the controllers have booted up, confirm that each storage controller shows 99, which is the default ID for an E-Series controller shelf.
-+
-Make sure this value is displayed on both storage controllers, as shown in this example E2800 controller.
-+
-image::../media/seven_segment_display_codes_for_e2800.gif[Seven-Segment Display Codes for E2800]
-
-. If one or both controllers show other values, see link:troubleshooting-hardware-installation.html[Troubleshoot hardware installation (SG6000 or SG5700)] and confirm you completed the installation steps correctly. If you are unable to resolve the problem, contact technical support.
-
-.Related information
-
-* https://mysupport.netapp.com/site/global/dashboard[NetApp Support^]
-
-* link:../sg6000/power-sg6000-cn-controller-off-on.html#power-on-sg6000-cn-controller-and-verify-operation[Power on SG6000-CN controller and verify operation]
 --
 
 .SG5700
@@ -431,58 +424,149 @@ Installation or communication with the E2800 controller has failed.
 
 --
 
-.SG100 and SG1000
+.SG6000
 --
 
-The appliance includes indicators that help you determine the status of the appliance controller and the two SSDs:
+The SG6000 appliance controllers include indicators that help you determine the status of the appliance controller:
 
-* <<appliance_indicators_SG100_1000,Appliance indicators and buttons>>
-* <<general_boot_codes_SG100_1000,General boot-up codes>>
-* <<ssd_indicators_SG100_1000,SSD indicators>>
+* <<status_indicators_sg6000cn,Status indicators and buttons on SG6000-CN controller>>
+* <<general_boot_codes_sg6000,General boot-up codes>>
+* <<boot_codes_sg6000_storage_controller,Boot-up status codes for SG6000 storage controllers>>
 
-Use this information to help link:troubleshooting-hardware-installation-sg100-and-sg1000.html[troubleshoot SG100 and SG1000 hardware installation].
+Use this information to help link:troubleshooting-hardware-installation.html[troubleshoot SG6000 installation].
 
-[[appliance_indicators_SG100_1000]]
+[[status_indicators_sg6000cn]]
+Status indicators and buttons on SG6000-CN controller::
++
+The SG6000-CN controller includes indicators that help you determine the status of the controller, including the following indicators and buttons.
++
+The following figure shows status indicators and buttons on the SG6000-CN controller.
++
+image::../media/sg6000_cn_front_indicators.gif[Front Indicators - SG6000-CN]
++
+[cols="1a,2a,3a" options="header"]
+|===
+| Callout  | Display| Description
+
+| 1
+| Power button
+| * Blue: The controller is powered on.
+* Off: The controller is powered off.
+
+| 2
+| Reset button
+| _No indicator_
+
+Use this button to perform a hard reset of the controller.
+
+| 3
+| Identify button
+| 
+* Blinking or solid blue: Identifies the controller in the cabinet or rack.
+* Off: The controller is not visually identifiable in the cabinet or rack.
+
+This button can be set to Blink, On (Solid), or Off.
+
+| 4
+| Alarm LED
+| * Amber: An error has occurred.
++
+*Note:* To view the boot-up and error codes, link:accessing-bmc-interface.html[access the BMC interface].
+* Off: No errors are present.
+|===
+
+[[general_boot_codes_sg6000]]
+General boot-up codes::
++
+During boot-up or after a hard reset of the SG6000-CN controller, the following occurs:
++
+. The baseboard management controller (BMC) logs codes for the boot-up sequence, including any errors that occur.
+. The power button lights up.
+. If any errors occur during boot-up, the alarm LED lights up.
++
+To view the boot-up and error codes, link:accessing-bmc-interface.html[access the BMC interface].
+
+[[boot_codes_sg6000_storage_controller]]
+Boot-up status codes for SG6000 storage controllers::
++
+Each storage controller has a seven-segment display that provides status codes as the controller powers up. The status codes are the same for both the E2800 controller and the EF570 controller.
++
+For descriptions of these codes, see the E-Series system monitoring information for you storage controller type.
+
+.Steps
+
+. During boot-up, monitor progress by viewing the codes shown on the seven-segment display for each storage controller.
++
+The seven-segment display on each storage controller shows the repeating sequence *OS*, *Sd*, `*_blank_*` to indicate that the controller is performing start-of-day processing.
+
+. After the controllers have booted up, confirm that each storage controller shows 99, which is the default ID for an E-Series controller shelf.
++
+Make sure this value is displayed on both storage controllers, as shown in this example E2800 controller.
++
+image::../media/seven_segment_display_codes_for_e2800.gif[Seven-Segment Display Codes for E2800]
+
+. If one or both controllers show other values, see link:troubleshooting-hardware-installation.html[Troubleshoot hardware installation (SG6000 or SG5700)] and confirm you completed the installation steps correctly. If you are unable to resolve the problem, contact technical support.
+
+.Related information
+
+* https://mysupport.netapp.com/site/global/dashboard[NetApp Support^]
+
+* link:../sg6000/power-sg6000-cn-controller-off-on.html#power-on-sg6000-cn-controller-and-verify-operation[Power on SG6000-CN controller and verify operation]
+--
+
+.SG6100
+--
+
+The appliance includes indicators that help you determine the status of the appliance controller and the SSDs:
+
+* <<appliance_indicators_SG6100,Appliance indicators and buttons>>
+* <<general_boot_codes_SG6100,General boot-up codes>>
+* <<ssd_indicators_SG6100,SSD indicators>>
+
+Use this information to help link:troubleshooting-hardware-installation-sg6100.html[troubleshoot SG6100 hardware installation].
+
+[[appliance_indicators_SG6100]]
 Appliance indicators and buttons::
 +
-The following figure shows status indicators and buttons on the SG100 and SG1000.
+The following figure shows indicators and buttons on the SG6112 appliance.
 +
-image::../media/sg6000_cn_front_indicators.gif[Front Indicators - SG1000]
+image::../media/sgf6112_front_indicators.png[Front Indicators - SGF6112]
 +
-[cols="1a,2a,2a" options="header"]
+[cols="1a,2a,3a" options="header"]
 |===
 | Callout | Display| State
-
-|1
-|Power button
-|
-* Blue: the appliance is powered on.
+| 1
+| Power button
+| * Blue: the appliance is powered on.
 * Off: the appliance is powered off.
 
-|2
-|Reset button
-|Use this button to perform a hard reset of the controller.
+| 2
+| Reset button
+| Use this button to perform a hard reset of the controller.
 
-|3
-|Identify button
-|This button can be set to Blink, On (Solid), or Off.
+| 3
+| Identify button
+| Using the BMC, this button can be set to blink, On (Solid), or Off.
 
 * Blue, blinking: Identifies the appliance in the cabinet or rack.
 * Blue, solid: Identifies the appliance in the cabinet or rack.
 * Off: The appliance is not visually identifiable in the cabinet or rack.
 
-|4
-|Alarm LED
-|
-* Amber, solid: An error has occurred.
+| 4
+| Status LED
+| * Amber, solid: An error has occurred.
 +
 *Note:* To view the boot-up and error codes, link:accessing-bmc-interface.html[access the BMC interface].
 
 * Off: No errors are present.
 
+| 5
+| PFR
+| This light is not used by the SGF6112 appliance and remains off. 
+
 |===
 
-[[general_boot_codes_SG100_1000]]
+[[general_boot_codes_SG6100]]
 General boot-up codes::
 +
 During boot-up or after a hard reset of the appliance, the following occurs:
@@ -493,10 +577,10 @@ During boot-up or after a hard reset of the appliance, the following occurs:
 +
 To view the boot-up and error codes, link:accessing-bmc-interface.html[access the BMC interface].
 
-[[ssd_indicators_SG100_1000]]
+[[ssd_indicators_SG6100]]
 SSD indicators::
 +
-The following figure shows SSD indicators on the SG100 and SG1000.
+The following figure shows SSD indicators on the SG6112 appliance.
 +
 image::../media/ssd_indicators.png[SSD Indicators]
 +
@@ -504,16 +588,17 @@ image::../media/ssd_indicators.png[SSD Indicators]
 |===
 | LED| Display| State
 
-|1
-|Drive status/fault
-|
-* Blue (solid): drive is online
-* Amber (blinking): drive failure
+| 1
+| Drive status/fault
+| * Blue (solid): drive is online
+* Amber (solid): drive failure
 * Off: slot is empty
 
-|2
-|Drive active
-|Blue (blinking): drive is being accessed
+*Note:* If a new working SSD is inserted into a working SGF6112 StorageGRID node, the LEDs on the SSD should blink initially, but stop blinking as soon as the system determines that the drive has enough capacity and is functional.
+
+| 2
+| Drive active
+| Blue (blinking): drive is being accessed
 |===
 --
 ====

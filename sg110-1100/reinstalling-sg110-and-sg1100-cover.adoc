@@ -1,0 +1,25 @@
+---
+permalink: sg110-1100/reinstalling-sg110-and-sg1100-cover.html
+sidebar: sidebar
+keywords: storagegrid, sg110, sg1100, storage node, admin appliance, cover, install, installing, installation, reinstall, reinstalling, reinstallation
+summary: 'Remove the appliance cover to access internal components for maintenance, and replace the cover when you are finished.'
+---
+= Replace SG110 and SG1100 cover
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Remove the appliance cover to access internal components for maintenance, and replace the cover when you are finished.
+
+== Remove cover
+
+.Before you begin
+
+link:reinstalling-sg110-and-sg1100-into-cabinet-or-rack.html[Remove the appliance from the cabinet or rack] to access the top cover.
+
+include::../_include/2023-replace-cover.adoc[]
+
+.After you finish
+
+link:reinstalling-sg110-and-sg1100-into-cabinet-or-rack.html[Reinstall the appliance in the cabinet or rack].
+

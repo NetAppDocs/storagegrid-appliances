@@ -5,7 +5,7 @@ keywords: storagegrid, sg6000, storage node, storage appliance, sg6000-cn, hba, 
 summary: 'You might need to replace a Fibre Channel HBA if it is not functioning optimally or if it has failed.'
 ---
 
-= Replace Fibre Channel HBA
+= Replace Fibre Channel HBA in SG6000
 :icons: font
 :imagesdir: ../media/
 

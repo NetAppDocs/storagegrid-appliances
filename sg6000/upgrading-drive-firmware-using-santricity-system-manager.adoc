@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storagegrid, sg6000, storage node, storage appliance, upgrade, firmware, drive, disk, SANtricity System Manager, SANtricity
 summary: 'You upgrade your drive firmware to make sure you have all the latest features and bug fixes.'
 ---
-= Upgrade drive firmware using SANtricity System Manager
+= Upgrade SG6000 drive firmware using SANtricity System Manager
 :icons: font
 :imagesdir: ../media/
 

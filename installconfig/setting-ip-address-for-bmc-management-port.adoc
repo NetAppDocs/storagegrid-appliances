@@ -22,14 +22,13 @@ If you are using ConfigBuilder to generate a JSON file, you can configure IP add
 [role="tabbed-block"]
 ====
 
-.SG6112
+.SG100
 --
-image::../media/sgf6112_cn_bmc_management_port.png[BMC management port SGF6112]
+image::../media/sg100_bmc_management_port.png[SG100 BMC Management Port]
 --
-
-.SG6000
+.SG110
 --
-image::../media/sg6000_cn_bmc_management_port.gif[BMC management port on SG6000-CN controller]
+image::../media/sgf6112_cn_bmc_management_port.png[BMC management port SG110]
 --
 
 .SG1000
@@ -37,9 +36,19 @@ image::../media/sg6000_cn_bmc_management_port.gif[BMC management port on SG6000-
 image::../media/sg1000_bmc_management_port.png[SG1000 BMC Management Port]
 --
 
-.SG100
+.SG1100
 --
-image::../media/sg100_bmc_management_port.png[SG100 BMC Management Port]
+image::../media/sg1100_bmc_management_port.png[BMC management port SG1100]
+--
+
+.SG6000
+--
+image::../media/sg6000_cn_bmc_management_port.gif[BMC management port on SG6000-CN controller]
+--
+
+.SG6100
+--
+image::../media/sgf6112_cn_bmc_management_port.png[BMC management port SGF6112]
 --
 
 ====

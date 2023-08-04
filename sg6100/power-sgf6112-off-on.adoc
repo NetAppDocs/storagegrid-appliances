@@ -4,12 +4,15 @@ sidebar: sidebar
 keywords: storagegrid, sgf6112, power off, turn off, shut off, shutdown, shut down, power on, turn on, start
 summary: 'You can shut down the SGF6112 appliance and power it back on to perform maintenance.'
 ---
+
 = Power SGF6112 appliance off and on
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You can shut down the SGF6112 appliance and power it back on to perform maintenance.
+
+// Same procedure for SG110 and SG1100 - unable to use includes due to specific links in steps
 
 == Shut down the SGF6112 appliance
 
@@ -52,13 +55,9 @@ Power on the controller after completing maintenance.
 
 .Before you begin
 
-* You have installed the controller in a cabinet or rack and connected the data and power cables.
-+
-link:reinstalling-sgf6112-into-cabinet-or-rack.html[Reinstall SGF6112 controller into cabinet or rack]
+* You have link:reinstalling-sgf6112-into-cabinet-or-rack.html[installed the controller in a cabinet or rack] and connected the data and power cables.
 
-* You have physically located the controller in the data center.
-+
-link:locating-sgf6112-in-data-center.html[Locate SGF6112 appliance in data center]
+* You have link:locating-sgf6112-in-data-center.html[physically located the controller in the data center].
 
 .Steps
 
@@ -68,9 +67,7 @@ You might have to remove the bezel to access the power switch; if so, remember t
 . Monitor the controller LEDs and boot-up codes using one of the following methods:
  ** Press the power switch on the front of the controller.
  ** Use the controller BMC interface:
-  ... Access the controller BMC interface.
-+
-link:../installconfig/accessing-bmc-interface.html[Access BMC interface]
+  ... link:../installconfig/accessing-bmc-interface.html[Access the controller BMC interface].
 
   ... Select *Power Control*.
   ... Select *Power On* and then select *Perform Action*.

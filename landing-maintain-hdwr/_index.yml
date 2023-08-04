@@ -19,14 +19,16 @@ indexpage:
         - title: Clone appliance node
           url: "../commonhardware/appliance-node-cloning-procedure.html"
     - title: Appliance-specific maintenance
-      links:
-        - title: SGF6112
-          url: "../landing-maintain-sgf6112/index.html"
-        - title: SG6000
-          url: "../landing-maintain-sg6000/index.html"
+      links:        
+        - title: SG100 and SG1000
+          url: "../landing-maintain-sg1000-100/index.html"        
+        - title: SG110 and SG1100
+          url: "../landing-maintain-sg1100-110/index.html"
+        - title: SG5600
+          url: "../sg5600/index.html" 
         - title: SG5700
           url: "../landing-maintain-sg5700/index.html"
-        - title: SG5600
-          url: "../sg5600/index.html"         
-        - title: SG1000 and SG100
-          url: "../landing-maintain-sg1000-100/index.html"
+        - title: SG6000
+          url: "../landing-maintain-sg6000/index.html"
+        - title: SG6100
+          url: "../landing-maintain-sgf6112/index.html"

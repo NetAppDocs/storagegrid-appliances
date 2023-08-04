@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storagegrid, sg6100, sgf6112,troubleshoot, troubleshooting, hardware, install, installation, boot codes, boot-up codes, start codes, codes, boot, start, bmc, error codes, setup, hang, hangs, fails, failure, stop, terminate, terminates, stuck, connection
 summary: 'If you encounter issues during the installation, you might find it helpful to review troubleshooting information related to hardware setup and connectivity issues.'
 ---
-= Troubleshoot hardware installation (SGF6112)
+= Troubleshoot hardware installation (SG6100)
 :icons: font
 :imagesdir: ../media/
 
@@ -97,7 +97,7 @@ If a hardware error occurs when the appliance is booting up, the BMC logs an err
 
 .Before you begin
 
-* You know how to access the BMC dashboard.
+* You know how to link:accessing-bmc-interface.html[access the BMC dashboard].
 
 .Steps
 
@@ -319,7 +319,7 @@ The StorageGRID Appliance Installer might not be available if hardware faults or
 
 == Connection issues
 
-If you can't connect to the services appliance, there might be a network issue, or the hardware installation might not have been completed successfully.
+If you can't connect to the appliance, there might be a network issue, or the hardware installation might not have been completed successfully.
 
 .Steps
 

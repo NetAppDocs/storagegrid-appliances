@@ -1,7 +1,7 @@
 settings:
   name: "StorageGRID Appliances"
   internal:
-    pdf_enabled: true
+    pdf_enabled: false
   prod:
     pdf_enabled: false
     harmony_enabled: true
@@ -12,16 +12,20 @@ sidebar:
     - title: Get started
       url: "/landing-learn-hdwr/index.html"
       entries:
+      - title: What's new for appliances
+        url: "/whats-new-appliances.html"
       - title: Learn about StorageGRID appliances
         entries:
-        - title: SGF6112 storage appliances
-          url: "/installconfig/hardware-description-sg6100.html"
-        - title: SG6000 storage appliances
-          url: "/installconfig/hardware-description-sg6000.html"
-        - title: SG5700 storage appliances
-          url: "/installconfig/hardware-description-sg5700.html"
         - title: SG100 and SG1000 services appliances
           url: "/installconfig/hardware-description-sg100-and-1000.html"
+        - title: SG110 and SG1100 services appliances
+          url: "/installconfig/hardware-description-sg110-and-1100.html"
+        - title: SG5700 storage appliances
+          url: "/installconfig/hardware-description-sg5700.html"
+        - title: SG6000 storage appliances
+          url: "/installconfig/hardware-description-sg6000.html"
+        - title: SG6100 storage appliances
+          url: "/installconfig/hardware-description-sg6100.html"
     - section: installconfig
     - title: Maintain appliance hardware
       url: "/landing-maintain-hdwr/index.html"
@@ -36,11 +40,12 @@ sidebar:
           url: "/commonhardware/considerations-and-requirements-for-appliance-node-cloning.html"
         - title: Clone appliance node
           url: "/commonhardware/appliance-node-cloning-procedure.html"
-      - section: sg6100
-      - section: sg6000
-      - section: sg5700
-      - section: sg5600
       - section: sg100-1000
+      - section: sg110-1100
+      - section: sg5600
+      - section: sg5700
+      - section: sg6000
+      - section: sg6100
     - title: StorageGRID software documentation
       url: /storagegrid-documentation.html
     - title: Enable StorageGRID

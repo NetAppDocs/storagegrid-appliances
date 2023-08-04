@@ -4,12 +4,15 @@ sidebar: sidebar
 keywords: storagegrid, sg6112, Replacing, replace, drive, remove, removing, removal, install, installing, installation
 summary: 'The SGF6112 storage appliance contains 12 SSD drives. Data on the drives is protected by a RAID scheme that enables the appliance to recover from any single drive failure without having to copy data from another node. '
 ---
-= Replace drives in the SGF6112 appliance
+
+= Replace drives in the SGF6112
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 The SGF6112 storage appliance contains 12 SSD drives. Data on the drives is protected by a RAID scheme that enables the appliance to recover from any single drive failure without having to copy data from another node. 
+
+// Similar procedure for SG110 and SG1100 - unable to use includes due to differences in configuration, not operation.
 
 The failure of a second drive before an initial drive failure has been corrected might require data be copied from other nodes to restore redundancy. This restoration of redundancy can take longer, and might be impossible, if single-copy ILM rules are in use or were used in the past, or if data redundancy has been impacted by failures on other nodes. Therefore, if one of the SGF6112 drives fails, you must replace it as soon as possible to ensure redundancy.
 
@@ -31,7 +34,7 @@ IMPORTANT: See the information about viewing status indicators to verify the fai
 +
 The twelve drives are in the following positions in the chassis (front of chassis with bezel removed shown): 
 
-image::../media/sgf6112_ssds_locations.png[Fan locations]
+image::../media/sgf6112_ssds_locations.png[Drive locations]
 
 [options="header"]
 |===
