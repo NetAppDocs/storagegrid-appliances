@@ -5,7 +5,7 @@ keywords: storagegrid, sg110, sg1100, Replacing, replace, power supply, remove, 
 summary: 'SG110 and SG1100 appliances have two power supplies for redundancy. If one of the power supplies fails, you must replace it as soon as possible to ensure that the appliance has redundant power. Both power supplies operating in the appliance must be of the same model and wattage.'
 ---
 
-= Replace one or both power supplies in the SG110 or SG1100 appliance
+= Replace one or both power supplies in the SG110 or SG1100
 :icons: font
 :imagesdir: ../media/
 

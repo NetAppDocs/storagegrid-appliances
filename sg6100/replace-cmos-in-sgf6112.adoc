@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storagegrid, sg6100, SGF6112, storage node, storage appliance, Replacing, replace, CMOS, battery
 summary: 'Use this procedure to replace the CMOS coin cell battery on the system board.'
 ---
-= Replace the CMOS battery in the SGF6112
+= Replace SGF6112 CMOS battery
 :icons: font
 :imagesdir: ../media/
 

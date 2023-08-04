@@ -32,10 +32,10 @@ entries:
     - title: Replace NIC
       url: "/sg6100/replace-nic-in-sgf6112.html"
     - title: Replace CMOS battery
-      url: "/sg6100/replace-cmos-in-sgf6112.html"
+      url: "/sg6100/replace-cmos-in-sgf6112.html"  
+    - title: Replace cover
+      url: "/sg6100/reinstalling-sgf6112-cover.html"    
     - title: Replace SGF6112 appliance
       url: "/sg6100/replacing-sgf6112-appliance.html"
     - title: Relocate SGF6112 in rack
-      url: "/sg6100/reinstalling-sgf6112-into-cabinet-or-rack.html"  
-    - title: Replace cover
-      url: "/sg6100/reinstalling-sgf6112-cover.html"    
+      url: "/sg6100/reinstalling-sgf6112-into-cabinet-or-rack.html"

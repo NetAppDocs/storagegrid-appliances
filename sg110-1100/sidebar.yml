@@ -32,10 +32,10 @@ entries:
     - title: Replace NIC
       url: "/sg110-1100/replace-nic-in-sg110-and-sg1100.html"
     - title: Replace CMOS battery
-      url: "/sg110-1100/replace-cmos-in-sg110-and-sg1100.html"
-    - title: Replace SG110 or SG1100 appliance
-      url: "/sg110-1100/replacing-sg110-and-sg1100-appliance.html"
-    - title: Relocate SG110 or SG1100 in rack
-      url: "/sg110-1100/reinstalling-sg110-and-sg1100-into-cabinet-or-rack.html"  
+      url: "/sg110-1100/replace-cmos-in-sg110-and-sg1100.html" 
     - title: Replace cover
       url: "/sg110-1100/reinstalling-sg110-and-sg1100-cover.html"    
+    - title: Replace appliance
+      url: "/sg110-1100/replacing-sg110-and-sg1100-appliance.html"
+    - title: Relocate appliance in rack
+      url: "/sg110-1100/reinstalling-sg110-and-sg1100-into-cabinet-or-rack.html" 

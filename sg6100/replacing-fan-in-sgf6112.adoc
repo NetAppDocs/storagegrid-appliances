@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storagegrid, sgf6112, storage appliance, Replacing, replace, fan, remove, removing, removal, install, installing
 summary: 'The SGF6112 appliance has eight cooling fans. If one of the fans fails, you must replace it as soon as possible to ensure that the appliance has proper cooling.'
 ---
-= Replace fan in an SGF6112 appliance
+= Replace fan in an SGF6112
 :icons: font
 :imagesdir: ../media/
 

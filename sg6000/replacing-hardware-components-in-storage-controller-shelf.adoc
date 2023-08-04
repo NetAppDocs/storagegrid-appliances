@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storagegrid, sg6000, storage node, storage appliance, Replacing, replace, hardware, components, remove, removing, removal, install, installing, installation, storage controller shelf, Battery, Drive, Power canister, power supply, Fan canister, fan, Drive drawer 
 summary: 'If a hardware problem occurs, you might need to replace a component in the storage controller shelf.'
 ---
-= Replace hardware components in storage controller shelf
+= Replace hardware components in SG6000 storage controller shelf
 :icons: font
 :imagesdir: ../media/
 

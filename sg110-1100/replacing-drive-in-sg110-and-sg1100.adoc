@@ -5,7 +5,7 @@ keywords: storagegrid, sg110, sg1100, Replacing, replace, drive, remove, removin
 summary: 'The SG110 and SG1100 services appliances contains two SSD drives. The drives are mirrored using RAID1 for redundancy. If one of the drives fails, you must replace it as soon as possible to ensure redundancy.'
 ---
 
-= Replace drives in the SG110 and SG1100 appliances
+= Replace drives in the SG110 or SG1100
 :icons: font
 :imagesdir: ../media/
 

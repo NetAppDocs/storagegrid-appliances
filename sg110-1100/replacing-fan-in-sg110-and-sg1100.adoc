@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storagegrid, sg110, sg1100, admin appliance, replacing, replace, fan, remove, removing, removal, install, installing
 summary: 'The SG110 or SG1100 appliances have eight cooling fans. If one of the fans fails, you must replace it as soon as possible to ensure that the appliance has proper cooling.'
 ---
-= Replace fan in an SG110 or SG1100 appliance
+= Replace fan in an SG110 or SG1100
 :icons: font
 :imagesdir: ../media/
 

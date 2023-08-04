@@ -5,7 +5,7 @@ keywords: storagegrid, sg110, sg1100, power off, turn off, shut off, shutdown, s
 summary: 'You can shut down the SGF6112 appliance and power it back on to perform maintenance.'
 ---
 
-= Power SG110 or SG1100 appliance off and on
+= Power SG110 or SG1100 off and on
 :icons: font
 :imagesdir: ../media/
 

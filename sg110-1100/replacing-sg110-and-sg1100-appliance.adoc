@@ -5,7 +5,7 @@ keywords: storagegrid, sg110, sg1100, Replacing, replace, remove, removing, remo
 summary: 'You might need to replace the appliance if it is not functioning optimally or if it has failed.'
 ---
 
-= Replace SG110 and SG110 appliance
+= Replace SG110 or SG110 appliances
 :icons: font
 :imagesdir: ../media/
 
