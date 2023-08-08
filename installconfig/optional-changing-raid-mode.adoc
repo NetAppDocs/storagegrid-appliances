@@ -74,7 +74,3 @@ Where `_E5700SG_Controller_IP_` is any of the IP addresses for the E5700SG contr
 
 
 ====
-
-.Related information
-
-http://mysupport.netapp.com/info/web/ECMP1658252.html[NetApp E-Series Systems Documentation Site^]
