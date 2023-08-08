@@ -28,7 +28,7 @@ For SG6000 and SG5700, you configure SANtricity System Manager. The SANtricity s
 === BMC interface 
 The following appliances have a BMC interface that must be configured: 
 
-* SGF6112
+* SG6100
 * SG6000
 * SG1000
 * SG100

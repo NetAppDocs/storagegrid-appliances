@@ -1,13 +1,13 @@
 section: sg6100
-title: Maintain SGF6112 hardware
+title: Maintain SG6100 hardware
 url: "/landing-maintain-sgf6112/index.html"
 entries:
   - title: Overview
-    pdf-filename: sg6100 hardware maintenance
+    pdf-filename: SG6100 hardware maintenance
     url: "/sg6100/index.html"
 
   - title: Configuration maintenance procedures
-    pdf-filename: Configuration maintenance procedures - SGF6112
+    pdf-filename: Configuration maintenance procedures - SG6100
     entries:
     - title: Turn appliance LED on and off
       url: "/sg6100/turning-sgf6112-identify-led-on-and-off.html"
@@ -19,7 +19,7 @@ entries:
       url: "/sg6100/changing-link-configuration-of-sgf6112-appliance.html"
 
   - title: Hardware maintenance procedures
-    pdf-filename: Hardware maintenance procedures - SGF6112
+    pdf-filename: Hardware maintenance procedures - SG6100
     entries:
     - title: Verify component to replace
       url: "/sg6100/verify-component-to-replace.html"    

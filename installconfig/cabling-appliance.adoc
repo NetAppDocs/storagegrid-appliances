@@ -14,7 +14,7 @@ Connect the network ports on the appliance or controller to the Grid Network and
 [role="tabbed-block"]
 ====
 
-.SGF6112
+.SG6100
 --
 
 You connect the management port on the appliance to the service laptop and connect the network ports on the appliance to the Grid Network and optional Client Network for StorageGRID.
