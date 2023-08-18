@@ -111,6 +111,3 @@ image::../media/nodes_menu.png[Appliance node rejoined grid]
 
 include::../_include/fru-statement.adoc[]
 
-.Related information
-
-http://mysupport.netapp.com/info/web/ECMP1658252.html[NetApp E-Series Systems Documentation Site^]
