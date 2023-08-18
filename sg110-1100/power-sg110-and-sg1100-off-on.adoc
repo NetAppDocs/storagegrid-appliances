@@ -20,7 +20,7 @@ Shut down the appliance to perform hardware maintenance.
 
 .Before you begin
 
-* You have link:locating-sgf6112-in-data-center.html[physically located the appliance].
+* You have link:locating-sg110-and-sg1100-in-data-center.html[physically located the appliance].
 
 
 .About this task
