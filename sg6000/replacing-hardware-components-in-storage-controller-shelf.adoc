@@ -22,7 +22,7 @@ link:locating-controller-in-data-center.html[Locate controller in data center]
 
 To replace the battery in the storage controller, see the steps in the instructions for link:replacing-storage-controller-sg6000.html[replacing a storage controller]. Those instructions describe how to remove a controller from the appliance, remove the battery from the controller, install the battery, and replace the controller.
 
-For instructions for the other field replaceable units (FRUs) in the controller shelves, access the E-Series procedures for system maintenance.
+For instructions for the other field replaceable units (FRUs) in the controller shelves, access the http://mysupport.netapp.com/info/web/ECMP1658252.html[E-Series procedures for system maintenance^].
 
 [cols="1a,3a" options="header"]
 |===
@@ -51,9 +51,3 @@ For instructions for the other field replaceable units (FRUs) in the controller 
 |===
 
 include::../_include/fru-statement.adoc[]
-
-.Related information
-
-http://mysupport.netapp.com/info/web/ECMP1658252.html[NetApp E-Series Systems Documentation Site^]
-
-link:replacing-storage-controller-sg6000.html[Replace storage controller]
