@@ -29,7 +29,7 @@ This figure shows the front of the SG100 and the SG1000 with the bezel removed. 
 
 image::../media/sg1000_front_with_ssds.png[Front with SSDs SG100 and SG1000]
 
-The two solid-state drives (SSDs), indicated by the orange outline, are used for storing the StorageGRID operating system and are mirrored using RAID 1 for redundancy. When the SG100 or SG1000 services appliance is configured as an Admin Node, these drives are used to store audit logs, metrics, and database tables.
+The two solid-state drives (SSDs), indicated by the orange outline, are used for storing the StorageGRID operating system and are mirrored using RAID 1 for redundancy. When the SG100 or SG1000 services appliance is configured as an Admin Node, these drives might be used to store audit logs, metrics, and database tables.
 
 The remaining drive slots are blank.
 

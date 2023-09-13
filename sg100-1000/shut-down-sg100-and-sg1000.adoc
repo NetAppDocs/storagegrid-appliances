@@ -17,7 +17,7 @@ Shut down the services appliance to perform hardware maintenance.
 
 .About this task
 
-To prevent service interruptions, shut down the services appliance during a scheduled maintenance window when periods of service disruption are normally expected. 
+To prevent service interruptions, shut down the services appliance during a scheduled maintenance window when periods of service disruption are acceptable. 
 
 .Steps
 

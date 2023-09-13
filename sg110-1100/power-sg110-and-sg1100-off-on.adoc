@@ -20,12 +20,12 @@ Shut down the appliance to perform hardware maintenance.
 
 .Before you begin
 
-* You have link:locating-sgf6112-in-data-center.html[physically located the appliance].
+* You have link:locating-sg110-and-sg1100-in-data-center.html[physically located the appliance].
 
 
 .About this task
 
-To prevent service interruptions, shut down the appliance during a scheduled maintenance window when periods of service disruption are normally expected. 
+To prevent service interruptions, shut down the appliance during a scheduled maintenance window when periods of service disruption are acceptable. 
 
 .Steps
 

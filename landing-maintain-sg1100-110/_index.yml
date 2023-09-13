@@ -18,10 +18,16 @@ indexpage:
           url: "../sg110-1100/reinstalling-sg110-and-sg1100-into-cabinet-or-rack.html"
     - title: Hardware procedures
       links:
+        - title: Replace cover
+          url: "../sg110-1100/reinstalling-sg110-and-sg1100-cover.html"
         - title: Replace power supply
           url: "../sg110-1100/replacing-one-or-more-power-supplies-in-sg110-and-sg1100-appliance.html"
         - title: Replace fan
           url: "../sg110-1100/replacing-fan-in-sg110-and-sg1100.html"
         - title: Replace drive
           url: "../sg110-1100/replacing-drive-in-sg110-and-sg1100.html"
+        - title: Replace NIC
+          url: "../sg110-1100/replace-nic-in-sg110-and-sg1100.html"
+        - title: Replace CMOS battery
+          url: "../sg110-1100/replace-cmos-in-sg110-and-sg1100.html"
           

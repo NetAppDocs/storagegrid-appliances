@@ -2,7 +2,7 @@
 // Intro and before you begin, and after you finish are in referencing topic
 
 .About this task
-To prevent service interruptions, confirm that all other Storage Nodes are connected to the grid before starting the CMOS battery replacement or replace the battery during a scheduled maintenance window when periods of service disruption are normally expected. See the information about https://review.docs.netapp.com/us-en/storagegrid-118_main/monitor/monitoring-system-health.html#monitor-node-connection-states[monitoring node connection states^].
+To prevent service interruptions, confirm that all other Storage Nodes are connected to the grid before starting the CMOS battery replacement or replace the battery during a scheduled maintenance window when periods of service disruption are acceptable. See the information about https://review.docs.netapp.com/us-en/storagegrid-118_main/monitor/monitoring-system-health.html#monitor-node-connection-states[monitoring node connection states^].
 
 IMPORTANT: If you have ever used an ILM rule that creates only one copy of an object, you must replace the battery during a scheduled maintenance window. Otherwise, you might temporarily lose access to those objects during this procedure. See information about https://review.docs.netapp.com/us-en/storagegrid-118_main/ilm/why-you-should-not-use-single-copy-replication.html[why you should not use single-copy replication^].
 
@@ -57,7 +57,7 @@ image::../media/sgf6112_two-slot-riser_guide-pin.png[Guide pin on system board f
 
 . If you have no other maintenance procedures to perform in the appliance, reinstall the appliance cover, return the appliance to the rack, attach cables, and apply power.
 
-. If the appliance where you replaced the appliance used a key management server (KMS) to encrypt data, additional configuration might be required before the node can join the grid. If the node does not automatically join the grid, make sure that these configuration settings have transferred to the new appliance and manually configure any settings that don't have the expected configuration:
+. If the appliance you replaced used a key management server (KMS) to manage encryption keys for node encryption, additional configuration might be required before the node can join the grid. If the node does not automatically join the grid, make sure that these configuration settings have transferred to the new appliance and manually configure any settings that don't have the expected configuration:
 ** link:../installconfig/accessing-storagegrid-appliance-installer.html[Configure StorageGRID connections]
 ** https://review.docs.netapp.com/us-en/storagegrid-118_main/admin/kms-overview-of-kms-and-appliance-configuration.html#set-up-the-appliance[Configure node encryption for the appliance^]
 

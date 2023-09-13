@@ -29,7 +29,7 @@ This figure shows the front of the SG110 and the SG1100 with the bezel removed. 
 
 image::../media/sg1100_front_with_ssds.png[Front with SSDs SG110 and SG1100]
 
-The two solid-state drives (SSDs), indicated by the orange outline, are used for storing the StorageGRID operating system and are mirrored using RAID 1 for redundancy. When the SG110 or SG1100 services appliance is configured as an Admin Node, these drives are used to store audit logs, metrics, and database tables.
+The two solid-state drives (SSDs), indicated by the orange outline, are used for storing the StorageGRID operating system and are mirrored using RAID 1 for redundancy. When the SG110 or SG1100 services appliance is configured as an Admin Node, these drives might be used to store audit logs, metrics, and database tables.
 
 The remaining drive slots are blank.
 
@@ -110,7 +110,7 @@ a|
 a|
 Network ports 1-4
 a|
-10/25/40/100-GbE, based on cable or transceiver type, switch speed, and configured link speed. QSFP28 and QSFP+ (40/100GbE) are supported natively and SFP28/SFP+ transceivers can be used with a QSA (sold separately) to use 10/25GbE speeds.
+10/25/40/100-GbE, based on cable or transceiver type, switch speed, and configured link speed. QSFP56 (limited to 100GbE/port), QSFP28 (100GbE), and QSFP+ (40GbE) are supported natively. Optional SFP+ (10GbE) or SFP28 (25GbE) transceivers can be used with a QSA (sold separately).
 a|
 Connect to the Grid Network and the Client Network for StorageGRID.
 a|

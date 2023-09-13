@@ -14,6 +14,8 @@ NOTE: In rare instances, placing a StorageGRID appliance into maintenance mode m
 . Make the desired changes to the link configuration.
 +
 For more information about the options, see link:../installconfig/configuring-network-links.html[Configure network links].
++
+NOTE: IP configuration changes made while the appliance is in maintenance mode are not applied to the installed StorageGRID environment. Run the link:../maintain/changing-nodes-network-configuration.html[`change-ip` command] after rebooting the appliance into StorageGRID.
 
 . When you are satisfied with your selections, click *Save*.
 +
