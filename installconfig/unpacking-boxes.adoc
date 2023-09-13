@@ -41,7 +41,7 @@ image::../media/power_cords.gif[Power cords]
 
 SG110 or SG1100::
 +
-image::../media/sg6000_cn_front_without_bezel.gif[Front drives SG110 and SG1100 appliances]
+image::../media/sgf6112_front_with_ssds.png[Front drives SG110 and SG1100 appliances]
 
 Rail kit with instructions::
 +
@@ -216,7 +216,7 @@ image::../media/sas_cable.gif[SAS Cables]
 
 SGF6112::
 +
-image::../media/sg6000_cn_front_without_bezel.gif[Front drives SGF6112 appliance]
+image::../media/sgf6112_front_with_ssds.png[Front drives SGF6112 appliance]
 
 Rail kit with instructions::
 +
