@@ -1,0 +1,4 @@
+---
+permalink: sg6100/removing-sgf6112-from-cabinet-or-rack.html
+redirect: storagegrid-appliances/sg6100/reinstalling-sgf6112-into-cabinet-or-rack.html
+---

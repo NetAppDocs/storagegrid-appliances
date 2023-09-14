@@ -1,0 +1,4 @@
+---
+permalink: sg6100/removing-sgf6112-cover.html
+redirect: storagegrid-appliances/sg6100/reinstalling-sgf6112-cover.html
+---
