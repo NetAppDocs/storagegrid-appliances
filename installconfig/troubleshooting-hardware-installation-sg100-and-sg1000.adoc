@@ -104,7 +104,7 @@ If a hardware error occurs when the appliance is booting up, the BMC logs an err
 
 .Before you begin
 
-* You know how to access the BMC dashboard.
+* You know how to link:accessing-bmc-interface.html[access the BMC dashboard].
 
 .Steps
 
