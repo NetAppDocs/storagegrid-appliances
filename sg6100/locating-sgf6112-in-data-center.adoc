@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storagegrid, sgf6112, appliance, locate, find, locating, finding, identify, blue led, blue light
 summary: 'Locate the appliance so that you can perform hardware maintenance or upgrades.'
 ---
-= Locate SG6100 appliance in data center
+= Locate SGF6112 appliance in data center
 :icons: font
 :imagesdir: ../media/
 
