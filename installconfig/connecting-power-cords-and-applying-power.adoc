@@ -14,7 +14,7 @@ After connecting the network cables, you are ready to apply power to an applianc
 [role="tabbed-block"]
 ====
 
-.SG6100
+.SG100 and SG1000
 --
 
 .Steps
@@ -24,11 +24,30 @@ After connecting the network cables, you are ready to apply power to an applianc
 . If the power button on the front of the appliance is not currently illuminated blue, press the button to turn on power to the appliance.
 +
 Don't press the power button again during the power-on process.
-+
-The LED on the power supply should be illuminated green without blinking. 
 
 . If errors occur, correct any issues.
 . Attach the front bezel to the appliance if removed.
+
+--
+
+.SG5700
+--
+
+.Before you begin
+
+Both appliance power switches must be off before connecting power.
+
+CAUTION: *Risk of electrical shock* -- Before connecting the power cords, make sure that the two power switches on the appliance are off.
+
+.Steps
+
+. Confirm that the two power switches on the appliance are off.
+. Connect the two power cords to the appliance.
+. Connect the two power cords to different power distribution units (PDUs) in the cabinet or rack.
+. Turn on the two power switches on the appliance.
+ ** Don't turn off the power switches during the power-on process.
+ ** The fans are very loud when they first start up. The loud noise during start-up is normal.
+. After the controllers have booted up, check their seven-segment displays.
 
 --
 
@@ -65,28 +84,7 @@ Don't press the power button again during the power-on process.
 
 --
 
-.SG5700
---
-
-.Before you begin
-
-Both appliance power switches must be off before connecting power.
-
-CAUTION: *Risk of electrical shock* -- Before connecting the power cords, make sure that the two power switches on the appliance are off.
-
-.Steps
-
-. Confirm that the two power switches on the appliance are off.
-. Connect the two power cords to the appliance.
-. Connect the two power cords to different power distribution units (PDUs) in the cabinet or rack.
-. Turn on the two power switches on the appliance.
- ** Don't turn off the power switches during the power-on process.
- ** The fans are very loud when they first start up. The loud noise during start-up is normal.
-. After the controllers have booted up, check their seven-segment displays.
-
---
-
-.SG100 and SG1000
+.SG6100
 --
 
 .Steps
@@ -96,11 +94,14 @@ CAUTION: *Risk of electrical shock* -- Before connecting the power cords, make s
 . If the power button on the front of the appliance is not currently illuminated blue, press the button to turn on power to the appliance.
 +
 Don't press the power button again during the power-on process.
++
+The LED on the power supply should be illuminated green without blinking. 
 
 . If errors occur, correct any issues.
 . Attach the front bezel to the appliance if removed.
 
 --
+
 ====
 
 .Related information

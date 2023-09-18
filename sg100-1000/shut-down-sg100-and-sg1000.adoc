@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storagegrid, sg1000, SG100, power off, turn off, shut off, shutdown, shut down, 
 summary: 'Shut down the services appliance to perform hardware maintenance.'
 ---
-= Shut down the services appliance
+= Shut down the SG100 or SG1000
 :icons: font
 :imagesdir: ../media/
 
@@ -17,7 +17,7 @@ Shut down the services appliance to perform hardware maintenance.
 
 .About this task
 
-To prevent service interruptions, shut down the services appliance during a scheduled maintenance window when periods of service disruption are normally expected. 
+To prevent service interruptions, shut down the services appliance during a scheduled maintenance window when periods of service disruption are acceptable. 
 
 .Steps
 

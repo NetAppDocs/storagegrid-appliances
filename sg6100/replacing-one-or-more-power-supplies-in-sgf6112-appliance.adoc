@@ -4,12 +4,15 @@ sidebar: sidebar
 keywords: storagegrid, sg6100, sgf6112, Replacing, replace, power supply, remove, removing, removal, install, installing, installation 
 summary: 'SG6100 series appliances have two power supplies for redundancy. If one of the power supplies fails, you must replace it as soon as possible to ensure that the appliance has redundant power. Both power supplies operating in the appliance must be of the same model and wattage.'
 ---
-= Replace one or both power supplies in the SGF6112 appliance
+
+= Replace one or both power supplies in the SGF6112
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 The SGF6112 appliance has two power supplies for redundancy. If one of the power supplies fails, you must replace it as soon as possible to ensure that the appliance has redundant power. Both power supplies operating in the appliance must be of the same model and wattage.
+
+// Same procedure for SG110 and SG1100 - unable to use includes due to specific links in steps.
 
 .Before you begin
 
