@@ -3,7 +3,7 @@
 
 .Before you begin
 
-* You have reviewed the Safety Notices document included in the box, and understand the precautions for moving and installing hardware.
+* You have reviewed the Safety Notices document included in the box and understand the precautions for moving and installing hardware.
 * You have the instructions packaged with the rail kit.
 
 .Steps
