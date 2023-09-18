@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storage node, storage appliance, troubleshoot, troubleshooting, hardware, install, installation, sg6000, storage node, storage appliance, boot codes, boot-up codes, start codes, codes, boot, start, sg6000-cn, error codes, errors, error, codes, setup, hang, hangs, fails, failure, stop, terminate, terminates, stuck, connection, unable to connect, no connection, Expansion, shelves, don't appear, Appliance Installer, missing, not shown, synchronize, synchronizing, synchronization, SANtricity OS Software, santricity
 summary: 'If you encounter issues during the installation, you might find it helpful to review troubleshooting information related to hardware setup and connectivity issues.'
 ---
-= Troubleshoot hardware installation (SG6000 or SG5700)
+= Troubleshoot hardware installation (SG5700 or SG6000)
 :icons: font
 :imagesdir: ../media/
 
@@ -18,7 +18,7 @@ When you apply power to the appliance, the BMC logs a series of boot-up codes fo
 
 .Before you begin
 
-* You know how to access the BMC dashboard.
+* You know how to link:accessing-bmc-interface.html[access the BMC dashboard].
 * If you want to use serial-over-LAN (SOL), you have experience using IPMI SOL console applications.
 
 .Steps
@@ -128,7 +128,7 @@ If a hardware error occurs when the SG6000-CN controller is booting up, the BMC 
 
 .Before you begin
 
-* You know how to access the BMC dashboard.
+* You know how to link:accessing-bmc-interface.html[access the BMC dashboard].
 
 .Steps
 
@@ -348,16 +348,6 @@ The StorageGRID Appliance Installer might not be available if hardware faults or
 [role="tabbed-block"]
 ====
 
-.SG6000
---
-. For the storage controllers, watch the codes on the seven-segment displays.
-+
-While the hardware is initializing during power up, the two seven-segment displays show a sequence of codes. When the hardware boots successfully, both seven-segment displays show `99`.
-
-. Review the LEDs on the SG6000-CN controller and the boot-up and error codes displayed in the BMC.
-. If you need help resolving an issue, contact technical support.
---
-
 .SG5700
 --
 . link:viewing-status-indicators.html[Watch the codes on the SG5700 seven-segment displays.]
@@ -394,10 +384,19 @@ https://library.netapp.com/ecmdocs/ECMLP2588751/html/frameset.html[_E5700 and E2
 . If this does not resolve the issue, contact technical support.
 --
 
+.SG6000
+--
+. For the storage controllers, watch the codes on the seven-segment displays.
++
+While the hardware is initializing during power up, the two seven-segment displays show a sequence of codes. When the hardware boots successfully, both seven-segment displays show `99`.
+
+. Review the LEDs on the SG6000-CN controller and the boot-up and error codes displayed in the BMC.
+. If you need help resolving an issue, contact technical support.
+--
 ====
 
 [[connection-issues]]
-== Connection issues (SG6000 or SG5700)
+== Connection issues (SG5700 or SG6000)
 
 If you encounter connection issues during the StorageGRID appliance installation, you should perform the corrective action steps listed.
 
@@ -520,5 +519,3 @@ If an HE error code is displayed, perform this corrective action.
 . Check the integrity of the two SAS interconnect cables, and confirm they are securely connected.
 . As required, replace one or both of the cables, and try again.
 . If this does not resolve the issue, contact technical support.
-
-

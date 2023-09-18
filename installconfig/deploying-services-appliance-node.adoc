@@ -2,14 +2,14 @@
 permalink: installconfig/deploying-services-appliance-node.html
 sidebar: sidebar
 keywords: storagegrid, sg100, sg1000, service appliance, services appliance, gateway Node, admin node, deploy node, deploying node, node, deploy, deploying, primary, primary admin node, non-primary admin node, non-primary
-summary: 'You can deploy a services appliance as a primary Admin Node, a non-primary Admin Node, or a Gateway Node. Both the SG100 and the SG1000 appliances can operate as Gateway Nodes and Admin Nodes \(primary or non-primary\) at the same time.'
+summary: 'You can deploy a services appliance as a primary Admin Node, a non-primary Admin Node, or a Gateway Node. All services appliances can operate as Gateway Nodes and Admin Nodes \(primary or non-primary\) at the same time.'
 ---
 = Deploy services appliance node
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can deploy a services appliance as a primary Admin Node, a non-primary Admin Node, or a Gateway Node. Both the SG100 and the SG1000 appliances can operate as Gateway Nodes and Admin Nodes (primary or non-primary) at the same time.
+You can deploy a services appliance as a primary Admin Node, a non-primary Admin Node, or a Gateway Node. All services appliances can operate as Gateway Nodes and Admin Nodes (primary or non-primary) at the same time.
 
 == Deploy services appliance as primary Admin Node
 
@@ -93,7 +93,7 @@ To install StorageGRID on a services appliance node:
 +
 Partway through the appliance Gateway Node installation tasks, the installation pauses. To resume the installation, you sign into the Grid Manager, approve all grid nodes, and complete the StorageGRID installation process. The installation of a non-primary Admin Node does not require your approval.
 
-IMPORTANT: Don't deploy the SG100 and SG1000 service appliances in the same site. Unpredictable performance might result.
+IMPORTANT: Don't deploy SG100 and SG1000 service appliances in the same site. Unpredictable performance might result.
 
 NOTE: If you need to deploy multiple appliance nodes at one time, you can automate the installation process. See link:automating-appliance-installation-and-configuration.html[Automate appliance installation and configuration].
 
