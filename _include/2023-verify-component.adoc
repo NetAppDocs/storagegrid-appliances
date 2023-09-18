@@ -9,7 +9,7 @@
 
 .About this task
 
-Use this procedure to identify the appliance with failed hardware and which of the following replaceable hardware components is not operating properly: 
+Use this procedure to identify the appliance with failed hardware and which of the replaceable hardware components is not operating properly. Components that might be identified for replacement include: 
 
 * Power supplies
 * Fans
