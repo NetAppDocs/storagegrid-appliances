@@ -28,7 +28,7 @@ Before installing an SG110 or SG1100 services appliance, confirm your StorageGRI
 
 == Administration and maintenance ports
 
-The Admin Network for StorageGRID is an optional network, used for system administration and maintenance. The appliance connects to the Admin Network using the following 1-GbE management ports on the appliance.
+The Admin Network for StorageGRID is an optional network, used for system administration and maintenance. The appliance connects to the Admin Network using the following 1/10-GbE management ports on the appliance.
 
 SG110 RJ-45 ports:
 
