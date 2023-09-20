@@ -56,15 +56,16 @@ image::../media/sg6100_rj_45_ports_circled.png[SG6112 RJ-45 ports]
 | Switch port for the right port circled in the diagram (Active-Backup network bond mode only)
 | 
 
-| MAC address for the Admin Network port
+// | MAC address for the Admin Network port
+//
+// *Note:* The MAC address label on the front of the appliance lists the MAC address for the BMC management port. To determine the MAC address for the Admin Network port, you must add *2* to the hexadecimal number on the label. For example, if the MAC address on the label ends in *09*, the MAC address for the Admin Port would end in *0B*. If the MAC address on the label ends in *(_y_)FF*, the MAC address for the Admin Port would end in *(_y_+1)01*. You can easily make this calculation by opening Calculator in Windows, setting it to Programmer mode, selecting Hex, typing the MAC address, then typing *+ 2 =*.
 
-*Note:* The MAC address label on the front of the appliance lists the MAC address for the BMC management port. To determine the MAC address for the Admin Network port, you must add *2* to the hexadecimal number on the label. For example, if the MAC address on the label ends in *09*, the MAC address for the Admin Port would end in *0B*. If the MAC address on the label ends in *(_y_)FF*, the MAC address for the Admin Port would end in *(_y_+1)01*. You can easily make this calculation by opening Calculator in Windows, setting it to Programmer mode, selecting Hex, typing the MAC address, then typing *+ 2 =*.
-
-| 
+// | 
 
 | DHCP-assigned IP address for the Admin Network port, if available after power on
 
-*Note:* You can determine the DHCP-assigned IP address by using the MAC address to look up the assigned IP.
+// *Note:* You can determine the DHCP-assigned IP address by using the MAC address to look up the assigned IP.
+*Note:* Contact your network administrator for the Admin Network port DHCP-assigned IP address.
 
 | 
 * IPv4 address (CIDR):
