@@ -69,7 +69,7 @@ Install the replacement NIC into the same location as the one that was removed.
 
 . If you are replacing one of the NICs in the two-slot riser assembly, do the following:
 .. Ensure the blue latch is in the open position.
-.. Align the NIC with its connector on the riser assembly. Carefully press the NIC into the connector until it is fully seated as shown in the photograph and close the blue latch.
+.. Align the NIC with its connector on the riser assembly. Carefully press the NIC into the connector until it is fully seated, as shown in the photograph, and then close the blue latch.
 +
 image::../media/two-slot-assembly-sgf6112.png[Two NICs in two-slot riser assembly]
 

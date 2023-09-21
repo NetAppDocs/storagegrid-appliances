@@ -91,7 +91,7 @@ Don't press the power button again during the power-on process.
 
 . Connect a power cord to each of the two power supply units in the appliance.
 . Connect these two power cords to two different power distribution units (PDUs) in the cabinet or rack.
-. If the power button on the front of the appliance is not currently illuminated blue, press the button to turn on power to the appliance.
+. If the power button on the front of the SG6100-CN appliance is not currently illuminated blue, press the button to turn on power to the appliance.
 +
 Don't press the power button again during the power-on process.
 +
