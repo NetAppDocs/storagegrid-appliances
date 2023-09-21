@@ -69,13 +69,6 @@ image::../media/sg6100_admin_network_port.png[Admin Network port on the SGF6112]
 --
 ====
 
-// .. Locate the MAC address label on the front of the services appliance or storage appliance, and determine the MAC address for the Admin Network port.
-//+
-//The MAC address label lists the MAC address for the BMC management port.
-//+
-//To determine the MAC address for the Admin Network port, add *2* to the hexadecimal number on the label. For example, if the MAC address on the label ends in *09*, the MAC address for the Admin Port would end in *0B*. If the MAC address on the label ends in *(_y_)FF*, the MAC address for the Admin Port would end in *(_y_+1)01*. You can easily make this calculation by opening Calculator in Windows, setting it to Programmer mode, selecting Hex, typing the MAC address, then typing *+ 2 =*.
-
-// .. Provide the MAC address to your network administrator, so they can look up the DHCP address for the appliance on the Admin Network.
  .. Obtain the DHCP address for the appliance on the Admin Network from your network administrator.
  .. From the client, enter this URL for the StorageGRID Appliance Installer: +
 `*https://_Appliance_IP_:8443*`
