@@ -22,23 +22,24 @@ Before installing the appliance, you must make sure that the site and the cabine
 | Model
 | Requirement
 
-| SGF6112
+| SG100 and SG1000
+| 120 to 240 volts AC
+
+| SG110 and SG1100
 | 100 to 240 volts AC
-
-| SG6060
-| 240-volt AC 
-
-| SGF6024
-| 120-volt AC
 
 | SG5760
 | 240-volt AC
 
-| SG110 and SG1100
-| 120 to 240 volts AC
+| SGF6024
+| 120-volt AC
 
-| SG100 and SG1000
-| 120 to 240 volts AC
+| SG6060
+| 240-volt AC 
+
+| SGF6112
+| 100 to 240 volts AC
+
 |===
 
 . Obtain a 19-inch (48.3-cm) cabinet or rack to fit shelves of the following size (without cables).
