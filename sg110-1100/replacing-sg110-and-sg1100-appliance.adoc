@@ -38,7 +38,9 @@ When you are logged in as root, the prompt changes from `$` to `#`.
 .. Enter: `*run-host-command ipmitool lan print*` to display the current BMC configurations for the appliance.
 . link:power-sg110-and-sg1100-off-on.html#shut-down-the-sgf6112-appliance[Shut down the appliance].
 
-. If any of the network interfaces on this StorageGRID appliance are configured for DHCP, you may need to update the permanent DHCP lease assignments on the DHCP servers to reference the MAC addresses of the replacement appliance, to ensure the appliance is assigned the expected IP addresses. See link:../commonhardware/locate-mac-address.html[Update MAC address references]. 
+. If any of the network interfaces on this StorageGRID appliance are configured for DHCP, you need to update the permanent DHCP lease assignments on the DHCP servers to reference the MAC addresses of the replacement appliance. This ensures that the appliance is assigned the expected IP addresses. 
++
+Contact your network or DHCP-server administrator to update the permanent DHCP lease assignments. The administrator can determine the MAC addresses of the replacement appliance from the DHCP server logs or by inspecting the MAC address tables in the switches to which the appliance Ethernet ports are connected. 
 
 . Remove and replace the appliance:
  .. Label the cables and then disconnect the cables and any network transceivers.
