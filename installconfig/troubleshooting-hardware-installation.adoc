@@ -519,5 +519,3 @@ If an HE error code is displayed, perform this corrective action.
 . Check the integrity of the two SAS interconnect cables, and confirm they are securely connected.
 . As required, replace one or both of the cables, and try again.
 . If this does not resolve the issue, contact technical support.
-
-
