@@ -2,14 +2,14 @@
 permalink: installconfig/configuring-snmp-settings-for-bmc.html
 sidebar: sidebar
 keywords: SNMP, configure, setup, set up 
-summary: 'If you are familiar with configuring SNMP for hardware, you can use the BMC interface to configure the SNMP settings for the SGF6112, SG6000, and services appliances. You can provide secure community strings, enable SNMP Trap, and specify up to five SNMP destinations.'
+summary: 'If you are familiar with configuring SNMP for hardware, you can use the BMC interface to configure the SNMP settings for the SG6100, SG6000, and services appliances. You can provide secure community strings, enable SNMP Trap, and specify up to five SNMP destinations.'
 ---
 = Configure SNMP settings for BMC
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-If you are familiar with configuring SNMP for hardware, you can use the BMC interface to configure the SNMP settings for the SGF6112, SG6000, and services appliances. You can provide secure community strings, enable SNMP Trap, and specify up to five SNMP destinations.
+If you are familiar with configuring SNMP for hardware, you can use the BMC interface to configure the SNMP settings for the SG6100, SG6000, and services appliances. You can provide secure community strings, enable SNMP Trap, and specify up to five SNMP destinations.
 
 .Before you begin
 

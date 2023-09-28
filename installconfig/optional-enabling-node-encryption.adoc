@@ -26,7 +26,7 @@ A KMS can be set up in Grid Manager before or after the appliance is installed i
 * If a KMS is set up before installing the appliance, KMS-controlled encryption begins when you enable node encryption on the appliance and add it to a StorageGRID site where KMS is configured.
 * If a KMS is not set up before you install the appliance, KMS-controlled encryption is performed on each appliance that has node encryption enabled as soon as a KMS is configured and available for the site that contains the appliance node.
 
-IMPORTANT: Data that exists on an appliance that has node encryption enabled before it is connected to the KMS is encrypted with a temporary key that is not secure. The appliance is not protected from removal or theft until the key is set to a value provided by the KMS.
+IMPORTANT: When an appliance is installed with node encryption enabled, a temporary key is assigned. The data on the appliance is not protected until the appliance is connected to the Key Management System (KMS) and a KMS security key is set. See the https://review.docs.netapp.com/us-en/storagegrid-118_main/admin/kms-overview-of-kms-and-appliance-configuration.html[KMS appliance configuration overview^] for additional information.
 
 Without the KMS key needed to decrypt the disk, data on the appliance can't be retrieved and is effectively lost. This is the case whenever the decryption key can't be retrieved from the KMS. The key becomes inaccessible if a customer clears the KMS configuration, a KMS key expires, connection to the KMS is lost, or the appliance is removed from the StorageGRID system where its KMS keys are installed.
 
@@ -62,3 +62,5 @@ NOTE: Appliances are initially configured with a random non-KMS encryption key a
 .After you finish
 
 You can view node-encryption status, KMS details, and the certificates in use when the appliance node is in maintenance mode. See link:../commonhardware/monitoring-node-encryption-in-maintenance-mode.html[Monitor node encryption in maintenance mode] for information.
+
+// 2023 SEP 8, SGRIDDOC-18

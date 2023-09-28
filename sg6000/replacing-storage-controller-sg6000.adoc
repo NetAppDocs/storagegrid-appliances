@@ -112,6 +112,3 @@ NOTE: If the original controller did not use DHCP for the IP address, the new co
 
 include::../_include/fru-statement.adoc[] 
 
-.Related information
-
-http://mysupport.netapp.com/info/web/ECMP1658252.html[NetApp E-Series Systems Documentation Site^]

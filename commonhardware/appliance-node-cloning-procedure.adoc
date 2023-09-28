@@ -29,7 +29,7 @@ You should clone only one appliance node at a time to maintain StorageGRID netwo
 
 .Steps
 
-. https://review.docs.netapp.com/us-en/storagegrid-118_main/maintain/placing-appliance-into-maintenance-mode.html[Place the source node you are cloning into maintenance mode^].
+. link:../commonhardware/placing-appliance-into-maintenance-mode.html[Place the source node you are cloning into maintenance mode].
 
 . From the StorageGRID Appliance Installer on the source node, in the Installation section of the Home page, select *Enable Cloning*.
 +

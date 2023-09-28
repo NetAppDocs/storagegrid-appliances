@@ -1,0 +1,23 @@
+// Change network links for SGF6112, SG110, SG1100
+// Intro and related info are in referencing topic
+
+.Before you begin
+
+You have the BMC IP address of the appliance you want to identify.
+
+.Steps
+
+. link:../installconfig/accessing-bmc-interface.html[Access the appliance BMC interface].
+. Select *Server Identify*.
++
+The current status of the identify LED is selected.
+. Select *ON* or *OFF*, and then select *Perform Action*.
++
+When you select *ON*, the blue identify LEDs light on the front (typical shown) and rear of the appliance.
++
+image::../media/sgf6112_front_panel_service_led_on.png[Front identify LED - on]
++
+NOTE: If a bezel is installed on the controller, it might be difficult to see the front identify LED.
++
+.  Turn the identify LED on and off as needed.
+
