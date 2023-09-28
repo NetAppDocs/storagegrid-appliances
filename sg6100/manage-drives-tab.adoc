@@ -17,6 +17,7 @@ If .
 
 .About this task
 
+//Using the Manage drives tab
 
 .Steps
 
