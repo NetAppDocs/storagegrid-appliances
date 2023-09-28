@@ -1,0 +1,23 @@
+---
+permalink: sg6100/manage-drives-tab.html
+sidebar: sidebar
+keywords: sgf6112, manage drives tab, locate drive, fail drive, logically replace drive
+summary: '.'
+---
+= Use the Manage drives tab
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+If .
+
+.Before you begin
+
+* You are signed in to the Grid Manager using a https://review.docs.netapp.com/us-en/storagegrid-118_main/admin/web-browser-requirements.html[supported web browser^].
+
+.About this task
+
+//Using the Manage drives tab
+
+.Steps
+
