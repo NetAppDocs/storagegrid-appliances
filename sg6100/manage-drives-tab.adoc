@@ -24,6 +24,8 @@ Using the Manage drives tab, you can do the following:
 * View a table that lists each drive location, type, status, firmware version, and serial number
 * Perform monitoring and maintenance functions on each drive
 
+//show screenshot?
+
 == Turn locator light on
 
 == Logically replace drive
