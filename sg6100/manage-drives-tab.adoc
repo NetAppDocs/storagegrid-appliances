@@ -28,6 +28,36 @@ Using the Manage drives tab, you can do the following:
 
 == Turn locator light on
 
+To locate a drive in the appliance:
+
+. Go to *NODES* > *_data center_*.
+
+. Select the storage appliance node, and then select the drive.
++
+The drive details panel appears.
+
+. Select *Turn locator light on*.
+
 == Logically replace drive
 
+If a drive in the storage appliance needs to be rebuilt or reinitialized:
+
+. Go to *NODES* > *_data center_*.
+
+. Select the storage appliance node, and then select the drive.
++
+The drive details panel appears.
+
+. Select *Logically replace drive*.
+
 == Fail drive
+
+For troubleshooting, you can manually "fail" a drive that you suspect is faulty. The system can then run without that drive.
+
+. Go to *NODES* > *_data center_*.
+
+. Select the storage appliance node, and then select the drive.
++
+The drive details panel appears.
+
+. Select *Fail drive*.
