@@ -28,36 +28,44 @@ Using the Manage drives tab, you can do the following:
 
 == Turn locator light on
 
-To locate a drive in the appliance:
+To physically locate a drive in the appliance:
 
-. Go to *NODES* > *_data center_*.
+. From the Grid Manager, select *NODES* > *_data center_*.
 
-. Select the storage appliance node, and then select the drive.
+. Select *_appliance storage node_* > *Manage drives* > *Layout* > *_drive_*.
 +
 The drive details panel appears.
 
 . Select *Turn locator light on*.
++
+A light bulb icon image:../media/icon_drive-light-bulb.png[drive light bulb] appears for the drive.
 
-== Logically replace drive
+. When you want to turn off the locator light, select *Turn locator light off*.
+
+== [[logically-replace-drive]]Logically replace drive
 
 If a drive in the storage appliance needs to be rebuilt or reinitialized:
 
-. Go to *NODES* > *_data center_*.
+. From the Grid Manager, select *NODES* > *_data center_*.
 
-. Select the storage appliance node, and then select the drive.
+. Select *_appliance storage node_* > *Manage drives* > *Layout* > *_drive_*.
 +
 The drive details panel appears.
 
-. Select *Logically replace drive*.
+. Select *Logically replace*.
++
+On the drive details panel, the drive's status indicates _Rebuilding_. Rebuilding a drive could take up to 5 minutes.
 
 == Fail drive
 
 For troubleshooting, you can manually "fail" a drive that you suspect is faulty. The system can then run without that drive.
 
-. Go to *NODES* > *_data center_*.
+. From the Grid Manager, select *NODES* > *_data center_*.
 
-. Select the storage appliance node, and then select the drive.
+. Select *_appliance storage node_* > *Manage drives* > *Layout* > *_drive_*.
 +
 The drive details panel appears.
 
 . Select *Fail drive*.
+
+After you fail a drive, you must either physically replace the drive or <<logically-replace-drive,logically replace the drive>>.
