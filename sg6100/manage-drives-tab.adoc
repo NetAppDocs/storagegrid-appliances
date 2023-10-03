@@ -58,7 +58,7 @@ On the drive details panel, the drive's status indicates _Rebuilding_. Rebuildin
 
 == Fail drive
 
-For troubleshooting, you can manually "fail" a drive that you suspect is faulty. The system can then run without that drive.
+For troubleshooting, you can manually "fail" a drive that you suspect is faulty. The system will then run without that drive.
 
 . From the Grid Manager, select *NODES* > *_data center_*.
 
