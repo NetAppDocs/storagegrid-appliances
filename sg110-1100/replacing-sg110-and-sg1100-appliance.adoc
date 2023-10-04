@@ -48,11 +48,11 @@ Contact your network or DHCP-server administrator to update the permanent DHCP l
 IMPORTANT: To prevent degraded performance, don't twist, fold, pinch, or step on the cables.
 
  .. link:reinstalling-sg110-and-sg1100-into-cabinet-or-rack.html[Remove the failed appliance from the cabinet or rack].
- .. Note the position of the replaceable components (two power supplies, eight cooling fans, three NICs, and twelve SSDs) in the failed appliance.
+ .. Note the position of the replaceable components (two power supplies, eight cooling fans, three NICs, and two SSDs) in the failed appliance.
 +
-The twelve drives are in the following positions in the chassis (front of chassis with bezel removed shown): 
+The two drives are in the following positions in the chassis (front of chassis with bezel removed shown): 
 +
-image::../media/sgf6112_ssds_locations.png[Fan locations]
+image::../media/sg110-1100_ssds_locations.png[Fan locations]
 +
 [options="header"]
 |===
@@ -60,51 +60,11 @@ image::../media/sgf6112_ssds_locations.png[Fan locations]
 a|
 1
 a|
-HDD00
+HDD02
 a|
 2
 a|
-HDD01
-a|
-3
-a|
-HDD02
-a|
-4
-a|
 HDD03
-a|
-5
-a|
-HDD04
-a|
-6
-a|
-HDD05
-a|
-7
-a|
-HDD06
-a|
-8
-a|
-HDD07
-a|
-9
-a|
-HDD08
-a|
-10
-a|
-HDD09
-a|
-11
-a|
-HDD10
-a|
-12
-a|
-HDD11
 |=== 
  .. Transfer the replaceable components to the replacement appliance. 
 +

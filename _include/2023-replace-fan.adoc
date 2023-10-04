@@ -12,13 +12,13 @@ The photograph shows a fan for the appliance. The electrical connector is highli
 
 NOTE: Each of the two power supply units also contain a fan. The power supply fans aren't included in this procedure.
 
-image::../media/sgf6112_fan_fru.png[Fan SGF6112 FRU]
+image::../media/sgf6112_fan_fru.png[Fan FRU]
 
 .Steps
 . Wrap the strap end of the ESD wristband around your wrist, and secure the clip end to a metal ground to prevent static discharge.
 . Locate the fan that you need to replace.
 +
-The eight fans are in the following positions in the chassis (front half of SGF6112 with top cover removed shown): 
+The eight fans are in the following positions in the chassis (front half of StorageGRID appliance with top cover removed shown): 
 +
 image::../media/SGF6112-fan-locations.png[Fan locations]
 [options="header"]
