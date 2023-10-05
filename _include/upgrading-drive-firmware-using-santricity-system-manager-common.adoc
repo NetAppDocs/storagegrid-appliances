@@ -91,6 +91,9 @@ Only drives that are compatible appear.
 The selected firmware for the drive appears in the *Proposed Firmware* column. If you must change this firmware, select *Back*.
 
  .. Select the type of upgrade you want to perform: 
++
+IMPORTANT: You must use the parallel method when upgrading SSD drives that are part of an SSD cache group.
+
  * *Upgrade all drives online* — Upgrades the drives that can support a firmware download while the storage array is processing I/O. You don't have to stop I/O to the associated volumes using these drives when you select this upgrade method.  
 +
 NOTE: An online upgrade can take several hours longer than an offline upgrade.
