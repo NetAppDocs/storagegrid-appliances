@@ -35,6 +35,12 @@ IMPORTANT: There are two types of drives in the SG6060: SSD and HDD. You must us
  ** Use SANtricity System Manager by browsing to the storage controller IP: +
 `*https://_Storage_Controller_IP_*`
 . Enter the SANtricity System Manager administrator username and password, if required.
+
+. If you are upgrading SSD drives that are part of an SSD cache group, the cache group must be suspended:
+ .. From SANtricity System Manager, select *Storage* > *POOLS & VOLUME GROUPS*.
+ .. Select the SSD cache group to suspend.
+ .. Select *More* > *Suspend/Resume SSD Cache*.
+
 . Verify the drive firmware version currently installed in the storage appliance:
  .. From SANtricity System Manager, select *SUPPORT* > *Upgrade Center*.
  .. Under Drive Firmware upgrade, select *Begin Upgrade*.
@@ -50,10 +56,8 @@ In this example:
   *** The drive firmware revision is *MS02*.
   *** The drive identifier is *KPM51VUG800G*.
 
-+
-Select *View drives* in the Associated Drives column to display where these drives are installed in your storage appliance.
+ .. Select *View drives* in the Associated Drives column to display where these drives are installed in your storage appliance.
 
-+
  .. Close the Upgrade Drive Firmware window.
 
 . Download and prepare the available drive firmware upgrade:
@@ -88,19 +92,17 @@ The selected firmware for the drive appears in the *Proposed Firmware* column. I
 
  .. Select the type of upgrade you want to perform: 
  * *Upgrade all drives online* — Upgrades the drives that can support a firmware download while the storage array is processing I/O. You don't have to stop I/O to the associated volumes using these drives when you select this upgrade method.  
-
 +
 NOTE: An online upgrade can take several hours longer than an offline upgrade.
 
 * *Upgrade all drives offline (parallel)* — Upgrades the drives that can support a firmware download only while all I/O activity is stopped on any volumes that use the drives. 
-
++
 IMPORTANT: You must place the appliance into maintenance mode before using this method. You should use the *Offline* method to upgrade the drive firmware. 
-
++
 CAUTION: If you want to use the Offline (parallel) upgrade, don't proceed unless you are certain that the appliance is in maintenance mode. Failure to place the appliance into maintenance mode before initiating an offline drive firmware update might cause data loss. 
-
++
 [start=5]
  .. In the first column of the table, select the drive or drives you want to upgrade.
-
 +
 The best practice is to upgrade all drives of the same model to the same firmware revision.
 
@@ -180,16 +182,18 @@ Contact technical support to resolve this issue.
 +
 Contact technical support to resolve this issue.
 
-.. If you were using the *Offline* upgrade and this procedure completed successfully, perform any additional maintenance procedures while the node is in maintenance mode. When you are done, or if you experienced any failures and want to start over, go to the StorageGRID Appliance Installer and select *Advanced* > *Reboot Controller*. Then select one of these options:
+. If you upgraded SSD drives that were part of an SSD cache group, the cache group must be resumed:
+ .. From SANtricity System Manager, select *Storage* > *POOLS & VOLUME GROUPS*.
+ .. Select the SSD cache group to resume.
+ .. Select *More* > *Suspend/Resume SSD Cache*.
 
+. If you were using the *Offline* upgrade and this procedure completed successfully, perform any additional maintenance procedures while the node is in maintenance mode. When you are done, or if you experienced any failures and want to start over, go to the StorageGRID Appliance Installer and select *Advanced* > *Reboot Controller*. Then select one of these options:
 +
 * Select *Reboot into StorageGRID*.
 +
 * Select *Reboot into Maintenance Mode* to reboot the controller and keep the node in maintenance mode. Select this option if there were any failures during the procedure and you want to start over. After the node finishes rebooting into maintenance mode, restart from the appropriate step in the procedure that failed.
-
 +
 It can take up to 20 minutes for the appliance to reboot and rejoin the grid. To confirm that the reboot is complete and that the node has rejoined the grid, go back to the Grid Manager. The Nodes page should display a normal status (green check mark icon image:../media/icon_alert_green_checkmark.png[green check mark] to the left of the node name) for the appliance node, indicating that no alerts are active and the node is connected to the grid.
-
 +
 image::../media/nodes_menu.png[Appliance node rejoined grid]
 
