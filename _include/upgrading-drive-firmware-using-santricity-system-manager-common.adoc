@@ -16,14 +16,14 @@ You can upgrade your appliance drive firmware using two methods:
 
 *Online*: The drives are upgraded one at a time while the appliance is performing I/O (input/output operations). This method does not require you to place the appliance in maintenance mode. However, system performance might be impacted and it might take several hours longer than the offline method. 
 
-NOTE: Drives belonging to volumes that don't have redundancy must be updated using the offline method. The offline method should be used for any drive associated with flash read cache (for example, SSD drives in the SG6060), or any pool or volume group that is currently degraded. 
+NOTE: Drives belonging to volumes that don't have redundancy must be updated using the offline method. The offline method should be used for any drive associated with flash read cache or any pool or volume group that is currently degraded. 
 
 *Offline*: 
 The drives are upgraded in parallel while the appliance is in maintenance mode. If the pool or volume group does not support redundancy, or is degraded, you must use the offline method to upgrade the drive firmware. The offline method upgrades firmware only while all I/O activity is stopped on the drives to be upgraded. You must stop all I/O on any drives you intend to upgrade by placing the node into maintenance mode.
 
 The offline method is faster than the online method and will be significantly faster when many drives in a single appliance need upgrades. However, it requires that nodes be taken out of service, which might require scheduling a maintenance window and monitoring progress. Choose the method that is the best fit for your operational procedures and the number of drives that need to be upgraded.
 
-IMPORTANT: There are two types of drives in the SG6060: SSD and HDD. You must use the offline method to upgrade the firmware on the SSDs. You can use either the online or offline method to upgrade the firmware on the HDDs.
+IMPORTANT: There are two types of drives: SSD and HDD. You must use the offline method to upgrade the firmware on SSDs. You can use either the online or offline method to upgrade the firmware on HDDs.
 
 .Steps
 
