@@ -21,7 +21,7 @@ The two SSDs are placed in the slots as shown in the following diagram:
 +
 image::../media/drive_locations_sg1000_front_with_ssds.png[Drive locations]
 +
-IMPORTANT: If you remove the working drive, you will bring down the appliance node. See the information about viewing status indicators to verify the failure.
+CAUTION: If you remove the working drive, you will bring down the appliance node. See the information about viewing status indicators to verify the failure.
 
 * You have obtained the replacement drive.
 * You have obtained proper ESD protection.
@@ -52,7 +52,7 @@ image::../media/h600s_driveinstall.gif[Drive Installation]
 
 . Insert the replacement drive in the slot, and then close the drive handle.
 +
-IMPORTANT: Don't use excessive force while closing the handle.
+CAUTION: Don't use excessive force while closing the handle.
 +
 When the drive is fully inserted, you hear a click.
 +

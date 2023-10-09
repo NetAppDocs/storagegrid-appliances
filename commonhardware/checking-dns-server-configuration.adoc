@@ -36,7 +36,7 @@ image::../media/dns_configuration.png[DNS configuration]
 
 . If required, change the DNS servers.
 +
-IMPORTANT: Changes made to the DNS settings are temporary and are lost when you exit maintenance mode.
+NOTE: Changes made to the DNS settings are temporary and are lost when you exit maintenance mode.
 
 . When you are satisfied with the temporary DNS settings, select *Save*.
 +

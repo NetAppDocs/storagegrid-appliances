@@ -25,5 +25,5 @@ link:upgrading-santricity-os-on-storage-controllers-using-grid-manager-sg6000.ht
 +
 link:upgrading-santricity-os-on-storage-controllers-using-maintenance-mode-sg6000.html[Upgrade SANtricity OS on storage controllers using maintenance mode]
 
-IMPORTANT: When upgrading the SANtricity OS for your storage appliance, you must follow the instructions in the StorageGRID documentation. If you use any other instructions, your appliance could become inoperable.
+CAUTION: When upgrading the SANtricity OS for your storage appliance, you must follow the instructions in the StorageGRID documentation. If you use any other instructions, your appliance could become inoperable.
 

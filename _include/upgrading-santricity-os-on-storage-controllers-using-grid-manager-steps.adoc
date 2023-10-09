@@ -17,7 +17,7 @@ CAUTION: The following steps are only applicable when you are using the Grid Man
 
 NOTE: This procedure will automatically upgrade the NVSRAM to the most recent version associated with the SANtricity OS upgrade. You don't need to apply a separate NVSRAM upgrade file.
 
-IMPORTANT: Be sure to apply the latest StorageGRID hotfix before you begin this procedure. See https://review.docs.netapp.com/us-en/storagegrid-118_main/maintain/storagegrid-hotfix-procedure.html[StorageGRID hotfix procedure^] for details. 
+NOTE: Be sure to apply the latest StorageGRID hotfix before you begin this procedure. See https://review.docs.netapp.com/us-en/storagegrid-118_main/maintain/storagegrid-hotfix-procedure.html[StorageGRID hotfix procedure^] for details. 
 
 .Steps
 
@@ -81,7 +81,7 @@ You can also enter a term in the Search box to search for specific nodes.
 
 . Approve the grid nodes you are ready to add to the upgrade queue. Approved nodes are upgraded one at a time. 
 +
-IMPORTANT: Don't approve the SANtricity OS upgrade for an appliance Storage Node unless you are sure the node is ready to be stopped and rebooted. When the SANtricity OS upgrade is approved on a node, the services on that node are stopped and the upgrade process begins. Later, when the node is finished upgrading, the appliance node is rebooted. These operations might cause service interruptions for clients that are communicating with the node.
+CAUTION: Don't approve the SANtricity OS upgrade for an appliance Storage Node unless you are sure the node is ready to be stopped and rebooted. When the SANtricity OS upgrade is approved on a node, the services on that node are stopped and the upgrade process begins. Later, when the node is finished upgrading, the appliance node is rebooted. These operations might cause service interruptions for clients that are communicating with the node.
 
 ** Select the *Approve All* button to add all Storage Nodes to the SANtricity OS upgrade queue. 
 +
