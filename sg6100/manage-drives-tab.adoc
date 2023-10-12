@@ -19,19 +19,19 @@ You can use the Manage drives tab in the Grid Manager to perform troubleshooting
 
 If you have an SG6100 series appliance and either the https://review.docs.netapp.com/us-en/storagegrid-118_main/admin/admin-group-permissions.html[Storage appliance administrator or Root access permission], a Manage drives tab appears on the appliance details page.
 
-You can perform tasks on each drive as needed from the following views:
+The Manage drives tab contains the following views:
 
 [cols="1a,4a" options="header"]
 |===
 | View| Screenshot
 
-| Layout of data storage drives in the appliance
+| Layout of data storage drives in the appliance. Select a drive to view drive details.
 | image:../media/manage_drives_tab.png[Manage drives tab Layout view]
 
-| Table that lists information for each drive
+| Table that lists information for each drive. Select a drive to view drive details.
 | image:../media/manage_drives_tab_table.png[Manage drives tab Table view]
 
-| Drive details
+| Drive details panel. Select the appropriate task button, as described in the following steps.
 | image:../media/manage_drives_tab_details.png[Manage drives tab Drive details]
 |===
 
