@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storagegrid, sg100, sg1000, service appliance, services appliance, gateway Node, admin node, Replacing, replace, fan, remove, removing, removal, install, installing, installation
 summary: 'The services appliance has eight cooling fans. If one of the fans fails, you must replace it as soon as possible to ensure that the appliance has proper cooling.'
 ---
-= Replace fan in services appliance
+= Replace fan in SG100 or SG1000
 :icons: font
 :imagesdir: ../media/
 

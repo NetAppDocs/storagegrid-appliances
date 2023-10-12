@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storagegrid, sg6000, storage node, storage appliance, controller, storage controller, upgrade, upgrading, SANtricity OS, SANtricity, maintenance mode
 summary: 'For storage controllers currently using SANtricity OS older than 08.42.20.00 \(11.42\), you must use the maintenance mode procedure to apply an upgrade.'
 ---
-= Upgrade SANtricity OS on storage controllers using maintenance mode
+= Upgrade SANtricity OS on SG6000 storage controllers using maintenance mode
 :icons: font
 :imagesdir: ../media/
 

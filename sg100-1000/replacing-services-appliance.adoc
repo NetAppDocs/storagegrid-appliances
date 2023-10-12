@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storagegrid, sg100, sg1000, service appliance, services appliance, gateway Node, admin node, Replacing, replace, remove, removing, removal, install, installing, installation
 summary: 'You might need to replace the appliance if it is not functioning optimally or if it has failed.'
 ---
-= Replace services appliance
+= Replace an SG100 or SG1000
 :icons: font
 :imagesdir: ../media/
 

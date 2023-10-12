@@ -30,14 +30,14 @@ To initially access the StorageGRID Appliance Installer, you can use the DHCP-as
 [role="tabbed-block"]
 ====
 
-.SGF6112
+.SG100
 --
-image:../media/sg6100_admin_network_port.png[Admin Network port on the SGF6112]
+image::../media/sg100_admin_network_port.png[Admin Network port on the SG100]
 --
 
-.SG6000-CN
+.SG1000
 --
-image::../media/sg6000_cn_admin_network_port.png[Admin Network port on the SG6000-CN controller]
+image::../media/sg1000_admin_network_port.png[Admin Network port on the SG1000]
 --
 
 .E5700SG
@@ -58,25 +58,18 @@ In the sequence:
 NOTE: If an IP address could not be assigned using DHCP, 0.0.0.0 is displayed.
 --
 
-.SG100
+.SG6000-CN
 --
-image:../media/sg100_admin_network_port.png[Admin Network port on the SG100]
---
-
-.SG1000
---
-image::../media/sg1000_admin_network_port.png[Admin Network port on the SG1000]
+image::../media/sg6000_cn_admin_network_port.png[Admin Network port on the SG6000-CN controller]
 --
 
+.SGF6112
+--
+image::../media/sg6100_admin_network_port.png[Admin Network port on the SGF6112]
+--
 ====
 
- .. Locate the MAC address label on the front of the services appliance or storage appliance, and determine the MAC address for the Admin Network port.
-+
-The MAC address label lists the MAC address for the BMC management port.
-+
-To determine the MAC address for the Admin Network port, add *2* to the hexadecimal number on the label. For example, if the MAC address on the label ends in *09*, the MAC address for the Admin Port would end in *0B*. If the MAC address on the label ends in *(_y_)FF*, the MAC address for the Admin Port would end in *(_y_+1)01*. You can easily make this calculation by opening Calculator in Windows, setting it to Programmer mode, selecting Hex, typing the MAC address, then typing *+ 2 =*.
-
- .. Provide the MAC address to your network administrator, so they can look up the DHCP address for the appliance on the Admin Network.
+ .. Obtain the DHCP address for the appliance on the Admin Network from your network administrator.
  .. From the client, enter this URL for the StorageGRID Appliance Installer: +
 `*https://_Appliance_IP_:8443*`
 +
@@ -95,28 +88,6 @@ image::../media/appliance_installer_home_5700_5600.png[Screen shot of the top pa
 [role="tabbed-block"]
 ====
 
-.SGF6112
---
-Connect a service laptop directly to the rightmost RJ-45 port on the appliance, using an Ethernet cable.
-
-image::../media/sg6100_link_local_port.png[SGF6112 Link-Local Connection]
---
-
-
-.SG6000-CN
---
-Connect a service laptop directly to the rightmost RJ-45 port on the SG6000-CN controller, using an Ethernet cable.
-
-image::../media/sg6000_cn_link_local_port.png[Location of Management Port for SG6000-CN]
---
-
-.E5700SG
---
-Connect the service laptop to management port 2 on the E5700SG controller, using an Ethernet cable.
-
-image::../media/e5700sg_mgmt_port_2.gif[Location of Management Port 2 on the E5700SG controller]
---
-
 .SG100
 --
 Connect a service laptop directly to the rightmost RJ-45 port on the services appliance, using an Ethernet cable.
@@ -129,6 +100,25 @@ image::../media/sg100_link_local_port.png[SG100 Link-Local Connection]
 Connect a service laptop directly to the rightmost RJ-45 port on the services appliance, using an Ethernet cable.
 
 image::../media/sg1000_link_local_port.png[SG1000 Link-Local Connection]
+--
+
+.E5700SG
+--
+Connect the service laptop to management port 2 on the E5700SG controller, using an Ethernet cable.
+
+image::../media/e5700sg_mgmt_port_2.gif[Location of Management Port 2 on the E5700SG controller]
+--
+.SG6000-CN
+--
+Connect a service laptop directly to the rightmost RJ-45 port on the SG6000-CN controller, using an Ethernet cable.
+
+image::../media/sg6000_cn_link_local_port.png[Location of Management Port for SG6000-CN]
+--
+.SGF6112
+--
+Connect a service laptop directly to the rightmost RJ-45 port on the appliance, using an Ethernet cable.
+
+image::../media/sg6100_link_local_port.png[SGF6112 Link-Local Connection]
 --
 
 ====
@@ -151,5 +141,4 @@ link:verifying-and-upgrading-storagegrid-appliance-installer-version.html[Verify
 
 * Review any messages displayed on the StorageGRID Appliance Installer Home page and configure the link configuration and the IP configuration, as required.
 +
-image::../media/appliance_installer_home_services_appliance.png[Appliance Installer Home - SG100 and SG1000]
-
+image::../media/appliance_installer_home_services_appliance.png[Appliance Installer Home]
