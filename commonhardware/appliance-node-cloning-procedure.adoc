@@ -14,7 +14,7 @@ The cloning process might take several days to transfer data between the source 
 .Before you begin
 
 * You have installed the compatible target appliance into a cabinet or rack, connected all cables, and applied power.
-* You have verified that the StorageGRID Appliance Installer version on the replacement appliance matches the software version of your StorageGRID system, upgrading the StorageGRID Appliance Installer firmware, if necessary.
+* You have verified that the StorageGRID Appliance Installer version on the replacement appliance matches the software version of your StorageGRID system, upgrading and downgrading the StorageGRID Appliance Installer firmware, if necessary.
 * You have configured the target appliance, including configuring StorageGRID connections, SANtricity System Manager (storage appliances only), and the BMC interface.
  ** When configuring StorageGRID connections, use the temporary IP addresses.
  ** When configuring network links, use the final link configuration.
@@ -101,3 +101,4 @@ You can:
 * Use the source appliance as a target for additional cloning operations: no additional configuration is required. This appliance already has the temporary IP address assigned that were originally specified for the first clone target.
 * Install and set up the source appliance as a new appliance node.
 * Discard the source appliance if it is no longer of use with StorageGRID.
+// 2023 OCT 11, SGRIDDOC-14
