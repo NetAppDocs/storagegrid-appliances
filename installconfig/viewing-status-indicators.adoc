@@ -87,11 +87,11 @@ image::../media/ssd_indicators.png[SSD Indicators]
 |===
 | LED| Display| State
 
-|1
-|Drive status/fault
-|
-* Blue (solid): drive is online
-* Amber (blinking): drive failure
+| 1
+| Drive status/fault
+| * Blue (solid): drive is online
+* Amber (solid): drive failure
+* Amber (blinking): drive locator light on
 * Off: slot is empty
 
 |2
