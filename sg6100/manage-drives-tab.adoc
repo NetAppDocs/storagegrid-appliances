@@ -33,7 +33,7 @@ Drive details:: Summary for each drive. Select the appropriate task button, as d
 +
 image:../media/manage_drives_tab_details.png[Manage drives tab Drive details]
 
-== Turn locator light on
+== Turn locator light on or off
 
 To physically locate a drive in the appliance:
 
