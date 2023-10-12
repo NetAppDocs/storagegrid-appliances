@@ -21,19 +21,17 @@ If you have an SG6100 series appliance and either the https://review.docs.netapp
 
 The Manage drives tab contains the following views:
 
-[cols="1a,4a" options="header"]
-|===
-| View| Screenshot
+Layout:: Layout of data storage drives in the appliance. Select a drive to view drive details.
++
+image:../media/manage_drives_tab.png[Manage drives tab Layout view]
 
-| Layout of data storage drives in the appliance. Select a drive to view drive details.
-| image:../media/manage_drives_tab.png[Manage drives tab Layout view]
+Table:: Lists information for each drive. Select a drive to view drive details.
++
+image:../media/manage_drives_tab_table.png[Manage drives tab Table view]
 
-| Table that lists information for each drive. Select a drive to view drive details.
-| image:../media/manage_drives_tab_table.png[Manage drives tab Table view]
-
-| Drive details panel. Select the appropriate task button, as described in the following steps.
-| image:../media/manage_drives_tab_details.png[Manage drives tab Drive details]
-|===
+Drive details:: Summary for each drive. Select the appropriate task button, as described in the steps below.
++
+image:../media/manage_drives_tab_details.png[Manage drives tab Drive details]
 
 == Turn locator light on
 
