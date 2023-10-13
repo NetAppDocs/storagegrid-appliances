@@ -11,4 +11,4 @@ summary: 'You upgrade your drive firmware to make sure you have all the latest f
 [.lead]
 Upgrade the firmware on the drives in your appliance to make sure you have all the latest features and bug fixes. 
 
-include::../_include/upgrading-drive-firmware-using-santricity-system-manager-cachegroup.adoc[]
+include::../_include/upgrading-drive-firmware-using-santricity-system-manager.adoc[]

@@ -1,4 +1,3 @@
-//This include file is used for the SG6000. SG5700 and all storage appliances after 11.6 use the common file.
 .Before you begin
 
 * The storage appliance has an Optimal status.
@@ -23,11 +22,13 @@ The drives are upgraded in parallel while the appliance is in maintenance mode. 
 
 The offline method is faster than the online method and will be significantly faster when many drives in a single appliance need upgrades. However, it requires that nodes be taken out of service, which might require scheduling a maintenance window and monitoring progress. Choose the method that is the best fit for your operational procedures and the number of drives that need to be upgraded.
 
-CAUTION: The SG6060 contains two types of drives: SSD and HDD. You must use the offline method to upgrade the firmware on the SSDs. You can use either the online or offline method to upgrade the firmware on the HDDs.
+CAUTION: There are two types of drives: SSD and HDD. You must use the offline method to upgrade the firmware on the SSDs (for example, SSD drives in the SG6060). You can use either the online or offline method to upgrade the firmware on HDDs.
 
 .Steps
 
 . If you are performing an offline upgrade, confirm that the appliance is in link:../commonhardware/placing-appliance-into-maintenance-mode.html[maintenance mode].
++
+NOTE: If you are upgrading the firmware in SSD drives that are part of a cache group, you must ensure that no I/O is sent to any cached volumes while the upgrade is in progress. When the appliance is in maintenance mode, no I/O is sent to any volumes while the upgrade is in progress.
 
 . Access SANtricity System Manager using one of these methods:
  ** Use the StorageGRID Appliance Installer and select *Advanced* > *SANtricity System Manager*
@@ -35,11 +36,6 @@ CAUTION: The SG6060 contains two types of drives: SSD and HDD. You must use the 
  ** Use SANtricity System Manager by browsing to the storage controller IP: +
 `*https://_Storage_Controller_IP_*`
 . Enter the SANtricity System Manager administrator username and password, if required.
-
-. If you are upgrading SSD drives that are part of an SSD cache group, suspend the cache group:
- .. From SANtricity System Manager, select *Storage* > *POOLS & VOLUME GROUPS*.
- .. Select the SSD cache group to suspend.
- .. Select *More* > *Suspend/Resume SSD Cache*.
 
 . Verify the drive firmware version currently installed in the storage appliance:
  .. From SANtricity System Manager, select *SUPPORT* > *Upgrade Center*.
@@ -184,11 +180,6 @@ Contact technical support to resolve this issue.
  ** *More than 4 critical MEL entries in the last 7 days*
 +
 Contact technical support to resolve this issue.
-
-. If you upgraded SSD drives that were part of an SSD cache group, the cache group must be resumed:
- .. From SANtricity System Manager, select *Storage* > *POOLS & VOLUME GROUPS*.
- .. Select the SSD cache group to resume.
- .. Select *More* > *Suspend/Resume SSD Cache*.
 
 . If you were using the *Offline* upgrade and this procedure completed successfully, perform any additional maintenance procedures while the node is in maintenance mode. When you are done, or if you experienced any failures and want to start over, go to the StorageGRID Appliance Installer and select *Advanced* > *Reboot Controller*. Then select one of these options:
 +
