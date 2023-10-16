@@ -48,7 +48,7 @@ Contact your network or DHCP-server administrator to update the permanent DHCP l
 NOTE: To prevent degraded performance, don't twist, fold, pinch, or step on the cables.
 
  .. link:reinstalling-sgf6112-into-cabinet-or-rack.html[Remove the failed appliance from the cabinet or rack].
- .. Note the position of the replaceable components (two power supplies, eight cooling fans, three NICs, and twelve SSDs) in the failed appliance.
+ .. Note the position of the replaceable components (two power supplies, three NICs, and twelve SSDs) in the failed appliance.
 +
 The twelve drives are in the following positions in the chassis (front of chassis with bezel removed shown): 
 +
@@ -154,4 +154,5 @@ include::../_include/fru-statement.adoc[]
 link:../installconfig/viewing-status-indicators.html[View status indicators]
 
 link:../installconfig/troubleshooting-hardware-installation-sg6100.html#view-error-codes[View boot-up codes for appliance]
+// 2023 OCT 11, SGRIDDOC-12
 
