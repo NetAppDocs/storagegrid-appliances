@@ -15,12 +15,12 @@ You might need to replace the E2800 series controller if it is not functioning o
 
 * You have a replacement controller with the same part number as the controller you are replacing.
 +
-IMPORTANT: Don't rely on the E-Series instructions to replace a controller in the StorageGRID appliance, because the procedures aren't the same.
+NOTE: Don't rely on the E-Series instructions to replace a controller in the StorageGRID appliance, because the procedures aren't the same.
 
 * You have labels to identify each cable that is connected to the controller.
 * If all drives are secured, you have reviewed the steps in the simplex E2800 series controller replacement procedure, which include downloading and installing E-Series SANtricity System Manager from the NetApp Support Site and then using the Enterprise Management Window (EMW) to unlock the secured drives after you have replaced the controller.
 +
-IMPORTANT: You will not be able to use the appliance until you unlock the drives with the saved key.
+CAUTION: You will not be able to use the appliance until you unlock the drives with the saved key.
 
 * You must have specific access permissions.
 * You must be signed in to the Grid Manager using a https://review.docs.netapp.com/us-en/storagegrid-118_main/admin/web-browser-requirements.html[supported web browser^].
@@ -59,7 +59,7 @@ You use SANtricity System Manager to perform these steps.
  .. Make a note of which version of NVSRAM is currently installed.
  .. If the Drive Security feature is enabled, be sure a saved key exists and that you know the pass phrase required to install it.
 +
-IMPORTANT: *Possible loss of data access &#8212;* If all drives in the appliance are security enabled, the new controller will not be able to access the appliance until you unlock the secured drives using the Enterprise Management Window in SANtricity System Manager.
+CAUTION: *Possible loss of data access &#8212;* If all drives in the appliance are security enabled, the new controller will not be able to access the appliance until you unlock the secured drives using the Enterprise Management Window in SANtricity System Manager.
 
  .. Back up the configuration database.
 +

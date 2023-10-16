@@ -16,7 +16,7 @@ You might need to replace the E5700SG controller if it is not functioning optima
 * You have a replacement controller with the same part number as the controller you are replacing.
 * You have downloaded the E-Series instructions for replacing a failed E5700 controller.
 +
-IMPORTANT: Use the E-Series instructions for reference only if you need more details to perform a specific step. Don't rely on the E-Series instructions to replace a controller in the StorageGRID appliance, because the procedures aren't the same. For example, the E-Series instructions for the E5700 controller describe how to remove the battery and the host interface card (HIC) from a failed controller and install them in a replacement controller. These steps don't apply to the E5700SG controller.
+NOTE: Use the E-Series instructions for reference only if you need more details to perform a specific step. Don't rely on the E-Series instructions to replace a controller in the StorageGRID appliance, because the procedures aren't the same. For example, the E-Series instructions for the E5700 controller describe how to remove the battery and the host interface card (HIC) from a failed controller and install them in a replacement controller. These steps don't apply to the E5700SG controller.
 
 * You have labels to identify each cable that is connected to the controller.
 
@@ -50,17 +50,17 @@ The green Cache Active LED on the back of the E2800 controller is on when cached
  .. Note the MAC addresses for the ports on the replacement controller (located on labels on the controller).
  .. Ask your network administrator to update the IP address settings for the original controller to reflect the MAC addresses for the replacement controller.
 +
-IMPORTANT: You must ensure that the IP addresses for the original controller have been updated before you apply power to the replacement controller. Otherwise, the controller will obtain new DHCP IP addresses when it boots up and might not be able to reconnect to StorageGRID. This step applies to all StorageGRID networks that are attached to the controller.
+CAUTION: You must ensure that the IP addresses for the original controller have been updated before you apply power to the replacement controller. Otherwise, the controller will obtain new DHCP IP addresses when it boots up and might not be able to reconnect to StorageGRID. This step applies to all StorageGRID networks that are attached to the controller.
 . Remove the controller from the appliance:
  .. Put on an ESD wristband or take other antistatic precautions.
  .. Label the cables and then disconnect the cables and SFPs.
 +
-IMPORTANT: To prevent degraded performance, don't twist, fold, pinch, or step on the cables.
+NOTE: To prevent degraded performance, don't twist, fold, pinch, or step on the cables.
 
  .. Release the controller from the appliance by squeezing the latch on the cam handle until it releases, and then open the cam handle to the right.
  .. Using two hands and the cam handle, slide the controller out of the appliance.
 +
-IMPORTANT: Always use two hands to support the weight of the controller.
+CAUTION: Always use two hands to support the weight of the controller.
 . Install the replacement controller into the appliance.
  .. Turn the controller over, so that the removable cover faces down.
  .. With the cam handle in the open position, slide the controller all the way into the appliance.
