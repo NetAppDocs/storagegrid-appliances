@@ -4,12 +4,15 @@ sidebar: sidebar
 keywords: storagegrid, sgf6112, Replacing, replace, remove, removing, removal, install, installing, installation
 summary: 'You might need to replace the appliance if it is not functioning optimally or if it has failed.'
 ---
+
 = Replace SGF6112 appliance
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You might need to replace the appliance if it is not functioning optimally or if it has failed.
+
+// Same procedure for SG110 and SG1100 - unable to use includes due to specific links in steps.
 
 .Before you begin
 
@@ -35,14 +38,16 @@ When you are logged in as root, the prompt changes from `$` to `#`.
 .. Enter: `*run-host-command ipmitool lan print*` to display the current BMC configurations for the appliance.
 . link:power-sgf6112-off-on.html#shut-down-the-sgf6112-appliance[Shut down the appliance].
 
-. If any of the network interfaces on this StorageGRID appliance are configured for DHCP, you may need to update the permanent DHCP lease assignments on the DHCP servers to reference the MAC addresses of the replacement appliance, to ensure the appliance is assigned the expected IP addresses. See link:../commonhardware/locate-mac-address.html[Update MAC address references]. 
+. If any of the network interfaces on this StorageGRID appliance are configured for DHCP, you need to update the permanent DHCP lease assignments on the DHCP servers to reference the MAC addresses of the replacement appliance. This ensures that the appliance is assigned the expected IP addresses. 
++
+Contact your network or DHCP-server administrator to update the permanent DHCP lease assignments. The administrator can determine the MAC addresses of the replacement appliance from the DHCP server logs or by inspecting the MAC address tables in the switches to which the appliance Ethernet ports are connected.
 
 . Remove and replace the appliance:
  .. Label the cables and then disconnect the cables and any network transceivers.
 +
 IMPORTANT: To prevent degraded performance, don't twist, fold, pinch, or step on the cables.
 
- .. Remove the failed appliance from the cabinet or rack.
+ .. link:reinstalling-sgf6112-into-cabinet-or-rack.html[Remove the failed appliance from the cabinet or rack].
  .. Note the position of the replaceable components (two power supplies, eight cooling fans, three NICs, and twelve SSDs) in the failed appliance.
 +
 The twelve drives are in the following positions in the chassis (front of chassis with bezel removed shown): 
@@ -106,13 +111,13 @@ HDD11
 Follow the maintenance instructions provided for reinstalling the replaceable components.
 +
 IMPORTANT: If you wish to retain the data on the drives, be sure to insert the SSD drives into the same drive slots they occupied in the failed appliance. If you don't, the Appliance Installer will display a warning message and you will have to put the drives into the correct slots and reboot the appliance before the appliance can rejoin the grid.  
- .. Install the replacement appliance into the cabinet or rack.
+ .. link:reinstalling-sgf6112-into-cabinet-or-rack.html[Install the replacement appliance into the cabinet or rack].
  .. Replace the cables and any optical transceivers.
  .. Power on the appliance and wait for it to rejoin the grid. If the appliance does not rejoin the grid, follow the guidance on the StorageGRID Appliance Installer home page to address any issues.
 +
 WARNING: To prevent data loss if the Appliance Installer indicates that physical hardware changes are required, such as moving disk drives to different slots, power down the appliance before making hardware changes.
 +
-. If the appliance where you replaced the appliance used a key management server (KMS) to encrypt data, additional configuration might be required before the node can join the grid. If the node does not automatically join the grid, make sure that these configuration settings have transferred to the new appliance and manually configure any settings that don't have the expected configuration:
+. If the appliance you replaced used a key management server (KMS) to manage encryption keys for node encryption, additional configuration might be required before the node can join the grid. If the node does not automatically join the grid, make sure that these configuration settings have transferred to the new appliance and manually configure any settings that don't have the expected configuration:
 ** link:../installconfig/accessing-storagegrid-appliance-installer.html[Configure StorageGRID connections]  
 ** https://review.docs.netapp.com/us-en/storagegrid-118_main/admin/kms-overview-of-kms-and-appliance-configuration.html#set-up-the-appliance[Configure node encryption for the appliance^]
 
@@ -140,12 +145,13 @@ WARNING: To prevent data loss if the Appliance Installer indicates that physical
 . After restoring BMC network connectivity, connect to the BMC interface to audit and restore any additional custom BMC configuration you might have applied. For example, you should confirm the settings for SNMP trap destinations and email notifications. See link:../installconfig/configuring-bmc-interface.html[Configure BMC interface].
 . Confirm that the appliance node appears in the Grid Manager and that no alerts appear.
 
-.Related information
+.After you finish
 
-link:../installconfig/installing-appliance-in-cabinet-or-rack-sgf6112.html[Install appliance into a cabinet or rack (SGF6112)]
+include::../_include/fru-statement.adoc[]
+
+.Related information
 
 link:../installconfig/viewing-status-indicators.html[View status indicators]
 
-link:..installconfig/troubleshooting-hardware-installation-sg6100.html#view-error-codes[View boot-up codes for appliance]
+link:../installconfig/troubleshooting-hardware-installation-sg6100.html#view-error-codes[View boot-up codes for appliance]
 
-include::../_include/fru-statement.adoc[] 

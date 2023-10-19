@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storagegrid, sg6000, storage node, storage appliance, Replacing, replace, hardware, components, remove, removing, removal, install, installing, installation, i/o module, input/output module, power supply, fan, 60-drive expansion shelf, expansion shelf 
 summary: 'You might need to replace an input/output module, a power supply, or a fan in the expansion shelf.'
 ---
-= Replace hardware components in optional 60-drive expansion shelf
+= Replace hardware components in optional SG6000 60-drive expansion shelf
 :icons: font
 :imagesdir: ../media/
 
