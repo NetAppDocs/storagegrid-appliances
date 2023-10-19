@@ -75,4 +75,4 @@ The drive details panel appears.
 
 . Select *Fail drive*.
 
-After you fail a drive, you must either physically replace the drive or <<logically-replace-drive,logically replace the drive>>.
+After you fail a drive, you must either physically replace the drive or <<logically-replace-drive,logically replace the drive>>. 
