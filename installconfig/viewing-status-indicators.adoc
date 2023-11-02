@@ -443,7 +443,7 @@ Use this information to help link:troubleshooting-hardware-installation-sg6100.h
 [[appliance_indicators_SG6100]]
 Appliance indicators and buttons::
 +
-The following figure shows indicators and buttons on the SG6112 appliance.
+The following figure shows indicators and buttons on the SGF6112 appliance.
 +
 image::../media/sgf6112_front_indicators.png[Front Indicators - SGF6112]
 +
@@ -495,7 +495,7 @@ To view the boot-up and error codes, link:accessing-bmc-interface.html[access th
 [[ssd_indicators_SG6100]]
 SSD indicators::
 +
-The following figure shows SSD indicators on the SG6112 appliance.
+The following figure shows SSD indicators on the SGF6112 appliance.
 +
 image::../media/ssd_indicators.png[SSD Indicators]
 +
