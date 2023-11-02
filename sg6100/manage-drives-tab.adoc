@@ -2,14 +2,14 @@
 permalink: sg6100/manage-drives-tab.html
 sidebar: sidebar
 keywords: sgf6112, manage drives tab, locate drive, fail drive, logically replace drive
-summary: 'You can use the Manage drives tab in the Grid Manager to perform troubleshooting and maintenance tasks on the drives in the SG6100 appliances.'
+summary: 'You can use the Manage drives tab in the Grid Manager to perform troubleshooting and maintenance tasks on the drives in the SG6112 appliance.'
 ---
 = Use the Manage drives tab
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use the Manage drives tab in the Grid Manager to perform troubleshooting and maintenance tasks on the drives in the SG6100 appliances.
+You can use the Manage drives tab in the Grid Manager to perform troubleshooting and maintenance tasks on the drives in the SG6112 appliance.
 
 .Before you begin
 
@@ -17,7 +17,7 @@ You can use the Manage drives tab in the Grid Manager to perform troubleshooting
 
 .About this task
 
-If you have an SG6100 series appliance and either the https://review.docs.netapp.com/us-en/storagegrid-118_main/admin/admin-group-permissions.html[Storage appliance administrator or Root access permission], a Manage drives tab appears on the appliance details page.
+If you have an SG6112 series appliance and either the https://review.docs.netapp.com/us-en/storagegrid-118_main/admin/admin-group-permissions.html[Storage appliance administrator or Root access permission], a Manage drives tab appears on the appliance details page.
 
 The Manage drives tab contains the following views:
 
