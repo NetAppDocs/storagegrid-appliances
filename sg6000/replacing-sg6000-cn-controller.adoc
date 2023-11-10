@@ -51,7 +51,7 @@ NOTE: To prevent degraded performance, don't twist, fold, pinch, or step on the 
  .. Replace the cables and any SFP+ or SFP28 transceivers.
  .. Power on the controller and link:../installconfig/viewing-status-indicators.html[monitor the controller LEDs] and link:../installconfig/troubleshooting-hardware-installation.html#view-boot-codes[boot-up codes].
 +
-When the controller starts, it automatically installs pending updates for the controller and appliance components. Installation of these updates can take an hour or more to complete and the controller might reboot multiple times. 
+When the controller starts, it automatically installs pending updates for the controller and appliance components. Installation of these updates can take an hour or more to complete, and the controller might reboot multiple times. 
 +
 CAUTION: Do not manually reboot the appliance unless you are certain that it is _not_ in the middle of a firmware update.
 +
