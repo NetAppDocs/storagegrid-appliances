@@ -62,8 +62,6 @@ NOTE: If you haven't yet configured `BMC_Port_IP`, follow the instructions in li
 . Enter the admin or root username and password, using the password you set when you link:changing-root-password-for-bmc-interface.html[changed the default password]:
 +
 NOTE: The default user depends on when you installed your appliance. For newer installations, the default user is admin. For older installations, the default is root.
-+
-image::../media/bmc_signin_page.gif[BMC Sign In Page]
 
 . Select *Sign me in*.
 +
