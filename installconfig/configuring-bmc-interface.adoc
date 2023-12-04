@@ -19,6 +19,12 @@ Use the following procedures in this section to configure the BMC when you insta
 * link:../installconfig/configuring-snmp-settings-for-bmc.html[Configure SNMP settings]
 * link:../installconfig/setting-up-email-notifications-for-alerts.html[Set up email notifications for BMC alerts]
 
-NOTE: If the appliance has already been installed into a grid and is running StorageGRID software, see link:../installconfig/setting-ip-address-for-bmc-management-port.html[Set IP address for BMC management port] for information about accessing the BMC interface using the StorageGRID Appliance Installer.
+[NOTE]
+====
+If the appliance has already been installed into a grid and is running StorageGRID software, you can perform the following steps:
+
+. link:../commonhardware/placing-appliance-into-maintenance-mode.html[Place the appliance into maintenance mode] to access the StorageGRID appliance installer.
+. See link:../installconfig/setting-ip-address-for-bmc-management-port.html[Set IP address for BMC management port] for information about accessing the BMC interface using the StorageGRID Appliance Installer.
+====
 
 // 2023 NOV 28, SGRIDDOC-26
