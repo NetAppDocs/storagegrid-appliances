@@ -21,10 +21,10 @@ Use the following procedures in this section to configure the BMC when you insta
 
 [NOTE]
 ====
-If the appliance has already been installed into a grid and is running StorageGRID software, you can perform the following steps:
+If the appliance has already been installed into a grid and is running StorageGRID software, use the following procedures:
 
-. link:../commonhardware/placing-appliance-into-maintenance-mode.html[Place the appliance into maintenance mode] to access the StorageGRID appliance installer.
-. See link:../installconfig/setting-ip-address-for-bmc-management-port.html[Set IP address for BMC management port] for information about accessing the BMC interface using the StorageGRID Appliance Installer.
+* link:../commonhardware/placing-appliance-into-maintenance-mode.html[Place the appliance into maintenance mode] to access the StorageGRID appliance installer.
+* See link:../installconfig/setting-ip-address-for-bmc-management-port.html[Set IP address for BMC management port] for information about accessing the BMC interface using the StorageGRID Appliance Installer.
 ====
 
 // 2023 NOV 28, SGRIDDOC-26
