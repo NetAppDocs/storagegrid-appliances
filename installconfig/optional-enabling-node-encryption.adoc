@@ -1,14 +1,23 @@
 ---
 permalink: installconfig/optional-enabling-node-encryption.html
 sidebar: sidebar
-keywords: node encryption, encryption, kms, key management server
-summary: 'If you enable node encryption, the disks in your appliance can be protected by secure key management server \(KMS\) encryption against physical loss or removal from the site. You must select and enable node encryption during appliance installation. You cannot disable node encryption after the KMS encryption process starts.'
+keywords: node encryption, encryption, kms, key management server, drive encryption, self-encrypting drives, sed, full-disk encryption, fde
+summary: 'You can enable encryption at the node or disk level to protect the disks in your appliance against physical loss or removal from the site.'
 ---
-= Optional: Enable node encryption
+= Optional: Enable node or drive encryption
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
+You can enable encryption at the node or disk level to protect the disks in your appliance against physical loss or removal from the site.
+
+* <<Enable node encryption,Node encryption>> protects all disks in the appliance using secure key management server (KMS) encryption. It is a software encryption performed by appliance software.
+* <<Enable drive encryption,Drive encryption>> protects disks in the appliance that are specifically designed as Self-Encrypting Drives (SED). It can also be used on Full-disk encryption (FDE) drives which are qualified for a higher level of security. Drive encryption secures data with a user-defined passphrase and is performed within each drive.
+
+You can perform both encryption levels on supported drives for additional security.
+
+== Enable node encryption
+
 If you enable node encryption, the disks in your appliance can be protected by secure key management server (KMS) encryption against physical loss or removal from the site. You must select and enable node encryption during appliance installation. You can't disable node encryption after the KMS encryption process starts.
 
 If you are using ConfigBuilder to generate a JSON file, you can enable node encryption automatically. See link:automating-appliance-installation-and-configuration.html[Automate appliance installation and configuration].
@@ -62,5 +71,31 @@ NOTE: Appliances are initially configured with a random non-KMS encryption key a
 .After you finish
 
 You can view node-encryption status, KMS details, and the certificates in use when the appliance node is in maintenance mode. See link:../commonhardware/monitoring-node-encryption-in-maintenance-mode.html[Monitor node encryption in maintenance mode] for information.
+
+== Enable drive encryption
+
+Drive encryption is managed on SED and FDE disk drives during the write and read processes. Access to data on these drives is controlled by a user-defined passphrase. 
+
+After the first time the passphrase is entered to enable drive encryption or to reestablish drive access, the passphrase is stored on the StorageGRID appliance. This allows the drive to be accessed without manually renentering the passphrase. If the appliance is replaced or if the drives are moved to a new appliance, the passphrase will need to be manually reentered.
+
+CAUTION: Make sure that you store the drive-encryption passphrase in a secure location. Encrypted drives can't be accessed without manually entering the same passphrase if the drive is installed in another StorageGRID appliance.
+
+.Before you begin
+
+Review the information about https://review.docs.netapp.com/us-en/storagegrid-118_main/admin/reviewing-storagegrid-encryption-methods.html[StorageGRID encryption methods^].
+
+.About this task
+
+Drives encrypted with an SDE passphrase can be accessed by anyone who knows the passphrase. The passphrase unlocks encrypted drives when a StorageGRID appliance restarts. 
+
+The passphrase is established when drive encryption is initially enabled. StorageGRID appliances will retain the passphrase for future use with encrypted drives that remain in the appliance. If the drives are moved or installed in a new StorageGRID appliance, the passphrase will need to be manually reentered.
+
+.Steps
+
+MORGAN'S DEMO
+
+.After you finish
+
+You can view drive-encryption status TBD. See link:../TBD[TBD] for information.
 
 // 2023 SEP 8, SGRIDDOC-18
