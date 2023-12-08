@@ -24,7 +24,7 @@ You might need to access SANtricity System Manager on the storage controller to 
 
 NOTE: You must have SANtricity firmware 8.70 or higher to access SANtricity System Manager using the Grid Manager or the StorageGRID Appliance Installer. You can check your firmware version by using the StorageGRID Appliance Installer and selecting *Help* > *About*.
 
-IMPORTANT: Accessing SANtricity System Manager from the Grid Manager or from the Appliance Installer is generally meant only for monitoring your hardware and configuring E-Series AutoSupport. Many features and operations within SANtricity System Manager such as upgrading firmware don't apply to monitoring your StorageGRID appliance. To avoid issues, always follow the hardware installation and maintenance instructions for your appliance.
+NOTE: Accessing SANtricity System Manager from the Grid Manager or from the Appliance Installer is generally meant only for monitoring your hardware and configuring E-Series AutoSupport. Many features and operations within SANtricity System Manager such as upgrading firmware don't apply to monitoring your StorageGRID appliance. To avoid issues, always follow the hardware installation and maintenance instructions for your appliance.
 
 .About this task
 
@@ -74,7 +74,7 @@ image::../media/san_setup_wizard.gif[Screen shot showing Cancel button for Set U
 
 . Select *Cancel* to close the wizard.
 +
-IMPORTANT: Don't complete the Set Up wizard for a StorageGRID appliance.
+NOTE: Don't complete the Set Up wizard for a StorageGRID appliance.
 +
 image::../media/sam_home_page.gif[Screen shot of SANtricity System Manager home page]
 
@@ -111,7 +111,7 @@ You can use SANtricity System Manager to monitor and manage the individual hardw
 
 NOTE: You must have SANtricity firmware 8.70 or higher to access SANtricity System Manager using the Grid Manager or the StorageGRID Appliance Installer.
 
-IMPORTANT: Accessing SANtricity System Manager from the Grid Manager or from the Appliance Installer is generally meant only for monitoring your hardware and configuring E-Series AutoSupport. Many features and operations within SANtricity System Manager such as upgrading firmware don't apply to monitoring your StorageGRID appliance. To avoid issues, always follow the hardware installation and maintenance instructions for your appliance.
+NOTE: Accessing SANtricity System Manager from the Grid Manager or from the Appliance Installer is generally meant only for monitoring your hardware and configuring E-Series AutoSupport. Many features and operations within SANtricity System Manager such as upgrading firmware don't apply to monitoring your StorageGRID appliance. To avoid issues, always follow the hardware installation and maintenance instructions for your appliance.
 
 .Steps
 

@@ -23,7 +23,7 @@ The failure of a second drive before an initial drive failure has been corrected
 * You have verified which drive has failed by noting that the drive's left LED is solid amber or using the Grid Manager to link:verify-component-to-replace.html[view the alert caused by the failed drive].
 
 +
-IMPORTANT: See the information about viewing status indicators to verify the failure.
+NOTE: See the information about viewing status indicators to verify the failure.
 
 * You have obtained the replacement drive.
 * You have obtained proper ESD protection.
@@ -114,7 +114,7 @@ image::../media/h600s_driveinstall.gif[Drive Installation]
 
 . Insert the replacement drive in the slot, and then close the drive handle.
 +
-IMPORTANT: Don't use excessive force while closing the handle.
+NOTE: Don't use excessive force while closing the handle.
 +
 When the drive is fully inserted, you hear a click.
 +

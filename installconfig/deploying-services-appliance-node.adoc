@@ -93,7 +93,7 @@ To install StorageGRID on a services appliance node:
 +
 Partway through the appliance Gateway Node installation tasks, the installation pauses. To resume the installation, you sign into the Grid Manager, approve all grid nodes, and complete the StorageGRID installation process. The installation of a non-primary Admin Node does not require your approval.
 
-IMPORTANT: Don't deploy SG100 and SG1000 service appliances in the same site. Unpredictable performance might result.
+NOTE: Don't deploy SG100 and SG1000 service appliances in the same site. Unpredictable performance might result.
 
 NOTE: If you need to deploy multiple appliance nodes at one time, you can automate the installation process. See link:automating-appliance-installation-and-configuration.html[Automate appliance installation and configuration].
 

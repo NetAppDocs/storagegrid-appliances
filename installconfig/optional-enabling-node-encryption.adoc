@@ -26,7 +26,7 @@ A KMS can be set up in Grid Manager before or after the appliance is installed i
 * If a KMS is set up before installing the appliance, KMS-controlled encryption begins when you enable node encryption on the appliance and add it to a StorageGRID site where KMS is configured.
 * If a KMS is not set up before you install the appliance, KMS-controlled encryption is performed on each appliance that has node encryption enabled as soon as a KMS is configured and available for the site that contains the appliance node.
 
-IMPORTANT: When an appliance is installed with node encryption enabled, a temporary key is assigned. The data on the appliance is not protected until the appliance is connected to the Key Management System (KMS) and a KMS security key is set. See the https://review.docs.netapp.com/us-en/storagegrid-118_main/admin/kms-overview-of-kms-and-appliance-configuration.html[KMS appliance configuration overview^] for additional information.
+CAUTION: When an appliance is installed with node encryption enabled, a temporary key is assigned. The data on the appliance is not protected until the appliance is connected to the Key Management System (KMS) and a KMS security key is set. See the https://review.docs.netapp.com/us-en/storagegrid-118_main/admin/kms-overview-of-kms-and-appliance-configuration.html[KMS appliance configuration overview^] for additional information.
 
 Without the KMS key needed to decrypt the disk, data on the appliance can't be retrieved and is effectively lost. This is the case whenever the decryption key can't be retrieved from the KMS. The key becomes inaccessible if a customer clears the KMS configuration, a KMS key expires, connection to the KMS is lost, or the appliance is removed from the StorageGRID system where its KMS keys are installed.
 
@@ -40,7 +40,7 @@ Without the KMS key needed to decrypt the disk, data on the appliance can't be r
 +
 The StorageGRID Appliance Installer Home page appears.
 +
-IMPORTANT: After the appliance has been encrypted with a KMS key, the appliance disks can't be decrypted without using the same KMS key.
+CAUTION: After the appliance has been encrypted with a KMS key, the appliance disks can't be decrypted without using the same KMS key.
 
 . Select *Configure Hardware* > *Node Encryption*.
 +
@@ -50,7 +50,7 @@ image::../media/kms_fde_enabled.png[KMS FDE enabled]
 +
 Before appliance installation, you can clear *Enable node encryption* without risk of data loss. When the installation begins, the appliance node accesses the KMS encryption keys in your StorageGRID system and begins disk encryption. You can't disable node encryption after the appliance is installed.
 +
-IMPORTANT: After you add an appliance that has node encryption enabled to a StorageGRID site that has a KMS, you can't stop using KMS encryption for the node.
+CAUTION: After you add an appliance that has node encryption enabled to a StorageGRID site that has a KMS, you can't stop using KMS encryption for the node.
 
 . Select *Save*.
 . Deploy the appliance as a node in your StorageGRID system.

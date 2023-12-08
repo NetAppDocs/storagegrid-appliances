@@ -51,7 +51,7 @@ image::../media/sg6000_cn_remove_power_supply.gif[Removing an SG6000-CN power su
 . With the blue latch on the right, slide the replacement power supply into the chassis.
 
 +
-IMPORTANT: Both power supplies must be the same model and wattage.
+NOTE: Both power supplies must be the same model and wattage.
 
 +
 Ensure that the blue latch is on the right side when you slide the replacement unit in.

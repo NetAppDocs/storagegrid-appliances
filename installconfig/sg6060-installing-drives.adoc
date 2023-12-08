@@ -35,11 +35,11 @@ image::../media/install_drives_in_e2860.gif[Install Drives]
 . Install 10 HDD drives into the top drawer.
 . Slide the drawer back in by pushing on the center and closing both levers gently.
 +
-IMPORTANT: Stop pushing the drawer if you feel binding. Use the release levers at the front of the drawer to slide the drawer back out. Then, carefully reinsert the drawer into the slot.
+CAUTION: Stop pushing the drawer if you feel binding. Use the release levers at the front of the drawer to slide the drawer back out. Then, carefully reinsert the drawer into the slot.
 
 . Repeat these steps to install HDD drives into the other four drawers.
 +
-IMPORTANT: You must install all 60 drives to ensure correct operation.
+NOTE: You must install all 60 drives to ensure correct operation.
 
 . Attach the front bezel to the shelf.
 . If you have expansion shelves, repeat these steps to install 12 HDD drives into each drawer of each expansion shelf.
