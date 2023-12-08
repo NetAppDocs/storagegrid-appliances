@@ -45,7 +45,7 @@ Contact your network or DHCP-server administrator to update the permanent DHCP l
 . Remove and replace the appliance:
  .. Label the cables and then disconnect the cables and any network transceivers.
 +
-IMPORTANT: To prevent degraded performance, don't twist, fold, pinch, or step on the cables.
+NOTE: To prevent degraded performance, don't twist, fold, pinch, or step on the cables.
 
  .. link:reinstalling-sgf6112-into-cabinet-or-rack.html[Remove the failed appliance from the cabinet or rack].
  .. Note the position of the replaceable components (two power supplies, three NICs, and twelve SSDs) in the failed appliance.
@@ -110,7 +110,7 @@ HDD11
 +
 Follow the maintenance instructions provided for reinstalling the replaceable components.
 +
-IMPORTANT: If you wish to retain the data on the drives, be sure to insert the SSD drives into the same drive slots they occupied in the failed appliance. If you don't, the Appliance Installer will display a warning message and you will have to put the drives into the correct slots and reboot the appliance before the appliance can rejoin the grid.  
+CAUTION: If you wish to retain the data on the drives, be sure to insert the SSD drives into the same drive slots they occupied in the failed appliance. If you don't, the Appliance Installer will display a warning message and you will have to put the drives into the correct slots and reboot the appliance before the appliance can rejoin the grid.  
  .. link:reinstalling-sgf6112-into-cabinet-or-rack.html[Install the replacement appliance into the cabinet or rack].
  .. Replace the cables and any optical transceivers.
  .. Power on the appliance and wait for it to rejoin the grid. If the appliance does not rejoin the grid, follow the guidance on the StorageGRID Appliance Installer home page to address any issues.

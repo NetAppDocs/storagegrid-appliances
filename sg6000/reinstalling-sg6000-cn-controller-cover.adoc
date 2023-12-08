@@ -28,7 +28,7 @@ link:reinstalling-sg6000-cn-controller-into-cabinet-or-rack.html#remove-sg6000-c
 +
 image::../media/sg6060_cover_latch_open.jpg[SG6060 cover latch open]
 +
-IMPORTANT: Wrap the strap end of an ESD wristband around your wrist and secure the clip end to a metal ground to prevent static discharge when working inside the SG6000-CN controller.
+CAUTION: Wrap the strap end of an ESD wristband around your wrist and secure the clip end to a metal ground to prevent static discharge when working inside the SG6000-CN controller.
 
 include::../_include/fru-statement.adoc[]
 
