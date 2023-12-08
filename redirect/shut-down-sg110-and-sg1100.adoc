@@ -1,0 +1,4 @@
+---
+permalink: sg110-1100/shut-down-sg110-and-sg1100.html
+redirect: storagegrid-appliances/sg110-1100/power-sg110-and-sg1100-off-on.html#shut-down-the-sg110-or-sg1100-appliance
+---
