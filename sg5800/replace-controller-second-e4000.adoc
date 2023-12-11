@@ -1,0 +1,65 @@
+---
+permalink: sg5800/replace-controller-second-e4000.html
+sidebar: sidebar
+keywords: 
+summary: 
+---
+= Add a second canister in E4000
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can add a second controller canister in the E4000 array.
+
+.About this task
+Add a second controller canister to the simplex version of either a E2812 controller shelf, E2824 controller shelf, or EF280 flash array. This procedure is also referred to as a simplex-to-duplex conversion, which is an online procedure. You can access data on the storage array while you perform this procedure.
+
+.Before you begin
+Make sure you have the following:
+
+* A new controller canister with the same part number as the currently installed controller canister. (See step 1 to verify the part number.)
+* A new HIC that is identical to the HIC in the currently installed controller canister (only necessary if the currently installed controller canister includes a host interface card).
+* An ESD wristband, or take other antistatic precautions.
+* A #1 Phillips screwdriver.
+* Labels to identify the new cables. For information about compatible hardware, refer to the https://mysupport.netapp.com/NOW/products/interoperability[NetApp Interoperability Matrix] or the http://hwu.netapp.com/home.aspx[NetApp Hardware Universe].
+* All cables, transceivers, switches, and host bus adapters (HBAs) needed to connect the new controller ports.
+* A management station with a browser that can access SANtricity System Manager for the controller. (To open the System Manager interface, point the browser to the controller’s domain name or IP address.)
+
+
+== Step 1: Verify the new controller’s part number
+
+Confirm that the new controller has the same part number as the currently installed controller.
+
+.Steps
+
+. Unpack the new controller canister, and set it on a flat, static-free surface.
+. Locate the MAC address and FRU part number labels on the back of the controller canister.
+. From SANtricity System Manager, locate the replacement part number for the installed controller canister.
+.. Select *Hardware*.
+.. Locate the controller shelf, which is marked with the controller icon.
+.. Click the controller icon image:../media/sam1130_ss_hardware_controller_icon_maint-e4000.gif[Gif of controller icon].
+.. Select the controller, and click *Next*.
+.. On the *Base* tab, make a note of the *Replacement Part Number* for the controller.
+. Confirm that the replacement part number for the installed controller is the same as the FRU part number for the new controller.
++
+CAUTION: Possible loss of data access — If the two part numbers are not the same, do not attempt this procedure. In addition, if the original controller canister includes a host interface card (HIC), you must install an identical HIC into the new controller canister. The presence of mismatched controllers or HICs will cause the new controller to lock down when you bring it online.
+. Back up the storage array’s configuration database using SANtricity System Manager.
++
+If a problem occurs when you remove a controller, you can use the saved file to restore your configuration. The system will save the current state of the RAID configuration database, which includes all data for volume groups and disk pools on the controller. Do the following from System Manager:
+
+.. Select Support › Support 	Center › Diagnostics.
+.. Select Collect Configuration Data.
+.. Click Collect.
++
+The file is saved in the *Downloads* folder for your browser with the name *configurationData-	<arrayName>-<dateTime>.7z*.
+. If the controller is not already offline, take it offline now using SANtricity System Manager.
+.. Select Hardware.
+.. If the graphic shows the drives,   select Show back of shelf to show the controllers.
+.. Select the controller that you want to place offline.
+.. From the context menu, select Place offline, and confirm that you want to perform the operation.
++
+NOTE: If you are accessing SANtricity System Manager using the controller you are attempting to take offline, a *SANtricity System Manager Unavailable* message is displayed. Select *Connect to an alternate network connection* to automatically access SANtricity System Manager using the other controller. 
+. Wait for SANtricity System Manager to update the controller’s status to offline.
++
+NOTE: Do not begin any other operations until after the status has been updated. 
+. Select Recheck from the Recovery Guru, and confirm that the OK to remove field in the Details area displays Yes, indicating that it is safe to remove this component.

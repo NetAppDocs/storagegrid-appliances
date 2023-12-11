@@ -1,0 +1,9 @@
+---
+permalink: sg5800/replace-drive-e4000.html
+sidebar: sidebar
+keywords: 
+summary: 
+---
+= Replace E4000 controller
+:icons: font
+:imagesdir: ../media/

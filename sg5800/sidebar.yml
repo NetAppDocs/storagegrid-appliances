@@ -1,0 +1,32 @@
+section: sg5800
+title: Maintain SG5800 hardware
+url: "/landing-maintain-sg5800/index.html"
+entries:
+  - title: Overview
+    pdf-filename: SG5800 hardware maintenance
+    url: "/sg5800/index.html"
+  - title: Maintenance configuration procedures
+    pdf-filename: Maintenance configuration procedures - SG5700
+    entries:
+    - title: Upgrade SANtricity OS on storage controller
+      url: "/sg5800/upgrading-santricity-os-on-storage-controller.html"
+      entries:
+      - title: Upgrade SANtricity OS on storage controllers using Grid Manager
+        url: "/sg5800/upgrading-santricity-os-on-storage-controllers-using-grid-manager-sg5800.html"
+      - title: Upgrade SANtricity OS on E4000 controller using maintenance mode
+        url: "/sg5800/upgrading-santricity-os-on-e4000-controller-using-maintenance-mode.html"
+    - title: Upgrade drive firmware using SANtricity System Manager
+      url: "/sg5800/upgrading-drive-firmware-using-santricity-system-manager.html"
+    - title: Change link configuration of E5800SG controller
+      url: "/sg5800/changing-link-configuration-of-e5800sg-controller.html"
+
+
+  - title: Hardware procedures
+    pdf-filename: Hardware procedures - SG5800
+    entries:
+    - title: Replace E4000 controller
+      url: "/sg5800/replacing-e4000-controller.html"
+    - title: Replace E5700SG controller
+      url: "/sg5800/replacing-e5800sg-controller.html"
+    - title: Replace other hardware components
+      url: "/sg5800/replacing-other-hardware-components-sg5800.html"

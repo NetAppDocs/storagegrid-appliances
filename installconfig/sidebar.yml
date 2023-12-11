@@ -22,6 +22,8 @@ entries:
         url: "/installconfig/gathering-installation-information-sg100-and-sg1000.html"
       - title: SG5700
         url: "/installconfig/gathering-installation-information-sg5700.html"
+      - title: SG5800
+        url: "/installconfig/gathering-installation-information-sg5800.html"
       - title: SG6000
         url: "/installconfig/gathering-installation-information-sg6000.html"
       - title: SG6100
@@ -42,7 +44,9 @@ entries:
       - title: SG100 and SG1000
         url: "/installconfig/installing-appliance-in-cabinet-or-rack-sg100-and-sg1000.html"
       - title: SG5700
-        url: "/installconfig/installing-appliance-in-cabinet-or-rack-sg5700.html"      
+        url: "/installconfig/installing-appliance-in-cabinet-or-rack-sg5700.html"
+      - title: SG5800
+        url: "/installconfig/installing-appliance-in-cabinet-or-rack-sg5800.html"      
       - title: SG6000
         entries:
         - title: Overview
