@@ -31,7 +31,7 @@ entries:
       - title: E4000
         entries:
           - title: Batteries
-            url:
+            url: "/sg5800/replace-battery-e4000.html"
           - title: Controllers
             entries:
               - title: Overview
@@ -41,7 +41,7 @@ entries:
               - title: Replace controller
                 url: "/sg5800/replace-controller-e4000.html"
           - title: DIMMS
-            url: "sg5800/replace-dimms-e4000.html"
+            url: "/sg5800/replace-dimms-e4000.html"
           - title: Drives
-            url: "sg5800/replace-drive-e4000.html"
+            url: "/sg5800/replace-drive-e4000.html"
         
