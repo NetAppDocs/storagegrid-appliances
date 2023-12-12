@@ -19,7 +19,7 @@ StorageGRID SG5800 series appliance provides the following features:
 * Support up to four 10-GbE or 25-GbE connections to the StorageGRID Grid Network and Client Network.
 * Support Full Disk Encryption (FDE) drives or FIPS drives. When these drives are used with the Drive Security feature in SANtricity System Manager, unauthorized access to data is prevented.
 
-The SG5800 appliance is available in four models: the SG5712 and SG5712X, and the SG5760 and SG5760X. There are no specification or functional differences between the SG5712 and SG5712X except for the location of the interconnect ports on the storage controller. Similarly, there are no specification or functional differences between the SG5760 and SG5760X except for the location of the interconnect ports on the storage controller.  
+The SG5800 appliance is available in two models: the SG5812 and the SG5860.  
 
 == SG5800 components
 
@@ -28,13 +28,13 @@ The SG5800 models include the following components:
 [role="tabbed-block"]
 ====
 
-.SG5712
+.SG5812
 --
 Compute controller::
 E5800SG controller
 
 Storage controller::
-E4000A controller
+E4000 controller
 
 Chassis::
 E-Series DE212C enclosure, a two rack-unit (2U) enclosure
@@ -46,31 +46,13 @@ Redundant power supplies and fans::
 Two power-fan canisters
 --
 
-.SG5712X
+.SG5860
 --
 Compute controller::
 E5800SG controller
 
 Storage controller::
-E4000B controller
-
-Chassis::
-E-Series DE212C enclosure, a two rack-unit (2U) enclosure
-
-Drives::
-12 NL-SAS drives (3.5-inch)
-
-Redundant power supplies and fans::
-Two power-fan canisters
---
-
-.SG5760
---
-Compute controller::
-E5800SG controller
-
-Storage controller::
-E4000A controller
+E4000 controller
 
 Chassis::
 E-Series DE460C enclosure, a four rack-unit (4U) enclosure
@@ -82,40 +64,23 @@ Redundant power supplies and fans::
 Two power canisters and two fan canisters
 --
 
-.SG5760X
---
-Compute controller::
-E5800SG controller
-
-Storage controller::
-E4000B controller
-
-Chassis::
-E-Series DE460C enclosure, a four rack-unit (4U) enclosure
-
-Drives::
-60 NL-SAS drives (3.5-inch)
-
-Redundant power supplies and fans::
-Two power canisters and two fan canisters
---
 ====
 
 The maximum raw storage available in the StorageGRID appliance is fixed, based on the number of drives in each enclosure. You can't expand the available storage by adding a shelf with additional drives.
 
 == SG5800 diagrams
 
-=== SG5712 front and rear views
+=== SG5812 front and rear views
 
 The figures show the front and back of the SG5712, a 2U enclosure that holds 12 drives.
 
-image::../media/sg5712_front_and_back_views.gif[The front and back of the SG5712 appliance]
+image::../media/sg5712_front_and_back_views.gif[The front and back of the SG5812 appliance]
 
-=== SG5712 components
+=== SG5812 components
 
-The SG5712 includes two controllers and two power-fan canisters.
+The SG5812 includes two controllers and two power-fan canisters.
 
-image::../media/sg5712_with_callouts.gif[Controllers and power-fan canisters in the SG5712 appliance]
+image::../media/sg5712_with_callouts.gif[Controllers and power-fan canisters in the SG5812 appliance]
 
 [cols="1a,3a" options="header"]
 |===
@@ -123,7 +88,7 @@ image::../media/sg5712_with_callouts.gif[Controllers and power-fan canisters in 
 a|
 1
 a|
-E4000A controller (storage controller)
+E4000 controller (storage controller)
 a|
 2
 a|
@@ -134,44 +99,15 @@ a|
 Power-fan canisters
 |===
 
-=== SG5712X front and rear views
-The figures show the front and back of the SG5712X, a 2U enclosure that holds 12 drives.
 
-image::../media/sg5712x_front_and_back_views.gif[The front and back of the SG5712X appliance]
-
-
-=== SG5712X components
-
-The SG5712X includes two controllers and two power-fan canisters.
-
-image::../media/sg5712x_with_callouts.gif[Controllers and power-fan canisters in the SG5712X appliance]
-
-
-[cols="1a,3a" options="header"]
-|===
-| Callout| Description
-a|
-1
-a|
-E4000B controller (storage controller)
-a|
-2
-a|
-E5800SG controller (compute controller)
-a|
-3
-a|
-Power-fan canisters
-|===
-
-=== SG5760 front and rear views
-The figures show the front and back of the SG5760 model, a 4U enclosure that holds 60 drives in 5 drive drawers.
+=== SG5860 front and rear views
+The figures show the front and back of the SG5860 model, a 4U enclosure that holds 60 drives in 5 drive drawers.
 
 image::../media/sg5760_front_and_back_views.gif[Front and back of the SG5760 appliance]
 
-=== SG5760 components
+=== SG5860 components
 
-The SG5760 includes two controllers, two fan canisters, and two power canisters.
+The SG5860 includes two controllers, two fan canisters, and two power canisters.
 
 image::../media/sg5760_with_callouts.gif[Controllers, fan canisters, and power canisters in SG5760 appliance]
 
@@ -181,7 +117,7 @@ image::../media/sg5760_with_callouts.gif[Controllers, fan canisters, and power c
 a|
 1
 a|
-E4000A controller (storage controller)
+E4000 controller (storage controller)
 a|
 2
 a|
@@ -196,49 +132,13 @@ a|
 Power canister (1 of 2)
 |===
 
-=== SG5760X front and rear views
 
-The figures show the front and back of the SG5760X model, a 4U enclosure that holds 60 drives in 5 drive drawers.
+== SG5800 controller
 
-image::../media/sg5760x_front_and_back_views.gif[Front and back of the SG5760X appliance]
+Both the 12-drive SG5712 and the 60-drive SG5760 models of the StorageGRID appliance include an E5800SG compute controller and an E-Series E4000 storage controller. 
 
-=== SG5760X components
 
-The SG5760X includes two controllers, two fan canisters, and two power canisters.
-
-image::../media/sg5760x_with_callouts.gif[Controllers, fan canisters, and power canisters in SG5760X appliance]
-
-[cols="1a,3a" options="header"]
-|===
-| Callout| Description
-a|
-1
-a|
-E2800B controller (storage controller)
-a|
-2
-a|
-E5700SG controller (compute controller)
-a|
-3
-a|
-Fan canister (1 of 2)
-a|
-4
-a|
-Power canister (1 of 2)
-|===
-
-== SG5700 controllers
-
-Both the 12-drive SG5712 and SG5712X and the 60-drive SG5760 and SG5760X models of the StorageGRID appliance include an E5700SG compute controller and an E-Series E2800 storage controller. 
-
-* The SG5712 and SG5760 use a E2800A controller. 
-* The SG5712X and the SG5760X use a E2800B controller.
-
-The E2800A and E2800B controllers are identical in specification and function except for the location of the interconnect ports. 
-
-=== E5700SG compute controller
+=== E5800SG compute controller
 
 * Operates as the compute server for the appliance.
 * Includes the StorageGRID Appliance Installer.
@@ -248,9 +148,9 @@ NOTE: StorageGRID software is not preinstalled on the appliance. This software i
 * Can connect to all three StorageGRID networks, including the Grid Network, the Admin Network, and the Client Network.
 * Connects to the E2800 controller and operates as the initiator.
 
-==== E5700SG connectors
+==== E5800SG connectors
 
-image::../media/e5700sg_controller_with_callouts.gif[Connectors on E5700SG controller]
+image::../media/e5700sg_controller_with_callouts.gif[Connectors on E5800SG controller]
 
 [cols="1a,2a,2a,2a" options="header"]
 |===
@@ -296,9 +196,7 @@ image::../media/e5700sg_controller_with_callouts.gif[Connectors on E5700SG contr
 
 |===
 
-=== E2800 storage controller
-
-There are two versions of the E2800 storage controller used in the SG5700 appliances: E2800A and E2800B. The E2800A does not have a HIC, and the E2800B has a four-port HIC. The two controller versions have identical specifications and function except for the location of the interconnect ports. 
+=== E4000 storage controller
 
 The E2800 series storage controller has the following specifications: 
 
@@ -310,13 +208,10 @@ The E2800 series storage controller has the following specifications:
 * Connects to the E5700SG controller and operates as the target.
 
 
-==== E2800A connectors
+==== E4000 connectors
 
-image::../media/e2800_controller_with_callouts.gif[Connectors on E2800A controller]
+image::../media/e2800_controller_with_callouts.gif[Connectors on E4000 controller]
 
-==== E2800B connectors
-
-image::../media/e2800B_controller_with_callouts.gif[Connectors on E2800B controller]
 
 [cols="1a,2a,2a,2a" options="header"]
 |===

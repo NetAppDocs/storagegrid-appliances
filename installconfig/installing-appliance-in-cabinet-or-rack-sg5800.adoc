@@ -1,15 +1,15 @@
 ---
 permalink: installconfig/installing-appliance-in-cabinet-or-rack-sg5800.html
 sidebar: sidebar
-keywords: storagegrid, sg5700, sg5712, sg5760, install, cabinet, rack, rails, drives
+keywords: storagegrid, sg5800, sg5812, sg5860, install, cabinet, rack, rails, drives
 summary: 'You install a set of rails in your cabinet or rack and then slide the appliance onto the rails. If you have an SG5760, install the drives after installing the appliance.'
 ---
-= Install into cabinet or rack (SG5700)
+= Install into cabinet or rack (SG5800)
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You install a set of rails in your cabinet or rack and then slide the appliance onto the rails. If you have an SG5760, install the drives after installing the appliance.
+You install a set of rails in your cabinet or rack and then slide the appliance onto the rails. If you have an SG5860, install the drives after installing the appliance.
 
 .Before you begin
 
@@ -17,11 +17,11 @@ You install a set of rails in your cabinet or rack and then slide the appliance 
 * You have the instructions packaged with the rail kit.
 
 
-== Install SG5712
+== Install SG5812
 
-Follow these steps to install an SG5712 appliance into a rack or cabinet.
+Follow these steps to install an SG5812 appliance into a rack or cabinet.
 
-CAUTION: The SG5712 weighs approximately 64 lb (29 kg) when fully loaded with drives. Two people or a mechanized lift are required to safely move the SG5712.
+CAUTION: The SG5812 weighs approximately 64 lb (29 kg) when fully loaded with drives. Two people or a mechanized lift are required to safely move the SG5812.
 
 CAUTION: Install hardware from the bottom of the rack or cabinet or rack up to prevent the equipment from tipping over.
 
@@ -37,15 +37,15 @@ CAUTION: Install hardware from the bottom of the rack or cabinet or rack up to p
 
 . Attach the bezel to the front.
 
-== Install SG5760
+== Install SG5860
 
-Follow these steps to install an SG5760 appliance and any expansion shelves into a rack or cabinet.
+Follow these steps to install an SG5860 appliance and any expansion shelves into a rack or cabinet.
 
 CAUTION: Install hardware from the bottom of the rack or cabinet or rack up to prevent the equipment from tipping over.
 
-CAUTION: The SG5760 weighs approximately 132 lb (60 kg) with no drives installed. Four people or a mechanized lift are required to safely move an empty SG5760.
+CAUTION: The SG5860 weighs approximately 132 lb (60 kg) with no drives installed. Four people or a mechanized lift are required to safely move an empty SG5860.
 
-CAUTION: To avoid damaging the hardware, never move an SG5760 if drives are installed. You must remove all drives before moving the shelf.
+CAUTION: To avoid damaging the hardware, never move an SG5860 if drives are installed. You must remove all drives before moving the shelf.
 
 .Steps
 
@@ -54,7 +54,7 @@ CAUTION: To avoid damaging the hardware, never move an SG5760 if drives are inst
 . Prepare to move the appliance:
  .. Remove the outer packing box. 
  .. Fold down the flaps on the inner box.
- .. If you are lifting the SG5760 by hand, attach the four handles to the sides of the chassis.
+ .. If you are lifting the SG5860 by hand, attach the four handles to the sides of the chassis.
 +
 You remove these handles as you slide the appliance onto the rails.
 

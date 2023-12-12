@@ -12,7 +12,7 @@ summary:
 You can add a second controller canister in the E4000 array.
 
 .About this task
-Add a second controller canister to the simplex version of either a E2812 controller shelf, E2824 controller shelf, or EF280 flash array. This procedure is also referred to as a simplex-to-duplex conversion, which is an online procedure. You can access data on the storage array while you perform this procedure.
+Add a second controller canister to the simplex version of either a E4012 controller shelf, E4024 controller shelf, or EF280 flash array. This procedure is also referred to as a simplex-to-duplex conversion, which is an online procedure. You can access data on the storage array while you perform this procedure.
 
 .Before you begin
 Make sure you have the following:
@@ -32,7 +32,7 @@ Confirm that the new controller has the same part number as the currently instal
 
 .Steps
 
-. Unpack the new controller canister, and set it on a flat, static-free surface.
+. Unpack the new controller canister, and set it on a flat, static-free surface. Save all packing materials to use when shipping the failed controller canister.
 . Locate the MAC address and FRU part number labels on the back of the controller canister.
 . From SANtricity System Manager, locate the replacement part number for the installed controller canister.
 .. Select *Hardware*.
@@ -63,3 +63,4 @@ NOTE: If you are accessing SANtricity System Manager using the controller you ar
 +
 NOTE: Do not begin any other operations until after the status has been updated. 
 . Select Recheck from the Recovery Guru, and confirm that the OK to remove field in the Details area displays Yes, indicating that it is safe to remove this component.
+

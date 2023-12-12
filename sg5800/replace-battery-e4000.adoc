@@ -145,4 +145,145 @@ CAUTION: To prevent degraded performance, do not twist, fold, pinch, or step on 
 
 . If the host ports on the controller canister use SFP+ transceivers, leave them installed.
 . Confirm that the Cache Active LED on the back of the controller is off.
-. Squeeze the latch on the power supply cam handle, and then open the cam handle to fully release the power supply from the mid plane.
+. Squeeze the latch on the cam handle until it releases, open the cam handle fully to release the controller module from the midplane, and then, using two hands, pull the controller module half-way out of the chassis.
+. Check the NVMEM LED located on the back of the controller module. Look for the NV icon.
++
+NOTE: The green NV LED on the faceplate will start flashing when power is removed from the controller if the system was in the "waiting for giveback" state, or the system was not taken over or halted properly (uncommitted data). If the impaired controller module was not successfully taken over by the partner controller module, contact NetApp Support
+
+** If the green NV status LED begins flashing when the controller module is removed from the chassis:
+*** Confirm that the controller had a clean takeover by the partner controller module or the impaired controller shows waiting for giveback, the flashing LED can be ignored and you can complete removing the impaired controller from the chassis.
+** If the green NV LED if off, you can complete removing the impaired controller from the chassis.
+
+=== Step 3: Install the new battery
+
+You must remove the failed battery and replace it.
+
+.Steps
+
+. Unpack the new battery and place it on a flat, static-free surface.
++
+NOTE: To comply with IATA safely regulations, replacement batteries are shipped with a state of charge (SoC) of 30 percent or less. When you reapply power, keep in mind that write caching will not resume until the replacement battery is fully charged and it has completed its initial learn cycle.
+. If you are not already grounded, properly ground yourself.
+. Remove the controlle module from the chassis.
+. Turn the controller module over and place it on a flat, stable surface.
+. Open the cover by pressing the blue buttons on the sides of the controller module to release the cover, and then rotate the cover up and off of the controller module.
+. Locate the NVMEM battery in the controller module.
+. Remove the failed battery from the controller module:
+.. Press the blue button on the side of the controller module.
+.. Slide the battery up until it clears the holding brackets, and then lift the battery out of the controller module.
+.. Unplug the battery from the controller module
+. Remove the replacement battery from its package. Install the replacement battery:
+.. Plug the battery plug back into the socket on the controller module.
++
+Make sure that the plug locks down into the battery socket on the motherboard.
+.. Align the battery with the holding brackets on the sheet metal side wall.
+.. Slide the battery pack down until the battery latch engages and clicks into the opening on the side wall.
+. Reinstall the controller module cover and lock it into place.
+
+
+=== Step 4: Reinstall the controller module
+
+After you replace components in the controller module, reinstall it into the chassis.
+
+.Steps
+
+. If you are not already grounded, properly ground yourself.
+. If you have not already done so, replace the cover on the controller module.
+. Turn the controller module over and align the end with the opening in the chassis.
+. Align the end of the controller module with the opening in the chassis, and then gently push the controller module halfway into the system.
++
+NOTE: Do not completely insert the controller module in the chassis until instructed to do so.
+. Recable the system, as needed.
+. If you removed the media converters (QSFPs or SFPs), remember to reinstall them if you are using fiber optic cables.
+. Complete the reinstallation of the controller module:
+.. With the cam handle in the open position, firmly push the controller module in until it meets the midplane and is fully seated, and then close the cam handle to the locked position.
++
+NOTE: Do not use excessive force when sliding the controller module into the chassis to avoid damaging the connectors.
++
+The controller begins to boot as soon as it is seated in the chassis.
+.. If you have not already done so, reinstall the cable management device.
+.. Bind the cables to the cable management device with the hook and loop strap.
+
+
+=== Step 5: Complete battery replacement
+
+The steps to complete battery replacement depend on whether you have a duplex (two controllers) or simplex (one controller) configuration.
+
+.Steps
+
+[role="tabbed-block"]
+====
+.Place controller online (duplex)
+--
+
+. Bring the controller online using SANtricity System Manager.
+
+** From SANtricity System Manager:
+.. Select *Hardware*.
+.. If the graphic shows the drives, select *Show back of shelf*.
+.. Select the controller you want to place online.
+.. Select *Place Online* from the context menu, and confirm that you want to perform the operation.
++
+The system places the controller online.
+
+** Alternatively, you can bring the controller back online by using the following CLI commands:
++
+*For controller A*: `set controller [a] availability=online`;
++
+*For controller B*: `set controller [b] availability=online`;
+
+. When the controller is back online, check the controller shelf's Attention LEDs.
++
+If the status is not Optimal or if any of the Attention LEDs are on, confirm that all cables are correctly seated, and check that the battery and the controller canister are installed correctly. If necessary, remove and reinstall the controller canister and the battery.
++
+NOTE: If you cannot resolve the problem, contact technical support.
+If needed, collect support data for your storage array using SANtricity System Manager.
+. Verify that all volumes have been returned to the preferred owner.
+.. Select *Storage › Volumes*. From the *All Volumes* page, verify that volumes are distributed to their preferred owners. Select *More › Change ownership* to view volume owners.
+.. If volumes are all owned by preferred owner continue to step 5.
+.. If none of the volumes are returned, you must manually return the volumes. Go to *More › Redistribute volumes*.
+.. If only some of the volumes are returned to their preferred owners after auto-distribution or manual distribution, you must check the Recovery Guru for host connectivity issues.
+.. If there is no Recovery Guru present or if after following the recovery guru steps the volumes are still not returned to their preferred owners, contact support.
+. Collect support data for your storage array using SANtricity System Manager.
+.. Select *Support › Support Center › Diagnostics*.
+.. Select Collect Support Data.
+.. Click Collect.
++
+The file is saved in the Downloads folder for your browser with the name, support-data.7z.
+
+.What's next?
+Your battery replacement is complete. You can resume normal operations.
+
+--
+.Power up controller (simplex)
+--
+
+. Turn on the two power switches at the back of the controller shelf.
+
+** Do not turn off the power switches during the power-on process, which typically takes 90 seconds or less to complete.
+** The fans in each shelf are very loud when they first start up. The loud noise during start-up is normal.
+
+. When the controller is back online, check the controller shelf's Attention LEDs.
++
+If the status is not Optimal or if any of the Attention LEDs are on, confirm that all cables are correctly seated, and check that the battery and the controller canister are installed correctly. If necessary, remove and reinstall the controller canister and the battery.
++
+NOTE: If you cannot resolve the problem, contact technical support.
+If needed, collect support data for your storage array using SANtricity System Manager.
+. Verify that all volumes have been returned to the preferred owner.
+.. Select *Storage › Volumes*. From the *All Volumes* page, verify that volumes are distributed to their preferred owners. Select *More › Change ownership* to view volume owners.
+.. If volumes are all owned by preferred owner continue to step 5.
+.. If none of the volumes are returned, you must manually return the volumes. Go to *More › Redistribute volumes*.
+.. If only some of the volumes are returned to their preferred owners after auto-distribution or manual distribution, you must check the Recovery Guru for host connectivity issues.
+.. If there is no Recovery Guru present or if after following the recovery guru steps the volumes are still not returned to their preferred owners, contact support.
+. Collect support data for your storage array using SANtricity System Manager.
+.. Select *Support › Support Center › Diagnostics*.
+.. Select Collect Support Data.
+.. Click Collect.
++
+The file is saved in the Downloads folder for your browser with the name, support-data.7z.
+
+.What's next?
+Your battery replacement is complete. You can resume normal operations.
+--
+
+====

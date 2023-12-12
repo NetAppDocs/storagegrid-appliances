@@ -15,7 +15,7 @@ TIP: Instead of using the tables, use the workbook provided with ConfigBuilder. 
 
 == Information needed to connect to SANtricity System Manager on E4000 controller
 
-You connect the E4000 series controller to the management network you will use for SANtricity System Manager.
+You will use the SANtricity System Manager to connect the E4000 series controller to the management network.
 
 [cols="2a,1a" options="header"]"]
 |===
@@ -69,9 +69,9 @@ For IPv6:
 * E4000 controller router IP address:
 |===
 
-== Information needed to connect E5700SG controller to Admin Network
+== Information needed to connect E5800SG controller to Admin Network
 
-The Admin Network for StorageGRID is an optional network, used for system administration and maintenance. The appliance connects to the Admin Network using the 1-GbE management ports on the E5700SG controller.
+The Admin Network for StorageGRID is an optional network, used for system administration and maintenance. The appliance connects to the Admin Network using the 1-GbE management ports on the E5800SG controller.
 
 [cols="2a,1a" options="header"]
 |===
@@ -209,7 +209,7 @@ Enter a value between 0 and 4095:
 a|
 DHCP-assigned IP address for the Grid Network, if available after power on
 
-*Note:* If the Grid Network includes a DHCP server, the E5700SG controller displays the DHCP-assigned IP address for the Grid Network on its seven-segment display after it boots up.
+*Note:* If the Grid Network includes a DHCP server, the E5800SG controller displays the DHCP-assigned IP address for the Grid Network on its seven-segment display after it boots up.
 
 a|
 
@@ -360,7 +360,7 @@ In Independent mode, only management port 1 is connected to the Admin Network. T
 
 In Active-Backup mode, both management ports 1 and 2 are connected to the Admin Network. Only one port is active at a time. If the active port fails, its backup port automatically provides a failover connection. Bonding these two physical ports into one logical management port provides a redundant path to the Admin Network.
 
-NOTE: If you need to make a temporary local connection to the E5700SG controller when the 1-GbE management ports are configured for Active-Backup mode, remove the cables from both management ports, plug your temporary cable into management port 2, and access the appliance using IP address 169.254.0.1.
+NOTE: If you need to make a temporary local connection to the E5800SG controller when the 1-GbE management ports are configured for Active-Backup mode, remove the cables from both management ports, plug your temporary cable into management port 2, and access the appliance using IP address 169.254.0.1.
 
 image::../media/e5700sg_bonded_management_ports.gif[E5800SG Bonded Management Port]
 

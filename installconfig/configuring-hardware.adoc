@@ -23,7 +23,7 @@ Depending upon which appliance types you are configuring, additional hardware co
 
 === SANtricity System Manager
 
-For SG6000 and SG5700, you configure SANtricity System Manager. The SANtricity software is used to monitor the hardware for these appliances. 
+For SG6000, SG5800, and SG5700, you configure SANtricity System Manager. The SANtricity software is used to monitor the hardware for these appliances. 
 
 === BMC interface 
 The following appliances have a BMC interface that must be configured: 

@@ -6,7 +6,7 @@ entries:
     pdf-filename: SG5800 hardware maintenance
     url: "/sg5800/index.html"
   - title: Maintenance configuration procedures
-    pdf-filename: Maintenance configuration procedures - SG5700
+    pdf-filename: Maintenance configuration procedures - SG5800
     entries:
     - title: Upgrade SANtricity OS on storage controller
       url: "/sg5800/upgrading-santricity-os-on-storage-controller.html"
@@ -24,9 +24,24 @@ entries:
   - title: Hardware procedures
     pdf-filename: Hardware procedures - SG5800
     entries:
-    - title: Replace E4000 controller
-      url: "/sg5800/replacing-e4000-controller.html"
-    - title: Replace E5700SG controller
-      url: "/sg5800/replacing-e5800sg-controller.html"
-    - title: Replace other hardware components
-      url: "/sg5800/replacing-other-hardware-components-sg5800.html"
+      - title: SG5800
+        entries:
+          - title: Replace E5800SG controller
+            url: "/sg5800/replace-e5800sg-controller.html"
+      - title: E4000
+        entries:
+          - title: Batteries
+            url:
+          - title: Controllers
+            entries:
+              - title: Overview
+                url: "/sg5800/replace-controller-requirements-e4000.html"
+              - title: Add second controller canister
+                url: "/sg5800/replace-controller-second-e4000.html"
+              - title: Replace controller
+                url: "/sg5800/replace-controller-e4000.html"
+          - title: DIMMS
+            url: "sg5800/replace-dimms-e4000.html"
+          - title: Drives
+            url: "sg5800/replace-drive-e4000.html"
+        
