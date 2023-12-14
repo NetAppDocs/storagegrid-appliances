@@ -74,17 +74,15 @@ NOTE: Appliances are initially configured with a random non-KMS encryption key a
 
 You can view node-encryption status, KMS details, and the certificates in use when the appliance node is in maintenance mode. See link:../commonhardware/monitoring-node-encryption-in-maintenance-mode.html[Monitor node encryption in maintenance mode] for information.
 
-== Enable drive encryption
+== Drive encryption
 
-Drive encryption is managed on SED disk drive hardware during the write and read processes. Access to data on these SSDs is controlled by a user-defined passphrase. 
+Drive encryption is managed on self-encrypting drive (SED) disk drive hardware during the write and read processes. Access to data on these solid-state drives (SSDs) is controlled by a user-defined passphrase. It is used for direct-attached SSD drives that are used for caching in StorageGRID compute nodes. 
 
-direct attached ssd drives in compute nodes that are used for caching. santricity SGF6112
+Encrypted drives automatically lock when the appliance is powered down or the drive is removed from the appliance. An encrypted drive remains locked after power is restored to it until the correct passphrase is entered. Drives encrypted with an SED passphrase can be accessed by anyone who knows the passphrase. The passphrase unlocks encrypted drives when a StorageGRID compute node restarts. 
 
-Drive encryption doesn't apply to SANtricity-managed drives. If you have a StorageGRID compute node with self-encrypting drives and SANtricity controllers, you can enable drive security in link:../installconfig/accessing-and-configuring-santricity-system-manager.html[SANtricity System Manager]
+Drive encryption doesn't apply to SANtricity-managed drives. If you have a StorageGRID compute node with SEDs and SANtricity controllers, you can enable drive security in link:../installconfig/accessing-and-configuring-santricity-system-manager.html[SANtricity System Manager].
 
-After the first time the passphrase is entered to enable drive encryption or to reestablish drive access, the passphrase is stored on the StorageGRID compute node. This allows the drive to be accessed without manually renentering the passphrase. If the compute node is replaced or if an SSD is moved to a new compute node, the passphrase will need to be manually reentered.
-
-CAUTION: Make sure that you store the drive-encryption passphrase in a secure location. Encrypted drives can't be accessed without manually entering the same passphrase if the SSD is installed in another StorageGRID compute node.
+You can enable drive encryption during initial appliance installation before loading grid manager. You can also enable node encryption or change your passphrase by placing the appliance in maintenance mode.
 
 .Before you begin
 
@@ -92,15 +90,11 @@ Review the information about https://review.docs.netapp.com/us-en/storagegrid-11
 
 .About this task
 
-Drives encrypted with an SED passphrase can be accessed by anyone who knows the passphrase. The passphrase unlocks encrypted drives when a StorageGRID compute node restarts. 
+The passphrase is established when drive encryption is initially enabled. After the first time the passphrase is entered to enable drive encryption or to reestablish drive access in a new StorageGRID compute node, the passphrase is stored on the StorageGRID compute node for future use with encrypted drives that remain in the appliance. This allows the drive to be accessed without manually reentering the passphrase. If a compute node is replaced or if an SSD is moved to a new compute node, the passphrase will need to be manually reentered.
 
-The passphrase is established when drive encryption is initially enabled. The StorageGRID compute node will retain the passphrase for future use with encrypted drives that remain in the appliance. If the drives are moved or installed in a new StorageGRID compute node, the passphrase will need to be manually reentered.
+CAUTION: Make sure that you store the drive-encryption passphrase in a secure location. Encrypted drives can't be accessed without manually entering the same passphrase if the SED is installed in another StorageGRID compute node.
 
-Encrypted drives automatically lock when the appliance is powered down or the drive is removed from the appliance. An encrypted drive remains locked after power is restored to it until the correct passphrase is entered.
-
-You can enable drive encryption during initial appliance installation before loading grid manage or by placing the appliance in maintenance mode.
-
-.Steps
+=== Enable drive encryption
 
 . Access the StorageGRID Appliance Installer.
 +
@@ -112,32 +106,27 @@ You can enable drive encryption during initial appliance installation before loa
 
 * For an existing StorageGRID compute node, link:../commonhardware/placing-appliance-into-maintenance-mode.html[place the appliance into maintenance mode].
 
-+
-The StorageGRID Appliance Installer Home page appears.
-
-. Select *Configure Hardware* > *Drive Encryption*.
+. From the StorageGRID Appliance Installer Home page, select *Configure Hardware* > *Drive Encryption*.
 
 . Select *Enable drive encryption*.
 +
-CAUTION: After enabling drive encryption and setting the passphrase the SED drives are hardware encrypted and can't be decrypted without using the same passphrase.
+CAUTION: After enabling drive encryption and setting the passphrase the SED drives are hardware encrypted. The content of the drive can't be accessed without using the same passphrase.
 
 . Select *Save*.
 + 
-After drive encryption completes, drive passphrase information displays.
+After the drive is encrypted, drive passphrase information displays.
 + 
 NOTE: When a drive is initially encrypted, the passphrase is set to a default blank value and the current passphrase text indicates "default (not secure)." While the data on this drive is encrypted, it can be accessed without entering a passphrase until a unique passphrase is set.
 
 . Enter a new unique passphrase for drive access and then enter the passphrase again to confirm it. The passphrase must be at least 8 and no more than 32 characters in length.
 +
-Save the passphrase in a secure location, such as a secure password management application.
+Save the passphrase in a secure location, such as a password management application.
 
 . Enter passphrase display text that will help you recall the passphrase.
 
 . Select *Save*.
 
-.After you finish
-
-To view drive-encryption status: 
+=== View drive-encryption status
 
 . link:../commonhardware/placing-appliance-into-maintenance-mode.html[Place the appliance into maintenance mode].
 
@@ -145,7 +134,7 @@ To view drive-encryption status:
 
 === Access an encrypted drive
 
-To access an encrypted drive after appliance replacement or after a drive is moved to a new appliance.
+You must enter the passphrase to access an encrypted drive after appliance replacement or after a drive is moved to a new appliance.
 // Add links to chassis replacement procedures SG6112, SG1000 SG100 SG1100 SG110 SG6160.
 . Access the StorageGRID Appliance Installer.
 +
@@ -157,14 +146,11 @@ To access an encrypted drive after appliance replacement or after a drive is mov
 
 * link:../commonhardware/placing-appliance-into-maintenance-mode.html[Place the appliance into maintenance mode].
 
-+
-The StorageGRID Appliance Installer Home page appears.
-
-. Select the *Drive Encryption* link in the warning banner.
+. From the StorageGRID Appliance Installer, select the *Drive Encryption* link in the warning banner.
 
 . Enter the drive encryption passphrase you set previously in *New passphrase* and *Retype new passphrase*.
 +
-NOTE: If you enter values for the passphrase that do not match the value previously entered, drive authentication will fail and you will need to restart the appliance. 
+NOTE: If you enter values for the passphrase that do not match the value previously entered, drive authentication will fail. You will need to restart the appliance and enter the correct passphrase. 
 
 . Enter the passphrase display text you set previously in *New passphrase display text*. 
 
@@ -172,12 +158,10 @@ NOTE: If you enter values for the passphrase that do not match the value previou
 
 The warning banners will no longer display when the drives are unlocked.
 
-. Select *Reboot* in the banner in the Installation section of the StorageGRID Appliance Installer Home page to restart the appliance and access the encrypted drives.
+. Return to the StorageGRID Appliance Installer Home page and select *Reboot* in the Installation section banner to restart the appliance and access the encrypted drives.
 
 === Change the drive-encryption passphrase
 
-To view change the drive-encryption passphrase: 
-
 . Access the StorageGRID Appliance Installer.
 +
 * Open a browser and enter one of the IP addresses for the appliance's compute controller.
@@ -188,20 +172,19 @@ To view change the drive-encryption passphrase:
 
 * link:../commonhardware/placing-appliance-into-maintenance-mode.html[Place the appliance into maintenance mode].
 
-+
-The StorageGRID Appliance Installer Home page appears.
+. From the StorageGRID Appliance Installer, select *Configure Hardware* > *Drive Encryption*.
 
-. Select *Configure Hardware* > *Drive Encryption*.
+. Enter a new unique passphrase for drive access and then enter the passphrase again to confirm it. The passphrase must be at least 8 and no more than 32 characters in length.
 
-. Enter a new unique passphrase for drive access and passphrase display text, and then select *Save*.
+. Enter passphrase display text that will help you recall the passphrase.
+
+. Select *Save*.
 +
 CAUTION: After setting a new passphrase the encrypted drives can't be decrypted without using the new passphrase.
 
-. Save the new passphrase in a secure location, such as a secure password management application.
+. Save the new passphrase in a secure location, such as a password management application.
 
 === Disable drive encryption
-
-To view disable drive encryption: 
 
 . Access the StorageGRID Appliance Installer.
 +
@@ -213,10 +196,7 @@ To view disable drive encryption:
 
 * link:../commonhardware/placing-appliance-into-maintenance-mode.html[Place the appliance into maintenance mode].
 
-+
-The StorageGRID Appliance Installer Home page appears.
-
-. Select *Configure Hardware* > *Drive Encryption*.
+. From the StorageGRID Appliance Installer, select *Configure Hardware* > *Drive Encryption*.
 
 . Clear *Enable drive encryption* and then select *Save*.
 
