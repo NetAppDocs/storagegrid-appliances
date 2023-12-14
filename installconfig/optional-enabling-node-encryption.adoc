@@ -135,6 +135,7 @@ Save the passphrase in a secure location, such as a password management applicat
 === Access an encrypted drive
 
 You must enter the passphrase to access an encrypted drive after appliance replacement or after a drive is moved to a new appliance.
+
 // Add links to chassis replacement procedures SG6112, SG1000 SG100 SG1100 SG110 SG6160.
 . Access the StorageGRID Appliance Installer.
 +
