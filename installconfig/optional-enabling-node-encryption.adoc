@@ -76,9 +76,9 @@ You can view node-encryption status, KMS details, and the certificates in use wh
 
 == Drive encryption
 
-Drive encryption is managed on self-encrypting drive (SED) disk drive hardware during the write and read processes. Access to data on these solid-state drives (SSDs) is controlled by a user-defined passphrase. It is used for direct-attached SSD drives that are used for caching in StorageGRID compute nodes. 
+Drive encryption is managed on self-encrypting drive (SED) hardware during the write and read processes. Access to data on these drives is controlled by a user-defined passphrase. Drive encryption is used for direct-attached solid-state drives (SSDs) that are used for caching in StorageGRID compute nodes. 
 
-Encrypted drives automatically lock when the appliance is powered down or the drive is removed from the appliance. An encrypted drive remains locked after power is restored to it until the correct passphrase is entered. Drives encrypted with an SED passphrase can be accessed by anyone who knows the passphrase. The passphrase unlocks encrypted drives when a StorageGRID compute node restarts. 
+Encrypted SEDs automatically lock when the appliance is powered down or when the drive is removed from the appliance. An encrypted SED remains locked after power is restored to it until the correct passphrase is entered. The passphrase is stored on the StorageGRID compute node to unlock encrypted drives that remain in the appliance when the appliance restarts. This allows the drive to be accessed without manually reentering the passphrase. Drives encrypted with an SED passphrase can be accessed by anyone who knows the passphrase. 
 
 Drive encryption doesn't apply to SANtricity-managed drives. If you have a StorageGRID compute node with SEDs and SANtricity controllers, you can enable drive security in link:../installconfig/accessing-and-configuring-santricity-system-manager.html[SANtricity System Manager].
 
@@ -90,9 +90,9 @@ Review the information about https://review.docs.netapp.com/us-en/storagegrid-11
 
 .About this task
 
-The passphrase is established when drive encryption is initially enabled. After the first time the passphrase is entered to enable drive encryption or to reestablish drive access in a new StorageGRID compute node, the passphrase is stored on the StorageGRID compute node for future use with encrypted drives that remain in the appliance. This allows the drive to be accessed without manually reentering the passphrase. If a compute node is replaced or if an SSD is moved to a new compute node, the passphrase will need to be manually reentered.
+A passphrase is set when drive encryption is initially enabled. If a compute node is replaced or if an encrypted SED is moved to a new compute node, the passphrase will need to be manually reentered.
 
-CAUTION: Make sure that you store the drive-encryption passphrase in a secure location. Encrypted drives can't be accessed without manually entering the same passphrase if the SED is installed in another StorageGRID compute node.
+CAUTION: Make sure that you store the drive-encryption passphrase in a secure location. Encrypted SEDs can't be accessed without manually entering the same passphrase if the SED is installed in another StorageGRID compute node.
 
 === Enable drive encryption
 
@@ -118,7 +118,7 @@ After the drive is encrypted, drive passphrase information displays.
 + 
 NOTE: When a drive is initially encrypted, the passphrase is set to a default blank value and the current passphrase text indicates "default (not secure)." While the data on this drive is encrypted, it can be accessed without entering a passphrase until a unique passphrase is set.
 
-. Enter a new unique passphrase for drive access and then enter the passphrase again to confirm it. The passphrase must be at least 8 and no more than 32 characters in length.
+. Enter a unique passphrase for encrypted drive access and then enter the passphrase again to confirm it. The passphrase must be at least 8 and no more than 32 characters in length.
 +
 Save the passphrase in a secure location, such as a password management application.
 
@@ -134,9 +134,10 @@ Save the passphrase in a secure location, such as a password management applicat
 
 === Access an encrypted drive
 
-You must enter the passphrase to access an encrypted drive after appliance replacement or after a drive is moved to a new appliance.
+You must enter the passphrase to access an encrypted drive after compute node replacement or after a drive is moved to a new compute node.
 
 // Add links to chassis replacement procedures SG6112, SG1000 SG100 SG1100 SG110 SG6160.
+
 . Access the StorageGRID Appliance Installer.
 +
 * Open a browser and enter one of the IP addresses for the appliance's compute controller.
@@ -159,7 +160,7 @@ NOTE: If you enter values for the passphrase that do not match the value previou
 
 The warning banners will no longer display when the drives are unlocked.
 
-. Return to the StorageGRID Appliance Installer Home page and select *Reboot* in the Installation section banner to restart the appliance and access the encrypted drives.
+. Return to the StorageGRID Appliance Installer Home page and select *Reboot* in the Installation section banner to restart the compute node and access the encrypted drives.
 
 === Change the drive-encryption passphrase
 
@@ -176,6 +177,8 @@ The warning banners will no longer display when the drives are unlocked.
 . From the StorageGRID Appliance Installer, select *Configure Hardware* > *Drive Encryption*.
 
 . Enter a new unique passphrase for drive access and then enter the passphrase again to confirm it. The passphrase must be at least 8 and no more than 32 characters in length.
++
+NOTE: You must have already authenticated with access to the drive before you can change the drive-encryption passphrase.
 
 . Enter passphrase display text that will help you recall the passphrase.
 
@@ -200,7 +203,9 @@ CAUTION: After setting a new passphrase the encrypted drives can't be decrypted 
 . From the StorageGRID Appliance Installer, select *Configure Hardware* > *Drive Encryption*.
 
 . Clear *Enable drive encryption* and then select *Save*.
++
+NOTE: You must have already authenticated with access to the drive before you can disable drive-encryption.
 
-The drive contents is unencrypted and the drive remains accessible without a passphrase.
+The drive contents is unencrypted, the encryption passphrase is erased, and the SEDs are now accessible without a passphrase.
 
 // 2023 SEP 8, SGRIDDOC-18
