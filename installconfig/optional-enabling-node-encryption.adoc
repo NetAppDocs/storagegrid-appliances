@@ -119,10 +119,10 @@ After the drive is encrypted, drive passphrase information displays.
 NOTE: When a drive is initially encrypted, the passphrase is set to a default blank value and the current passphrase text indicates "default (not secure)." While the data on this drive is encrypted, it can be accessed without entering a passphrase until a unique passphrase is set.
 
 . Enter a unique passphrase for encrypted drive access and then enter the passphrase again to confirm it. The passphrase must be at least 8 and no more than 32 characters in length.
-+
-Save the passphrase in a secure location, such as a password management application.
 
 . Enter passphrase display text that will help you recall the passphrase.
++
+Save the passphrase and passphrase display text in a secure location, such as a password management application.
 
 . Select *Save*.
 
@@ -135,8 +135,6 @@ Save the passphrase in a secure location, such as a password management applicat
 === Access an encrypted drive
 
 You must enter the passphrase to access an encrypted drive after compute node replacement or after a drive is moved to a new compute node.
-
-// Add links to chassis replacement procedures SG6112, SG1000 SG100 SG1100 SG110 SG6160.
 
 . Access the StorageGRID Appliance Installer.
 +
@@ -152,7 +150,7 @@ You must enter the passphrase to access an encrypted drive after compute node re
 
 . Enter the drive encryption passphrase you set previously in *New passphrase* and *Retype new passphrase*.
 +
-NOTE: If you enter values for the passphrase that do not match the value previously entered, drive authentication will fail. You will need to restart the appliance and enter the correct passphrase. 
+NOTE: If you enter values for the passphrase and passphrase display text that do not match the values previously entered, drive authentication will fail. You will need to restart the appliance and enter the correct passphrase and passphrase display text. 
 
 . Enter the passphrase display text you set previously in *New passphrase display text*. 
 
@@ -184,9 +182,9 @@ NOTE: You must have already authenticated with access to the drive before you ca
 
 . Select *Save*.
 +
-CAUTION: After setting a new passphrase the encrypted drives can't be decrypted without using the new passphrase.
+CAUTION: After setting a new passphrase the encrypted drives can't be decrypted without using the new passphrase and passphrase display text.
 
-. Save the new passphrase in a secure location, such as a password management application.
+. Save the new passphrase and passphrase display text in a secure location, such as a password management application.
 
 === Disable drive encryption
 
@@ -202,10 +200,14 @@ CAUTION: After setting a new passphrase the encrypted drives can't be decrypted 
 
 . From the StorageGRID Appliance Installer, select *Configure Hardware* > *Drive Encryption*.
 
-. Clear *Enable drive encryption* and then select *Save*.
-+
-NOTE: You must have already authenticated with access to the drive before you can disable drive-encryption.
+. Clear *Enable drive encryption*.
 
-The drive contents is unencrypted, the encryption passphrase is erased, and the SEDs are now accessible without a passphrase.
+. To erase all drive data when drive encryption is disabled, select *Erase all data on drives.*
++
+NOTE: The data erasure option is only avaliable from the StorageGRID Appliance Installer before the appliance is added to the grid. You cannot access this option when accessing the StorageGRID Appliance Installer from maintenance mode.
+
+. Select *Save*.
+
+The drive contents are unencrypted or cryptographically erased, the encryption passphrase is erased, and the SEDs are now accessible without a passphrase.
 
 // 2023 SEP 8, SGRIDDOC-18
