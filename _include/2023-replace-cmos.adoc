@@ -72,6 +72,8 @@ image::../media/sgf6112_two-slot-riser_guide-pin.png[Guide pin on system board f
 
 .. To restore the BMC configuration to use a static IP, netmask, and gateway, enter the following commands:
 +
+`*run-host-command ipmitool lan set 1 ipsrc static*`
++
 `*run-host-command ipmitool lan set 1 ipaddr _Appliance_IP_*`
 +
 `*run-host-command ipmitool lan set 1 netmask _Netmask_IP_*`
@@ -84,3 +86,5 @@ image::../media/sgf6112_two-slot-riser_guide-pin.png[Guide pin on system board f
 
 . After restoring BMC network connectivity, connect to the BMC interface to audit and restore any additional custom BMC configuration you might have applied. For example, you should confirm the settings for SNMP trap destinations and email notifications. See link:../installconfig/configuring-bmc-interface.html[Configure BMC interface].
 . Confirm that the appliance node appears in the Grid Manager and that no alerts appear. 
+
+// 2023 DEC 21, SGRIDDOC-30
