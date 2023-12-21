@@ -90,7 +90,7 @@ Review the information about https://review.docs.netapp.com/us-en/storagegrid-11
 
 .About this task
 
-A passphrase is set when drive encryption is initially enabled. If a compute node is replaced or if an encrypted SED is moved to a new compute node, the passphrase will need to be manually reentered.
+A passphrase is set when drive encryption is initially enabled. If a compute node is replaced or if an encrypted SED is moved to a new compute node, you must manually reenter the passphrase.
 
 CAUTION: Make sure that you store the drive-encryption passphrase in a secure location. Encrypted SEDs can't be accessed without manually entering the same passphrase if the SED is installed in another StorageGRID compute node.
 
