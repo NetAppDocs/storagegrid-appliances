@@ -82,7 +82,7 @@ Encrypted SEDs automatically lock when the appliance is powered down or when the
 
 Drive encryption doesn't apply to SANtricity-managed drives. If you have a StorageGRID compute node with SEDs and SANtricity controllers, you can enable drive security in link:../installconfig/accessing-and-configuring-santricity-system-manager.html[SANtricity System Manager].
 
-You can enable drive encryption during initial appliance installation before loading grid manager. You can also enable node encryption or change your passphrase by placing the appliance in maintenance mode.
+You can enable drive encryption during initial appliance installation before loading Grid Manager. You can also enable node encryption or change your passphrase by placing the appliance in maintenance mode.
 
 .Before you begin
 
