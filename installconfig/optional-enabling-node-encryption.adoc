@@ -155,7 +155,7 @@ NOTE: If you enter values for the passphrase and passphrase display text that do
 . Enter the passphrase display text you set previously in *New passphrase display text*. 
 
 . Select *Save*.
-
++
 The warning banners will no longer display when the drives are unlocked.
 
 . Return to the StorageGRID Appliance Installer Home page and select *Reboot* in the Installation section banner to restart the compute node and access the encrypted drives.
