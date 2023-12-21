@@ -78,7 +78,7 @@ You can view node-encryption status, KMS details, and the certificates in use wh
 
 Drive encryption is managed on self-encrypting drive (SED) hardware during the write and read processes. Access to data on these drives is controlled by a user-defined passphrase. Drive encryption is used for direct-attached solid-state drives (SSDs) that are used for caching in StorageGRID compute nodes. 
 
-Encrypted SEDs automatically lock when the appliance is powered down or when the drive is removed from the appliance. An encrypted SED remains locked after power is restored to it until the correct passphrase is entered. The passphrase is stored on the StorageGRID compute node to unlock encrypted drives that remain in the appliance when the appliance restarts. This allows the drive to be accessed without manually reentering the passphrase. Drives encrypted with an SED passphrase can be accessed by anyone who knows the passphrase. 
+Encrypted SEDs automatically lock when the appliance is powered down or when the drive is removed from the appliance. An encrypted SED remains locked after power is restored to it until the correct passphrase is entered. To allow drives to be accessed without manually reentering the passphrase, the passphrase is stored on the StorageGRID compute node to unlock encrypted drives that remain in the appliance when the appliance restarts. Drives encrypted with an SED passphrase can be accessed by anyone who knows the passphrase. 
 
 Drive encryption doesn't apply to SANtricity-managed drives. If you have a StorageGRID compute node with SEDs and SANtricity controllers, you can enable drive security in link:../installconfig/accessing-and-configuring-santricity-system-manager.html[SANtricity System Manager].
 
