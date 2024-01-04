@@ -6,8 +6,8 @@ entries:
     pdf-filename: SG110 and SG1100 hardware maintenance
     url: "/sg110-1100/index.html"
 
-  - title: Configuration maintenance procedures
-    pdf-filename: Configuration maintenance procedures - SG110 and SG1100
+  - title: Maintenance configuration procedures
+    pdf-filename: Maintenance configuration procedures - SG110 and SG1100
     entries:
     - title: Turn identify LED on and off
       url: "/sg110-1100/turning-sg110-and-sg1100-identify-led-on-and-off.html"
