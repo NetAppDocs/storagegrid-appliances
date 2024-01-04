@@ -6,7 +6,7 @@ indexpage:
           url: "../sg110-1100/turning-sg110-and-sg1100-identify-led-on-and-off.html"
         - title: Locate appliance in data center
           url: "../sg110-1100/locating-sg110-and-sg1100-in-data-center.html"
-        - title: Power appliance off
+        - title: Power appliance off and on
           url: "../sg110-1100/power-sg110-and-sg1100-off-on.html"
         - title: Change link configuration
           url: "../sg110-1100/changing-link-configuration-of-sg110-and-sg1100-appliance.html"
