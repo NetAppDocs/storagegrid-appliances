@@ -12,7 +12,7 @@ summary:
 You can add a second controller canister in the E4000 array.
 
 .About this task
-Add a second controller canister to the simplex version of either a E4012 controller shelf, E4024 controller shelf, or EF280 flash array. This procedure is also referred to as a simplex-to-duplex conversion, which is an online procedure. You can access data on the storage array while you perform this procedure.
+Add a second controller canister to the simplex version of either a E4012 controller shelf, E4024 controller shelf, or EF40 flash array. This procedure is also referred to as a simplex-to-duplex conversion, which is an online procedure. You can access data on the storage array while you perform this procedure.
 
 .Before you begin
 Make sure you have the following:
@@ -63,4 +63,134 @@ NOTE: If you are accessing SANtricity System Manager using the controller you ar
 +
 NOTE: Do not begin any other operations until after the status has been updated. 
 . Select Recheck from the Recovery Guru, and confirm that the OK to remove field in the Details area displays Yes, indicating that it is safe to remove this component.
+
+
+== Step 2: Install host interface card
+
+If the currently installed controller includes a host interface card (HIC), you must install the same model of HIC in the second controller canister.
+
+.Steps
+
+. Unpack the new HIC, and confirm it is the identical to the existing HIC.
++
+CAUTION: *Possible loss of data access*: The HICs installed in the two controller canisters must be identical. If the replacement HIC is not identical to the HIC you are replacing, do not attempt this procedure. The presence of mismatched HICs will cause the new controller to lock down when it comes online.
+
+. Remove the HIC card bezel by sliding it straight out from the controller module.
+. Loosen the thumbscrews on the Hic card with your fingers or a screwdriver.
+. Lift the HIC card straight up and set it aside on a non-static surface.
+. Take the replacement HIC card and align it with the socket on the motherboard.
+. Gently push down on the card to seat it in the socket.
+. Tighten the three thumbscrews.
++
+CAUTION: Be careful not to over tighten the screws, as that may result in damage to the HIC card.
+. Reinstall the HIC card bezel.
+
+
+== Step 3: Collect support data
+
+Collect support data before and after replacing a component to ensure you can send a full set of logs to technical support in case the replacement does not resolve the problem.
+
+.Steps
+
+. From the Home page of SANtricity System Manager, ensure that the storage array has Optimal status.
++
+If the status is not Optimal, use the Recovery Guru or contact technical support to resolve the problem. Do not continue with this procedure.
+. Collect support data for your storage array using SANtricity System Manager.
+.. Select *Support › Support Center › Diagnostics*.
+.. Select *Collect Support Data*.
+.. Click *Collect*.
++
+The file is saved in the Downloads folder for your browser with the name, *support-data.7z*.
+. Ensure that no I/O operations are occurring between the storage array and all connected hosts. For example, you can perform these steps:
+
+** Stop all processes that involve the LUNs mapped from the storage to the hosts.
+** Ensure that no applications are writing data to any LUNs mapped from the storage to the hosts.
+** Unmount all file systems associated with volumes on the array.
++
+NOTE: The exact steps to stop host I/O operations depend on the host operating system and the configuration, which are beyond the scope of these instructions. If you are not sure how to stop host I/O operations in your environment, consider shutting down the host.
++
+CAUTION: *Possible data loss*: If you continue this procedure while I/O operations are occurring, you might lose data.
+
+== Step 4: Change configuration to duplex
+
+Before adding a second controller to the controller shelf, you must change the configuration to duplex by installing a new NVSRAM file and using the command line interface to set the storage array to duplex. The duplex version of the NVSRAM file is included with the download file for SANtricity OS Software (controller firmware).
+
+.Steps
+
+. Download the latest NVSRAM file from the NetApp Support site to your management client.
+.. From SANtricity System Manager, select *Support › Upgrade Center*. In the area labeled “SANtricity OS Software upgrade,” click *NetApp SANtricity OS Downloads*.
+.. From the NetApp Support site, select *E-Series SANtricity OS Controller software*.
+.. Follow the online instructions to select the version of NVSRAM you want to install, and then complete the file download. Be sure to select the duplex version of the NVSRAM (the file has “D” near the end of its name).
++
+The file name will be similar to: *N290X-830834-D01.dlp*
+. Upgrade the files using SANtricity System Manager.
++
+CAUTION: Risk of data loss or risk of damage to the storage array — Do not make changes to the storage array while the upgrade is occurring. Maintain power to the storage array.
++
+You can cancel the operation during the pre-upgrade health check, but not during transferring or activating.
+
+** From SANtricity System Manager:
+.. Under *SANtricity OS Software upgrade*, click *Begin Upgrade*.
+.. Next to *Select Controller NVSRAM file*, click *Browse*, and then select the NVSRAM file you downloaded.
+.. Click *Start*, and then confirm that you want to perform the operation.
++
+The upgrade begins and the following occurs:
+
+*** The pre-upgrade health check begins. If the pre-upgrade health check fails, use the Recovery Guru or contact technical support to resolve the problem.
+*** The controller files are transferred and activated. The time required depends on your storage array configuration.
+*** The controller reboots automatically to apply the new settings.
+
+** Alternatively, you can use the following CLI command to perform the upgrade:
++
+----
+download storageArray NVSRAM file="filename" healthCheckMelOverride=FALSE;
+----
++
+In this command, `filename` is the file path and the file name for duplex version of the Controller NVSRAM file (the file with “D” in its name). Enclose the file path and the file name in double quotation marks (" "). For example:
++
+----
+file="C:\downloads\N290X-830834-D01.dlp"
+----
+
+. (Optional) To see a list of what was upgraded, click *Save Log*.
++
+The file is saved in the Downloads folder for your browser with the name, *latest-upgrade-log-timestamp.txt*.
+
+** After upgrading controller NVSRAM, verify the following in SANtricity System Manager:
+
+*** Go to the Hardware page, and verify that all components appear.
+*** Go to the Software and Firmware Inventory dialog box (go to *Support › Upgrade Center*, and then click the link for *Software and Firmware Inventory*). Verify the new software and firmware versions.
+
+** When you upgrade controller NVSRAM, any custom settings that you have applied to the existing NVSRAM are lost during the process of activation. You must apply the custom settings to the NVSRAM again after the process of activation is complete.
+
+. Change the storage array setting to duplex using CLI commands. To use CLI, you can either open a command prompt if you downloaded the CLI package or you can open the Enterprise Management Window (EMW) if you have Storage Manager installed.
+
+** From a command prompt:
+.. Use the following command to switch the array from simplex to duplex:
++
+----
+set storageArray redundancyMode=duplex;
+----
+.. Use the following command to reset the controller.
++
+----
+reset controller [a];
+----
+
+After the controller reboots, an “alternate controller missing” error message is displayed. This message indicates that controller A has been successfully converted to duplex mode. This message persists until you install the second controller and connect the host cables.
+
+== Step 5: Remove the controller blank
+
+Remove the controller blank before you install the second controller. A controller blank is installed in controller shelves that have only one controller.
+
+.Steps
+
+. Squeeze the latch on the cam handle for the controller blank until it releases, and then open the cam handle to the right.
+. Slide the blank controller canister out of the shelf and set it aside.
++
+When you remove the controller blank, a flap swings into place to block the empty bay.
+
+== Step 6: Install the second controller canister
+
+Install a second controller canister to change a simplex configuration to a duplex configuration.
 

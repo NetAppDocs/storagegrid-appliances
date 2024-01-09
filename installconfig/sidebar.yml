@@ -61,7 +61,15 @@ entries:
         - title: 'Install SG6000-CN controller (SG6024 and SG6060)'
           url: "/installconfig/sg6000-cn-installing-into-cabinet-or-rack.html"
       - title: SG6100
-        url: "/installconfig/installing-appliance-in-cabinet-or-rack-sgf6112.html"
+        entries:
+        - title: 'Install 60-drive shelves (SG6160)'
+          url: "/installconfig/sg6160-installing-60-drive-shelves-into-cabinet-or-rack.html"
+        - title: 'Install drives (SG6160)'
+          url: "/installconfig/sg6160-installing-drives.html"
+        - title: Install 24-drive shelves (SGF6112)
+          url: "/installconfig/installing-appliance-in-cabinet-or-rack-sgf6112.html"
+        - title: 'Install SG6100-CN controller (SG6160)'
+          url: "/installconfig/sg6100-cn-installing-into-cabinet-or-rack.html"
     - title: Cable appliance
       url: "/installconfig/cabling-appliance.html"
     - title: Connect and apply power

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storagegrid, sgf6112, link configuration, link, configure, configuring, ethernet, port bond mode, port bond, network bond mode, network bond, link speed, vlan tagging, vlan tag 
 summary: 'You can change the Ethernet link configuration of the appliance including the port bond mode, the network bond mode, and the link speed.'
 ---
-= Change link configuration of SGF6112 appliance
+= Change link configuration of SGF6112 appliance or SG6100-CN controller
 :icons: font
 :imagesdir: ../media/
 

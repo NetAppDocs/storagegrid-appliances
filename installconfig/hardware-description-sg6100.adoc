@@ -29,7 +29,9 @@ The SGF6112 is designed with SSDs in a RAID that provides the following data pro
 * Ability to function after multiple SSD failures with a minimum necessary reduction in object availability (based on the design of the underlying RAID scheme).
 * Fully recoverable, while in service, from SSD failures that don't result in extreme damage to the RAID housing the node's root volume (the StorageGRID operating system).
 
-== SGF6112 hardware components
+== SGF6112 and SG6160 hardware components
+
+=== SGF6112 appliance
 The SGF6112 appliance includes the following components:
 
 Compute and storage platform::
@@ -43,7 +45,40 @@ A one-rack unit (1U) server that includes:
 * Baseboard management controller (BMC) that simplifies hardware management
 * Redundant power supplies and fans
 
-== SGF6112 diagrams
+=== SG6160 appliance
+
+The SG6160 appliance includes the following components:
+
+Compute controller::
+The SG6000-CN controller is a one-rack unit (1U) server that includes:
++
+* 40 cores (80 threads)
+* 192 GB RAM
+* Up to 4 × 25 Gbps aggregate Ethernet bandwidth
+* 4 × 16 Gbps Fibre Channel (FC) interconnect
+* Baseboard management controller (BMC) that simplifies hardware management
+* Redundant power supplies
+
+Storage controller shelf::
+The E-Series E4000 controller shelf (storage array) is a 4U shelf that includes:
++
+* Two E4000 series controllers (duplex configuration) to provide storage controller failover support
+* Five-drawer drive shelf that holds sixty 3.5-inch drives (2 solid-state drives, or SSDs, and 58 NL-SAS drives)
+* Redundant power supplies and fans
+
+Optional: Storage expansion shelves::
+Each SG6160 appliance can have one or two expansion shelves for a total of 180 drives (two of these drives are reserved for E-Series read cache).
++
+NOTE: Expansion shelves can be installed during initial deployment or added later.
++
+The E-Series DE460C enclosure is a 4U shelf that includes:
++
+* Two input/output modules (IOMs)
+* Five drawers, each holding 12 NL-SAS drives, for a total of 60 drives
+* Redundant power supplies and fans
+
+
+== SGF6112 and SG6160 diagrams
 
 === SGF6112 front view
 
@@ -95,3 +130,8 @@ image::../media/sgf6112_rear_view.png[SGF6112 Rear View]
 * Leave disconnected and available for temporary local access (IP 169.254.0.1).
 * During installation, use port 2 for IP configuration if DHCP-assigned IP addresses aren't available.
 |===
+
+=== SG6160 front view
+
+
+=== SG6160 rear view
