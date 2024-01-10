@@ -76,7 +76,7 @@ When cloning successfully completes:
  ** The target node now uses the IP addresses originally assigned to the source node for the Grid, Admin, and Client Networks.
  ** The source node now uses the temporary IP address initially assigned to the target node.
 * The target node exits maintenance mode and joins StorageGRID, replacing the source node.
-* The source appliance is in a pre-installed state, as if you had https://review.docs.netapp.com/us-en/storagegrid-118_main/maintain/preparing-appliance-for-reinstallation-platform-replacement-only.html[prepared it for reinstallation^].
+* The source appliance is in a pre-installed state, as if you had https://docs.netapp.com/us-en/storagegrid-118/maintain/preparing-appliance-for-reinstallation-platform-replacement-only.html[prepared it for reinstallation^].
 
 NOTE: If the appliance does not rejoin the grid, go to the StorageGRID Appliance Installer Home page for the source node, select *Advanced* > *Reboot Controller*, and then select *Reboot into Maintenance Mode*. After the source node reboots in maintenance mode, repeat the node cloning procedure.
 
