@@ -1,4 +1,4 @@
-// Change network links for SGF6112, SG110, SG1100
+// Turn on identify LED for SGF6112, SG110, SG1100
 // Intro and related info are in referencing topic
 
 .Before you begin
@@ -19,5 +19,7 @@ image::../media/sgf6112_front_panel_service_led_on.png[Front identify LED - on]
 +
 NOTE: If a bezel is installed on the controller, it might be difficult to see the front identify LED.
 +
-.  Turn the identify LED on and off as needed.
+The rear identify LED is at the center of the appliance below the Micro-SD slot.
++
+.  Turn the identify LEDs on and off as needed.
 
