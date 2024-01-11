@@ -16,7 +16,7 @@ Use these instructions to maintain your StorageGRID system.
 == About these instructions
 These instructions describe procedures common to all nodes such as how to apply a software hotfix, recover grid nodes, recover a failed site, decommission grid nodes or an entire site, perform network maintenance, perform host-level and middleware maintenance procedures, and perform grid node procedures.
 
-NOTE: In these instructions, "`Linux`" refers to a Red Hat® Enterprise Linux®, Ubuntu®, CentOS, or Debian® deployment. Use the https://imt.netapp.com/matrix/#welcome[NetApp Interoperability Matrix Tool (IMT)^] to get a list of supported versions. 
+NOTE: In these instructions, "`Linux`" refers to a Red Hat® Enterprise Linux®, Ubuntu®, or Debian® deployment. Use the https://imt.netapp.com/matrix/#welcome[NetApp Interoperability Matrix Tool (IMT)^] to get a list of supported versions. 
 
 
 == Before you begin

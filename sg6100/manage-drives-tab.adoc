@@ -45,7 +45,8 @@ The drive details panel appears.
 
 . Select *Turn locator light on*.
 +
-A light bulb icon image:../media/icon_drive-light-bulb.png[drive light bulb] appears for the drive.
+* A light bulb icon image:../media/icon_drive-light-bulb.png[drive light bulb] appears for the drive.
+* An amber LED blinks on the physical drive.
 
 . When you want to turn off the locator light, select *Turn locator light off*.
 
