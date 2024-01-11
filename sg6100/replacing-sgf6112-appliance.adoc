@@ -137,6 +137,8 @@ WARNING: To prevent data loss if the Appliance Installer indicates that physical
 
 .. To restore the BMC configuration to use a static IP, netmask, and gateway, enter the following commands:
 +
+`*run-host-command ipmitool lan set 1 ipsrc static*`
++
 `*run-host-command ipmitool lan set 1 ipaddr _Appliance_IP_*`
 +
 `*run-host-command ipmitool lan set 1 netmask _Netmask_IP_*`
@@ -159,5 +161,6 @@ include::../_include/fru-statement.adoc[]
 link:../installconfig/viewing-status-indicators.html[View status indicators]
 
 link:../installconfig/troubleshooting-hardware-installation-sg6100.html#view-error-codes[View boot-up codes for appliance]
-// 2023 OCT 11, SGRIDDOC-12
 
+// 2023 DEC 21, SGRIDDOC-30
+// 2023 OCT 11, SGRIDDOC-12
