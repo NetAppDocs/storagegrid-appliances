@@ -21,7 +21,7 @@ entries:
       url: "/sg6000/turning-controller-identify-led-on-and-off.html"
     - title: Locate controller in data center
       url: "/sg6000/locating-controller-in-data-center.html"
-    - title: Power controller on and off
+    - title: Power controller off and on
       url: "/sg6000/power-sg6000-cn-controller-off-on.html"
     - title: Change link configuration of SG6000-CN controller
       url: "/sg6000/changing-link-configuration-of-sg6000-cn-controller.html"
