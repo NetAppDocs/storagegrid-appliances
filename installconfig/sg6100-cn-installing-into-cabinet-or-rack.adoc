@@ -1,7 +1,7 @@
 ---
-permalink: installconfig/sg6000-cn-installing-into-cabinet-or-rack.html
+permalink: installconfig/sg6100-cn-installing-into-cabinet-or-rack.html
 sidebar: sidebar
-keywords: storagegrid, sg6000, storage node, storage appliance, install, installing, installation, cabinet, rack, controller, sg6000-cn, rail, rails 
+keywords: storagegrid, sg6100, storage node, storage appliance, install, installing, installation, cabinet, rack, controller, sg6000-cn, rail, rails 
 summary: 'You install a set of rails for the SG6100-CN controller in your cabinet or rack, and then slide the controller onto the rails.'
 ---
 = Install SG6100-CN controller (SG6160)

@@ -676,6 +676,7 @@ The appliance includes indicators that help you determine the status of the appl
 * <<appliance_indicators_SG6100,Appliance indicators and buttons>>
 * <<general_boot_codes_SG6100,General boot-up codes>>
 * <<ssd_indicators_SG6100,SSD indicators>>
+* <<boot_codes_sg6100_storage_controller,Boot-up status codes for SG6100 storage controllers>> 
 
 Use this information to help link:troubleshooting-hardware-installation-sg6100.html[troubleshoot SG6100 hardware installation].
 
@@ -754,5 +755,33 @@ image::../media/ssd_indicators.png[SSD Indicators]
 | Drive active
 | Blue (blinking): drive is being accessed
 |===
+
+[[boot_codes_sg6100_storage_controller]]
+Boot-up status codes for SG6010 storage controllers::
++
+Each storage controller has a seven-segment display that provides status codes as the controller powers up.
++
+For descriptions of these codes, see the E-Series system monitoring information for you storage controller type.
+
+.Steps
+
+. During boot-up, monitor progress by viewing the codes shown on the seven-segment display for each storage controller.
++
+The seven-segment display on each storage controller shows the repeating sequence *OS*, *Sd*, `*_blank_*` to indicate that the controller is performing start-of-day processing.
+
+. After the controllers have booted up, confirm that each storage controller shows 99, which is the default ID for an E-Series controller shelf.
++
+Make sure this value is displayed on both storage controllers, as shown in this example E2800 controller.
++
+image::../media/seven_segment_display_codes_for_e2800.gif[Seven-Segment Display Codes for E2800]
+
+. If one or both controllers show other values, see link:troubleshooting-hardware-installation.html[Troubleshoot hardware installation (SG6000 or SG5700)] and confirm you completed the installation steps correctly. If you are unable to resolve the problem, contact technical support.
+
+.Related information
+
+* https://mysupport.netapp.com/site/global/dashboard[NetApp Support^]
+
+* link:../sg6100/power-sg6100-cn-controller-off-on.html#power-on-sg6100-cn-controller-and-verify-operation[Power on SG6100-CN controller and verify operation]
+
 --
 ====

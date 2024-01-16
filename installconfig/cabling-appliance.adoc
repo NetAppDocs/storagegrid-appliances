@@ -585,10 +585,17 @@ CAUTION: *Risk of exposure to laser radiation* -- Don't disassemble or remove an
 
 .About this task
 
-The following figures show the ports on the back of the SGF6112.
+The following figures show the ports on the back of the SGF6112 and the three controllers in the SG6160 appliance. The SG6160 appliance includes a SG6100-CN compute controller on top and two E4000 storage controllers on the bottom.
 
+SG6160 connections:
+
+image::../media/sg6000_e2800_connections.png[SG6160 to E4000 Connections]
+
+SGF6112
 
 image::../media/sgf6112_connections.png[SGF6112 rear connectors]
+
+
 
 [cols="1a,2a,2a,3a" options="header"]
 |===
@@ -600,7 +607,13 @@ image::../media/sgf6112_connections.png[SGF6112 rear connectors]
 |Connects to the network where you access the BMC interface.
 
 |2
-|Four 10/25-GbE network ports on the appliance
+|
+SGF6112: Four 10/25-GbE network ports on the appliance
+
+SG6160: Eight total 10/25 GbE ports
+
+* Four on the SG6100-CN controller
+* Two on each storage controller
 | 
 |Connect to the Grid Network and the Client Network for StorageGRID. See link:gathering-installation-information-sg6100.html#port-bond-modes[Port bond modes (SGF6112)]
 
@@ -620,6 +633,16 @@ image::../media/sgf6112_connections.png[SGF6112 rear connectors]
 * Can be bonded with management port 1 if you want a redundant connection to the Admin Network.
 * Can be left disconnected and available for temporary local access (IP 169.254.0.1).
 * During installation, can be used to connect the appliance to a service laptop if DHCP-assigned IP addresses aren't available.
+
+|5
+|Management port 1 on each storage controller
+|1-GbE (RJ-45)
+|Connects to the network where you access SANtricity System Manager.
+
+|
+|Management port 2 on each storage controller
+|1-GbE (RJ-45)
+|Connects to the network where you access SANtricity System Manager.
 |===
 
 .Steps
