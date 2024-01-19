@@ -106,4 +106,4 @@ Node encryption can't be reenabled on the appliance until it is reinstalled in a
 
 .After you finish
 
-After the appliance reboots and you have verified that KMS has been cleared and that the appliance is in a pre-install state, you can physically remove the appliance from your StorageGRID system. See the https://docs.netapp.com/us-en/storagegrid-118/maintain/preparing-appliance-for-reinstallation-platform-replacement-only.html[instructions for preparing the appliance for reinstallation]^.
+After the appliance reboots and you have verified that KMS has been cleared and that the appliance is in a pre-install state, you can physically remove the appliance from your StorageGRID system. See the https://docs.netapp.com/us-en/storagegrid-118/maintain/preparing-appliance-for-reinstallation-platform-replacement-only.html[instructions for preparing the appliance for reinstallation^].
