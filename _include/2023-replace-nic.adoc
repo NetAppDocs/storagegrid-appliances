@@ -15,7 +15,7 @@ CAUTION: If you have ever used an ILM rule that creates only one copy of an obje
 The three NICs in the appliance are in two riser assemblies in the positions in the chassis shown in the photograph (Rear of appliance with top cover removed shown): 
 +
 image::../media/sgf6112-nic-positions.jpg[NIC locations]
-
++
 [cols="1a,2a,4a" options="header"]
 |===
 | | Device or Part name| Description

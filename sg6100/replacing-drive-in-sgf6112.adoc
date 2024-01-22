@@ -33,9 +33,9 @@ NOTE: See the information about viewing status indicators to verify the failure.
 . Verify that the drive's left fault LED is amber or use the drive slot ID from the alert to locate the drive.
 +
 The twelve drives are in the following positions in the chassis (front of chassis with bezel removed shown): 
-
++
 image::../media/sgf6112_ssds_locations.png[Drive locations]
-
++
 [options="header"]
 |===
 |Position| Drive  

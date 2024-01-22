@@ -11,7 +11,7 @@ summary: 'You might need to replace the E2800 controller if it is not functionin
 [.lead]
 You might need to replace the E2800 series controller if it is not functioning optimally or if it has failed.
 
-.About this task
+.Before you begin
 
 * You have a replacement controller with the same part number as the controller you are replacing.
 +
