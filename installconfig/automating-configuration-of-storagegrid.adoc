@@ -18,17 +18,17 @@ After you have installed and configured the grid nodes, you can automate the con
 [cols="1a,1a" options="header"]
 |===
 | Filename| Description
-m|configure-storagegrid.py
-|Python script used to automate the configuration
+m| configure-storagegrid.py
+| Python script used to automate the configuration
 
-m|configure-storagegrid.sample.json
-|Sample configuration file for use with the script
+m| configure-storagegrid.sample.json
+| Example configuration file for use with the script
 
-m|configure-storagegrid.blank.json
-|Blank configuration file for use with the script
+m| configure-storagegrid.blank.json
+| Blank configuration file for use with the script
 |===
 
-* You have created a `configure-storagegrid.json` configuration file. To create this file, you can modify the sample configuration file (`configure-storagegrid.sample.json`) or the blank configuration file (`configure-storagegrid.blank.json`).
+* You have created a `configure-storagegrid.json` configuration file. To create this file, you can modify the example configuration file (`configure-storagegrid.sample.json`) or the blank configuration file (`configure-storagegrid.blank.json`).
 
 .About this task
 
