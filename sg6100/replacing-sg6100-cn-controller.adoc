@@ -81,10 +81,4 @@ IMPORTANT: To prevent degraded performance, don't twist, fold, pinch, or step on
 
 include::../_include/fru-statement.adoc[]
 
-.Related information
 
-link:../installconfig/sg6000-cn-installing-into-cabinet-or-rack.html[Install SG6100-CN into cabinet or rack]
-
-link:../installconfig/viewing-status-indicators.html[View status indicators]
-
-link:../installconfig/troubleshooting-hardware-installation.html#view-boot-codes[View boot-up codes for SG6100-CN controller]

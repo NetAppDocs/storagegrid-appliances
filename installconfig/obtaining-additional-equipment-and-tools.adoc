@@ -75,6 +75,19 @@ Ethernet cables::
 Optional tools:: Mechanized lift for SG5760
 --
 
+.SG5800
+--
+You need the following additional equipment to install and configure the SG5700 hardware.
+
+Optical cables and SFP transceivers::
+* Optical cables for the 10/25-GbE ports you plan to use
+* Optional: SFP28 transceivers if you want to use 25-GbE link speed
+
+Ethernet cables::
+
+Optional tools:: Mechanized lift for SG5860
+--
+
 .SG6000
 --
 You need the following additional equipment to install and configure the SG6000 hardware.
@@ -97,7 +110,7 @@ Mechanized lift for 60-drive shelves
 
 .SG6100
 --
-You need the following additional equipment to install and configure the SGF6112 hardware.
+You need the following additional equipment to install and configure the SG6100 hardware.
 
 Optical cables and transceivers::
 * Cables, 1 to 4 of either:
@@ -110,5 +123,8 @@ Optical cables and transceivers::
 
 Ethernet cables::
 RJ-45 (Cat5/Cat5e/Cat6/Cat6a)
+
+Optional tools::
+Mechanized lift for 60-drive shelves
 --
 ====

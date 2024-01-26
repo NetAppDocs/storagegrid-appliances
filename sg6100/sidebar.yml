@@ -30,7 +30,7 @@ entries:
         - title: SGF6112
           url: "/sg6100/replacing-fan-in-sgf6112.html"
         - title: SG6100-CN
-          url: "/replace-6100-cn-fan-canister.html"
+          url: "/sg6100/replace-6100-cn-fan-canister.html"
     - title: Replace power canister
       url: "/sg6100/replace-6100-cn-power-canister.html"
     - title: Replace drive
@@ -52,6 +52,6 @@ entries:
           - title: SGF6112
             url: "/sg6100/reinstalling-sgf6112-into-cabinet-or-rack.html"
           - title: SG6100-CN controller
-            url: "/sg6100/reinstalling-sg6100-cn-into-cabinet-or-rack.html"
+            url: "/sg6100/reinstalling-sg6100-cn-controller-into-cabinet-or-rack.html"
 
       

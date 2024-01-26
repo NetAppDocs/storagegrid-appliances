@@ -14,6 +14,8 @@ indexpage:
       links:
         - title: SG5700 storage appliances
           url: "../installconfig/hardware-description-sg5700.html"
+        - title: SG5800 storage appliances
+          url: "../installconfig/hardware-description-sg5800.html"
         - title: SG6000 storage appliances
           url: "../installconfig/hardware-description-sg6000.html"
         - title: SG6100 storage appliances
