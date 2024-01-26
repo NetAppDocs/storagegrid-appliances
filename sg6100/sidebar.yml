@@ -26,7 +26,13 @@ entries:
     - title: Replace one or more power supplies 
       url: "/sg6100/replacing-one-or-more-power-supplies-in-sgf6112-appliance.html"
     - title: Replace fan
-      url: "/sg6100/replacing-fan-in-sgf6112.html"
+      entries:
+        - title: SGF6112
+          url: "/sg6100/replacing-fan-in-sgf6112.html"
+        - title: SG6100-CN
+          url: "/replace-6100-cn-fan-canister.html"
+    - title: Replace power canister
+      url: "/sg6100/replace-6100-cn-power-canister.html"
     - title: Replace drive
       url: "/sg6100/replacing-drive-in-sgf6112.html"
     - title: Replace NIC
@@ -35,8 +41,17 @@ entries:
       url: "/sg6100/replace-cmos-in-sgf6112.html"  
     - title: Replace cover
       url: "/sg6100/reinstalling-sgf6112-cover.html"    
-    - title: Replace SGF6112 appliance
-      url: "/sg6100/replacing-sgf6112-appliance.html"
-    - title: Relocate SGF6112 in rack
-      url: "/sg6100/reinstalling-sgf6112-into-cabinet-or-rack.html"
+    - title: Replace appliance
+      entries:
+        - title: SGF6112
+          url: "/sg6100/replacing-sgf6112-appliance.html"
+        - title: SG6100-CN controller
+          url: "/sg6100/replacing-sg6100-cn-controller.html"
+    - title: Relocate in rack
+      entries:
+          - title: SGF6112
+            url: "/sg6100/reinstalling-sgf6112-into-cabinet-or-rack.html"
+          - title: SG6100-CN controller
+            url: "/sg6100/reinstalling-sg6100-cn-into-cabinet-or-rack.html"
+
       

@@ -36,6 +36,7 @@ The figures and tables summarize the options for the port bond mode and network 
 
 * link:gathering-installation-information-sg100-and-sg1000.html#port-bond-modes[Port bond modes (SG1000 and SG100)]
 * link:gathering-installation-information-sg5700.html#port-bond-modes[Port bond modes (E5700SG)]
+* link:gathering-installation-information-sg5800.html#port-bond-modes[Port bond modes (E5800SG)]
 * link:gathering-installation-information-sg6000.html#port-bond-modes[Port bond modes (SG6000-CN)]
 * link:gathering-installation-information-sg6100.html#port-bond-modes[Port bond modes (SGF6112)]
 
@@ -254,6 +255,106 @@ image::../media/e5700sg_bonded_management_ports.gif[E5700SG Bonded management Po
 
 --
 
+.SG5800
+--
+
+Fixed port bond mode (default):: 
++
+This figure shows how the four 10/25-GbE ports are bonded in Fixed port bond mode (default configuration).
++
+image::../media/e5700sg_fixed_port.gif[Image showing how the 10/25-GbE ports on the E5800SG controller are bonded in fixed mode]
++
+[cols="1a,3a" options="header"]
+|===
+| Callout| Which ports are bonded
+a|
+C
+a|
+Ports 1 and 3 are bonded together for the Client Network, if this network is used.
+a|
+G
+a|
+Ports 2 and 4 are bonded together for the Grid Network.
+|===
++
+The table summarizes the options for configuring the four 10/25-GbE ports. You only need to configure the settings on the Link Configuration page if you want to use a non-default setting.
++
+[cols="1a,2a,2a" options="header"]
+|===
+| Network bond mode| Client Network disabled (default)| Client Network enabled
+a|
+Active-Backup (default)
+a|
+
+ ** Ports 2 and 4 use an active-backup bond for the Grid Network.
+ ** Ports 1 and 3 aren't used.
+ ** A VLAN tag is optional.
+
+a|
+
+ ** Ports 2 and 4 use an active-backup bond for the Grid Network.
+ ** Ports 1 and 3 use an active-backup bond for the Client Network.
+ ** VLAN tags can be specified for both networks for the convenience of the network administrator.
+
+a|
+LACP (802.3ad)
+a|
+
+ ** Ports 2 and 4 use an LACP bond for the Grid Network.
+ ** Ports 1 and 3 aren't used.
+ ** A VLAN tag is optional.
+
+a|
+
+ ** Ports 2 and 4 use an LACP bond for the Grid Network.
+ ** Ports 1 and 3 use an LACP bond for the Client Network.
+ ** VLAN tags can be specified for both networks for the convenience of the network administrator.
+|===
+
+Aggregate port bond mode:: 
++
+This figure shows how the four 10/25-GbE ports are bonded in Aggregate port bond mode.
++
+image::../media/e5700sg_aggregate_port.gif[Image showing how the 10/25-GbE ports on the E5800SG controller are bonded in aggregate mode]
++
+[cols="1a,3a" options="header"]
+|===
+| Callout| Which ports are bonded
+a|
+1
+a|
+All four ports are grouped in a single LACP bond, allowing all ports to be used for Grid Network and Client Network traffic.
+|===
++
+The table summarizes the options for configuring the four 10/25-GbE ports. You only need to configure the settings on the Link Configuration page if you want to use a non-default setting.
++
+[cols="1a,2a,2a" options="header"]
+|===
+| Network bond mode| Client Network disabled (default)| Client Network enabled
+a|
+LACP (802.3ad) only
+a|
+
+ ** Ports 1-4 use a single LACP bond for the Grid Network.
+ ** A single VLAN tag identifies Grid Network packets.
+
+a|
+
+ ** Ports 1-4 use a single LACP bond for the Grid Network and the Client Network.
+ ** Two VLAN tags allow Grid Network packets to be segregated from Client Network packets.
+
+|===
+
+
+Active-Backup network bond mode for management ports:: 
++
+This figure shows how the two 1-GbE management ports on the E5800SG controller are bonded in Active-Backup network bond mode for the Admin Network.
++
+image::../media/e5700sg_bonded_management_ports.gif[E5800SG Bonded management Ports]
+
+--
+
+
 .SG6000
 --
 
@@ -337,6 +438,89 @@ This figure shows how the two 1-GbE management ports on the SG6000-CN controller
 image::../media/sg6000_cn_bonded_managemente_ports.png[Admin Network Ports Bonded]
 
 --
+
+
+.SG6100-CN
+--
+
+Fixed port bond mode (default):: 
++
+This figure shows how the four network ports are bonded in fixed port bond mode (default configuration)
++
+image::../media/sg6000_cn_fixed_port.gif[Image showing how the network ports on the SG6100-CN controller are bonded in fixed mode]
++
+[cols="1a,3a" options="header"]
+|===
+| Callout| Which ports are bonded
+|C
+|Ports 1 and 3 are bonded together for the Client Network, if this network is used.
+
+|G
+|Ports 2 and 4 are bonded together for the Grid Network.
+|===
++
+The table summarizes the options for configuring the network ports. You only need to configure the settings on the Link Configuration page if you want to use a non-default setting.
++
+[cols="1a,3a,3a" options="header"]
+|===
+| Network bond mode| Client Network disabled (default)| Client Network enabled
+
+|Active-Backup (default)
+|
+ ** Ports 2 and 4 use an active-backup bond for the Grid Network.
+ ** Ports 1 and 3 aren't used.
+ ** A VLAN tag is optional.
+
+|
+ ** Ports 2 and 4 use an active-backup bond for the Grid Network.
+ ** Ports 1 and 3 use an active-backup bond for the Client Network.
+ ** VLAN tags can be specified for both networks for the convenience of the network administrator.
+
+|LACP (802.3ad)
+|
+ ** Ports 2 and 4 use an LACP bond for the Grid Network.
+ ** Ports 1 and 3 aren't used.
+ ** A VLAN tag is optional.
+
+|
+ ** Ports 2 and 4 use an LACP bond for the Grid Network.
+ ** Ports 1 and 3 use an LACP bond for the Client Network.
+ ** VLAN tags can be specified for both networks for the convenience of the network administrator.
+|===
+
+Aggregate port bond mode::
++
+This figure shows how the four network ports are bonded in aggregate port bond mode.
++
+image::../media/sg6000_cn_aggregate_port.gif[Image showing how the network ports on the SG6100-CN controller are bonded in aggregate mode]
++
+[cols="1a,3a" options="header"]
+|===
+| Callout| Which ports are bonded
+|1
+|All four ports are grouped in a single LACP bond, allowing all ports to be used for Grid Network and Client Network traffic.
+|===
++
+The table summarizes the options for configuring the network ports. You only need to configure the settings on the Link Configuration page if you want to use a non-default setting.
++
+[cols="1a,3a,3a" options="header"]
+|===
+| Network bond mode| Client Network disabled (default)| Client Network enabled
+|LACP (802.3ad) only
+|
+ ** Ports 1-4 use a single LACP bond for the Grid Network.
+ ** A single VLAN tag identifies Grid Network packets.
+
+|
+ ** Ports 1-4 use a single LACP bond for the Grid Network and the Client Network.
+ ** Two VLAN tags allow Grid Network packets to be segregated from Client Network packets.
+|===
+
+Active-Backup network bond mode for management ports::
++
+This figure shows how the two 1-GbE management ports on the SG6100-CN controller are bonded in Active-Backup network bond mode for the Admin Network.
++
+image::../media/sg6000_cn_bonded_managemente_ports.png[Admin Network Ports Bonded]
 
 .SGF6112
 --

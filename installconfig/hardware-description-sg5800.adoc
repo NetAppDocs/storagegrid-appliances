@@ -72,7 +72,7 @@ The maximum raw storage available in the StorageGRID appliance is fixed, based o
 
 === SG5812 front and rear views
 
-The figures show the front and back of the SG5712, a 2U enclosure that holds 12 drives.
+The figures show the front and back of the SG5812, a 2U enclosure that holds 12 drives.
 
 image::../media/sg5712_front_and_back_views.gif[The front and back of the SG5812 appliance]
 
@@ -103,13 +103,13 @@ Power-fan canisters
 === SG5860 front and rear views
 The figures show the front and back of the SG5860 model, a 4U enclosure that holds 60 drives in 5 drive drawers.
 
-image::../media/sg5760_front_and_back_views.gif[Front and back of the SG5760 appliance]
+image::../media/sg5760_front_and_back_views.gif[Front and back of the SG5860 appliance]
 
 === SG5860 components
 
 The SG5860 includes two controllers, two fan canisters, and two power canisters.
 
-image::../media/sg5760_with_callouts.gif[Controllers, fan canisters, and power canisters in SG5760 appliance]
+image::../media/sg5760_with_callouts.gif[Controllers, fan canisters, and power canisters in SG5860 appliance]
 
 [cols="1a,2a" options="header"]
 |===
@@ -135,7 +135,7 @@ Power canister (1 of 2)
 
 == SG5800 controller
 
-Both the 12-drive SG5712 and the 60-drive SG5760 models of the StorageGRID appliance include an E5800SG compute controller and an E-Series E4000 storage controller. 
+Both the 12-drive SG5812 and the 60-drive SG5860 models of the StorageGRID appliance include an E5800SG compute controller and an E-Series E4000 storage controller. 
 
 
 === E5800SG compute controller

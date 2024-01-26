@@ -26,8 +26,12 @@ entries:
     entries:
       - title: SG5800
         entries:
-          - title: Replace E5800SG controller
+          - title: Controller
             url: "/sg5800/replace-controller-5800sg.html"
+          - title: Fan
+            url: "/sg5800/replace-fan-canister.html"
+          - title: Power canister
+            url: "/sg5800/replace-power-canister.html"
       - title: E4000
         entries:
           - title: Batteries

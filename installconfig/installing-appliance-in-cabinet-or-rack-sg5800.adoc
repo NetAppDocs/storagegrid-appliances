@@ -21,7 +21,7 @@ You install a set of rails in your cabinet or rack and then slide the appliance 
 
 Follow these steps to install an SG5812 appliance into a rack or cabinet.
 
-CAUTION: The SG5812 weighs approximately 64 lb (29 kg) when fully loaded with drives. Two people or a mechanized lift are required to safely move the SG5812.
+CAUTION: Two people or a mechanized lift are required to safely move the SG5812.
 
 CAUTION: Install hardware from the bottom of the rack or cabinet or rack up to prevent the equipment from tipping over.
 
@@ -43,7 +43,7 @@ Follow these steps to install an SG5860 appliance and any expansion shelves into
 
 CAUTION: Install hardware from the bottom of the rack or cabinet or rack up to prevent the equipment from tipping over.
 
-CAUTION: The SG5860 weighs approximately 132 lb (60 kg) with no drives installed. Four people or a mechanized lift are required to safely move an empty SG5860.
+CAUTION: Four people or a mechanized lift are required to safely move an empty SG5860.
 
 CAUTION: To avoid damaging the hardware, never move an SG5860 if drives are installed. You must remove all drives before moving the shelf.
 

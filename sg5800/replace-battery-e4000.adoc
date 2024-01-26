@@ -164,7 +164,7 @@ You must remove the failed battery and replace it.
 +
 NOTE: To comply with IATA safely regulations, replacement batteries are shipped with a state of charge (SoC) of 30 percent or less. When you reapply power, keep in mind that write caching will not resume until the replacement battery is fully charged and it has completed its initial learn cycle.
 . If you are not already grounded, properly ground yourself.
-. Remove the controlle module from the chassis.
+. Remove the controller module from the chassis.
 . Turn the controller module over and place it on a flat, stable surface.
 . Open the cover by pressing the blue buttons on the sides of the controller module to release the cover, and then rotate the cover up and off of the controller module.
 . Locate the NVMEM battery in the controller module.

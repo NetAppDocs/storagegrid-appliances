@@ -683,7 +683,7 @@ Use this information to help link:troubleshooting-hardware-installation-sg6100.h
 [[appliance_indicators_SG6100]]
 Appliance indicators and buttons::
 +
-The following figure shows indicators and buttons on the SG6112 appliance.
+The following figure shows indicators and buttons on the SG6100 appliances.
 +
 image::../media/sgf6112_front_indicators.png[Front Indicators - SGF6112]
 +
@@ -717,7 +717,7 @@ image::../media/sgf6112_front_indicators.png[Front Indicators - SGF6112]
 
 | 5
 | PFR
-| This light is not used by the SGF6112 appliance and remains off. 
+| This light is not used by SG6100 appliances and remains off. 
 
 |===
 
@@ -757,7 +757,7 @@ image::../media/ssd_indicators.png[SSD Indicators]
 |===
 
 [[boot_codes_sg6100_storage_controller]]
-Boot-up status codes for SG6010 storage controllers::
+Boot-up status codes for SG6100 storage controllers::
 +
 Each storage controller has a seven-segment display that provides status codes as the controller powers up.
 +
@@ -771,17 +771,9 @@ The seven-segment display on each storage controller shows the repeating sequenc
 
 . After the controllers have booted up, confirm that each storage controller shows 99, which is the default ID for an E-Series controller shelf.
 +
-Make sure this value is displayed on both storage controllers, as shown in this example E2800 controller.
-+
-image::../media/seven_segment_display_codes_for_e2800.gif[Seven-Segment Display Codes for E2800]
+Make sure this value is displayed on both storage controllers.
 
 . If one or both controllers show other values, see link:troubleshooting-hardware-installation.html[Troubleshoot hardware installation (SG6000 or SG5700)] and confirm you completed the installation steps correctly. If you are unable to resolve the problem, contact technical support.
-
-.Related information
-
-* https://mysupport.netapp.com/site/global/dashboard[NetApp Support^]
-
-* link:../sg6100/power-sg6100-cn-controller-off-on.html#power-on-sg6100-cn-controller-and-verify-operation[Power on SG6100-CN controller and verify operation]
 
 --
 ====
