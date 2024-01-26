@@ -146,7 +146,7 @@ Both the 12-drive SG5712 and the 60-drive SG5760 models of the StorageGRID appli
 NOTE: StorageGRID software is not preinstalled on the appliance. This software is accessed from the Admin Node when you deploy the appliance.
 
 * Can connect to all three StorageGRID networks, including the Grid Network, the Admin Network, and the Client Network.
-* Connects to the E2800 controller and operates as the initiator.
+* Connects to the E4000 controller and operates as the initiator.
 
 ==== E5800SG connectors
 
@@ -159,7 +159,7 @@ image::../media/e5700sg_controller_with_callouts.gif[Connectors on E5800SG contr
 | 1
 | Interconnect ports 1 and 2
 | 16Gb/s Fibre Channel (FC), optical SFP
-| Connect the E5700SG controller to the E2800 controller.
+| Connect the E5800SG controller to the E4000 controller.
 
 | 2
 | Diagnostic and support ports
@@ -198,7 +198,7 @@ image::../media/e5700sg_controller_with_callouts.gif[Connectors on E5800SG contr
 
 === E4000 storage controller
 
-The E2800 series storage controller has the following specifications: 
+The E4000 series storage controller has the following specifications: 
 
 * Operates as the storage controller for the appliance.
 * Manages the storage of data on the drives.

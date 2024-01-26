@@ -81,6 +81,18 @@ When you apply power to the appliance, the BMC logs a series of boot-up codes. Y
 | FP
 | The hardware subsystem firmware update checks have been completed. Inter-controller communication services are starting.
 
+| HE
+|
+For an appliance Storage Node only:
+
+The system is awaiting connectivity with the storage controllers and synchronizing with the SANtricity operating system.
+
+*Note*: If the boot-up procedure does not progress past this stage, perform these steps:
+
+.. Confirm that the four interconnect cables between the SG6000-CN controller and the two storage controllers are securely connected.
+.. As required, replace one or more of the cables, and try again.
+.. If this does not resolve the issue, contact technical support.
+
 | HC
 | The system is checking for existing StorageGRID installation data.
 

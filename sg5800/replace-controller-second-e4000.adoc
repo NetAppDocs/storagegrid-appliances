@@ -194,3 +194,74 @@ When you remove the controller blank, a flap swings into place to block the empt
 
 Install a second controller canister to change a simplex configuration to a duplex configuration.
 
+. Turn the controller canister over, so that the removable cover faces down.
+. Align the end of the controller module with the opening in the chassis, and then gently push the controller module halfway into the system.
+. With the cam handle in the open position, firmly push the controller module in until it meets the midplane and is fully seated, and then close the cam handle to the locked position.
++
+NOTE: Do not use excessive force when sliding the controller module into the chassis to avoid damaging the connectors. The controller begins to boot as soon as it is seated in the chassis.
+. If you have not already done so, reinstall the cable management device.
+. Bind the cables to the cable management device with the hook and loop strap.
+
+== Step 7: Complete adding a second controller
+
+Complete the process of adding a second controller by confirming that it is working correctly, reinstall the duplex NVSRAM file, distribute volumes between the controllers, and collect support data.
+
+.Steps
+
+. Place controller online.
+.. In System Manager, navigate to the *Hardware* page.
+.. Select *Show back of controller*.
+.. Select the replaced controller.
+.. Select *Place online* from the drop-down list.
+. As the controller boots, check the controller LEDs.
++
+When communication with the other controller is reestablished:
+
+** The amber Attention LED remains on.
+** The Host Link LEDs might be on, blinking, or off, depending on the host interface.
+
+. Update the array’s settings from simplex to duplex with the following CLI command:
++
+`set storageArray redundancyMode=duplex;`
+. When the controller is back online, confirm that its status is Optimal and check the controller shelf's Attention LEDs.
++
+If the status is not Optimal or if any of the Attention LEDs are on, confirm that all cables are correctly seated, and check that the controller canister is installed correctly. If necessary, remove and reinstall the controller canister.
++
+NOTE: If you cannot resolve the problem, contact technical support.
+
+. Reinstall the duplex version of the NVSRAM file using SANtricity System Manager.
++
+This step ensures that both controllers have an identical version of this file.
++
+ATTENTION: Risk of data loss or risk of damage to the storage array — Do not make changes to the storage array while the upgrade is occurring. Maintain power to the storage array.
++
+NOTE: You must install SANtricity OS software when you install a new NVSRAM file using SANtricity System Manager. If you already have the latest version of SANtricity OS software, you must reinstall that version.
+
+.. Click *Hardware › Support › Upgrade Center* to ensure that the latest version of SANtricity OS is installed. As needed, install the latest version.
+
+.. In System Manager, go to the *Upgrade Center*.
+.. Under *SANtricity OS Software upgrade*, click *Begin Upgrade*.
+.. Click *Browse*, and select the SANtricity OS software file.
+.. Click *Browse*, and select the Controller NVSRAM file.
+.. Click *Start*, and confirm that you want to perform the operation.
++
+The transfer of control operation begins.
+
+. After the controllers reboot, optionally distribute volumes between controller A and the new controller B.
+.. Select *Storage › Volumes*.
+.. From the All Volumes tab, select *More › Change Ownership*.
+.. Type the following command in the text box: `change ownership`
++
+The Change Ownership button is enabled.
+.. For each volume you want to redistribute, select *Controller B* from the *Preferred Owner* list.
+.. Click *Change Ownership*.
++
+When the process is complete, the Change Volume Ownership dialog shows the new values for *Preferred Owner* and *Current Owner*.
+. Collect support data for your storage array using SANtricity System Manager.
+.. Select *Support › Support Center › Diagnostics*.
+.. Click *Collect*.
++
+The file is saved in the Downloads folder for your browser with the name, *support-data.7z*.
+
+.What's next?
+The process for adding a second controller is complete. You can resume normal operations.

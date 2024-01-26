@@ -126,7 +126,7 @@ The green Cache Active LED on the back of the controller is on when cached data 
 
 ====
 
-== Remove E4000 controller canister
+== Step 2: Remove E4000 controller canister
 
 You need to remove the controller canister from the controller shelf, so you can remove the battery.
 
@@ -154,7 +154,7 @@ NOTE: The green NV LED on the faceplate will start flashing when power is remove
 *** Confirm that the controller had a clean takeover by the partner controller module or the impaired controller shows waiting for giveback, the flashing LED can be ignored and you can complete removing the impaired controller from the chassis.
 ** If the green NV LED if off, you can complete removing the impaired controller from the chassis.
 
-=== Step 3: Install the new battery
+== Step 3: Install the new battery
 
 You must remove the failed battery and replace it.
 
@@ -181,7 +181,7 @@ Make sure that the plug locks down into the battery socket on the motherboard.
 . Reinstall the controller module cover and lock it into place.
 
 
-=== Step 4: Reinstall the controller module
+== Step 4: Reinstall the controller module
 
 After you replace components in the controller module, reinstall it into the chassis.
 
@@ -205,7 +205,7 @@ The controller begins to boot as soon as it is seated in the chassis.
 .. Bind the cables to the cable management device with the hook and loop strap.
 
 
-=== Step 5: Complete battery replacement
+== Step 5: Complete battery replacement
 
 The steps to complete battery replacement depend on whether you have a duplex (two controllers) or simplex (one controller) configuration.
 

@@ -5,24 +5,24 @@ keywords: storagegrid, sgf6112, storage node, storage appliance, install, instal
 summary: 'Remove the SGF6112 from a cabinet or rack to access the top cover or to move the appliance to a different location, then reinstall the appliance into a cabinet or rack when hardware maintenance is complete.'
 ---
 
-= Relocate SGF6112 in cabinet or rack
+= Relocate SGF6112 or SG6100-CN in cabinet or rack
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-Remove the SGF6112 from a cabinet or rack to access the top cover or to move the appliance to a different location, then reinstall the appliance into a cabinet or rack when hardware maintenance is complete.
+Remove the SGF6112 or SG6100-CN from a cabinet or rack to access the top cover or to move the appliance to a different location, then reinstall the appliance into a cabinet or rack when hardware maintenance is complete.
 
 // Same procedure for SG110 and SG1100 - unable to use includes due to specific links in steps.
 
 [#remove-from-rack]
-== Remove SGF6112 from cabinet or rack
+== Remove SGF6112 or SG6100-CN from cabinet or rack
 
 .Before you begin
 
-* You have labels to identify each cable that is connected to the SGF6112.
-* You have link:locating-sgf6112-in-data-center.html[physically located the SGF6112] where you are performing maintenance in the data center.
+* You have labels to identify each cable that is connected to the SGF6112 or SG6100-CN.
+* You have link:locating-sgf6112-in-data-center.html[physically located the SGF6112 or SG6100-CN] where you are performing maintenance in the data center.
 
-* You have link:power-sgf6112-off-on.html#shut-down-the-sgf6112-appliance[shut down the SGF6112].
+* You have link:power-sgf6112-off-on.html#shut-down-the-sgf6112-appliance[shut down the SGF6112 or SG6100-CN].
 +
 CAUTION: Don't shut down the appliance using the power switch.
 
@@ -36,9 +36,9 @@ IMPORTANT: To prevent degraded performance, don't twist, fold, pinch, or step on
 
 . Loosen the two captive screws on the appliance front panel.
 +
-image::../media/sg6060_rack_retaining_screws.png[SGF6112 rack retaining screws]
+image::../media/sg6060_rack_retaining_screws.png[SGF6112 or SG6100-CN rack retaining screws]
 
-. Slide the SGF6112 forward out of the rack until the mounting rails are fully extended and you hear the latches on both sides click.
+. Slide the SGF6112 or SG6100-CN forward out of the rack until the mounting rails are fully extended and you hear the latches on both sides click.
 +
 The appliance top cover is accessible.
 
@@ -47,7 +47,7 @@ The appliance top cover is accessible.
 include::../_include/fru-statement.adoc[]
 
 
-== Reinstall SGF6112 into cabinet or rack
+== Reinstall SGF6112 or SG6100-CN into cabinet or rack
 
 .Before you begin
 

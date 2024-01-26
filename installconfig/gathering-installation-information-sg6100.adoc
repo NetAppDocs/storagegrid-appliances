@@ -15,7 +15,7 @@ TIP: Instead of using the tables, use the workbook provided with ConfigBuilder. 
 
 == Check StorageGRID version
 
-Before installing an SGF6112 appliance, confirm your StorageGRID system is using a required version of StorageGRID software.
+Before installing an SGF6112 or SG6160 appliance, confirm your StorageGRID system is using a required version of StorageGRID software.
 
 [cols="1a,2a" options="header"]
 |===

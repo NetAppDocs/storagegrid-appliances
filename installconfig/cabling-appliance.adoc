@@ -307,7 +307,7 @@ CAUTION: *Risk of exposure to laser radiation* -- Don't disassemble or remove an
 
 .About this task
 
-The figures show the two controllers in the SG5760, with the E4000 series storage controller on the top and the E5800SG controller on the bottom. In the SG5712, the E4000 series storage controller is to the left of the E5800SG controller when viewed from the back.
+The figures show the two controllers in the SG5860, with the E4000 series storage controller on the top and the E5800SG controller on the bottom. In the SG5812, the E4000 series storage controller is to the left of the E5800SG controller when viewed from the back.
 
 SG5860 connections:
 
@@ -392,9 +392,9 @@ a|
 Interconnect port 2 on the E5800SG controller
 |===
 
-. If you plan to use SANtricity System Manager, connect management port 1 (P1) on the 40800 controller (the RJ-45 port on the left) to the management network for SANtricity System Manager, using an Ethernet cable.
+. If you plan to use SANtricity System Manager, connect management port 1 (P1) on the E4000 controller (the RJ-45 port on the left) to the management network for SANtricity System Manager, using an Ethernet cable.
 +
-Don't use management port 2 (P2) on the E2800 controller (the RJ-45 port on the right). This port is reserved for technical support.
+Don't use management port 2 (P2) on the E4000 controller (the RJ-45 port on the right). This port is reserved for technical support.
 
 . If you plan to use the Admin Network for StorageGRID, connect management port 1 on the E5800SG controller (the RJ-45 port on the left) to the Admin Network, using an Ethernet cable.
 +

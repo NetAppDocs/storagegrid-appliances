@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storagegrid, sg6100, sgf6112, storage node, storage appliance, cover, install, installing, installation, reinstall, reinstalling, reinstallation
 summary: 'Remove the appliance cover to access internal components for maintenance, and replace the cover when you are finished.'
 ---
-= Replace SGF6112 cover
+= Replace SGF6112 or SG6100-CN cover
 :icons: font
 :imagesdir: ../media/
 
