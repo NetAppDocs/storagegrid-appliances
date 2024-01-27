@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storage node, storage appliance, raid, raid mode, change, changing, modify, DDP, ddp16, RAID 6
 summary: 'On some appliance models, you can change to a different RAID mode on the appliance to accommodate your storage and recovery requirements. You can only change the mode before deploying the appliance Storage Node.'
 ---
-= Optional: Change RAID mode (SG5760, SG5860, SG6000, SG6160)
+= Optional: Change RAID mode (SG5760, SG5860, SG6000, and SG6160)
 :icons: font
 :imagesdir: ../media/
 

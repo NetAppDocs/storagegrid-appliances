@@ -112,7 +112,7 @@ entries:
         url: "/installconfig/setting-up-email-notifications-for-alerts.html"
     - title: 'Optional: Enable node encryption'
       url: "/installconfig/optional-enabling-node-encryption.html"
-    - title: 'Optional: Change RAID mode (SG5760 and SG6000)'
+    - title: 'Optional: Change RAID mode (SG5760, SG5860, SG6000, and SG6160)'
       url: "/installconfig/optional-changing-raid-mode.html"
     - title: 'Optional: Remap network ports'
       url: "/installconfig/optional-remapping-network-ports-for-appliance.html"

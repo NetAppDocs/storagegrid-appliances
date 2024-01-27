@@ -311,7 +311,7 @@ The figures show the two controllers in the SG5860, with the E4000 series storag
 
 SG5860 connections:
 
-image::../media/sg5760_connections.gif[Connections on the SG5860 appliance]
+image::../media/sg5860_connections.png[Connections on the SG5860 appliance]
 
 
 [cols="1a,2a,2a,2a" options="header"]
@@ -589,7 +589,7 @@ The following figures show the ports on the back of the SGF6112 and the three co
 
 SG6160 connections:
 
-image::../media/sg6000_e2800_connections.png[SG6160 to E4000 Connections]
+*Image here*
 
 SGF6112
 
