@@ -170,6 +170,10 @@ NOTE: To comply with IATA safely regulations, replacement batteries are shipped 
 +
 image::../media/drw_E4000_open_controller_module_cover_IEOPS-870.png[Open controller module cover.]
 . Locate the battery in the controller canister.
+. Remove the failed battery from the controller canister:
+.. Press the blue button on the side of the controller canister.
+.. Slide the battery up until it clears the holding brackets, and then lift the battery out of the controller canister.
+.. Unplug the battery from the controller canister.
 +
 image::../media/drw_E4000_replace_nvbattery_IEOPS-862.png[Remove NVMEM battery.]
 +
@@ -179,10 +183,6 @@ a|
 image::../media/legend_icon_02.png[]
 |Battery power connector
 |===
-. Remove the failed battery from the controller canister:
-.. Press the blue button on the side of the controller canister.
-.. Slide the battery up until it clears the holding brackets, and then lift the battery out of the controller canister.
-.. Unplug the battery from the controller canister.
 . Remove the replacement battery from its package. Install the replacement battery:
 .. Plug the battery plug back into the socket on the controller canister.
 +
