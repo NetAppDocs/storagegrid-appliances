@@ -138,7 +138,7 @@ NOTE: Visually inspect the DIMM to verify that it is evenly aligned and fully in
 . Reinstall the controller canister cover.
 
 
-== Reinstall the controller canister
+== Step 5: Reinstall the controller canister
 
 Reinstall the controller canister into the chassis.
 
@@ -169,7 +169,7 @@ During the boot process, you might see the following prompts:
 * A prompt warning that when entering Maintenance mode in an HA configuration you must ensure that the healthy controller remains down. You can safely respond y to these prompts.
 
 
-== Step 7: Complete DIMMs replacement
+== Step 6: Complete DIMMs replacement
 
 Place the controller online, collect support data, and resume operations.
 
