@@ -39,9 +39,10 @@ Prepare to replace a controller canister by saving the drive security key, backi
 CAUTION: *Possible loss of data access* — If all drives in the storage array are security enabled, the new controller will not be able to access the storage array until you unlock the secured drives using the Enterprise Management Window in SANtricity Storage Manager.
 +
 To save the key (might not be possible, depending on the state of the controller):
+
 .. From SANtricity System Manager, select *Settings › System*.
 .. Under *Drive security key management*, select *Back Up Key*.
-.. In the *Define a pass phrase/Re-enter pass phrase *fields, enter and confirm a pass phrase for this backup copy.
+.. In the *Define a pass phrase/Re-enter pass phrase* fields, enter and confirm a pass phrase for this backup copy.
 .. Click *Backup*.
 .. Record your key information in a secure location, and then click *Close*.
 
@@ -64,6 +65,7 @@ The file is saved in the Downloads folder for your browser with the name, *confi
 . Collect support data for your storage array using SANtricity System Manager.
 +
 If a problem occurs when you remove a controller, you can use the saved file to troubleshoot the issue. The system will save inventory, status, and performance data about your storage array in a single file.
+
 .. *Select Support › Support Center › Diagnostics*.
 .. Select *Collect Support Data*.
 .. Click *Collect*.
@@ -71,7 +73,7 @@ If a problem occurs when you remove a controller, you can use the saved file to 
 The file is saved in the Downloads folder for your browser with the name, *support-data.7z*.
 . Ensure that no I/O operations are occurring between the storage array and all connected hosts. For example, you can perform these steps:
 
-**Stop all processes that involve the LUNs mapped from the storage to the hosts.
+** Stop all processes that involve the LUNs mapped from the storage to the hosts.
 ** Ensure that no applications are writing data to any LUNs mapped from the storage to the hosts.
 ** Unmount all file systems associated with volumes on the array.
 +
@@ -108,9 +110,9 @@ CAUTION: To prevent degraded performance, do not twist, fold, pinch, or step on 
 . Confirm that the Cache Active LED on the back of the controller is off.
 +
 The green Cache Active LED on the back of the controller is on when cached data needs to be written to the drives. You must wait for this LED to turn off before removing the controller canister.
-. Squeeze the latch on the cam handle until it releases, open the cam handle fully to release the controller module from the midplane, and then, using two hands, pull the controller module out of the chassis.
-. Turn the controller module over and place it on a flat, stable surface.
-. Open the cover by pressing the blue buttons on the sides of the controller module to release the cover, and then rotate the cover up and off of the controller module.
+. Squeeze the latch on the cam handle until it releases, open the cam handle fully to release the controller canister from the midplane, and then, using two hands, pull the controller canister out of the chassis.
+. Turn the controller canister over and place it on a flat, stable surface.
+. Open the cover by pressing the blue buttons on the sides of the controller canister to release the cover, and then rotate the cover up and off of the controller canister.
 
 === Step 2b: Remove the battery
 
@@ -118,23 +120,32 @@ Removed the battery from the impaired controller and install it in the replaceme
 
 .Steps
 
-. Remove the battery from the controller module:
-.. Press the blue button on the side of the controller module.
-.. Slide the battery up until it clears the holding brackets, and then lift the battery out of the controller module.
+. Remove the battery from the controller canister:
+.. Press the blue button on the side of the controller canister.
+.. Slide the battery up until it clears the holding brackets, and then lift the battery out of the controller canister.
 .. Unplug the battery plug by squeezing the clip on the face of the battery plug to release the plug from the socket, and then unplug the battery cable from the socket.
-. Move the battery to the replacement controller module and install it:
++
+image::../media/drw_E4000_replace_nvbattery_IEOPS-862.png[Remove NVMEM battery.]
++
+|===
+a|image::../media/legend_icon_01.png[] |Battery release tab
+a|
+image::../media/legend_icon_02.png[]
+|Battery power connector
+|===
+. Move the battery to the replacement controller canister and install it:
 .. Aligning the battery with the holding brackets on the sheet metal side wall.
 .. Slide the battery pack down until the battery latch engages and clicks into the opening on the side wall.
 +
-NOTE: Do not plug the battery in yet. You will plug it in once the rest of the components are moved to the replacement controller module.
+NOTE: Do not plug the battery in yet. You will plug it in once the rest of the components are moved to the replacement controller canister.
 
 === Step 2c: Remove the mezzanine card
 
-Remove the mezzanine bezel and PCIe mezzanine card from the impaired controller module.
+Remove the mezzanine bezel and PCIe mezzanine card from the impaired controller canister.
 
 .Steps
 
-. Remove the mezzanine card bezel by sliding it straight out from the controller module.
+. Remove the mezzanine card bezel by sliding it straight out from the controller canister.
 . Loosen the thumbscrews on the mezzanine card.
 +
 NOTE: You can loosen the thumbscrews with your fingers or a screwdriver.
@@ -142,24 +153,30 @@ NOTE: You can loosen the thumbscrews with your fingers or a screwdriver.
 
 === Step 2d: Move the boot media
 
-Remove the boot media from the impaired controller module and install it in the replacement controller module.
+Remove the boot media from the impaired controller canister and install it in the replacement controller canister.
 
 .Steps
 
-. After removing the mezzanine card, locate the boot media using the following illustration or the FRU map on the controller module:
+. After removing the mezzanine card, locate the boot media using the following illustration or the FRU map on the controller canister:
 . Remove the boot media:
 .. Press the blue button on the boot media housing to release the boot media from its housing.
 .. Rotate the boot media up, and then gently pull it straight out of the boot media socket.
 +
 NOTE: Do not twist or pull the boot media straight up, because this could damage the socket or the boot media.
-Install the the boot media to the replacement controller module:
++
+image::../media/drw_E4000_replace_boot_media_IEOPS-866.png[Remove boot media.]
++
+|===
+a|image::../media/legend_icon_01.png[] |Boot media release button
+|===
+Install the the boot media to the replacement controller canister:
 . Align the edges of the replacement boot media with the boot media socket, and then gently push it into the socket.
 .. Check the boot media to make sure that it is seated squarely and completely in the socket.
 .. If necessary, remove the boot media and reseat it into the socket.
 .. Push the blue locking button on the boot media housing, rotate the boot media all the way down, and then release the locking button to lock the boot media in place.
 
 === Step 2e: Install the mezzanine card in the replacement controller
-Install the mezzanine card in the replacement controller module.
+Install the mezzanine card in the replacement controller canister.
 
 .Steps
 
@@ -171,21 +188,32 @@ Install the mezzanine card in the replacement controller module.
 
 === Step 2f: Move the DIMMs
 
-Remove the DIMMs from the impaired controller module and install them into the replacement controller module.
+Remove the DIMMs from the impaired controller canister and install them into the replacement controller canister.
 
 .Steps
 
-. Locate the DIMMs on your controller module
+. Locate the DIMMs on your controller canister.
 +
-NOTE: Note the location of the DIMM in the sockets so that you can insert the DIMM in the same location in the replacement controller module and in the proper orientation.
-Remove the DIMMs from the impaired controller module:
+NOTE: Note the location of the DIMM in the sockets so that you can insert the DIMM in the same location in the replacement controller canister and in the proper orientation.
+Remove the DIMMs from the impaired controller canister:
+
 .. Eject the DIMM from its slot by slowly pushing apart the two DIMM ejector tabs on either side of the DIMM.
 +
 The DIMM will rotate up a little.
+
 .. Rotate the DIMM as far as it will go, and then slide the DIMM out of the socket.
 +
 NOTE: Carefully hold the DIMM by the edges to avoid pressure on the components on the DIMM circuit board.
-. Verify that the NVMEM battery is not plugged into the replacement controller module.
++
+image::../media/drw_E4000_replace_dimms_IEOPS-865.png[Remove DIMMS.]
++
+|===
+a|image::../media/legend_icon_01.png[] |DIMM ejector tabs
+a|
+image::../media/legend_icon_02.png[]
+|DIMMS
+|===
+. Verify that the NVMEM battery is not plugged into the replacement controller canister.
 . Install the DIMMs in the replacement controller in the same place they were in the impaired controller:
 .. Push carefully, but firmly, on the top edge of the DIMM until the ejector tabs snap into place over the notches at the ends of the DIMM.
 +
@@ -196,36 +224,36 @@ NOTE: Visually inspect the DIMM to verify that it is evenly aligned and fully in
 
 === Step 2g: Install the battery
 
-Install the NV battery into the replacement controller module.
+Install the NV battery into the replacement controller canister.
 
 .Steps
 
-. Plug the battery plug back into the socket on the controller module.
+. Plug the battery plug back into the socket on the controller canister.
 +
 Make sure that the plug locks down into the battery socket on the motherboard.
 . Aligning the battery with the holding brackets on the sheet metal side wall.
 . Slide the battery pack down until the battery latch engages and clicks into the opening on the side wall.
-. Reinstall the controller module cover and lock it into place.
+. Reinstall the controller canister cover and lock it into place.
 
 
 == Step 3: Install new controller
 
-Install the replacement controller module into the system chassis and boot ONTAP.
+Install the replacement controller canister into the system chassis and boot ONTAP.
 
 The system might update system firmware when it boots. Do not abort this process. The procedure requires you to interrupt the boot process, which you can typically do at any time after prompted to do so. However, if the system updates the system firmware when it boots, you must wait until after the update is complete before interrupting the boot process.
 If you are not already grounded, properly ground yourself.
 
 .Steps
 
-. If you have not already done so, replace the cover on the controller module.
-. Turn the controller module.
-. Align the end of the controller module with the opening in the chassis, and then gently push the controller module halfway into the system.
+. If you have not already done so, replace the cover on the controller canister.
+. Turn the controller canister.
+. Align the end of the controller canister with the opening in the chassis, and then gently push the controller canister halfway into the system.
 +
-NOTE: Do not completely insert the controller module in the chassis until instructed to do so.
-. Complete the reinstallation of the controller module:
-.. With the cam handle in the open position, firmly push the controller module in until it meets the midplane and is fully seated, and then close the cam handle to the locked position.
+NOTE: Do not completely insert the controller canister in the chassis until instructed to do so.
+. Complete the reinstallation of the controller canister:
+.. With the cam handle in the open position, firmly push the controller canister in until it meets the midplane and is fully seated, and then close the cam handle to the locked position.
 +
-NOTE: Do not use excessive force when sliding the controller module into the chassis to avoid damaging the connectors.
+NOTE: Do not use excessive force when sliding the controller canister into the chassis to avoid damaging the connectors.
 +
 The controller begins to boot as soon as it is seated in the chassis.
 ..If you have not already done so, reinstall the cable management device.

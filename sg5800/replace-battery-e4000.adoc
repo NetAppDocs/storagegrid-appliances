@@ -145,13 +145,13 @@ CAUTION: To prevent degraded performance, do not twist, fold, pinch, or step on 
 
 . If the host ports on the controller canister use SFP+ transceivers, leave them installed.
 . Confirm that the Cache Active LED on the back of the controller is off.
-. Squeeze the latch on the cam handle until it releases, open the cam handle fully to release the controller module from the midplane, and then, using two hands, pull the controller module half-way out of the chassis.
-. Check the NVMEM LED located on the back of the controller module. Look for the NV icon.
+. Squeeze the latch on the cam handle until it releases, open the cam handle fully to release the controller canister from the midplane, and then, using two hands, pull the controller canister half-way out of the chassis.
+. Check the NVMEM LED located on the back of the controller canister. Look for the NV icon.
 +
-NOTE: The green NV LED on the faceplate will start flashing when power is removed from the controller if the system was in the "waiting for giveback" state, or the system was not taken over or halted properly (uncommitted data). If the impaired controller module was not successfully taken over by the partner controller module, contact NetApp Support
+NOTE: The green NV LED on the faceplate will start flashing when power is removed from the controller if the system was in the "waiting for giveback" state, or the system was not taken over or halted properly (uncommitted data). If the impaired controller canister was not successfully taken over by the partner controller canister, contact NetApp Support
 
-** If the green NV status LED begins flashing when the controller module is removed from the chassis:
-*** Confirm that the controller had a clean takeover by the partner controller module or the impaired controller shows waiting for giveback, the flashing LED can be ignored and you can complete removing the impaired controller from the chassis.
+** If the green NV status LED begins flashing when the controller canister is removed from the chassis:
+*** Confirm that the controller had a clean takeover by the partner controller canister or the impaired controller shows waiting for giveback, the flashing LED can be ignored and you can complete removing the impaired controller from the chassis.
 ** If the green NV LED if off, you can complete removing the impaired controller from the chassis.
 
 == Step 3: Install the new battery
@@ -164,41 +164,52 @@ You must remove the failed battery and replace it.
 +
 NOTE: To comply with IATA safely regulations, replacement batteries are shipped with a state of charge (SoC) of 30 percent or less. When you reapply power, keep in mind that write caching will not resume until the replacement battery is fully charged and it has completed its initial learn cycle.
 . If you are not already grounded, properly ground yourself.
-. Remove the controller module from the chassis.
-. Turn the controller module over and place it on a flat, stable surface.
-. Open the cover by pressing the blue buttons on the sides of the controller module to release the cover, and then rotate the cover up and off of the controller module.
-. Locate the NVMEM battery in the controller module.
-. Remove the failed battery from the controller module:
-.. Press the blue button on the side of the controller module.
-.. Slide the battery up until it clears the holding brackets, and then lift the battery out of the controller module.
-.. Unplug the battery from the controller module
+. Remove the controller canister from the chassis.
+. Turn the controller canister over and place it on a flat, stable surface.
+. Open the cover by pressing the blue buttons on the sides of the controller canister to release the cover, and then rotate the cover up and off of the controller canister.
++
+image::../media/drw_E4000_open_controller_module_cover_IEOPS-870.png[Open controller module cover.]
+. Locate the battery in the controller canister.
++
+image::../media/drw_E4000_replace_nvbattery_IEOPS-862.png[Remove NVMEM battery.]
++
+|===
+a|image::../media/legend_icon_01.png[] |Battery release tab
+a|
+image::../media/legend_icon_02.png[]
+|Battery power connector
+|===
+. Remove the failed battery from the controller canister:
+.. Press the blue button on the side of the controller canister.
+.. Slide the battery up until it clears the holding brackets, and then lift the battery out of the controller canister.
+.. Unplug the battery from the controller canister.
 . Remove the replacement battery from its package. Install the replacement battery:
-.. Plug the battery plug back into the socket on the controller module.
+.. Plug the battery plug back into the socket on the controller canister.
 +
 Make sure that the plug locks down into the battery socket on the motherboard.
 .. Align the battery with the holding brackets on the sheet metal side wall.
 .. Slide the battery pack down until the battery latch engages and clicks into the opening on the side wall.
-. Reinstall the controller module cover and lock it into place.
+. Reinstall the controller canister cover and lock it into place.
 
 
-== Step 4: Reinstall the controller module
+== Step 4: Reinstall the controller canister
 
-After you replace components in the controller module, reinstall it into the chassis.
+After you replace components in the controller canister, reinstall it into the chassis.
 
 .Steps
 
 . If you are not already grounded, properly ground yourself.
-. If you have not already done so, replace the cover on the controller module.
-. Turn the controller module over and align the end with the opening in the chassis.
-. Align the end of the controller module with the opening in the chassis, and then gently push the controller module halfway into the system.
+. If you have not already done so, replace the cover on the controller canister.
+. Turn the controller canister over and align the end with the opening in the chassis.
+. Align the end of the controller canister with the opening in the chassis, and then gently push the controller canister halfway into the system.
 +
-NOTE: Do not completely insert the controller module in the chassis until instructed to do so.
+NOTE: Do not completely insert the controller canister in the chassis until instructed to do so.
 . Recable the system, as needed.
 . If you removed the media converters (QSFPs or SFPs), remember to reinstall them if you are using fiber optic cables.
-. Complete the reinstallation of the controller module:
-.. With the cam handle in the open position, firmly push the controller module in until it meets the midplane and is fully seated, and then close the cam handle to the locked position.
+. Complete the reinstallation of the controller canister:
+.. With the cam handle in the open position, firmly push the controller canister in until it meets the midplane and is fully seated, and then close the cam handle to the locked position.
 +
-NOTE: Do not use excessive force when sliding the controller module into the chassis to avoid damaging the connectors.
+NOTE: Do not use excessive force when sliding the controller canister into the chassis to avoid damaging the connectors.
 +
 The controller begins to boot as soon as it is seated in the chassis.
 .. If you have not already done so, reinstall the cable management device.

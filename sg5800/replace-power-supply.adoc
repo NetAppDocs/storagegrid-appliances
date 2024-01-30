@@ -37,7 +37,7 @@ Prepare to replace a power supply in a 12-drive or 24-drive controller shelf or 
 .Steps
 
 . Collect support data for your storage array using SANtricity System Manager.
- .. Select menu:Support[Support Center > Diagnostics].
+ .. Select *Support > Support Center > Diagnostics*.
  .. Select *Collect Support Data*.
  .. Click *Collect*.
 +
@@ -113,7 +113,7 @@ Confirm that the new power supply is working correctly, gather support data, and
 . If a failed power supply is still being reported, repeat the steps in <<Step 2: Remove failed power supply>>, and in <<Step 3: Install new power supply>>. If the problem continues to persist, contact technical support.
 . Remove the antistatic protection.
 . Collect support data for your storage array using SANtricity System Manager.
- .. Select menu:Support[Support Center > Diagnostics].
+ .. Select *Support > Support Center > Diagnostics*.
  .. Select *Collect Support Data*.
  .. Click *Collect*.
 +

@@ -66,6 +66,7 @@ NOTE:	Always use two hands to support the weight of the controller.
 . Power on the appliance, and monitor the controller LEDs and seven-segment displays.
 +
 After the controllers have successfully booted up, the seven-segment displays should show the following:
+
 ** E2800 series controller:
 +
 The final state is 99.
