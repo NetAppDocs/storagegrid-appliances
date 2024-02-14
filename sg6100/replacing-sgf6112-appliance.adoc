@@ -1,0 +1,166 @@
+---
+permalink: sg6100/replacing-sgf6112-appliance.html
+sidebar: sidebar
+keywords: storagegrid, sgf6112, Replacing, replace, remove, removing, removal, install, installing, installation
+summary: 'You might need to replace the appliance if it is not functioning optimally or if it has failed.'
+---
+
+= Replace SGF6112 appliance
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You might need to replace the appliance if it is not functioning optimally or if it has failed.
+
+// Same procedure for SG110 and SG1100 - unable to use includes due to specific links in steps.
+
+.Before you begin
+
+* You have a replacement appliance with the same part number as the appliance you are replacing.
+* You have labels to identify each cable that is connected to the appliance.
+* You have link:locating-sgf6112-in-data-center.html[physically located the appliance].
+
+.About this task
+
+The StorageGRID node will not be accessible while you replace the appliance. If the appliance is functioning sufficiently, you can perform a controlled shutdown at the start of this procedure.
+
+NOTE: If you are replacing the appliance before installing StorageGRID software, you might not be able to access the StorageGRID Appliance Installer immediately after completing this procedure. While you can access the StorageGRID Appliance Installer from other hosts on the same subnet as the appliance, you can't access it from hosts on other subnets. This condition should resolve itself within 15 minutes (when any ARP cache entries for the original appliance time out), or you can clear the condition immediately by purging any old ARP cache entries manually from the local router or gateway.
+
+.Steps
+. Display the current configurations of the appliance and record them.
+.. Log in to the appliance to be replaced:
+  ... Enter the following command: `ssh admin@_grid_node_IP_`
+  ... Enter the password listed in the `Passwords.txt` file.
+  ... Enter the following command to switch to root: `su -`
+  ... Enter the password listed in the `Passwords.txt` file.
++
+When you are logged in as root, the prompt changes from `$` to `#`.
+.. Enter: `*run-host-command ipmitool lan print*` to display the current BMC configurations for the appliance.
+. link:power-sgf6112-off-on.html#shut-down-the-sgf6112-appliance[Shut down the appliance].
+
+. If any of the network interfaces on this StorageGRID appliance are configured for DHCP, you need to update the permanent DHCP lease assignments on the DHCP servers to reference the MAC addresses of the replacement appliance. This ensures that the appliance is assigned the expected IP addresses. 
++
+Contact your network or DHCP-server administrator to update the permanent DHCP lease assignments. The administrator can determine the MAC addresses of the replacement appliance from the DHCP server logs or by inspecting the MAC address tables in the switches to which the appliance Ethernet ports are connected.
+
+. Remove and replace the appliance:
+ .. Label the cables and then disconnect the cables and any network transceivers.
++
+NOTE: To prevent degraded performance, don't twist, fold, pinch, or step on the cables.
+
+ .. link:reinstalling-sgf6112-into-cabinet-or-rack.html[Remove the failed appliance from the cabinet or rack].
+ .. Note the position of the replaceable components (two power supplies, three NICs, and twelve SSDs) in the failed appliance.
++
+The twelve drives are in the following positions in the chassis (front of chassis with bezel removed shown): 
++
+image::../media/sgf6112_ssds_locations.png[Fan locations]
++
+[options="header"]
+|===
+|| Drive  
+a|
+1
+a|
+HDD00
+a|
+2
+a|
+HDD01
+a|
+3
+a|
+HDD02
+a|
+4
+a|
+HDD03
+a|
+5
+a|
+HDD04
+a|
+6
+a|
+HDD05
+a|
+7
+a|
+HDD06
+a|
+8
+a|
+HDD07
+a|
+9
+a|
+HDD08
+a|
+10
+a|
+HDD09
+a|
+11
+a|
+HDD10
+a|
+12
+a|
+HDD11
+|=== 
+ .. Transfer the replaceable components to the replacement appliance. 
++
+Follow the maintenance instructions provided for reinstalling the replaceable components.
++
+CAUTION: If you wish to retain the data on the drives, be sure to insert the SSD drives into the same drive slots they occupied in the failed appliance. If you don't, the Appliance Installer will display a warning message and you will have to put the drives into the correct slots and reboot the appliance before the appliance can rejoin the grid.  
+ .. link:reinstalling-sgf6112-into-cabinet-or-rack.html[Install the replacement appliance into the cabinet or rack].
+ .. Replace the cables and any optical transceivers.
+
+ . Power on the appliance. 
+ 
+ . If the appliance you replaced had hardware drive encryption enabled for the SED drives, you must link:optional-enabling-node-encryption.html#access-an-encrypted-drive[enter the drive encryption passphrase] to access the encrypted drives when the replacement appliance starts for the first time.
+ 
+ . Wait for the appliance to rejoin the grid. If the appliance does not rejoin the grid, follow the guidance on the StorageGRID Appliance Installer home page to address any issues.
++
+WARNING: To prevent data loss if the Appliance Installer indicates that physical hardware changes are required, such as moving disk drives to different slots, power down the appliance before making hardware changes.
+
+. If the appliance you replaced used a key management server (KMS) to manage encryption keys for node encryption, additional configuration might be required before the node can join the grid. If the node does not automatically join the grid, make sure that these configuration settings have transferred to the new appliance and manually configure any settings that don't have the expected configuration:
+** link:../installconfig/accessing-storagegrid-appliance-installer.html[Configure StorageGRID connections]  
+** https://docs.netapp.com/us-en/storagegrid-118/admin/kms-overview-of-kms-and-appliance-configuration.html#set-up-the-appliance[Configure node encryption for the appliance^]
+
+. Log in to the replaced appliance:
+  .. Enter the following command: `ssh admin@_grid_node_IP_`
+  .. Enter the password listed in the `Passwords.txt` file.
+  .. Enter the following command to switch to root: `su -`
+  .. Enter the password listed in the `Passwords.txt` file.
+. Restore BMC network connectivity for the replaced appliance. There are two options: 
+* Use static IP, netmask, and gateway 
+* Use DHCP to obtain an IP, netmask, and gateway
+
+.. To restore the BMC configuration to use a static IP, netmask, and gateway, enter the following commands:
++
+`*run-host-command ipmitool lan set 1 ipsrc static*`
++
+`*run-host-command ipmitool lan set 1 ipaddr _Appliance_IP_*`
++
+`*run-host-command ipmitool lan set 1 netmask _Netmask_IP_*`
++
+`*run-host-command ipmitool lan set 1 defgw ipaddr _Default_gateway_*`
+
+.. To restore the BMC configuration to use DHCP to obtain an IP, netmask, and gateway, enter the following command: 
++
+`*run-host-command ipmitool lan set 1 ipsrc dhcp*`
+
+. After restoring BMC network connectivity, connect to the BMC interface to audit and restore any additional custom BMC configuration you might have applied. For example, you should confirm the settings for SNMP trap destinations and email notifications. See link:../installconfig/configuring-bmc-interface.html[Configure BMC interface].
+. Confirm that the appliance node appears in the Grid Manager and that no alerts appear.
+
+.After you finish
+
+include::../_include/fru-statement.adoc[]
+
+.Related information
+
+link:../installconfig/viewing-status-indicators.html[View status indicators]
+
+link:../installconfig/troubleshooting-hardware-installation-sg6100.html#view-error-codes[View boot-up codes for appliance]
+
+// 2023 DEC 21, SGRIDDOC-30
+// 2023 OCT 11, SGRIDDOC-12

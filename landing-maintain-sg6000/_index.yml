@@ -1,0 +1,39 @@
+indexpage:
+   tiles:
+    - title: Frequently performed procedures
+      links:
+        - title: Turn location LED on or off
+          url: "../sg6000/turning-controller-identify-led-on-and-off.html"
+        - title: Locate appliance in data center
+          url: "../sg6000/locating-controller-in-data-center.html"
+        - title: Power appliance off and on
+          url: "../sg6000/power-sg6000-cn-controller-off-on.html"
+        - title: Change link configuration
+          url: "../sg6000/changing-link-configuration-of-sg6000-cn-controller.html" 
+        - title: Upgrade SANtricity
+          url: "../sg6000/upgrading-santricity-os-on-storage-controllers.html"
+        - title: Upgrade drive firmware
+          url: "../sg6000/upgrading-drive-firmware-using-santricity-system-manager.html"
+    - title: Rack procedures
+      links:
+        - title: Replace controller in rack
+          url: "../sg6000/reinstalling-sg6000-cn-controller-into-cabinet-or-rack.html"
+        - title: Add expansion shelf
+          url: "../sg6000/adding-expansion-shelf-to-deployed-sg6060.html"
+    - title: Hardware procedures
+      links:
+        - title: Replace controller cover
+          url: "../sg6000/reinstalling-sg6000-cn-controller-cover.html"
+        - title: Replace storage controller
+          url: "../sg6000/replacing-storage-controller-sg6000.html"
+        - title: Replace storage controller components
+          url: "../sg6000/replacing-hardware-components-in-storage-controller-shelf.html"
+        - title: Replace 60-drive expansion shelf components
+          url: "../sg6000/replacing-hardware-components-in-optional-60-drive-expansion-shelf.html"
+        - title: Replace SG6000-CN controller
+          url: "../sg6000/replacing-sg6000-cn-controller.html"
+        - title: Replace power supply
+          url: "../sg6000/replacing-one-or-both-power-supplies-in-sg6000-cn-controller.html"
+        - title: Replace Fibre Channel HBA
+          url: "../sg6000/reinstalling-fibre-channel-hba.html"
+          

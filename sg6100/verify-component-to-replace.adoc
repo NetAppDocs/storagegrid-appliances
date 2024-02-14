@@ -1,0 +1,18 @@
+---
+permalink: sg6100/verify-component-to-replace.html
+sidebar: sidebar
+keywords: sgf6112
+summary: 'If you are unsure which hardware component to replace in your appliance, complete this procedure to identify the component and the location of the appliance in the data center.'
+---
+= Verify component to replace in the SGF6112
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+If you are unsure which hardware component to replace in your appliance, complete this procedure to identify the component and the location of the appliance in the data center.
+
+include::../_include/2023-verify-component.adoc[]
+
+.Related information
+
+link:turning-sgf6112-identify-led-on-and-off.html[Turn on the appliance identify LED]

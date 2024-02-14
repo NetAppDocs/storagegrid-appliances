@@ -1,0 +1,37 @@
+---
+permalink: sg6100/replacing-fan-in-sgf6112.html
+sidebar: sidebar
+keywords: storagegrid, sgf6112, storage appliance, Replacing, replace, fan, remove, removing, removal, install, installing
+summary: 'The SGF6112 appliance has eight cooling fans. If one of the fans fails, you must replace it as soon as possible to ensure that the appliance has proper cooling.'
+---
+= Replace fan in an SGF6112
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The SGF6112 appliance has eight cooling fans. If one of the fans fails, you must replace it as soon as possible to ensure that the appliance has proper cooling.
+
+.Before you begin
+
+* You have the correct replacement fan.
+* You have link:verify-component-to-replace.html[determined the location of the fan to replace].
+* You have link:locating-sgf6112-in-data-center.html[physically located the SGF6112 appliance] where you are replacing the fan in the data center.
++
+NOTE: A link:power-sgf6112-off-on.html#shut-down-the-sgf6112-appliance[controlled shutdown of the appliance] is required before removing the appliance from the rack.
+
+* You have disconnected all cables and link:reinstalling-sgf6112-cover.html[removed the appliance cover].
+
+* You have confirmed that the other fans are installed and running.
+
+include::../_include/2023-replace-fan.adoc[]
+
+.After you finish
+
+. link:reinstalling-sgf6112-cover.html[Put the top cover back on the appliance], and press the latch down to secure the cover in place.
+. link:power-sgf6112-off-on.html[Power on the appliance] and monitor the appliance LEDs and boot-up codes.
++
+Use the BMC interface to monitor boot-up status.
+
+. Confirm that the appliance node appears in the Grid Manager and that no alerts appear.
+
+include::../_include/fru-statement.adoc[] 

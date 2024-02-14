@@ -1,0 +1,126 @@
+---
+permalink: sg6000/reinstalling-fibre-channel-hba.html
+sidebar: sidebar
+keywords: storagegrid, sg6000, storage node, storage appliance, sg6000-cn, hba, host bus adapter, fibre channel, fiber channel, install, installing, installation, reinstall, reinstalling, reinstallation, remove, removing, removal, locate, identify, find 
+summary: 'You might need to replace a Fibre Channel HBA if it is not functioning optimally or if it has failed.'
+---
+
+= Replace Fibre Channel HBA in SG6000
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You might need to replace a Fibre Channel HBA if it is not functioning optimally or if it has failed.
+
+== Verify Fibre Channel HBA to replace
+
+If you are unsure which Fibre Channel host bus adapter (HBA) to replace, complete this procedure to identify it.
+
+.Before you begin
+
+* You have the serial number of the storage appliance or SG6000-CN controller where the Fibre Channel HBA needs to be replaced.
++
+NOTE: If the serial number of the storage appliance containing the Fibre Channel HBA you are replacing starts with the letter Q, it will not be listed in the Grid Manager. You must check the tags attached to the front of each SG6000-CN controller in the data center until you find a match.
+
+* You are signed in to the Grid Manager using a https://docs.netapp.com/us-en/storagegrid-118/admin/web-browser-requirements.html[supported web browser^].
+
+.Steps
+
+. From the Grid Manager, select *NODES*.
+. From the table on the Nodes page, select an appliance Storage Node.
+. Select the *Hardware* tab.
++
+Check the *Storage appliance chassis serial number* and the *Compute controller serial number* in the StorageGRID Appliance section. See if one of these serial numbers matches the serial number of the storage appliance where you are replacing the Fibre Channel HBA. If either serial number matches, you have found the correct appliance.
++
+image::../media/nodes_page_hardware_tab_for_appliance_verify_HBA.png[Appliance section for Fibre Channel HCA]
+
+ ** If the StorageGRID Appliance section does not display, the node selected is not a StorageGRID appliance. Select a different node from the tree view.
+ ** If the Appliance Model is not SG6060 or SG6060X, select a different node from the tree view.
+ ** If the serial numbers don't match, select a different node from the tree view.
+
+. After you locate the node where the Fibre Channel HBA needs to be replaced, write down the Compute controller BMC IP address listed the StorageGRID Appliance section.
++
+You can use this IP address to link:turning-controller-identify-led-on-and-off.html[turn on the compute controller identify LED], to help you locate the appliance in the data center.
+
+== Remove Fibre Channel HBA
+
+You might need to replace the Fibre Channel host bus adapter (HBA) in the SG6000-CN controller if it is not functioning optimally or if it has failed.
+
+.Before you begin
+
+* You have the correct replacement Fibre Channel HBA.
+
+* You have link:reinstalling-fibre-channel-hba.html#verify-fibre-channel-hba-to-replace[determined which SG6000-CN controller contains the Fibre Channel HBA to replace].
+
+* You have link:locating-controller-in-data-center.html[physically located the SG6000-CN controller] in the data center.
+
+* You have link:power-sg6000-cn-controller-off-on.html#shut-down-sg6000-cn-controller[shut down the SG6000-CN controller].
++
+CAUTION: A controlled shutdown is required before you remove the controller from the rack.
+
+* You have link:reinstalling-sg6000-cn-controller-into-cabinet-or-rack.html#remove-sg6000-cn-controller-from-cabinet-or-rack[removed the controller from the cabinet or rack].
+
+* You have link:reinstalling-sg6000-cn-controller-cover.html#remove-sg6000-cn-controller-cover[removed the controller cover].
+
+.About this task
+
+To prevent service interruptions, confirm that all other Storage Nodes are connected to the grid before starting the Fibre Channel HBA replacement or replace the adapter during a scheduled maintenance window when periods of service disruption are acceptable. See the information about https://docs.netapp.com/us-en/storagegrid-118/monitor/monitoring-system-health.html#monitor-node-connection-states[monitoring node connection states^].
+
+CAUTION: If you have ever used an ILM rule that creates only one copy of an object, you must replace the Fibre Channel HBA during a scheduled maintenance window. Otherwise, you might temporarily lose access to those objects during this procedure. +
+See information about https://docs.netapp.com/us-en/storagegrid-118/ilm/why-you-should-not-use-single-copy-replication.html[why you should not use single-copy replication^].
+
+.Steps
+
+. Wrap the strap end of the ESD wristband around your wrist, and secure the clip end to a metal ground to prevent static discharge.
+. Locate the riser assembly at the rear of the controller that contains the Fibre Channel HBA.
++
+image::../media/sg6060_riser_assembly_location.jpg[SG6060 riser assembly location]
+
+. Grasp the riser assembly through the blue-marked holes and carefully lift it upwards. Move the riser assembly toward the front of the chassis as you lift it to allow the external connectors in its installed adapters to clear the chassis.
+. Place the riser card on a flat anti-static surface with the metal frame side down to access the adapters.
++
+image::../media/sg6060_fc_hba_location.jpg[SG6060 Fibre Channel HBA in riser assembly]
++
+There are two adapters in the riser assembly: a Fibre Channel HBA and an Ethernet network adapter. The Fibre Channel HBA is indicated in the illustration.
+
+. Open the blue adapter latch (circled) and carefully remove the Fibre Channel HBA from the riser assembly. Rock the adapter slightly to help remove the adapter from its connector. Don't use excessive force.
+. Place the adapter on a flat anti-static surface.
+
+.After you finish
+
+link:reinstalling-fibre-channel-hba.html[Install the replacement Fibre Channel HBA].
+
+include::../_include/fru-statement.adoc[] 
+
+== Reinstall Fibre Channel HBA
+
+The replacement Fibre Channel HBA is installed into the same location as the one that was removed.
+
+.Before you begin
+
+* You have the correct replacement Fibre Channel HBA.
+* You have removed the existing Fibre Channel HBA.
++
+link:reinstalling-fibre-channel-hba.html#remove-fibre-channel-hba[Remove Fibre Channel HBA]
+
+.Steps
+
+. Wrap the strap end of the ESD wristband around your wrist, and secure the clip end to a metal ground to prevent static discharge.
+. Remove the replacement Fibre Channel HBA from its packaging.
+. With the blue adapter latch in the open position, align the Fibre Channel HBA with its connector on the riser assembly; then, carefully press the adapter into the connector until it is fully seated.
++
+image::../media/sg6060_fc_hba_location.jpg[SG6060 Fibre Channel HBA in riser assembly]
++
+There are two adapters in the riser assembly: a Fibre Channel HBA and an Ethernet network adapter. The Fibre Channel HBA is indicated in the illustration.
+
+. Locate the alignment hole on the riser assembly (circled) that aligns with a guide pin on the system board to ensure correct riser assembly positioning.
++
+image::../media/sg6060_riser_alignment_hole.jpg[Alignment hole on SG6060 riser assembly]
+
+. Position the riser assembly in the chassis, making sure that it aligns with the connector and guide pin on the system board; then, insert the riser assembly.
+. Carefully press the riser assembly in place along its center line, next to the blue-marked holes, until it is fully seated.
+. Remove the protective caps from the Fibre Channel HBA ports where you will be reinstalling cables.
+
+.After you finish
+
+If you have no other maintenance procedures to perform in the controller, link:reinstalling-sg6000-cn-controller-cover.html[reinstall the controller cover].

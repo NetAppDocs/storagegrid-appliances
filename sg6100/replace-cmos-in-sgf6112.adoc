@@ -1,0 +1,30 @@
+---
+permalink: sg6100/replace-cmos-in-sgf6112.html
+sidebar: sidebar
+keywords: storagegrid, sg6100, SGF6112, storage node, storage appliance, Replacing, replace, CMOS, battery
+summary: 'Use this procedure to replace the CMOS coin cell battery on the system board.'
+---
+= Replace SGF6112 CMOS battery
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Use this procedure to replace the CMOS coin cell battery on the system board.
+
+Use these procedures to: 
+
+* Remove the CMOS battery
+* Reinstall the CMOS battery
+
+== Remove the CMOS battery
+
+.Before you begin
+
+* You have link:verify-component-to-replace.html[verified the appliance where the CMOS battery needs to be replaced].
+* You have link:locating-sgf6112-in-data-center.html[physically located the SGF6112 appliance] where you are replacing the CMOS battery in the data center.
++
+NOTE: A link:power-sgf6112-off-on.html#shut-down-the-sgf6112-appliance[controlled shutdown of the appliance] is required before removing the appliance from the rack.
+
+* You have disconnected all cables and link:reinstalling-sgf6112-cover.html[removed the appliance cover].
+
+include::../_include/2023-replace-cmos.adoc[]

@@ -1,0 +1,4 @@
+---
+permalink: installconfig/viewing-boot-up-codes-for-sgf6112.html
+redirect: storagegrid-appliances/installconfig/troubleshooting-hardware-installation-sg6100.html#view-boot-up-codes
+---

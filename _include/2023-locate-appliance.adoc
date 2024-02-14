@@ -1,0 +1,16 @@
+// Locate appliance SGF6112, SG110, SG1100
+// Intro and before you begin are in referencing topic
+
+.Steps
+
+. Find the appliance in the data center.
+ ** Look for a lit blue identify LED on the front or rear of the appliance.
++
+The front identify LED is behind the front bezel and might be difficult to see if the bezel is installed.
++
+image::../media/sgf6112_front_panel_service_led_on.png[Front identify LED - on]
++
+The rear identify LED is at the center of the appliance below the Micro-SD slot.
+
+ ** Check the tags attached to the front of the appliance for a matching part number to confirm you have found the correct appliance.
+. Remove the front bezel, if one is installed, to access the front panel controls and indicators.

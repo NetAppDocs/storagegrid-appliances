@@ -1,0 +1,30 @@
+---
+permalink: installconfig/configuring-bmc-interface.html
+sidebar: sidebar
+keywords: BMC, baseboard management controller, configure, setup, set up
+summary: 'The user interface for the baseboard management controller \(BMC\) on the SG6100, SG6000, or services appliance provides status information about the hardware and allows you to configure SNMP settings and other options for the appliances.'
+---
+= BMC interface: Overview (SG100, SG1000, SG6000, and SG6100)
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The user interface for the baseboard management controller (BMC) on the SG6100, SG6000, or services appliance provides status information about the hardware and allows you to configure SNMP settings and other options for the appliances.
+
+Use the following procedures in this section to configure the BMC when you install the appliance:
+
+* link:../installconfig/changing-root-password-for-bmc-interface.html[Change admin or root password for BMC interface]
+* link:../installconfig/setting-ip-address-for-bmc-management-port.html[Set IP address for BMC management port]
+* link:../installconfig/accessing-bmc-interface.html[Access BMC interface]
+* link:../installconfig/configuring-snmp-settings-for-bmc.html[Configure SNMP settings]
+* link:../installconfig/setting-up-email-notifications-for-alerts.html[Set up email notifications for BMC alerts]
+
+[NOTE]
+====
+If the appliance has already been installed into a grid and is running StorageGRID software, use the following procedures:
+
+* link:../commonhardware/placing-appliance-into-maintenance-mode.html[Place the appliance into maintenance mode] to access the StorageGRID appliance installer.
+* See link:../installconfig/setting-ip-address-for-bmc-management-port.html[Set IP address for BMC management port] for information about accessing the BMC interface using the StorageGRID Appliance Installer.
+====
+
+// 2023 NOV 28, SGRIDDOC-26

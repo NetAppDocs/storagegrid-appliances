@@ -1,0 +1,19 @@
+indexpage:
+   tiles:
+    - title: Frequently performed procedures
+      links:
+        - title: Change link configuration
+          url: "../sg5700/changing-link-configuration-of-e5700sg-controller.html" 
+        - title: Upgrade SANtricity
+          url: "../sg5700/upgrading-santricity-os-on-storage-controller.html"
+        - title: Upgrade drive firmware
+          url: "../sg5700/upgrading-drive-firmware-using-santricity-system-manager.html"
+    - title: Hardware procedures
+      links:
+        - title: Replace E2800 series storage controller
+          url: "../sg5700/replacing-e2800-controller.html"
+        - title: Replace E5700SG compute controller
+          url: "../sg5700/replacing-e5700sg-controller.html"
+        - title: Replace other SG5700 components
+          url: "../sg5700/replacing-other-hardware-components-sg5700.html"
+          

@@ -1,0 +1,18 @@
+---
+sidebar: sidebar
+permalink: commonhardware/software-based-node-maintenance.html
+keywords: software based node maintenance
+summary: 'Software-based node maintenance.'
+---
+
+= Software-based node maintenance
+
+
+
+
+:icons: font
+
+:imagesdir: ../media/
+
+[.lead]
+Software-based node maintenance. Is there anything that goes here?

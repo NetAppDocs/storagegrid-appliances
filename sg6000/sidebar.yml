@@ -1,0 +1,51 @@
+section: sg6000
+title: Maintain SG6000 hardware
+url: "/landing-maintain-sg6000/index.html"
+entries:
+  - title: Overview
+    pdf-filename: SG6000 hardware maintenance
+    url: "/sg6000/index.html"
+  - title: Maintenance configuration procedures
+    pdf-filename: Maintenance configuration procedures - SG6000
+    entries:
+    - title: Upgrade SANtricity OS on storage controllers
+      url: "/sg6000/upgrading-santricity-os-on-storage-controllers.html"
+      entries:
+      - title: Upgrade SANtricity OS on storage controllers using Grid Manager
+        url: "/sg6000/upgrading-santricity-os-on-storage-controllers-using-grid-manager-sg6000.html"
+      - title: Upgrade SANtricity OS on storage controllers using maintenance mode
+        url: "/sg6000/upgrading-santricity-os-on-storage-controllers-using-maintenance-mode-sg6000.html"
+    - title: Upgrade drive firmware using SANtricity System Manager
+      url: "/sg6000/upgrading-drive-firmware-using-santricity-system-manager.html"
+    - title: Turn controller identify LED on and off
+      url: "/sg6000/turning-controller-identify-led-on-and-off.html"
+    - title: Locate controller in data center
+      url: "/sg6000/locating-controller-in-data-center.html"
+    - title: Power controller off and on
+      url: "/sg6000/power-sg6000-cn-controller-off-on.html"
+    - title: Change link configuration of SG6000-CN controller
+      url: "/sg6000/changing-link-configuration-of-sg6000-cn-controller.html"
+
+
+  - title: Hardware procedures
+    pdf-filename: Hardware procedures - SG6000
+    entries: 
+    - title: Add expansion shelf to deployed SG6060
+      url: "/sg6000/adding-expansion-shelf-to-deployed-sg6060.html"
+    - title: Replace storage controller
+      url: "/sg6000/replacing-storage-controller-sg6000.html"
+    - title: Replace hardware components in storage controller shelf
+      url: "/sg6000/replacing-hardware-components-in-storage-controller-shelf.html"
+    - title: Replace hardware components in optional 60-drive expansion shelf
+      url: "/sg6000/replacing-hardware-components-in-optional-60-drive-expansion-shelf.html"
+    - title: Replace SG6000-CN controller
+      url: "/sg6000/replacing-sg6000-cn-controller.html"
+    - title: Replace one or both power supplies in the SG6000-CN controller
+      url: "/sg6000/replacing-one-or-both-power-supplies-in-sg6000-cn-controller.html"
+    - title: Replace controller in rack
+      url: "/sg6000/reinstalling-sg6000-cn-controller-into-cabinet-or-rack.html"
+    - title: Replace controller cover
+      url: "/sg6000/reinstalling-sg6000-cn-controller-cover.html"
+    - title: Replace Fibre Channel HBA in SG6000-CN controller
+      url: "/sg6000/reinstalling-fibre-channel-hba.html"
+
