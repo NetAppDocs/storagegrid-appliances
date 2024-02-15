@@ -35,7 +35,7 @@ Replacement appliances must be the same type as the source node they are replaci
 
 * A replacement services appliance can be different than the Admin Node or Gateway Node it is replacing.
  ** You can clone an SG100 source node appliance to an SG110, SG1000, or SG1100 services target appliance. Cloning the SG100 to an SG1000 or SG1100 services target appliance gives the Admin Node or Gateway Node greater capability.
- ** You can clone an SG110 source node appliance to an SG1100 services target appliance to give the Admin Node or Gateway Node greater capability.
+ ** You can clone an SG110 source node appliance to an SG1100 services appliance target to give the Admin Node or Gateway Node greater capability.
  ** You can clone an SG1000 source node appliance to an SG100, SG110, or SG1100 services target appliance. Cloning the SG1000 to an SG100 or SG110 services target appliance lets you redeploy the SG1000 for a more demanding application.
  ** You can clone an SG1100 source node appliance to an SG110 services target appliance to redeploy the SG1100 for a more demanding application.
 +
