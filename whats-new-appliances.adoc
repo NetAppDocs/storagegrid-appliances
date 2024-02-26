@@ -15,5 +15,5 @@ summary: "Learn what's new in this doc site."
 Learn what's new for StorageGRID appliances.
 
 == SGF6112 all-flash appliance
-The new StorageGRID SGF6112 storage appliance features a compact design with compute controller and storage controller integrated into a 1U chassis. The appliance supports 12 SSD NVMe drives with a storage capacity of up to 15.3 TB per drive. The SSD drives are in a RAID that provides resilient object storage. See link:../installconfig/hardware-description-sg6100.html[SGF6112 appliance: Overview].
+The new StorageGRID SGF6112 storage appliance features a compact design with compute controller and storage controller integrated into a 1U chassis. The appliance supports 12 SSD NVMe drives with a storage capacity of up to 15.3 TB per drive. The SSD drives are in a RAID that provides resilient object storage. See link:installconfig/hardware-description-sg6100.html[SGF6112 appliance: Overview].
 

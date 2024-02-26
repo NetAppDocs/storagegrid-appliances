@@ -5,9 +5,9 @@ indexpage:
         - title: What's new for appliances
           url: "../whats-new-appliances.html"
         - title: Learn about StorageGRID
-          url: https://review.docs.netapp.com/us-en/storagegrid-118_main/primer/index.html
+          url: https://docs.netapp.com/us-en/storagegrid-118/primer/index.html
         - title: StorageGRID quick start
-          url: "https://review.docs.netapp.com/us-en/storagegrid-118_main/quick-start.html"
+          url: "https://docs.netapp.com/us-en/storagegrid-118/quick-start.html"
         - title: Quick start for appliance installation
           url: ../installconfig/index.html
     - title: Learn about storage appliances

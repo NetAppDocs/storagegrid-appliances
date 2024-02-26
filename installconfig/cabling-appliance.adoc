@@ -61,14 +61,14 @@ image::../media/sg1000_connections.png[SG1000 port connections]
 |Admin Network port on the appliance (labeled P1 in the figures)
 |1-GbE (RJ-45)
 
-*Important:* This port operates only at 1000 baseT/full and does not support 10- or 100-megabit speeds.
+*Caution:* This port operates only at 1000 baseT/full and does not support 10- or 100-megabit speeds.
 |Connects the appliance to the Admin Network for StorageGRID.
 
 |
 |Rightmost RJ-45 port on the appliance
 |1-GbE (RJ-45)
 
-*Important:* This port operates only at 1000 baseT/full and does not support 10- or 100-megabit speeds.
+*Caution:* This port operates only at 1000 baseT/full and does not support 10- or 100-megabit speeds.
 |
 * Can be bonded with management port 1 if you want a redundant connection to the Admin Network.
 * Can be left disconnected and available for temporary local access (IP 169.254.0.1).
@@ -497,14 +497,14 @@ image::../media/sg6000_ef570_connections.png[SG6000 to SGF570 Connections]
 |Admin Network port on the SG6000-CN controller (labeled P1 in the figure)
 |1-GbE (RJ-45)
 
-*Important:* This port operates only at 1000 baseT/full and does not support 10- or 100-megabit speeds.
+*Caution:* This port operates only at 1000 baseT/full and does not support 10- or 100-megabit speeds.
 |Connects the SG6000-CN controller to the Admin Network for StorageGRID.
 
 |
 |Rightmost RJ-45 port on the SG6000-CN controller
 |1-GbE (RJ-45)
 
-*Important:* This port operates only at 1000 baseT/full and does not support 10- or 100-megabit speeds.
+*Caution:* This port operates only at 1000 baseT/full and does not support 10- or 100-megabit speeds.
 |
 * Can be bonded with management port 1 if you want a redundant connection to the Admin Network.
 * Can be left unwired and available for temporary local access (IP 169.254.0.1).
@@ -621,14 +621,14 @@ SG6160: Eight total 10/25 GbE ports
 |Admin Network port on the appliance (labeled P1 in the figure)
 |1-GbE (RJ-45)
 
-*Important:* This port operates only at 1/10-GbE (RJ-45) and does not support 100-megabit speeds.
+*Caution:* This port operates only at 1/10-GbE (RJ-45) and does not support 100-megabit speeds.
 |Connects the appliance to the Admin Network for StorageGRID.
 
 |
 |Rightmost RJ-45 port on the appliance
 |1-GbE (RJ-45)
 
-*Important:* This port operates only at 1/10-GbE (RJ-45) and does not support 100-megabit speeds.
+*Caution:* This port operates only at 1/10-GbE (RJ-45) and does not support 100-megabit speeds.
 |
 * Can be bonded with management port 1 if you want a redundant connection to the Admin Network.
 * Can be left disconnected and available for temporary local access (IP 169.254.0.1).

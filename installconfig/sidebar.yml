@@ -110,7 +110,7 @@ entries:
         url: "/installconfig/configuring-snmp-settings-for-bmc.html"
       - title: Set up email notifications
         url: "/installconfig/setting-up-email-notifications-for-alerts.html"
-    - title: 'Optional: Enable node encryption'
+    - title: 'Optional: Enable node or drive encryption'
       url: "/installconfig/optional-enabling-node-encryption.html"
     - title: 'Optional: Change RAID mode (SG5760, SG5860, SG6000, and SG6160)'
       url: "/installconfig/optional-changing-raid-mode.html"

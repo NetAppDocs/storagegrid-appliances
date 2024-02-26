@@ -33,7 +33,7 @@ CAUTION: Don't shut down the controller using the power switch.
 . Wrap the strap end of the ESD wristband around your wrist, and secure the clip end to a metal ground to prevent static discharge.
 . Label and then disconnect the controller data cables and any SFP+ or SFP28 transceivers.
 +
-IMPORTANT: To prevent degraded performance, don't twist, fold, pinch, or step on the cables.
+CAUTION: To prevent degraded performance, don't twist, fold, pinch, or step on the cables.
 
 . Loosen the two captive screws on the controller front panel.
 +
@@ -75,7 +75,7 @@ image::../media/sg6060_rack_retaining_screws.png[SG6160 rack retaining screws]
 . Wrap the strap end of the ESD wristband around your wrist, and secure the clip end to a metal ground to prevent static discharge.
 . Reconnect the controller data cables and any SFP+ or SFP28 transceivers.
 +
-IMPORTANT: To prevent degraded performance, don't twist, fold, pinch, or step on the cables.
+CAUTION: To prevent degraded performance, don't twist, fold, pinch, or step on the cables.
 +
 link:../installconfig/cabling-appliance.html[Cable appliance]
 

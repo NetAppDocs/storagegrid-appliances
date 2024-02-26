@@ -50,7 +50,7 @@ When the latch clicks into place, the bottom of the latch hooks into a metal slo
 
  .. Turn the controller over to confirm that the battery is installed correctly.
 +
-IMPORTANT: *Possible hardware damage* -- The metal flange at the front of the battery must be completely inserted into the slot on the controller (as shown in the first figure). If the battery is not installed correctly (as shown in the second figure), the metal flange might contact the controller board, causing damage.
+CAUTION: *Possible hardware damage* -- The metal flange at the front of the battery must be completely inserted into the slot on the controller (as shown in the first figure). If the battery is not installed correctly (as shown in the second figure), the metal flange might contact the controller board, causing damage.
 
   *** *Correct -- The battery's metal flange is completely inserted into the slot on the controller:*
 +

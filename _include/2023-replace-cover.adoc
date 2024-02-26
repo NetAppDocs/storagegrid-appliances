@@ -8,7 +8,7 @@
 +
 image::../media/sg6060_cover_latch_open.jpg[Appliance cover latch open]
 +
-IMPORTANT: Wrap the strap end of an ESD wristband around your wrist and secure the clip end to a metal ground to prevent static discharge when working inside the appliance.
+CAUTION: Wrap the strap end of an ESD wristband around your wrist and secure the clip end to a metal ground to prevent static discharge when working inside the appliance.
 
 == Reinstall cover
 

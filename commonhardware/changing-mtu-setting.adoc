@@ -13,9 +13,9 @@ You can change the MTU setting that you assigned when you configured IP addresse
 
 .About this task
 
-IMPORTANT: The MTU value of the network must match the value configured on the switch port the node is connected to. Otherwise, network performance issues or packet loss might occur.
+CAUTION: The MTU value of the network must match the value configured on the switch port the node is connected to. Otherwise, network performance issues or packet loss might occur.
 
-IMPORTANT: For the best network performance, all nodes should be configured with similar MTU values on their Grid Network interfaces. The *Grid Network MTU mismatch* alert is triggered if there is a significant difference in MTU settings for the Grid Network on individual nodes. The MTU values don't have to be the same for all network types.
+NOTE: For the best network performance, all nodes should be configured with similar MTU values on their Grid Network interfaces. The *Grid Network MTU mismatch* alert is triggered if there is a significant difference in MTU settings for the Grid Network on individual nodes. The MTU values don't have to be the same for all network types.
 
 To change the MTU setting without rebooting the appliance node, <<Change the MTU setting using the Change IP tool,use the Change IP tool>>.
 
@@ -29,7 +29,7 @@ You have the `Passwords.txt` file to use the Change IP tool.
 
 .Steps
 
-Access the Change IP tool and update the MTU settings as described in https://review.docs.netapp.com/us-en/storagegrid-118_main/maintain/changing-nodes-network-configuration.html[Change node network configuration^].
+Access the Change IP tool and update the MTU settings as described in https://docs.netapp.com/us-en/storagegrid-118/maintain/changing-nodes-network-configuration.html[Change node network configuration^].
 
 
 == Change the MTU setting using maintenance mode

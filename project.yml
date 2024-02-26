@@ -2,9 +2,11 @@ settings:
   name: "StorageGRID Appliances"
   internal:
     pdf_enabled: true
+    termcheck_enabled: false
   prod:
-    pdf_enabled: false
+    pdf_enabled: true
     harmony_enabled: true
+    hide_language_selector: false
 sidebar:
   entries:
     - title: StorageGRID Appliance Docs

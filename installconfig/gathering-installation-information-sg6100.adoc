@@ -30,9 +30,9 @@ Before installing an SGF6112 or SG6160 appliance, confirm your StorageGRID syste
 
 The Admin Network for StorageGRID is an optional network, used for system administration and maintenance. The appliance connects to the Admin Network using the following 1/10-GbE ports on the appliance.
 
-The following figure shows the RJ-45 ports on the SG6112 appliance.
+The following figure shows the RJ-45 ports on the SGF6112 appliance.
 
-image::../media/sg6100_rj_45_ports_circled.png[SG6112 RJ-45 ports]
+image::../media/sg6100_rj_45_ports_circled.png[SGF6112 RJ-45 ports]
 
 [cols="2a,1a" options="header"]
 |===
@@ -208,7 +208,7 @@ You can access the BMC interface on the appliance using the 1-GbE management por
 
 include::../_include/enable-disable-ipmi.adoc[]
 
-The following figure shows the BMC management port on the SG6112 appliance.
+The following figure shows the BMC management port on the SGF6112 appliance.
 
 image::../media/sgf6112_cn_bmc_management_port.png[SG6100 management port]
 

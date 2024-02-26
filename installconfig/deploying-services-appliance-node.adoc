@@ -20,7 +20,7 @@ When you deploy a services appliance as a primary Admin Node, you use the Storag
 * The appliance has been installed in a rack or cabinet, connected to your networks, and powered on.
 * Network links, IP addresses, and port remapping (if necessary) have been configured for the appliance using the StorageGRID Appliance Installer.
 
-* You have a service laptop with a https://review.docs.netapp.com/us-en/storagegrid-118_main/admin/web-browser-requirements.html[supported web browser^].
+* You have a service laptop with a https://docs.netapp.com/us-en/storagegrid-118/admin/web-browser-requirements.html[supported web browser^].
 * You know one of the IP addresses assigned to the appliance. You can use the IP address for any attached StorageGRID network.
 
 .About this task
@@ -81,7 +81,7 @@ When you deploy a services appliance as a Gateway Node or non-primary Admin Node
 
 * The primary Admin Node for the StorageGRID system has been deployed.
 * All Grid Network subnets listed on the IP Configuration page of the StorageGRID Appliance Installer have been defined in the Grid Network Subnet List on the primary Admin Node.
-* You have a service laptop with a https://review.docs.netapp.com/us-en/storagegrid-118_main/admin/web-browser-requirements.html[supported web browser^].
+* You have a service laptop with a https://docs.netapp.com/us-en/storagegrid-118/admin/web-browser-requirements.html[supported web browser^].
 * You know the IP address assigned to the appliance. You can use the IP address for any attached StorageGRID network.
 
 .About this task
@@ -93,7 +93,7 @@ To install StorageGRID on a services appliance node:
 +
 Partway through the appliance Gateway Node installation tasks, the installation pauses. To resume the installation, you sign into the Grid Manager, approve all grid nodes, and complete the StorageGRID installation process. The installation of a non-primary Admin Node does not require your approval.
 
-IMPORTANT: Don't deploy SG100 and SG1000 service appliances in the same site. Unpredictable performance might result.
+NOTE: Don't deploy SG100 and SG1000 service appliances in the same site. Unpredictable performance might result.
 
 NOTE: If you need to deploy multiple appliance nodes at one time, you can automate the installation process. See link:automating-appliance-installation-and-configuration.html[Automate appliance installation and configuration].
 
