@@ -1,6 +1,8 @@
 //Remove battery to the new controller for E2800 series storage controller
 
-== Move battery to the new controller
+== Step 4: Move battery to the new controller
+Move the battery from the failed controller to the replacement controller.
+
 .Steps
 
 . Remove the battery from the failed controller, and install it into the replacement controller:

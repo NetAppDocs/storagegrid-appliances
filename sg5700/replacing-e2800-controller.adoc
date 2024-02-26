@@ -38,16 +38,7 @@ When you replace a controller, you must remove the battery from the original con
 
 NOTE: The storage controllers in most appliance models don't include host interface cards (HIC).
 
-This task has the following parts: 
-
-. Prepare
-. Take controller offline
-. Remove controller
-. Move battery to new controller
-. Move HIC to new controller, if needed
-. Replace controller
-
-== Prepare
+== Step 1: Prepare to remove the controller
 include::../_include/e2800_series_rear.adoc[] 
 .Steps
 
@@ -69,18 +60,22 @@ If a problem occurs when you remove a controller, you can use the saved file to 
 +
 NOTE: Collecting support data before and after replacing a component ensures you can send a full set of logs to technical support if the replacement does not resolve the problem.
 
-== Take the controller offline
+== Step 2: Take the controller offline
+Take the controller offline and confirm that all operations are complete.
+
 .Steps
 . If the StorageGRID appliance is running in a StorageGRID system, link:../commonhardware/placing-appliance-into-maintenance-mode.html[place the E5700SG controller into maintenance mode].
 
 . If the E2800 controller is functioning sufficiently to allow for a controlled shutdown, confirm that all operations have completed.
  .. From the home page of SANtricity System Manager, select *View Operations in Progress*.
  .. Confirm that all operations have completed.
+. Power off the controller shelf. 
 include::../_include/remove_controller_e2800.adoc[]
 include::../_include/remove_battery_e2800.adoc[]
 include::../_include/HIC_replacement.adoc[] 
 
-== Replace controller
+== Step 6: Replace controller
+Install the replacement controller and verify that it has rejoined the grid. 
 .Steps
 . Install the replacement controller into the appliance.
  .. Turn the controller over, so that the removable cover faces down.

@@ -1,6 +1,8 @@
 //Remove controller step for E2800 series storage controller replacement
 
-== Remove the controller
+== Ste 3: Remove the controller
+Remove the failed controller from the appliance.
+
 .Steps
 
 . Remove the controller from the appliance:

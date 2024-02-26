@@ -1,9 +1,11 @@
 //HIC replacement procedure for E2800 series controllers
 
-== Move HIC to new controller, if needed
+== Step 5: Move HIC to new controller
+If required, move the host interface card (HIC) from the failed controller to the replacement controller.
+
 .Steps
 
- . If the failed controller includes a host interface card (HIC), move the HIC from the failed controller to the replacement controller.
+ . If the failed controller includes a HIC, move the HIC from the failed controller to the replacement controller.
 +
 A separate HIC is used for the E2800B controller only. The HIC is mounted to the main controller board and includes two SPF connectors.  
 +
