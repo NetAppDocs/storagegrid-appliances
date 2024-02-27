@@ -11,7 +11,7 @@ summary:
 [.lead]
 Before you replace or add an E4000 controller, review the requirements and considerations.
 
-Each controller canister contains a controller card, a battery, and an optional host interface card (HIC). You can add a second controller to a simplex configuration or replace a failed controller.
+Each controller canister contains a controller card and a battery. You can add a second controller to a simplex configuration or replace a failed controller.
 
 These procedures apply to IOM12 and IOM12B drive shelves.
 
@@ -29,7 +29,6 @@ You can add a second controller canister to the simplex version of the following
 Before you add a second controller, you must have:
 
 * A new controller canister with the same part number as the currently installed controller canister.
-* A new HIC that is identical to the HIC in the currently installed controller canister (only necessary if the currently installed controller canister includes a host interface card).
 +
 NOTE: This is not applicable for a StorageGRID appliance.
 * All cables, transceivers, switches, and host bus adapters (HBAs) needed to connect the new controller ports.
@@ -47,7 +46,7 @@ Optionally, you can use the command line interface (CLI) to perform some of the 
 
 == Requirements for replacing controller
 
-When you replace a failed controller canister, you must remove the battery and HIC, if one is installed, from the original controller canister, and install them in the replacement controller canister.
+When you replace a failed controller canister, you must remove the battery from the original controller canister, and install it in the replacement controller canister.
 
 You can determine if you have a failed controller canister in two ways:
 

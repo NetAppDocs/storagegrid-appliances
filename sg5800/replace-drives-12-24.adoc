@@ -54,11 +54,6 @@ Remove a failed drive to replace it with a new one.
 Save all packing materials.
 
 . Press the release button on the failed drive.
-
- ** For drives in D2812 controller shelves or DE212C drive shelves, the release button is located at the left of the drive.
- ** For drives in E2824 controller shelves, EF280 flash array, for DE224C drive shelves, the release button is located at the top of the drive.
-The cam handle on the drive springs open partially, and the drive releases from the midplane.
-
 . Open the cam handle, and slide out the drive slightly.
 . Wait 30 seconds.
 . Using both hands, remove the drive from the shelf.

@@ -51,17 +51,17 @@ If a problem occurs when you remove a controller, you can use the saved file to 
 +
 * From System Manager:
 +
-.. Select Support › Support Center › Diagnostics.
-.. Select Collect Configuration Data.
-.. Click Collect.
+.. Select *Support › Support Center › Diagnostics*.
+.. Select *Collect Configuration Data*.
+.. Click *Collect*.
 +
-The file is saved in the Downloads folder for your browser with the name, configurationData-
-<arrayName>-<dateTime>.7z.
+The file is saved in the Downloads folder for your browser with the name, *configurationData-
+<arrayName>-<dateTime>.7z*.
 . If the controller is not already offline, take it offline now using SANtricity System Manager.
-.. Select Hardware.
-.. If the graphic shows the drives, select Show back of shelf to show the controllers.
+.. Select *Hardware*.
+.. If the graphic shows the drives, select *Show back of shelf* to show the controllers.
 .. Select the controller that you want to place offline.
-.. From the context menu, select Place offline, and confirm that you want to perform the operation.
+.. From the context menu, select *Place offline*, and confirm that you want to perform the operation.
 +
 NOTE: If you are accessing SANtricity System Manager using the controller you are attempting to take offline, a SANtricity System Manager Unavailable message is displayed. Select *Connect to an alternate network connection* to automatically access SANtricity System Manager using the other controller.
 . Wait for SANtricity System Manager to update the controller’s status to offline.
@@ -130,8 +130,8 @@ The DIMM fits tightly in the slot, but should go in easily. If not, realign the 
 +
 NOTE: Visually inspect the DIMM to verify that it is evenly aligned and fully inserted into the slot.
 . Push carefully, but firmly, on the top edge of the DIMM until the ejector tabs snap into place over the notches at the ends of the DIMM.
-. Reconnect the NVMRM battery:
-.. Plug in the NVRAM battery.
+. Reconnect the battery:
+.. Plug in the battery.
 .. Make sure that the plug locks down into the battery power socket on the motherboard.
 .. Align the battery with the holding brackets on the sheet metal side wall.
 .. Slide the battery pack down until the battery latch engages and clicks into the opening on the side wall.
@@ -183,6 +183,7 @@ Place the controller online, collect support data, and resume operations.
 . As the controller boots, check the controller LEDs.
 +
 When communication with the other controller is reestablished:
+
 * The amber Attention LED remains on.
 * The Host Link LEDs might be on, blinking, or off, depending on the host interface.
 . When the controller is back online, confirm that its status is Optimal and check the controller shelf’s Attention LEDs.
@@ -190,7 +191,7 @@ When communication with the other controller is reestablished:
 If the status is not Optimal or if any of the Attention LEDs are on, confirm that all cables are correctly seated and the controller canister is installed correctly. If necessary, remove and reinstall the controller canister.
 NOTE: If you cannot resolve the problem, contact technical support.
 . Click *Hardware › Support › Upgrade Center* to ensure that the latest version of SANtricity OS is installed.
-*
++
 As needed, install the latest version.
 . Verify that all volumes have been returned to the preferred owner.
 .. Select *Storage › Volumes*. From the *All Volumes* page, verify that volumes are distributed to their preferred owners. Select *More › Change ownership* to view volume owners.
@@ -202,4 +203,4 @@ As needed, install the latest version.
 .. Select *Collect Support Data*.
 .. Click *Collect*.
 +
-The file is saved in the Downloads folder for your browser with the name, support-data.7z.
+The file is saved in the Downloads folder for your browser with the name, *support-data.7z*.

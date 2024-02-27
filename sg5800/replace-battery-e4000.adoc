@@ -21,6 +21,7 @@ If you plan to replace a failed battery, you must have:
 * An ESD wristband, or you have taken other antistatic precautions.
 * Labels to identify each cable that is connected to the controller canister.
 * A management station with a browser that can access SANtricity System Manager for the controller. (To open the System Manager interface, point the browser to the controller’s domain name or IP address.)
+* Verify that no volumes are in use or that you have a multipath driver installed on all hosts using these volumes.
 
 
 == Step 1: Prepare to replace battery
@@ -30,10 +31,6 @@ The steps to prepare for battery replacement depend on whether you have a duplex
 If you have a duplex configuration, you must place the affected controller offline so you can safely remove the failed battery. The controller that you are not placing offline must be online (in the optimal state).
 
 If you have a simplex configuration, power down the controller shelf so you can safely remove the failed battery.
-
-.Before you begin
-
-Verify that no volumes are in use or that you have a multipath driver installed on all hosts using these volumes.
 
 .Steps
 
@@ -74,11 +71,11 @@ The file is saved in the Downloads folder for your browser with the name, suppor
 NOTE: If you are accessing SANtricity System Manager using the controller you are attempting to take offline, a SANtricity System Manager Unavailable message is displayed. Select *Connect to an alternate network connection* to automatically access SANtricity System Manager using the other controller.
 ** Alternatively, you can take the controllers offline by using the following CLI commands:
 +
-*For controller A*: set controller [a] availability=offline
+*For controller A*: `set controller [a] availability=offline`
 +
-*For controller B*: set controller [b] availability=offline
+*For controller B*: `set controller [b] availability=offline`
 . Wait for SANtricity System Manager to update the controller’s status to offline.
-. Select *Recheck* from the Recovery Guru, and confirm that the *Okay to remove* field in the *Details* area displays *Yes*. This indicates that it is safe to proceed to the next step.
+. Select *Recheck* from the Recovery Guru, and confirm that the *Okay to remove* field in the *Details* area displays *Yes*. This indicates that it is safe to proceed to removing the controller canister.
 
 --
 .Power down the controller shelf (simplex)
@@ -100,6 +97,7 @@ The file is saved in the Downloads folder for your browser with the name, *confi
 . Collect support data for your storage array using SANtricity System Manager.
 +
 If a problem occurs when you remove a controller, you can use the saved file to troubleshoot the issue. The system will save inventory, status, and performance data about your storage array in a single file.
+
 .. Select *Support › Support Center › Diagnostics*.
 .. Select *Collect Support Data*.
 .. Click *Collect*.
@@ -130,7 +128,7 @@ The green Cache Active LED on the back of the controller is on when cached data 
 
 You need to remove the controller canister from the controller shelf, so you can remove the battery.
 
-. Before you begin
+.Before you begin
 
 Make sure you have the following:
 
@@ -291,7 +289,7 @@ If needed, collect support data for your storage array using SANtricity System M
 .. Select Collect Support Data.
 .. Click Collect.
 +
-The file is saved in the Downloads folder for your browser with the name, support-data.7z.
+The file is saved in the Downloads folder for your browser with the name, *support-data.7z*.
 
 .What's next?
 Your battery replacement is complete. You can resume normal operations.

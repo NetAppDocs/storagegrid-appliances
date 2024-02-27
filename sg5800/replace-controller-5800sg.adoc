@@ -14,7 +14,6 @@ You might need to replace the E5800SG controller if it is not functioning optima
 .Before you begin
 
 * You have a replacement controller with the same part number as the controller you are replacing.
-* You have downloaded the E-Series instructions for replacing a failed E5800 controller.
 * You have labels to identify each cable that is connected to the controller.
 
 .About this task
