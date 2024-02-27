@@ -45,17 +45,8 @@ When you replace a controller, you must remove the battery from the original con
 
 NOTE: The storage controllers in most appliance models don't include host interface cards (HIC).
 
-This task has the following parts: 
+== Step 1: Prepare to remove the controller
 
-. Prepare
-. Take controller offline
-. Remove controller
-. Move battery to new controller
-. Move HIC to new controller, if needed
-. Replace controller
-
-
-== Prepare
 .Steps
 
 . Unpack the new controller, and set it on a flat, static-free surface.
@@ -66,7 +57,9 @@ Save the packing materials to use when shipping the failed controller.
 
 include::../_include/e2800_series_rear.adoc[] 
 
-== Take controller offline
+== Step 2: Take controller offline
+Prepare to remove the controller and and take it offline.
+
 .Steps
 
 . Prepare to remove the controller. You use SANtricity System Manager to perform these steps.
@@ -86,12 +79,15 @@ If a problem occurs when you remove a controller, you can use the saved file to 
 NOTE: Collecting support data before and after replacing a component ensures you can send a full set of logs to technical support if the replacement does not resolve the problem.
 
  .. Take the controller you plan to replace offline.
- 
+. Power off the controller shelf.
+
 include::../_include/remove_controller_e2800.adoc[]
 include::../_include/remove_battery_e2800.adoc[]
 include::../_include/HIC_replacement.adoc[] 
 
-== Replace controller
+== Step 6: Replace controller
+Install the replacement controller and verify that it has rejoined the grid.
+
 .Steps
 
 . Install the replacement controller into the appliance.
