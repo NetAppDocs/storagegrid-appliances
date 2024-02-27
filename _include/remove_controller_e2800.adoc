@@ -5,16 +5,15 @@ Remove the failed controller from the appliance.
 
 .Steps
 
-. Remove the controller from the appliance:
- .. Put on an ESD wristband or take other antistatic precautions.
- .. Label the cables and then disconnect the cables and SFPs.
+. Put on an ESD wristband or take other antistatic precautions.
+. Label the cables and then disconnect the cables and SFPs.
 +
 NOTE: To prevent degraded performance, don't twist, fold, pinch, or step on the cables.
 
- .. Release the controller from the appliance by squeezing the latch on the cam handle until it releases, and then open the cam handle to the right.
- .. Using two hands and the cam handle, slide the controller out of the appliance.
+. Release the controller from the appliance by squeezing the latch on the cam handle until it releases, and then open the cam handle to the right.
+. Using two hands and the cam handle, slide the controller out of the appliance.
 +
 CAUTION: Always use two hands to support the weight of the controller.
 
- .. Place the controller on a flat, static-free surface with the removable cover facing up.
- .. Remove the cover by pressing down on the button and sliding the cover off.
+. Place the controller on a flat, static-free surface with the removable cover facing up.
+. Remove the cover by pressing down on the button and sliding the cover off.

@@ -76,6 +76,7 @@ include::../_include/HIC_replacement.adoc[]
 
 == Step 6: Replace controller
 Install the replacement controller and verify that it has rejoined the grid. 
+
 .Steps
 . Install the replacement controller into the appliance.
  .. Turn the controller over, so that the removable cover faces down.
