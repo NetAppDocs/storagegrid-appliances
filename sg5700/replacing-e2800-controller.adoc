@@ -83,6 +83,7 @@ Install the replacement controller and verify that it has rejoined the grid.
  .. With the cam handle in the open position, slide the controller all the way into the appliance.
  .. Move the cam handle to the left to lock the controller in place.
  .. Replace the cables and SFPs.
+ .. Power on the controller shelf.
  .. Wait for the E2800 controller to reboot. Verify that the seven-segment display shows a state of `99`.
  .. Determine how you will assign an IP address to the replacement controller.
 +
