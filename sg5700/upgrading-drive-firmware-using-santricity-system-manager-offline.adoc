@@ -9,7 +9,7 @@ summary: 'You upgrade your drive firmware to make sure you have all the latest f
 :imagesdir: ../media/
 
 [.lead]
-Upgrade the firmware on the drives in your appliance to make sure you have all the latest features and bug fixes. 
+Use the SANtricity System Manager online method to upgrade the firmware on the drives in your appliance to make sure you have all the latest features and bug fixes. 
 
 .Before you begin
 
