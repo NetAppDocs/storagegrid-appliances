@@ -18,7 +18,7 @@ You might need to replace the E2800 series controller if it is not functioning o
 NOTE: Don't rely on the E-Series instructions to replace a controller in the StorageGRID appliance, because the procedures aren't the same.
 
 * You have labels to identify each cable that is connected to the controller.
-* If all drives are secured, you have reviewed the steps in the simplex E2800 series controller replacement procedure, which include downloading and installing E-Series SANtricity System Manager from the NetApp Support Site and then using the Enterprise Management Window (EMW) to unlock the secured drives after you have replaced the controller.
+* If all drives are secured, you have reviewed the steps in the https://docs.netapp.com/us-en/e-series/maintenance-e2800/controllers-simplex-supertask-task.html#step-1-prepare-to-replace-controller-simplex[simplex E2800 series controller replacement procedure^], which include downloading and installing E-Series SANtricity System Manager from the NetApp Support Site and then using the Enterprise Management Window (EMW) to unlock the secured drives after you have replaced the controller.
 +
 CAUTION: You will not be able to use the appliance until you unlock the drives with the saved key.
 
@@ -108,3 +108,4 @@ image::../media/nodes_menu.png[Appliance node rejoined grid]
 
 include::../_include/fru-statement.adoc[]
 
+// 2024 FEB 26, SGRIDDOC-22
