@@ -1,5 +1,3 @@
-// Locate appliance SGF6112, SG110, SG1100
-// Intro and before you begin are in referencing topic
 .Before you begin
 
 * The storage appliance has an Optimal status.
@@ -26,14 +24,65 @@ The offline method is faster than the online method and will be significantly fa
 
 CAUTION: There are two types of drives: SSD and HDD. You must use the offline method to upgrade the firmware on the SSDs (for example, SSD drives in the SG6060). You can use either the online or offline method to upgrade the firmware on HDDs.
 
-
 .Steps
 
 . If you are performing an offline upgrade, confirm that the appliance is in link:../commonhardware/placing-appliance-into-maintenance-mode.html[maintenance mode].
 +
 NOTE: If you are upgrading the firmware in SSD drives that are part of a cache group, you must ensure that no I/O is sent to any cached volumes while the upgrade is in progress. When the appliance is in maintenance mode, no I/O is sent to any volumes while the upgrade is in progress.
 
-@@ -86,15 +91,7 @@ Only drives that are compatible appear.
+. Access SANtricity System Manager using one of these methods:
+ ** Use the StorageGRID Appliance Installer and select *Advanced* > *SANtricity System Manager*
+ ** Use the Grid Manager and select *NODES* > *_Storage Node_* > *SANtricity System Manager* 
+ ** Use SANtricity System Manager by browsing to the storage controller IP: +
+`*https://_Storage_Controller_IP_*`
+. Enter the SANtricity System Manager administrator username and password, if required.
+
+. Verify the drive firmware version currently installed in the storage appliance:
+ .. From SANtricity System Manager, select *SUPPORT* > *Upgrade Center*.
+ .. Under Drive Firmware upgrade, select *Begin Upgrade*.
++
+The Upgrade Drive Firmware page displays the drive firmware files currently installed.
+
+ .. Note the current drive firmware revisions and drive identifiers in the Current Drive Firmware column.
++
+image::../media/storagegrid_update_drive_firmware.png[Upgrade Drive Firmware]
++
+In this example:
+
+  *** The drive firmware revision is *MS02*.
+  *** The drive identifier is *KPM51VUG800G*.
+
+ .. Select *View drives* in the Associated Drives column to display where these drives are installed in your storage appliance.
+
+ .. Close the Upgrade Drive Firmware window.
+
+. Download and prepare the available drive firmware upgrade:
+ .. Under Drive Firmware upgrade, select *NetApp Support*.
+ .. On the NetApp Support Site, select the *Downloads* tab, and then select *E-Series Disk Drive Firmware*.
++
+The E-Series Disk Firmware page displays.
+
+ .. Search for each *Drive Identifier* installed in your storage appliance and verify that each drive identifier has the latest firmware revision.
+  *** If the firmware revision is not a link, this drive identifier has the latest firmware revision.
+  *** If one or more drive part numbers are listed for a drive identifier, a firmware upgrade is available for these drives. You can select any link to download the firmware file.
++
+image::../media/storagegrid_drive_firmware_download.png[E-Series Disk Firmware page]
+ .. If a later firmware revision is listed, select the link in the Firmware Rev. (Download) column to download a `.zip` archive containing the firmware file.
+ .. Extract (unzip) the drive firmware archive files you downloaded from the Support site.
+. Install the drive firmware upgrade:
+ .. From SANtricity System Manager, under Drive Firmware upgrade, select *Begin Upgrade*.
+ .. Select *Browse*, and select the new drive firmware files that you downloaded from the Support site.
++
+Drive firmware files have a filename similar to +
+`D_HUC101212CSS600_30602291_MS01_2800_0002.dlp`.
++
+You can select up to four drive firmware files, one at a time. If more than one drive firmware file is compatible with the same drive, you get a file conflict error. Decide which drive firmware file you want to use for the upgrade and remove the other one.
+
+ .. Select *Next*.
++
+*Select Drives* lists the drives that you can upgrade with the selected firmware files.
++
+Only drives that are compatible appear.
 +
 The selected firmware for the drive appears in the *Proposed Firmware* column. If you must change this firmware, select *Back*.
 
@@ -49,7 +98,20 @@ NOTE: An online upgrade can take several hours longer than an offline upgrade.
 +
 CAUTION: You must place the appliance into maintenance mode before using this method. You should use the *Offline* method to upgrade the drive firmware. 
 +
-@@ -115,73 +112,9 @@ CAUTION: Stopping the drive firmware upgrade might result in data loss or unavai
+CAUTION: If you want to use the Offline (parallel) upgrade, don't proceed unless you are certain that the appliance is in maintenance mode. Failure to place the appliance into maintenance mode before initiating an offline drive firmware update might cause data loss. 
++
+[start=5]
+ .. In the first column of the table, select the drive or drives you want to upgrade.
++
+The best practice is to upgrade all drives of the same model to the same firmware revision.
+
+ .. Select *Start* and confirm that you want to perform the upgrade.
++
+If you need to stop the upgrade, select *Stop*. Any firmware downloads currently in progress complete. Any firmware downloads that have not started are canceled.
++
+CAUTION: Stopping the drive firmware upgrade might result in data loss or unavailable drives.
+
+ .. (Optional) To see a list of what was upgraded, select *Save Log*.
 +
 The log file is saved in the downloads folder for your browser with the name `latest-upgrade-log-timestamp.txt`.
 +
@@ -117,12 +179,14 @@ Contact technical support to resolve this issue.
 
  ** *More than 4 critical MEL entries in the last 7 days*
 +
-Contact technical support to resolve this issue. 
+Contact technical support to resolve this issue.
 
 . If you were using the *Offline* upgrade and this procedure completed successfully, perform any additional maintenance procedures while the node is in maintenance mode. When you are done, or if you experienced any failures and want to start over, go to the StorageGRID Appliance Installer and select *Advanced* > *Reboot Controller*. Then select one of these options:
 +
 * *Reboot into StorageGRID*.
 +
-@@ -191,3 +124,4 @@ It can take up to 20 minutes for the appliance to reboot and rejoin the grid. To
+* *Reboot into Maintenance Mode*. Reboot the controller and keep the node in maintenance mode. Select this option if there were any failures during the procedure and you want to start over. After the node finishes rebooting into maintenance mode, restart from the appropriate step in the procedure that failed.
++
+It can take up to 20 minutes for the appliance to reboot and rejoin the grid. To confirm that the reboot is complete and that the node has rejoined the grid, go back to the Grid Manager. The Nodes page should display a normal status (green check mark icon image:../media/icon_alert_green_checkmark.png[green check mark] to the left of the node name) for the appliance node, indicating that no alerts are active and the node is connected to the grid.
 +
 image::../media/nodes_menu.png[Appliance node rejoined grid]
