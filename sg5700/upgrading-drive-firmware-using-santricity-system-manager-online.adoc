@@ -24,9 +24,9 @@ The drives are upgraded one at a time while the appliance is performing I/O. Thi
 
 [NOTE]
 ====
-Drives belonging to volumes that don't have redundancy must be updated using the link:upgrading-drive-firmware-using-santricity-system-manager-offline[offline method]. The offline method should be used for any drive associated with flash read cache, or any pool or volume group that is currently degraded. 
+Drives belonging to volumes that don't have redundancy must be updated using the link:upgrading-drive-firmware-using-santricity-system-manager-offline.html[offline method]. The offline method should be used for any drive associated with flash read cache, or any pool or volume group that is currently degraded. 
 
-You must use the link:upgrading-drive-firmware-using-santricity-system-manager-offline[offline method] when upgrading SSD drives.
+You must use the link:upgrading-drive-firmware-using-santricity-system-manager-offline.html[offline method] when upgrading SSD drives.
 ====
 
 .Steps
