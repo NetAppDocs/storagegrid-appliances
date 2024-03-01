@@ -13,8 +13,7 @@ NOTE: The illustrations in this procedure show a 2-port HIC. The HIC in your con
 --
 An E2800A controller does not have a HIC. 
 
-.Steps
-. Replace the controller cover, and go to <<step6_replace_controller:Step 6: Replace controller>> 
+Replace the E2800A controller cover, and go to <<step6_replace_controller,Step 6: Replace controller>> 
 --
 
 .E2800B
