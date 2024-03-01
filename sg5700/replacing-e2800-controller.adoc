@@ -40,23 +40,24 @@ NOTE: The storage controllers in most appliance models don't include host interf
 
 == Step 1: Prepare to remove the controller
 include::../_include/e2800_series_rear.adoc[] 
+
+Follow the instructions in the E2800 controller replacement procedure to prepare to remove the controller.
+
+You use SANtricity System Manager to perform the following steps.
+
 .Steps
 
-. Follow the instructions in the E2800 controller replacement procedure to prepare to remove the controller.
-+
-You use SANtricity System Manager to perform these steps.
-
- .. Make a note of which version of SANtricity OS software is currently installed on the controller.
- .. Make a note of which version of NVSRAM is currently installed.
- .. If the Drive Security feature is enabled, be sure a saved key exists and that you know the pass phrase required to install it.
+. Make a note of which version of SANtricity OS software is currently installed on the controller.
+. Make a note of which version of NVSRAM is currently installed.
+. If the Drive Security feature is enabled, be sure a saved key exists and that you know the pass phrase required to install it.
 +
 CAUTION: *Possible loss of data access &#8212;* If all drives in the appliance are security enabled, the new controller will not be able to access the appliance until you unlock the secured drives using the Enterprise Management Window in SANtricity System Manager.
 
- .. Back up the configuration database.
+. Back up the configuration database.
 +
 If a problem occurs when you remove a controller, you can use the saved file to restore your configuration.
 
- .. Collect support data for the appliance.
+. Collect support data for the appliance.
 +
 NOTE: Collecting support data before and after replacing a component ensures you can send a full set of logs to technical support if the replacement does not resolve the problem.
 
@@ -74,6 +75,7 @@ include::../_include/remove_controller_e2800.adoc[]
 include::../_include/remove_battery_e2800.adoc[]
 include::../_include/HIC_replacement.adoc[] 
 
+[[step6_replace_controller]]
 == Step 6: Replace controller
 Install the replacement controller and verify that it has rejoined the grid. 
 

@@ -85,6 +85,7 @@ include::../_include/remove_controller_e2800.adoc[]
 include::../_include/remove_battery_e2800.adoc[]
 include::../_include/HIC_replacement.adoc[] 
 
+[[step6_replace_controller]]
 == Step 6: Replace controller
 Install the replacement controller and verify that it has rejoined the grid.
 
