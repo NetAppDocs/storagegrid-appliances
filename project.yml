@@ -48,8 +48,6 @@ sidebar:
       - section: sg5700
       - section: sg6000
       - section: sg6100
-    - title: StorageGRID software documentation
-      url: /storagegrid-documentation.html
     - title: Enable StorageGRID
       url: /storagegrid-enable.html
     - title: Legal notices
