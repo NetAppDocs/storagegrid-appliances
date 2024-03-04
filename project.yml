@@ -1,5 +1,6 @@
 settings:
   name: "StorageGRID Appliances"
+  search: "storagegrid-enable,storagegrid-118,storagegrid-appliances"
   internal:
     pdf_enabled: true
     termcheck_enabled: false
@@ -11,6 +12,8 @@ sidebar:
   entries:
     - title: StorageGRID Appliance Docs
       url: "/index.html"
+    - title: StorageGRID software documentation
+      url: "/storagegrid-documentation.html"
     - title: Get started
       url: "/landing-learn-hdwr/index.html"
       entries:
