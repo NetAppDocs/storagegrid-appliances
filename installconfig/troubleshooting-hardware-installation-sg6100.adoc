@@ -336,7 +336,11 @@ If you can't connect to the services appliance, there might be a network issue, 
 .Steps
 
 . Try to ping the appliance using the IP address for the appliance : +
-`*ping _appliance_IP_*`
++
+SGF6112: `*ping _appliance_IP_*`
++
+SG6160: `*ping _Storage_Controller_IP_*`
+
 . If you receive no response from the ping, confirm you are using the correct IP address.
 +
 You can use the IP address of the appliance on the Grid Network, the Admin Network, or the Client Network.
@@ -352,4 +356,3 @@ If that does not resolve the issue, contact technical support.
 `*https://_appliances_controller_IP_:8443*`
 +
 The Home page appears.
-

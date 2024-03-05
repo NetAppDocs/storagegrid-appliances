@@ -384,7 +384,7 @@ To understand what these codes mean, see the following resources:
  ** The seven-segment display on the E5800SG controller shows a sequence of codes, ending with *AA* and *FF*.
 . After the controllers have booted up, confirm the seven-segment displays show the following:
 +
-image::../media/seven_segment_display_codes.gif[Seven-segment displays after controllers have booted up.]
+image::../media/seven_segment_display_codes_5800.png[Seven-segment displays after controllers have booted up.]
 +
 [cols="1a,2a" options="header"]
 |===
@@ -773,6 +773,8 @@ The seven-segment display on each storage controller shows the repeating sequenc
 . After the controllers have booted up, confirm that each storage controller shows 99, which is the default ID for an E-Series controller shelf.
 +
 Make sure this value is displayed on both storage controllers.
++
+image::../media/seven_segment_display_codes_for_e4000.png[Seven-Segment Display Codes for E4000]
 
 . If one or both controllers show other values, see link:troubleshooting-hardware-installation.html[Troubleshoot hardware installation (SG6000 or SG5700)] and confirm you completed the installation steps correctly. If you are unable to resolve the problem, contact technical support.
 

@@ -576,6 +576,7 @@ You connect the management port on the appliance to the service laptop and conne
 
 .Before you begin
 
+* You have the four optical cables provided with the appliance for connecting the two storage controllers to the SG6100-CN controller.
 * You have an RJ-45 Ethernet cable for connecting the management port.
 * You have one of the following options for the network ports. These items aren't provided with the appliance.
  ** One to four TwinAx cables for connecting the four network ports.
@@ -589,9 +590,9 @@ The following figures show the ports on the back of the SGF6112 and the three co
 
 SG6160 connections:
 
-*Image here*
+image::../media/sg6100_e4000_connections.png[SG6160 to E4000 Connections]
 
-SGF6112
+SGF6112 connections:
 
 image::../media/sgf6112_connections.png[SGF6112 rear connectors]
 
@@ -633,6 +634,11 @@ SG6160: Eight total 10/25 GbE ports
 * Can be bonded with management port 1 if you want a redundant connection to the Admin Network.
 * Can be left disconnected and available for temporary local access (IP 169.254.0.1).
 * During installation, can be used to connect the appliance to a service laptop if DHCP-assigned IP addresses aren't available.
+
+|4
+|Four network ports on the SG6100-CN controller
+|10/25-GbE
+|Connect to the Grid Network and the Client Network for StorageGRID. See link:../installconfig/gathering-installation-information-sg6100.html#port-bond-modes[Port bond modes (SG6100-CN controller)].
 
 |5
 |Management port 1 on each storage controller

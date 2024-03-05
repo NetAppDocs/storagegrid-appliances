@@ -9,7 +9,7 @@ summary: 'The StorageGRID SGF6112 appliance operates as a Storage Node in a Stor
 :imagesdir: ../media/
 
 [.lead]
-The StorageGRID SG6060 appliance includes a compute controller and a storage controller shelf that contains two storage controllers and 60 drives. Optionally, 60-drive expansion shelves can be added to both appliances. The StorageGRID SGF6112 appliance operates as a Storage Node in a StorageGRID system. The appliance can be used in a hybrid grid environment that combines appliance Storage Nodes and virtual (software-based) Storage Nodes.
+The StorageGRID SG6160 appliance includes a compute controller and a storage controller shelf that contains two storage controllers and 60 drives. Optionally, 60-drive expansion shelves can be added to both appliances. The StorageGRID SGF6112 appliance operates as a Storage Node in a StorageGRID system. The appliance can be used in a hybrid grid environment that combines appliance Storage Nodes and virtual (software-based) Storage Nodes.
 
 The SGF6112 appliance provides the following features:
 
