@@ -17,7 +17,7 @@ You can use the Manage drives tab in the Grid Manager to perform troubleshooting
 
 .About this task
 
-If you have an SGF6112 appliance and either the https://docs.netapp.com/us-en/storagegrid-118/admin/admin-group-permissions.html[Storage appliance administrator or Root access permission], a Manage drives tab appears on the appliance details page.
+If you have an SGF6112 appliance and either the https://docs.netapp.com/us-en/storagegrid-118/admin/admin-group-permissions.html[Storage appliance administrator or Root access permission^], a Manage drives tab appears on the appliance details page.
 
 The Manage drives tab contains the following views:
 
