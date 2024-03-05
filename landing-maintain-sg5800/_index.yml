@@ -11,18 +11,18 @@ indexpage:
     - title: Hardware procedures
       links:
         - title: Replace SG5800 compute controller
-          url: "/sg5800/replace-controller-5800sg.html"
+          url: "../sg5800/replace-controller-5800sg.html"
         - title: Replace E4000 storage controller
-          url: "/sg5800/replace-controller-requirements-e4000.html"
-        - title: Replace fan canister
-          url: "/sg5800/replace-fan-canister.html"
+          url: "../sg5800/replace-controller-requirements-e4000.html"
+        - title: Replace fan canister 
+          url: "../sg5800/replace-fan-canister.html"
         - title: Replace power canister
-          url: "/sg5800/replace-power-canister.html"
+          url: "../sg5800/replace-power-canister.html"
         - title: Replace batteries
-          url: "/sg5800/replace-battery-e4000.html"
+          url: "../sg5800/replace-battery-e4000.html"
         - title: Replace DIMMS
-          url: "/sg5800/replace-dimms-e4000.html"
+          url: "../sg5800/replace-dimms-e4000.html"
         - title: Replace drives
-          url: "/sg5800/replace-drive-e4000.html"
+          url: "../sg5800/replace-drive-e4000.html"
         - title: Power supply
-          url: "/sg5800/replace-power-supply.html"
+          url: "../sg5800/replace-power-supply.html"
