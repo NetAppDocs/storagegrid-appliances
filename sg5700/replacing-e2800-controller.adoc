@@ -18,7 +18,7 @@ You might need to replace the E2800 series controller if it is not functioning o
 NOTE: Don't rely on the E-Series instructions to replace a controller in the StorageGRID appliance, because the procedures aren't the same.
 
 * You have labels to identify each cable that is connected to the controller.
-* If all drives are secured, you have reviewed the steps in the simplex E2800 series controller replacement procedure, which include downloading and installing E-Series SANtricity System Manager from the NetApp Support Site and then using the Enterprise Management Window (EMW) to unlock the secured drives after you have replaced the controller.
+* If all drives are secured, you have reviewed the steps in the https://docs.netapp.com/us-en/e-series/maintenance-e2800/controllers-simplex-supertask-task.html#step-1-prepare-to-replace-controller-simplex[simplex E2800 series controller replacement procedure^], which include downloading and installing E-Series SANtricity System Manager from the NetApp Support Site and then using the Enterprise Management Window (EMW) to unlock the secured drives after you have replaced the controller.
 +
 CAUTION: You will not be able to use the appliance until you unlock the drives with the saved key.
 
@@ -38,55 +38,54 @@ When you replace a controller, you must remove the battery from the original con
 
 NOTE: The storage controllers in most appliance models don't include host interface cards (HIC).
 
-This task has the following parts: 
-
-. Prepare
-. Take controller offline
-. Remove controller
-. Move battery to new controller
-. Move HIC to new controller, if needed
-. Replace controller
-
-== Prepare
+== Step 1: Prepare to remove the controller
 include::../_include/e2800_series_rear.adoc[] 
+
+Follow the instructions in the E2800 controller replacement procedure to prepare to remove the controller.
+
+You use SANtricity System Manager to perform the following steps.
+
 .Steps
 
-. Follow the instructions in the E2800 controller replacement procedure to prepare to remove the controller.
-+
-You use SANtricity System Manager to perform these steps.
-
- .. Make a note of which version of SANtricity OS software is currently installed on the controller.
- .. Make a note of which version of NVSRAM is currently installed.
- .. If the Drive Security feature is enabled, be sure a saved key exists and that you know the pass phrase required to install it.
+. Make a note of which version of SANtricity OS software is currently installed on the controller.
+. Make a note of which version of NVSRAM is currently installed.
+. If the Drive Security feature is enabled, be sure a saved key exists and that you know the pass phrase required to install it.
 +
 CAUTION: *Possible loss of data access &#8212;* If all drives in the appliance are security enabled, the new controller will not be able to access the appliance until you unlock the secured drives using the Enterprise Management Window in SANtricity System Manager.
 
- .. Back up the configuration database.
+. Back up the configuration database.
 +
 If a problem occurs when you remove a controller, you can use the saved file to restore your configuration.
 
- .. Collect support data for the appliance.
+. Collect support data for the appliance.
 +
 NOTE: Collecting support data before and after replacing a component ensures you can send a full set of logs to technical support if the replacement does not resolve the problem.
 
-== Take the controller offline
+== Step 2: Take the controller offline
+Take the controller offline and confirm that all operations are complete.
+
 .Steps
 . If the StorageGRID appliance is running in a StorageGRID system, link:../commonhardware/placing-appliance-into-maintenance-mode.html[place the E5700SG controller into maintenance mode].
 
 . If the E2800 controller is functioning sufficiently to allow for a controlled shutdown, confirm that all operations have completed.
  .. From the home page of SANtricity System Manager, select *View Operations in Progress*.
  .. Confirm that all operations have completed.
+. Power off the controller shelf. 
 include::../_include/remove_controller_e2800.adoc[]
 include::../_include/remove_battery_e2800.adoc[]
 include::../_include/HIC_replacement.adoc[] 
 
-== Replace controller
+[[step6_replace_controller]]
+== Step 6: Replace controller
+Install the replacement controller and verify that it has rejoined the grid. 
+
 .Steps
 . Install the replacement controller into the appliance.
  .. Turn the controller over, so that the removable cover faces down.
  .. With the cam handle in the open position, slide the controller all the way into the appliance.
  .. Move the cam handle to the left to lock the controller in place.
  .. Replace the cables and SFPs.
+ .. Power on the controller shelf.
  .. Wait for the E2800 controller to reboot. Verify that the seven-segment display shows a state of `99`.
  .. Determine how you will assign an IP address to the replacement controller.
 +
@@ -111,3 +110,4 @@ image::../media/nodes_menu.png[Appliance node rejoined grid]
 
 include::../_include/fru-statement.adoc[]
 
+// 2024 FEB 26, SGRIDDOC-22
