@@ -1,7 +1,7 @@
 ---
 permalink: sg6100/replacing-drive-in-sgf6112.html
 sidebar: sidebar
-keywords: storagegrid, sg6112, Replacing, replace, drive, remove, removing, removal, install, installing, installation
+keywords: storagegrid, sgf6112, Replacing, replace, drive, remove, removing, removal, install, installing, installation
 summary: 'The SGF6112 storage appliance contains 12 SSD drives. Data on the drives is protected by a RAID scheme that enables the appliance to recover from any single drive failure without having to copy data from another node. '
 ---
 
@@ -33,9 +33,9 @@ NOTE: See the information about viewing status indicators to verify the failure.
 . Verify that the drive's left fault LED is amber or use the drive slot ID from the alert to locate the drive.
 +
 The twelve drives are in the following positions in the chassis (front of chassis with bezel removed shown): 
-
++
 image::../media/sgf6112_ssds_locations.png[Drive locations]
-
++
 [options="header"]
 |===
 |Position| Drive  

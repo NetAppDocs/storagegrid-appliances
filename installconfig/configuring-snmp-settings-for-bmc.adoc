@@ -27,7 +27,7 @@ The Read-Only Community String is like a user ID or password. You should change 
 
 . Optionally, select *Enable Trap*, and enter the required information.
 +
-NOTE: Enter the Destination IP for each SNMP trap using an IP address. Fully qualified domain names aren't supported.
+NOTE: Enter the Destination IP for each SNMP trap using an IP address. DNS names aren't supported.
 +
 Enable traps if you want the appliance to send immediate notifications to an SNMP console when it is in an unusual state. Depending on the device, traps might indicate hardware failures of various components, link up/down conditions, temperature thresholds being exceeded, or high traffic.
 

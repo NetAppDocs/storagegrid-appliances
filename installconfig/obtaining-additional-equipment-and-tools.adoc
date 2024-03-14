@@ -22,7 +22,7 @@ Screwdrivers::
 ESD wrist strap::
 
 Service laptop::
-* https://review.docs.netapp.com/us-en/storagegrid-118_main/admin/web-browser-requirements.html[Supported web browser^]
+* https://docs.netapp.com/us-en/storagegrid-118/admin/web-browser-requirements.html[Supported web browser^]
 * SSH client, such as PuTTY
 * 1-GbE (RJ-45) port
 

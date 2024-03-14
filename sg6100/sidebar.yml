@@ -9,6 +9,8 @@ entries:
   - title: Maintenance configuration procedures
     pdf-filename: Maintenance configuration procedures - SG6100
     entries:
+    - title: Use Manage drives tab
+      url: "/sg6100/manage-drives-tab.html"
     - title: Turn identify LED on and off
       url: "/sg6100/turning-sgf6112-identify-led-on-and-off.html"
     - title: Locate appliance in data center

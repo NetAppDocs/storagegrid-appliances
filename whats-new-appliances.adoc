@@ -17,3 +17,4 @@ Learn what's new for StorageGRID appliances.
 == SG110 and SG1100 services appliances
 The new StorageGRID SG110 and SG1100 services appliances are an evolutionary hardware update that provides improved administrative and load-balancing performance. See link:../installconfig/hardware-description-sg100-and-1000.html[SG110 and SG1100 services appliance: Overview].
 
+
