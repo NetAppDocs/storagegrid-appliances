@@ -70,7 +70,7 @@ a|
 . If you are using SOL, perform these steps:
  .. Connect to the IPMI SOL using the BMC IP address and login credentials.
 +
-`ipmitool -I lanplus -H _BMC_Port_IP_ -U root -P _Password_ sol activate`
+`ipmitool -I lanplus -H _BMC_Port_IP_ -U admin -P _Password_ sol activate`
 
  .. View the codes on the virtual serial terminal.
 . Use the table to look up the codes for your appliance.
