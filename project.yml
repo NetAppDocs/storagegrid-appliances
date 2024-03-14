@@ -1,14 +1,19 @@
 settings:
   name: "StorageGRID Appliances"
+  search: "storagegrid-enable,storagegrid-118,storagegrid-appliances"
   internal:
     pdf_enabled: true
+    termcheck_enabled: false
   prod:
-    pdf_enabled: false
+    pdf_enabled: true
     harmony_enabled: true
+    hide_language_selector: false
 sidebar:
   entries:
     - title: StorageGRID Appliance Docs
       url: "/index.html"
+    - title: StorageGRID software documentation
+      url: "/storagegrid-documentation.html"
     - title: Get started
       url: "/landing-learn-hdwr/index.html"
       entries:
@@ -43,8 +48,6 @@ sidebar:
       - section: sg5700
       - section: sg6000
       - section: sg6100
-    - title: StorageGRID software documentation
-      url: /storagegrid-documentation.html
     - title: Enable StorageGRID
       url: /storagegrid-enable.html
     - title: Legal notices

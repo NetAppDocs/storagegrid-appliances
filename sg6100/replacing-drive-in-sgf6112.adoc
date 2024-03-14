@@ -1,7 +1,7 @@
 ---
 permalink: sg6100/replacing-drive-in-sgf6112.html
 sidebar: sidebar
-keywords: storagegrid, sg6112, Replacing, replace, drive, remove, removing, removal, install, installing, installation
+keywords: storagegrid, sgf6112, Replacing, replace, drive, remove, removing, removal, install, installing, installation
 summary: 'The SGF6112 storage appliance contains 12 SSD drives. Data on the drives is protected by a RAID scheme that enables the appliance to recover from any single drive failure without having to copy data from another node. '
 ---
 
@@ -23,7 +23,7 @@ The failure of a second drive before an initial drive failure has been corrected
 * You have verified which drive has failed by noting that the drive's left LED is solid amber or using the Grid Manager to link:verify-component-to-replace.html[view the alert caused by the failed drive].
 
 +
-IMPORTANT: See the information about viewing status indicators to verify the failure.
+NOTE: See the information about viewing status indicators to verify the failure.
 
 * You have obtained the replacement drive.
 * You have obtained proper ESD protection.
@@ -33,9 +33,9 @@ IMPORTANT: See the information about viewing status indicators to verify the fai
 . Verify that the drive's left fault LED is amber or use the drive slot ID from the alert to locate the drive.
 +
 The twelve drives are in the following positions in the chassis (front of chassis with bezel removed shown): 
-
++
 image::../media/sgf6112_ssds_locations.png[Drive locations]
-
++
 [options="header"]
 |===
 |Position| Drive  
@@ -114,7 +114,7 @@ image::../media/h600s_driveinstall.gif[Drive Installation]
 
 . Insert the replacement drive in the slot, and then close the drive handle.
 +
-IMPORTANT: Don't use excessive force while closing the handle.
+NOTE: Don't use excessive force while closing the handle.
 +
 When the drive is fully inserted, you hear a click.
 +

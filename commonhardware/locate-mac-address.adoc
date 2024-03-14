@@ -25,6 +25,6 @@ You can easily make this calculation by opening Calculator in Windows, setting i
 
 . Ask your network administrator to associate the DNS/network and IP address for the appliance you removed with the MAC address for the replacement appliance.
 +
-IMPORTANT: You must ensure that all IP addresses for the original appliance have been updated before you apply power to the replacement appliance. Otherwise, the appliance will obtain new DHCP IP addresses when it boots up and might not be able to reconnect to StorageGRID. This step applies to all StorageGRID networks that are attached to the appliance.
+CAUTION: You must ensure that all IP addresses for the original appliance have been updated before you apply power to the replacement appliance. Otherwise, the appliance will obtain new DHCP IP addresses when it boots up and might not be able to reconnect to StorageGRID. This step applies to all StorageGRID networks that are attached to the appliance.
 +
 NOTE: If the original appliance used static IP address, the new appliance will automatically adopt the IP addresses of the appliance you removed.

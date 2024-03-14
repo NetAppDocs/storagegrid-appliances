@@ -26,7 +26,7 @@ NOTE: DDP does not provide drawer loss protection in SG6060 appliances because o
 
 * *RAID6*: This mode uses two parity drives for every 16 or more data drives. It is a hardware protection scheme that uses parity stripes on each disk, and allows for two disk failures within the RAID set before any data is lost. To use RAID 6 mode, your configuration must contain at least 20 drives. Although RAID 6 can increase storage efficiency of the appliance when compared to DDP, it is not recommended for most StorageGRID environments.
 
-IMPORTANT: If any volumes have already been configured or if StorageGRID was previously installed, changing the RAID mode causes the volumes to be removed and replaced. Any data on those volumes will be lost.
+CAUTION: If any volumes have already been configured or if StorageGRID was previously installed, changing the RAID mode causes the volumes to be removed and replaced. Any data on those volumes will be lost.
 
 [role="tabbed-block"]
 ====
@@ -37,7 +37,7 @@ IMPORTANT: If any volumes have already been configured or if StorageGRID was pre
 
 * You have an SG5760 with 60 drives. If you have an SG5712, you must use the default DDP mode.
 * You are using any client that can connect to StorageGRID.
-* The client has a https://review.docs.netapp.com/us-en/storagegrid-118_main/admin/web-browser-requirements.html[supported web browser^].
+* The client has a https://docs.netapp.com/us-en/storagegrid-118/admin/web-browser-requirements.html[supported web browser^].
 
 .Steps
 
@@ -56,7 +56,7 @@ Where `_E5700SG_Controller_IP_` is any of the IP addresses for the E5700SG contr
 .Before you begin
 
 * You are using any client that can connect to StorageGRID.
-* The client has a  https://review.docs.netapp.com/us-en/storagegrid-118_main/admin/web-browser-requirements.html[supported web browser^].
+* The client has a  https://docs.netapp.com/us-en/storagegrid-118/admin/web-browser-requirements.html[supported web browser^].
 
 .Steps
 

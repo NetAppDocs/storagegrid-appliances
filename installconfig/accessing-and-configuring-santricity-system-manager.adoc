@@ -17,14 +17,14 @@ You might need to access SANtricity System Manager on the storage controller to 
 
 .Before you begin
 
-* You are using a https://review.docs.netapp.com/us-en/storagegrid-118_main/admin/web-browser-requirements.html[supported web browser^].
+* You are using a https://docs.netapp.com/us-en/storagegrid-118/admin/web-browser-requirements.html[supported web browser^].
 * To access SANtricity System Manager through Grid Manager, you have installed StorageGRID, and you have the Storage appliance administrator permission or Root access permission.
 * To access SANtricity System Manager using the StorageGRID Appliance Installer, you have the SANtricity System Manager administrator username and password.
 * To access SANtricity System Manager directly using a web browser, you have the SANtricity System Manager administrator username and password.
 
 NOTE: You must have SANtricity firmware 8.70 or higher to access SANtricity System Manager using the Grid Manager or the StorageGRID Appliance Installer. You can check your firmware version by using the StorageGRID Appliance Installer and selecting *Help* > *About*.
 
-IMPORTANT: Accessing SANtricity System Manager from the Grid Manager or from the Appliance Installer is generally meant only for monitoring your hardware and configuring E-Series AutoSupport. Many features and operations within SANtricity System Manager such as upgrading firmware don't apply to monitoring your StorageGRID appliance. To avoid issues, always follow the hardware installation and maintenance instructions for your appliance.
+NOTE: Accessing SANtricity System Manager from the Grid Manager or from the Appliance Installer is generally meant only for monitoring your hardware and configuring E-Series AutoSupport. Many features and operations within SANtricity System Manager such as upgrading firmware don't apply to monitoring your StorageGRID appliance. To avoid issues, always follow the hardware installation and maintenance instructions for your appliance.
 
 .About this task
 
@@ -74,7 +74,7 @@ image::../media/san_setup_wizard.gif[Screen shot showing Cancel button for Set U
 
 . Select *Cancel* to close the wizard.
 +
-IMPORTANT: Don't complete the Set Up wizard for a StorageGRID appliance.
+NOTE: Don't complete the Set Up wizard for a StorageGRID appliance.
 +
 image::../media/sam_home_page.gif[Screen shot of SANtricity System Manager home page]
 
@@ -87,7 +87,7 @@ image::../media/sam_home_page.gif[Screen shot of SANtricity System Manager home 
  .. Use the *SUPPORT* > *Support Center* section of the online help to learn about the AutoSupport feature.
  .. Follow the "`How To`" instructions to manage AutoSupport.
 +
-For specific instructions on configuring a StorageGRID proxy for sending E-Series AutoSupport messages without using the management port, go to the https://review.docs.netapp.com/us-en/storagegrid-118_main/admin/configuring-storage-proxy-settings.html[instructions for configuring storage proxy settings^].
+For specific instructions on configuring a StorageGRID proxy for sending E-Series AutoSupport messages without using the management port, go to the https://docs.netapp.com/us-en/storagegrid-118/admin/configuring-storage-proxy-settings.html[instructions for configuring storage proxy settings^].
 
 . If the Drive Security feature is enabled for the appliance, create and manage the security key.
  .. Select *Help* to access the online help for SANtricity System Manager.
@@ -104,14 +104,14 @@ You can use SANtricity System Manager to monitor and manage the individual hardw
 
 .Before you begin
 
-* You are using a https://review.docs.netapp.com/us-en/storagegrid-118_main/admin/web-browser-requirements.html[supported web browser^].
+* You are using a https://docs.netapp.com/us-en/storagegrid-118/admin/web-browser-requirements.html[supported web browser^].
 * To access SANtricity System Manager through Grid Manager, you have the Storage appliance administrator permission or Root access permission.
 * To access SANtricity System Manager using the StorageGRID Appliance Installer, you have the SANtricity System Manager administrator username and password.
 * To access SANtricity System Manager directly using a web browser, you have the SANtricity System Manager administrator username and password.
 
 NOTE: You must have SANtricity firmware 8.70 or higher to access SANtricity System Manager using the Grid Manager or the StorageGRID Appliance Installer.
 
-IMPORTANT: Accessing SANtricity System Manager from the Grid Manager or from the Appliance Installer is generally meant only for monitoring your hardware and configuring E-Series AutoSupport. Many features and operations within SANtricity System Manager such as upgrading firmware don't apply to monitoring your StorageGRID appliance. To avoid issues, always follow the hardware installation and maintenance instructions for your appliance.
+NOTE: Accessing SANtricity System Manager from the Grid Manager or from the Appliance Installer is generally meant only for monitoring your hardware and configuring E-Series AutoSupport. Many features and operations within SANtricity System Manager such as upgrading firmware don't apply to monitoring your StorageGRID appliance. To avoid issues, always follow the hardware installation and maintenance instructions for your appliance.
 
 .Steps
 

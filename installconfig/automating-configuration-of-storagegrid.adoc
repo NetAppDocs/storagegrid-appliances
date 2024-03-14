@@ -18,23 +18,23 @@ After you have installed and configured the grid nodes, you can automate the con
 [cols="1a,1a" options="header"]
 |===
 | Filename| Description
-m|configure-storagegrid.py
-|Python script used to automate the configuration
+m| configure-storagegrid.py
+| Python script used to automate the configuration
 
-m|configure-storagegrid.sample.json
-|Sample configuration file for use with the script
+m| configure-storagegrid.sample.json
+| Example configuration file for use with the script
 
-m|configure-storagegrid.blank.json
-|Blank configuration file for use with the script
+m| configure-storagegrid.blank.json
+| Blank configuration file for use with the script
 |===
 
-* You have created a `configure-storagegrid.json` configuration file. To create this file, you can modify the sample configuration file (`configure-storagegrid.sample.json`) or the blank configuration file (`configure-storagegrid.blank.json`).
+* You have created a `configure-storagegrid.json` configuration file. To create this file, you can modify the example configuration file (`configure-storagegrid.sample.json`) or the blank configuration file (`configure-storagegrid.blank.json`).
 
 .About this task
 
 You can use the `configure-storagegrid.py` Python script and the `configure-storagegrid.json` configuration file to automate the configuration of your StorageGRID system.
 
-NOTE: You can also configure the system using the https://review.docs.netapp.com/us-en/storagegrid-118_main/primer/exploring-grid-manager.html[Grid Manager^] or the link:overview-of-installation-rest-apis.html[Installation API].
+NOTE: You can also configure the system using the https://docs.netapp.com/us-en/storagegrid-118/primer/exploring-grid-manager.html[Grid Manager^] or the link:overview-of-installation-rest-apis.html[Installation API].
 
 .Steps
 
@@ -58,7 +58,7 @@ For example:
 
 A Recovery Package `.zip` file is generated during the configuration process, and it is downloaded to the directory where you are running the installation and configuration process. You must back up the Recovery Package file so that you can recover the StorageGRID system if one or more grid nodes fails. For example, copy it to a secure, backed up network location and to a secure cloud storage location.
 
-IMPORTANT: The Recovery Package file must be secured because it contains encryption keys and passwords that can be used to obtain data from the StorageGRID system.
+CAUTION: The Recovery Package file must be secured because it contains encryption keys and passwords that can be used to obtain data from the StorageGRID system.
 
 If you specified that random passwords should be generated, you need to extract the `Passwords.txt` file and look for the passwords required to access your StorageGRID system.
 

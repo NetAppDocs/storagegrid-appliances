@@ -21,7 +21,7 @@ You might need to replace an E2800 series controller or an EF570 controller if i
 +
 link:locating-controller-in-data-center.html[Locate controller in data center]
 
-IMPORTANT: Don't rely on the E-Series instructions to replace a controller in the StorageGRID appliance, because the procedures aren't the same.
+NOTE: Don't rely on the E-Series instructions to replace a controller in the StorageGRID appliance, because the procedures aren't the same.
 
 .About this task
 
@@ -30,33 +30,23 @@ You can determine if you have a failed controller in two ways:
 * The Recovery Guru in SANtricity System Manager directs you to replace the controller.
 * The amber Attention LED on the controller is on, indicating that the controller has a fault.
 +
-IMPORTANT: If both controllers in the shelf have their Attention LEDs on, contact technical support for assistance.
+NOTE: If both controllers in the shelf have their Attention LEDs on, contact technical support for assistance.
 
 If your appliance contains two storage controllers, you can replace one of the controllers while your appliance is powered on and performing read/write operations, as long as the following conditions are true:
 
 * The second controller in the shelf has Optimal status.
 * The *OK to remove* field in the Details area of the Recovery Guru in SANtricity System Manager displays *Yes*, indicating that it is safe to remove this component.
 
-IMPORTANT: When possible, place the appliance into maintenance mode for this replacement procedure to minimize the potential impact of unforeseen errors or failures.
+NOTE: When possible, place the appliance into maintenance mode for this replacement procedure to minimize the potential impact of unforeseen errors or failures.
 
-IMPORTANT: If the second controller in the shelf does not have Optimal status or if the Recovery Guru indicates that it is not OK to remove the controller, contact technical support.
+NOTE: If the second controller in the shelf does not have Optimal status or if the Recovery Guru indicates that it is not OK to remove the controller, contact technical support.
 
 When you replace a controller, you must remove the battery from the original controller and install it in the replacement controller. In some cases, you might also need to remove the host interface card from the original controller and install it in the replacement controller.
 
 NOTE: The storage controllers in most appliance models don't include host interface cards (HIC).
 
-This task has the following parts: 
+== Step 1: Prepare the replacement controller
 
-. Prepare
-. Take controller offline
-. Remove controller
-. Move battery to new controller
-. Move HIC to new controller, if needed
-. Replace controller
-
-
-== Prepare
-.Steps
 
 . Unpack the new controller, and set it on a flat, static-free surface.
 +
@@ -66,7 +56,9 @@ Save the packing materials to use when shipping the failed controller.
 
 include::../_include/e2800_series_rear.adoc[] 
 
-== Take controller offline
+== Step 2: Take the controller offline
+Prepare to remove the failed controller and and take it offline.
+
 .Steps
 
 . Prepare to remove the controller. You use SANtricity System Manager to perform these steps.
@@ -75,7 +67,7 @@ include::../_include/e2800_series_rear.adoc[]
 +
 When a controller has a fault and needs to be replaced, the replacement part number is displayed in the Details area of the Recovery Guru. If you need to find this number manually, you can look on the *Base* tab for the controller.
 +
-IMPORTANT: *Possible loss of data access &#8212;* If the two part numbers aren't the same, don't attempt this procedure.
+CAUTION: *Possible loss of data access &#8212;* If the two part numbers aren't the same, don't attempt this procedure.
 
  .. Back up the configuration database.
 +
@@ -86,12 +78,16 @@ If a problem occurs when you remove a controller, you can use the saved file to 
 NOTE: Collecting support data before and after replacing a component ensures you can send a full set of logs to technical support if the replacement does not resolve the problem.
 
  .. Take the controller you plan to replace offline.
- 
+. Power off the controller shelf.
+
 include::../_include/remove_controller_e2800.adoc[]
 include::../_include/remove_battery_e2800.adoc[]
 include::../_include/HIC_replacement.adoc[] 
 
-== Replace controller
+[[step6_replace_controller]]
+== Step 6: Replace controller
+Install the replacement controller and verify that it has rejoined the grid.
+
 .Steps
 
 . Install the replacement controller into the appliance.
@@ -99,6 +95,7 @@ include::../_include/HIC_replacement.adoc[]
  .. With the cam handle in the open position, slide the controller all the way into the appliance.
  .. Move the cam handle to the left to lock the controller in place.
  .. Replace the cables and SFPs.
+ .. Power on the controller shelf.
  .. If the original controller used DHCP for the IP address, locate the MAC address on the label on the back of the replacement controller. Ask your network administrator to associate the DNS/network and IP address for the controller you removed with the MAC address for the replacement controller.
 +
 NOTE: If the original controller did not use DHCP for the IP address, the new controller will adopt the IP address of the controller you removed.
@@ -112,3 +109,4 @@ NOTE: If the original controller did not use DHCP for the IP address, the new co
 
 include::../_include/fru-statement.adoc[] 
 
+// 2024 FEB 26, SGRIDDOC-22
