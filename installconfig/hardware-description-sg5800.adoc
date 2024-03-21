@@ -74,13 +74,13 @@ The maximum raw storage available in the StorageGRID appliance is fixed, based o
 
 The figures show the front and back of the SG5812, a 2U enclosure that holds 12 drives.
 
-image::../media/sg5712_front_and_back_views.gif[The front and back of the SG5812 appliance]
+image::../media/sg5812_front_and_back_views.png[The front and back of the SG5812 appliance]
 
 === SG5812 components
 
 The SG5812 includes two controllers and two power-fan canisters.
 
-image::../media/sg5712_with_callouts.gif[Controllers and power-fan canisters in the SG5812 appliance]
+image::../media/sg5812_with_callouts.png[Controllers and power-fan canisters in the SG5812 appliance]
 
 [cols="1a,3a" options="header"]
 |===
@@ -103,13 +103,13 @@ Power-fan canisters
 === SG5860 front and rear views
 The figures show the front and back of the SG5860 model, a 4U enclosure that holds 60 drives in 5 drive drawers.
 
-image::../media/sg5760_front_and_back_views.gif[Front and back of the SG5860 appliance]
+image::../media/sg5860_front_and_back_views.png[Front and back of the SG5860 appliance]
 
 === SG5860 components
 
 The SG5860 includes two controllers, two fan canisters, and two power canisters.
 
-image::../media/sg5760_with_callouts.gif[Controllers, fan canisters, and power canisters in SG5860 appliance]
+image::../media/sg5860_with_callouts.png[Controllers, fan canisters, and power canisters in SG5860 appliance]
 
 [cols="1a,2a" options="header"]
 |===
@@ -150,16 +150,16 @@ NOTE: StorageGRID software is not preinstalled on the appliance. This software i
 
 ==== E5800SG connectors
 
-image::../media/e5700sg_controller_with_callouts.gif[Connectors on E5800SG controller]
+image::../media/e5800sg_controller_with_callouts.png[Connectors on E5800SG controller]
 
 [cols="1a,2a,2a,2a" options="header"]
 |===
 |Callout | Port| Type| Use
 
 | 1
-| Interconnect ports 1 and 2
-| 16Gb/s Fibre Channel (FC), optical SFP
-| Connect the E5800SG controller to the E4000 controller.
+| Management port 1
+| 1-Gb (RJ-45) Ethernet
+| Connect to the Admin Network for StorageGRID.
 
 | 2
 | Diagnostic and support ports
@@ -176,23 +176,15 @@ image::../media/e5700sg_controller_with_callouts.gif[Connectors on E5800SG contr
 | Not used. StorageGRID appliances don't support expansion drive shelves.
 
 | 4
+| Interconnect ports 1 and 2
+| 25GbE iSCSI
+| Connect the E5800SG controller to the E4000 controller.
+
+| 5
 | Network ports 1-4
 | 10-GbE or 25-GbE, based on SFP transceiver type, switch speed, and configured link speed
 | Connect to the Grid Network and the Client Network for StorageGRID.
 
-| 5
-| Management port 1
-| 1-Gb (RJ-45) Ethernet
-| Connect to the Admin Network for StorageGRID.
-
-| 6
-| Management port 2
-| 1-Gb (RJ-45) Ethernet
-| Options:
-
-* Bond with management port 1 for a redundant connection to the Admin Network for StorageGRID.
-* Leave unwired and available for temporary local access (IP 169.254.0.1).
-* During installation, use port 2 for IP configuration if DHCP-assigned IP addresses aren't available.
 
 |===
 
@@ -210,7 +202,7 @@ The E4000 series storage controller has the following specifications:
 
 ==== E4000 connectors
 
-image::../media/e2800_controller_with_callouts.gif[Connectors on E4000 controller]
+image::../media/e4000_controller_with_callouts.png[Connectors on E4000 controller]
 
 
 [cols="1a,2a,2a,2a" options="header"]
@@ -218,25 +210,18 @@ image::../media/e2800_controller_with_callouts.gif[Connectors on E4000 controlle
 | Callout | Port| Type| Use
 
 | 1
-| Interconnect ports 1 and 2
-| 16Gb/s FC optical SFP
-| Connect the E4000 controller to the E5800SG controller.
-
-| 2
-| Management ports 1 and 2
+| Management port
 | 1-Gb (RJ-45) Ethernet
 | 
-* Port 1 Options:
+* Port Options:
 ** Connect to a management network to enable direct TCP/IP access to SANtricity System Manager
 ** Leave unwired to save a switch port and IP address.  Access SANtricity System Manager using the Grid Manager or Storage Grid Appliance Installer UIs.  
 
-*Note*: some optional SANtricity functionality, such as NTP sync for accurate log timestamps, is not available when you choose to leave Port 1 unwired.
+*Note*: Some optional SANtricity functionality, such as NTP sync for accurate log timestamps, is not available when you choose to leave the management unwired.
 
-*Note*: StorageGRID 11.5 or greater, and SANtricity 11.70 or greater, are required when you leave Port 1 unwired.
+*Note*: StorageGRID 11.8 or greater, and SANtricity 11.8 or greater, are required when you leave the management unwired.
 
-* Port 2 is reserved for technical support use.
-
-| 3
+| 2
 | Diagnostic and support ports
 | 
 * RJ-45 serial port
@@ -245,10 +230,16 @@ image::../media/e2800_controller_with_callouts.gif[Connectors on E4000 controlle
 
 | Reserved for technical support use.
 
-| 4
+| 3
 | Drive expansion ports.
 | 12Gb/s SAS
 | Not used.
+
+| 4
+| Interconnect ports 1 and 2
+| 25GbE iSCSI
+| Connect the E4000 controller to the E5800SG controller.
+
 |===
 
 .Related information

@@ -69,7 +69,7 @@ The E-Series E4000 controller shelf (storage array) is a 4U shelf that includes:
 * Redundant power supplies and fans
 
 Optional: Storage expansion shelves::
-Each SG6160 appliance can have one or two expansion shelves for a total of 180 drives (two of these drives are reserved for E-Series read cache).
+Each SG6160 appliance can have one or two expansion shelves for a total of 180 drives.
 +
 NOTE: Expansion shelves can be installed during initial deployment or added later.
 +

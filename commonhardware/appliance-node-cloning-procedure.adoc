@@ -14,7 +14,7 @@ The cloning process might take several days to transfer data between the source 
 .Before you begin
 
 * You have installed the compatible target appliance into a cabinet or rack, connected all cables, and applied power.
-* You have verified that the StorageGRID Appliance Installer version on the replacement appliance matches the software version of your StorageGRID system, upgrading and downgrading the StorageGRID Appliance Installer firmware, if necessary.
+* You have verified that the StorageGRID Appliance Installer version on the replacement appliance matches the software version of your StorageGRID system, upgrading or downgrading the StorageGRID Appliance Installer firmware, if necessary.
 * You have configured the target appliance, including configuring StorageGRID connections, SANtricity System Manager (storage appliances only), and the BMC interface.
  ** When configuring StorageGRID connections, use the temporary IP addresses.
  ** When configuring network links, use the final link configuration.

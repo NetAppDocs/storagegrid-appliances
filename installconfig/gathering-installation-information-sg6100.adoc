@@ -21,9 +21,11 @@ Before installing an SGF6112 or SG6160 appliance, confirm your StorageGRID syste
 |===
 | Appliance| Required StorageGRID version
 
-| SGF6112 or SG6160
+| SGF6112
 | 11.7 or later (latest hotfix recommended)
 
+| SG6160
+| 11.8 or later (latest hotfix recommended)
 |===
 
 == Administration and maintenance ports

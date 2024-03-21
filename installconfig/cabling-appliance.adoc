@@ -322,7 +322,7 @@ a|
 a|
 Two interconnect ports on each controller
 a|
-16Gb/s FC optical SFP+
+25GbE iSCSI SFP28
 
 a|
 Connect the two controllers to each other.
@@ -351,25 +351,13 @@ a|
 a|
 Connects the E5800SG controller to the Admin Network for StorageGRID.
 a|
-3
-a|
-Management port 2 on the E5800SG controller
-a|
-1-GbE (RJ-45)
-a|
-
-* Can be bonded with management port 1 if you want a redundant connection to the Admin Network.
-* Can be left unwired and available for temporary local access (IP 169.254.0.1).
-* During installation, can be used to connect the E5800SG controller to a service laptop if DHCP-assigned IP addresses aren't available.
-
-a|
 4
 a|
 10/25-GbE ports 1-4 on the E5800SG controller
 a|
 10-GbE or 25-GbE
 
-*Note:* The SFP+ transceivers included with the appliance support 10-GbE link speeds. If you want to use 25-GbE link speeds for the four network ports, you must provide SFP28 transceivers.
+*Note:* The SFP28 transceivers included with the appliance support 10-GbE link speeds. If you want to use 25-GbE link speeds for the four network ports, you must provide SFP28 transceivers.
 
 a|
 Connect to the Grid Network and the Client Network for StorageGRID. See link:gathering-installation-information-sg5700.html#port-bond-modes[Port bond modes (E5800SG controller)].
@@ -377,7 +365,7 @@ Connect to the Grid Network and the Client Network for StorageGRID. See link:gat
 
 .Steps
 
-. Connect the E4000 controller to the E5800SG controller, using two optical cables and four of the eight SFP+ transceivers.
+. Connect the E4000 controller to the E5800SG controller, using two optical cables and four of the eight SFP28 transceivers.
 +
 [cols="1a,1a" options="header"]
 |===
@@ -397,8 +385,6 @@ Interconnect port 2 on the E5800SG controller
 Don't use management port 2 (P2) on the E4000 controller (the RJ-45 port on the right). This port is reserved for technical support.
 
 . If you plan to use the Admin Network for StorageGRID, connect management port 1 on the E5800SG controller (the RJ-45 port on the left) to the Admin Network, using an Ethernet cable.
-+
-If you plan to use active-backup network bond mode for the Admin Network, connect management port 2 on the E5800SG controller (the RJ-45 port on the right) to the Admin Network, using an Ethernet cable.
 
 . Connect the 10/25-GbE ports on the E5800SG controller to the appropriate network switches, using optical cables and SFP+ or SFP28 transceivers.
 +

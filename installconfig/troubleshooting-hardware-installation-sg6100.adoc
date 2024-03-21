@@ -89,7 +89,7 @@ The system is awaiting connectivity with the storage controllers and synchronizi
 
 *Note*: If the boot-up procedure does not progress past this stage, perform these steps:
 
-.. Confirm that the four interconnect cables between the SG6000-CN controller and the two storage controllers are securely connected.
+.. Confirm that the four interconnect cables between the SG6100-CN controller and the two storage controllers are securely connected.
 .. As required, replace one or more of the cables, and try again.
 .. If this does not resolve the issue, contact technical support.
 

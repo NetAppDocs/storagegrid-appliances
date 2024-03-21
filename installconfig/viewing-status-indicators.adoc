@@ -471,7 +471,7 @@ During boot-up or after a hard reset of the appliance, the following occurs:
 [[boot_codes_e5800sg_controller]]
 E5800SG controller boot-up codes::
 +
-During a normal boot-up of the appliance, the seven-segment display on the E5700SG controller shows the following codes in the order listed:
+During a normal boot-up of the appliance, the seven-segment display on the E5800SG controller shows the following codes in the order listed:
 +
 [cols="1a,3a" options="header"]
 |===
@@ -488,7 +488,7 @@ During a normal boot-up of the appliance, the seven-segment display on the E5700
 | FP
 | The hardware subsystem firmware update checks have been completed. Inter-controller communication services are starting.
 | HE
-| The system is awaiting connectivity with the E2800 controller and synchronizing with the SANtricity operating system.
+| The system is awaiting connectivity with the E4000 controller and synchronizing with the SANtricity operating system.
 
 *Note:* If this boot procedure does not progress past this stage, check the connections between the two controllers.
 
