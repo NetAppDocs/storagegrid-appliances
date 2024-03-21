@@ -296,8 +296,8 @@ You connect the two controllers to each other, connect the management ports on e
 
 * You have unpacked the following items, which are included with the appliance:
  ** Two power cords.
- ** Two optical cables for the FC interconnect ports on the controllers.
- ** Eight SFP+ transceivers, which support either 10-GbE or 16-Gbps FC. The transceivers can be used with the two interconnect ports on both controllers and with the four 10/25-GbE network ports on the E5800SG controller, assuming you want the network ports to use a 10-GbE link speed.
+ ** Two optical cables for the iSCSI interconnect ports on the controllers.
+ ** Eight SFP+ transceivers, which support 10-GbE. The transceivers can be used with the two interconnect ports on both controllers and with the four 10/25-GbE network ports on the E5800SG controller, assuming you want the network ports to use a 10-GbE link speed.
 * You have obtained the following items, which aren't included with the appliance:
  ** One to four optical cables for the 10/25-GbE ports you plan to use.
  ** One to four SFP28 transceivers, if you plan to use 25-GbE link speed.
@@ -357,7 +357,7 @@ a|
 a|
 10-GbE or 25-GbE
 
-*Note:* The SFP28 transceivers included with the appliance support 10-GbE link speeds. If you want to use 25-GbE link speeds for the four network ports, you must provide SFP28 transceivers.
+*Note:* The SFP+ transceivers included with the appliance support 10-GbE link speeds. If you want to use 25-GbE link speeds for the four network ports, you must provide SFP28 transceivers.
 
 a|
 Connect to the Grid Network and the Client Network for StorageGRID. See link:gathering-installation-information-sg5700.html#port-bond-modes[Port bond modes (E5800SG controller)].
@@ -381,8 +381,6 @@ Interconnect port 2 on the E5800SG controller
 |===
 
 . If you plan to use SANtricity System Manager, connect management port 1 (P1) on the E4000 controller (the RJ-45 port on the left) to the management network for SANtricity System Manager, using an Ethernet cable.
-+
-Don't use management port 2 (P2) on the E4000 controller (the RJ-45 port on the right). This port is reserved for technical support.
 
 . If you plan to use the Admin Network for StorageGRID, connect management port 1 on the E5800SG controller (the RJ-45 port on the left) to the Admin Network, using an Ethernet cable.
 

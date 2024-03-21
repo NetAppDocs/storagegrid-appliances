@@ -262,7 +262,7 @@ Fixed port bond mode (default)::
 +
 This figure shows how the four 10/25-GbE ports are bonded in Fixed port bond mode (default configuration).
 +
-image::../media/e5700sg_fixed_port.gif[Image showing how the 10/25-GbE ports on the E5800SG controller are bonded in fixed mode]
+image::../media/e5800sg_fixed_port.png[Image showing how the 10/25-GbE ports on the E5800SG controller are bonded in fixed mode]
 +
 [cols="1a,3a" options="header"]
 |===
@@ -315,7 +315,7 @@ Aggregate port bond mode::
 +
 This figure shows how the four 10/25-GbE ports are bonded in Aggregate port bond mode.
 +
-image::../media/e5700sg_aggregate_port.gif[Image showing how the 10/25-GbE ports on the E5800SG controller are bonded in aggregate mode]
+image::../media/e5800sg_aggregate_port.png[Image showing how the 10/25-GbE ports on the E5800SG controller are bonded in aggregate mode]
 +
 [cols="1a,3a" options="header"]
 |===
@@ -345,12 +345,6 @@ a|
 
 |===
 
-
-Active-Backup network bond mode for management ports:: 
-+
-This figure shows how the two 1-GbE management ports on the E5800SG controller are bonded in Active-Backup network bond mode for the Admin Network.
-+
-image::../media/e5700sg_bonded_management_ports.gif[E5800SG Bonded management Ports]
 
 --
 
@@ -642,10 +636,10 @@ The first time you access this page:
 +
 The network switches you are using for the Grid Network and the Client Network must also support and be configured for this speed. You must use the appropriate adapters or transceivers for the configured link speed. Use Auto link speed when possible because this option negotiates both link speed and Forward Error Correction (FEC) mode with the link partner.
 +
-If you plan to use the 25-GbE link speed for the SG6000 or SG5700 network ports:
+If you plan to use the 25-GbE link speed for the SG6000, SG5800, or SG5700 network ports:
 
  ** Use SFP28 transceivers and SFP28 TwinAx cables or optical cables.
- ** For the SG5700, select *25GbE* from the *Link speed* drop-down list.
+ ** For the SG5700 or SG5800, select *25GbE* from the *Link speed* drop-down list.
  ** For the SG6000, select *Auto* from the *Link speed* drop-down list.
 
 . Enable or disable the StorageGRID networks you plan to use.

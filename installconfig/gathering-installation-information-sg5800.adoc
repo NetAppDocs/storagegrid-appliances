@@ -71,7 +71,7 @@ For IPv6:
 
 == Information needed to connect E5800SG controller to Admin Network
 
-The Admin Network for StorageGRID is an optional network, used for system administration and maintenance. The appliance connects to the Admin Network using the 1-GbE management ports on the E5800SG controller.
+The Admin Network for StorageGRID is an optional network, used for system administration and maintenance. The appliance connects to the Admin Network using the 1-GbE management port on the E5800SG controller.
 
 [cols="2a,1a" options="header"]
 |===
@@ -129,11 +129,10 @@ NOTE: See link:gathering-installation-information-sg5800.html#port-bond-modes[Po
 a|
 Link speed
 
-*Note:* If you select 25 GbE, install SPF28 transceivers. Autonegotiation is not supported, so you must also configure the ports and the connected switches for 25GbE.
-
 a|
 Choose one:
 
+* Auto (default)
 * 10 GbE (default)
 * 25 GbE
 

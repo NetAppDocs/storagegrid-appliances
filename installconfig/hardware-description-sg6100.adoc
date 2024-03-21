@@ -65,7 +65,7 @@ Storage controller shelf::
 The E-Series E4000 controller shelf (storage array) is a 4U shelf that includes:
 +
 * Two E4000 series controllers (duplex configuration) to provide storage controller failover support
-* Five-drawer drive shelf that holds sixty 3.5-inch drives (2 solid-state drives, or SSDs, and 58 NL-SAS drives)
+* Five-drawer drive shelf that holds sixty 3.5-inch, NL-SAL drives 
 * Redundant power supplies and fans
 
 Optional: Storage expansion shelves::
@@ -283,7 +283,7 @@ There are four connections to the SG6100-CN controller (two from each E4000).
 
 *Note*: some optional SANtricity functionality, such as NTP sync for accurate log timestamps, is not available when you choose to leave Port 1 unwired.
 
-*Note*: StorageGRID 11.5 or greater, and SANtricity 11.70 or greater, are required when you leave Port 1 unwired.
+*Note*: StorageGRID 11.8 or greater, and SANtricity 11.81 or greater, are required when you leave Port 1 unwired.
 
 * Port 2 is reserved for technical support use.
 
