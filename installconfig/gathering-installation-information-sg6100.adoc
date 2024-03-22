@@ -89,7 +89,7 @@ The four networking ports on the appliance connect to the StorageGRID Grid Netwo
 
 | Link speed
 
-| For the SGF6112, choose one of the following:
+| Choose one:
 
 * Auto (default)
 * 10 GbE
