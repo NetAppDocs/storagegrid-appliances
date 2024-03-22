@@ -572,15 +572,14 @@ CAUTION: *Risk of exposure to laser radiation* -- Don't disassemble or remove an
 
 The following figures show the ports on the back of the SGF6112 and the three controllers in the SG6160 appliance. The SG6160 appliance includes a SG6100-CN compute controller on top and two E4000 storage controllers on the bottom.
 
-SG6160 connections:
-
-image::../media/sg6100_e4000_connections.png[SG6160 to E4000 Connections]
 
 SGF6112 connections:
 
 image::../media/sgf6112_connections.png[SGF6112 rear connectors]
 
+SG6160 connections:
 
+image::../media/sg6100_e4000_connections.png[SG6160 to E4000 Connections]
 
 [cols="1a,2a,2a,3a" options="header"]
 |===
@@ -595,7 +594,7 @@ image::../media/sgf6112_connections.png[SGF6112 rear connectors]
 |
 SGF6112: Four 10/25-GbE network ports on the appliance
 
-SG6160: Eight total 10/25 GbE ports
+SG6160: Eight total 10/25 GbE connection ports
 
 * Four on the SG6100-CN controller
 * Two on each storage controller
@@ -645,7 +644,7 @@ Although this connection is optional, it is recommended to facilitate support.
 +
 [cols="2a,2a" options="header"]
 |===
-| SGF6112 link speed (GbE)| Required equipment
+| Link speed (GbE)| Required equipment
 |10
 |SFP+ transceiver
 

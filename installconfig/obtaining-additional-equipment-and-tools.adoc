@@ -113,11 +113,8 @@ Mechanized lift for 60-drive shelves
 You need the following additional equipment to install and configure the SG6100 hardware.
 
 Optical cables and transceivers::
-* Cables, 1 to 4 of either:
-** TwinAx/Copper
-** Fibre/Optical
 
-* Transceivers/adapters, 1 to 4 of each, based on link speed (mixed speeds aren't supported):
+* Transceivers/adapters, 1 to 8 of each, based on link speed (mixed speeds aren't supported):
 ** 10-GbE SFP+ 
 ** 25-GbE SFP28 
 

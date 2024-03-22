@@ -57,9 +57,9 @@ The SG6100-CN controller is a one-rack unit (1U) server that includes:
 * 40 cores (80 threads)
 * 256 GB RAM
 * Up to 4 × 25 Gbps aggregate Ethernet bandwidth
-* 4 × 25 GbE Fibre Channel (FC) interconnect
+* 4 × 25 GbE iSCSI interconnect
 * Baseboard management controller (BMC) that simplifies hardware management
-* Redundant power supplies
+* Redundant power supplies and fans
 
 Storage controller shelf::
 The E-Series E4000 controller shelf (storage array) is a 4U shelf that includes:
@@ -211,7 +211,7 @@ image::../media/sg6000_cn_rear_connectors.gif[SG6100-CN Rear Connectors]
 
 | 1
 | Interconnect ports 1-4
-| 25-Gb/s Fibre Channel (FC), with integrated optics
+| 25GbE iSCSI, with integrated optics
 | Connect the SG6100-CN controller to the E4000 controllers (two connections to each E4000).
 
 | 2
@@ -260,34 +260,25 @@ image::../media/sg6000_cn_rear_connectors.gif[SG6100-CN Rear Connectors]
 * Connect to the SG6100-CN controller and provide access to the storage.
 
 
-image::../media/e2800_controller_with_callouts.gif[Connectors on E4000 controller]
+image::../media/e4000_controller_with_callouts.png[Connectors on E4000 controller]
 
 [cols="1a,2a,2a,3a" options="header"]
 |===
 | Callout | Port| Type| Use
 
 | 1
-| Interconnect ports 1 and 2
-| 25-Gb/s FC optical SFP
-| Connect each of the E4000 controllers to the SG6100-CN controller.
-
-There are four connections to the SG6100-CN controller (two from each E4000).
-
-| 2
-| Management ports 1 and 2
+| Management port 1
 | 1-Gb (RJ-45) Ethernet
 | 
 * Port 1 Options:
 ** Connect to a management network to enable direct TCP/IP access to SANtricity System Manager
 ** Leave unwired to save a switch port and IP address.  Access SANtricity System Manager using the Grid Manager or Storage Grid Appliance Installer UIs.  
 
-*Note*: some optional SANtricity functionality, such as NTP sync for accurate log timestamps, is not available when you choose to leave Port 1 unwired.
+*Note*: Some optional SANtricity functionality, such as NTP sync for accurate log timestamps, is not available when you choose to leave Port 1 unwired.
 
 *Note*: StorageGRID 11.8 or greater, and SANtricity 11.81 or greater, are required when you leave Port 1 unwired.
 
-* Port 2 is reserved for technical support use.
-
-| 3
+| 2
 | Diagnostic and support ports
 | 
 * RJ-45 serial port
@@ -296,10 +287,18 @@ There are four connections to the SG6100-CN controller (two from each E4000).
 
 | Reserved for technical support use.
 
-| 4
+| 3
 | Drive expansion ports 1 and 2
 | 12Gb/s SAS
 | Connect the ports to the drive expansion ports on the IOMs in the expansion shelf.
+
+| 4
+| Interconnect ports 1 and 2
+| 25-Gb/s FC optical SFP
+| Connect each of the E4000 controllers to the SG6100-CN controller.
+
+There are four connections to the SG6100-CN controller (two from each E4000).
+
 |===
 
 === SG6160: IOMs for optional expansion shelves

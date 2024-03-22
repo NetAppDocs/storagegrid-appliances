@@ -36,7 +36,11 @@ entries:
     - title: Replace power canister
       url: "/sg6100/replace-6100-cn-power-canister.html"
     - title: Replace drive
-      url: "/sg6100/replacing-drive-in-sgf6112.html"
+      entries:
+      - title: SGF6112
+        url: "/sg6100/replacing-drive-in-sgf6112.html"
+      - title: SG6160
+        url: "/sg6100/replace-6160-drives-60.html"
     - title: Replace NIC
       url: "/sg6100/replace-nic-in-sgf6112.html"
     - title: Replace CMOS battery
