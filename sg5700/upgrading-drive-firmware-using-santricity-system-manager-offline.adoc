@@ -27,13 +27,9 @@ The drives are upgraded in parallel while the appliance is in maintenance mode. 
 
 The offline method is faster than the online method and will be significantly faster when many drives in a single appliance need upgrades. However, it requires that nodes be taken out of service, which might require scheduling a maintenance window and monitoring progress. Choose the method that is the best fit for your operational procedures and the number of drives that need to be upgraded.
 
-CAUTION: There are two types of drives: SSD and HDD. You must use the offline method to upgrade the firmware on the SSDs. You can use either the online or offline method to upgrade the firmware on HDDs.
-
 .Steps
 
 . Confirm that the appliance is in link:../commonhardware/placing-appliance-into-maintenance-mode.html[maintenance mode].
-+
-NOTE: If you are upgrading the firmware in SSD drives that are part of a cache group, you must ensure that no I/O is sent to any cached volumes while the upgrade is in progress. When the appliance is in maintenance mode, no I/O is sent to any volumes while the upgrade is in progress.
 
 . Access SANtricity System Manager using one of these methods:
  ** Use the StorageGRID Appliance Installer and select *Advanced* > *SANtricity System Manager*

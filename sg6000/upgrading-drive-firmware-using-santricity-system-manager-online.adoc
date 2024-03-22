@@ -1,10 +1,10 @@
 ---
-permalink: sg5700/upgrading-drive-firmware-using-santricity-system-manager-online.html
+permalink: sg6000/upgrading-drive-firmware-using-santricity-system-manager-online.html
 sidebar: sidebar
-keywords: storagegrid, sg5700, storage node, storage appliance, upgrade, upgrading, firmware, drive, disk, SANtricity System Manager, SANtricity
+keywords: storagegrid, sg6000, storage node, storage appliance, upgrade, firmware, drive, disk, SANtricity System Manager, SANtricity
 summary: 'You upgrade your drive firmware to make sure you have all the latest features and bug fixes.'
 ---
-= Upgrade SG5700 drive firmware using SANtricity System Manager online method
+= Upgrade SG6000 drive firmware using SANtricity System Manager using the online method
 :icons: font
 :imagesdir: ../media/
 
@@ -24,9 +24,9 @@ The drives are upgraded one at a time while the appliance is performing I/O. Thi
 
 [NOTE]
 ====
-Drives belonging to volumes that don't have redundancy must be updated using the link:upgrading-drive-firmware-using-santricity-system-manager-offline.html[offline method]. The offline method should be used for any drive associated with flash read cache, or any pool or volume group that is currently degraded.
+Drives belonging to volumes that don't have redundancy must be updated using the link:upgrading-drive-firmware-using-santricity-system-manager-offline.html[offline method]. The offline method should be used for any drive associated with flash read cache (for example, SSD drives in the SG6060), or any pool or volume group that is currently degraded.
 
-You must use the link:upgrading-drive-firmware-using-santricity-system-manager-offline.html[offline method] when upgrading SSD drives.
+There are two types of drives: SSD and HDD. You must use the link:upgrading-drive-firmware-using-santricity-system-manager-offline.html[offline method] to upgrade the firmware on the SSDs (for example, SSD drives in the SG6060). You can use either the online or offline method to upgrade the firmware on HDDs.
 ====
 
 .Steps

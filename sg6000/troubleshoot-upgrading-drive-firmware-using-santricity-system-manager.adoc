@@ -1,7 +1,7 @@
 ---
-permalink: sg5700/troubleshoot-upgrading-drive-firmware-using-santricity-system-manager.html
+permalink: sg6000/troubleshoot-upgrading-drive-firmware-using-santricity-system-manager.html
 sidebar: sidebar
-keywords: storagegrid, sg5700, troubleshoot, storage node, storage appliance, upgrade, upgrading, firmware, drive, disk, SANtricity System Manager, SANtricity
+keywords: storagegrid, sg6000, troubleshoot, storage node, storage appliance, upgrade, upgrading, firmware, drive, disk, SANtricity System Manager, SANtricity
 summary: 'Troubleshoot errors that can occur when using SANtricity System Manager to upgrade the firmware on the drives in your appliance.'
 ---
 = Troubleshoot drive firmware upgrade errors
@@ -11,4 +11,4 @@ summary: 'Troubleshoot errors that can occur when using SANtricity System Manage
 [.lead]
 include::../_include/troubleshoot-upgrading-drive-firmware-using-santricity-system-manager.adoc[]
 
-// 2024 FEB 29, SGIRDDOC-52
+// 2024 MAR 22, SGIRDDOC-52
