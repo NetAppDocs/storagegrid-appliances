@@ -32,6 +32,8 @@ CAUTION: There are two types of drives: SSD and HDD. You must use the offline me
 .Steps
 
 . Confirm that the appliance is in link:../commonhardware/placing-appliance-into-maintenance-mode.html[maintenance mode].
++
+NOTE: If you are upgrading the firmware in SSD drives that are part of a cache group, you must ensure that no I/O is sent to any cached volumes while the upgrade is in progress. When the appliance is in maintenance mode, no I/O is sent to any volumes while the upgrade is in progress.
 
 . Access SANtricity System Manager using one of these methods:
  ** Use the StorageGRID Appliance Installer and select *Advanced* > *SANtricity System Manager*
