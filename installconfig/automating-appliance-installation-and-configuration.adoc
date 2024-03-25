@@ -111,7 +111,7 @@ NOTE: This procedure is for advanced users with experience using command-line in
 . For general help with the script syntax and to see a list of the available parameters, enter the following:
 +
 ----
-configure-sga.py --help
+./configure-sga.py --help
 ----
 +
 The `configure-sga.py` script uses five subcommands:
@@ -123,7 +123,7 @@ The `configure-sga.py` script uses five subcommands:
  ** `reboot` for rebooting the appliance
 +
 If you enter a subcommand (advanced, configure, install, monitor, or reboot) argument followed by the `--help` option you will get a different help text providing more detail on the options available within that subcommand: +
-`configure-sga.py _subcommand_ --help`
+`./configure-sga.py _subcommand_ --help`
 +
 If you will <<back-up-appliance-config,back up the appliance configuration to a JSON file>>, ensure the node names follow these requirements:
 +
@@ -134,10 +134,10 @@ If you will <<back-up-appliance-config,back up the appliance configuration to a 
 * Can't contain only numbers.
 
 . To apply the configuration from the JSON file to the appliance, enter the following, where `_SGA-INSTALL-IP_` is the Admin Network IP address for the appliance, `_json-file-name_` is the name of the JSON file, and `_node-name-inside-json-file_` is the name of the node with the configuration being applied: +
-`configure-sga.py advanced --restore-file _json-file-name_ --restore-node _node-name-inside-json-file_ _SGA-INSTALL-IP_`
+`./configure-sga.py advanced --restore-file _json-file-name_ --restore-node _node-name-inside-json-file_ _SGA-INSTALL-IP_`
 
 . To confirm the current configuration of the appliance node, enter the following where `_SGA-INSTALL-IP_` is the Admin Network IP address for the appliance: +
-`configure-sga.py configure _SGA-INSTALL-IP_`
+`./configure-sga.py configure _SGA-INSTALL-IP_`
 +
 The results show current IP information for the appliance, including the IP address of the primary Admin Node and information about the Admin, Grid, and Client Networks.
 +
@@ -222,18 +222,18 @@ Connecting to +https://10.224.2.30:8443+ (Checking version and connectivity.)
 
 . If you need to change any of the values in the current configuration, use the `configure` subcommand to update them. For example, if you want to change the IP address that the appliance uses for connection to the primary Admin Node to `172.16.2.99`, enter the following:
 +
-`configure-sga.py configure --admin-ip 172.16.2.99 _SGA-INSTALL-IP_`
+`./configure-sga.py configure --admin-ip 172.16.2.99 _SGA-INSTALL-IP_`
 +
 . [[back-up-appliance-config]] If you want to back up the appliance configuration to a JSON file, use the advanced and `backup-file` subcommands. For example, if you want to back up the configuration of an appliance with IP address `_SGA-INSTALL-IP_` to a file named `appliance-SG1000.json`, enter the following: +
-`configure-sga.py advanced --backup-file appliance-SG1000.json _SGA-INSTALL-IP_`
+`./configure-sga.py advanced --backup-file appliance-SG1000.json _SGA-INSTALL-IP_`
 
-+
-The JSON file containing the configuration information is written to the same directory you executed the script from.
 +
 CAUTION: Check that the top-level node name in the generated JSON file matches the appliance name. Don't make any changes to this file unless you are an experienced user and have a thorough understanding of StorageGRID APIs.
 
 . When you are satisfied with the appliance configuration, use the `install` and `monitor` subcommands to install the appliance: +
-`configure-sga.py install --monitor _SGA-INSTALL-IP_`
+`./configure-sga.py install --monitor _SGA-INSTALL-IP_`
++
+`./configure-sga.py monitor --monitor-storagegrid-install SGA-INSTALL-IP`
 
 . If you want to reboot the appliance, enter the following: +
-`configure-sga.py reboot _SGA-INSTALL-IP_`
+`./configure-sga.py reboot _SGA-INSTALL-IP_`

@@ -59,8 +59,9 @@ When you apply power to the appliance, the BMC logs a series of boot-up codes. Y
 . If you are using SOL, perform these steps:
  .. Connect to the IPMI SOL using the BMC IP address and login credentials.
 +
-`ipmitool -I lanplus -H _BMC_Port_IP_ -U root -P _Password_ sol activate`
-
+`ipmitool -I lanplus -H _BMC_Port_IP_ -U admin -P _Password_ sol activate`
++
+NOTE: In some cases the default username might be 'root' instead of 'admin'.
 .. View the codes on the virtual serial terminal.
 
 . Use the table to look up the codes for your appliance.
@@ -83,7 +84,7 @@ When you apply power to the appliance, the BMC logs a series of boot-up codes. Y
 
 | HE
 |
-For an appliance Storage Node only:
+For the SG6160 only:
 
 The system is awaiting connectivity with the storage controllers and synchronizing with the SANtricity operating system.
 
@@ -362,7 +363,7 @@ If you can't connect to the storage appliance, there might be a network issue, o
 
 . Try to ping the appliance using the IP address for the appliance : +
 +
-SGF6112: `*ping _appliance/controller_IP_*`
+`*ping _appliance/controller_IP_*`
 
 . If you receive no response from the ping, confirm you are using the correct IP address.
 +
