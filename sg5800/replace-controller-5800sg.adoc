@@ -62,16 +62,7 @@ NOTE:	Always use two hands to support the weight of the controller.
 .. With the cam handle in the open position, slide the controller all the way into the appliance.
 .. Move the cam handle to the left to lock the controller in place.
 .. Replace the cables and SFPs.
-. Power on the appliance, and monitor the controller LEDs and seven-segment displays.
-+
-After the controllers have successfully booted up, the seven-segment displays should show the following:
-
-** E4000 series controller:
-+
-The final state is 99.
-** E5800SG controller:
-+
-The final state is HA.
+. Power on the appliance, and monitor the controller LEDs.
 . Confirm that the appliance Storage Node appears in the Grid Manager and that no alarms appear.
 
 After replacing the part, return the failed part to NetApp, as described in the RMA instructions shipped with the kit. See the https://mysupport.netapp.com/site/info/rma[Part Return & Replacements] page for further information.
