@@ -341,9 +341,11 @@ The networking ports on the appliance support Fixed port bond mode or Aggregate 
 Fixed port bond mode is the default configuration for the networking ports.
 
 _SGF6112:_
+
 image::../media/sgf6112_fixed_port.png[SGF6112 Fixed Port Bond Mode]
 
 _SG6100-CN:_
+
 image::../media/sg6100_cn_fixed_port.png[SG6100-CN Fixed Port Bond Mode]
 
 [cols="1a,3a" options="header"]

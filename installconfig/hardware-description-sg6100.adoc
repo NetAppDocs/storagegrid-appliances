@@ -16,7 +16,6 @@ The SGF6112 and SG6160 appliances provide the following features:
 * Integrates the storage and computing elements for a StorageGRID Storage Node.
 * Includes the StorageGRID Appliance Installer to simplify Storage Node deployment and configuration.
 * Includes a baseboard management controller (BMC) for monitoring and diagnosing the hardware in the compute controller.
-* Supports up to four 10-GbE or 25-GbE connections to the StorageGRID Grid Network and Client Network.
 
 The SGF6112 and SG6160 are designed with SSDs in a RAID that provide the following data protection features: 
 
@@ -287,7 +286,7 @@ image::../media/e4000_controller_with_callouts.png[Connectors on E4000 controlle
 
 | 4
 | Interconnect ports 1 and 2
-| 25-Gb/s FC optical SFP
+| 25GbE iSCSI
 | Connect each of the E4000 controllers to the SG6100-CN controller.
 
 There are four connections to the SG6100-CN controller (two from each E4000).
