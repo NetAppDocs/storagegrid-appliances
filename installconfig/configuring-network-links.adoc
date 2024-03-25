@@ -38,7 +38,7 @@ The figures and tables summarize the options for the port bond mode and network 
 * link:gathering-installation-information-sg5700.html#port-bond-modes[Port bond modes (E5700SG)]
 * link:gathering-installation-information-sg5800.html#port-bond-modes[Port bond modes (E5800SG)]
 * link:gathering-installation-information-sg6000.html#port-bond-modes[Port bond modes (SG6000-CN)]
-* link:gathering-installation-information-sg6100.html#port-bond-modes[Port bond modes (SGF6112)]
+* link:gathering-installation-information-sg6100.html#port-bond-modes[Port bond modes (SGF6112 and SG6100-CN)]
 
 
 [role="tabbed-block"]

@@ -1,7 +1,7 @@
 ---
 permalink: installconfig/gathering-installation-information-sg6100.html
 sidebar: sidebar
-keywords: storagegrid, sg6100, sgf6112, install, information, site, pre-install, preparing, prepare, preinstall, info, preparation, port bond, port bonding, port bond mode, port-bond mode, Network bond, Network bonding, Network bond mode, Network-bond mode, independent, active-backup, active backup
+keywords: storagegrid, sg6100, sgf6112, SG6160, install, information, site, pre-install, preparing, prepare, preinstall, info, preparation, port bond, port bonding, port bond mode, port-bond mode, Network bond, Network bonding, Network bond mode, Network-bond mode, independent, active-backup, active backup
 summary: 'Using the following tables, record the required information for each network you connect to the appliance. These values are required to install and configure the hardware.'
 ---
 = Gather network information (SG6100)
@@ -28,13 +28,104 @@ Before installing an SGF6112 or SG6160 appliance, confirm your StorageGRID syste
 | 11.8 or later (latest hotfix recommended)
 |===
 
+== Connect to SANtricity System Manager
+
+You connect both of the storage controllers in the SG6160 appliance to the management network you will use for SANtricity System Manager. Controller A is on the top and controller B is on the bottom.
+
+[cols="2a,1a,1a" options="header"]
+|===
+| Information needed| Your value for controller A| Your value for controller B
+a|
+Ethernet switch port you will connect to management port 1 (labeled as P1 on the controller)
+a|
+
+a|
+
+a|
+MAC address for management port 1 (printed on a label near port P1)
+a|
+
+a|
+
+a|
+DHCP-assigned IP address for management port 1, if available after power on
+
+*Note:* If the network you will connect to the storage controller includes a DHCP server, the network administrator can use the MAC address to determine the IP address that was assigned by the DHCP server.
+
+a|
+
+a|
+
+a|
+Static IP address you plan to use for the appliance on the management network
+a|
+For IPv4:
+
+* IPv4 address:
+* Subnet mask:
+* Gateway:
+
+For IPv6:
+
+* IPv6 address:
+* Routable IP address:
+* storage controller router IP address:
+
+a|
+For IPv4:
+
+* IPv4 address:
+* Subnet mask:
+* Gateway:
+
+For IPv6:
+
+* IPv6 address:
+* Routable IP address:
+* storage controller router IP address:
+
+a|
+IP address format
+a|
+Choose one:
+
+* IPv4
+* IPv6
+
+a|
+Choose one:
+
+* IPv4
+* IPv6
+
+a|
+Speed and duplex mode
+
+*Note:* You must make sure the Ethernet switch for the SANtricity System Manager management network is set to autonegotiate.
+
+a|
+Must be:
+
+* Autonegotiate (default)
+
+a|
+Must be:
+
+* Autonegotiate (default)
+
+|===
+
 == Administration and maintenance ports
 
 The Admin Network for StorageGRID is an optional network, used for system administration and maintenance. The appliance connects to the Admin Network using the following 1/10-GbE ports on the appliance.
 
-The following figure shows the RJ-45 ports on the SGF6112 appliance.
+RJ-45 ports on the SGF6112 appliance:
 
 image::../media/sg6100_rj_45_ports_circled.png[SGF6112 RJ-45 ports]
+
+RJ-45 ports on the SG6100-CN controller:
+
+image::../media/sg6100_cn_rj_45_ports_circled.png[SG6100-CN RJ-45 ports]
 
 [cols="2a,1a" options="header"]
 |===
@@ -212,7 +303,9 @@ include::../_include/enable-disable-ipmi.adoc[]
 
 The following figure shows the BMC management port on the SGF6112 appliance.
 
-image::../media/sgf6112_cn_bmc_management_port.png[SG6100 management port]
+image::../media/sgf6112_cn_bmc_management_port.png[SGF6112 management port]
+
+image::../media/sg6100_cn_bmc_management_port.png[SG6100 management port]
 
 [cols="2a,1a" options="header"]
 |===
@@ -247,7 +340,11 @@ The networking ports on the appliance support Fixed port bond mode or Aggregate 
 
 Fixed port bond mode is the default configuration for the networking ports.
 
+_SGF6112:_
 image::../media/sgf6112_fixed_port.png[SGF6112 Fixed Port Bond Mode]
+
+_SG6100-CN:_
+image::../media/sg6100_cn_fixed_port.png[SG6100-CN Fixed Port Bond Mode]
 
 [cols="1a,3a" options="header"]
 |===
@@ -272,8 +369,13 @@ NOTE: If you don't need redundant connections, you can use only one port for eac
 
 Aggregate port bond mode significantly increases the throughput for each StorageGRID network and provides additional failover paths.
 
-image::../media/sgf6112_aggregate_ports.png[SGF6100 aggregate port bond mode]
+_SGF6112:_
 
+image::../media/sgf6112_aggregate_ports.png[SGF6112 aggregate port bond mode]
+
+_SG6100-CN:_
+
+image::../media/sg6100_cn_aggregate_ports.png[SG6100-CN aggregate port bond mode]
 
 [cols="1a,3a" options="header"]
 |===
@@ -298,7 +400,13 @@ NOTE: If you choose to use fewer than four network ports, be aware that a *Servi
 
 For the two 1/10-GbE management ports, you can choose Independent network bond mode or Active-Backup network bond mode to connect to the optional Admin Network.
 
-image::../media/sgf6112_bonded_management_ports.png[Network Management Ports]
+_SGF6112:_
+
+image::../media/sgf6112_bonded_management_ports.png[SGF6112 Network Management Ports]
+
+_SG6100-CN:_
+
+image::../media/sg6100_cn_bonded_management_ports.png[SG6100-CN Network Management Ports]
 
 [cols="1a,3a" options="header"]
 |===

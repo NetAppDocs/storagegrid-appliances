@@ -51,3 +51,26 @@ Place two back brackets on each side of the upper rear section of the shelf. Ins
 image::../media/mount_hardware.gif[Mount Hardware]
 
 . Repeat these steps for any expansion shelves.
+. Install 12 NL-SAS drives in each of of the five drive drawers.
+
+After installing the 60-drive shelf into a cabinet or rack, install all 60 NL-SAS drives into the shelf. Each optional expansion shelf includes 60 NL-SAS drives and no SSD drives. 
+
+. Wrap the strap end of the ESD wristband around your wrist, and secure the clip end to a metal ground to prevent static discharge.
+. Release the levers on the top drive drawer, and slide the drawer out using the levers.
+. Raise each drive handle to a vertical position.
+. Gently position each drive into its slot, and lower the raised drive handle until it clicks into place.
++
+image::../media/install_drives_in_e2860.gif[Install Drives]
+
+. Install 12 NL-SAS drives into the top drawer.
+. Slide the drawer back in by pushing on the center and closing both levers gently.
++
+CAUTION: Stop pushing the drawer if you feel binding. Use the release levers at the front of the drawer to slide the drawer back out. Then, carefully reinsert the drawer into the slot.
+
+. Repeat these steps to install NL-SAS drives into the other four drawers.
++
+CAUTION: You must install all 60 drives to ensure correct operation.
+
+. Attach the front bezel to the shelf.
+. If you have expansion shelves, repeat these steps to install 12 NL-SAS drives into each drawer of each expansion shelf.
+. Proceed to the instructions for installing the SG6100-CN into a cabinet or rack.

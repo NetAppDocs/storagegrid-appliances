@@ -95,7 +95,7 @@ a|
 a|
 DHCP-assigned IP address for management port 1, if available after power on
 
-*Note:* If the Admin Network includes a DHCP server, the E5800SG controller displays the DHCP-assigned IP address on its seven-segment display after it boots up. You can also determine the DHCP-assigned IP address by using the MAC address to look up the assigned IP.
+*Note:* If the Admin Network includes a DHCP server, you can determine the DHCP-assigned IP address by using the MAC address to look up the assigned IP.
 
 a|
 
@@ -200,7 +200,6 @@ Enter a value between 0 and 4095:
 a|
 DHCP-assigned IP address for the Grid Network, if available after power on
 
-*Note:* If the Grid Network includes a DHCP server, the E5800SG controller displays the DHCP-assigned IP address for the Grid Network on its seven-segment display after it boots up.
 
 a|
 

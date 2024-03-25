@@ -15,7 +15,7 @@ You install a set of rails for the SG6100-CN controller in your cabinet or rack,
 
 * You have reviewed the Safety Notices document included in the box, and understand the precautions for moving and installing hardware.
 * You have the instructions packaged with the rail kit.
-* You have installed the E4000 controller shelf and drives or the EF570 controller shelf.
+* You have installed the E4000 controller shelf and drives.
 
 .Steps
 
