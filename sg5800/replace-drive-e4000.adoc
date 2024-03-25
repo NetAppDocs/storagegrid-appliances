@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: 
 summary: Before you replace an E4000 drive, review the requirements and considerations. 
 ---
-= Replace E4000 controller
+= Replace E4000 drive overview
 :icons: font
 :imagesdir: ../media/
 
@@ -16,7 +16,7 @@ Before you replace an E4000 drive, review the requirements and considerations.
 
 You can replace a drive in either a 12-drive, 24-drive, or 60-drive controller shelf or drive shelf.
 
-NOTE: Standard 24-drive shelves require drive staggering. When inserting fewer than 24 drives into an EF300 or EF600 controller, you must alternate between the two halves of the controller. Beginning with the far left and then moving to the far right, place the drives in one at a time.
+NOTE: Standard 24-drive shelves require drive staggering. When inserting fewer than 24 drives into an E4000 controller, you must alternate between the two halves of the controller. Beginning with the far left and then moving to the far right, place the drives in one at a time.
 
 == Drive handling
 

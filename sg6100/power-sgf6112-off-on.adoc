@@ -10,7 +10,7 @@ summary: 'You can shut down the SGF6112 appliance and power it back on to perfor
 :imagesdir: ../media/
 
 [.lead]
-You can shut down the SGF6112 appliance and power it back on to perform maintenance.
+You can shut down the SGF6112 appliance or SG6100-CN controller and power them back on to perform maintenance.
 
 // Same procedure for SG110 and SG1100 - unable to use includes due to specific links in steps
 

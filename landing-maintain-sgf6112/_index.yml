@@ -38,3 +38,5 @@ indexpage:
           url: "../sg6100/replace-nic-in-sgf6112.html"
         - title: Replace CMOS battery
           url: "../sg6100/replace-cmos-in-sgf6112.html"
+        - title: Add expansion shelf to deployed SG6160
+          url: "../sg6100/adding-expansion-shelf-to-deployed-sg6160.html" 

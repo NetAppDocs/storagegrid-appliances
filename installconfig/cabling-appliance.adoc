@@ -296,8 +296,8 @@ You connect the two controllers to each other, connect the management ports on e
 
 * You have unpacked the following items, which are included with the appliance:
  ** Two power cords.
- ** Two optical cables for the FC interconnect ports on the controllers.
- ** Eight SFP+ transceivers, which support either 10-GbE or 16-Gbps FC. The transceivers can be used with the two interconnect ports on both controllers and with the four 10/25-GbE network ports on the E5800SG controller, assuming you want the network ports to use a 10-GbE link speed.
+ ** Two optical cables for the iSCSI interconnect ports on the controllers.
+ ** Eight SFP+ transceivers, which support 10-GbE. The transceivers can be used with the two interconnect ports on both controllers and with the four 10/25-GbE network ports on the E5800SG controller, assuming you want the network ports to use a 10-GbE link speed.
 * You have obtained the following items, which aren't included with the appliance:
  ** One to four optical cables for the 10/25-GbE ports you plan to use.
  ** One to four SFP28 transceivers, if you plan to use 25-GbE link speed.
@@ -322,7 +322,7 @@ a|
 a|
 Two interconnect ports on each controller
 a|
-16Gb/s FC optical SFP+
+25GbE iSCSI SFP28
 
 a|
 Connect the two controllers to each other.
@@ -351,18 +351,6 @@ a|
 a|
 Connects the E5800SG controller to the Admin Network for StorageGRID.
 a|
-3
-a|
-Management port 2 on the E5800SG controller
-a|
-1-GbE (RJ-45)
-a|
-
-* Can be bonded with management port 1 if you want a redundant connection to the Admin Network.
-* Can be left unwired and available for temporary local access (IP 169.254.0.1).
-* During installation, can be used to connect the E5800SG controller to a service laptop if DHCP-assigned IP addresses aren't available.
-
-a|
 4
 a|
 10/25-GbE ports 1-4 on the E5800SG controller
@@ -377,7 +365,7 @@ Connect to the Grid Network and the Client Network for StorageGRID. See link:gat
 
 .Steps
 
-. Connect the E4000 controller to the E5800SG controller, using two optical cables and four of the eight SFP+ transceivers.
+. Connect the E4000 controller to the E5800SG controller, using two optical cables and four of the eight SFP28 transceivers.
 +
 [cols="1a,1a" options="header"]
 |===
@@ -393,12 +381,8 @@ Interconnect port 2 on the E5800SG controller
 |===
 
 . If you plan to use SANtricity System Manager, connect management port 1 (P1) on the E4000 controller (the RJ-45 port on the left) to the management network for SANtricity System Manager, using an Ethernet cable.
-+
-Don't use management port 2 (P2) on the E4000 controller (the RJ-45 port on the right). This port is reserved for technical support.
 
 . If you plan to use the Admin Network for StorageGRID, connect management port 1 on the E5800SG controller (the RJ-45 port on the left) to the Admin Network, using an Ethernet cable.
-+
-If you plan to use active-backup network bond mode for the Admin Network, connect management port 2 on the E5800SG controller (the RJ-45 port on the right) to the Admin Network, using an Ethernet cable.
 
 . Connect the 10/25-GbE ports on the E5800SG controller to the appropriate network switches, using optical cables and SFP+ or SFP28 transceivers.
 +
@@ -588,15 +572,14 @@ CAUTION: *Risk of exposure to laser radiation* -- Don't disassemble or remove an
 
 The following figures show the ports on the back of the SGF6112 and the three controllers in the SG6160 appliance. The SG6160 appliance includes a SG6100-CN compute controller on top and two E4000 storage controllers on the bottom.
 
-SG6160 connections:
-
-image::../media/sg6100_e4000_connections.png[SG6160 to E4000 Connections]
 
 SGF6112 connections:
 
 image::../media/sgf6112_connections.png[SGF6112 rear connectors]
 
+SG6160 connections:
 
+image::../media/sg6100_e4000_connections.png[SG6160 to E4000 Connections]
 
 [cols="1a,2a,2a,3a" options="header"]
 |===
@@ -611,7 +594,7 @@ image::../media/sgf6112_connections.png[SGF6112 rear connectors]
 |
 SGF6112: Four 10/25-GbE network ports on the appliance
 
-SG6160: Eight total 10/25 GbE ports
+SG6160: Eight total 10/25 GbE connection ports
 
 * Four on the SG6100-CN controller
 * Two on each storage controller
@@ -661,7 +644,7 @@ Although this connection is optional, it is recommended to facilitate support.
 +
 [cols="2a,2a" options="header"]
 |===
-| SGF6112 link speed (GbE)| Required equipment
+| Link speed (GbE)| Required equipment
 |10
 |SFP+ transceiver
 

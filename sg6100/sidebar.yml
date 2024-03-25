@@ -36,13 +36,19 @@ entries:
     - title: Replace power canister
       url: "/sg6100/replace-6100-cn-power-canister.html"
     - title: Replace drive
-      url: "/sg6100/replacing-drive-in-sgf6112.html"
+      entries:
+      - title: SGF6112
+        url: "/sg6100/replacing-drive-in-sgf6112.html"
+      - title: SG6160
+        url: "/sg6100/replace-6160-drives-60.html"
     - title: Replace NIC
       url: "/sg6100/replace-nic-in-sgf6112.html"
     - title: Replace CMOS battery
       url: "/sg6100/replace-cmos-in-sgf6112.html"  
     - title: Replace cover
-      url: "/sg6100/reinstalling-sgf6112-cover.html"    
+      url: "/sg6100/reinstalling-sgf6112-cover.html" 
+    - title: Add expansion shelf to deployed SG6160
+      url: "/sg6100/adding-expansion-shelf-to-deployed-sg6160.html"   
     - title: Replace appliance
       entries:
         - title: SGF6112
@@ -55,5 +61,8 @@ entries:
             url: "/sg6100/reinstalling-sgf6112-into-cabinet-or-rack.html"
           - title: SG6100-CN controller
             url: "/sg6100/reinstalling-sg6100-cn-controller-into-cabinet-or-rack.html"
+
+
+
 
       

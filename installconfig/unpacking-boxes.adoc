@@ -131,8 +131,8 @@ Optical cables and SFP transceivers::
 +
 image::../media/fc_cable_and_sfp.gif[Optical cables and SFPs]
 +
-** Two optical cables for the FC interconnect ports
-** Eight SFP+ transceivers, compatible with both the four 16Gb/s FC interconnect ports and the four 10-GbE network ports
+** Two optical cables for the iSCSI interconnect ports
+** Four SFP+ transceivers and four SFP28 transceivers, compatible with both the four 25-GbE iSCSI interconnect ports and the four 10-GbE network ports
 
 --
 

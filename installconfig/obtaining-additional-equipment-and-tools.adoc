@@ -77,7 +77,7 @@ Optional tools:: Mechanized lift for SG5760
 
 .SG5800
 --
-You need the following additional equipment to install and configure the SG5700 hardware.
+You need the following additional equipment to install and configure the SG5800 hardware.
 
 Optical cables and SFP transceivers::
 * Optical cables for the 10/25-GbE ports you plan to use
@@ -113,11 +113,12 @@ Mechanized lift for 60-drive shelves
 You need the following additional equipment to install and configure the SG6100 hardware.
 
 Optical cables and transceivers::
+
 * Cables, 1 to 4 of either:
 ** TwinAx/Copper
 ** Fibre/Optical
 
-* Transceivers/adapters, 1 to 4 of each, based on link speed (mixed speeds aren't supported):
+* Transceivers/adapters, 1 to 8 of each, based on link speed (mixed speeds aren't supported):
 ** 10-GbE SFP+ 
 ** 25-GbE SFP28 
 

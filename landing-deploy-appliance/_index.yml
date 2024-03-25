@@ -16,5 +16,5 @@ indexpage:
           url: "../installconfig/troubleshooting-hardware-installation-sg100-and-sg1000.html"
         - title: SG5700 and SG6000
           url: "../installconfig/troubleshooting-hardware-installation.html"
-        - title: SG6100
+        - title: SG5800 and SG6100
           url: "../installconfig/troubleshooting-hardware-installation-sg6100.html"

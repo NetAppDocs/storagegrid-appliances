@@ -15,6 +15,7 @@ Refer to the instructions for your appliance to determine what information you n
 
 * link:gathering-installation-information-sg100-and-sg1000.html[SG100 and SG1000]
 * link:gathering-installation-information-sg5700.html[SG5700]
+* link:gathering-installation-information-sg5800.html[SG5800]
 * link:gathering-installation-information-sg6000.html[SG6000]
 * link:gathering-installation-information-sg6100.html[SG6100]
 

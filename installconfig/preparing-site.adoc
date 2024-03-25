@@ -37,6 +37,9 @@ Before installing the appliance, you must make sure that the site and the cabine
 | SGF6112
 | 100 to 240 volts AC
 
+| SG6160
+| 240-volt AC
+
 |===
 
 . Obtain a 19-inch (48.3-cm) cabinet or rack to fit shelves of the following size (without cables).
@@ -226,8 +229,8 @@ a|
 
 . Decide where you are going to install the appliance.
 +
-CAUTION: When installing the E2860 controller shelf or optional expansion shelves, install hardware from the bottom to the top of the rack or cabinet to prevent the equipment from tipping over. To ensure that the heaviest equipment is at the bottom of the cabinet or rack, install the SG6000-CN controller above the E2860 controller shelf and expansion shelves.
+CAUTION: When installing the E2860 or E4000 controller shelf or optional expansion shelves, install hardware from the bottom to the top of the rack or cabinet to prevent the equipment from tipping over. To ensure that the heaviest equipment is at the bottom of the cabinet or rack, install the SG6000-CN or SG6100-CN controller above the E2860 or E4000 controller shelf and expansion shelves.
 +
-NOTE: Before committing to the installation, verify that the 0.5m optic cables shipped with an SG6000 appliance, or cables that you supply, are long enough for the planned layout.
+NOTE: Before committing to the installation, verify that the 0.5m optic cables shipped with an SG6000 or SG6100 appliance, or cables that you supply, are long enough for the planned layout.
 
 . Install any required network switches. See the link:https://imt.netapp.com/matrix/#welcome[NetApp Interoperability Matrix Tool^] for compatibility information.

@@ -20,7 +20,7 @@ indexpage:
           url: "../sg5800/replace-power-canister.html"
         - title: Replace batteries
           url: "../sg5800/replace-battery-e4000.html"
-        - title: Replace DIMMS
+        - title: Replace DIMMs
           url: "../sg5800/replace-dimms-e4000.html"
         - title: Replace drives
           url: "../sg5800/replace-drive-e4000.html"

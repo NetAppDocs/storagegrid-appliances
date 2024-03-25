@@ -64,9 +64,7 @@ entries:
         entries:
         - title: 'Install 60-drive shelves (SG6160)'
           url: "/installconfig/sg6160-installing-60-drive-shelves-into-cabinet-or-rack.html"
-        - title: 'Install drives (SG6160)'
-          url: "/installconfig/sg6160-installing-drives.html"
-        - title: Install 24-drive shelves (SGF6112)
+        - title: Install 12-drive shelves (SGF6112)
           url: "/installconfig/installing-appliance-in-cabinet-or-rack-sgf6112.html"
         - title: 'Install SG6100-CN controller (SG6160)'
           url: "/installconfig/sg6100-cn-installing-into-cabinet-or-rack.html"
@@ -131,5 +129,5 @@ entries:
       url: "/installconfig/troubleshooting-hardware-installation-sg100-and-sg1000.html"
     - title: 'Troubleshoot installation (SG5700 or SG6000)'
       url: "/installconfig/troubleshooting-hardware-installation.html"
-    - title: 'Troubleshoot installation (SG6100)'      
+    - title: 'Troubleshoot installation (SG5800 or SG6100)'      
       url: "/installconfig/troubleshooting-hardware-installation-sg6100.html"

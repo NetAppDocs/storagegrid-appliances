@@ -71,7 +71,7 @@ For IPv6:
 
 == Information needed to connect E5800SG controller to Admin Network
 
-The Admin Network for StorageGRID is an optional network, used for system administration and maintenance. The appliance connects to the Admin Network using the 1-GbE management ports on the E5800SG controller.
+The Admin Network for StorageGRID is an optional network, used for system administration and maintenance. The appliance connects to the Admin Network using the 1-GbE management port on the E5800SG controller.
 
 [cols="2a,1a" options="header"]
 |===
@@ -85,14 +85,6 @@ Choose one:
 * Yes (default)
 
 a|
-Network bond mode
-a|
-Choose one:
-
-* Independent
-* Active-Backup
-
-a|
 Switch port for port 1
 a|
 
@@ -103,7 +95,7 @@ a|
 a|
 DHCP-assigned IP address for management port 1, if available after power on
 
-*Note:* If the Admin Network includes a DHCP server, the E5800SG controller displays the DHCP-assigned IP address on its seven-segment display after it boots up. You can also determine the DHCP-assigned IP address by using the MAC address to look up the assigned IP.
+*Note:* If the Admin Network includes a DHCP server, you can determine the DHCP-assigned IP address by using the MAC address to look up the assigned IP.
 
 a|
 
@@ -137,11 +129,10 @@ NOTE: See link:gathering-installation-information-sg5800.html#port-bond-modes[Po
 a|
 Link speed
 
-*Note:* If you select 25 GbE, install SPF28 transceivers. Autonegotiation is not supported, so you must also configure the ports and the connected switches for 25GbE.
-
 a|
 Choose one:
 
+* Auto (default)
 * 10 GbE (default)
 * 25 GbE
 
@@ -209,7 +200,6 @@ Enter a value between 0 and 4095:
 a|
 DHCP-assigned IP address for the Grid Network, if available after power on
 
-*Note:* If the Grid Network includes a DHCP server, the E5800SG controller displays the DHCP-assigned IP address for the Grid Network on its seven-segment display after it boots up.
 
 a|
 
@@ -296,17 +286,13 @@ a|
 
 == Port bond modes
 
-When link:configuring-network-links.html[configuring network links] for the E5800SG controller, you can use port bonding for the 10/25-GbE ports that connect to the Grid Network and optional Client Network, and the 1-GbE management ports that connect to the optional Admin Network. Port bonding helps protect your data by providing redundant paths between StorageGRID networks and the appliance.
+When link:configuring-network-links.html[configuring network links] for the E5800SG controller, you can use port bonding for the 10/25-GbE ports that connect to the Grid Network and optional Client Network. Port bonding helps protect your data by providing redundant paths between StorageGRID networks and the appliance. The 10/25-GbE networking ports on the E5800SG controller support Fixed port bond mode or Aggregate port bond mode for the Grid Network and Client Network connections.
 
-=== Network bond modes for 10/25-GbE ports
-
-The 10/25-GbE networking ports on the E5800SG controller support Fixed port bond mode or Aggregate port bond mode for the Grid Network and Client Network connections.
-
-==== Fixed port bond mode
+=== Fixed port bond mode
 
 Fixed mode is the default configuration for the 10/25-GbE networking ports.
 
-image::../media/e5700sg_fixed_port.gif[Ports used for Fixed port bond mode]
+image::../media/e5800sg_fixed_port.png[Ports used for Fixed port bond mode]
 
 [cols="1a,3a" options=header] 
 |===
@@ -327,11 +313,11 @@ When using Fixed port bond mode, you can use one of two network bond modes: Acti
 
 NOTE: If you don't need redundant connections, you can use only one port for each network. However, be aware that an alarm will be raised in the Grid Manager after StorageGRID is installed, indicating that a cable is unplugged. You can safely acknowledge this alarm to clear it.
 
-==== Aggregate port bond mode
+=== Aggregate port bond mode
 
 Aggregate port bond mode significantly increases the throughout for each StorageGRID network and provides additional failover paths.
 
-image::../media/e5700sg_aggregate_port.gif[Ports used for Aggregate port bond mode]
+image::../media/e5800sg_aggregate_port.png[Ports used for Aggregate port bond mode]
 
 [cols="1a,3a" options=header] 
 |===
@@ -352,17 +338,6 @@ If you don't want to use all four 10/25-GbE ports, you can use one, two, or thre
 
 NOTE: If you choose to use fewer than four ports, be aware that one or more alarms will be raised in the Grid Manager after StorageGRID is installed, indicating that cables are unplugged. You can safely acknowledge the alarms to clear them.
 
-=== Network bond modes for 1-GbE management ports
-
-For the two 1-GbE management ports on the E5800SG controller, you can choose Independent network bond mode or Active-Backup network bond mode to connect to the optional Admin Network.
-
-In Independent mode, only management port 1 is connected to the Admin Network. This mode does not provide a redundant path. Management port 2 is left unwired and available for temporary local connections (use IP address 169.254.0.1)
-
-In Active-Backup mode, both management ports 1 and 2 are connected to the Admin Network. Only one port is active at a time. If the active port fails, its backup port automatically provides a failover connection. Bonding these two physical ports into one logical management port provides a redundant path to the Admin Network.
-
-NOTE: If you need to make a temporary local connection to the E5800SG controller when the 1-GbE management ports are configured for Active-Backup mode, remove the cables from both management ports, plug your temporary cable into management port 2, and access the appliance using IP address 169.254.0.1.
-
-image::../media/e5700sg_bonded_management_ports.gif[E5800SG Bonded Management Port]
 
 .Related information
 

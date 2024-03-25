@@ -17,7 +17,7 @@ If you are using ConfigBuilder to generate a JSON file, you can change the RAID 
 
 If supported by your appliance, you can choose one of the following volume configuration options:
 
-* *Dynamic Disk Pools (DDP)*: This mode uses two parity drives for every eight data drives. This is the default and recommended mode for all appliances. When compared to RAID 6, DDP delivers better system performance, reduced rebuild times after drive failures, and ease of management. DDP also provides drawer loss protection in SG5760 appliances.
+* *Dynamic Disk Pools (DDP)*: This mode uses two parity drives for every eight data drives. This is the default and recommended mode for all appliances. When compared to RAID 6, DDP delivers better system performance, reduced rebuild times after drive failures, and ease of management. DDP also provides drawer loss protection in SG5760, SG5860, and SG6160 appliances.
 +
 NOTE: DDP does not provide drawer loss protection in SG6060 appliances because of the two SSDs. Drawer loss protection is effective in any expansion shelves that are added to an SG6060. 
 

@@ -24,39 +24,35 @@ entries:
   - title: Hardware procedures
     pdf-filename: Hardware procedures - SG5800
     entries:
-      - title: SG5800
+      - title: Replace SG5800 Controller
+        url: "/sg5800/replace-controller-5800sg.html"
+      - title: Replace E4000 controller
         entries:
-          - title: Controller
-            url: "/sg5800/replace-controller-5800sg.html"
-          - title: Fan
-            url: "/sg5800/replace-fan-canister.html"
-          - title: Power canister
-            url: "/sg5800/replace-power-canister.html"
-      - title: E4000
+          - title: Overview
+            url: "/sg5800/replace-controller-requirements-e4000.html"
+          - title: Add second controller canister
+            url: "/sg5800/replace-controller-second-e4000.html"
+          - title: Replace controller (Simplex)
+            url: "/sg5800/replace-controller-e4000-simplex.html"
+          - title: Replace controller (Duplex)
+            url: "/sg5800/replace-controller-e4000-duplex.html"
+      - title: Replace fan
+        url: "/sg5800/replace-fan-canister.html"
+      - title: Replace power canister
+        url: "/sg5800/replace-power-canister.html"
+      - title: Replace batteries
+        url: "/sg5800/replace-battery-e4000.html"
+      - title: Replace DIMMS
+        url: "/sg5800/replace-dimms-e4000.html"
+      - title: Replace drives
         entries:
-          - title: Batteries
-            url: "/sg5800/replace-battery-e4000.html"
-          - title: Controllers
-            entries:
-              - title: Overview
-                url: "/sg5800/replace-controller-requirements-e4000.html"
-              - title: Add second controller canister
-                url: "/sg5800/replace-controller-second-e4000.html"
-              - title: Replace controller (Simplex)
-                url: "/sg5800/replace-controller-e4000-simplex.html"
-              - title: Replace controller (Duplex)
-                url: "/sg5800/replace-controller-e4000-duplex.html"
-          - title: DIMMS
-            url: "/sg5800/replace-dimms-e4000.html"
-          - title: Drives
-            entries:
-              - title: Overview and requirements
-                url: "/sg5800/replace-drive-e4000.html"
-              - title: Replace drive (12-drive or 24-drive)
-                url: "/sg5800/replace-drives-12-24.html"
-              - title: Replace drive (60-drive)
-                url: "/sg5800/replace-drives-60.html"
-              - title:  Hot add a drive shelf
-                url: "/sg5800/replace-drives-hotadd-drive-shelf.html"
-          - title: Power supply
-            url: "/sg5800/replace-power-supply.html"
+          - title: Overview and requirements
+            url: "/sg5800/replace-drive-e4000.html"
+          - title: Replace drive (12-drive or 24-drive)
+            url: "/sg5800/replace-drives-12-24.html"
+          - title: Replace drive (60-drive)
+            url: "/sg5800/replace-drives-60.html"
+          - title:  Hot add a drive shelf
+            url: "/sg5800/replace-drives-hotadd-drive-shelf.html"
+      - title: Replace power supply
+        url: "/sg5800/replace-power-supply.html"
