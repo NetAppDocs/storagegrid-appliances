@@ -32,8 +32,10 @@ indexpage:
           url: "../sg6100/replacing-fan-in-sgf6112.html"
         - title: Replace fan in SG6100-CN
           url: "../sg6100/replace-6100-cn-fan-canister.html"
-        - title: Replace drive
+        - title: Replace drive in SGF 6112
           url: "../sg6100/replacing-drive-in-sgf6112.html"
+        - title: Replace drive in SG6100-CN
+          url: "../sg6100/replace-6160-drives-60.html"
         - title: Replace NIC
           url: "../sg6100/replace-nic-in-sgf6112.html"
         - title: Replace CMOS battery
