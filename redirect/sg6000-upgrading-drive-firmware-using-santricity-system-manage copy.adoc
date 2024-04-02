@@ -1,0 +1,4 @@
+---
+permalink: sg6000/upgrading-drive-firmware-using-santricity-system-manager.html
+redirect: storagegrid-appliances/sg6000/upgrading-drive-firmware-using-santricity-system-manager-online.html
+---
