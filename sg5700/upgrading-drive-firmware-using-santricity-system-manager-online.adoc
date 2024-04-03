@@ -32,11 +32,11 @@ You must use the link:upgrading-drive-firmware-using-santricity-system-manager-o
 .Steps
 
 . Access SANtricity System Manager using one of these methods:
- ** Use the StorageGRID Appliance Installer and select *Advanced* > *SANtricity System Manager*
- ** Use the Grid Manager and select *NODES* > *_Storage Node_* > *SANtricity System Manager* 
- ** Use SANtricity System Manager by browsing to the storage controller IP: 
- +
- `*https://_Storage_Controller_IP_*`
+** Use the StorageGRID Appliance Installer and select *Advanced* > *SANtricity System Manager*
+** Use the Grid Manager and select *NODES* > *_Storage Node_* > *SANtricity System Manager* 
+** Use SANtricity System Manager by browsing to the storage controller IP: 
++
+`*https://_Storage_Controller_IP_*`
 . Enter the SANtricity System Manager administrator username and password, if required.
 
 . Verify the drive firmware version currently installed in the storage appliance:

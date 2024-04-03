@@ -32,11 +32,11 @@ There are two types of drives: SSD and HDD. You must use the link:upgrading-driv
 .Steps
 
 . Access SANtricity System Manager using one of these methods:
- ** Use the StorageGRID Appliance Installer and select *Advanced* > *SANtricity System Manager*
- ** Use the Grid Manager and select *NODES* > *_Storage Node_* > *SANtricity System Manager* 
- ** Use SANtricity System Manager by browsing to the storage controller IP: 
- +
- `*https://_Storage_Controller_IP_*`
+** Use the StorageGRID Appliance Installer and select *Advanced* > *SANtricity System Manager*
+** Use the Grid Manager and select *NODES* > *_Storage Node_* > *SANtricity System Manager* 
+** Use SANtricity System Manager by browsing to the storage controller IP: 
++
+`*https://_Storage_Controller_IP_*`
 . Enter the SANtricity System Manager administrator username and password, if required.
 
 . Verify the drive firmware version currently installed in the storage appliance:
@@ -93,7 +93,7 @@ The selected firmware for the drive appears in the *Proposed Firmware* column. I
 ====
 An online upgrade can take several hours longer than an offline upgrade.
 
-You must use the link:upgrading-drive-firmware-using-santricity-system-manager-offline.html[offline method] to upgrade the firmware on the SSDs.
+You must use the link:upgrading-drive-firmware-using-santricity-system-manager-offline.html[offline method] to upgrade the firmware on SSDs.
 ====
 +
 [start=5]
