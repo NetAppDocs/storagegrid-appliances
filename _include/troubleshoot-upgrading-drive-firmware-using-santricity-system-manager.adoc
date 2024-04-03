@@ -2,11 +2,11 @@ Troubleshoot errors that can occur when using SANtricity System Manager to upgra
 
 * *Failed assigned drives*
 +
-One reason for the failure might be that the drive does not have the appropriate signature. Make sure that the affected drive is an authorized drive. Contact technical support for more information.
+** One reason for the failure might be that the drive does not have the appropriate signature. Make sure that the affected drive is an authorized drive. Contact technical support for more information.
 +
-When replacing a drive, make sure that the replacement drive has a capacity equal to or greater than the failed drive you are replacing.
+** When replacing a drive, make sure that the replacement drive has a capacity equal to or greater than the failed drive you are replacing.
 +
-You can replace the failed drive while the storage array is receiving I/O.
+** You can replace the failed drive while the storage array is receiving I/O.
 
 * *Check storage array*
 ** Make sure that an IP address has been assigned to each controller.
