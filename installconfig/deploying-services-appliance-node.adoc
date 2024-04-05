@@ -91,7 +91,7 @@ To install StorageGRID on a services appliance node:
 * You specify or confirm the IP address of the primary Admin Node and the name of the appliance node.
 * You start the installation and wait as the software is installed.
 +
-Partway through the appliance Gateway Node installation tasks, the installation pauses. To resume the installation, you sign into the Grid Manager, approve all grid nodes, and complete the StorageGRID installation process. The installation of a non-primary Admin Node does not require your approval.
+Partway through the appliance Gateway Node installation tasks, the installation pauses. To resume the installation, you sign into the Grid Manager, approve all grid nodes, and complete the StorageGRID installation process. The installation of a primary Admin Node does not require your approval.
 
 IMPORTANT: Don't deploy SG110 and SG1100 service appliances or SG100 and SG1000 service appliances in the same site. Unpredictable performance might result.
 
