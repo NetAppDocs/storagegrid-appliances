@@ -79,3 +79,5 @@ When you click *Install* from the Grid Manager, Stage 3 completes and stage 4, *
 --
 
 ====
+
+Close the window after all installation stages are complete.
