@@ -32,7 +32,7 @@ To deploy an appliance Storage Node in a StorageGRID system, you access the Stor
 * You start the deployment and wait as volumes are configured and the software is installed.
 * When the installation pauses partway through the appliance installation tasks, you resume the installation by signing into the Grid Manager, approving all grid nodes, and completing the StorageGRID installation and deployment processes.
 
-NOTE: If you need to deploy multiple appliance nodes at one time, you can automate the installation process by using the `configure-sga.py` Appliance Installation script.
+NOTE: If you need to deploy multiple appliance nodes at one time, you can automate the installation process by using the link:../installconfig/automating-appliance-installation-and-configuration.html#automate-with-configure-sga-py-script[`configure-sga.py` Appliance Installation script].
 
 * If you are performing an expansion or recovery operation, follow the appropriate instructions:
 
@@ -91,10 +91,10 @@ link:../commonhardware/appliance-node-cloning-procedure.html[node cloning proced
 
 . From the StorageGRID Appliance Installer home page, click *Start Installation*.
 +
-The Current state changes to "`Installation is in progress,`" and the Monitor Installation page is displayed.
+The Current state changes to "`Installation is in progress,`" and the link:../installconfig/monitoring-appliance-installation.html[Monitor Installation page] is displayed.
 +
 NOTE: If you need to access the Monitor Installation page manually, click *Monitor Installation*.
 
 . If your grid includes multiple appliance Storage Nodes, repeat these steps for each appliance.
 +
-NOTE: If you need to deploy multiple appliance Storage Nodes at one time, you can automate the installation process by using the `configure-sga.py` Appliance Installation script.
+NOTE: If you need to deploy multiple appliance Storage Nodes at one time, you can automate the installation process by using the link:../installconfig/automating-appliance-installation-and-configuration.html#automate-with-configure-sga-py-script[`configure-sga.py` Appliance Installation script].
