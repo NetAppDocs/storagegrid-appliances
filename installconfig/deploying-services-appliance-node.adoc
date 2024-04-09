@@ -53,9 +53,7 @@ https://mysupport.netapp.com/site/products/all/details/storagegrid/downloads-tab
  .. Click *Remove* to remove the current software package.
 +
 image::../media/appliance_installer_rmv_current_software.png[Appliance Installer - Remove Current Software]
- .. Click *Browse* for the software package you downloaded and extracted, and then click *Browse* for the checksum file.
-+
-image::../media/appliance_installer_upload_sg_software.png[Appliance Installer - Upload SG Software]
+ .. Click *Browse* for the software package you downloaded and extracted. Select the `storagegrid-webscale-images-_version_.deb` package.
  .. Select *Home* to return to the Home page.
 . Confirm that the current state is "`Ready to start installation of primary Admin Node name with software version x.y`" and that the *Start Installation* button is enabled.
 +
@@ -91,7 +89,7 @@ To install StorageGRID on a services appliance node:
 * You specify or confirm the IP address of the primary Admin Node and the name of the appliance node.
 * You start the installation and wait as the software is installed.
 +
-Partway through the appliance Gateway Node installation tasks, the installation pauses. To resume the installation, you sign into the Grid Manager, approve all grid nodes, and complete the StorageGRID installation process. The installation of a primary Admin Node does not require your approval.
+Partway through the appliance Gateway Node installation tasks, the installation pauses. To resume the installation, you sign into the Grid Manager, approve all grid nodes, and complete the StorageGRID installation process.
 
 NOTE: Don't deploy SG100 and SG1000 service appliances in the same site. Unpredictable performance might result.
 
@@ -147,9 +145,7 @@ https://mysupport.netapp.com/site/products/all/details/storagegrid/downloads-tab
  .. Click *Remove* to remove the current software package.
 +
 image::../media/appliance_installer_rmv_current_software.png[Appliance Installer - Remove Current Software]
- .. Click *Browse* for the software package you downloaded and extracted, and then click *Browse* for the checksum file.
-+
-image::../media/appliance_installer_upload_sg_software.png[Appliance Installer - Upload SG Software]
+ .. Click *Browse* for the software package you downloaded and extracted. Select the `storagegrid-webscale-images-_version_.deb` package.
  .. Select *Home* to return to the Home page.
 . In the Installation section, confirm that the current state is "Ready to start installation of `_node name_` into grid with primary Admin Node `_admin_ip_` " and that the *Start Installation* button is enabled.
 +
