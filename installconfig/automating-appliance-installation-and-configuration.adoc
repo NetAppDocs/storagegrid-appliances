@@ -228,7 +228,7 @@ Connecting to +https://10.224.2.30:8443+ (Checking version and connectivity.)
 `./configure-sga.py advanced --backup-file appliance-SG1000.json _SGA-INSTALL-IP_`
 
 +
-The JSON file containing the configuration information is written to the path of the output file specified, in this case the relative path for thr file `appliance-SG1000.json`.
+The JSON file containing the configuration information is written to the path of the output file specified, in this case the relative path for the file `appliance-SG1000.json`.
 +
 CAUTION: Check that the top-level node name in the generated JSON file matches the appliance name. Don't make any changes to this file unless you are an experienced user and have a thorough understanding of StorageGRID APIs.
 
