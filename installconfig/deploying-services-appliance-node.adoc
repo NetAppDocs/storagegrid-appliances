@@ -53,9 +53,7 @@ https://mysupport.netapp.com/site/products/all/details/storagegrid/downloads-tab
  .. Click *Remove* to remove the current software package.
 +
 image::../media/appliance_installer_rmv_current_software.png[Appliance Installer - Remove Current Software]
- .. Click *Browse* for the software package you downloaded and extracted, and then click *Browse* for the checksum file.
-+
-image::../media/appliance_installer_upload_sg_software.png[Appliance Installer - Upload SG Software]
+ .. Click *Browse* for the software package you downloaded and extracted. Select the `storagegrid-webscale-images-_version_.deb` package.
  .. Select *Home* to return to the Home page.
 . Confirm that the current state is "`Ready to start installation of primary Admin Node name with software version x.y`" and that the *Start Installation* button is enabled.
 +
@@ -91,7 +89,7 @@ To install StorageGRID on a services appliance node:
 * You specify or confirm the IP address of the primary Admin Node and the name of the appliance node.
 * You start the installation and wait as the software is installed.
 +
-Partway through the appliance Gateway Node installation tasks, the installation pauses. To resume the installation, you sign into the Grid Manager, approve all grid nodes, and complete the StorageGRID installation process. The installation of a primary Admin Node does not require your approval.
+Partway through the appliance Gateway Node installation tasks, the installation pauses. To resume the installation, you sign into the Grid Manager, approve all grid nodes, and complete the StorageGRID installation process.
 
 IMPORTANT: Don't deploy SG110 and SG1100 service appliances or SG100 and SG1000 service appliances in the same site. Unpredictable performance might result.
 
@@ -141,15 +139,13 @@ The name that appears here will be the appliance node's system name. System name
 . Optionally, to install a different version of the StorageGRID software, follow these steps:
  .. Download the installation archive:
 +
-https://mysupport.netapp.com/site/products/all/details/storagegrid-appliance/downloads-tab[NetApp Downloads: StorageGRID Appliance^]
+https://mysupport.netapp.com/site/products/all/details/storagegrid/downloads-tab[NetApp Downloads: StorageGRID^]
  .. Extract the archive.
  .. From the StorageGRID Appliance Installer, select *Advanced* > *Upload StorageGRID Software*.
  .. Click *Remove* to remove the current software package.
 +
 image::../media/appliance_installer_rmv_current_software.png[Appliance Installer - Remove Current Software]
- .. Click *Browse* for the software package you downloaded and extracted, and then click *Browse* for the checksum file.
-+
-image::../media/appliance_installer_upload_sg_software.png[Appliance Installer - Upload SG Software]
+ .. Click *Browse* for the software package you downloaded and extracted. Select the `storagegrid-webscale-images-_version_.deb` package.
  .. Select *Home* to return to the Home page.
 . In the Installation section, confirm that the current state is "Ready to start installation of `_node name_` into grid with primary Admin Node `_admin_ip_` " and that the *Start Installation* button is enabled.
 +
@@ -157,9 +153,7 @@ If the *Start Installation* button is not enabled, you might need to change the 
 
 . From the StorageGRID Appliance Installer home page, click *Start Installation*.
 +
-image::../media/appliance_installer_services_appliance_non_pan.png[Appliance Installer Home - Install non-primary Admin Node]
-+
-The Current state changes to "`Installation is in progress,`" and the Monitor Installation page is displayed.
+The Current state changes to "`Installation is in progress,`" and the link:../installconfig/monitoring-appliance-installation.html[Monitor Installation page] is displayed.
 +
 NOTE: If you need to access the Monitor Installation page manually, click *Monitor Installation* from the menu bar.
 
