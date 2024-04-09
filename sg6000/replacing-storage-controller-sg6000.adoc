@@ -46,8 +46,9 @@ When you replace a controller, you must remove the battery from the original con
 NOTE: The storage controllers in most appliance models don't include host interface cards (HIC).
 
 == Step 1: Prepare the replacement controller
+Prepare the replacement E2800A or E2800B controller.
 
-
+.Steps
 . Unpack the new controller, and set it on a flat, static-free surface.
 +
 Save the packing materials to use when shipping the failed controller.

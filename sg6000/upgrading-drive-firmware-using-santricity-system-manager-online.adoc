@@ -1,0 +1,116 @@
+---
+permalink: sg6000/upgrading-drive-firmware-using-santricity-system-manager-online.html
+sidebar: sidebar
+keywords: storagegrid, sg6000, storage node, storage appliance, upgrade, firmware, drive, disk, SANtricity System Manager, SANtricity
+summary: 'You upgrade your drive firmware to make sure you have all the latest features and bug fixes.'
+---
+= Upgrade SG6000 drive firmware using SANtricity System Manager using the online method
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Use the SANtricity System Manager online method to upgrade the firmware on the drives in your appliance to make sure you have all the latest features and bug fixes. 
+
+.Before you begin
+
+* The storage appliance has an Optimal status.
+* All drives have an Optimal status.
+
+CAUTION: Don't upgrade the drive firmware on more than one StorageGRID appliance at a time. Doing so might cause data unavailability, depending on your deployment model and ILM policy.
+
+.About this task
+
+The drives are upgraded one at a time while the appliance is performing I/O. This method does not require you to place the appliance in maintenance mode. However, system performance might be impacted and the upgrade might take several hours longer than the offline method. 
+
+[NOTE]
+====
+Drives belonging to volumes that don't have redundancy must be updated using the link:upgrading-drive-firmware-using-santricity-system-manager-offline.html[offline method]. The offline method should be used for any drive associated with flash read cache (for example, SSD drives in the SG6060), or any pool or volume group that is currently degraded.
+
+There are two types of drives: SSD and HDD. You must use the link:upgrading-drive-firmware-using-santricity-system-manager-offline.html[offline method] to upgrade the firmware on the SSDs (for example, SSD drives in the SG6060). You can use either the online or offline method to upgrade the firmware on HDDs.
+====
+
+.Steps
+
+. Access SANtricity System Manager using one of these methods:
+** Use the StorageGRID Appliance Installer and select *Advanced* > *SANtricity System Manager*
+** Use the Grid Manager and select *NODES* > *_Storage Node_* > *SANtricity System Manager* 
+** Use SANtricity System Manager by browsing to the storage controller IP: 
++
+`*https://_Storage_Controller_IP_*`
+. Enter the SANtricity System Manager administrator username and password, if required.
+
+. Verify the drive firmware version currently installed in the storage appliance:
+ .. From SANtricity System Manager, select *SUPPORT* > *Upgrade Center*.
+ .. Under Drive Firmware upgrade, select *Begin Upgrade*.
++
+The Upgrade Drive Firmware page displays the drive firmware files currently installed.
+
+ .. Note the current drive firmware revisions and drive identifiers in the Current Drive Firmware column.
++
+image::../media/storagegrid_update_drive_firmware.png[Upgrade Drive Firmware]
++
+In this example:
+
+  *** The drive firmware revision is *MS02*.
+  *** The drive identifier is *KPM51VUG800G*.
+
+ .. Select *View drives* in the Associated Drives column to display where these drives are installed in your storage appliance.
+
+ .. Close the Upgrade Drive Firmware window.
+
+. Download and prepare the available drive firmware upgrade:
+ .. Under Drive Firmware upgrade, select *NetApp Support*.
+ .. On the NetApp Support Site, select the *Downloads* tab, and then select *E-Series Disk Drive Firmware*.
++
+The E-Series Disk Firmware page displays.
+
+ .. Search for each *Drive Identifier* installed in your storage appliance and verify that each drive identifier has the latest firmware revision.
+  *** If the firmware revision is not a link, this drive identifier has the latest firmware revision.
+  *** If one or more drive part numbers are listed for a drive identifier, a firmware upgrade is available for these drives. You can select any link to download the firmware file.
++
+image::../media/storagegrid_drive_firmware_download.png[E-Series Disk Firmware page]
+ .. If a later firmware revision is listed, select the link in the Firmware Rev. (Download) column to download a `.zip` archive containing the firmware file.
+ .. Extract (unzip) the drive firmware archive files you downloaded from the Support site.
+. Install the drive firmware upgrade:
+ .. From SANtricity System Manager, under Drive Firmware upgrade, select *Begin Upgrade*.
+ .. Select *Browse*, and select the new drive firmware files that you downloaded from the Support site.
++
+Drive firmware files have a filename similar to `D_HUC101212CSS600_30602291_MS01_2800_0002.dlp`.
++
+You can select up to four drive firmware files, one at a time. If more than one drive firmware file is compatible with the same drive, you get a file conflict error. Decide which drive firmware file you want to use for the upgrade and remove the other one.
+
+ .. Select *Next*.
++
+*Select Drives* lists the drives that you can upgrade with the selected firmware files.
++
+Only drives that are compatible appear.
++
+The selected firmware for the drive appears in the *Proposed Firmware* column. If you must change this firmware, select *Back*.
+
+ .. Select *Upgrade all drives online* — Upgrades the drives that can support a firmware download while the storage array is processing I/O. You don't have to stop I/O to the associated volumes using these drives when you select this upgrade method.  
++
+[NOTE] 
+====
+An online upgrade can take several hours longer than an offline upgrade.
+
+You must use the link:upgrading-drive-firmware-using-santricity-system-manager-offline.html[offline method] to upgrade the firmware on SSDs.
+====
++
+[start=5]
+ .. In the first column of the table, select the drive or drives you want to upgrade.
++
+The best practice is to upgrade all drives of the same model to the same firmware revision.
+
+ .. Select *Start* and confirm that you want to perform the upgrade.
++
+If you need to stop the upgrade, select *Stop*. Any firmware downloads currently in progress complete. Any firmware downloads that have not started are canceled.
++
+CAUTION: Stopping the drive firmware upgrade might result in data loss or unavailable drives.
+
+ .. (Optional) To see a list of what was upgraded, select *Save Log*.
++
+The log file is saved in the downloads folder for your browser with the name `latest-upgrade-log-timestamp.txt`.
++
+link:troubleshoot-upgrading-drive-firmware-using-santricity-system-manager.html[If required, troubleshoot driver firmware upgrade errors].
+
+// 2024 FEB 29, SGIRDDOC-52
