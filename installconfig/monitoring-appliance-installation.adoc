@@ -44,6 +44,9 @@ image::../media/monitor_installation_install_sgws.gif[This image is explained by
 . Go to the Grid Manager of the Primary Admin node, approve the pending storage node, and complete the StorageGRID installation process.
 +
 When you click *Install* from the Grid Manager, Stage 3 completes and stage 4, *Finalize Installation*, begins. When stage 4 completes, the controller is rebooted.
+
+Close the window after all installation stages are complete.
+
 --
 
 .Services appliance
@@ -76,8 +79,8 @@ image::../media/monitor_installation_install_sgws.gif[This image is explained by
 . https://docs.netapp.com/us-en/storagegrid-118/admin/signing-in-to-grid-manager.html[Go to the Grid Manager^] of the Primary Admin node, approve the pending grid node, and complete the StorageGRID installation process.
 +
 When you click *Install* from the Grid Manager, Stage 3 completes and stage 4, *Finalize Installation*, begins. When stage 4 completes, the appliance is rebooted.
+
+Close the window after all installation stages are complete.
 --
 
 ====
-
-Close the window after all installation stages are complete.
