@@ -22,9 +22,13 @@ Ensure that the replacement appliance meets the following criteria:
 +
 For example, you can replace a SG1000 node appliance with a SG100 or replace a SG100 appliance with a SG1000 appliance.
 
-* For Storage Node appliances, the source node appliance and the target appliance don't need to be the same appliance model; however, the target appliance must have greater storage capacity than the source appliance.
+* For Storage Node appliances, the source node appliance and the target appliance don't need to be the same type of appliance; however:
+** The target appliance must have greater storage capacity than the source appliance.
 +
 For example, you can replace a SG5700 node appliance with a SG6000 appliance.
+** The target appliance must have an equal or greater number of object storage volumes than the source appliance.
++
+For example, you cannot replace a SG6000 node appliance (16 object store volumes) with a SGF6112 appliance (12 object store volumes).
 
 Contact your StorageGRID sales representative for help choosing compatible replacement appliances to clone specific appliance nodes in your StorageGRID installation.
 
