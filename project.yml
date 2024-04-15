@@ -23,6 +23,8 @@ sidebar:
         entries:
         - title: SG100 and SG1000 services appliances
           url: "/installconfig/hardware-description-sg100-and-1000.html"
+        - title: SG110 and SG1100 services appliances
+          url: "/installconfig/hardware-description-sg110-and-1100.html"
         - title: SG5700 storage appliances
           url: "/installconfig/hardware-description-sg5700.html"
         - title: SG6000 storage appliances
@@ -44,6 +46,7 @@ sidebar:
         - title: Clone appliance node
           url: "/commonhardware/appliance-node-cloning-procedure.html"
       - section: sg100-1000
+      - section: sg110-1100
       - section: sg5600
       - section: sg5700
       - section: sg6000

@@ -35,6 +35,31 @@ Two power cords for your country::
 image::../media/power_cords.gif[Power cords]
 --
 
+.SG110 and SG1100
+--
+* *Hardware*
+
+SG110 or SG1100::
++
+image::../media/sgf6112_front_with_ssds.png[Front drives SG110 and SG1100 appliances]
+
+Rail kit with instructions::
++
+image::../media/rail_kit.gif[Rail kit]
+
+Front bezel::
++
+image::../media/sgf_6112_front_bezel.png[Front bezel]
+
+* *Power cords*
++
+TIP: Your cabinet might have special power cords that you use instead of the power cords that ship with the appliance.
++
+Two power cords for your country::
++
+image::../media/power_cords.gif[Power cords]
+--
+
 .SG5700
 --
 

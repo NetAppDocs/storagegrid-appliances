@@ -6,8 +6,8 @@ entries:
     pdf-filename: SG6100 hardware maintenance
     url: "/sg6100/index.html"
 
-  - title: Configuration maintenance procedures
-    pdf-filename: Configuration maintenance procedures - SG6100
+  - title: Maintenance configuration procedures
+    pdf-filename: Maintenance configuration procedures - SG6100
     entries:
     - title: Use Manage drives tab
       url: "/sg6100/manage-drives-tab.html"
@@ -41,4 +41,3 @@ entries:
       url: "/sg6100/replacing-sgf6112-appliance.html"
     - title: Relocate SGF6112 in rack
       url: "/sg6100/reinstalling-sgf6112-into-cabinet-or-rack.html"
-      

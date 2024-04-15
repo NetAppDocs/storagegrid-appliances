@@ -16,7 +16,9 @@ indexpage:
     - title: Appliance overviews
       links:            
       - title: SG100 and SG1000
-        url: "/installconfig/hardware-description-sg100-and-1000.html"
+        url: "/installconfig/hardware-description-sg100-and-1000.html"            
+      - title: SG110 and SG1100
+        url: "/installconfig/hardware-description-sg110-and-1100.html"
       - title: SG5700
         url: "/installconfig/hardware-description-sg5700.html"
       - title: SG6000
@@ -37,6 +39,8 @@ indexpage:
       links:
       - title: SG100 and SG1000
         url: /landing-maintain-sg1000-100/index.html
+      - title: SG110 and SG1100
+        url: /landing-maintain-sg1100-110/index.html
       - title: SG5600
         url: /sg5600/index.html
       - title: SG5700
