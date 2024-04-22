@@ -1,0 +1,49 @@
+---
+permalink: commonhardware/use-bmc.html
+sidebar: sidebar
+keywords: storagegrid, bmc
+summary: 'Some StorageGRID appliances include a baseboard management controller (BMC) that allows low-level hardware access for appliance configuration, monitoring, and diagnosis.'
+---
+= Use the StorageGRID appliance baseboard management controller (BMC)
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Some StorageGRID appliances include a baseboard management controller (BMC) that allows low-level hardware access for appliance configuration, monitoring, and diagnosis. 
+
+The BMC interface is supported by the following StorageGRID appliance models:
+* SG6100
+* SG6000
+* SG1100
+* SG110
+* SG1000
+* SG100
+
+See *ADD-LINK-TO-KB-WITH-QUANTA-PDF* for detailed information about using the BMC interface for these appliances. You should only access undocumented BMC functions when directed by technical support.
+
+NetApp documents the following StorageGRID-specific BMC procedures:
+
+* link:../installconfig/accessing-bmc-interface.html[Access the BMC dashboard]
+* link:../installconfig/configuring-snmp-settings-for-bmc.html[Configure BMC SNMP settings]
+* link:../installconfig/setting-up-email-notifications-for-alerts.html[Set up email alert notifications]
+* Troubleshoot hardware installation:
+** link:../installconfig/troubleshooting-hardware-installation-sg100-and-sg1000.html[SG1000 and SG100]
+** link:../installconfig/troubleshooting-hardware-installation-sg110-and-sg1100.html[SG1100 and SG110]
+** link:../installconfig/troubleshooting-hardware-installation.html[SG6000 and SG5700]
+** link:../installconfig/troubleshooting-hardware-installation-sg6100.html[SG6100]
+* Determine the appliance power state:
+** link:../sg100-1000/shut-down-sg100-and-sg1000.html[SG1000 and SG100]
+** link:../sg110-1100/shut-down-sg110-and-sg1100.html[SG1100 and SG110]
+** link:../sg6000/power-sg6000-cn-controller-off-on.html[SG6000]
+** link:../sg6100/power-sgf6112-off-on.html[SG6100]
+* Turn the appliance identify LED on and off:
+** link:../sg100-1000/turning-controller-identify-led-on-and-off.html[SG1000 and SG100]
+** link:../sg110-1100/turning-controller-identify-led-on-and-off.html[SG1100 and SG110]
+** link:../sg6000/turning-controller-identify-led-on-and-off.html[SG6000]
+** link:../sg6100/turning-sgf6112-identify-led-on-and-off.html[SG6100]
+* Change the appliance link configuation:
+** link:../sg100-1000/changing-link-configuration-of-services-appliance.html[SG100 and SG1000]
+** link:../sg110-1100/changing-link-configuration-of-services-appliance.html[SG110 and SG1100]
+** link:../sg5700/changing-link-configuration-of-e5700sg-controller.html[SG5700]
+** link:../sg6000/changing-link-configuration-of-sg6000-cn-controller.html[SG6000]
+** link:../sg6100/changing-link-configuration-of-sgf6112-appliance.html[SG6100]

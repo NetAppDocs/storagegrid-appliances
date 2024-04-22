@@ -14,4 +14,5 @@ entries:
     url: "/commonhardware/locate-mac-address.html"
   - title: Monitor node encryption in maintenance mode
     url: "/commonhardware/monitoring-node-encryption-in-maintenance-mode.html"
-
+  - title: Use the BMC interface
+    url: "/commonhardware/use-bmc.html"
