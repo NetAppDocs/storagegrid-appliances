@@ -51,7 +51,7 @@ The following BMC procedures are documented for use with supported StorageGRID a
 ** link:../sg6000/changing-link-configuration-of-sg6000-cn-controller.html[SG6000]
 ** link:../sg6100/changing-link-configuration-of-sgf6112-appliance.html[SG6100]
 
-== BMC features not supported for StorageGRIS appliances
+== BMC features not supported for StorageGRID appliances
 
 The following BMC features conflict with StorageGRID-specific configuration and should not be used.
 
