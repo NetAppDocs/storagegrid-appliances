@@ -12,6 +12,7 @@ summary: 'Some StorageGRID appliances include a baseboard management controller 
 Some StorageGRID appliances include a baseboard management controller (BMC) that allows low-level hardware access for appliance configuration, monitoring, and diagnosis. 
 
 The BMC interface is supported by the following StorageGRID appliance models:
+
 * SG6100
 * SG6000
 * SG1100
@@ -24,6 +25,7 @@ See *ADD-LINK-TO-KB-WITH-QUANTA-PDF* for detailed information about using the BM
 == BMC use for StorageGRID appliances
 
 The following BMC procedures are documented for use with supported StorageGRID appliances:
+
 * link:../installconfig/accessing-bmc-interface.html[Access the BMC dashboard]
 * link:../installconfig/configuring-snmp-settings-for-bmc.html[Configure BMC SNMP settings]
 * link:../installconfig/setting-up-email-notifications-for-alerts.html[Set up email alert notifications]
