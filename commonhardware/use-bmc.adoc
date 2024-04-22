@@ -21,8 +21,9 @@ The BMC interface is supported by the following StorageGRID appliance models:
 
 See *ADD-LINK-TO-KB-WITH-QUANTA-PDF* for detailed information about using the BMC interface for these appliances. You should only access undocumented BMC functions when directed by technical support.
 
-NetApp documents the following StorageGRID-specific BMC procedures:
+== BMC use for StorageGRID appliances
 
+The following BMC procedures are documented for use with supported StorageGRID appliances:
 * link:../installconfig/accessing-bmc-interface.html[Access the BMC dashboard]
 * link:../installconfig/configuring-snmp-settings-for-bmc.html[Configure BMC SNMP settings]
 * link:../installconfig/setting-up-email-notifications-for-alerts.html[Set up email alert notifications]
@@ -47,3 +48,21 @@ NetApp documents the following StorageGRID-specific BMC procedures:
 ** link:../sg5700/changing-link-configuration-of-e5700sg-controller.html[SG5700]
 ** link:../sg6000/changing-link-configuration-of-sg6000-cn-controller.html[SG6000]
 ** link:../sg6100/changing-link-configuration-of-sgf6112-appliance.html[SG6100]
+
+== BMC features not supported for StorageGRIS appliances
+
+The following BMC features conflict with StorageGRID-specific configuration and should not be used.
+
+* Settings 
+** RAID Management
+** SAS IT Management
+** IPMI Interfaces
+** Cold Redundancy
+** NIC Selection
+* Image Redirection
+* Host System Diagnostics
+* Maintenance
+** Dual Image Configuration
+** Firmware Information
+** Firmware Update
+** Restore Factory Defaults
