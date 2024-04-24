@@ -1,18 +1,15 @@
 ---
-permalink: sg6100/replace-6100-cn-fan-canister.html
+permalink: sg6100/replace-e4000-fan-canister.html
 sidebar: sidebar
 keywords: E4000 replace canister, replacing E4000 canister, E4000 replace fan, replacing E4000 fan, E4000, E-Series, eseries
 summary: Review E4000 canister types and requirements.
 ---
-= Replace E4000 fan canister (60-drive)
+= Replace E4000 fan canister (SG6160)
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can replace a fan canister in an E4000 array with a 60-drive shelf, which include the following shelf types:
-
-* E4000 controller shelf
-* DE460C drive shelf
+You can replace a fan canister in an E4000 array with a 60-drive shelf.
 
 .About this task
 

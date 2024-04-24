@@ -4,15 +4,13 @@ sidebar: sidebar
 keywords: 
 summary: 
 ---
-= Replace controller in E4000 simplex configuration
+= Replace E4000 controller
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can replace a failed controller canister in a simplex (single-controller) configuration, for the following controller shelves:
+You might need to replace the E4000 controller if it is not functioning optimally or if it has failed.
 
-* E4012 controller shelf
-* E4024 controller shelf
 
 .About this task
 

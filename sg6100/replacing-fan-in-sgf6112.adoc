@@ -1,21 +1,21 @@
 ---
 permalink: sg6100/replacing-fan-in-sgf6112.html
 sidebar: sidebar
-keywords: storagegrid, sgf6112, storage appliance, Replacing, replace, fan, remove, removing, removal, install, installing
-summary: 'The SGF6112 appliance has eight cooling fans. If one of the fans fails, you must replace it as soon as possible to ensure that the appliance has proper cooling.'
+keywords: storagegrid, sgf6112, sg6100-cn, sg6160, storage appliance, Replacing, replace, fan, remove, removing, removal, install, installing
+summary: 'The SGF6112 appliance and SG6100-CN controller have eight cooling fans. If one of the fans fails, you must replace it as soon as possible to ensure that the appliance has proper cooling.'
 ---
-= Replace fan in an SGF6112
+= Replace fan in an SGF6112 or SG6160
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-The SGF6112 appliance has eight cooling fans. If one of the fans fails, you must replace it as soon as possible to ensure that the appliance has proper cooling.
+The SGF6112 appliance and SG6100-CN controller have eight cooling fans. If one of the fans fails, you must replace it as soon as possible to ensure that the appliance has proper cooling.
 
 .Before you begin
 
 * You have the correct replacement fan.
 * You have link:verify-component-to-replace.html[determined the location of the fan to replace].
-* You have link:locating-sgf6112-in-data-center.html[physically located the SGF6112 appliance] where you are replacing the fan in the data center.
+* You have link:locating-sgf6112-in-data-center.html[physically located the SGF6112 appliance or SG6100-CN controller] where you are replacing the fan in the data center.
 +
 NOTE: A link:power-sgf6112-off-on.html#shut-down-the-sgf6112-appliance[controlled shutdown of the appliance] is required before removing the appliance from the rack.
 

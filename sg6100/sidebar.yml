@@ -9,6 +9,10 @@ entries:
   - title: Configuration maintenance procedures
     pdf-filename: Configuration maintenance procedures - SG6100
     entries:
+    - title: Upgrade SANtricity (SG6160)
+      url: "/sg6100/upgrading-santricity-os-on-storage-controllers-using-grid-manager-sg6160.html"      
+    - title: Upgrade drive firmware (SG6160)
+      url: "/sg6100/upgrading-drive-firmware-using-santricity-system-manager.html"
     - title: Use Manage drives tab
       url: "/sg6100/manage-drives-tab.html"
     - title: Turn identify LED on and off
@@ -25,21 +29,25 @@ entries:
     entries:
     - title: Verify component to replace
       url: "/sg6100/verify-component-to-replace.html"    
-    - title: Replace one or more power supplies 
-      url: "/sg6100/replacing-one-or-more-power-supplies-in-sgf6112-appliance.html"
     - title: Replace fan
       entries:
-        - title: SGF6112
+        - title: SGF6112 or SG6100-CN (SG6160)
           url: "/sg6100/replacing-fan-in-sgf6112.html"
-        - title: SG6100-CN
-          url: "/sg6100/replace-6100-cn-fan-canister.html"
-    - title: Replace power canister
-      url: "/sg6100/replace-6100-cn-power-canister.html"
+        - title: E4000 (SG6160)
+          url: "/sg6100/replace-e4000-canister.html"
+    - title: Replace power supply
+      entries:
+        - title: SGF6112 or SG6100-CN (SG6160)
+          url: "/sg6100/replacing-one-or-more-power-supplies-in-sgf6112-appliance.html"
+        - title: E4000 (SG6160)
+          url: "/sg6100/replace-6100-cn-power-canister.html"
     - title: Replace drive
       entries:
       - title: SGF6112
         url: "/sg6100/replacing-drive-in-sgf6112.html"
-      - title: SG6160
+      - title: SG6100-CN (SG6160)
+        url: "/sg6100/replace-drive-sg6100-cn.html"
+      - title: E4000 (SG6160)
         url: "/sg6100/replace-6160-drives-60.html"
     - title: Replace NIC
       url: "/sg6100/replace-nic-in-sgf6112.html"
@@ -53,13 +61,15 @@ entries:
       entries:
         - title: SGF6112
           url: "/sg6100/replacing-sgf6112-appliance.html"
-        - title: SG6100-CN controller
+        - title: SG6100-CN controller (SG6160)
           url: "/sg6100/replacing-sg6100-cn-controller.html"
+        - title: E4000 controller (SG6160)
+          url: "/sg6100/replace-controller-e4000-duplex.html"
     - title: Relocate in rack
       entries:
           - title: SGF6112
             url: "/sg6100/reinstalling-sgf6112-into-cabinet-or-rack.html"
-          - title: SG6100-CN controller
+          - title: SG6100-CN controller (SG6160)
             url: "/sg6100/reinstalling-sg6100-cn-controller-into-cabinet-or-rack.html"
 
 

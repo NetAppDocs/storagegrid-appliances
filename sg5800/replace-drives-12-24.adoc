@@ -2,14 +2,14 @@
 permalink: sg5800/replace-drives-12-24.html
 sidebar: sidebar
 keywords: E4000 replace drive, replacing E4000 drive, E4000 replace drive, replacing E4000 drive, E4000, E-Series, eseries
-summary: Replace a drive in an E4000 with a 12-drive or 24-drive shelf.
+summary: Replace a drive in an E4000 with a 12-drive shelf.
 ---
-= Replace drive in E4000 (12-drive or 24-drive shelf)
+= Replace drive in E4000 (12-drive)
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can replace a drive in an E4000 with a 12-drive or 24-drive shelf.
+You can replace a drive in an E4000 with a 12-drive shelf.
 
 .About this task
 

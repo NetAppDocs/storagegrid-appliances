@@ -1,19 +1,15 @@
 ---
-permalink: sg5800/replace-controller-e4000-duplex.html
+permalink: sg6100/replace-controller-e4000-duplex.html
 sidebar: sidebar
 keywords: 
 summary: 
 ---
-= Replace controller in E4000 duplex configuration
+= Replace E4000 storage controller (SG6160)
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can replace a failed controller canister in a duplex (two-controller) configuration, for the following controller shelves:
-
-* E4012 controller shelf
-* E4024 controller shelf
-* E4060 controller shelf
+You can replace a failed controller canister in a duplex (two-controller) configuration.
 
 .About this task
 

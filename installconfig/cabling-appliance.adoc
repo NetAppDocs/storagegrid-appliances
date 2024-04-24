@@ -322,7 +322,7 @@ a|
 a|
 Two interconnect ports on each controller
 a|
-25GbE iSCSI SFP28
+25GbE iSCSI (SFP28)
 
 a|
 Connect the two controllers to each other.
