@@ -35,11 +35,11 @@ indexpage:
         - title: Replace fan in SGF6112 or SG6100-CN (SG6160)
           url: "../sg6100/replacing-fan-in-sgf6112.html"
         - title: Replace fan in E4000 (SG6160)
-          url: "../sg6100//sg6100/replace-e4000-canister.html"
+          url: "../sg6100/replace-e4000-fan-canister.html"
         - title: Replace drive in SGF6112
           url: "../sg6100/replacing-drive-in-sgf6112.html"
         - title: Replace drive in SG6100-CN
-          url: "../sg6100//sg6100/replace-drive-sg6100-cn.html"
+          url: "../sg6100/replace-drive-sg6100-cn.html"
         - title: Replace drive in E4000 (SG6160)
           url: "../sg6100/replace-6160-drives-60.html"
         - title: Replace NIC
