@@ -20,8 +20,10 @@ indexpage:
       links:
         - title: Replace SGF6112 appliance
           url: "../sg6100/replacing-sgf6112-appliance.html"
-        - title: Replace SG6100-CN controller
+        - title: Replace SG6100-CN controller (SG6160)
           url: "../sg6100/replacing-sg6100-cn-controller.html"
+        - title: Replace E4000 controller (SG6160)
+          url: "../sg6100/replace-controller-e4000-duplex.html"
         - title: Relocate SGF6112 in a rack
           url: "../sg6100/reinstalling-sgf6112-into-cabinet-or-rack.html"
         - title: Relocate SG6100-CN in a rack
