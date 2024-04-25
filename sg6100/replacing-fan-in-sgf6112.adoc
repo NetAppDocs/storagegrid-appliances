@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storagegrid, sgf6112, sg6100-cn, sg6160, storage appliance, Replacing, replace, fan, remove, removing, removal, install, installing
 summary: 'The SGF6112 appliance and SG6100-CN controller have eight cooling fans. If one of the fans fails, you must replace it as soon as possible to ensure that the appliance has proper cooling.'
 ---
-= Replace fan in an SGF6112 or SG6160
+= Replace fan in an SGF6112 or SG6100-CN (SG6160)
 :icons: font
 :imagesdir: ../media/
 
