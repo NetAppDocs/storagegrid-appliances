@@ -16,7 +16,7 @@ You can enable encryption at the node and disk levels to protect the disks in yo
 
 You can perform both encryption levels on supported drives for additional security.
 
-See https://review.docs.netapp.com/us-en/storagegrid-118_main/admin/reviewing-storagegrid-encryption-methods.html[StorageGRID encryption methods^] for information about all encryption methods available for StorageGRID appliances.
+See https://docs.netapp.com/us-en/storagegrid-118/admin/reviewing-storagegrid-encryption-methods.html[StorageGRID encryption methods^] for information about all encryption methods available for StorageGRID appliances.
 
 == Enable node encryption
 
@@ -86,7 +86,7 @@ You can enable drive encryption during initial appliance installation before loa
 
 .Before you begin
 
-Review the information about https://review.docs.netapp.com/us-en/storagegrid-118_main/admin/reviewing-storagegrid-encryption-methods.html[StorageGRID encryption methods^].
+Review the information about https://docs.netapp.com/us-en/storagegrid-118/admin/reviewing-storagegrid-encryption-methods.html[StorageGRID encryption methods^].
 
 .About this task
 

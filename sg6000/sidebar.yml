@@ -16,7 +16,13 @@ entries:
       - title: Upgrade SANtricity OS on storage controllers using maintenance mode
         url: "/sg6000/upgrading-santricity-os-on-storage-controllers-using-maintenance-mode-sg6000.html"
     - title: Upgrade drive firmware using SANtricity System Manager
-      url: "/sg6000/upgrading-drive-firmware-using-santricity-system-manager.html"
+      entries:
+      - title: Upgrade SG6000 drive firmware using SANtricity System Manager using online method
+        url: "/sg6000/upgrading-drive-firmware-using-santricity-system-manager-online.html"
+      - title: Upgrade SG6000 drive firmware using SANtricity System Manager using offline method
+        url: "/sg6000/upgrading-drive-firmware-using-santricity-system-manager-offline.html"
+      - title: Troubleshoot drive firmware upgrade errors
+        url: "/sg6000/troubleshoot-upgrading-drive-firmware-using-santricity-system-manager.html"    
     - title: Turn controller identify LED on and off
       url: "/sg6000/turning-controller-identify-led-on-and-off.html"
     - title: Locate controller in data center

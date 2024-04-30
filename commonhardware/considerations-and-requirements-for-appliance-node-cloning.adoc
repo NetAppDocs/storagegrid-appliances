@@ -18,13 +18,17 @@ Ensure that the replacement appliance meets the following criteria:
 * The source node (appliance being replaced) and the target (new) appliance must be the same type of appliance:
  ** You can only clone an Admin Node appliance or a Gateway Node appliance to a new services appliance.
  ** You can only clone a Storage Node appliance to a new storage appliance.
-* For Admin Node or Gateway Node appliances, the source node appliance and the target appliance don't need to be the same type of appliance; however, changing the appliance type might require replacing the cables or SFP modules.
+* For Admin Node or Gateway Node appliances, the source node appliance and the target appliance don't need to be the same appliance model; however, changing the appliance model might require replacing the cables or SFP modules.
 +
 For example, you can replace a SG1000 node appliance with a SG100 or replace a SG100 appliance with a SG1000 appliance.
 
-* For Storage Node appliances, the source node appliance and the target appliance don't need to be the same type of appliance; however, the target appliance must have greater storage capacity than the source appliance.
+* For Storage Node appliances, the source node appliance and the target appliance don't need to be the same type of appliance; however:
+** The target appliance must have greater storage capacity than the source appliance.
 +
 For example, you can replace a SG5700 node appliance with a SG6000 appliance.
+** The target appliance must have an equal or greater number of object storage volumes than the source appliance.
++
+For example, you cannot replace a SG6000 node appliance (16 object store volumes) with a SGF6112 appliance (12 object store volumes).
 
 Contact your StorageGRID sales representative for help choosing compatible replacement appliances to clone specific appliance nodes in your StorageGRID installation.
 
@@ -44,7 +48,7 @@ NOTE: Using the 1-GbE Admin Network for clone data transfer results in slower cl
 +
 The source node and target appliance can have different node-encryption settings. Data decryption and encryption is performed automatically during data transfer and when the target node restarts and joins the grid.
 
-* Determine if the RAID mode on the target appliance should be changed from its default setting, so you can specify this information during initial target appliance installation before cloning. You can view information about the current RAID mode of the source appliance node on the *NODES* page in Grid Manager. Select the *Storage* tab for the appliance.
+* Determine if the RAID mode on the target appliance should be changed from its default setting, so you can specify this information during initial target appliance installation before cloning. You can view information about the current RAID mode of the source appliance node on the *NODES* page in Grid Manager. Select the *Hardware* tab for the appliance.
 +
 The source node and target appliance can have different RAID settings.
 

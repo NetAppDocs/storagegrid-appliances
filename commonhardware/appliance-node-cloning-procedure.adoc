@@ -52,7 +52,7 @@ When *Start Cloning* is enabled, the *Current state* indicates the StorageGRID n
 . Select *Start Cloning* on the source node.
 . Monitor the cloning progress using the StorageGRID Appliance Installer on either the source or target node.
 +
-The StorageGRID Appliance Installer on both the source and target nodes indicates the same status.
+The StorageGRID Appliance Installer on both the source and target nodes indicate similar status.
 +
 image::../media/cloning_progress.png[Cloning progress]
 +
@@ -78,9 +78,9 @@ When cloning successfully completes:
 * The target node exits maintenance mode and joins StorageGRID, replacing the source node.
 * The source appliance is in a pre-installed state, as if you had https://docs.netapp.com/us-en/storagegrid-118/maintain/preparing-appliance-for-reinstallation-platform-replacement-only.html[prepared it for reinstallation^].
 
-NOTE: If the appliance does not rejoin the grid, go to the StorageGRID Appliance Installer Home page for the source node, select *Advanced* > *Reboot Controller*, and then select *Reboot into Maintenance Mode*. After the source node reboots in maintenance mode, repeat the node cloning procedure.
+NOTE: If the target appliance does not join the grid, go to the StorageGRID Appliance Installer Home page for the source node, select *Advanced* > *Reboot Controller*, and then select *Reboot into Maintenance Mode*. After the source node reboots in maintenance mode, repeat the node cloning procedure.
 
-* User data remains on the source appliance as a recovery option if an unexpected issue occurs with the target node. After the target node has successfully rejoined StorageGRID, user data on the source appliance is outdated and is no longer needed.
+* User data remains on the source appliance as a recovery option if an unexpected issue occurs with the target node. After the target node has successfully joined StorageGRID, user data on the source appliance is outdated and is no longer needed.
 +
 Outdated user data is overwritten when you install or expand the source appliance as a new node in another grid. 
 +
