@@ -11,8 +11,14 @@ entries:
     entries:
     - title: Upgrade SANtricity (SG6160)
       url: "/sg6100/upgrading-santricity-os-on-storage-controllers-using-grid-manager-sg6160.html"      
-    - title: Upgrade drive firmware (SG6160)
-      url: "/sg6100/upgrading-drive-firmware-using-santricity-system-manager.html"
+    - title: Upgrade drive firmware using SANtricity System Manager (SG6160)
+      entries:
+      - title: Upgrade SG6000 drive firmware using SANtricity System Manager using online method
+        url: "/sg6100/upgrading-drive-firmware-using-santricity-system-manager-online.html"
+      - title: Upgrade SG6000 drive firmware using SANtricity System Manager using offline method
+        url: "/sg6100/upgrading-drive-firmware-using-santricity-system-manager-offline.html"
+      - title: Troubleshoot drive firmware upgrade errors
+        url: "/sg6100/troubleshoot-upgrading-drive-firmware-using-santricity-system-manager.html" 
     - title: Use Manage drives tab
       url: "/sg6100/manage-drives-tab.html"
     - title: Turn identify LED on and off
