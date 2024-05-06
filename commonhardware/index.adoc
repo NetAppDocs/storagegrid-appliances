@@ -18,7 +18,6 @@ These instructions describe procedures common to all nodes such as how to apply 
 
 NOTE: In these instructions, "`Linux`" refers to a Red Hat® Enterprise Linux®, Ubuntu®, or Debian® deployment. Use the https://imt.netapp.com/matrix/#welcome[NetApp Interoperability Matrix Tool (IMT)^] to get a list of supported versions. 
 
-
 == Before you begin
 
 * You have a broad understanding of the StorageGRID system. 
