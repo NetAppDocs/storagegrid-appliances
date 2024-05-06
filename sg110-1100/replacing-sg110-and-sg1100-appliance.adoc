@@ -60,11 +60,11 @@ image::../media/sg110-1100_ssds_locations.png[Fan locations]
 a|
 1
 a|
-HDD02
+HDD00
 a|
 2
 a|
-HDD03
+HDD01
 |=== 
  .. Transfer the replaceable components to the replacement appliance. 
 +
