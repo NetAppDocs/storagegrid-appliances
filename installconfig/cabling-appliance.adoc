@@ -290,14 +290,14 @@ Grid Network
 .SG5800
 --
 
-You connect the two controllers to each other, connect the management ports on each controller, and connect the 10/25-GbE ports on the E5800SG controller to the Grid Network and optional Client Network for StorageGRID.
+You connect the two controllers to each other, connect the management ports on each controller, and connect the 10/25-GbE ports on the 5800SG controller to the Grid Network and optional Client Network for StorageGRID.
 
 .Before you begin
 
 * You have unpacked the following items, which are included with the appliance:
  ** Two power cords.
  ** Two optical cables for the iSCSI interconnect ports on the controllers.
- ** Eight SFP+ transceivers, which support 10-GbE. The transceivers can be used with the two interconnect ports on both controllers and with the four 10/25-GbE network ports on the E5800SG controller, assuming you want the network ports to use a 10-GbE link speed.
+ ** Eight SFP+ transceivers, which support 10-GbE. The transceivers can be used with the two interconnect ports on both controllers and with the four 10/25-GbE network ports on the 5800SG controller, assuming you want the network ports to use a 10-GbE link speed.
 * You have obtained the following items, which aren't included with the appliance:
  ** One to four optical cables for the 10/25-GbE ports you plan to use.
  ** One to four SFP28 transceivers, if you plan to use 25-GbE link speed.
@@ -307,7 +307,7 @@ CAUTION: *Risk of exposure to laser radiation* -- Don't disassemble or remove an
 
 .About this task
 
-The figures show the two controllers in the SG5860, with the E4000 series storage controller on the top and the E5800SG controller on the bottom. In the SG5812, the E4000 series storage controller is to the left of the E5800SG controller when viewed from the back.
+The figures show the two controllers in the SG5860, with the E4000 series storage controller on the top and the 5800SG controller on the bottom. In the SG5812, the E4000 series storage controller is to the left of the 5800SG controller when viewed from the back.
 
 SG5860 connections:
 
@@ -345,27 +345,27 @@ Reserved for technical support.
 a|
 3
 a|
-Management port 1 on the E5800SG controller
+Management port 1 on the 5800SG controller
 a|
 1-GbE (RJ-45)
 a|
-Connects the E5800SG controller to the Admin Network for StorageGRID.
+Connects the 5800SG controller to the Admin Network for StorageGRID.
 a|
 4
 a|
-10/25-GbE ports 1-4 on the E5800SG controller
+10/25-GbE ports 1-4 on the 5800SG controller
 a|
 10-GbE or 25-GbE
 
 *Note:* The SFP+ transceivers included with the appliance support 10-GbE link speeds. If you want to use 25-GbE link speeds for the four network ports, you must provide SFP28 transceivers.
 
 a|
-Connect to the Grid Network and the Client Network for StorageGRID. See link:gathering-installation-information-sg5700.html#port-bond-modes[Port bond modes (E5800SG controller)].
+Connect to the Grid Network and the Client Network for StorageGRID. See link:gathering-installation-information-sg5700.html#port-bond-modes[Port bond modes (5800SG controller)].
 |===
 
 .Steps
 
-. Connect the E4000 controller to the E5800SG controller, using two optical cables and four of the eight SFP28 transceivers.
+. Connect the E4000 controller to the 5800SG controller, using two optical cables and four of the eight SFP28 transceivers.
 +
 [cols="1a,1a" options="header"]
 |===
@@ -373,18 +373,18 @@ Connect to the Grid Network and the Client Network for StorageGRID. See link:gat
 a|
 Interconnect port 1 on the E4000 controller
 a|
-Interconnect port 1 on the E5800SG controller
+Interconnect port 1 on the 5800SG controller
 a|
 Interconnect port 2 on the E4000 controller
 a|
-Interconnect port 2 on the E5800SG controller
+Interconnect port 2 on the 5800SG controller
 |===
 
 . If you plan to use SANtricity System Manager, connect management port 1 (P1) on the E4000 controller (the RJ-45 port on the left) to the management network for SANtricity System Manager, using an Ethernet cable.
 
-. If you plan to use the Admin Network for StorageGRID, connect management port 1 on the E5800SG controller (the RJ-45 port on the left) to the Admin Network, using an Ethernet cable.
+. If you plan to use the Admin Network for StorageGRID, connect management port 1 on the 5800SG controller (the RJ-45 port on the left) to the Admin Network, using an Ethernet cable.
 
-. Connect the 10/25-GbE ports on the E5800SG controller to the appropriate network switches, using optical cables and SFP+ or SFP28 transceivers.
+. Connect the 10/25-GbE ports on the 5800SG controller to the appropriate network switches, using optical cables and SFP+ or SFP28 transceivers.
 +
 NOTE: Install SFP+ transceivers if you plan to use 10-GbE link speeds. Install SFP28 transceivers if you plan to use 25-GbE link speeds.
 

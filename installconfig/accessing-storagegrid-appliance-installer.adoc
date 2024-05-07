@@ -58,11 +58,11 @@ In the sequence:
 NOTE: If an IP address could not be assigned using DHCP, 0.0.0.0 is displayed.
 --
 
-.E5800SG
+.5800SG
 --
-For the E5800SG, you can do either of the following:
+For the 5800SG, you can do either of the following:
 
- ** Look at the seven-segment display on the E5800SG controller. If management port 1 and 10/25-GbE ports 2 and 4 on the E5800SG controller are connected to networks with DHCP servers, the controller attempts to obtain dynamically assigned IP addresses when you power on the enclosure. After the controller has completed the power-on process, its seven-segment display shows *HO*, followed by a repeating sequence of two numbers.
+ ** Look at the seven-segment display on the 5800SG controller. If management port 1 and 10/25-GbE ports 2 and 4 on the 5800SG controller are connected to networks with DHCP servers, the controller attempts to obtain dynamically assigned IP addresses when you power on the enclosure. After the controller has completed the power-on process, its seven-segment display shows *HO*, followed by a repeating sequence of two numbers.
 +
 ----
 HO -- IP address for Admin Network -- IP address for Grid Network HO
@@ -70,7 +70,7 @@ HO -- IP address for Admin Network -- IP address for Grid Network HO
 +
 In the sequence:
 
-  *** The first set of numbers is the DHCP address for the appliance Storage Node on the Admin Network, if it is connected. This IP address is assigned to management port 1 on the E5800SG controller.
+  *** The first set of numbers is the DHCP address for the appliance Storage Node on the Admin Network, if it is connected. This IP address is assigned to management port 1 on the 5800SG controller.
   *** The second set of numbers is the DHCP address for the appliance Storage Node on the Grid Network. This IP address is assigned to 10/25-GbE ports 2 and 4 when you first apply power to the appliance.
 +
 NOTE: If an IP address could not be assigned using DHCP, 0.0.0.0 is displayed.
@@ -132,11 +132,11 @@ Connect the service laptop to management port 2 on the E5700SG controller, using
 image::../media/e5700sg_mgmt_port_2.gif[Location of Management Port 2 on the E5700SG controller]
 --
 
-.E5800SG
+.5800SG
 --
-Connect the service laptop to  management port 1 on the E5800SG controller, using an Ethernet cable.
+Connect the service laptop to  management port 1 on the 5800SG controller, using an Ethernet cable.
 
-image::../media/e5800sg_mgmt_port.png[Location of Management Port 2 on the E5800SG controller]
+image::../media/e5800sg_mgmt_port.png[Location of Management Port 2 on the 5800SG controller]
 --
 
 .SG6000-CN

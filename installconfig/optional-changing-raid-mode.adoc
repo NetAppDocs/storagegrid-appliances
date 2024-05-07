@@ -63,9 +63,9 @@ Where `_E5700SG_Controller_IP_` is any of the IP addresses for the E5700SG contr
 .Steps
 
 . Using the service laptop, open a web browser and access the StorageGRID Appliance Installer: +
-`*https://_E5800SG_Controller_IP_:8443*`
+`*https://_5800SG_Controller_IP_:8443*`
 +
-Where `_E5800SG_Controller_IP_` is any of the IP addresses for the E5800SG controller.
+Where `_5800SG_Controller_IP_` is any of the IP addresses for the 5800SG controller.
 
 . Select *Advanced* > *RAID Mode*.
 . On the *Configure RAID Mode* page, select the desired RAID mode from the Mode drop-down list.

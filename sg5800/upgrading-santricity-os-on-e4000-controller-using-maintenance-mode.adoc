@@ -14,7 +14,7 @@ For storage controllers currently using SANtricity OS older than 08.42.20.00 (11
 .Before you begin
 
 * You have consulted the https://imt.netapp.com/matrix/#welcome[NetApp Interoperability Matrix Tool (IMT)^] to confirm that the SANtricity OS version you are using for the upgrade is compatible with your appliance.
-* You must place the E5800SG controller into link:../commonhardware/placing-appliance-into-maintenance-mode.html[maintenance mode], which interrupts the connection to the E4000 controller.
+* You must place the 5800SG controller into link:../commonhardware/placing-appliance-into-maintenance-mode.html[maintenance mode], which interrupts the connection to the E4000 controller.
 +
 
 NOTE: In rare instances, placing a StorageGRID appliance into maintenance mode might make the appliance unavailable for remote access.

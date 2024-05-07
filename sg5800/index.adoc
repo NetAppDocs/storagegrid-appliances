@@ -9,7 +9,7 @@ summary:
 :imagesdir: ../media/
 
 [.lead]
-You might need to upgrade the SANtricity OS Software on the E4000 controller, change the Ethernet link configuration of the E5800SG controller, replace the E4000 controller or the E5800SG controller, or replace specific components. The procedures in this section assume that the appliance has already been deployed as a Storage Node in a StorageGRID system.
+You might need to upgrade the SANtricity OS Software on the E4000 controller, change the Ethernet link configuration of the 5800SG controller, replace the E4000 controller or the 5800SG controller, or replace specific components. The procedures in this section assume that the appliance has already been deployed as a Storage Node in a StorageGRID system.
 
 Procedures specific to maintaining your SG5800 appliance are in this section. 
 
