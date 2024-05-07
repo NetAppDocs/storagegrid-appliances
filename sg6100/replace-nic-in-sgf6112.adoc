@@ -23,7 +23,7 @@ Use these procedures to:
 * You have the correct replacement NIC.
 * You have determined the link:verify-component-to-replace.html[location of the NIC to replace].
 
-* You have link:locating-sgf6112-in-data-center.html[physically located the SGF6112 appliance or 6100-CN controller] where you are replacing the NIC in the data center.
+* You have link:locating-sgf6112-in-data-center.html[physically located the SGF6112 appliance or SG6100-CN controller] where you are replacing the NIC in the data center.
 +
 NOTE: A link:power-sgf6112-off-on.html#shut-down-the-sgf6112-appliance[controlled shutdown of the appliance] is required before removing the appliance from the rack.
 
