@@ -1,0 +1,61 @@
+---
+permalink: sg6100/replace-ocp-nic-in-sg6100-cn.html
+sidebar: sidebar
+keywords: storagegrid, sg6100, storage node, storage appliance, Replacing, replace, NIC, network interface card
+summary: 'You might need to replace a Network Interface Card \(NIC\) in the SG6100-CN if it is not functioning optimally or if it has failed.'
+---
+= Replace OCP NIC in the SG6100-CN
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You might need to replace an OCP Network Interface Card (NIC) in the SG6100-CN if it is not functioning optimally or if it has failed.
+
+Use these procedures to: 
+
+* Remove the NIC
+* Reinstall the NIC
+
+.Before you begin
+
+* You have the correct replacement NIC.
+* You have determined the link:verify-component-to-replace.html[location of the NIC to replace].
++
+image::../media/sg6100_cn_ocp_nic_location.png[NIC faceplate.]
+
+* You have link:locating-sgf6112-in-data-center.html[physically located the SG6100-CN controller] where you are replacing the NIC in the data center.
++
+NOTE: A link:power-sgf6112-off-on.html#shut-down-the-sgf6112-appliance[controlled shutdown of the appliance] is required before removing the appliance from the rack.
+
+* You have disconnected all cables.
+
+
+.About this task
+
+To prevent service interruptions, confirm that all other Storage Nodes are connected to the grid before started the Network Interface Card (NIC) replacement or replace the NIC during a scheduled maintenance window when periods of service disruption are acceptable. See information about link:https://docs.netapp.com/us-en/storagegrid-118/monitor/monitoring-system-health.html#monitor-node-connection-states[montioring node connection states].
+
+CAUTION: If you have ever used an ILM rule that creates only one copy of an object, you must replace the NIC during a scheduled maintenance window. Otherwise, you might temporarily lose access to those objects during this procedure. See information about link:https://docs.netapp.com/us-en/storagegrid-118/ilm/why-you-should-not-use-single-copy-replication.html[why you should not use single-copy replication].
+
+== Remove the OCP NIC
+
+.Steps
+
+. Wrap the strap end of an ESD wristband around your wrist, and secure the clip end to a metal ground to prevent static discharge.
+. Use a screwdriver to loosen the screw on the faceplate of the NIC.
+. Carefully remove the NIC by pulling on the faceplate handle. Place the NIC on a flat, anti-static surface.
+
+== Reinstall the OCP NIC
+
+.Steps
+
+. Wrap the strap end of an ESD wristband around your wrist, and secure the clip end to a metal ground to prevent static discharge.
+. Remove the replacement NIC from its packaging.
+. Align the NIC with the opening in the chassis and carefully push it in until fully seated.
+. Tighten the screw on the faceplate of the NIC.
+
+
+.After you finish
+
+If you have no other maintenance procedures to perform in the appliance, reinstall the appliance cover, return the appliance to the rack, attach cables, and apply power.
+
+include::../_include/fru-statement.adoc[] 

@@ -49,7 +49,7 @@ The SG6100-CN controller is a one-rack unit (1U) server that includes:
 * 40 cores (80 threads)
 * 256 GB RAM
 * Up to 4 × 25 GbE aggregate Ethernet bandwidth
-* 4 × 25 GbE interconnect
+* 1 x 100 GbE interconnect
 * Baseboard management controller (BMC) that simplifies hardware management
 * Redundant power supplies and fans
 
@@ -129,7 +129,7 @@ image::../media/sgf6112_rear_view.png[SGF6112 Rear View]
 
 This figure shows the front of the SG6160, which includes a 1U compute controller and a 4U shelf containing two storage controllers and 60 drives in five drive drawers.
 
-image::../media/sg6060_front_view_with_and_without_bezels.gif[SG6160 Front View]
+image::../media/sg6160_front_view_without_bezels.png[SG6160 Front View]
 
 [cols="1a,2a" options="header"]
 |===
@@ -137,17 +137,9 @@ image::../media/sg6060_front_view_with_and_without_bezels.gif[SG6160 Front View]
 a|
 1
 a|
-SG6100-CN compute controller with front bezel
-a|
-2
-a|
-E4000 controller shelf with front bezel (optional expansion shelf appears identical)
-a|
-3
-a|
 SG6100-CN compute controller with front bezel removed
 a|
-4
+2
 a|
 E4000 controller shelf with front bezel removed (optional expansion shelf appears identical) 
 |===
@@ -202,35 +194,32 @@ image::../media/sg6100_cn_rear_connectors.png[SG6100-CN Rear Connectors]
 | Callout | Port| Type| Use
 
 | 1
-| Interconnect ports 1-4
-| 25GbE iSCSI, with integrated optics
-| Connect the SG6100-CN controller to the E4000 controllers (two connections to each E4000).
-
-| 2
 | Network ports 1-4
 | 10-GbE or 25-GbE, based on cable or SFP transceiver type, switch speed, and configured link speed
 | Connect to the Grid Network and the Client Network for StorageGRID.
 
-| 3
+| 2
 | BMC management port
 | 1-GbE (RJ-45)
 | Connect to the SG6100-CN baseboard management controller.
 
-| 4
+| 3
 | Diagnostic and support ports
 | 
 * VGA
-* Serial, 115200 8-N-1
 * USB
+* Micro-USB console port
+* Micro-SD slot module
 
 | Reserved for technical support use.
 
-| 5
+
+| 4
 | Admin Network port 1
 | 1-GbE (RJ-45)
 | Connect the SG6100-CN to the Admin Network for StorageGRID.
 
-| 6
+| 5
 | Admin Network port 2
 | 1-GbE (RJ-45)
 | Options:
@@ -238,6 +227,11 @@ image::../media/sg6100_cn_rear_connectors.png[SG6100-CN Rear Connectors]
 * Bond with management port 1 for a redundant connection to the Admin Network for StorageGRID.
 * Leave unwired and available for temporary local access (IP 169.254.0.1).
 * During installation, use port 2 for IP configuration if DHCP-assigned IP addresses aren't available.
+
+| 6
+| 100-GbE
+|Connect the SG6100-CN controller to the E4000 controllers.
+
 
 |===
 
