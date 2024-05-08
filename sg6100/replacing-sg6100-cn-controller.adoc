@@ -1,8 +1,8 @@
 ---
 permalink: sg6100/replacing-sg6100-cn-controller.html
 sidebar: sidebar
-keywords: storagegrid, sg6000, storage node, storage appliance, Replacing, replace, sg6000-cn, controller, remove, removing, removal, install, installing, installation
-summary: 'You might need to replace the SG6000-CN controller if it is not functioning optimally or if it has failed.'
+keywords: storagegrid, sg6100, storage node, storage appliance, Replacing, replace, sg6100-cn, controller, remove, removing, removal, install, installing, installation
+summary: 'You might need to replace the SG6100-CN controller if it is not functioning optimally or if it has failed.'
 ---
 = Replace SG6100-CN controller
 :icons: font
@@ -21,7 +21,7 @@ link:locating-controller-in-data-center.html[Locate controller in data center]
 
 .About this task
 
-The appliance Storage Node will not be accessible when you replace the SG6100-CN controller. If the SG6000-CN controller is functioning sufficiently, you can perform a controlled shutdown at the start of this procedure.
+The appliance Storage Node will not be accessible when you replace the SG6100-CN controller. If the SG6100-CN controller is functioning sufficiently, you can perform a controlled shutdown at the start of this procedure.
 
 NOTE: If you are replacing the controller before installing StorageGRID software, you might not be able to access the StorageGRID Appliance Installer immediately after completing this procedure. While you can access the StorageGRID Appliance Installer from other hosts on the same subnet as the appliance, you can't access it from hosts on other subnets. This condition should resolve itself within 15 minutes (when any ARP cache entries for the original controller time out), or you can clear the condition immediately by purging any old ARP cache entries manually from the local router or gateway.
 
