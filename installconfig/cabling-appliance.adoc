@@ -614,14 +614,14 @@ Four 10/25-GbE network ports on the appliance
 * Can be left disconnected and available for temporary local access (IP 169.254.0.1).
 * During installation, can be used to connect the appliance to a service laptop if DHCP-assigned IP addresses aren't available.
 
-|4
+|4 (SG6160 only)
 |Five total connection ports
 |
 * One 100GbE port on the SG6100-CN
 * Two 10/25GbE ports on each of the storage controllers
 |Connect each storage controller to the SG6100-CN controller.
 
-|5
+|5 (SG6160 only)
 |Management port 1 on each storage controller
 |1-GbE (RJ-45)
 |Connects to the network where you access SANtricity System Manager.
