@@ -17,13 +17,13 @@ indexpage:
       links:            
       - title: SG100 and SG1000
         url: "/installconfig/hardware-description-sg100-and-1000.html"            
-      - title: SG110 and SG1100
+      - title: SG110 and SG1100 (New)
         url: "/installconfig/hardware-description-sg110-and-1100.html"
       - title: SG5700
         url: "/installconfig/hardware-description-sg5700.html"
       - title: SG6000
         url: "/installconfig/hardware-description-sg6000.html"        
-      - title: SG6100 (New)
+      - title: SG6100
         url: "/installconfig/hardware-description-sg6100.html"
     - title: Install hardware
       links:
