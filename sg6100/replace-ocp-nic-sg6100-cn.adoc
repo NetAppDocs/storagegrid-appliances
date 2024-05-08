@@ -20,6 +20,8 @@ Use these procedures to:
 
 * You have the correct replacement NIC.
 * You have determined the link:verify-component-to-replace.html[location of the NIC to replace].
++
+image::../media/sg6100_cn_ocp_nic_location.png[NIC faceplate.]
 
 * You have link:locating-sgf6112-in-data-center.html[physically located the SG6100-CN controller] where you are replacing the NIC in the data center.
 +
@@ -27,7 +29,6 @@ NOTE: A link:power-sgf6112-off-on.html#shut-down-the-sgf6112-appliance[controlle
 
 * You have disconnected all cables.
 
-image::../media/sg6100_cn_ocp_nic_location.png[NIC faceplate.]
 
 .About this task
 
@@ -35,7 +36,7 @@ To prevent service interruptions, confirm that all other Storage Nodes are conne
 
 CAUTION: If you have ever used an ILM rule that creates only one copy of an object, you must replace the NIC during a scheduled maintenance window. Otherwise, you might temporarily lose access to those objects during this procedure. See information about link:https://docs.netapp.com/us-en/storagegrid-118/ilm/why-you-should-not-use-single-copy-replication.html[why you should not use single-copy replication].
 
-== Remove the NIC
+== Remove the OCP NIC
 
 .Steps
 
@@ -43,16 +44,16 @@ CAUTION: If you have ever used an ILM rule that creates only one copy of an obje
 . Use a screwdriver to loosen the screw on the faceplate of the NIC.
 +
 image::../media/sg6100_cn_nic_screw.png[Unscrewing NIC faceplate.]
-. Carefully remove the card by pulling on the faceplate handle and place it on a flat, anti-static surface.
+. Carefully remove the NIC by pulling on the faceplate handle. Place the NIC on a flat, anti-static surface.
 
-== Reinstall the NIC
+== Reinstall the OCP NIC
 
 .Steps
 
 . Wrap the strap end of an ESD wristband around your wrist, and secure the clip end to a metal ground to prevent static discharge.
 . Remove the replacement NIC from its packaging.
-. Align the NIC with the opening in the chassis and carefully push it in until fully secured.
-. Tighten the screw on the card.
+. Align the NIC with the opening in the chassis and carefully push it in until fully seated.
+. Tighten the screw on the faceplate of the NIC.
 
 
 .After you finish

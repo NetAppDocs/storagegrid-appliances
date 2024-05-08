@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storagegrid, sg6100, storage node, storage appliance, Replacing, replace, NIC, network interface card
 summary: 'You might need to replace a Network Interface Card \(NIC\) in the SGF6112 if it is not functioning optimally or if it has failed.'
 ---
-= Replace NIC in the SGF6112 or SG6100-CN
+= Replace PCIe NIC in the SGF6112 or SG6100-CN
 :icons: font
 :imagesdir: ../media/
 
@@ -16,7 +16,7 @@ Use these procedures to:
 * Remove the NIC
 * Reinstall the NIC
 
-== Remove the NIC
+== Remove the PCIe NIC
 
 .Before you begin
 
