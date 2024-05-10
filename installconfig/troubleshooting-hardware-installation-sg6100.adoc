@@ -319,7 +319,7 @@ The StorageGRID Appliance Installer might not be available if hardware faults or
 
 == Connection issues
 
-If you can't connect to the services appliance, there might be a network issue, or the hardware installation might not have been completed successfully.
+If you can't connect to the appliance, there might be a network issue, or the hardware installation might not have been completed successfully.
 
 .Steps
 

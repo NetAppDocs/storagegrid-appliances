@@ -47,7 +47,7 @@ Install the replacement CMOS battery into the socket on the system board.
 +
 image::../media/sgf6112_two-slot-riser_alignment_hole.png[Alignment hole on large riser assembly]
 +
-. Locate the guide pin on the system board. 
+. Locate the guide pin on the system board 
 +
 image::../media/sgf6112_two-slot-riser_guide-pin.png[Guide pin on system board for two-slot riser assembly]
 
@@ -68,7 +68,7 @@ image::../media/sgf6112_two-slot-riser_guide-pin.png[Guide pin on system board f
   .. Enter the password listed in the `Passwords.txt` file.
   .. Enter the following command to switch to root: `su -`
   .. Enter the password listed in the `Passwords.txt` file.
-. Restore BMC network connectivity for the appliance using one of these options: 
+. Restore BMC network connectivity for the appliance. There are two options: 
 * Use static IP, netmask, and gateway 
 * Use DHCP to obtain an IP, netmask, and gateway
 

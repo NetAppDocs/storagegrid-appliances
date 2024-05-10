@@ -1,0 +1,18 @@
+---
+permalink: sg110-1100/index.html
+sidebar: sidebar
+keywords: storagegrid, sg110, sg1100, service appliance, services appliance, gateway Node, admin node, maintain, maintaining, hardware, procedures, tasks
+summary: 'You might need to perform maintenance procedures on the appliance. The procedures in this section assume that the appliance has already been deployed as a Gateway Node or an Admin Node in a StorageGRID system.'
+---
+= Maintain SG110 and SG1100 appliances
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You might need to perform maintenance procedures on the appliance. The procedures in this section assume that the appliance has already been deployed as a Gateway Node or an Admin Node in a StorageGRID system.
+
+Procedures specific to maintaining your SG110 or SG1100 appliance are in this section. 
+
+See link:../commonhardware/index.html[Common procedures] for maintenance procedures that are used by all appliances. 
+
+See link:../installconfig/configuring-hardware.html[Set up hardware] for maintenance procedures that are also performed during initial appliance installation and configuration.

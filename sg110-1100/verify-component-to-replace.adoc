@@ -1,0 +1,18 @@
+---
+permalink: sg110-1100/verify-component-to-replace.html
+sidebar: sidebar
+keywords: sg110, sg1100
+summary: 'If you are unsure which hardware component to replace in your appliance, complete this procedure to identify the component and the location of the appliance in the data center.'
+---
+= Verify component to replace in the SG110 or SG1100
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+If you are unsure which hardware component to replace in your appliance, complete this procedure to identify the component and the location of the appliance in the data center.
+
+include::../_include/2023-verify-component.adoc[]
+
+.Related information
+
+link:turning-sg110-and-sg1100-identify-led-on-and-off.html[Turn on the appliance identify LED]
