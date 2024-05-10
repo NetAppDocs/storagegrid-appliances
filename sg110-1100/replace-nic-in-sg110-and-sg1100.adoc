@@ -1,0 +1,32 @@
+---
+permalink: sg110-1100/replace-nic-in-sg110-and-sg1100.html
+sidebar: sidebar
+keywords: storagegrid, sg110, sg1100, admin node, admin appliance, replacing, replace, NIC, network interface card
+summary: 'You might need to replace a Network Interface Card \(NIC\) in the SG110 or SG1100 if it is not functioning optimally or if it has failed.'
+---
+= Replace NIC in an SG110 or SG1100
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You might need to replace a Network Interface Card (NIC) in the SG110 or SG1100 if it is not functioning optimally or if it has failed.
+
+Use these procedures to: 
+
+* Remove the NIC
+* Reinstall the NIC
+
+== Remove the NIC
+
+.Before you begin
+
+* You have the correct replacement NIC.
+* You have determined the link:verify-component-to-replace.html[location of the NIC to replace].
+
+* You have link:locating-sg110-and-sg1100-in-data-center.html[physically located the SG110 or SG1100 appliance] where you are replacing the NIC in the data center.
++
+NOTE: A link:power-sg110-and-sg1100-off-on.html#shut-down-the-appliance[controlled shutdown of the appliance] is required before removing the appliance from the rack.
+
+* You have disconnected all cables and link:reinstalling-sg110-and-sg1100-cover.html[removed the appliance cover].
+
+include::../_include/2023-replace-nic.adoc[]
