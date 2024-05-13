@@ -57,9 +57,9 @@ entries:
         url: "/sg6100/replace-6160-drives-60.html"
     - title: Replace NIC
       entries:
-        - title: PCIe NIC (SGF6112 and SG6160)
+        - title: Internal NIC (SGF6112 and SG6160)
           url: "/sg6100/replace-nic-in-sgf6112.html"
-        - title: OCP NIC (SG6160)
+        - title: External NIC (SG6160)
           url: "/sg6100/replace-ocp-nic-in-sg6100-cn.html"
     - title: Replace CMOS battery
       url: "/sg6100/replace-cmos-in-sgf6112.html"  
