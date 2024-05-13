@@ -25,12 +25,11 @@ image::../media/sg6100_cn_ocp_nic_location.png[NIC faceplate.]
 
 * You have link:locating-sgf6112-in-data-center.html[physically located the SG6100-CN controller] where you are replacing the NIC in the data center.
 +
-NOTE: A link:power-sgf6112-off-on.html#shut-down-the-sgf6112-appliance[controlled shutdown of the appliance] is required before removing the appliance from the rack.
+NOTE: Hot-swapping is *not* supported for this procedure. A link:power-sgf6112-off-on.html#shut-down-the-sgf6112-appliance[controlled shutdown of the appliance] is required before disconnecting cables and removing the NIC.
 
 * You have disconnected all cables, including the two power cords on the SG6100-CN.
 * *Optional*: You have removed the controller from the rack if required by local regulations. Removal is not required as the the NIC is externally accessible.
-+
-CAUTION: Hot-swapping is *not* supported for this procedure. The controller must be disconnected from power even if it remains in the rack.
+
 
 .About this task
 
@@ -44,9 +43,9 @@ CAUTION: If you have ever used an ILM rule that creates only one copy of an obje
 
 . Wrap the strap end of an ESD wristband around your wrist, and secure the clip end to a metal ground to prevent static discharge.
 . Use a screwdriver to loosen the screw on the faceplate of the NIC.
-. Carefully remove the NIC by pulling on the faceplate handle. Place the NIC on a flat, anti-static surface.
 +
 CAUTION: Hot-swapping is *not* supported for this procedure. The controller must be disconnected from power before removing the NIC.
+. Carefully remove the NIC by pulling on the faceplate handle. Place the NIC on a flat, anti-static surface.
 
 == Reinstall the external NIC
 
