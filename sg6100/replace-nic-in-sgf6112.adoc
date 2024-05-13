@@ -16,7 +16,7 @@ Use these procedures to:
 * Remove the NIC
 * Reinstall the NIC
 
-== Remove the PCIe NIC
+== Remove the internal NIC
 
 .Before you begin
 

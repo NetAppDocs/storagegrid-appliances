@@ -9,7 +9,7 @@ summary: 'You might need to replace a Network Interface Card \(NIC\) in the SG61
 :imagesdir: ../media/
 
 [.lead]
-You might need to replace an external, OCP Network Interface Card (NIC) in the SG6100-CN if it is not functioning optimally or if it has failed.
+You might need to replace an external Network Interface Card (NIC) in the SG6100-CN if it is not functioning optimally or if it has failed.
 
 Use these procedures to: 
 
