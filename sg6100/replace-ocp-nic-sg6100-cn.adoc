@@ -59,6 +59,6 @@ CAUTION: Hot-swapping is *not* supported for this procedure. The controller must
 
 .After you finish
 
-If you have no other maintenance procedures to perform in the appliance, reinstall the appliance cover, return the appliance to the rack, attach cables, and apply power.
+If you have no other maintenance procedures to perform in the appliance, return the appliance to the rack if it was removed, attach cables, and apply power.
 
 include::../_include/fru-statement.adoc[] 
