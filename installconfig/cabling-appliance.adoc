@@ -637,7 +637,7 @@ Four 10/25-GbE network ports on the appliance
 . Connect the BMC management port on the appliance to the management network, using an Ethernet cable.
 +
 Although this connection is optional, it is recommended to facilitate support.
-
+. Connect the two interconnect ports on each storage controller to the 100GbE port on the SG6100-CN controller, using one 100-GbE GSFP28 to 4x25-GbE SFP28 cable.
 . Connect the network ports on the appliance to the appropriate network switches, using TwinAx cables or optical cables and transceivers.
 +
 [cols="2a,2a" options="header"]
