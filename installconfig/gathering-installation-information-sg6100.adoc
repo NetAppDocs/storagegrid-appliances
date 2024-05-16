@@ -301,11 +301,15 @@ You can access the BMC interface on the appliance using the 1-GbE management por
 
 include::../_include/enable-disable-ipmi.adoc[]
 
-The following figure shows the BMC management port on the SGF6112 appliance.
+The following figures show the BMC management port on the SGF6112 and SG6100-CN.
+
+_SGF6112_
 
 image::../media/sgf6112_cn_bmc_management_port.png[SGF6112 management port]
 
-image::../media/sg6100_cn_bmc_management_port.png[SG6100 management port]
+_SG6100-CN_
+
+image::../media/sg6100_cn_bmc_management_port.png[SG6100-CN management port]
 
 [cols="2a,1a" options="header"]
 |===

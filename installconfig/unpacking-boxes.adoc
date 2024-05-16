@@ -256,7 +256,7 @@ Two rail kits with instructions::
 +
 image::../media/rail_kit.gif[Rail kit]
 
-60 drives (2 SSD and 58 NL-SAS)::
+60 NL-SAS drives::
 +
 image::../media/sg5760_drive.gif[Drive]
 

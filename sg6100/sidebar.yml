@@ -13,9 +13,9 @@ entries:
       url: "/sg6100/upgrading-santricity-os-on-storage-controllers-using-grid-manager-sg6160.html"      
     - title: Upgrade drive firmware using SANtricity System Manager (SG6160)
       entries:
-      - title: Upgrade SG6000 drive firmware using SANtricity System Manager using online method
+      - title: Upgrade SG6100 drive firmware using SANtricity System Manager using online method
         url: "/sg6100/upgrading-drive-firmware-using-santricity-system-manager-online.html"
-      - title: Upgrade SG6000 drive firmware using SANtricity System Manager using offline method
+      - title: Upgrade SG6100 drive firmware using SANtricity System Manager using offline method
         url: "/sg6100/upgrading-drive-firmware-using-santricity-system-manager-offline.html"
       - title: Troubleshoot drive firmware upgrade errors
         url: "/sg6100/troubleshoot-upgrading-drive-firmware-using-santricity-system-manager.html" 
@@ -56,7 +56,11 @@ entries:
       - title: E4000 (SG6160)
         url: "/sg6100/replace-6160-drives-60.html"
     - title: Replace NIC
-      url: "/sg6100/replace-nic-in-sgf6112.html"
+      entries:
+        - title: Internal NIC (SGF6112 and SG6160)
+          url: "/sg6100/replace-nic-in-sgf6112.html"
+        - title: External NIC (SG6160)
+          url: "/sg6100/replace-ocp-nic-in-sg6100-cn.html"
     - title: Replace CMOS battery
       url: "/sg6100/replace-cmos-in-sgf6112.html"  
     - title: Replace cover

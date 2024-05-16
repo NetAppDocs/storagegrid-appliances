@@ -54,7 +54,7 @@ image::../media/one-slot-assembly-sgf6112.png[NIC in one-slot riser assembly]
 . Open the blue latch (circled) on the NIC to be replaced and carefully remove the NIC from the riser assembly. Rock the NIC slightly to help remove the NIC from its connector. Don't use excessive force.
 . Place the NIC on a flat anti-static surface.
 
-== Reinstall the NIC
+== Reinstall the internal NIC
 Install the replacement NIC into the same location as the one that was removed.
 
 .Before you begin
