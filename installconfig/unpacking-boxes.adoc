@@ -107,7 +107,7 @@ Rail kit with instructions::
 +
 image::../media/rail_kit.gif[Rail kit]
 
-SG5860: Sixty drives::
+SG5860: Sixty NL-SAS drives::
 +
 image::../media/sg5760_drive.gif[Drive]
 
@@ -131,8 +131,7 @@ Optical cables and SFP transceivers::
 +
 image::../media/fc_cable_and_sfp.gif[Optical cables and SFPs]
 +
-** Two optical cables for the iSCSI interconnect ports
-** Four SFP+ transceivers and four SFP28 transceivers, compatible with both the four 25-GbE iSCSI interconnect ports and the four 10-GbE network ports
+** Two 25GbE SFP28 cables for controller interconnect (iSCSI)
 
 --
 
@@ -269,6 +268,14 @@ Back brackets and cage nuts for square-hole rack installation::
 +
 image::../media/back_brackets_table_size.gif[Back brackets and cage nuts for SG5860]
 
+Interconnect cables::
++
+image::../media/fc_cable_and_sfp.gif[Optical cables and SFPs]
+
+Four power cords for your country::
++
+image::../media/power_cords.gif[Power cords]
+
 * *SG6160 expansion shelf*
 
 Expansion shelf with no drives installed::
@@ -296,7 +303,7 @@ Back brackets and cage nuts for square-hole rack installation::
 image::../media/back_brackets_table_size.gif[Back brackets and cage nuts for SG5860]
 
 
-* *Hardware*
+* *SGF6112 Hardware*
 
 SGF6112::
 +

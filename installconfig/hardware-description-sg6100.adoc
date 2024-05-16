@@ -227,12 +227,12 @@ image::../media/sg6100_cn_rear_connectors.png[SG6100-CN Rear Connectors]
 
 | 5
 | Admin Network port 1
-| 1-GbE (RJ-45)
+| 1/10-GbE (RJ-45)
 | Connect the SG6100-CN to the Admin Network for StorageGRID.
 
 | 6
 | Admin Network port 2
-| 1-GbE (RJ-45)
+| 1/10-GbE (RJ-45)
 | Options:
 
 * Bond with management port 1 for a redundant connection to the Admin Network for StorageGRID.

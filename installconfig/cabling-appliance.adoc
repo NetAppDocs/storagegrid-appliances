@@ -603,14 +603,14 @@ SG6160: Eight total 10/25 GbE connection ports
 
 |3
 |Admin Network port on the appliance (labeled P1 in the figure)
-|1-GbE (RJ-45)
+|1/10-GbE (RJ-45)
 
 *Caution:* This port operates only at 1/10-GbE (RJ-45) and does not support 100-megabit speeds.
 |Connects the appliance to the Admin Network for StorageGRID.
 
 |
 |Rightmost RJ-45 port on the appliance
-|1-GbE (RJ-45)
+|1/10-GbE (RJ-45)
 
 *Caution:* This port operates only at 1/10-GbE (RJ-45) and does not support 100-megabit speeds.
 |

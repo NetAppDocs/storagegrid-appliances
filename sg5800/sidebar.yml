@@ -36,11 +36,11 @@ entries:
         url: "/sg5800/replace-controller-e4000-simplex.html"
       - title: Replace fan
         url: "/sg5800/replace-fan-canister.html"
-      - title: Replace power canister
+      - title: Replace power canister (SG5860)
         url: "/sg5800/replace-power-canister.html"
       - title: Replace batteries
         url: "/sg5800/replace-battery-e4000.html"
-      - title: Replace DIMMS
+      - title: Replace DIMMs
         url: "/sg5800/replace-dimms-e4000.html"
       - title: Replace drives
         entries:
@@ -50,5 +50,5 @@ entries:
             url: "/sg5800/replace-drives-12-24.html"
           - title: Replace drive (60-drive)
             url: "/sg5800/replace-drives-60.html"
-      - title: Replace power supply
+      - title: Replace power supply (SG5812)
         url: "/sg5800/replace-power-supply.html"

@@ -165,7 +165,7 @@ image::../media/e5800sg_controller_with_callouts.png[Connectors on 5800SG contro
 | Diagnostic and support ports
 | 
 * RJ-45 serial port
-* Micro USB serial port
+* USB-C serial port
 * USB port
 
 | Reserved for technical support.
@@ -225,7 +225,7 @@ image::../media/e4000_controller_with_callouts.png[Connectors on E4000 controlle
 | Diagnostic and support ports
 | 
 * RJ-45 serial port
-* Micro USB serial port
+* USB-C serial port
 * USB port
 
 | Reserved for technical support use.
