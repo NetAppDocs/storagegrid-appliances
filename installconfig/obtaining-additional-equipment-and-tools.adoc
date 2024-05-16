@@ -80,10 +80,10 @@ Optional tools:: Mechanized lift for SG5760
 You need the following additional equipment to install and configure the SG5800 hardware.
 
 Optical cables and SFP transceivers::
-* Optical cables for the 10/25-GbE ports you plan to use
-* Optional: SFP28 transceivers if you want to use 25-GbE link speed
+* Cables for the 10/25-GbE ports you plan to use
+* Optional: SFP28 transceivers if you want to use 25-GbE link speed and have optical cables
 
-Ethernet cables::
+Ethernet cables:: 
 
 Optional tools:: Mechanized lift for SG5860
 --
