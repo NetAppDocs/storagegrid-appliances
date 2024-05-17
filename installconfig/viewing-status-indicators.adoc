@@ -346,22 +346,22 @@ Installation or communication with the E2800 controller has failed.
 
 The appliance controllers include indicators that help you determine the status of the appliance controller:
 
-* <<status_indicators_5800sg_controller,Status indicators on 5800SG controller>>
+* <<status_indicators_SG5800_controller,Status indicators on SG5800 controller>>
 * <<general_boot_codes_sg5800,General boot-up codes>>
-* <<boot_codes_5800sg_controller,5800SG controller boot-up codes>>
-* <<error_codes_5800sg_controller,5800SG controller error codes>>
+* <<boot_codes_SG5800_controller,SG5800 controller boot-up codes>>
+* <<error_codes_SG5800_controller,SG5800 controller error codes>>
 
 Use this information to help link:troubleshooting-hardware-installation.html[troubleshoot SG5800 hardware installation].
 
 
-[[status_indicators_5800sg_controller]]
-Status indicators on 5800SG controller::
+[[status_indicators_SG5800_controller]]
+Status indicators on SG5800 controller::
 +
-After the StorageGRID Appliance Installer has started, you should periodically review the status indicators on the 5800SG controller.
+After the StorageGRID Appliance Installer has started, you should periodically review the status indicators on the SG5800 controller.
 +
-The following figure shows status indicators on the 5800SG controller.
+The following figure shows status indicators on the SG5800 controller.
 +
-image::../media/e5800sg_leds.png[Status indicators on 5800SG controller]
+image::../media/e5800sg_leds.png[Status indicators on SG5800 controller]
 +
 [cols="1a,2a,2a" options="header"]
 |===

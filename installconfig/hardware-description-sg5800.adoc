@@ -31,7 +31,7 @@ The SG5800 models include the following components:
 .SG5812
 --
 Compute controller::
-5800SG controller
+SG5800 controller
 
 Storage controller::
 E4000 controller
@@ -49,7 +49,7 @@ Two power-fan canisters
 .SG5860
 --
 Compute controller::
-5800SG controller
+SG5800 controller
 
 Storage controller::
 E4000 controller
@@ -92,7 +92,7 @@ E4000 controller (storage controller)
 a|
 2
 a|
-5800SG controller (compute controller)
+SG5800 controller (compute controller)
 a|
 3
 a|
@@ -121,7 +121,7 @@ E4000 controller (storage controller)
 a|
 2
 a|
-5800SG controller (compute controller)
+SG5800 controller (compute controller)
 a|
 3
 a|
@@ -135,10 +135,10 @@ Power canister (1 of 2)
 
 == SG5800 controller
 
-Both the 12-drive SG5812 and the 60-drive SG5860 models of the StorageGRID appliance include an 5800SG compute controller and an E-Series E4000 storage controller. 
+Both the 12-drive SG5812 and the 60-drive SG5860 models of the StorageGRID appliance include an SG5800 compute controller and an E-Series E4000 storage controller. 
 
 
-=== 5800SG compute controller
+=== SG5800 compute controller
 
 * Operates as the compute server for the appliance.
 * Includes the StorageGRID Appliance Installer.
@@ -148,9 +148,9 @@ NOTE: StorageGRID software is not preinstalled on the appliance. This software i
 * Can connect to all three StorageGRID networks, including the Grid Network, the Admin Network, and the Client Network.
 * Connects to the E4000 controller and operates as the initiator.
 
-==== 5800SG connectors
+==== SG5800 connectors
 
-image::../media/e5800sg_controller_with_callouts.png[Connectors on 5800SG controller]
+image::../media/e5800sg_controller_with_callouts.png[Connectors on SG5800 controller]
 
 [cols="1a,2a,2a,2a" options="header"]
 |===
@@ -178,7 +178,7 @@ image::../media/e5800sg_controller_with_callouts.png[Connectors on 5800SG contro
 | 4
 | Interconnect ports 1 and 2
 | 25GbE iSCSI
-| Connect the 5800SG controller to the E4000 controller.
+| Connect the SG5800 controller to the E4000 controller.
 
 | 5
 | Network ports 1-4
@@ -197,7 +197,7 @@ The E4000 series storage controller has the following specifications:
 * Functions as a standard E-Series controller in simplex mode.
 * Includes SANtricity OS Software (controller firmware).
 * Includes SANtricity System Manager for monitoring appliance hardware and for managing alerts, the AutoSupport feature, and the Drive Security feature.
-* Connects to the 5800SG controller and operates as the target.
+* Connects to the SG5800 controller and operates as the target.
 
 
 ==== E4000 connectors
@@ -238,7 +238,7 @@ image::../media/e4000_controller_with_callouts.png[Connectors on E4000 controlle
 | 4
 | Interconnect ports 1 and 2
 | 25GbE iSCSI
-| Connect the E4000 controller to the 5800SG controller.
+| Connect the E4000 controller to the SG5800 controller.
 
 |===
 

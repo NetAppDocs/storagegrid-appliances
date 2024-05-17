@@ -58,7 +58,7 @@ In the sequence:
 NOTE: If an IP address could not be assigned using DHCP, 0.0.0.0 is displayed.
 --
 
-.5800SG
+.SG5800
 --
 image::../media/sg5800_admin_network_port.png[Admin Network port on the SG5800 controller]
 --
@@ -119,11 +119,11 @@ Connect the service laptop to management port 2 on the E5700SG controller, using
 image::../media/e5700sg_mgmt_port_2.gif[Location of Management Port 2 on the E5700SG controller]
 --
 
-.5800SG
+.SG5800
 --
-Connect the service laptop to  management port 1 on the 5800SG controller, using an Ethernet cable.
+Connect the service laptop to  management port 1 on the SG5800 controller, using an Ethernet cable.
 
-image::../media/e5800sg_mgmt_port.png[Location of Management Port 2 on the 5800SG controller]
+image::../media/e5800sg_mgmt_port.png[Location of Management Port 2 on the SG5800 controller]
 --
 
 .SG6000-CN

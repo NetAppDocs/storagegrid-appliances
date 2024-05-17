@@ -23,7 +23,7 @@ entries:
         url: "/sg5800/upgrading-drive-firmware-using-santricity-system-manager-offline.html"
       - title: Troubleshoot drive firmware upgrade errors
         url: "/sg5800/troubleshoot-upgrading-drive-firmware-using-santricity-system-manager.html" 
-    - title: Change link configuration of E5800SG controller
+    - title: Change link configuration of SG5800 controller
       url: "/sg5800/changing-link-configuration-of-e5800sg-controller.html"
 
 

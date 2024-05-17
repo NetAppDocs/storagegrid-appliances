@@ -36,7 +36,7 @@ The figures and tables summarize the options for the port bond mode and network 
 
 * link:gathering-installation-information-sg100-and-sg1000.html#port-bond-modes[Port bond modes (SG1000 and SG100)]
 * link:gathering-installation-information-sg5700.html#port-bond-modes[Port bond modes (E5700SG)]
-* link:gathering-installation-information-sg5800.html#port-bond-modes[Port bond modes (5800SG)]
+* link:gathering-installation-information-sg5800.html#port-bond-modes[Port bond modes (SG5800)]
 * link:gathering-installation-information-sg6000.html#port-bond-modes[Port bond modes (SG6000-CN)]
 * link:gathering-installation-information-sg6100.html#port-bond-modes[Port bond modes (SGF6112 and SG6100-CN)]
 
@@ -262,7 +262,7 @@ Fixed port bond mode (default)::
 +
 This figure shows how the four 10/25-GbE ports are bonded in Fixed port bond mode (default configuration).
 +
-image::../media/e5800sg_fixed_port.png[Image showing how the 10/25-GbE ports on the 5800SG controller are bonded in fixed mode]
+image::../media/e5800sg_fixed_port.png[Image showing how the 10/25-GbE ports on the SG5800 controller are bonded in fixed mode]
 +
 [cols="1a,3a" options="header"]
 |===
@@ -315,7 +315,7 @@ Aggregate port bond mode::
 +
 This figure shows how the four 10/25-GbE ports are bonded in Aggregate port bond mode.
 +
-image::../media/e5800sg_aggregate_port.png[Image showing how the 10/25-GbE ports on the 5800SG controller are bonded in aggregate mode]
+image::../media/e5800sg_aggregate_port.png[Image showing how the 10/25-GbE ports on the SG5800 controller are bonded in aggregate mode]
 +
 [cols="1a,3a" options="header"]
 |===

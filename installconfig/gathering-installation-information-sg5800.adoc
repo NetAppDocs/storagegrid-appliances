@@ -1,7 +1,7 @@
 ---
 permalink: installconfig/gathering-installation-information-sg5800.html
 sidebar: sidebar
-keywords: storagegrid, sg5800, storage node, storage appliance, install, information, site, pre-install, preparing, prepare, preinstall, info, preparation, port bond, port bonding, port bond mode, port-bond mode, Network bond, Network bonding, Network bond mode, Network-bond mode, fixed, Aggregate, 10/25-gbe, 10/25 gbe, 5800sg, independent, active-backup, active backup, 1-gbe, 1 gbe
+keywords: storagegrid, sg5800, storage node, storage appliance, install, information, site, pre-install, preparing, prepare, preinstall, info, preparation, port bond, port bonding, port bond mode, port-bond mode, Network bond, Network bonding, Network bond mode, Network-bond mode, fixed, Aggregate, 10/25-gbe, 10/25 gbe, SG5800, independent, active-backup, active backup, 1-gbe, 1 gbe
 summary: 'Using the tables, record the required information for each network you connect to the appliance. These values are required to install and configure the hardware.'
 ---
 = Gather network information (SG5800)
@@ -69,9 +69,9 @@ For IPv6:
 * E4000 controller router IP address:
 |===
 
-== Information needed to connect 5800SG controller to Admin Network
+== Information needed to connect SG5800 controller to Admin Network
 
-The Admin Network for StorageGRID is an optional network, used for system administration and maintenance. The appliance connects to the Admin Network using the 1-GbE management port on the 5800SG controller.
+The Admin Network for StorageGRID is an optional network, used for system administration and maintenance. The appliance connects to the Admin Network using the 1-GbE management port on the SG5800 controller.
 
 [cols="2a,1a" options="header"]
 |===
@@ -117,11 +117,11 @@ Admin Network subnets (CIDR)
 a|
 |===
 
-== Information needed to connect and configure 10/25-GbE ports on 5800SG controller
+== Information needed to connect and configure 10/25-GbE ports on SG5800 controller
 
-The four 10/25-GbE ports on the 5800SG controller connect to the StorageGRID Grid Network and Client Network.
+The four 10/25-GbE ports on the SG5800 controller connect to the StorageGRID Grid Network and Client Network.
 
-NOTE: See link:gathering-installation-information-sg5800.html#port-bond-modes[Port bond modes (5800SG controller)].
+NOTE: See link:gathering-installation-information-sg5800.html#port-bond-modes[Port bond modes (SG5800 controller)].
 
 [cols="2a,1a" options="header"]
 |===
@@ -167,11 +167,11 @@ a|
 
 |===
 
-== Information needed to connect 5800SG controller to Grid Network
+== Information needed to connect SG5800 controller to Grid Network
 
-The Grid Network for StorageGRID is a required network, used for all internal StorageGRID traffic. The appliance connects to the Grid Network using the 10/25-GbE ports on the 5800SG controller.
+The Grid Network for StorageGRID is a required network, used for all internal StorageGRID traffic. The appliance connects to the Grid Network using the 10/25-GbE ports on the SG5800 controller.
 
-NOTE: See link:gathering-installation-information-sg5800.html#port-bond-modes[Port bond modes (5800SG controller)].
+NOTE: See link:gathering-installation-information-sg5800.html#port-bond-modes[Port bond modes (SG5800 controller)].
 
 [cols="2a,1a" options="header"]
 |===
@@ -225,11 +225,11 @@ a|
 
 |===
 
-== Information needed to connect 5800SG controller to Client Network
+== Information needed to connect SG5800 controller to Client Network
 
-The Client Network for StorageGRID is an optional network, typically used to provide client protocol access to the grid. The appliance connects to the Client Network using the 10/25-GbE ports on the 5800SG controller.
+The Client Network for StorageGRID is an optional network, typically used to provide client protocol access to the grid. The appliance connects to the Client Network using the 10/25-GbE ports on the SG5800 controller.
 
-NOTE: See link:gathering-installation-information-sg5800.html#port-bond-modes[Port bond modes (5800SG controller)].
+NOTE: See link:gathering-installation-information-sg5800.html#port-bond-modes[Port bond modes (SG5800 controller)].
 
 [cols="2a,1a" options="header"]
 |===
@@ -286,7 +286,7 @@ a|
 
 == Port bond modes
 
-When link:configuring-network-links.html[configuring network links] for the 5800SG controller, you can use port bonding for the 10/25-GbE ports that connect to the Grid Network and optional Client Network. Port bonding helps protect your data by providing redundant paths between StorageGRID networks and the appliance. The 10/25-GbE networking ports on the 5800SG controller support Fixed port bond mode or Aggregate port bond mode for the Grid Network and Client Network connections.
+When link:configuring-network-links.html[configuring network links] for the SG5800 controller, you can use port bonding for the 10/25-GbE ports that connect to the Grid Network and optional Client Network. Port bonding helps protect your data by providing redundant paths between StorageGRID networks and the appliance. The 10/25-GbE networking ports on the SG5800 controller support Fixed port bond mode or Aggregate port bond mode for the Grid Network and Client Network connections.
 
 === Fixed port bond mode
 
@@ -343,6 +343,6 @@ NOTE: If you choose to use fewer than four ports, be aware that one or more alar
 
 * link:cabling-appliance-sg5800.html[Cable appliance (SG5800)]
 
-* link:gathering-installation-information-sg5800.html#port-bond-modes[Port bond modes (5800SG controller)]
+* link:gathering-installation-information-sg5800.html#port-bond-modes[Port bond modes (SG5800 controller)]
 
 * link:configuring-hardware.html[Configure hardware (SG5800)]
