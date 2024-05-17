@@ -268,7 +268,7 @@ Back brackets and cage nuts for square-hole rack installation::
 +
 image::../media/back_brackets_table_size.gif[Back brackets and cage nuts for SG5860]
 
-Interconnect cables::
+One 100 GbE to 4x25GbE breakout interconnect cable::
 +
 image::../media/fc_cable_and_sfp.gif[Optical cables and SFPs]
 
