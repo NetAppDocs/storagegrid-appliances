@@ -230,7 +230,7 @@ image::../media/sg6100_cn_rear_connectors.png[SG6100-CN Rear Connectors]
 
 | 6
 | 100-GbE
-|Connect the SG6100-CN controller to the E4000 controllers. 
+| Connect the SG6100-CN controller to the E4000 controllers. 
 
 
 |===
