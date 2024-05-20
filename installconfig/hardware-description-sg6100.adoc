@@ -2,14 +2,14 @@
 permalink: installconfig/hardware-description-sg6100.html
 sidebar: sidebar
 keywords: storagegrid, sg6100, sgf6112, storage node, storage appliance, appliance models, appliance features, specifications
-summary: 'The StorageGRID SGF6112 appliance operates as a Storage Node in a StorageGRID system. The appliance can be used in a hybrid grid environment that combines appliance Storage Nodes and virtual (software-based) Storage Nodes.'
+summary: ' The StorageGRID SG6100 series appliances operate as Storage Nodes in a StorageGRID system.  Like all StorageGRID appliances, they can be freely intermixed with other appliance models and software-only nodes in a single deployment.'
 ---
 = SG6100 appliances: Overview
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-The StorageGRID SG6160 appliance includes a compute controller and a storage controller shelf that contains two storage controllers and 60 drives, as well as two NVMe SSD drives for caching. Optionally, 60-drive expansion shelves can be added to the SG6160. The StorageGRID SGF6112 appliance operates as a Storage Node in a StorageGRID system. It is an all-flash appliance that features a compact design with compute controller and storage controller integrated into a 1U chassis. The appliance supports 12 SSD NVMe drives with a storage capacity of up to 15.3 TB per drive.The appliance can be used in a hybrid grid environment that combines appliance Storage Nodes and virtual (software-based) Storage Nodes.
+ The StorageGRID SG6100 series appliances operate as Storage Nodes in a StorageGRID system.  Like all StorageGRID appliances, they can be freely intermixed with other appliance models and software-only nodes in a single deployment. The StorageGRID SG6160 appliance includes a compute controller with a pair of NVMe SSDs functioning as a read cache, and a storage controller shelf that contains two storage controllers and 60 NL-SAS hard drives. It can be expanded to up to 180 NL-SAS hard drives through the addition of up to two optional expansion shelves. The StorageGRID SGF6112 appliance is an all-flash appliance with a compact, 1U form factor populated with 12 NVMe SSDs.
 
 The SGF6112 and SG6160 appliances provide the following features:
 
@@ -17,11 +17,22 @@ The SGF6112 and SG6160 appliances provide the following features:
 * Includes the StorageGRID Appliance Installer to simplify Storage Node deployment and configuration.
 * Includes a baseboard management controller (BMC) for monitoring and diagnosing the hardware in the compute controller.
 
-The SGF6112 and SG6160 are designed with SSDs in a RAID that provide the following data protection features: 
+The SGF6112 provides the following data protection features: 
 
 * Ability to function after the failure of a single SSD with no impact on object availability.
 * Ability to function after multiple SSD failures with a minimum necessary reduction in object availability (based on the design of the underlying RAID scheme).
++
+NOTE: Depending on your configured ILM policy, requests for locally unavailable objects can be serviced by other nodes, so there will usually be no reduction in availability.
 * Fully recoverable, while in service, from SSD failures that don't result in extreme damage to the RAID housing the node's root volume (the StorageGRID operating system).
+* Object data can be restored automatically from copies or erasure coded chunks on other nodes if multiple SSD failures result in local data loss.
+
+The SG6160 provides the following data protection features:
+
+* Ability to function after the failure of any two hard drives (HDDs) with no impact on object availability.
+* Rapid evacuation and rebuild of HDDs during failure and replacement events (when configured for DDP or DDP16 during installation), improving data durability relative to standard RAID6.
+* Fully recoverable, while in service, from the failure of any two HDDs.
+* Object data can be restored automatically from copies or erasure coded chunks on other nodes if multiple HDD failures result in local data loss.
+
 
 == SG6100 hardware components
 
@@ -31,10 +42,10 @@ The SGF6112 appliance includes the following components:
 Compute and storage platform::
 A one-rack unit (1U) server that includes:
 +
-* Two 2.1/2.6 GHz 165 W processors providing 48 cores
+* Two 2.1/2.6 GHz 165 W processors providing 48 cores (96 threads)
 * 256 GB RAM
 * 2 × 1/10 GBase-T ports
-* 4 × 10/25 GbE Ethernet ports
+* 4 × 10/25 GbE Ethernet ports for Grid/Client network traffic (up to 4 x 100 GbE with optional 100G NIC SKU)
 * 1 × 256 GB Internal Boot drive (includes StorageGRID software) 
 * Baseboard management controller (BMC) that simplifies hardware management
 * Redundant power supplies and fans
@@ -46,7 +57,7 @@ The SG6160 appliance includes the following components:
 Compute controller::
 The SG6100-CN controller is a one-rack unit (1U) server that includes:
 +
-* 40 cores (80 threads)
+* 48 cores (96 threads)
 * 256 GB RAM
 * Up to 4 × 25 GbE aggregate Ethernet bandwidth
 * 1 x 100 GbE interconnect
@@ -195,7 +206,7 @@ image::../media/sg6100_cn_rear_connectors.png[SG6100-CN Rear Connectors]
 
 | 1
 | Network ports 1-4
-| 10-GbE or 25-GbE, based on cable or SFP transceiver type, switch speed, and configured link speed
+| 10-GbE, 25-GbE, or 100-GbE based on cable or SFP transceiver type, switch speed, and configured link speed
 | Connect to the Grid Network and the Client Network for StorageGRID.
 
 | 2
@@ -229,9 +240,9 @@ image::../media/sg6100_cn_rear_connectors.png[SG6100-CN Rear Connectors]
 * During installation, use port 2 for IP configuration if DHCP-assigned IP addresses aren't available.
 
 | 6
+| Interconnect port
 | 100-GbE
 | Connect the SG6100-CN controller to the E4000 controllers. 
-
 
 |===
 
@@ -261,8 +272,6 @@ image::../media/e4000_controller_with_callouts.png[Connectors on E4000 controlle
 ** Leave unwired to save a switch port and IP address.  Access SANtricity System Manager using the Grid Manager or Storage Grid Appliance Installer UIs.  
 
 *Note*: Some optional SANtricity functionality, such as NTP sync for accurate log timestamps, is not available when you choose to leave Port 1 unwired.
-
-*Note*: StorageGRID 11.8 or greater, and SANtricity 11.81 or greater, are required when you leave Port 1 unwired.
 
 | 2
 | Diagnostic and support ports

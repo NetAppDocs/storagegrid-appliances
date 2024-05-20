@@ -133,7 +133,7 @@ a|
 Choose one:
 
 * Auto (default)
-* 10 GbE (default)
+* 10 GbE
 * 25 GbE
 
 a|

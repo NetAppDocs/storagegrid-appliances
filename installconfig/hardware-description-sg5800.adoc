@@ -9,7 +9,7 @@ summary: 'The SG5800 StorageGRID appliance is an integrated storage and computin
 :imagesdir: ../media/
 
 [.lead]
-The SG5800 StorageGRID appliance is an integrated storage and computing platform that operates as a Storage Node in a StorageGRID grid. The appliance can be used in a hybrid grid environment that combines appliance Storage Nodes and virtual (software-based) Storage Nodes.
+The SG5800 StorageGRID appliance is an integrated storage and computing platform that operates as a Storage Node in a StorageGRID grid.
 
 StorageGRID SG5800 series appliance provides the following features:
 

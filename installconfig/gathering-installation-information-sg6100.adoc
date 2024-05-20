@@ -185,6 +185,7 @@ The four networking ports on the appliance connect to the StorageGRID Grid Netwo
 * Auto (default)
 * 10 GbE
 * 25 GbE
+* 100 GbE (SG6160 only)
 
 | Port bond mode
 | Choose one:

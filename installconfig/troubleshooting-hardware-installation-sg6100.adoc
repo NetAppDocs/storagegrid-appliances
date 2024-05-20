@@ -11,7 +11,7 @@ summary: 'If you encounter issues during the installation, you might find it hel
 [.lead]
 If you encounter issues during the installation, you might find it helpful to review troubleshooting information related to hardware setup and connectivity issues.
 
-== View boot-up codes
+== View boot-up codes (SGF6112 and SG6160)
 
 When you apply power to the appliance, the BMC logs a series of boot-up codes. You can view these codes on a graphical console that is connected to the BMC management port.
 
@@ -104,7 +104,7 @@ The system is awaiting connectivity with the storage controllers and synchronizi
 | StorageGRID is running.
 |===
 
-== View error codes
+== View error codes (SGF6112 and SG6160)
 
 If a hardware error occurs when the appliance is booting up, the BMC logs an error code. As required, you can view these error codes using the BMC interface, and then work with technical support to resolve the issue.
 
@@ -332,7 +332,7 @@ The StorageGRID Appliance Installer might not be available if hardware faults or
 
 == Connection issues
 
-=== Expansion shelves don't appear in Appliance Installer
+=== Expansion shelves don't appear in Appliance Installer (SGF6112 and SG6160)
 
 If you have installed expansion shelves and they don't appear in the StorageGRID Appliance Installer, you should verify that the shelves have been completely installed and powered on.
 

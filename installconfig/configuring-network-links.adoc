@@ -574,8 +574,8 @@ The network switches you are using for the Grid Network and the Client Network m
 If you plan to use the 25-GbE link speed for the SG6100, SG6000, SG5800, or SG5700 network ports:
 
  ** Use SFP28 transceivers and SFP28 TwinAx cables or optical cables.
- ** For the SG5700 or SG5800, select *25GbE* from the *Link speed* drop-down list.
- ** For the SG6000 or SG6100, select *Auto* from the *Link speed* drop-down list.
+ ** For the SG5700, select *25GbE* from the *Link speed* drop-down list.
+ ** For the SG5800, SG6000, or SG6100, select *Auto* from the *Link speed* drop-down list.
 
 . Enable or disable the StorageGRID networks you plan to use.
 +

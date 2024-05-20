@@ -36,7 +36,8 @@ This step is optional. However, streamlining and automating configuration steps 
 ** link:installing-appliance-in-cabinet-or-rack-sg5700.html[SG5700]
 ** link:installing-appliance-in-cabinet-or-rack-sg5800.html[SG5800]
 ** link:installing-hardware-sg6000.html[SG6000]
-** link:installing-appliance-in-cabinet-or-rack-sgf6112.html[SG6100]
+** link:installing-appliance-in-cabinet-or-rack-sgf6112.html[SGF6112]
+** link:sg6160-installing-60-drive-shelves-into-cabinet-or-rack.html[SG6160]
 
 . link:cabling-appliance.html[Cable appliance]
 

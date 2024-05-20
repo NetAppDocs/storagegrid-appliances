@@ -296,11 +296,11 @@ You connect the two controllers to each other, connect the management ports on e
 
 * You have unpacked the following items, which are included with the appliance:
  ** Two power cords.
- ** Two optical cables for the iSCSI interconnect ports on the controllers.
- ** Eight SFP+ transceivers, which support 10-GbE. The transceivers can be used with the two interconnect ports on both controllers and with the four 10/25-GbE network ports on the SG5800 controller, assuming you want the network ports to use a 10-GbE link speed.
+ ** Two cables for the iSCSI interconnect ports on the controllers.
 * You have obtained the following items, which aren't included with the appliance:
- ** One to four optical cables for the 10/25-GbE ports you plan to use.
- ** One to four SFP28 transceivers, if you plan to use 25-GbE link speed.
+ ** One to four optical or copper cables for the 10/25-GbE ports you plan to use.
+ ** One to eight SFP+ transceivers, if you plan to use optical cables and 10-GbE link speed.
+ ** One to eight SFP28 transceivers, if you plan to use optical cables and 25-GbE link speed.
  ** Ethernet cables for connecting the management ports.
 
 CAUTION: *Risk of exposure to laser radiation* -- Don't disassemble or remove any part of an SFP transceiver. You might be exposed to laser radiation.
@@ -335,14 +335,6 @@ a|
 a|
 Connects to the network where you access SANtricity System Manager. You can use the Admin Network for StorageGRID or an independent management network.
 a|
-2
-a|
-Management port 2 on the E4000 series controller
-a|
-1-GbE (RJ-45)
-a|
-Reserved for technical support.
-a|
 3
 a|
 Management port 1 on the SG5800 controller
@@ -364,7 +356,7 @@ Connect to the Grid Network and the Client Network for StorageGRID. See link:gat
 
 .Steps
 
-. Connect the E4000 controller to the SG5800 controller, using two optical cables and four of the eight SFP28 transceivers.
+. Connect the E4000 controller to the SG5800 controller, using the two provided cables.
 +
 [cols="1a,1a" options="header"]
 |===
@@ -383,7 +375,7 @@ Interconnect port 2 on the SG5800 controller
 
 . If you plan to use the Admin Network for StorageGRID, connect management port 1 on the SG5800 controller (the RJ-45 port on the left) to the Admin Network, using an Ethernet cable.
 
-. Connect the 10/25-GbE ports on the SG5800 controller to the appropriate network switches, using optical cables and SFP+ or SFP28 transceivers.
+. Connect the 10/25-GbE ports on the SG5800 controller to the appropriate network switches, using copper cables or optical cables and SFP+ or SFP28 transceivers.
 +
 NOTE: Install SFP+ transceivers if you plan to use 10-GbE link speeds. Install SFP28 transceivers if you plan to use 25-GbE link speeds.
 
@@ -559,11 +551,11 @@ You connect the management port on the appliance to the service laptop and conne
 
 .Before you begin
 
-* You have the four optical cables provided with the appliance for connecting the two storage controllers to the SG6100-CN controller.
+* You have the 100GbE to 4x25GbE breakout cable provided with the appliance for connecting the two storage controllers to the SG6100-CN controller.
 * You have an RJ-45 Ethernet cable for connecting the management port.
 * You have one of the following options for the network ports. These items aren't provided with the appliance.
  ** One to four TwinAx cables for connecting the four network ports.
- ** One to four SFP+ or SFP28 transceivers if you plan to use optical cables for the ports.
+ ** One to eight SFP+ or SFP28 transceivers if you plan to use optical cables for the ports.
 
 CAUTION: *Risk of exposure to laser radiation* -- Don't disassemble or remove any part of an SFP transceiver. You might be exposed to laser radiation.
 
