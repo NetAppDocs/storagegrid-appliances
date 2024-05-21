@@ -1,5 +1,5 @@
 ---
-permalink: sg5800/replacing-e4000-controller-simplex.html
+permalink: sg5800/replace-controller-e4000-simplex.html
 sidebar: sidebar
 keywords: storagegrid, sg5800, storage node, storage appliance, Replacing, replace, e4000, controller, remove, removing, removal, install, installing, installation
 summary: 'You might need to replace the E4000 controller if it is not functioning optimally or if it has failed.'
