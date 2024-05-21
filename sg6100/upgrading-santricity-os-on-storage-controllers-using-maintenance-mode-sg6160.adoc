@@ -1,7 +1,7 @@
 ---
 permalink: sg6100/upgrading-santricity-os-on-storage-controllers-using-maintenance-mode-sg6160.html
 sidebar: sidebar
-keywords: storagegrid, sg6160, storage node, storage appliance, controller, e2800, storage controller, upgrade, upgrading, SANtricity OS, SANtricity, maintenance mode
+keywords: storagegrid, sg6160, storage node, storage appliance, controller, storage controller, upgrade, upgrading, SANtricity OS, SANtricity, maintenance mode
 summary: 'For storage controllers currently using SANtricity OS older than 08.42.20.00 \(11.42\), you must use the maintenance mode procedure to apply an upgrade.'
 ---
 = Upgrade SANtricity OS on SG6160 storage controller using maintenance mode
