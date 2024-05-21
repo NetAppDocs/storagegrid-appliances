@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: E4000 replace canister, replacing E4000 canister, E4000 replace fan, replacing E4000 fan, E4000, E-Series, eseries
 summary: Review E4000 canister types and requirements.
 ---
-= Replace E4000 fan canister (SG6160)
+= Replace fan canister in storage controller shelf or expansion shelf (SG6160)
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can replace a fan canister in an E4000 array with a 60-drive shelf.
+You can replace a fan canister in an SG6160.
 
 .About this task
 
@@ -20,15 +20,15 @@ CAUTION: *Possible equipment damage* -- If you perform this procedure with the p
 
 .Before you begin
 
-* Review the details in the Recovery Guru to confirm that there is an issue with the fan canister and select *Recheck* from the Recovery Guru to ensure no other items must be addressed first.
-* Check that the amber Attention LED on the fan canister is on, indicating that the fan has a fault. Contact technical support for assistance if both fan canisters in the shelf have their amber Attention LEDs on.
+* Navigate to the SANtricity System Manger tab of the Nodes page for the node(s) listed in the alert that notified you of the fan failure. Using the SANtricity UI presented on this tab, review the details in the Recovery Guru to confirm that there is an issue with the fan canister and select *Recheck* from the Recovery Guru to ensure no other items must be addressed first.
+* Check that the amber Attention LED on the fan canister is on, indicating that the fan has a fault. Contact technical support for assistance if both fan canisters in the appliance have their amber Attention LEDs on.
 * Make sure you have the following:
-** A replacement fan canister (fan) that is supported for your controller shelf or drive shelf model.
+** A replacement fan canister (fan) that is supported for your appliance model.
 ** An ESD wristband, or you have taken other antistatic precautions.
 
 == Step 1: Prepare to replace fan canister
 
-Prepare to replace a fan canister in a 60-drive controller shelf or drive shelf by collecting support data about your storage array and locating the failed component.
+Prepare to replace a fan canister  by collecting support data about your appliance and locating the failed component.
 
 .Steps
 
@@ -40,17 +40,17 @@ Prepare to replace a fan canister in a 60-drive controller shelf or drive shelf 
 The file is saved in the Downloads folder for your browser with the name, *support-data.7z*.
 . From SANtricity System Manager, determine which fan canister has failed.
  .. Select *Hardware*.
- .. Look at the fan image:../media/sam1130_ss_hardware_fan_icon_maint-e2800.gif[] icon to the right of the *Shelf* drop-down lists to determine which shelf has the failed fan canister.
+ .. Look at the fan image:../media/sam1130_ss_hardware_fan_icon_maint-e2800.gif[] icon to the right of the *Shelf* drop-down lists to determine which appliance has the failed fan canister.
 +
 If a component has failed, this icon is red.
 
- .. When you find the shelf with a red icon, select *Show back of shelf*.
+ .. When you find the appliance with a red icon, select *Show back of shelf*.
  .. Select either fan canister or the red fan icon.
  .. On the *Fans* tab, look at the statuses of the fan canisters to determine which fan canister must be replaced.
 +
 A component with a *Failed* status must be replaced.
 +
-NOTE: If the second fan canister in the shelf does not have *Optimal* status, do not attempt to hot-swap the failed fan canister. Instead, contact technical support for assistance.
+NOTE: If the second fan canister in the appliance does not have *Optimal* status, do not attempt to hot-swap the failed fan canister. Instead, contact technical support for assistance.
 
 +
 You can also find information about the failed fan canister in the Details area of the Recovery Guru, or you can review the Event Log under Support and filter by Component Type.
@@ -66,15 +66,15 @@ CAUTION: If you do not turn off the power to your storage array, ensure that you
 
 .Steps
 
-. Unpack the new fan canister, and place it on a level surface near the shelf.
+. Unpack the new fan canister, and place it on a level surface near the appliance.
 +
 Save all packing material for use when returning the failed fan.
 
 . Press the orange tab to release the fan canister handle.
 
-. Use the fan canister handle to pull the fan canister out of the shelf.
+. Use the fan canister handle to pull the fan canister out of the appliance.
 
-. Slide the replacement fan canister all the way into the shelf, and then move the fan canister handle until it latches with the orange tab.
+. Slide the replacement fan canister all the way into the appliance, and then move the fan canister handle until it latches with the orange tab.
 
 == Step 3: Complete fan canister replacement
 

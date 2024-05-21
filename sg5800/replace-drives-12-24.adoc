@@ -1,19 +1,19 @@
 ---
 permalink: sg5800/replace-drives-12-24.html
 sidebar: sidebar
-keywords: E4000 replace drive, replacing E4000 drive, E4000 replace drive, replacing E4000 drive, E4000, E-Series, eseries
-summary: Replace a drive in an E4000 with a 12-drive shelf.
+keywords: E4000 replace drive, replacing E4000 drive, E4000 replace drive, replacing E4000 drive, E4000, E-Series, eseries. sg5812
+summary: You can replace a drive in the SG5812.
 ---
-= Replace drive in E4000 (12-drive)
+= Replace drive in SG5812
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can replace a drive in an E4000 with a 12-drive shelf.
+You can replace a drive in an SG5812.
 
 .About this task
 
-The Recovery Guru in SANtricity System Manager monitors the drives in the storage array and can notify you of an impending drive failure or an actual drive failure. When a drive has failed, its amber Attention LED is on. You can hot-swap a failed drive while the storage array is receiving I/O.
+StorageGRID Grid Manager monitors appliance status and raises alerts when drive failures occur.  When Grid Manager raises an alert, or at any time, you can use the Recovery Guru in SANtricity System Manager to get more information about the specific drive that has failed.  When a drive has failed, its amber Attention LED is on. You can hot-swap a failed drive while the storage array is receiving I/O.
 
 .Before you begin
 

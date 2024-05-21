@@ -4,21 +4,17 @@ sidebar: sidebar
 keywords: 
 summary: Before you replace an E4000 drive, review the requirements and considerations. 
 ---
-= Replace E4000 drive overview
+= Replace SG5800 drive overview
 :icons: font
 :imagesdir: ../media/
 
 
 [.lead]
-Before you replace an E4000 drive, review the requirements and considerations. 
-
-== Shelf types
-
-You can replace a drive in either a 12-drive or 60-drive controller shelf or drive shelf.
+Before you replace a drive in an SG5812 or SG5860, review the requirements and considerations. 
 
 == Drive handling
 
-The drives in your storage array are fragile. Improper drive handling is a leading cause of drive failure.
+The drives in your appliance are fragile. Improper drive handling is a leading cause of drive failure.
 
 Follow these rules to avoid damaging the drives in your storage array:
 

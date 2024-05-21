@@ -4,22 +4,19 @@ sidebar: sidebar
 keywords: E4000 replace 60-drive power canister, replacing E4000 power canister, E4000, E-Series, eseries
 summary: Replace a 60-drive controller shelf or drive shelf, which includes two power canisters for power redundancy.
 ---
-= Replace E4000 power canister (SG5860)
+= Replace power canister in SG5860
 :experimental:
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can replace a power canister in an E4000 array with a 60-drive shelf, which include the following shelf types:
-
-* E2860 controller shelf
-* DE460C drive shelf
+You can replace a power canister in an SG5860.
 
 .About this task
 
-Each 60-drive controller shelf or drive shelf includes two power canisters for power redundancy. If a power canister fails, you must replace it as soon as possible to ensure that the shelf has a redundant power source.
+Each appliance includes two power canisters for power redundancy. If a power canister fails, you must replace it as soon as possible to ensure that the shelf has a redundant power source.
 
-You can replace a power canister while your storage array is powered on and performing host I/O operations, as long as the second power canister in the shelf has an Optimal status and the *OK to remove* field in the Details area of the Recovery Guru in SANtricity System Manager displays *Yes*.
+You can replace a power canister while your appliance is powered on and performing host I/O operations, as long as the second power canister in the shelf has an Optimal status and the *OK to remove* field in the Details area of the Recovery Guru in SANtricity System Manager displays *Yes*.
 
 While you perform this task, the other power canister supplies power to both fans to ensure that the equipment does not overheat.
 
@@ -28,12 +25,12 @@ While you perform this task, the other power canister supplies power to both fan
 * Review the details in the Recovery Guru to confirm that there is an issue with the power canister and select *Recheck* from the Recovery Guru to ensure no other items must be addressed first.
 * Check that the amber Attention LED on the power canister is on, indicating that the canister has a fault. Contact technical support for assistance if both power canisters in the shelf have their amber Attention LEDs on.
 * Make sure you have the following:
-** A replacement power canister that is supported for your controller shelf or drive shelf model.
+** A replacement power canister that is supported for your appliance.
 ** An ESD wristband, or you have taken other antistatic precautions.
 
 == Step 1: Prepare to replace power canister
 
-Prepare to replace a power canister in a 60-drive controller shelf or drive shelf.
+Prepare to replace a power canister.
 
 .Steps
 
