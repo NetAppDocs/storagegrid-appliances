@@ -9,7 +9,7 @@ summary:
 :imagesdir: ../media/
 
 [.lead]
-You can replace a DIMM in the E4000 if when a memory mismatch is present, or if you have a failed DIMM.
+You can replace a DIMM in the E4000 if a memory mismatch is present, or if you have a failed DIMM.
 
 .About this task
 

@@ -23,9 +23,18 @@ Before installing the appliance, you must make sure that the site and the cabine
 | Requirement
 
 | SG100 and SG1000
+| 120 to 240-volts AC
+
+| SG5712
 | 120 to 240 volts AC
 
 | SG5760
+| 240-volt AC
+
+| SG5812
+| 120 to 240-volt AC
+
+| SG5860
 | 240-volt AC
 
 | SGF6024
@@ -35,7 +44,7 @@ Before installing the appliance, you must make sure that the site and the cabine
 | 240-volt AC 
 
 | SGF6112
-| 100 to 240 volts AC
+| 100 to 240-volts AC
 
 | SG6160
 | 240-volt AC
@@ -117,6 +126,55 @@ a|
 250 lb.
 
 (113 kg)
+
+|===
+--
+
+.SG5800
+--
+[cols="1a,1a,1a,1a,1a" options="header"]
+|===
+| Appliance model| Height| Width| Depth| Maximum weight
+a|
+SG5812
+
+(12 drives)
+a|
+3.4 in.
+
+(8.6 cm)
+a|
+17.6 in.
+
+(44.8 cm)
+a|
+21.1 in.
+
+(53.6 cm)
+a|
+64.92 lb
+
+(29.45 kg)
+a|
+SG5860
+
+(60 drives)
+a|
+7.0 in.
+
+(17.8 cm)
+a|
+17.6 in.
+
+(44.8 cm)
+a|
+37.8 in.
+
+(92.2 cm)
+a|
+253.0 lb.
+
+(114.76 kg)
 
 |===
 --
@@ -203,9 +261,12 @@ a|
 
 .SG6100
 --
-[cols="1a,1a,1a,1a" options="header"]
+[cols="1a,1a,1a,1a,1a" options="header"]
 |===
-| Height| Width| Depth| Maximum weight
+| Appliance model/type of shelf| Height| Width| Depth| Maximum weight
+a|
+SGF6112 appliance
+
 a|
 1.70 in.
 
@@ -223,6 +284,44 @@ a|
 
 (19.88 kg)
 
+a|
+SG6160 appliance
+a|
+6.9 in.
+
+(17.4 cm)
+a|
+17.66 in.
+
+(44.86 cm)
+a|
+37.8 in.
+
+(96.0 cm)
+a|
+259.63 lb.
+
+(117.77 kg)
+a|
+Expansion shelf (SG6160 only) - Optional
+a|
+6.87 in.
+
+(17.46 cm)
+a|
+17.66 in.
+
+(44.86 cm)
+a|
+38.25 in.
+
+(97.16 cm)
+a|
+250 lb.
+
+(113 kg)
+
+
 |===
 --
 ====
@@ -231,6 +330,6 @@ a|
 +
 CAUTION: When installing the E2860 or E4000 controller shelf or optional expansion shelves, install hardware from the bottom to the top of the rack or cabinet to prevent the equipment from tipping over. To ensure that the heaviest equipment is at the bottom of the cabinet or rack, install the SG6000-CN or SG6100-CN controller above the E2860 or E4000 controller shelf and expansion shelves.
 +
-NOTE: Before committing to the installation, verify that the 0.5m optic cables shipped with an SG6000 or SG6100 appliance, or cables that you supply, are long enough for the planned layout.
+NOTE: Before committing to the installation, verify that the cables shipped with an SG6000 or SG6100 appliance, or cables that you supply, are long enough for the planned layout.
 
 . Install any required network switches. See the link:https://imt.netapp.com/matrix/#welcome[NetApp Interoperability Matrix Tool^] for compatibility information.

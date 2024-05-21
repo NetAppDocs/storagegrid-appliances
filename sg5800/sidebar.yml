@@ -46,9 +46,9 @@ entries:
         entries:
           - title: Overview and requirements
             url: "/sg5800/replace-drive-e4000.html"
-          - title: Replace drive (12-drive)
+          - title: SG5812
             url: "/sg5800/replace-drives-12-24.html"
-          - title: Replace drive (60-drive)
+          - title: SG5860
             url: "/sg5800/replace-drives-60.html"
       - title: Replace power supply (SG5812)
         url: "/sg5800/replace-power-supply.html"

@@ -11,6 +11,8 @@ summary: 'You upgrade your drive firmware to make sure you have all the latest f
 [.lead]
 Use the SANtricity System Manager online method to upgrade the firmware on the drives in your appliance to make sure you have all the latest features and bug fixes. 
 
+NOTE: This procedure does *not* apply to the NVMe SSDs in the SG6100-CN, which are updated during StorageGRID software upgrades. Only drives in the E4000 can be updated using this procedure.
+
 .Before you begin
 
 * The storage appliance has an Optimal status.
