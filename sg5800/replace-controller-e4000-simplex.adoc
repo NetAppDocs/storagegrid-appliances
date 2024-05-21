@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: storagegrid, sg5800, storage node, storage appliance, Replacing, replace, e4000, controller, remove, removing, removal, install, installing, installation
 summary: 'You might need to replace the E4000 controller if it is not functioning optimally or if it has failed.'
 ---
-= Replace E4000 series storage controller in the SG5800
+= Replace E4000 controller (SG5800)
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You might need to replace the E4000 series controller if it is not functioning optimally or if it has failed.
+You might need to replace the E4000 controller if it is not functioning optimally or if it has failed.
 
 .Before you begin
 
@@ -29,10 +29,10 @@ NOTE: Don't rely on the E-Series instructions to replace a controller in the Sto
 
 You can determine if you have a failed controller canister in two ways:
 
-* The Recovery Guru in SANtricity System Manager directs you to replace the controller.
+* A Grid Manager alert indicates a storage controller failure, and Grid Manager or the Recovery Guru in SANtricity System Manager directs you to replace the controller.
 * The amber Attention LED on the controller is on, indicating that the controller has a fault.
 
-The appliance Storage Node will not be accessible when you replace the controller. If the E4000 series controller is functioning sufficiently, you can link:../commonhardware/placing-appliance-into-maintenance-mode.html[place the E5800SG controller into maintenance mode].
+The appliance Storage Node will not be accessible when you replace the controller. If the E4000 series controller is functioning sufficiently, you can link:../commonhardware/placing-appliance-into-maintenance-mode.html[place the SG5800 controller into maintenance mode].
 
 
 == Step 1: Prepare to replace controller
@@ -86,7 +86,7 @@ Take the controller offline and confirm that all operations are complete.
 
 .Steps
 
-. If the StorageGRID appliance is running in a StorageGRID system, link:../commonhardware/placing-appliance-into-maintenance-mode.html[place the E5800SG controller into maintenance mode].
+. If the StorageGRID appliance is running in a StorageGRID system, link:../commonhardware/placing-appliance-into-maintenance-mode.html[place the SG5800 controller into maintenance mode].
 . If the E4000 controller is functioning sufficiently to allow for a controlled shutdown, confirm that all operations have completed.
 .. Wait for any data in cache memory to be written to the drives.
 +
@@ -134,7 +134,6 @@ image::../media/legend_icon_02.png[]
 |===
 . Move the battery to the replacement controller canister and install it:
 .. Align the battery with the holding brackets on the sheet metal side wall.
-.. Slide the battery pack down until the battery latch engages and clicks into the opening on the side wall.
 +
 NOTE: Do not plug the battery in yet. You will plug it in once the rest of the components are moved to the replacement controller canister.
 
@@ -219,7 +218,7 @@ NOTE: _Unsecure drives_ are unassigned drives, global hot spare drives, or drive
 For example: `download storageArray NVSRAM file=\"N4000-881834-SG4.dlp\" forceDownload=TRUE;`
 .. Confirm that the controller is *Optimal* after loading simplex NVSRAM.
 .. If using external security key management, https://docs.netapp.com/us-en/e-series/upgrade-controllers/upgrade-unlock-drives-task.html#external-key-management[setup external key management on the controller].
-.. If using internal secuirty key management, enter the following command to import the security key:
+.. If using internal security key management, enter the following command to import the security key:
 +
 ----
 import storageArray securityKey file="C:/file.slk"

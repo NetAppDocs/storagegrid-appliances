@@ -9,8 +9,13 @@ entries:
   - title: Configuration maintenance procedures
     pdf-filename: Configuration maintenance procedures - SG6100
     entries:
-    - title: Upgrade SANtricity (SG6160)
-      url: "/sg6100/upgrading-santricity-os-on-storage-controllers-using-grid-manager-sg6160.html"      
+    - title: Upgrade SANtricity OS on storage controllers (SG6160)
+      url: "/sg6100/upgrading-santricity-os-on-storage-controller.html"
+      entries:
+      - title: Upgrade SANtricity OS on storage controllers using Grid Manager
+        url: "/sg6100/upgrading-santricity-os-on-storage-controllers-using-grid-manager-sg6160.html"
+      - title: Upgrade SANtricity OS on storage controllers using maintenance mode
+        url: "/sg6100/upgrading-santricity-os-on-e4000-controller-using-maintenance-mode.html"    
     - title: Upgrade drive firmware using SANtricity System Manager (SG6160)
       entries:
       - title: Upgrade SG6100 drive firmware using SANtricity System Manager using online method
@@ -63,6 +68,8 @@ entries:
           url: "/sg6100/replace-ocp-nic-in-sg6100-cn.html"
     - title: Replace CMOS battery
       url: "/sg6100/replace-cmos-in-sgf6112.html"  
+    - title: Replace DIMMs
+      url: "/sg6100/replace-dimms-e4000.html"
     - title: Replace cover
       url: "/sg6100/reinstalling-sgf6112-cover.html" 
     - title: Add expansion shelf to deployed SG6160

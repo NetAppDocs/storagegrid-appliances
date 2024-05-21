@@ -9,7 +9,7 @@ summary:
 :imagesdir: ../media/
 
 [.lead]
-You must replace the affected battery in your E4000 appliance if the Recovery Guru in SANtricity System Manager indicates a "Battery Failed" or "Battery Replacement Required" status. To protect your data, the battery must be replaced as soon as possible.
+You must replace the affected battery in your E4000 controller if the Recovery Guru in SANtricity System Manager indicates a "Battery Failed" or "Battery Replacement Required" status. To protect your data, the battery must be replaced as soon as possible.
 
 From SANtricity System Manager, review the details in the Recovery Guru to confirm that there is an issue with a battery and to ensure no other items must be addressed first.
 
@@ -114,7 +114,7 @@ CAUTION: *Possible data loss*--If you continue this procedure while I/O operatio
 
 . Wait for any data in cache memory to be written to the drives.
 +
-The green Cache Active LED on the back of the controller is on when cached data needs to be written to the drives. You must wait for this LED to turn off.
+The green Cache Active LED on the back of the E4000 controller is on when cached data needs to be written to the drives. You must wait for this LED to turn off.
 . From the home page of SANtricity System Manager, select *View Operations in Progress*.
 . Confirm that all operations have completed before continuing with the next step.
 . Turn off both power switches on the controller shelf.
