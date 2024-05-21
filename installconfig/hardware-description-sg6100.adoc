@@ -9,7 +9,7 @@ summary: ' The StorageGRID SG6100 series appliances operate as Storage Nodes in 
 :imagesdir: ../media/
 
 [.lead]
- The StorageGRID SG6100 series appliances operate as Storage Nodes in a StorageGRID system.  Like all StorageGRID appliances, they can be freely intermixed with other appliance models and software-only nodes in a single deployment. The StorageGRID SG6160 appliance includes a compute controller with a pair of NVMe SSDs functioning as a read cache, and a storage controller shelf that contains two storage controllers and 60 NL-SAS hard drives. It can be expanded to up to 180 NL-SAS hard drives through the addition of up to two optional expansion shelves. The StorageGRID SGF6112 appliance is an all-flash appliance with a compact, 1U form factor populated with 12 NVMe SSDs.
+The StorageGRID SG6100 series appliances operate as Storage Nodes in a StorageGRID system.  Like all StorageGRID appliances, they can be freely intermixed with other appliance models and software-only nodes in a single deployment. The StorageGRID SG6160 appliance includes a compute controller with a pair of NVMe SSDs functioning as a read cache, and a storage controller shelf that contains two storage controllers and 60 NL-SAS hard drives. It can be expanded to up to 180 NL-SAS hard drives through the addition of up to two optional expansion shelves. The StorageGRID SGF6112 appliance is an all-flash appliance with a compact, 1U form factor populated with 12 NVMe SSDs.
 
 The SGF6112 and SG6160 appliances provide the following features:
 
