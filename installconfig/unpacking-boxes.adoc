@@ -102,6 +102,8 @@ image::../media/de460c_table_size.gif[SG5860 4U appliance]
 Front bezel for the appliance::
 +
 image::../media/sg5700_front_bezels.gif[Bezels of SG5812 and SG5860]
++
+NOTE: Your bezels might look different.
 
 Rail kit with instructions::
 +
@@ -251,6 +253,9 @@ image::../media/de460c_table_size.gif[SG5860 4U appliance]
 Two front bezels::
 +
 image::../media/sg6000_front_bezels_for_table.gif[Front Bezels]
++
++
+NOTE: Your bezels might look different.
 
 Two rail kits with instructions::
 +
