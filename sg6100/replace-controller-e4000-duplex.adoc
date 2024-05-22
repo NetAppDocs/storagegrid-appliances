@@ -25,7 +25,7 @@ NOTE: Don't rely on the E-Series instructions to replace a controller in the Sto
 
 You can determine if you have a failed controller in two ways:
 
-* The Recovery Guru in SANtricity System Manager directs you to replace the controller.
+* A Grid Manager alert indicates a storage controller failure condition, and Grid Manager or the Recovery Guru in SANtricity System Manager direct you to replace the controller.
 * The amber Attention LED on the controller is on, indicating that the controller has a fault.
 +
 NOTE: If both controllers in the shelf have their Attention LEDs on, contact technical support for assistance.
@@ -51,37 +51,35 @@ Save the packing materials to use when shipping the failed controller.
 . Locate the MAC address and FRU part number labels on the back of the replacement controller. 
 
 == Step 2: Take the controller offline
-Prepare to remove the failed controller and and take it offline.
+Prepare to remove the failed controller and and take it offline. You can use SANtricity System Manager to perform these steps.
 
 .Steps
 
-. Prepare to remove the controller. You use SANtricity System Manager to perform these steps.
-+
-.. Confirm that the replacement part number for the failed controller is the same as the FRU part number for the replacement controller.
+. Confirm that the replacement part number for the failed controller is the same as the FRU part number for the replacement controller.
 +
 When a controller has a fault and needs to be replaced, the replacement part number is displayed in the Details area of the Recovery Guru. If you need to find this number manually, you can look on the *Base* tab for the controller.
 +
 CAUTION: *Possible loss of data access &#8212;* If the two part numbers aren't the same, don't attempt this procedure.
 
-.. Back up the configuration database.
+. Back up the configuration database.
 +
 If a problem occurs when you remove a controller, you can use the saved file to restore your configuration. The system will save the current state of the RAID configuration database, which includes all data for volume groups and disk pools on the controller.
 
-... Select *Support › Support Center › Diagnostics*.
-... Select *Collect Configuration Data*.
-... Click *Collect*.
+.. Select *Support › Support Center › Diagnostics*.
+.. Select *Collect Configuration Data*.
+.. Click *Collect*.
 +
 The file is saved in the Downloads folder for your browser with the name, *configurationData-<arrayName>-<dateTime>.7z*.
 
-.. Collect support data for the appliance.
+. Collect support data for the appliance.
 +
 NOTE: Collecting support data before and after replacing a component ensures you can send a full set of logs to technical support if the replacement does not resolve the problem.
 +
 If a problem occurs when you remove a controller, you can use the saved file to troubleshoot the issue. The system will save inventory, status, and performance data about your storage array in a single file.
 
-... *Select Support › Support Center › Diagnostics*.
-... Select *Collect Support Data*.
-... Click *Collect*.
+.. *Select Support › Support Center › Diagnostics*.
+.. Select *Collect Support Data*.
+.. Click *Collect*.
 
 
 == Step 3: Remove controller canister
