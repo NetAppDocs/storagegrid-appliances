@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: E4000 replace drive, replacing E4000 drive, E4000 replace drive, replacing E4000 drive, E4000, sg6160, sg6100cn
 summary: Replace a drive in an E4000 with a 60-drive shelf.
 ---
-= Replace drive in storage controller shelf or expansion shelf (SG6160)”
+= Replace drive in storage controller shelf or expansion shelf (SG6160)
 :icons: font
 :imagesdir: ../media/
 
