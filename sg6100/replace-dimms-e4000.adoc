@@ -1,15 +1,15 @@
 ---
-permalink: sg5800/replace-dimms-e4000.html
+permalink: sg6100/replace-dimms-e4000.html
 sidebar: sidebar
 keywords: 
 summary: 
 ---
-= Replace DIMMs in E4000
+= Replace DIMMs in E4000 (SG6160)
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can replace a DIMM in the E4000 if it has failed.
+You can replace a DIMM in the E4000 if a memory mismatch is present, or if you have a failed DIMM.
 
 .About this task
 
@@ -25,10 +25,6 @@ To replace a DIMM, you must verify the cache size of your controller, place the 
 ** Labels to identify each cable that is connected to the controller canister.
 ** A management station with a browser that  can access SANtricity System Manager for the controller. (To open the System Manager interface, point the browser to the controller’s domain name or IP address.)
 
-.About this task
-
-The appliance Storage Node may not be accessible when you replace the controller. If the E4000 series controller is functioning sufficiently, you can https://review.docs.netapp.com/us-en/storagegrid-appliances_quartet-idevine-20231016/commonhardware/placing-appliance-into-maintenance-mode.html[place the SG5800 controller into maintenance mode].
-
 == Step 1: Determine if you need to replace a DIMM
 
 Verify the cache size of your controller before replacing the DIMMS.
@@ -37,12 +33,13 @@ Verify the cache size of your controller before replacing the DIMMS.
 
 . Access the Storage Array profile for the controller. From SANtricity System Manager, go to *Support* › *Support Center*. From the Support Resources page, select *Storage Array Profile*.
 . Scroll down or use the Search field to locate the *Data Cache Module* information.
-. If a failed DIMM or a DIMM reporting *Data Cache Module* as not optimal is present, note the DIMM’s location and continue to replace the DIMMs on your controller.
+. If one of the following is present, note the DIMM’s location and continue with remaining procedures in this section to replace the DIMMs on your controller:
+.. A failed DIMM, or a DIMM reporting *Data Cache Module* as not optimal.
+.. A DIMM with a mismatched *Data Cache Module* capacity.
 
+== Step 2: Place controller offline
 
-== Step 2: Power down the controller shelf
-
-Power down the controller so you can safely remove and replace the DIMMs.
+Place the controller offline so you can safely remove and replace the DIMMs.
 
 .Steps
 
@@ -60,25 +57,18 @@ If a problem occurs when you remove a controller, you can use the saved file to 
 +
 The file is saved in the Downloads folder for your browser with the name, *configurationData-
 <arrayName>-<dateTime>.7z*.
-. Shut down the SG5800 controller.
-.. Log in to the grid node:
-... Enter the following command: `ssh admin@grid_node_IP`
-... Enter the password listed in the `Passwords.txt` file.
-... Enter the following command to switch to root: `su -`
-... Enter the password listed in the `Passwords.txt` file.
+. If the controller is not already offline, take it offline now using SANtricity System Manager.
+.. Select *Hardware*.
+.. If the graphic shows the drives, select *Show back of shelf* to show the controllers.
+.. Select the controller that you want to place offline.
+.. From the context menu, select *Place offline*, and confirm that you want to perform the operation.
 +
-When you are logged in as root, the prompt changes from `$` to `#`.
-.. Shut down the SG5800 controller:
+NOTE: If you are accessing SANtricity System Manager using the controller you are attempting to take offline, a SANtricity System Manager Unavailable message is displayed. Select *Connect to an alternate network connection* to automatically access SANtricity System Manager using the other controller.
+. Wait for SANtricity System Manager to update the controller’s status to offline.
 +
-*`shutdown -h now`*
-.. Wait for any data in cache memory to be written to the drives.
-+
-The green Cache Active LED on the back of the E4000 controller is on when cached data needs to be written to the drives. You must wait for this LED to turn off.
-. From the home page of SANtricity System Manager, select *View Operations in Progress*.
-. Confirm that all operations have completed before continuing with the next step.
-. Turn off both power switches on the controller shelf.
-. Wait for all LEDs on the controller shelf to turn off.
-
+NOTE: Do not begin any other operations until after the status has been updated.
+. Select *Recheck* from the Recovery Guru, and confirm that the OK to remove field in the Details area
+displays Yes, indicating that it is safe to remove this component.
 
 == Step 3: Remove controller canister
 

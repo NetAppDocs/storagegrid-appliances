@@ -1,15 +1,15 @@
 ---
-permalink: sg5800/replacing-e4000-controller-simplex.html
+permalink: sg5800/replace-controller-e4000-simplex.html
 sidebar: sidebar
 keywords: storagegrid, sg5800, storage node, storage appliance, Replacing, replace, e4000, controller, remove, removing, removal, install, installing, installation
 summary: 'You might need to replace the E4000 controller if it is not functioning optimally or if it has failed.'
 ---
-= Replace E4000 series storage controller in the SG5800
+= Replace E4000 controller (SG5800)
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You might need to replace the E4000 series controller if it is not functioning optimally or if it has failed.
+You might need to replace the E4000 controller if it is not functioning optimally or if it has failed.
 
 .Before you begin
 
@@ -29,10 +29,10 @@ NOTE: Don't rely on the E-Series instructions to replace a controller in the Sto
 
 You can determine if you have a failed controller canister in two ways:
 
-* The Recovery Guru in SANtricity System Manager directs you to replace the controller.
+* A Grid Manager alert indicates a storage controller failure, and Grid Manager or the Recovery Guru in SANtricity System Manager directs you to replace the controller.
 * The amber Attention LED on the controller is on, indicating that the controller has a fault.
 
-The appliance Storage Node will not be accessible when you replace the controller. If the E4000 series controller is functioning sufficiently, you can link:../commonhardware/placing-appliance-into-maintenance-mode.html[place the E5800SG controller into maintenance mode].
+The appliance Storage Node will not be accessible when you replace the controller. If the E4000 series controller is functioning sufficiently, you can link:../commonhardware/placing-appliance-into-maintenance-mode.html[place the SG5800 controller into maintenance mode].
 
 
 == Step 1: Prepare to replace controller
@@ -86,7 +86,7 @@ Take the controller offline and confirm that all operations are complete.
 
 .Steps
 
-. If the StorageGRID appliance is running in a StorageGRID system, link:../commonhardware/placing-appliance-into-maintenance-mode.html[place the E5800SG controller into maintenance mode].
+. If the StorageGRID appliance is running in a StorageGRID system, link:../commonhardware/placing-appliance-into-maintenance-mode.html[place the SG5800 controller into maintenance mode].
 . If the E4000 controller is functioning sufficiently to allow for a controlled shutdown, confirm that all operations have completed.
 .. Wait for any data in cache memory to be written to the drives.
 +
@@ -110,88 +110,11 @@ Remove a controller canister.
 CAUTION: To prevent degraded performance, do not twist, fold, pinch, or step on the cables.
 
 . Squeeze the latch on the cam handle until it releases, open the cam handle fully to release the controller canister from the midplane, and then, using two hands, pull the controller canister out of the chassis.
-. Place the controller on a flat, static-free surface with the removable cover facing up.
-. Open the cover by pressing the blue buttons on the sides of the controller canister to release the cover, and then rotate the cover up and off of the controller canister.
-
-== Step 4: Remove the battery
-
-Removed the battery from the impaired controller and install it in the replacement controller.
-
-.Steps
-
-. Remove the battery from the controller canister:
-.. Press the blue button on the side of the controller canister.
-.. Slide the battery up until it clears the holding brackets, and then lift the battery out of the controller canister.
-.. Unplug the battery plug by squeezing the clip on the face of the battery plug to release the plug from the socket, and then unplug the battery cable from the socket.
-+
-image::../media/drw_E4000_replace_nvbattery_IEOPS-862.png[Remove NVMEM battery.]
-+
-|===
-a|image::../media/legend_icon_01.png[] |Battery release tab
-a|
-image::../media/legend_icon_02.png[]
-|Battery power connector
-|===
-. Move the battery to the replacement controller canister and install it:
-.. Align the battery with the holding brackets on the sheet metal side wall.
-.. Slide the battery pack down until the battery latch engages and clicks into the opening on the side wall.
-+
-NOTE: Do not plug the battery in yet. You will plug it in once the rest of the components are moved to the replacement controller canister.
+. Place the controller on a flat, static-free surface.
 
 
-== Step 5: Move the DIMMs
-
-Remove the DIMMs from the impaired controller canister and install them into the replacement controller canister.
-
-.Steps
-
-. Locate the DIMMs on your controller canister.
-+
-NOTE: Note the location of the DIMM in the sockets so that you can insert the DIMM in the same location in the replacement controller canister and in the proper orientation.
-Remove the DIMMs from the impaired controller canister:
-
-.. Eject the DIMM from its slot by slowly pushing apart the two DIMM ejector tabs on either side of the DIMM.
-+
-The DIMM will rotate up a little.
-
-.. Rotate the DIMM as far as it will go, and then slide the DIMM out of the socket.
-+
-NOTE: Carefully hold the DIMM by the edges to avoid pressure on the components on the DIMM circuit board.
-+
-image::../media/drw_E4000_replace_dimms_IEOPS-865.png[Remove DIMMS.]
-+
-|===
-a|image::../media/legend_icon_01.png[] |DIMM ejector tabs
-a|
-image::../media/legend_icon_02.png[]
-|DIMMS
-|===
-. Verify that the battery is not plugged into the replacement controller canister.
-. Install the DIMMs in the replacement controller in the same place they were in the impaired controller:
-.. Push carefully, but firmly, on the top edge of the DIMM until the ejector tabs snap into place over the notches at the ends of the DIMM.
-+
-The DIMM fits tightly in the slot, but should go in easily. If not, realign the DIMM with the slot and reinsert it.
-+
-NOTE: Visually inspect the DIMM to verify that it is evenly aligned and fully inserted into the slot.
-. Repeat these steps for the other DIMM.
-
-== Step 6: Install the battery
-
-Install the battery into the replacement controller canister.
-
-.Steps
-
-. Plug the battery plug back into the socket on the controller canister.
-+
-Make sure that the plug locks down into the battery socket on the motherboard.
-. Aligning the battery with the holding brackets on the sheet metal side wall.
-. Slide the battery pack down until the battery latch engages and clicks into the opening on the side wall.
-. Reinstall the controller canister cover and lock it into place.
-
-
-
-[[step7_replace_controller]]
-== Step 7: Replace controller
+[[step4_replace_controller]]
+== Step 4: Replace controller
 Install the replacement controller and verify that it has rejoined the grid. 
 
 .Steps
@@ -219,7 +142,7 @@ NOTE: _Unsecure drives_ are unassigned drives, global hot spare drives, or drive
 For example: `download storageArray NVSRAM file=\"N4000-881834-SG4.dlp\" forceDownload=TRUE;`
 .. Confirm that the controller is *Optimal* after loading simplex NVSRAM.
 .. If using external security key management, https://docs.netapp.com/us-en/e-series/upgrade-controllers/upgrade-unlock-drives-task.html#external-key-management[setup external key management on the controller].
-.. If using internal secuirty key management, enter the following command to import the security key:
+.. If using internal security key management, enter the following command to import the security key:
 +
 ----
 import storageArray securityKey file="C:/file.slk"

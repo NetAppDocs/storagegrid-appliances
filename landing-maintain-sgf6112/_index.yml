@@ -40,12 +40,19 @@ indexpage:
           url: "../sg6100/replace-e4000-fan-canister.html"
         - title: Replace drive in SGF6112
           url: "../sg6100/replacing-drive-in-sgf6112.html"
-        - title: Replace drive in SG6100-CN
+        - title: Replace drive in SG6100-CN 
           url: "../sg6100/replace-drive-sg6100-cn.html"
         - title: Replace drive in E4000 (SG6160)
           url: "../sg6100/replace-6160-drives-60.html"
-        - title: Replace NIC
-          url: "../sg6100/replace-nic-in-sgf6112.html"
+        - title: Replace internal NIC (SGF6112 and SG6160)
+          url: "/sg6100/replace-nic-in-sgf6112.html"
+        - title: Replace external NIC (SG6160)
+          url: "/sg6100/replace-ocp-nic-in-sg6100-cn.html"
+        - title: Replace DIMMs
+          url: "/sg6100/replace-dimms-e4000.html"
+        - title: Replace batteries
+          url: "/sg6100/replace-battery-e4000.html"
+        - title: Replace cover
         - title: Replace CMOS battery
           url: "../sg6100/replace-cmos-in-sgf6112.html"
         - title: Add expansion shelf to deployed SG6160
