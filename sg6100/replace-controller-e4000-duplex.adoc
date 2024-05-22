@@ -184,7 +184,6 @@ Install the replacement controller and verify that it has rejoined the grid.
  .. With the cam handle in the open position, slide the controller all the way into the appliance.
  .. Move the cam handle to the left to lock the controller in place.
  .. Replace the cables.
- .. Power on the controller shelf.
  .. If the original controller used DHCP for the IP address, locate the MAC address on the label on the back of the replacement controller. Ask your network administrator to associate the DNS/network and IP address for the controller you removed with the MAC address for the replacement controller.
 +
 NOTE: If the original controller did not use DHCP for the IP address, the new controller will adopt the IP address of the controller you removed.
