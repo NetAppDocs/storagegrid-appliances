@@ -127,7 +127,7 @@ Two power cords for your country::
 +
 image::../media/power_cords.gif[Power cords]
 
-Optical cables and SFP transceivers::
+Interconnect cables::
 +
 image::../media/fc_cable_and_sfp.gif[Optical cables and SFPs]
 +
