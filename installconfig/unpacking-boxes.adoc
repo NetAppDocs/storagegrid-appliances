@@ -127,11 +127,9 @@ Two power cords for your country::
 +
 image::../media/power_cords.gif[Power cords]
 
-Interconnect cables::
+Two 25GbE SFP28 cables for controller interconnect (iSCSI)::
 +
-image::../media/fc_cable_and_sfp.gif[Optical cables and SFPs]
-+
-** Two 25GbE SFP28 cables for controller interconnect (iSCSI)
+image::../media/sg5800_25gbe_sfp28_cable.png[25GbE SFP28 cables]
 
 --
 
@@ -270,7 +268,7 @@ image::../media/back_brackets_table_size.gif[Back brackets and cage nuts for SG5
 
 One 100 GbE to 4x25GbE breakout interconnect cable::
 +
-image::../media/fc_cable_and_sfp.gif[Optical cables and SFPs]
+image::../media/sg6100_4x25gbe_spf28_cable.png[100 GbE to 4x25GbE breakout cable]
 
 Four power cords for your country::
 +
