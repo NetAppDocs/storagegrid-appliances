@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storagegrid, sg5800, troubleshoot, storage node, storage appliance, upgrade, upgrading, firmware, drive, disk, SANtricity System Manager, SANtricity
 summary: 'Troubleshoot errors that can occur when using SANtricity System Manager to upgrade the firmware on the drives in your appliance.'
 ---
-= Troubleshoot drive firmware upgrade errors
+= Troubleshoot SG5800 drive firmware upgrade errors
 :icons: font
 :imagesdir: ../media/
 
