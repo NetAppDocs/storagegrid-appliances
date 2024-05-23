@@ -327,7 +327,7 @@ The StorageGRID Appliance Installer might not be available if hardware faults or
 
 .Steps
 
-. Review the LEDs on the appliance and/or the boot-up and error codes displayed in the BMC.
+. Review the LEDs on the appliance and/or the boot-up and error codes displayed in the BMC (if equipped).
 . If you need help resolving an issue, contact technical support.
 
 == Connection issues
