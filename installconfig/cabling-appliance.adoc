@@ -551,7 +551,7 @@ You connect the management port on the appliance to the service laptop and conne
 
 .Before you begin
 
-* You have the 100GbE to 4x25GbE breakout cable provided with the appliance for connecting the two storage controllers to the SG6100-CN controller.
+* SG6160 only: You have the 100GbE to 4x25GbE breakout cable provided with the appliance for connecting the two storage controllers to the SG6100-CN controller.
 * You have an RJ-45 Ethernet cable for connecting the management port.
 * You have one of the following options for the network ports. These items aren't provided with the appliance.
  ** One to four TwinAx cables for connecting the four network ports.
@@ -642,9 +642,7 @@ Although this connection is optional, it is recommended to facilitate support.
 
 |===
 
-* On models that support Autonegotiate as a port speed option, if Fixed port bonding mode is selected you can run the ports dedicated to the StorageGRID Grid network at a different speed than the ports dedicated to the Client network.
-
-* On models that do not support Autonegotiate as a port speed option, all four network ports must use the same link speed. 
+* Grid and Client network ports can be run at different speeds only if Autonegotiate is selected as the link speed, and Fixed is selected as the port bond mode. Otherwise, all four ports will run at the same speed.
 
 * If you plan to use Fixed port bond mode (default), connect the ports to the StorageGRID Grid and Client Networks, as shown in the table.
 +

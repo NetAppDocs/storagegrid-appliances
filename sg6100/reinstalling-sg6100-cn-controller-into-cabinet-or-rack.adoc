@@ -4,7 +4,6 @@ sidebar: sidebar
 keywords: storagegrid, sg6100, storage node, storage appliance, install, installing, installation, cabinet, rack, controller, sg6000-cn, remove, removing, removal
 summary: 'Remove the SG6100-CN controller from a cabinet or rack to access the top cover or to move the appliance to a different location, then reinstall the controller into a cabinet or rack when hardware maintenance is complete.'
 ---
-
 = Relocate SG6100-CN controller in cabinet or rack
 :icons: font
 :imagesdir: ../media/

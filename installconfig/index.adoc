@@ -60,7 +60,7 @@ If you are configuring and deploying more than one appliance, use the NetApp Con
 ** link:verifying-network-connections.html[Verify network connections]
 ** link:verifying-port-level-network-connections.html[Verify port-level network connections]
 
-. link:accessing-and-configuring-santricity-system-manager.html[Access and configure SANtricity System Manager] (SG6000, SG5800, and SG5700)
+. link:accessing-and-configuring-santricity-system-manager.html[Access and configure SANtricity System Manager] (SG6160, SG6000, SG5800, and SG5700)
 
 . link:configuring-bmc-interface.html[Configure the BMC interface] (SG100, SG1000, SG6000, and SG6100)
 
