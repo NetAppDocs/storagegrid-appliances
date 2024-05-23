@@ -22,7 +22,7 @@ indexpage:
           url: "../sg6100/replacing-sgf6112-appliance.html"
         - title: Replace SG6100-CN controller (SG6160)
           url: "../sg6100/replacing-sg6100-cn-controller.html"
-        - title: Replace E4000 controller (SG6160)
+        - title: Replace storage controller controller (SG6160)
           url: "../sg6100/replace-controller-e4000-duplex.html"
         - title: Relocate SGF6112 in a rack
           url: "../sg6100/reinstalling-sgf6112-into-cabinet-or-rack.html"
@@ -34,23 +34,25 @@ indexpage:
           url: "../sg6100/reinstalling-sgf6112-cover.html"
         - title: Replace power supply
           url: "../sg6100/replacing-one-or-more-power-supplies-in-sgf6112-appliance.html"
+        - title: Replace power supply in storage controller shelf or expansion shelf (SG6160)
+          url: "/sg6100/replace-6100-cn-power-canister.html"
         - title: Replace fan in SGF6112 or SG6100-CN (SG6160)
           url: "../sg6100/replacing-fan-in-sgf6112.html"
-        - title: Replace fan in E4000 (SG6160)
+        - title: Replace fan in in storage controller shelf or expansion shelf (SG6160)
           url: "../sg6100/replace-e4000-fan-canister.html"
         - title: Replace drive in SGF6112
           url: "../sg6100/replacing-drive-in-sgf6112.html"
         - title: Replace drive in SG6100-CN 
           url: "../sg6100/replace-drive-sg6100-cn.html"
-        - title: Replace drive in E4000 (SG6160)
+        - title: Replace drive in storage controller shelf or expansion shelf (SG6160)
           url: "../sg6100/replace-6160-drives-60.html"
         - title: Replace internal NIC (SGF6112 and SG6160)
           url: "/sg6100/replace-nic-in-sgf6112.html"
         - title: Replace external NIC (SG6160)
           url: "/sg6100/replace-ocp-nic-in-sg6100-cn.html"
-        - title: Replace DIMMs
+        - title: Replace DIMMs (SG6160)
           url: "/sg6100/replace-dimms-e4000.html"
-        - title: Replace batteries
+        - title: Replace batteries (SG6160)
           url: "/sg6100/replace-battery-e4000.html"
         - title: Replace cover
         - title: Replace CMOS battery

@@ -30,6 +30,24 @@ Don't press the power button again during the power-on process.
 
 --
 
+.SG110 and SG1100
+--
+
+.Steps
+
+. Connect a power cord to each of the two power supply units in the appliance.
+. Connect these two power cords to two different power distribution units (PDUs) in the cabinet or rack.
+. If the power button on the front of the appliance is not currently illuminated blue, press the button to turn on power to the appliance.
++
+Don't press the power button again during the power-on process.
++
+The LED on the power supply should be illuminated green without blinking. 
+
+. If errors occur, correct any issues.
+. Attach the front bezel to the appliance if removed.
+
+--
+
 .SG5700
 --
 
@@ -108,6 +126,21 @@ Don't press the power button again during the power-on process.
 .SG6100
 --
 
+*SGF6112*
+
+.Steps
+
+. Connect a power cord to each of the two power supply units in the appliance.
+. Connect these two power cords to two different power distribution units (PDUs) in the cabinet or rack.
+. If the power button on the front of the appliance is not currently illuminated blue, press the button to turn on power to the appliance.
+. Don't press the power button again during the power-on process.
+. The LED on the power supply should be illuminated green without blinking.
+. If errors occur, correct any issues.
+. Attach the front bezel to the appliance if removed.
+
+
+*SG6160*:
+
 .Steps
 
 . Confirm that both controllers in the storage controller shelf are off.
@@ -130,7 +163,6 @@ The LED on the power supply should be illuminated green without blinking.
 
 ** Don't turn off the power switches during the power-on process.
 ** The fans in the storage controller shelf and optional expansion shelves might be very loud when they first start up. The loud noise during start-up is normal.
-. If errors occur, correct any issues.
 . Attach the front bezel to the appliance if removed.
 
 --

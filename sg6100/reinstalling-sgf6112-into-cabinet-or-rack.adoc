@@ -4,7 +4,6 @@ sidebar: sidebar
 keywords: storagegrid, sgf6112, storage node, storage appliance, install, installing, installation, cabinet, rack
 summary: 'Remove the SGF6112 from a cabinet or rack to access the top cover or to move the appliance to a different location, then reinstall the appliance into a cabinet or rack when hardware maintenance is complete.'
 ---
-
 = Relocate SGF6112 or SG6100-CN in cabinet or rack
 :icons: font
 :imagesdir: ../media/
@@ -76,4 +75,4 @@ NOTE: To prevent degraded performance, don't twist, fold, pinch, or step on the 
 
 .After you finish
 
-link:powering-on-sgf6112-and-verifying-operation.html[Restart the appliance].
+link:power-sgf6112-off-on.html#power-on-sgf6112-and-verify-operation[Restart the appliance].

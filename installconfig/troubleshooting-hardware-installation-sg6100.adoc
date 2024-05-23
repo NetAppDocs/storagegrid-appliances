@@ -332,7 +332,7 @@ The StorageGRID Appliance Installer might not be available if hardware faults or
 
 == Connection issues
 
-=== Expansion shelves don't appear in Appliance Installer (SGF6112 and SG6160)
+=== Expansion shelves don't appear in Appliance Installer (SG6160)
 
 If you have installed expansion shelves and they don't appear in the StorageGRID Appliance Installer, you should verify that the shelves have been completely installed and powered on.
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: 
 summary: 
 ---
-= Replace DIMMs in E4000 (SG6160)
+= Replace DIMMs in storage controller shelf (SG6160)
 :icons: font
 :imagesdir: ../media/
 

@@ -20,6 +20,8 @@ entries:
         url: "/installconfig/reviewing-appliance-network-connections.html"
       - title: SG100 and SG1000
         url: "/installconfig/gathering-installation-information-sg100-and-sg1000.html"
+      - title: SG110 and SG1100
+        url: "/installconfig/gathering-installation-information-sg110-and-sg1100.html"
       - title: SG5700
         url: "/installconfig/gathering-installation-information-sg5700.html"
       - title: SG5800
@@ -43,6 +45,8 @@ entries:
       entries:
       - title: SG100 and SG1000
         url: "/installconfig/installing-appliance-in-cabinet-or-rack-sg100-and-sg1000.html"
+      - title: SG110 and SG1100
+        url: "/installconfig/installing-appliance-in-cabinet-or-rack-sg110-and-sg1100.html"
       - title: SG5700
         url: "/installconfig/installing-appliance-in-cabinet-or-rack-sg5700.html"
       - title: SG5800
@@ -94,7 +98,7 @@ entries:
         url: "/installconfig/verifying-port-level-network-connections.html"
     - title: 'Set up SANtricity System Manager (SG5700, SG5800, SG6000, and SG6100)'
       url: "/installconfig/accessing-and-configuring-santricity-system-manager.html"
-    - title: 'Configure BMC interface (SG100, SG1000, SG6000, and SG6100)'
+    - title: 'Configure BMC interface (SG100, SG110, SG1000, SG1100, SG6000, and SG6100)'
       entries:
       - title: Overview
         url: "/installconfig/configuring-bmc-interface.html"
@@ -127,6 +131,8 @@ entries:
       url: "/installconfig/rebooting-appliance-while-sg-appliance-installer-is-running.html"
     - title: 'Troubleshoot installation (SG100 and SG1000)'
       url: "/installconfig/troubleshooting-hardware-installation-sg100-and-sg1000.html"
+    - title: 'Troubleshoot installation (SG110 and SG1100)'
+      url: "/installconfig/troubleshooting-hardware-installation-sg110-and-sg1100.html"
     - title: 'Troubleshoot installation (SG5700 or SG6000)'
       url: "/installconfig/troubleshooting-hardware-installation.html"
     - title: 'Troubleshoot installation (SG5800 or SG6100)'      
