@@ -35,9 +35,19 @@ To initially access the StorageGRID Appliance Installer, you can use the DHCP-as
 image::../media/sg100_admin_network_port.png[Admin Network port on the SG100]
 --
 
+.SG110
+--
+image::../media/sg6100_admin_network_port.png[Admin Network port on the SG110]
+--
+
 .SG1000
 --
 image::../media/sg1000_admin_network_port.png[Admin Network port on the SG1000]
+--
+
+.SG1100
+--
+image::../media/sg1100_admin_network_port.png[Admin Network port on the SG1100]
 --
 
 .E5700SG
@@ -105,11 +115,25 @@ Connect a service laptop directly to the rightmost RJ-45 port on the services ap
 image::../media/sg100_link_local_port.png[SG100 Link-Local Connection]
 --
 
+.SG110
+--
+Connect a service laptop directly to the rightmost RJ-45 port on the appliance, using an Ethernet cable.
+
+image::../media/sg6100_link_local_port.png[SG110 Link-Local Connection]
+--
+
 .SG1000
 --
 Connect a service laptop directly to the rightmost RJ-45 port on the services appliance, using an Ethernet cable.
 
 image::../media/sg1000_link_local_port.png[SG1000 Link-Local Connection]
+--
+
+.SG1100
+--
+Connect a service laptop directly to the rightmost RJ-45 port on the appliance, using an Ethernet cable.
+
+image::../media/sg1100_link_local_port.png[SG1100 Link-Local Connection]
 --
 
 .E5700SG
@@ -168,3 +192,4 @@ link:verifying-and-upgrading-storagegrid-appliance-installer-version.html[Verify
 * Review any messages displayed on the StorageGRID Appliance Installer Home page and configure the link configuration and the IP configuration, as required.
 +
 image::../media/appliance_installer_home_services_appliance.png[Appliance Installer Home]
+

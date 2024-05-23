@@ -75,4 +75,4 @@ NOTE: To prevent degraded performance, don't twist, fold, pinch, or step on the 
 
 .After you finish
 
-link:powering-on-sgf6112-and-verifying-operation.html[Restart the appliance].
+link:power-sgf6112-off-on.html#power-on-sgf6112-and-verify-operation[Restart the appliance].

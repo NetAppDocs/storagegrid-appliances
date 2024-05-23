@@ -14,6 +14,8 @@ indexpage:
           url: "../installconfig/reviewing-appliance-network-connections.html"
         - title: SG100 and SG1000 network information
           url: "../installconfig/gathering-installation-information-sg100-and-sg1000.html"
+        - title: SG110 and SG1100 network information
+          url: "../installconfig/gathering-installation-information-sg110-and-sg1100.html"
         - title: SG5700 network information
           url: "../installconfig/gathering-installation-information-sg5700.html"
         - title: SG5800 network information

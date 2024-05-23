@@ -1,0 +1,38 @@
+---
+permalink: sg110-1100/replacing-fan-in-sg110-and-sg1100.html
+sidebar: sidebar
+keywords: storagegrid, sg110, sg1100, admin appliance, replacing, replace, fan, remove, removing, removal, install, installing
+summary: 'The SG110 or SG1100 appliances have eight cooling fans. If one of the fans fails, you must replace it as soon as possible to ensure that the appliance has proper cooling.'
+---
+= Replace fan in an SG110 or SG1100
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The SG110 or SG1100 appliances have eight cooling fans. If one of the fans fails, you must replace it as soon as possible to ensure that the appliance has proper cooling.
+
+.Before you begin
+
+* You have the correct replacement fan.
+* You have link:verify-component-to-replace.html[determined the location of the fan to replace].
+
+* You have link:locating-sg110-and-sg1100-in-data-center.html[physically located the SG110 or SG1100 appliance] where you are replacing the fan in the data center.
++
+NOTE: A link:power-sg110-and-sg1100-off-on.html#shut-down-the-sg110-or-sg1100-appliance[controlled shutdown of the appliance] is required before removing the appliance from the rack.
+
+* You have disconnected all cables and link:reinstalling-sg110-and-sg1100-cover.html[removed the appliance cover].
+
+* You have confirmed that the other fans are installed and running.
+
+include::../_include/2023-replace-fan.adoc[]
+
+.After you finish
+
+. link:reinstalling-sg110-and-sg1100-cover.html[Put the top cover back on the appliance], and press the latch down to secure the cover in place.
+. link:power-sg110-and-sg1100-off-on.html[Power on the appliance] and monitor the appliance LEDs and boot-up codes.
++
+Use the BMC interface to monitor boot-up status.
+
+. Confirm that the appliance node appears in the Grid Manager and that no alerts appear.
+
+include::../_include/fru-statement.adoc[] 

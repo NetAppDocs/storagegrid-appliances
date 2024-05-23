@@ -28,6 +28,9 @@ Before installing the appliance, you must make sure that the site and the cabine
 | SG5712
 | 120 to 240 volts AC
 
+| SG110 and SG1100
+| 100 to 240 volts AC
+
 | SG5760
 | 240-volt AC
 
@@ -77,6 +80,31 @@ a|
 39 lb.
 
 (17.7 kg)
+
+|===
+--
+
+.SG110 and SG1100
+--
+[cols="1a,1a,1a,1a" options="header"]
+|===
+| Height| Width| Depth| Maximum weight
+a|
+1.70 in.
+
+(4.31 cm)
+a|
+18.98 in.
+
+(48.2 cm)
+a|
+33.11 in.
+
+(84.1 cm)
+a|
+43.83 lb.
+
+(19.88 kg)
 
 |===
 --

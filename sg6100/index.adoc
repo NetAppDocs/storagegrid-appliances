@@ -13,7 +13,7 @@ You might need to perform maintenance procedures on your appliance. Procedures s
 
 The procedures in this section assume that the appliance has already been deployed as a Storage Node in a StorageGRID system.
 
-*Configuration maintenance procedures* are performed using the Appliance Installer, Grid Manager, or BMC interface. These procedures include:
+*Maintenance configuration procedures* are performed using the Appliance Installer, Grid Manager, or BMC interface. These procedures include:
 
 * link:turning-sgf6112-identify-led-on-and-off.html[Turn appliance identify LED on and off]
 * link:locating-sgf6112-in-data-center.html[Locate appliance in data center]

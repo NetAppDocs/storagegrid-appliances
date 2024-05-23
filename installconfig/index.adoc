@@ -33,6 +33,7 @@ This step is optional. However, streamlining and automating configuration steps 
 
 . Install into cabinet or rack
 ** link:installing-appliance-in-cabinet-or-rack-sg100-and-sg1000.html[SG100 and SG1000]
+** link:installing-appliance-in-cabinet-or-rack-sg110-and-sg1100.html[SG110 and SG1100]
 ** link:installing-appliance-in-cabinet-or-rack-sg5700.html[SG5700]
 ** link:installing-appliance-in-cabinet-or-rack-sg5800.html[SG5800]
 ** link:installing-hardware-sg6000.html[SG6000]
@@ -60,9 +61,9 @@ If you are configuring and deploying more than one appliance, use the NetApp Con
 ** link:verifying-network-connections.html[Verify network connections]
 ** link:verifying-port-level-network-connections.html[Verify port-level network connections]
 
-. link:accessing-and-configuring-santricity-system-manager.html[Access and configure SANtricity System Manager] (SG6160, SG6000, SG5800, and SG5700)
+. link:accessing-and-configuring-santricity-system-manager.html[Access and configure SANtricity System Manager] (SG6160, SG5700, SG5800, and SG6000)
 
-. link:configuring-bmc-interface.html[Configure the BMC interface] (SG100, SG1000, SG6000, and SG6100)
+. link:configuring-bmc-interface.html[Configure the BMC interface] (SG6000, SG6100, and services appliances)
 
 . Perform optional setup steps
 ** link:optional-enabling-node-encryption.html[Enable node or drive encryption]

@@ -12,7 +12,9 @@ summary: 'You can access the BMC interface using the DHCP or static IP address f
 You can access the BMC interface using the DHCP or static IP address for the BMC management port on the following appliance models: 
 
 * SG100
+* SG110
 * SG1000
+* SG1100
 * SG6000
 * SG6100
 
@@ -31,9 +33,19 @@ You can access the BMC interface using the DHCP or static IP address for the BMC
 image::../media/sg100_bmc_management_port.png[SG100 BMC management port]
 --
 
+.SG110
+--
+image::../media/sgf6112_cn_bmc_management_port.png[BMC management port SG110]
+--
+
 .SG1000
 --
 image::../media/sg1000_bmc_management_port.png[SG1000 BMC Management Port]
+--
+
+.SG1100
+--
+image::../media/sg1100_bmc_management_port.png[BMC management port SG1100]
 --
 
 .SG6000

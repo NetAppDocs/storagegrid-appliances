@@ -100,6 +100,91 @@ image::../media/ssd_indicators.png[SSD Indicators]
 |===
 --
 
+.SG110 and SG1100
+--
+
+The appliance includes indicators that help you determine the status of the appliance controller and the SSDs:
+
+* <<appliance_indicators,Appliance indicators and buttons>>
+* <<general_boot_codes,General boot-up codes>>
+* <<ssd_indicators,SSD indicators>>
+
+Use this information to help link:troubleshooting-hardware-installation-sg110-and-sg1100.html[troubleshoot SG110 and SG1100 hardware installation].
+
+[[appliance_indicators]]
+Appliance indicators and buttons::
++
+The following figure shows indicators and buttons on the SG110 and SG1100 appliances.
++
+image::../media/sgf6112_front_indicators.png[Front Indicators - SG110 and SG1100]
++
+[cols="1a,2a,3a" options="header"]
+|===
+| Callout | Display| State
+| 1
+| Power button
+| * Blue: the appliance is powered on.
+* Off: the appliance is powered off.
+
+| 2
+| Reset button
+| Use this button to perform a hard reset of the controller.
+
+| 3
+| Identify button
+| Using the BMC, this button can be set to blink, On (Solid), or Off.
+
+* Blue, blinking: Identifies the appliance in the cabinet or rack.
+* Blue, solid: Identifies the appliance in the cabinet or rack.
+* Off: The appliance is not visually identifiable in the cabinet or rack.
+
+| 4
+| Status LED
+| * Amber, solid: An error has occurred.
++
+*Note:* To view the boot-up and error codes, link:accessing-bmc-interface.html[access the BMC interface].
+
+* Off: No errors are present.
+
+| 5
+| PFR
+| This light is not used by the SG110 and SG1100 appliances and remains off. 
+
+|===
+
+[[general_boot_codes]]
+General boot-up codes::
++
+During boot-up or after a hard reset of the appliance, the following occurs:
++
+. The baseboard management controller (BMC) logs codes for the boot-up sequence, including any errors that occur.
+. The power button lights up.
+. If any errors occur during boot-up, the alarm LED lights up.
++
+To view the boot-up and error codes, link:accessing-bmc-interface.html[access the BMC interface].
+
+[[ssd_indicators]]
+SSD indicators::
++
+The following figure shows SSD indicators on the SG110 and SG1100 appliances.
++
+image::../media/ssd_indicators.png[SSD Indicators]
++
+[cols="1a,2a,2a" options="header"]
+|===
+| LED| Display| State
+
+| 1
+| Drive status/fault
+| * Blue (solid): drive is online
+* Amber (solid): drive failure
+* Off: slot is empty
+
+| 2
+| Drive active
+| Blue (blinking): drive is being accessed
+|===
+--
 
 .SG5700
 --

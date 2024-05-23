@@ -35,6 +35,7 @@ NOTE: The LACP transmit hash policy is layer2+3.
 The figures and tables summarize the options for the port bond mode and network bond mode for each appliance. See the following for more information:
 
 * link:gathering-installation-information-sg100-and-sg1000.html#port-bond-modes[Port bond modes (SG1000 and SG100)]
+* link:gathering-installation-information-sg110-and-sg1100.html#port-bond-modes[Port bond modes (SG1100 and SG110)]
 * link:gathering-installation-information-sg5700.html#port-bond-modes[Port bond modes (E5700SG)]
 * link:gathering-installation-information-sg5800.html#port-bond-modes[Port bond modes (SG5800)]
 * link:gathering-installation-information-sg6000.html#port-bond-modes[Port bond modes (SG6000-CN)]
@@ -156,8 +157,111 @@ image::../media/sg100_bonded_management_ports.png[Admin Network Ports Bonded SG1
 
 --
 
+.SG110 and SG1100
+--
+
+Fixed port bond mode (default)::
++
+The figures show how the four network ports on the SG1100 or SG110 are bonded in fixed port bond mode (default configuration).
++
+SG1100:
++
+image::../media/sg1100_fixed_port.png[SG1100 Fixed Port Bond Mode]
++
+SG110:
++
+image::../media/sgf6112_fixed_port.png[SG110 Fixed Port Bond Mode]
++
+[cols="1a,3a" options="header"]
+|===
+| Callout| Which ports are bonded
+
+| C
+| Ports 1 and 3 are bonded together for the Client Network, if this network is used.
+
+| G
+| Ports 2 and 4 are bonded together for the Grid Network.
+|===
++
+The table summarizes the options for configuring the four network ports. You only need to configure the settings on the Link Configuration page if you want to use a non-default setting.
++
+[cols="1a,2a,2a" options="header"]
+|===
+| Network bond mode| Client Network disabled (default)| Client Network enabled
+|Active-Backup (default)
+|
+ ** Ports 2 and 4 use an active-backup bond for the Grid Network.
+ ** Ports 1 and 3 aren't used.
+ ** A VLAN tag is optional.
+
+|
+ ** Ports 2 and 4 use an active-backup bond for the Grid Network.
+ ** Ports 1 and 3 use an active-backup bond for the Client Network.
+ ** VLAN tags can be specified for both networks for the convenience of the network administrator.
+
+|LACP (802.3ad)
+|
+ ** Ports 2 and 4 use an LACP bond for the Grid Network.
+ ** Ports 1 and 3 aren't used.
+ ** A VLAN tag is optional.
+
+|
+ ** Ports 2 and 4 use an LACP bond for the Grid Network.
+ ** Ports 1 and 3 use an LACP bond for the Client Network.
+ ** VLAN tags can be specified for both networks for the convenience of the network administrator.
+
+|===
+
+Aggregate port bond mode::
++
+These figures show how the four network ports are bonded in aggregate port bond mode.
++
+SG1100:
++
+image::../media/sg1100_aggregate_ports.png[Aggregate Port Bond Mode SG1100]
++
+SG110:
++
+image::../media/sgf6112_aggregate_ports.png[SG110 Aggregate Port Bond Mode ]
++
+[cols="1a,3a" options="header"]
+|===
+| Callout| Which ports are bonded
+
+| 1
+| All four ports are grouped in a single LACP bond, allowing all ports to be used for Grid Network and Client Network traffic.
+|===
++
+The table summarizes the options for configuring the network ports. You only need to configure the settings on the Link Configuration page if you want to use a non-default setting.
++
+[cols="1a,2a,2a" options="header"]
+|===
+| Network bond mode| Client Network disabled (default)| Client Network enabled
+|LACP (802.3ad) only
+| ** Ports 1-4 use a single LACP bond for the Grid Network.
+** A single VLAN tag identifies Grid Network packets.
+
+| ** Ports 1-4 use a single LACP bond for the Grid Network and the Client Network.
+** Two VLAN tags allow Grid Network packets to be segregated from Client Network packets.
+
+|===
+
+Active-Backup network bond mode for management ports::
++
+These figures show how the two 1-GbE management ports on the appliances are bonded in Active-Backup network bond mode for the Admin Network.
++
+SG1100:
++
+image::../media/sg1100_bonded_management_ports.png[Admin Network Ports Bonded SG1100]
++
+SG110:
++
+image::../media/sgf6112_bonded_management_ports.png[Admin Network Ports Bonded SG110]
+--
+
 .SG5700
 --
+
 
 Fixed port bond mode (default):: 
 +
