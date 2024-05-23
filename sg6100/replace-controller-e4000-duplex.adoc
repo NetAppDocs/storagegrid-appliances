@@ -99,9 +99,20 @@ CAUTION: To prevent degraded performance, do not twist, fold, pinch, or step on 
 . Open the cover by pressing the blue buttons on the sides of the controller canister to release the cover, and then rotate the cover up and off of the controller canister.
 
 
-== Step 4: Remove the battery
+== Step 4: Determine parts to transfer to replacement controller
 
-Removed the battery from the impaired controller and install it in the replacement controller.
+Your replacement controller may come with parts pre-installed. Determine which parts must be transferred from the replacement controller canister.
+
+. Place the replacement controller on a flat, static-free surface with the removable cover facing up.
+. Open the cover by pressing the blue buttons on the sides of the controller canister to release the cover, and then rotate the cover up and off of the controller canister.
+. Determine if the the replacement controller contains a battery and/or a DIMM. If it does, reinstall the controller cover and go to <<step8_replace_controller,Step 8: Replace controller>>. Otherwise go to <<step5_remove_battery, Step 5: Remove the battery>>.
+
+
+
+[[step5_remove_battery]]
+== Step 5: Remove the battery
+
+Remove the battery from the impaired controller and install it in the replacement controller if necessary.
 
 .Steps
 
@@ -122,10 +133,11 @@ image::../media/legend_icon_02.png[]
 .. Align the battery with the holding brackets on the sheet metal side wall.
 +
 NOTE: Do not plug the battery in yet. You will plug it in once the rest of the components are moved to the replacement controller canister.
+. If the replacement controller has pre-installed DIMM, go to <<step7_install_battery,Step 7: Install the battery>>. Otherwise, continue to the next step.
 
 
-
-== Step 5: Move the DIMMs
+[[step6_remove_dimm]]
+== Step 6: Move the DIMMs
 
 Remove the DIMMs from the impaired controller canister and install them into the replacement controller canister.
 
@@ -161,7 +173,9 @@ The DIMM fits tightly in the slot, but should go in easily. If not, realign the 
 NOTE: Visually inspect the DIMM to verify that it is evenly aligned and fully inserted into the slot.
 . Repeat these steps for the other DIMM.
 
-== Step 6: Install the battery
+
+[[step7_install_battery]]
+== Step 7: Install the battery
 
 Install the battery into the replacement controller canister.
 
@@ -177,8 +191,8 @@ Make sure that the plug locks down into the battery socket on the motherboard.
 
 
 
-[[step7_replace_controller]]
-== Step 7: Replace controller
+[[step8_replace_controller]]
+== Step 8: Replace controller
 Install the replacement controller and verify that it has rejoined the grid.
 
 .Steps
