@@ -150,7 +150,7 @@ NOTE: StorageGRID software is not preinstalled on the appliance. This software i
 
 ==== SG5800 connectors
 
-image::../media/e5800sg_controller_with_callouts.png[Connectors on SG5800 controller]
+image::../media/sg5800_controller_with_callouts.png[Connectors on SG5800 controller]
 
 [cols="1a,2a,2a,2a" options="header"]
 |===

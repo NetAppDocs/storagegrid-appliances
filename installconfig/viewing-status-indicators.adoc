@@ -361,7 +361,7 @@ After the StorageGRID Appliance Installer has started, you should periodically r
 +
 The following figure shows status indicators on the SG5800 controller.
 +
-image::../media/e5800sg_leds.png[Status indicators on SG5800 controller]
+image::../media/sg5800_leds.png[Status indicators on SG5800 controller]
 +
 [cols="1a,2a,2a" options="header"]
 |===

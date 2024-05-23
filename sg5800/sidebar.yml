@@ -24,14 +24,14 @@ entries:
       - title: Troubleshoot drive firmware upgrade errors
         url: "/sg5800/troubleshoot-upgrading-drive-firmware-using-santricity-system-manager.html" 
     - title: Change link configuration of SG5800 controller
-      url: "/sg5800/changing-link-configuration-of-5800sg-controller.html"
+      url: "/sg5800/changing-link-configuration-of-sg5800-controller.html"
 
 
   - title: Hardware procedures
     pdf-filename: Hardware procedures - SG5800
     entries:
       - title: Replace SG5800 Controller
-        url: "/sg5800/replace-controller-5800sg.html"
+        url: "/sg5800/replace-controller-sg5800.html"
       - title: Replace E4000 controller
         url: "/sg5800/replace-controller-e4000-simplex.html"
       - title: Replace fan (SG5860)
