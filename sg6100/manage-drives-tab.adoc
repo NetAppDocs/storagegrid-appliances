@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: sgf6112, manage drives tab, locate drive, fail drive, logically replace drive
 summary: 'You can use the Manage drives tab in the Grid Manager to perform troubleshooting and maintenance tasks on the drives in the SGF6112 appliance.'
 ---
-= Use the Manage drives tab
+= Use the Manage drives tab (SGF6112)
 :icons: font
 :imagesdir: ../media/
 

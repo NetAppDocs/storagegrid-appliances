@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: 
 summary: 
 ---
-= Replace battery in E4000
+= Replace battery in E4000 (SG6160)
 :icons: font
 :imagesdir: ../media/
 
