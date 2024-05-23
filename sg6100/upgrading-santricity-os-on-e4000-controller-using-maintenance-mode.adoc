@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storagegrid, sg6100, storage node, storage appliance, controller, e4000, storage controller, upgrade, upgrading, SANtricity OS, SANtricity, maintenance mode
 summary: 'You can use maintenance mode to upgrade SANtricity OS on the E4000 controller.'
 ---
-= Upgrade SANtricity OS on E4000 controller using maintenance mode
+= Upgrade SANtricity OS on E4000 controller using maintenance mode (SG6160)
 :icons: font
 :imagesdir: ../media/
 

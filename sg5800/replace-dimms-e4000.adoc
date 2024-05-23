@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: 
 summary: 
 ---
-= Replace DIMMs in E4000
+= Replace DIMMs in E4000 (SG5800)
 :icons: font
 :imagesdir: ../media/
 
