@@ -262,7 +262,7 @@ Fixed port bond mode (default)::
 +
 This figure shows how the four 10/25-GbE ports are bonded in Fixed port bond mode (default configuration).
 +
-image::../media/e5800sg_fixed_port.png[Image showing how the 10/25-GbE ports on the SG5800 controller are bonded in fixed mode]
+image::../media/sg5800_fixed_port.png[Image showing how the 10/25-GbE ports on the SG5800 controller are bonded in fixed mode]
 +
 [cols="1a,3a" options="header"]
 |===
@@ -315,7 +315,7 @@ Aggregate port bond mode::
 +
 This figure shows how the four 10/25-GbE ports are bonded in Aggregate port bond mode.
 +
-image::../media/e5800sg_aggregate_port.png[Image showing how the 10/25-GbE ports on the SG5800 controller are bonded in aggregate mode]
+image::../media/sg5800_aggregate_port.png[Image showing how the 10/25-GbE ports on the SG5800 controller are bonded in aggregate mode]
 +
 [cols="1a,3a" options="header"]
 |===

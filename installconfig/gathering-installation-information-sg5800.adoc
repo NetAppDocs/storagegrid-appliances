@@ -292,7 +292,7 @@ When link:configuring-network-links.html[configuring network links] for the SG58
 
 Fixed mode is the default configuration for the 10/25-GbE networking ports.
 
-image::../media/e5800sg_fixed_port.png[Ports used for Fixed port bond mode]
+image::../media/sg5800_fixed_port.png[Ports used for Fixed port bond mode]
 
 [cols="1a,3a" options=header] 
 |===
@@ -317,7 +317,7 @@ NOTE: If you don't need redundant connections, you can use only one port for eac
 
 Aggregate port bond mode significantly increases the throughout for each StorageGRID network and provides additional failover paths.
 
-image::../media/e5800sg_aggregate_port.png[Ports used for Aggregate port bond mode]
+image::../media/sg5800_aggregate_port.png[Ports used for Aggregate port bond mode]
 
 [cols="1a,3a" options=header] 
 |===

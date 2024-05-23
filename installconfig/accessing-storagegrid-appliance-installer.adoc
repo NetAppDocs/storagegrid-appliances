@@ -123,7 +123,7 @@ image::../media/e5700sg_mgmt_port_2.gif[Location of Management Port 2 on the E57
 --
 Connect the service laptop to  management port 1 on the SG5800 controller, using an Ethernet cable.
 
-image::../media/e5800sg_mgmt_port.png[Location of Management Port 2 on the SG5800 controller]
+image::../media/sg5800_mgmt_port.png[Location of Management Port 1 on the SG5800 controller]
 --
 
 .SG6000-CN
