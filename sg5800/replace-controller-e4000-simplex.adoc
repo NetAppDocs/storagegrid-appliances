@@ -23,7 +23,9 @@ NOTE: Don't rely on the E-Series instructions to replace a controller in the Sto
 * Labels to identify each cable that is connected to the controller.
 * Specific access permissions.
 * You must be signed in to the Grid Manager using a https://docs.netapp.com/us-en/storagegrid-118/admin/web-browser-requirements.html[supported web browser^].
-* A management station with a browser that can access SANtricity System Manager for the controller. (To open the System Manager interface, point the browser to the controller's domain name or IP address.)
+* Access to SANtricity System Manager: 
+** From Grid Manager, select *NODES* > *_appliance node_* > *SANtricity System Manager*. Controller information is on the https://docs.netapp.com/us-en/storagegrid-118/monitor/viewing-santricity-system-manager-tab.html[SANtricity System Manager tab].
+** Point a browser in your management station to the controller's domain name or IP address.
 
 .About this task
 
@@ -86,7 +88,7 @@ Take the controller offline and confirm that all operations are complete.
 
 .Steps
 
-. If the StorageGRID appliance is running in a StorageGRID system, link:../commonhardware/placing-appliance-into-maintenance-mode.html[place the SG5800 controller into maintenance mode].
+. If the StorageGRID appliance is running in a StorageGRID system, link:../commonhardware/placing-appliance-into-maintenance-mode.html[place the appliance into maintenance mode].
 . If the E4000 controller is functioning sufficiently to allow for a controlled shutdown, confirm that all operations have completed.
 .. Wait for any data in cache memory to be written to the drives.
 +
@@ -97,9 +99,9 @@ The green Cache Active LED on the back of the controller is on when cached data 
 . Wait for all LEDs on the controller shelf to turn off.
 
 
-== Step 3: Remove controller canister
+== Step 3: Remove E4000 controller canister
 
-Remove a controller canister.
+Remove an E4000 controller canister.
 
 .Steps
 
@@ -120,8 +122,10 @@ Your replacement controller may come with parts pre-installed. Determine which p
 
 . Place the replacement controller on a flat, static-free surface with the removable cover facing up.
 . Open the cover by pressing the blue buttons on the sides of the controller canister to release the cover, and then rotate the cover up and off of the controller canister.
-. Determine if the the replacement controller contains a battery and/or DIMMs. If it does, reinstall the controller cover and go to <<step8_replace_controller,Step 8: Replace controller>>. Otherwise go to <<step5_remove_battery, Step 5: Remove the battery>>.
+. Determine if the replacement controller contains a battery and/or DIMMs. If it does, reinstall the controller cover and go to <<step8_replace_controller,Step 8: Replace controller>>. Otherwise:
 
+** If the replacement controller does not include a battery or DIMM, go to <<step5_remove_battery, Step 5: Remove the battery>>.
+** If the replacement controller includes a battery but not a DIMM, go to <<step6_remove_dimm, Step 6: Move the DIMMs>>.
 
 [[step5_remove_battery]]
 == Step 5: Remove the battery
@@ -143,10 +147,8 @@ a|
 image::../media/legend_icon_02.png[]
 |Battery power connector
 |===
-. Move the battery to the replacement controller canister and install it:
-.. Align the battery with the holding brackets on the sheet metal side wall.
-+
-NOTE: Do not plug the battery in yet. You will plug it in once the rest of the components are moved to the replacement controller canister.
+. Move the battery to the replacement controller canister:
+.. Align the battery with the holding brackets on the sheet metal side wall, but do not connect it. You will plug it in once the rest of the components are moved to the replacement controller canister.
 . If the replacement controller has pre-installed DIMMs, go to <<step7_install_battery,Step 7: Install the battery>>. Otherwise, continue to the next step.
 
 
@@ -186,7 +188,7 @@ The DIMM fits tightly in the slot, but should go in easily. If not, realign the 
 +
 NOTE: Visually inspect the DIMM to verify that it is evenly aligned and fully inserted into the slot.
 . Repeat these steps for the other DIMM.
-
+. If the replacement controller has a pre-installed battery, go to <<step8_replace_controller,Step 8: Replace controller>>. Otherwise, continue to the next step.
 
 [[step7_install_battery]]
 == Step 7: Install the battery
@@ -198,7 +200,7 @@ Install the battery into the replacement controller canister.
 . Plug the battery plug back into the socket on the controller canister.
 +
 Make sure that the plug locks down into the battery socket on the motherboard.
-. Aligning the battery with the holding brackets on the sheet metal side wall.
+. Align the battery with the holding brackets on the sheet metal side wall.
 . Slide the battery pack down until the battery latch engages and clicks into the opening on the side wall.
 . Reinstall the controller canister cover and lock it into place.
 
@@ -268,7 +270,7 @@ where:
 .. Power on the system and wait for the seven-segment display to show the tray number.
 .. Go to the next step to confirm that the new controller is Optimal.
 
-. Return the appliance to normal operating mode. From the StorageGRID Appliance Installer, select *Advanced* > *Reboot Controller*, and then select *Reboot into StorageGRID*.
+. If you placed the appliance into maintenance mode during this procedure, return the appliance to normal operating mode. From the StorageGRID Appliance Installer, select *Advanced* > *Reboot Controller*, and then select *Reboot into StorageGRID*.
 +
 image::../media/reboot_controller_from_maintenance_mode.png[Reboot controller in maintenance mode]
 

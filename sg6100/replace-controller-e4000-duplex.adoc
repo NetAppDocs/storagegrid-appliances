@@ -105,7 +105,10 @@ Your replacement controller may come with parts pre-installed. Determine which p
 
 . Place the replacement controller on a flat, static-free surface with the removable cover facing up.
 . Open the cover by pressing the blue buttons on the sides of the controller canister to release the cover, and then rotate the cover up and off of the controller canister.
-. Determine if the the replacement controller contains a battery and/or a DIMM. If it does, reinstall the controller cover and go to <<step8_replace_controller,Step 8: Replace controller>>. Otherwise go to <<step5_remove_battery, Step 5: Remove the battery>>.
+. Determine if the replacement controller contains a battery and/or DIMMs. If it does, reinstall the controller cover and go to <<step8_replace_controller,Step 8: Replace controller>>. Otherwise:
+
+** If the replacement controller does not include a battery or DIMM, go to <<step5_remove_battery, Step 5: Remove the battery>>.
+** If the replacement controller includes a battery but not a DIMM, go to <<step6_remove_dimm, Step 6: Move the DIMMs>>.
 
 
 
@@ -130,10 +133,8 @@ image::../media/legend_icon_02.png[]
 |Battery power connector
 |===
 . Move the battery to the replacement controller canister and install it:
-.. Align the battery with the holding brackets on the sheet metal side wall.
-+
-NOTE: Do not plug the battery in yet. You will plug it in once the rest of the components are moved to the replacement controller canister.
-. If the replacement controller has pre-installed DIMM, go to <<step7_install_battery,Step 7: Install the battery>>. Otherwise, continue to the next step.
+.. Align the battery with the holding brackets on the sheet metal side wall, but do not connect it. You will plug it in once the rest of the components are moved to the replacement controller canister.
+. If the replacement controller has pre-installed DIMMs, go to <<step7_install_battery,Step 7: Install the battery>>. Otherwise, continue to the next step.
 
 
 [[step6_remove_dimm]]
@@ -172,6 +173,7 @@ The DIMM fits tightly in the slot, but should go in easily. If not, realign the 
 +
 NOTE: Visually inspect the DIMM to verify that it is evenly aligned and fully inserted into the slot.
 . Repeat these steps for the other DIMM.
+. If the replacement controller has a pre-installed battery, go to <<step8_replace_controller,Step 8: Replace controller>>. Otherwise, continue to the next step.
 
 
 [[step7_install_battery]]
@@ -229,6 +231,10 @@ NOTE: If you cannot resolve the problem, contact technical support.
 .. Click *Collect*.
 +
 The file is saved in the Downloads folder for your browser with the name, *support-data.7z*.
+
+. If you placed the appliance in maintenance mode during this procedure, exit maintenace mode and wait for the node to reboot and rejoin the grid. This process can take up to 20 minutes. Then, in the Grid Manager, verify that the Nodes page displays a normal status (green check mark icon image:../media/icon_alert_green_checkmark.png[green check mark] to the left of the node name) for the appliance node, indicating that no alerts are active and the node is connected to the grid.
++
+image::../media/nodes_menu.png[Appliance node rejoined grid]
 
 .What's next?
 Your controller replacement is complete. You can resume normal operations.
