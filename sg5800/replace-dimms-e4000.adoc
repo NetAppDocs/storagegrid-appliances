@@ -27,7 +27,7 @@ To replace a DIMM, you must verify the cache size of your controller, place the 
 
 .About this task
 
-The appliance Storage Node may not be accessible when you replace the controller. If the E4000 series controller is functioning sufficiently, you can https://review.docs.netapp.com/us-en/storagegrid-appliances_quartet-idevine-20231016/commonhardware/placing-appliance-into-maintenance-mode.html[place the SG5800 controller into maintenance mode].
+The appliance Storage Node may not be accessible when you replace the controller. If the E4000 series controller is functioning sufficiently, you can https://docs.netapp.com/us-en/storagegrid-appliances/commonhardware/placing-appliance-into-maintenance-mode.html[place the SG5800 controller into maintenance mode].
 
 == Step 1: Determine if you need to replace a DIMM
 
