@@ -46,7 +46,7 @@ Prepare to replace a controller canister by saving the drive security key, backi
 . Make note of which version of NVSRAM is currently installed.
 . If the Drive Security feature is enabled, be sure a saved key exists and that you know the pass phrase required to install it.
 +
-CAUTION: *Possible loss of data access* — If all drives in the storage array are security enabled, the new controller will not be able to access the storage array until you unlock the secured drives using the Enterprise Management Window in SANtricity Storage Manager.
+CAUTION: *Possible loss of data access* — If all drives in the storage array are security enabled, the new controller will not be able to access the storage array until you unlock the secured drives using the CLI. For more information on the CLI, see the https://docs.netapp.com/us-en/e-series-cli/index.html[E-series documentation].
 +
 To save the key (might not be possible, depending on the state of the controller):
 
