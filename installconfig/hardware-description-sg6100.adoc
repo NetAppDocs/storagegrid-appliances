@@ -2,14 +2,16 @@
 permalink: installconfig/hardware-description-sg6100.html
 sidebar: sidebar
 keywords: storagegrid, sg6100, sgf6112, storage node, storage appliance, appliance models, appliance features, specifications
-summary: ' The StorageGRID SG6100 series appliances operate as Storage Nodes in a StorageGRID system.  Like all StorageGRID appliances, they can be freely intermixed with other appliance models and software-only nodes in a single deployment.'
+summary: 'The StorageGRID SG6100 series appliances operate as Storage Nodes in a StorageGRID system.  Like all StorageGRID appliances, they can be freely intermixed with other appliance models and software-only nodes in a single deployment.'
 ---
 = SG6100 appliances: Overview
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-The StorageGRID SG6100 series appliances operate as Storage Nodes in a StorageGRID system.  Like all StorageGRID appliances, they can be freely intermixed with other appliance models and software-only nodes in a single deployment. The StorageGRID SG6160 appliance includes a compute controller with a pair of NVMe SSDs functioning as a read cache, and a storage controller shelf that contains two storage controllers and 60 NL-SAS hard drives. It can be expanded to up to 180 NL-SAS hard drives through the addition of up to two optional expansion shelves. The StorageGRID SGF6112 appliance is an all-flash appliance with a compact, 1U form factor populated with 12 NVMe SSDs.
+The StorageGRID SG6100 series appliances operate as Storage Nodes in a StorageGRID system.  Like all StorageGRID appliances, they can be freely intermixed with other appliance models and software-only nodes in a single deployment. 
+
+The StorageGRID SG6160 appliance includes a compute controller with a pair of NVMe SSDs functioning as a read cache, and a storage controller shelf that contains two storage controllers and 60 NL-SAS hard drives. It can be expanded to up to 180 NL-SAS hard drives through the addition of up to two optional expansion shelves. The StorageGRID SGF6112 appliance is an all-flash appliance with a compact 1U form factor populated with 12 NVMe SSDs.
 
 The SGF6112 and SG6160 appliances provide the following features:
 
@@ -68,7 +70,7 @@ Storage controller shelf::
 The E-Series E4000 controller shelf (storage array) is a 4U shelf that includes:
 +
 * Two E4000 series controllers (duplex configuration) to provide storage controller failover support
-* Five-drawer drive shelf that holds sixty 3.5-inch, NL-SAL drives 
+* Five-drawer drive shelf that holds sixty 3.5-inch, NL-SAS drives 
 * Redundant power supplies and fans
 
 Optional: Storage expansion shelves::
@@ -269,7 +271,7 @@ image::../media/e4000_controller_with_callouts.png[Connectors on E4000 controlle
 | 
 * Port 1 Options:
 ** Connect to a management network to enable direct TCP/IP access to SANtricity System Manager
-** Leave unwired to save a switch port and IP address.  Access SANtricity System Manager using the Grid Manager or Storage Grid Appliance Installer UIs.  
+** Leave unwired to save a switch port and IP address.  Access SANtricity System Manager using the Grid Manager or Storage Grid Appliance Installer.  
 
 *Note*: Some optional SANtricity functionality, such as NTP sync for accurate log timestamps, is not available when you choose to leave Port 1 unwired.
 
