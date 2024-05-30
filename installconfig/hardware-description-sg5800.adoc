@@ -173,7 +173,7 @@ image::../media/sg5800_controller_with_callouts.png[Connectors on SG5800 control
 | 3
 | Drive expansion ports
 | 12Gb/s SAS
-| Not used. StorageGRID appliances don't support expansion drive shelves.
+| Not used.
 
 | 4
 | Interconnect ports 1 and 2
@@ -213,11 +213,11 @@ image::../media/e4000_controller_with_callouts.png[Connectors on E4000 controlle
 | Management port
 | 1-Gb (RJ-45) Ethernet
 | 
-* Port Options:
+Port Options:
 ** Connect to a management network to enable direct TCP/IP access to SANtricity System Manager
-** Leave unwired to save a switch port and IP address.  Access SANtricity System Manager using the Grid Manager or Storage Grid Appliance Installer UIs.  
+** Leave unwired to save a switch port and IP address.  Access SANtricity System Manager using the Grid Manager or Storage Grid Appliance Installer.  
 
-*Note*: Some optional SANtricity functionality, such as NTP sync for accurate log timestamps, is not available when you choose to leave the management unwired.
+*Note*: Some optional SANtricity functionality, such as NTP sync for accurate log timestamps, is not available when you choose to leave the management port unwired.
 
 *Note*: StorageGRID 11.8 or greater, and SANtricity 11.8 or greater, are required when you leave the management unwired.
 
