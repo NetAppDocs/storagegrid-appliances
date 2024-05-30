@@ -195,7 +195,7 @@ Make sure that the plug locks down into the battery socket on the motherboard.
 
 [[step8_replace_controller]]
 == Step 8: Replace controller
-Install the replacement controller and verify that it has rejoined the grid.
+Install the replacement controller and verify that the node has rejoined the grid.
 
 .Steps
 

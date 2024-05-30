@@ -86,7 +86,6 @@ CAUTION: *Risk of electrical shock* -- Before connecting the power cords, make s
 . Turn on the two power switches on the appliance.
  ** Don't turn off the power switches during the power-on process.
  ** The fans are very loud when they first start up. The loud noise during start-up is normal.
-. After the controllers have booted up, check their seven-segment displays.
 
 --
 

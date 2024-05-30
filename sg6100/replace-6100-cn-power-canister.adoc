@@ -10,7 +10,7 @@ summary: Replace a 60-drive controller shelf or drive shelf, which includes two 
 :imagesdir: ../media/
 
 [.lead]
-You can replace a power canister in an SG6160 storage controller shelf or expansion shelf (DE460C).”
+You can replace a power canister in an SG6160 storage controller shelf or expansion shelf (DE460C).
 
 .About this task
 

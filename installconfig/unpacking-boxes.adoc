@@ -277,7 +277,6 @@ Two front bezels::
 +
 image::../media/sg6000_front_bezels_for_table.gif[Front Bezels]
 +
-+
 NOTE: Your bezels might look different.
 
 Two rail kits with instructions::

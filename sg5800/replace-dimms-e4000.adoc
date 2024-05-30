@@ -15,6 +15,8 @@ You can replace a DIMM in the E4000 if it has failed.
 
 To replace a DIMM, you must verify the cache size of your controller, place the controller offline, remove the controller, remove the DIMMs, and install the new DIMMs in your controller. Then you can bring your controller back online and verify the storage array is working properly.
 
+The appliance Storage Node may not be accessible when you replace the controller. If the E4000 series controller is functioning sufficiently, you can https://review.docs.netapp.com/us-en/storagegrid-appliances_quartet-idevine-20231016/commonhardware/placing-appliance-into-maintenance-mode.html[place the SG5800 controller into maintenance mode].
+
 .Before you begin
 
 *  Make sure you have the following:
@@ -26,9 +28,7 @@ To replace a DIMM, you must verify the cache size of your controller, place the 
 ** From Grid Manager, select *NODES* > *_appliance node_* > *SANtricity System Manager*. Controller information is on the https://docs.netapp.com/us-en/storagegrid-118/monitor/viewing-santricity-system-manager-tab.html[SANtricity System Manager tab].
 ** Point a browser in your management station to the controller's domain name or IP address.
 
-.About this task
 
-The appliance Storage Node may not be accessible when you replace the controller. If the E4000 series controller is functioning sufficiently, you can https://review.docs.netapp.com/us-en/storagegrid-appliances_quartet-idevine-20231016/commonhardware/placing-appliance-into-maintenance-mode.html[place the SG5800 controller into maintenance mode].
 
 == Step 1: Determine if you need to replace a DIMM
 

@@ -17,7 +17,6 @@ To replace a DIMM, you must verify the cache size of your controller, place the 
 
 .Before you begin
 
-* Make sure that no volumes are in use or that you have a multipath driver installed on all hosts using these volumes.
 *  Make sure you have the following:
 ** A replacement DIMM.
 ** An ESD wristband, or you have taken other antistatic precautions.
@@ -153,8 +152,6 @@ Reinstall the controller canister into the chassis.
 +
 NOTE: Do not completely insert the controller canister in the chassis until instructed to do so.
 . Recable the system, as needed.
-+
-If you removed the media converters (QSFPs or SFPs), remember to reinstall them if you are using fiber optic cables.
 . Complete the reinstallation of the controller canister:
 .. With the cam handle in the open position, firmly push the controller canister in until it meets the midplane and is fully seated, and then close the cam handle to the locked position.
 +

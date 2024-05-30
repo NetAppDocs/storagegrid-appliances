@@ -89,10 +89,6 @@ Switch port for port 1
 a|
 
 a|
-Switch port for port 2 (Active-Backup network bond mode only)
-a|
-
-a|
 DHCP-assigned IP address for management port 1, if available after power on
 
 *Note:* If the Admin Network includes a DHCP server, you can determine the DHCP-assigned IP address by using the MAC address to look up the assigned IP.

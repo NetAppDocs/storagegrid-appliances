@@ -34,7 +34,7 @@ You can determine if you have a failed controller canister in two ways:
 * A Grid Manager alert indicates a storage controller failure, and Grid Manager or the Recovery Guru in SANtricity System Manager directs you to replace the controller.
 * The amber Attention LED on the controller is on, indicating that the controller has a fault.
 
-The appliance Storage Node will not be accessible when you replace the controller. If the E4000 series controller is functioning sufficiently, you can link:../commonhardware/placing-appliance-into-maintenance-mode.html[place the SG5800 controller into maintenance mode].
+The appliance Storage Node will not be accessible when you replace the controller. If the E4000 series controller is functioning sufficiently, you can link:../commonhardware/placing-appliance-into-maintenance-mode.html[place the SG5800 appliance into maintenance mode].
 
 
 == Step 1: Prepare to replace controller
@@ -209,7 +209,7 @@ Make sure that the plug locks down into the battery socket on the motherboard.
 [[step8_replace_controller]]
 == Step 8: Replace controller
 
-Install the replacement controller and verify that it has rejoined the grid. 
+Install the replacement controller and verify that the node has rejoined the grid. 
 
 .Steps
 . Install the replacement controller into the appliance.

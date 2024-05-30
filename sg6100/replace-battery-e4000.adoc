@@ -145,7 +145,6 @@ After you replace components in the controller canister, reinstall it into the c
 +
 NOTE: Do not completely insert the controller canister in the chassis until instructed to do so.
 . Recable the system, as needed.
-. If you removed the media converters (QSFPs or SFPs), remember to reinstall them if you are using fiber optic cables.
 . Complete the reinstallation of the controller canister:
 .. With the cam handle in the open position, firmly push the controller canister in until it meets the midplane and is fully seated, and then close the cam handle to the locked position.
 +

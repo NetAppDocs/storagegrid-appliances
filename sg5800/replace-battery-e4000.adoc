@@ -23,7 +23,6 @@ If you plan to replace a failed battery, you must have:
 * Access to SANtricity System Manager: 
 ** From Grid Manager, select *NODES* > *_appliance node_* > *SANtricity System Manager*. Controller information is on the https://docs.netapp.com/us-en/storagegrid-118/monitor/viewing-santricity-system-manager-tab.html[SANtricity System Manager tab].
 ** Point a browser in your management station to the controller's domain name or IP address.
-* Verify that no volumes are in use or that you have a multipath driver installed on all hosts using these volumes.
 
 == Step 1: Prepare to replace battery
 

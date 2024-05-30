@@ -9,7 +9,7 @@ summary: 'You upgrade your drive firmware to make sure you have all the latest f
 :imagesdir: ../media/
 
 [.lead]
-Use the SANtricity System Manager online method to upgrade the firmware on the drives in your appliance to make sure you have all the latest features and bug fixes. 
+Use the SANtricity System Manager offline method to upgrade the firmware on the drives in your appliance to make sure you have all the latest features and bug fixes. 
 
 .Before you begin
 
@@ -18,7 +18,7 @@ Use the SANtricity System Manager online method to upgrade the firmware on the d
 * You have link:../commonhardware/placing-appliance-into-maintenance-mode.html[placed the StorageGRID appliance into maintenance mode].
 +
 NOTE: While the appliance is in maintenance mode, I/O (input/output) activity to the storage controller is stopped to make disruptive storage operations safe.
-
++
 CAUTION: Don't upgrade the drive firmware on more than one StorageGRID appliance at a time. Doing so might cause data unavailability, depending on your deployment model and ILM policy.
 
 .About this task

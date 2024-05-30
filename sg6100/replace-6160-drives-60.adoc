@@ -15,7 +15,6 @@ You can replace a drive in an SG6160 storage controller shelf or expansion shelf
 
 StorageGRID Grid Manager monitors storage array status and raises alerts when drive failures occur.  When Grid Manager raises an alert, or at any time, you can use the Recovery Guru in SANtricity System Manager to get more information about the specific drive that has failed.  When a drive has failed, its amber Attention LED is on. You can hot-swap a failed drive while the storage array is receiving I/O.
 
-This procedure applies to DCM and DCM2 drive shelves.
 
 .Before you begin
 

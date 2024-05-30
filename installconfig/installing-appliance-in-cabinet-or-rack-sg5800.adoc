@@ -58,7 +58,7 @@ CAUTION: To avoid damaging the hardware, never move an SG5860 if drives are inst
 +
 You remove these handles as you slide the appliance onto the rails.
 
-. If your cabinet has square hole, install the cage nuts so that you can secure the front and rear of the shelf with screws.
+. If your cabinet has square holes, install the cage nuts so that you can secure the front and rear of the shelf with screws.
 
 . Place the back of the appliance (the end with the connectors) on the rails.
 
