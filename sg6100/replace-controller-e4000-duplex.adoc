@@ -81,6 +81,8 @@ If a problem occurs when you remove a controller, you can use the saved file to 
 .. Select *Collect Support Data*.
 .. Click *Collect*.
 
+. Take the controller you plan to replace offline.
+
 
 == Step 3: Remove controller canister
 

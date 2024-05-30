@@ -37,7 +37,7 @@ When you apply power to the appliance, the BMC logs a series of boot-up codes. Y
 
 | Serial port
 | 
-* DB-9 serial cable
+* USB cable
 * Virtual serial terminal
 
 | SOL

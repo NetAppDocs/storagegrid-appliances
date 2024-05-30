@@ -313,41 +313,61 @@ a|
 (19.88 kg)
 
 a|
-SG6160 appliance
+SG6100-CN compute controller (SG6160)
 a|
-6.9 in.
+1.70 in.
 
-(17.4 cm)
+(4.32 cm)
 a|
-17.66 in.
+17.32 in.
 
-(44.86 cm)
+(44.0 cm)
 a|
-37.8 in.
+32.01 in.
 
-(96.0 cm)
+(81.3 cm)
 a|
-259.63 lb.
+40.98 lb.
 
-(117.77 kg)
+(18.59 kg)
+
 a|
-Expansion shelf (SG6160 only) - Optional
+E4060 controller shelf (SG6160)
 a|
 6.87 in.
 
-(17.46 cm)
+(17.45 cm)
 a|
-17.66 in.
+17.64 in.
 
-(44.86 cm)
+(44.8 cm)
 a|
-38.25 in.
+36.3 in.
 
 (97.16 cm)
 a|
-250 lb.
+223.58 lb.
 
-(113 kg)
+(101.42 kg)
+
+a|
+Expansion shelf (SG6160) - Optional
+a|
+6.87 in.
+
+(17.45 cm)
+a|
+17.64 in.
+
+(44.8 cm)
+a|
+36.3 in.
+
+(97.16 cm)
+a|
+223.58 lb.
+
+(101.42 kg)
 
 
 |===
