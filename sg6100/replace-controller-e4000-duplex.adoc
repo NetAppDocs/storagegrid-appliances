@@ -211,7 +211,7 @@ Install the replacement controller and verify that the node has rejoined the gri
 NOTE: If the original controller did not use DHCP for the IP address, the new controller will adopt the IP address of the controller you removed.
 . Bring the controller online using SANtricity System Manager:
  .. Select *Hardware*.
- .. If the graphic shows the drives, select *Show back of controller*.
+ .. If the graphic shows the drives, select *Controllers and Components*.
  .. Select the controller you want to place online.
  .. Select *Place Online* from the context menu, and confirm that you want to perform the operation.
 . As the controller boots, check the controller LEDs.

@@ -161,11 +161,6 @@ The controller begins to boot as soon as it is seated in the chassis.
 .. If you have not already done so, reinstall the cable management device.
 .. Bind the cables to the cable management device with the hook and loop strap.
 . Reboot the controller canister.
-+
-During the boot process, you might see the following prompts:
-+
-* A prompt warning of a system ID mismatch and asking to override the system ID.
-* A prompt warning that when entering Maintenance mode in an HA configuration you must ensure that the healthy controller remains down. You can safely respond y to these prompts.
 
 
 == Step 6: Complete DIMMs replacement
@@ -176,7 +171,7 @@ Place the controller online, collect support data, and resume operations.
 
 . Place controller online.
 .. In System Manager, navigate to the Hardware page.
-.. Select *Show back of controller*.
+.. Select *Controllers and Components*.
 .. Select the controller with the replaced DIMMs.
 .. Select *Place online* from the drop-down list.
 . As the controller boots, check the controller LEDs.
