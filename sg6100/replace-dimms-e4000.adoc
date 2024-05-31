@@ -171,7 +171,7 @@ Place the controller online, collect support data, and resume operations.
 
 . Place controller online.
 .. In System Manager, navigate to the Hardware page.
-.. Select *Controllers and Components*.
+.. Select *Controllers & Components*.
 .. Select the controller with the replaced DIMMs.
 .. Select *Place online* from the drop-down list.
 . As the controller boots, check the controller LEDs.
