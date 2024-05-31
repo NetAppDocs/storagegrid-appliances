@@ -44,7 +44,6 @@ The controller top cover is accessible.
 
 . Optional: If you are fully removing the controller from the cabinet or rack, follow the instructions for the rail kit to remove the controller from the rails.
 
-include::../_include/fru-statement.adoc[]
 
 
 == Reinstall SG6100-CN controller into cabinet or rack
@@ -82,6 +81,3 @@ link:../installconfig/cabling-appliance.html[Cable appliance]
 +
 link:../installconfig/connecting-power-cords-and-applying-power.html[Connect power cords and apply power (SG6100)]
 
-.After you finish
-
-The controller can be restarted link:power-sg6100-cn-controller-off-on.html#power-on-sg6100-cn-controller-and-verify-operation[restarted].

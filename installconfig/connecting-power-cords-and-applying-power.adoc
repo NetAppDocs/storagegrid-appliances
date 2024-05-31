@@ -86,7 +86,6 @@ CAUTION: *Risk of electrical shock* -- Before connecting the power cords, make s
 . Turn on the two power switches on the appliance.
  ** Don't turn off the power switches during the power-on process.
  ** The fans are very loud when they first start up. The loud noise during start-up is normal.
-. After the controllers have booted up, check their seven-segment displays.
 
 --
 
@@ -126,7 +125,7 @@ Don't press the power button again during the power-on process.
 .SG6100
 --
 
-*SGF6112*
+*SGF6112*:
 
 .Steps
 
@@ -145,25 +144,27 @@ Don't press the power button again during the power-on process.
 
 . Confirm that both controllers in the storage controller shelf are off.
 +
-CAUTION: Risk of electrical shock — Before connecting the power cords, make sure that the power switches for each of the two storage controllers are off.
-. Connect a power cord to each of the two power supply units in the appliance.
-If you have expansion shelves, confirm that both of the IOM power switches are off.
+CAUTION: *Risk of electrical shock* -- Before connecting the power cords, make sure that the power switches for each of the two storage controllers are off.
+
+. If you have expansion shelves, confirm that both of the IOM power switches are off.
 +
-CAUTION: Risk of electrical shock — Before connecting the power cords, make sure that the two power switches for each of the expansion shelves are off.
+CAUTION: *Risk of electrical shock* -- Before connecting the power cords, make sure that the two power switches for each of the expansion shelves are off.
+
 . Connect a power cord to each of the two power supply units in the SG6100-CN controller.
 . Connect these two power cords to two different power distribution units (PDUs) in the cabinet or rack.
+. Connect a power cord to each of the two power supply units in the storage controller shelf.
 . If you have expansion shelves, connect a power cord to each of the two power supply units in each expansion shelf.
 . Connect the two power cords in each storage shelf (including the optional expansion shelves) to two different PDUs in the cabinet or rack.
-. If the power button on the front of the SG6100-CN appliance is not currently illuminated blue, press the button to turn on power to the appliance.
+. If the power button on the front of the SG6100-CN controller is not currently illuminated blue, press the button to turn on power to the controller.
 +
 Don't press the power button again during the power-on process.
-+
-The LED on the power supply should be illuminated green without blinking. 
-. Turn on the two power switches on the back of the storage controller shelf. If you have expansion shelves, turn on the two power switches for each shelf.
 
-** Don't turn off the power switches during the power-on process.
-** The fans in the storage controller shelf and optional expansion shelves might be very loud when they first start up. The loud noise during start-up is normal.
-. Attach the front bezel to the appliance if removed.
+. Turn on the two power switches on the back of the storage controller shelf. If you have expansion shelves, turn on the two power switches for each shelf.
+ ** Don't turn off the power switches during the power-on process.
+ ** The fans in the storage controller shelf and optional expansion shelves might be very loud when they first start up. The loud noise during start-up is normal.
+. After the components have booted up, verify that the power button on the front of the SG6100-CN controller is lit.
+. If errors occur, correct any issues.
+. Attach the front bezel to the SG6100-CN controller if removed.
 
 --
 

@@ -17,9 +17,9 @@ entries:
         url: "/sg5800/upgrading-santricity-os-on-e4000-controller-using-maintenance-mode.html"
     - title: Upgrade drive firmware using SANtricity System Manager
       entries:
-      - title: Upgrade SG5800 drive firmware using SANtricity System Manager using online method
+      - title: Upgrade SG5800 drive firmware using SANtricity System Manager online method
         url: "/sg5800/upgrading-drive-firmware-using-santricity-system-manager-online.html"
-      - title: Upgrade SG5800 drive firmware using SANtricity System Manager using offline method
+      - title: Upgrade SG5800 drive firmware using SANtricity System Manager offline method
         url: "/sg5800/upgrading-drive-firmware-using-santricity-system-manager-offline.html"
       - title: Troubleshoot drive firmware upgrade errors
         url: "/sg5800/troubleshoot-upgrading-drive-firmware-using-santricity-system-manager.html" 

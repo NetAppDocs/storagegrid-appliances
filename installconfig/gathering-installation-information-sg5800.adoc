@@ -89,10 +89,6 @@ Switch port for port 1
 a|
 
 a|
-Switch port for port 2 (Active-Backup network bond mode only)
-a|
-
-a|
 DHCP-assigned IP address for management port 1, if available after power on
 
 *Note:* If the Admin Network includes a DHCP server, you can determine the DHCP-assigned IP address by using the MAC address to look up the assigned IP.
@@ -193,7 +189,7 @@ Choose one:
 * Yes
 
 a|
-VLAN tag(if VLAN tagging is enabled)
+VLAN tag (if VLAN tagging is enabled)
 
 a|
 Enter a value between 0 and 4095:
@@ -341,7 +337,7 @@ NOTE: If you choose to use fewer than four ports, be aware that one or more alar
 
 .Related information
 
-* link:cabling-appliance-sg5800.html[Cable appliance (SG5800)]
+* link:cabling-appliance.html[Cable appliance (SG5800)]
 
 * link:gathering-installation-information-sg5800.html#port-bond-modes[Port bond modes (SG5800 controller)]
 
