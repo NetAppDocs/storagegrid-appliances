@@ -278,7 +278,7 @@ The Client Network for StorageGRID is an optional network, typically used to pro
 * No (default)
 * Yes
 
-| VLAN tag(If VLAN tagging is enabled)
+| VLAN tag (If VLAN tagging is enabled)
 | Enter a value between 0 and 4095:
 
 | DHCP-assigned IP address for the Client Network, if available after power on
