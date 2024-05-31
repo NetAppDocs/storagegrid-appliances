@@ -80,8 +80,8 @@ Drive encryption is managed on self-encrypting drive (SED) hardware during the w
 
 Drive encryption can be used for any SED SSD installed in an SG100, SG1000, SG110, SG1100, SGF6112, or SG6100-CN compute node or controller.
 
-* For services applinaces, the SSDs are the node root disks.
-* In an SG6100-CN controller, the SSDs used for caching.
+* For services appliances, the SSDs are the node root disks.
+* In an SG6100-CN controller, the SSDs are used for caching.
 * In an SGF6112, the SSDs are the node root disks and are used for the primary storage of object data.
 
 Encrypted SEDs automatically lock when the appliance is powered down or when the drive is removed from the appliance. An encrypted SED remains locked after power is restored to it until the correct passphrase is entered. To allow drives to be accessed without manually reentering the passphrase, the passphrase is stored on the StorageGRID appliance to unlock encrypted drives that remain in the appliance when the appliance restarts. Drives encrypted with an SED passphrase can be accessed by anyone who knows the passphrase. 
