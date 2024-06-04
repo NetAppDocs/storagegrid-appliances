@@ -35,7 +35,7 @@ indexpage:
         - title: Replace power supply
           url: "../sg6100/replacing-one-or-more-power-supplies-in-sgf6112-appliance.html"
         - title: Replace power supply in storage controller shelf or expansion shelf (SG6160)
-          url: "/sg6100/replace-6100-cn-power-canister.html"
+          url: "../sg6100/replace-6100-cn-power-canister.html"
         - title: Replace fan in SGF6112 or SG6100-CN (SG6160)
           url: "../sg6100/replacing-fan-in-sgf6112.html"
         - title: Replace fan in in storage controller shelf or expansion shelf (SG6160)
