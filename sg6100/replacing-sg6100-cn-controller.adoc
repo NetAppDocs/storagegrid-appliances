@@ -17,7 +17,7 @@ You might need to replace the SG6100-CN controller if it is not functioning opti
 * You have labels to identify each cable that is connected to the controller.
 * You have physically located the controller to replace in the data center.
 +
-link:locating-controller-in-data-center.html[Locate controller in data center]
+link:locating-sgf6112-in-data-center.html[Locate controller in data center]
 
 .About this task
 
@@ -37,7 +37,7 @@ NOTE: If you are replacing the controller before installing StorageGRID software
 When you are logged in as root, the prompt changes from `$` to `#`.
 .. Enter: `*run-host-command ipmitool lan print*` to display the current BMC configurations for the appliance.
 
-. If the SG6100-CN controller is functioning sufficiently to allow for a controlled shutdown, link:power-sg6100-cn-controller-off-on.html#shut-down-sg6100-cn-controller[shut down the SG6100-CN controller].
+. If the SG6100-CN controller is functioning sufficiently to allow for a controlled shutdown, link:power-sgf6112-off-on.html[shut down the SG6100-CN controller].
 
 . If any of the network interfaces on this StorageGRID appliance are configured for DHCP, you might need to update the permanent DHCP lease assignments on the DHCP servers to reference the MAC addresses of the replacement appliance. The update ensures the appliance is assigned the expected IP addresses. 
 
