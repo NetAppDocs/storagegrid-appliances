@@ -25,11 +25,11 @@ Before installing the appliance, you must make sure that the site and the cabine
 | SG100 and SG1000
 | 120 to 240-volts AC
 
-| SG5712
-| 120 to 240 volts AC
-
 | SG110 and SG1100
 | 100 to 240 volts AC
+
+| SG5712
+| 120 to 240 volts AC
 
 | SG5760
 | 240-volt AC
