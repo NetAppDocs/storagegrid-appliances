@@ -4,17 +4,16 @@ sidebar: sidebar
 keywords: storagegrid, sgf6112, power off, turn off, shut off, shutdown, shut down, power on, turn on, start
 summary: 'You can shut down the SGF6112 appliance and power it back on to perform maintenance.'
 ---
-
-= Power SGF6112 appliance off and on
+= Power SGF6112 appliance or SG6100-CN controller off and on
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can shut down the SGF6112 appliance and power it back on to perform maintenance.
+You can shut down the SGF6112 appliance or SG6100-CN controller and power them back on to perform maintenance.
 
 // Same procedure for SG110 and SG1100 - unable to use includes due to specific links in steps
 
-== Shut down the SGF6112 appliance
+== Shut down the SGF6112 appliance or SG6100-CN controller
 
 Shut down the appliance to perform hardware maintenance.
 
@@ -43,13 +42,13 @@ When you are logged in as root, the prompt changes from `$` to `#`.
  .. Shut down the appliance: +
 `*shutdown -h now*`
 +
-This command might take up to 10 minutes to complete.
+This command might take up to 10 minutes to complete. 
 
 . Use one of the following methods to verify that the appliance is powered off:
  ** Look at the power LED on the front of the appliance and confirm that it is off.
  ** Check the Power Control page of the BMC interface to confirm the appliance is off. 
 
-== Power on SGF6112 and verify operation
+== Power on SGF6112 or SG6100-CN and verify operation
 
 Power on the controller after completing maintenance.
 
@@ -61,12 +60,13 @@ Power on the controller after completing maintenance.
 
 .Steps
 
-. Power on the appliance.
+. Power on the appliance:
+
+** Option 1: Press the power switch on the front of the controller.
 +
 You might have to remove the bezel to access the power switch; if so, remember to reinstall it afterwards.
-. Monitor the controller LEDs and boot-up codes using one of the following methods:
- ** Press the power switch on the front of the controller.
- ** Use the controller BMC interface:
+
+** Option 2: Use the controller BMC interface:
   ... link:../installconfig/accessing-bmc-interface.html[Access the controller BMC interface].
 
   ... Select *Power Control*.

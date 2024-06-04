@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storagegrid, mac, mac address
 summary: 'In some cases you might need to update MAC address references after the replacement of an appliance.'
 ---
-= Update MAC address references
+= Update MAC address references (SG100, SG1000, SGF6024, and SG6060)
 :icons: font
 :imagesdir: ../media/
 

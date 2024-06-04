@@ -28,6 +28,8 @@ indexpage:
           url: "../sg5600/index.html" 
         - title: SG5700
           url: "../landing-maintain-sg5700/index.html"
+        - title: SG5800
+          url: "../landing-maintain-sg5800/index.html"
         - title: SG6000
           url: "../landing-maintain-sg6000/index.html"
         - title: SG6100

@@ -22,6 +22,7 @@ To change the link configuration, see the following instructions:
 * link:../sg100-1000/changing-link-configuration-of-services-appliance.html[Change link configuration of the SG100 or SG1000 services appliance]
 * link:../sg110-1100/changing-link-configuration-of-services-appliance.html[Change link configuration of the SG110 or SG1100 services appliance]
 * link:../sg5700/changing-link-configuration-of-e5700sg-controller.html[Change link configuration of the E5700SG controller]
+* link:../sg5800/changing-link-configuration-of-sg5800-controller.html[Change link configuration of the SG5800 controller]
 * link:../sg6000/changing-link-configuration-of-sg6000-cn-controller.html[Change link configuration of the SG6000-CN controller]
 * link:../sg6100/changing-link-configuration-of-sgf6112-appliance.html[Change link configuration of the SG6100 appliance]
 

@@ -2,15 +2,14 @@
 permalink: sg6100/replacing-one-or-more-power-supplies-in-sgf6112-appliance.html
 sidebar: sidebar
 keywords: storagegrid, sg6100, sgf6112, Replacing, replace, power supply, remove, removing, removal, install, installing, installation 
-summary: 'SG6100 series appliances have two power supplies for redundancy. If one of the power supplies fails, you must replace it as soon as possible to ensure that the appliance has redundant power. Both power supplies operating in the appliance must be of the same model and wattage.'
+summary: 'The SGF6112 appliance and SG6100-CN compute node have two power supplies for redundancy. If one of the power supplies fails, you must replace it as soon as possible to ensure that the appliance has redundant power. Both power supplies operating in the appliance must be of the same model and wattage.'
 ---
-
-= Replace one or both power supplies in the SGF6112
+= Replace one or both power supplies in the SGF6112 or SG6100-CN
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-The SGF6112 appliance has two power supplies for redundancy. If one of the power supplies fails, you must replace it as soon as possible to ensure that the appliance has redundant power. Both power supplies operating in the appliance must be of the same model and wattage.
+The SGF6112 appliance and SG6100-CN compute node have two power supplies for redundancy. If one of the power supplies fails, you must replace it as soon as possible to ensure that the appliance has redundant power. Both power supplies operating in the appliance must be of the same model and wattage.
 
 // Same procedure for SG110 and SG1100 - unable to use includes due to specific links in steps.
 
@@ -32,9 +31,9 @@ The SGF6112 appliance has two power supplies for redundancy. If one of the power
 
 .About this task
 
-The figure shows the two power supply units for the SGF6112. The power supplies are accessible from the back of the appliance. 
+The figure shows the two power supply units for the SGF6112 appliance or SG6100-CN compute node. The power supplies are accessible from the back of the appliance. 
 
-image::../media/sgf6112_power_supplies.png[Back of SGF6112 with two power supplies]
+image::../media/sgf6112_power_supplies.png[Back of SGF6112 or SG6100-CN with two power supplies]
 
 .Steps
 
@@ -42,7 +41,7 @@ image::../media/sgf6112_power_supplies.png[Back of SGF6112 with two power suppli
 
 .. link:power-sgf6112-off-on.html#shut-down-the-sgf6112-appliance[Shut down the appliance].
 +
-CAUTION: If you have ever used an ILM rule that creates only one copy of an object and you are replacing both power supplies at the same time, you must replace the power supplies during a scheduled maintenance window. Otherwise, you might temporarily lose access to those objects during this procedure. See information about https://docs.netapp.com/us-en/storagegrid-118/ilm/why-you-should-not-use-single-copy-replication.html[why you should not use single-copy replication^].
+CAUTION: If you have ever used an ILM rule that creates only one copy of an object and you are replacing both power supplies at the same time, you must replace the power supplies during a scheduled maintenance window because you might temporarily lose access to those objects during this procedure. See information about https://docs.netapp.com/us-en/storagegrid-118/ilm/why-you-should-not-use-single-copy-replication.html[why you should not use single-copy replication^].
 
 . [[Unplug_the_power_cord, start=2]]Unplug the power cord from each power supply to be replaced.
 +

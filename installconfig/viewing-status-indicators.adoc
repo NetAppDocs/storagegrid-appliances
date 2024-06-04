@@ -424,6 +424,74 @@ Installation or communication with the E2800 controller has failed.
 
 --
 
+
+
+.SG5800
+--
+
+The appliance controllers include indicators that help you determine the status of the appliance controller:
+
+* <<status_indicators_SG5800_controller,Status indicators on SG5800 controller>>
+* <<general_boot_codes_sg5800,General boot-up codes>>
+* <<boot_codes_SG5800_controller,SG5800 controller boot-up codes>>
+* <<error_codes_SG5800_controller,SG5800 controller error codes>>
+
+Use this information to help link:troubleshooting-hardware-installation.html[troubleshoot SG5800 hardware installation].
+
+
+[[status_indicators_SG5800_controller]]
+Status indicators on SG5800 controller::
++
+After the StorageGRID Appliance Installer has started, you should periodically review the status indicators on the SG5800 controller.
++
+The following figure shows status indicators on the SG5800 controller.
++
+image::../media/sg5800_leds.png[Status indicators on SG5800 controller]
++
+[cols="1a,2a,2a" options="header"]
+|===
+| Callout | Display| Description
+
+| 1
+| Attention LED
+| Amber: The controller is faulty and requires operator attention, or the installation script was not found.
+
+Off: The controller is operating normally.
+
+
+| 2
+| Expansion Port Attention LEDs
+| Amber: These LEDs are always amber (no link established) because the appliance does not use the expansion ports.
+
+| 3
+| Host Port Link Status LEDs
+| Green: The link is up.
+
+Off: The link is down.
+
+| 4
+| Ethernet Link State LEDs
+| Green: A link is established.
+
+Off: No link is established.
+
+| 5
+| Ethernet Activity LEDs
+| Green: The link between the management port and the device to which it is connected (such as an Ethernet switch) is up.
+
+Off: There is no link between the controller and the connected device.
+
+Blinking Green: There is Ethernet activity.
+|===
+
+
+.Related information
+
+* https://mysupport.netapp.com/site/global/dashboard[NetApp Support^]
+
+--
+
+
 .SG6000
 --
 
@@ -528,7 +596,8 @@ Use this information to help link:troubleshooting-hardware-installation-sg6100.h
 [[appliance_indicators_SG6100]]
 Appliance indicators and buttons::
 +
-The following figure shows indicators and buttons on the SGF6112 appliance.
+The following figure shows indicators and buttons on the SG6100 appliances.
+
 +
 image::../media/sgf6112_front_indicators.png[Front Indicators - SGF6112]
 +
@@ -562,7 +631,7 @@ image::../media/sgf6112_front_indicators.png[Front Indicators - SGF6112]
 
 | 5
 | PFR
-| This light is not used by the SGF6112 appliance and remains off. 
+| This light is not used by SG6100 appliances and remains off. 
 
 |===
 
@@ -580,7 +649,7 @@ To view the boot-up and error codes, link:accessing-bmc-interface.html[access th
 [[ssd_indicators_SG6100]]
 SSD indicators::
 +
-The following figure shows SSD indicators on the SGF6112 appliance.
+The following figure shows SSD indicators on the SGF6112 or SG6160 appliance.
 +
 image::../media/ssd_indicators.png[SSD Indicators]
 +
@@ -594,11 +663,17 @@ image::../media/ssd_indicators.png[SSD Indicators]
 * Amber (solid): drive failure
 * Off: slot is empty
 
-*Note:* If a new working SSD is inserted into a working SGF6112 StorageGRID node, the LEDs on the SSD should blink initially, but stop blinking as soon as the system determines that the drive has enough capacity and is functional.
+*Note:* If a new working SSD is inserted into a working SGF6112 or SG6160 StorageGRID node, the LEDs on the SSD should blink initially, but stop blinking as soon as the system determines that the drive has enough capacity and is functional.
 
 | 2
 | Drive active
 | Blue (blinking): drive is being accessed
 |===
+
+
+.Related information
+
+* https://mysupport.netapp.com/site/global/dashboard[NetApp Support^]
+
 --
 ====

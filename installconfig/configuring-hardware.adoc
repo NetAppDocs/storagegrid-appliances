@@ -23,7 +23,7 @@ Depending upon which appliance types you are configuring, additional hardware co
 
 === SANtricity System Manager
 
-For SG6000 and SG5700, you configure SANtricity System Manager. The SANtricity software is used to monitor the hardware for these appliances. 
+For SG6160, SG6000, SG5800, and SG5700, you configure SANtricity System Manager. The SANtricity software is used to monitor the hardware for these appliances. 
 
 === BMC interface 
 The following appliances have a BMC interface that must be configured: 
@@ -38,9 +38,9 @@ The following appliances have a BMC interface that must be configured:
 == Optional configuration
 
 * Storage appliances
-** Configure SANtricity System Manager (SG5700 and SG6000) the software you will use to monitor the hardware
+** Configure SANtricity System Manager (SG5700, SG5800, SG6000, and SG6100) the software you will use to monitor the hardware
 ** Change the RAID mode
-** Access the BMC interface for the SG6000-CN controller
+** Access the BMC interface for the SG6000-CN or SG6100-CN controller
 
 * Services appliances
 ** Access the BMC interface for the SG100, SG110, SG1000, and SG1100

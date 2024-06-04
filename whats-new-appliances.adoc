@@ -14,5 +14,11 @@ summary: "Learn what's new in this doc site."
 [.lead]
 Learn what's new for StorageGRID appliances.
 
+== SG5812 and SG5860 appliances
+The new StorageGRID SG5812 and SG5860 appliances are integrated storage and computing platforms that operate as Storage Nodes in a StorageGRID grid. See the https://docs.netapp.com/us-en/storagegrid-appliances/installconfig/hardware-description-sg5800.html[SG5800 appliances: Overview] to learn more.
+
+== SG6160 appliance
+The new StorageGRID SG6160 appliance includes a compute controller and a storage controller shelf that contains two storage controllers and 60 drives, as well as two NVMe SSD drives for caching. Optionally, 60-drive expansion shelves can be added to the SG6160. See link:installconfig/hardware-description-sg6100.html[SGF6100 appliances: Overview] to learn more.
+
 == SG110 and SG1100 services appliances
-The new StorageGRID SG110 and SG1100 services appliances are an evolutionary hardware update that provides improved administrative and load-balancing performance. See link:./installconfig/hardware-description-sg110-and-1100.html[SG110 and SG1100 services appliance: Overview].
+The new StorageGRID SG110 and SG1100 services appliances are an evolutionary hardware update that provide improved administrative and load-balancing performance. See link:./installconfig/hardware-description-sg110-and-1100.html[SG110 and SG1100 services appliance: Overview].

@@ -1,0 +1,28 @@
+indexpage:
+   tiles:
+    - title: Frequently performed procedures
+      links:
+        - title: Change link configuration
+          url: "../sg5800/changing-link-configuration-of-sg5800-controller.html" 
+        - title: Upgrade SANtricity
+          url: "../sg5800/upgrading-santricity-os-on-storage-controller.html"
+        - title: Upgrade drive firmware
+          url: "../sg5800/upgrading-drive-firmware-using-santricity-system-manager.html"
+    - title: Hardware procedures
+      links:
+        - title: Replace SG5800 compute controller
+          url: "../sg5800/replace-controller-sg5800.html"
+        - title: Replace E4000 storage controller
+          url: "../sg5800/replace-controller-e4000-simplex.html"
+        - title: Replace fan canister 
+          url: "../sg5800/replace-fan-canister.html"
+        - title: Replace power canister
+          url: "../sg5800/replace-power-canister.html"
+        - title: Replace batteries
+          url: "../sg5800/replace-battery-e4000.html"
+        - title: Replace DIMMs
+          url: "../sg5800/replace-dimms-e4000.html"
+        - title: Replace drives
+          url: "../sg5800/replace-drive-e4000.html"
+        - title: Power supply
+          url: "../sg5800/replace-power-supply.html"
