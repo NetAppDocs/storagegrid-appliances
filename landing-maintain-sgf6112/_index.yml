@@ -18,7 +18,7 @@ indexpage:
           url: "../sg6100/verify-component-to-replace.html"
     - title: Rack procedures
       links:
-        - title: Replace SGF6112 appliance 
+        - title: Replace SGF6112 appliance
           url: "../sg6100/replacing-sgf6112-appliance.html"
         - title: Replace SG6100-CN controller (SG6160)
           url: "../sg6100/replacing-sg6100-cn-controller.html"
