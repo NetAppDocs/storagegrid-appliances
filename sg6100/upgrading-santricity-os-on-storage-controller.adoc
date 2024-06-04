@@ -1,0 +1,28 @@
+---
+permalink: sg6100/upgrading-santricity-os-on-storage-controller.html
+sidebar: sidebar
+keywords: storagegrid, sg5800, storage node, storage appliance, controller, storage controller, upgrade, upgrading, SANtricity OS, SANtricity
+summary: 'To ensure optimal functioning of the storage controller, you must upgrade to the latest maintenance release of the SANtricity OS that is qualified for your StorageGRID appliance.'
+---
+= Upgrade SANtricity OS on SG6160 storage controller
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+To ensure optimal functioning of the storage controller, you must upgrade to the latest maintenance release of the SANtricity OS that is qualified for your StorageGRID appliance. 
+
+Determine the newest SANtricity OS version that has been qualified for use on your StorageGRID appliance by consulting https://mysupport.netapp.com/site/products/all/details/storagegrid-appliance/downloads-tab[NetApp Downloads: StorageGRID Appliance] and downloading it if needed.
+
+Download the new SANtricity OS Software file from https://mysupport.netapp.com/site/products/all/details/storagegrid-appliance/downloads-tab[NetApp Downloads: StorageGRID Appliance^].
+
+Use one of the following procedures based on the version of SANtricity OS currently installed:
+
+* You can use the Grid Manager to perform the upgrade.
++
+link:upgrading-santricity-os-on-storage-controllers-using-grid-manager-sg5800.html[Upgrade SANtricity OS on storage controllers using Grid Manager]
+
+* You can use maintenance mode to perform the upgrade.
++
+link:upgrading-santricity-os-on-e4000-controller-using-maintenance-mode.html[Upgrade SANtricity OS on E4000 controller using maintenance mode]
++
+NOTE: For storage controllers currently using SANtricity OS newer than 08.42.20.00 (11.42), it is recommended to link:upgrading-santricity-os-on-storage-controllers-using-grid-manager-sg5800.html[use Grid Manager to apply an upgrade]. However, you may use the maintenance mode procedure if you prefer it or have been instructed to do so by technical support.

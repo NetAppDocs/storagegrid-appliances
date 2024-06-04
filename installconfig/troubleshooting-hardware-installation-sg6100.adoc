@@ -1,17 +1,17 @@
 ---
 permalink: installconfig/troubleshooting-hardware-installation-sg6100.html
 sidebar: sidebar
-keywords: storagegrid, sg6100, sgf6112,troubleshoot, troubleshooting, hardware, install, installation, boot codes, boot-up codes, start codes, codes, boot, start, bmc, error codes, setup, hang, hangs, fails, failure, stop, terminate, terminates, stuck, connection
+keywords: storagegrid, sg6100, sgf6112, troubleshoot, troubleshooting, hardware, install, installation, boot codes, boot-up codes, start codes, codes, boot, start, bmc, error codes, setup, hang, hangs, fails, failure, stop, terminate, terminates, stuck, connection, sg6160, sg5800, e4000
 summary: 'If you encounter issues during the installation, you might find it helpful to review troubleshooting information related to hardware setup and connectivity issues.'
 ---
-= Troubleshoot hardware installation (SG6100)
+= Troubleshoot hardware installation (SG5800 or SG6100)
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 If you encounter issues during the installation, you might find it helpful to review troubleshooting information related to hardware setup and connectivity issues.
 
-== View boot-up codes
+== View boot-up codes (SGF6112 and SG6160 only)
 
 When you apply power to the appliance, the BMC logs a series of boot-up codes. You can view these codes on a graphical console that is connected to the BMC management port.
 
@@ -37,7 +37,7 @@ When you apply power to the appliance, the BMC logs a series of boot-up codes. Y
 
 | Serial port
 | 
-* DB-9 serial cable
+* USB cable
 * Virtual serial terminal
 
 | SOL
@@ -60,7 +60,8 @@ When you apply power to the appliance, the BMC logs a series of boot-up codes. Y
  .. Connect to the IPMI SOL using the BMC IP address and login credentials.
 +
 `ipmitool -I lanplus -H _BMC_Port_IP_ -U admin -P _Password_ sol activate`
-
++
+NOTE: In some cases the default username might be 'root' instead of 'admin'.
 .. View the codes on the virtual serial terminal.
 
 . Use the table to look up the codes for your appliance.
@@ -81,6 +82,18 @@ When you apply power to the appliance, the BMC logs a series of boot-up codes. Y
 | FP
 | The hardware subsystem firmware update checks have been completed. Inter-controller communication services are starting.
 
+| HE
+|
+For the SG6160 only:
+
+The system is awaiting connectivity with the storage controllers and synchronizing with the SANtricity operating system.
+
+*Note*: If the boot-up procedure does not progress past this stage, perform these steps:
+
+.. Confirm that the four interconnect cables between the SG6100-CN controller and the two storage controllers are securely connected.
+.. As required, replace one or more of the cables, and try again.
+.. If this does not resolve the issue, contact technical support.
+
 | HC
 | The system is checking for existing StorageGRID installation data.
 
@@ -91,7 +104,7 @@ When you apply power to the appliance, the BMC logs a series of boot-up codes. Y
 | StorageGRID is running.
 |===
 
-== View error codes
+== View error codes (SGF6112 and SG6160 only)
 
 If a hardware error occurs when the appliance is booting up, the BMC logs an error code. As required, you can view these error codes using the BMC interface, and then work with technical support to resolve the issue.
 
@@ -314,17 +327,44 @@ The StorageGRID Appliance Installer might not be available if hardware faults or
 
 .Steps
 
-. Review the LEDs on the appliance and the boot-up and error codes displayed in the BMC.
+. Review the LEDs on the appliance and/or the boot-up and error codes displayed in the BMC (if equipped).
 . If you need help resolving an issue, contact technical support.
 
 == Connection issues
 
-If you can't connect to the appliance, there might be a network issue, or the hardware installation might not have been completed successfully.
+=== Expansion shelves don't appear in Appliance Installer (SG6160)
+
+If you have installed expansion shelves and they don't appear in the StorageGRID Appliance Installer, you should verify that the shelves have been completely installed and powered on.
+
+.About this task
+
+You can verify that the expansion shelves are connected to the appliance by viewing the following information in the StorageGRID Appliance Installer:
+
+* The *Home* page contains a message about expansion shelves.
++
+image::../media/expansion_shelf_home_page_msg.png[Expansion Shelves Msg]
+
+* The *Advanced* > *RAID Mode* page indicates by number of drives whether or not the appliance includes expansion shelves.
+
+If the StorageGRID Appliance Installer pages don't indicate that expansion shelves are present, follow this procedure.
+
+.Steps
+
+. Verify that all required cables have been firmly connected. See link:cabling-appliance.html[Cable appliance].
+. Verify that you have powered on the expansion shelves. See link:connecting-power-cords-and-applying-power.html[Connect power cords and apply power (SG6100)].
+. If you need help resolving an issue, contact technical support.
+
+
+=== Unable to connect to appliance
+
+If you can't connect to the storage appliance, there might be a network issue, or the hardware installation might not have been completed successfully.
 
 .Steps
 
 . Try to ping the appliance using the IP address for the appliance : +
-`*ping _appliance_IP_*`
++
+`*ping _appliance/controller_IP_*`
+
 . If you receive no response from the ping, confirm you are using the correct IP address.
 +
 You can use the IP address of the appliance on the Grid Network, the Admin Network, or the Client Network.
@@ -336,8 +376,7 @@ You can use the IP address of the appliance on the Grid Network, the Admin Netwo
 If that does not resolve the issue, contact technical support.
 
 . If the ping was successful, open a web browser.
-. Enter the URL for the StorageGRID Appliance Installer: +
+. Enter the URL for the StorageGRID Appliance Installer or SANtricity System Manager: +
 `*https://_appliances_controller_IP_:8443*`
 +
 The Home page appears.
-

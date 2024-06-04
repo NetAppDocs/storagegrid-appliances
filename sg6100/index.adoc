@@ -20,7 +20,7 @@ The procedures in this section assume that the appliance has already been deploy
 * link:power-sgf6112-off-on.html[Shut down the appliance]
 * link:changing-link-configuration-of-sgf6112-appliance.html[Change link configuration of the appliance]
 
-*Hardware maintenance procedures* require the physical manipulation of specific SGF6112 components. 
+*Hardware maintenance procedures* require the physical manipulation of specific SGF6112 or SG6160 components. 
 
 == Drive firmware upgrade
 

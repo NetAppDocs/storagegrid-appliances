@@ -1,0 +1,68 @@
+---
+permalink: sg5800/replace-controller-sg5800.html
+sidebar: sidebar
+keywords: 
+summary: 
+---
+= Replace SG5800 controller
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You might need to replace the SG5800 controller if it is not functioning optimally or if it has failed.
+
+.Before you begin
+
+* You have a replacement controller with the same part number as the controller you are replacing.
+* You have labels to identify each cable that is connected to the controller.
+
+.About this task
+
+The appliance Storage Node will not be accessible when you replace the controller. If the SG5800 controller is functioning sufficiently, you can perform a controlled shutdown at the start of this procedure.
+
+NOTE: If you are replacing the controller before installing StorageGRID software, you might not be able to access the StorageGRID Appliance Installer immediately after completing this procedure. While you can access the StorageGRID Appliance Installer from other hosts on the same subnet as the appliance, you can’t access it from hosts on other subnets. This condition should resolve itself within 15 minutes (when any ARP cache entries for the original controller time out), or you can clear the condition immediately by purging any old ARP cache entries manually from the local router or gateway.
+
+.Steps
+
+. Shut down the SG5800 controller.
+.. Log in to the grid node:
+... Enter the following command: `ssh admin@grid_node_IP`
+... Enter the password listed in the `Passwords.txt` file.
+... Enter the following command to switch to root: `su -`
+... Enter the password listed in the `Passwords.txt` file.
++
+When you are logged in as root, the prompt changes from `$` to `#`.
+.. Shut down the SG5800 controller:
++
+*`shutdown -h now`*
+.. Wait for any data in cache memory to be written to the drives.
++
+The green Cache Active LED on the back of the E4000 controller is on when cached data needs to be written to the drives. You must wait for this LED to turn off.
+. Turn off the power.
+.. From the home page of SANtricity System Manager, select View Operations in Progress.
+.. Confirm that all operations have completed.
+.. Turn off both power switches on the appliance.
+.. Wait for all LEDs to turn off.
+. If the StorageGRID networks attached to the controller use DHCP servers:
+.. Note the MAC addresses for the ports on the replacement controller (located on labels on the controller).
+.. Ask your network administrator to update the IP address settings for the original controller to reflect the MAC addresses for the replacement controller.
++
+NOTE:	You must ensure that the IP addresses for the original controller have been updated before you apply power to the replacement controller. Otherwise, the controller will obtain new DHCP IP addresses when it boots up and might not be able to reconnect to StorageGRID. This step applies to all StorageGRID networks that are attached to the controller.
+. Remove the controller from the appliance:
+.. Put on an ESD wristband or take other antistatic precautions.
+.. Label the cables and then disconnect the cables and SFPs.
++
+NOTE:	To prevent degraded performance, don’t twist, fold, pinch, or step on the cables.
+Release the controller from the appliance by squeezing the latch on the cam handle until it releases, and then open the cam handle to the right.
+.. Using two hands and the cam handle, slide the controller out of the appliance.
++
+NOTE:	Always use two hands to support the weight of the controller.
+. Install the replacement controller into the appliance.
+.. Turn the controller over, so that the removable cover faces down.
+.. With the cam handle in the open position, slide the controller all the way into the appliance.
+.. Move the cam handle to the left to lock the controller in place.
+.. Replace the cables.
+. Power on the appliance, and monitor the controller LEDs.
+. Confirm that the appliance Storage Node appears in the Grid Manager and that no alarms appear.
+
+After replacing the part, return the failed part to NetApp, as described in the RMA instructions shipped with the kit. See the https://mysupport.netapp.com/site/info/rma[Part Return & Replacements] page for further information.

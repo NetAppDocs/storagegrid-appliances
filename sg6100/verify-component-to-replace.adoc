@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: sgf6112
 summary: 'If you are unsure which hardware component to replace in your appliance, complete this procedure to identify the component and the location of the appliance in the data center.'
 ---
-= Verify component to replace in the SGF6112
+= Verify component to replace in the SGF6112 or SG6100-CN
 :icons: font
 :imagesdir: ../media/
 

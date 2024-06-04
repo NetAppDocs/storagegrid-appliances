@@ -1,0 +1,10 @@
+---
+layout: landing-page
+sidebar: sidebar
+permalink: landing-maintain-sg5800/index.html
+summary: Maintain the hardware for your SG5800 storage appliance.
+---
+= Maintain SG5800 storage appliance hardware
+:hardbreaks:
+:linkattrs:
+:imagesdir: ./media/

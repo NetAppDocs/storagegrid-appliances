@@ -110,6 +110,56 @@ image::../media/fc_cable_and_sfp.gif[Optical cables and SFPs]
 
 --
 
+
+.SG5800
+--
+
+* *Hardware*
+
+SG5812 appliance with 12 drives installed::
++
+image::../media/de212c_table_size.gif[SG5812 2U appliance]
+
+SG5860 appliance with no drives installed::
++
+image::../media/de460c_table_size.gif[SG5860 4U appliance]
+
+Front bezel for the appliance::
++
+image::../media/sg5700_front_bezels.gif[Bezels of SG5812 and SG5860]
++
+NOTE: Your bezels might look different.
+
+Rail kit with instructions::
++
+image::../media/rail_kit.gif[Rail kit]
+
+SG5860: Sixty NL-SAS drives::
++
+image::../media/sg5760_drive.gif[Drive]
+
+SG5860: Handles::
++
+image::../media/handles.gif[SG5860 handles]
+
+SG5860: Back brackets and cage nuts for square-hole rack installation::
++
+image::../media/back_brackets_table_size.gif[Back brackets and cage nuts for SG5860]
+
+* *Cables and connectors*
++
+TIP: Your cabinet might have special power cords that you use instead of the power cords that ship with the appliance.
++
+Two power cords for your country::
++
+image::../media/power_cords.gif[Power cords]
+
+Two 25GbE SFP28 cables for controller interconnect (iSCSI)::
++
+image::../media/sg5800_25gbe_sfp28_cable.png[25GbE SFP28 cables]
+
+--
+
 .SG6000
 --
 * *SG6060 hardware*
@@ -212,7 +262,75 @@ image::../media/sas_cable.gif[SAS Cables]
 
 .SG6100
 --
-* *Hardware*
+
+* *SG6160 hardware*
+
+SG6100-CN controller::
++
+image::../media/sg6000_cn_front_without_bezel.gif[SG6100-CN controller]
+
+E4000 controller shelf with no drives installed::
++
+image::../media/de460c_table_size.gif[SG5860 4U appliance]
+
+Two front bezels::
++
+image::../media/sg6000_front_bezels_for_table.gif[Front Bezels]
++
+NOTE: Your bezels might look different.
+
+Two rail kits with instructions::
++
+image::../media/rail_kit.gif[Rail kit]
+
+60 NL-SAS drives::
++
+image::../media/sg5760_drive.gif[Drive]
+
+Four handles::
++
+image::../media/handles.gif[SG5860 handles]
+
+Back brackets and cage nuts for square-hole rack installation::
++
+image::../media/back_brackets_table_size.gif[Back brackets and cage nuts for SG5860]
+
+One 100 GbE to 4x25GbE breakout interconnect cable::
++
+image::../media/sg6100_4x25gbe_spf28_cable.png[100 GbE to 4x25GbE breakout cable]
+
+Four power cords for your country::
++
+image::../media/power_cords.gif[Power cords]
+
+* *SG6160 expansion shelf*
+
+Expansion shelf with no drives installed::
++
+image::../media/de460c_table_size.gif[SG5860 4U appliance]
+
+Front bezel::
++
+image::../media/front_bezel_for_table_de460c.gif[Front Bezel DE460C]
+
+60 NL-SAS drives::
++
+image::../media/sg5760_drive.gif[Drive]
+
+One rail kit with instructions::
++
+image::../media/rail_kit.gif[Rail kit]
+
+Four handles::
++
+image::../media/handles.gif[SG5860 handles]
+
+Back brackets and cage nuts for square-hole rack installation::
++
+image::../media/back_brackets_table_size.gif[Back brackets and cage nuts for SG5860]
+
+
+* *SGF6112 Hardware*
 
 SGF6112::
 +

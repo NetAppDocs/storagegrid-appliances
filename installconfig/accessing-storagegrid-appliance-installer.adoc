@@ -68,9 +68,19 @@ In the sequence:
 NOTE: If an IP address could not be assigned using DHCP, 0.0.0.0 is displayed.
 --
 
+.SG5800
+--
+image::../media/sg5800_admin_network_port.png[Admin Network port on the SG5800 controller]
+--
+
 .SG6000-CN
 --
 image::../media/sg6000_cn_admin_network_port.png[Admin Network port on the SG6000-CN controller]
+--
+
+.SG6100-CN
+--
+image::../media/sg6100_cn_admin_network_port.png[Admin Network port on the SG6000-CN controller]
 --
 
 .SGF6112
@@ -132,12 +142,28 @@ Connect the service laptop to management port 2 on the E5700SG controller, using
 
 image::../media/e5700sg_mgmt_port_2.gif[Location of Management Port 2 on the E5700SG controller]
 --
+
+.SG5800
+--
+Connect the service laptop to  management port 1 on the SG5800 controller, using an Ethernet cable.
+
+image::../media/sg5800_mgmt_port.png[Location of Management Port 1 on the SG5800 controller]
+--
+
 .SG6000-CN
 --
 Connect a service laptop directly to the rightmost RJ-45 port on the SG6000-CN controller, using an Ethernet cable.
 
 image::../media/sg6000_cn_link_local_port.png[Location of Management Port for SG6000-CN]
 --
+
+.SG6100-CN
+--
+Connect a service laptop directly to the rightmost RJ-45 port on the SG6100-CN controller, using an Ethernet cable.
+
+image::../media/sg6100_cn_link_local_port.png[Location of Management Port for SG6100-CN]
+--
+
 .SGF6112
 --
 Connect a service laptop directly to the rightmost RJ-45 port on the appliance, using an Ethernet cable.

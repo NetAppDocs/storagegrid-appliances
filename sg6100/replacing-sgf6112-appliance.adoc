@@ -4,7 +4,6 @@ sidebar: sidebar
 keywords: storagegrid, sgf6112, Replacing, replace, remove, removing, removal, install, installing, installation
 summary: 'You might need to replace the appliance if it is not functioning optimally or if it has failed.'
 ---
-
 = Replace SGF6112 appliance
 :icons: font
 :imagesdir: ../media/
