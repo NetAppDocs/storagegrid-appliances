@@ -35,9 +35,19 @@ To initially access the StorageGRID Appliance Installer, you can use the DHCP-as
 image::../media/sg100_admin_network_port.png[Admin Network port on the SG100]
 --
 
+.SG110
+--
+image::../media/sg6100_admin_network_port.png[Admin Network port on the SG110]
+--
+
 .SG1000
 --
 image::../media/sg1000_admin_network_port.png[Admin Network port on the SG1000]
+--
+
+.SG1100
+--
+image::../media/sg1100_admin_network_port.png[Admin Network port on the SG1100]
 --
 
 .E5700SG
@@ -58,9 +68,19 @@ In the sequence:
 NOTE: If an IP address could not be assigned using DHCP, 0.0.0.0 is displayed.
 --
 
+.SG5800
+--
+image::../media/sg5800_admin_network_port.png[Admin Network port on the SG5800 controller]
+--
+
 .SG6000-CN
 --
 image::../media/sg6000_cn_admin_network_port.png[Admin Network port on the SG6000-CN controller]
+--
+
+.SG6100-CN
+--
+image::../media/sg6100_cn_admin_network_port.png[Admin Network port on the SG6000-CN controller]
 --
 
 .SGF6112
@@ -95,11 +115,25 @@ Connect a service laptop directly to the rightmost RJ-45 port on the services ap
 image::../media/sg100_link_local_port.png[SG100 Link-Local Connection]
 --
 
+.SG110
+--
+Connect a service laptop directly to the rightmost RJ-45 port on the appliance, using an Ethernet cable.
+
+image::../media/sg6100_link_local_port.png[SG110 Link-Local Connection]
+--
+
 .SG1000
 --
 Connect a service laptop directly to the rightmost RJ-45 port on the services appliance, using an Ethernet cable.
 
 image::../media/sg1000_link_local_port.png[SG1000 Link-Local Connection]
+--
+
+.SG1100
+--
+Connect a service laptop directly to the rightmost RJ-45 port on the appliance, using an Ethernet cable.
+
+image::../media/sg1100_link_local_port.png[SG1100 Link-Local Connection]
 --
 
 .E5700SG
@@ -108,12 +142,28 @@ Connect the service laptop to management port 2 on the E5700SG controller, using
 
 image::../media/e5700sg_mgmt_port_2.gif[Location of Management Port 2 on the E5700SG controller]
 --
+
+.SG5800
+--
+Connect the service laptop to  management port 1 on the SG5800 controller, using an Ethernet cable.
+
+image::../media/sg5800_mgmt_port.png[Location of Management Port 1 on the SG5800 controller]
+--
+
 .SG6000-CN
 --
 Connect a service laptop directly to the rightmost RJ-45 port on the SG6000-CN controller, using an Ethernet cable.
 
 image::../media/sg6000_cn_link_local_port.png[Location of Management Port for SG6000-CN]
 --
+
+.SG6100-CN
+--
+Connect a service laptop directly to the rightmost RJ-45 port on the SG6100-CN controller, using an Ethernet cable.
+
+image::../media/sg6100_cn_link_local_port.png[Location of Management Port for SG6100-CN]
+--
+
 .SGF6112
 --
 Connect a service laptop directly to the rightmost RJ-45 port on the appliance, using an Ethernet cable.
@@ -142,3 +192,4 @@ link:verifying-and-upgrading-storagegrid-appliance-installer-version.html[Verify
 * Review any messages displayed on the StorageGRID Appliance Installer Home page and configure the link configuration and the IP configuration, as required.
 +
 image::../media/appliance_installer_home_services_appliance.png[Appliance Installer Home]
+

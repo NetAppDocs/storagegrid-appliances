@@ -1,0 +1,55 @@
+section: sg5800
+title: Maintain SG5800 hardware
+url: "/landing-maintain-sg5800/index.html"
+entries:
+  - title: Overview
+    pdf-filename: SG5800 hardware maintenance
+    url: "/sg5800/index.html"
+  - title: Maintenance configuration procedures
+    pdf-filename: Maintenance configuration procedures - SG5800
+    entries:
+    - title: Upgrade SANtricity OS on storage controller
+      url: "/sg5800/upgrading-santricity-os-on-storage-controller.html"
+      entries:
+      - title: Upgrade SANtricity OS on storage controllers using Grid Manager
+        url: "/sg5800/upgrading-santricity-os-on-storage-controllers-using-grid-manager-sg5800.html"
+      - title: Upgrade SANtricity OS on E4000 controller using maintenance mode
+        url: "/sg5800/upgrading-santricity-os-on-e4000-controller-using-maintenance-mode.html"
+    - title: Upgrade drive firmware using SANtricity System Manager
+      entries:
+      - title: Upgrade SG5800 drive firmware using SANtricity System Manager online method
+        url: "/sg5800/upgrading-drive-firmware-using-santricity-system-manager-online.html"
+      - title: Upgrade SG5800 drive firmware using SANtricity System Manager offline method
+        url: "/sg5800/upgrading-drive-firmware-using-santricity-system-manager-offline.html"
+      - title: Troubleshoot drive firmware upgrade errors
+        url: "/sg5800/troubleshoot-upgrading-drive-firmware-using-santricity-system-manager.html" 
+    - title: Change link configuration of SG5800 controller
+      url: "/sg5800/changing-link-configuration-of-sg5800-controller.html"
+
+
+  - title: Hardware procedures
+    pdf-filename: Hardware procedures - SG5800
+    entries:
+      - title: Replace SG5800 Controller
+        url: "/sg5800/replace-controller-sg5800.html"
+      - title: Replace E4000 controller
+        url: "/sg5800/replace-controller-e4000-simplex.html"
+      - title: Replace fan (SG5860)
+        url: "/sg5800/replace-fan-canister.html"
+      - title: Replace power supply (SG5812)
+        url: "/sg5800/replace-power-supply.html"
+      - title: Replace power canister (SG5860)
+        url: "/sg5800/replace-power-canister.html"
+      - title: Replace batteries
+        url: "/sg5800/replace-battery-e4000.html"
+      - title: Replace DIMMs
+        url: "/sg5800/replace-dimms-e4000.html"
+      - title: Replace drives
+        entries:
+          - title: Overview and requirements
+            url: "/sg5800/replace-drive-e4000.html"
+          - title: SG5812
+            url: "/sg5800/replace-drives-12-24.html"
+          - title: SG5860
+            url: "/sg5800/replace-drives-60.html"
+      

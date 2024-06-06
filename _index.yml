@@ -6,7 +6,7 @@ indexpage:
       - title: Learn about StorageGRID
         url: https://docs.netapp.com/us-en/storagegrid-118/primer/index.html
       - title: StorageGRID quick start
-        url: "https://docs.netapp.com/us-en/storagegrid-118/quick-start.html" 
+        url: "https://docs.netapp.com/us-en/storagegrid-118/primer/quick-start.html" 
       - title: Appliance installation quick start
         url: /installconfig/index.html
       - title: Automate installation and configuration
@@ -16,12 +16,16 @@ indexpage:
     - title: Appliance overviews
       links:            
       - title: SG100 and SG1000
-        url: "/installconfig/hardware-description-sg100-and-1000.html"
+        url: "/installconfig/hardware-description-sg100-and-1000.html"            
+      - title: SG110 and SG1100 (New)
+        url: "/installconfig/hardware-description-sg110-and-1100.html"
       - title: SG5700
         url: "/installconfig/hardware-description-sg5700.html"
+      - title: SG5800
+        url: "/installconfig/hardware-description-sg5800.html"
       - title: SG6000
         url: "/installconfig/hardware-description-sg6000.html"        
-      - title: SG6100 (New)
+      - title: SG6100
         url: "/installconfig/hardware-description-sg6100.html"
     - title: Install hardware
       links:
@@ -37,10 +41,14 @@ indexpage:
       links:
       - title: SG100 and SG1000
         url: /landing-maintain-sg1000-100/index.html
+      - title: SG110 and SG1100
+        url: /landing-maintain-sg1100-110/index.html
       - title: SG5600
         url: /sg5600/index.html
       - title: SG5700
         url: /landing-maintain-sg5700/index.html
+      - title: SG5800
+        url: /landing-maintain-sg5800/index.html
       - title: SG6000
         url: /landing-maintain-sg6000/index.html
       - title: SG6100

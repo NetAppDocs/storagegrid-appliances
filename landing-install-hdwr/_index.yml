@@ -3,7 +3,9 @@ indexpage:
     - title: Install storage appliance in cabinet or rack
       links:
         - title: SG5700
-          url: "../installconfig/installing-appliance-in-cabinet-or-rack-sg5700.html"      
+          url: "../installconfig/installing-appliance-in-cabinet-or-rack-sg5700.html"
+        - title: SG5800
+          url: "../installconfig/installing-appliance-in-cabinet-or-rack-sg5800.html"        
         - title: SG6000
           url: "../installconfig/installing-hardware-sg6000.html"
         - title: SG6100
@@ -12,6 +14,8 @@ indexpage:
       links:
         - title: SG100 and SG1000
           url: "../installconfig/installing-appliance-in-cabinet-or-rack-sg100-and-sg1000.html"
+        - title: SG110 and SG1100
+          url: "../installconfig/installing-appliance-in-cabinet-or-rack-sg110-and-sg1100.html"
     - title: Cable and apply power
       links:
         - title: Connect cables

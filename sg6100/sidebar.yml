@@ -6,9 +6,23 @@ entries:
     pdf-filename: SG6100 hardware maintenance
     url: "/sg6100/index.html"
 
-  - title: Configuration maintenance procedures
-    pdf-filename: Configuration maintenance procedures - SG6100
+  - title: Maintenance configuration procedures
+    pdf-filename: Maintenance configuration procedures - SG6100
     entries:
+    - title: Upgrade SANtricity (SG6160)
+      entries:
+      - title: Upgrade SANtricity OS on storage controllers using Grid Manager
+        url: "/sg6100/upgrading-santricity-os-on-storage-controllers-using-grid-manager-sg6160.html" 
+      - title: Upgrade SANtricity OS on SG6160 controller using maintenance mode
+        url: "/sg6100/upgrading-santricity-os-on-storage-controllers-using-maintenance-mode-sg6160.html"     
+    - title: Upgrade drive firmware using SANtricity System Manager (SG6160)
+      entries:
+      - title: Upgrade SG6100 drive firmware using SANtricity System Manager online method
+        url: "/sg6100/upgrading-drive-firmware-using-santricity-system-manager-online.html"
+      - title: Upgrade SG6100 drive firmware using SANtricity System Manager offline method
+        url: "/sg6100/upgrading-drive-firmware-using-santricity-system-manager-offline.html"
+      - title: Troubleshoot drive firmware upgrade errors
+        url: "/sg6100/troubleshoot-upgrading-drive-firmware-using-santricity-system-manager.html" 
     - title: Use Manage drives tab
       url: "/sg6100/manage-drives-tab.html"
     - title: Turn identify LED on and off
@@ -25,20 +39,55 @@ entries:
     entries:
     - title: Verify component to replace
       url: "/sg6100/verify-component-to-replace.html"    
-    - title: Replace one or more power supplies 
-      url: "/sg6100/replacing-one-or-more-power-supplies-in-sgf6112-appliance.html"
     - title: Replace fan
-      url: "/sg6100/replacing-fan-in-sgf6112.html"
+      entries:
+        - title: SGF6112 or SG6100-CN (SG6160)
+          url: "/sg6100/replacing-fan-in-sgf6112.html"
+        - title: Storage controller shelf or expansion shelf (SG6160)
+          url: "/sg6100/replace-e4000-fan-canister.html"
+    - title: Replace power supply
+      entries:
+        - title: SGF6112 or SG6100-CN (SG6160)
+          url: "/sg6100/replacing-one-or-more-power-supplies-in-sgf6112-appliance.html"
+        - title: Storage controller shelf or expansion shelf (SG6160)
+          url: "/sg6100/replace-6100-cn-power-canister.html"
     - title: Replace drive
-      url: "/sg6100/replacing-drive-in-sgf6112.html"
+      entries:
+      - title: SGF6112
+        url: "/sg6100/replacing-drive-in-sgf6112.html"
+      - title: SG6100-CN (SG6160)
+        url: "/sg6100/replace-drive-sg6100-cn.html"
+      - title: Storage controller shelf or expansion shelf (SG6160)
+        url: "/sg6100/replace-6160-drives-60.html"
     - title: Replace NIC
-      url: "/sg6100/replace-nic-in-sgf6112.html"
+      entries:
+        - title: Internal NIC (SGF6112 and SG6160)
+          url: "/sg6100/replace-nic-in-sgf6112.html"
+        - title: External NIC (SG6160)
+          url: "/sg6100/replace-ocp-nic-in-sg6100-cn.html"
     - title: Replace CMOS battery
       url: "/sg6100/replace-cmos-in-sgf6112.html"  
+    - title: Replace DIMMs
+      url: "/sg6100/replace-dimms-e4000.html"
+    - title: Replace batteries
+      url: "/sg6100/replace-battery-e4000.html"
     - title: Replace cover
-      url: "/sg6100/reinstalling-sgf6112-cover.html"    
-    - title: Replace SGF6112 appliance
-      url: "/sg6100/replacing-sgf6112-appliance.html"
-    - title: Relocate SGF6112 in rack
+      url: "/sg6100/reinstalling-sgf6112-cover.html" 
+    - title: Add expansion shelf to deployed SG6160
+      url: "/sg6100/adding-expansion-shelf-to-deployed-sg6160.html"   
+    - title: Replace appliance
+      entries:
+        - title: SGF6112
+          url: "/sg6100/replacing-sgf6112-appliance.html"
+        - title: SG6100-CN controller (SG6160)
+          url: "/sg6100/replacing-sg6100-cn-controller.html"
+        - title: E4000 controller (SG6160)
+          url: "/sg6100/replace-controller-e4000-duplex.html"
+    - title: Relocate in rack
       url: "/sg6100/reinstalling-sgf6112-into-cabinet-or-rack.html"
+
+
+
+
+
       

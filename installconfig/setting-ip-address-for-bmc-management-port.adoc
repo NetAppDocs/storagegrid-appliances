@@ -9,7 +9,7 @@ summary: 'Before you can access the BMC interface, you must configure the IP add
 :imagesdir: ../media/
 
 [.lead]
-Before you can access the BMC interface, configure the IP address for the BMC management port on the SGF6112, SG6000-CN controller, or services appliances.
+Before you can access the BMC interface, configure the IP address for the BMC management port on the SGF6112, SG6000-CN controller, SG6100-CN controller or services appliances.
 
 If you are using ConfigBuilder to generate a JSON file, you can configure IP addresses automatically. See link:automating-appliance-installation-and-configuration.html[Automate appliance installation and configuration].
 
@@ -26,10 +26,19 @@ If you are using ConfigBuilder to generate a JSON file, you can configure IP add
 --
 image::../media/sg100_bmc_management_port.png[SG100 BMC Management Port]
 --
+.SG110
+--
+image::../media/sgf6112_cn_bmc_management_port.png[BMC management port SG110]
+--
 
 .SG1000
 --
 image::../media/sg1000_bmc_management_port.png[SG1000 BMC Management Port]
+--
+
+.SG1100
+--
+image::../media/sg1100_bmc_management_port.png[BMC management port SG1100]
 --
 
 .SG6000
@@ -39,7 +48,13 @@ image::../media/sg6000_cn_bmc_management_port.gif[BMC management port on SG6000-
 
 .SG6100
 --
+_SGF6112_:
+
 image::../media/sgf6112_cn_bmc_management_port.png[BMC management port SGF6112]
+
+_SG6100-CN_:
+
+image::../media/sg6100_cn_bmc_management_port.png[BMC management port SG610-CN]
 --
 
 ====

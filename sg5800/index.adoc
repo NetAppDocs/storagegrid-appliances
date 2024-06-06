@@ -1,0 +1,18 @@
+---
+permalink: sg5800/index.html
+sidebar: sidebar
+keywords: 
+summary: 
+---
+= Maintain SG5800 appliance
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You might need to upgrade the SANtricity OS Software on the E4000 controller, change the Ethernet link configuration of the SG5800 controller, replace the E4000 controller or the SG5800 controller, or replace specific components. The procedures in this section assume that the appliance has already been deployed as a Storage Node in a StorageGRID system.
+
+Procedures specific to maintaining your SG5800 appliance are in this section. 
+
+See link:../commonhardware/index.html[Common procedures] for maintenance procedures that are used by all appliances. 
+
+See link:../installconfig/configuring-hardware.html[Set up hardware] for maintenance procedures that are also performed during initial appliance installation and configuration.

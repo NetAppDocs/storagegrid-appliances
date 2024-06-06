@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storagegrid, sgf6112, appliance, locate, find, locating, finding, identify, blue led, blue light
 summary: 'Locate the appliance so that you can perform hardware maintenance or upgrades.'
 ---
-= Locate SGF6112 appliance in data center
+= Locate SGF6112 appliance or SG6100-CN controller in data center
 :icons: font
 :imagesdir: ../media/
 
@@ -21,7 +21,7 @@ include::../_include/2023-locate-appliance.adoc[]
 
 .After you finish
 
-link:turning-sgf6112-identify-led-on-and-off.html[Turn off the blue identify LED] if you used it to locate the appliance.
+link:turning-sgf6112-identify-led-on-and-off.html[Turn off the blue identify LED] using one of the following methods if you used it to locate the appliance:
  ** Press the identify LED switch on the appliance front panel.
  ** Use the appliance BMC interface.
  

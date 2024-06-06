@@ -18,7 +18,6 @@ These instructions describe procedures common to all nodes such as how to apply 
 
 NOTE: In these instructions, "`Linux`" refers to a Red Hat® Enterprise Linux®, Ubuntu®, or Debian® deployment. Use the https://imt.netapp.com/matrix/#welcome[NetApp Interoperability Matrix Tool (IMT)^] to get a list of supported versions. 
 
-
 == Before you begin
 
 * You have a broad understanding of the StorageGRID system. 
@@ -37,6 +36,10 @@ Specific maintenance procedures for each type of StorageGRID appliance are in th
 
 * link:../sg6000/index.html[Maintain SG6000 appliance]
 
+* link:../sg5800/index.html[Maintain SG5800 appliance]
+
 * link:../sg5700/index.html[Maintain SG5700 appliance]
+
+* link:../sg110-1100/index.html[Maintain SG110 and SG1100 appliances]
 
 * link:../sg100-1000/index.html[Maintain SG100 and SG1000 appliances]

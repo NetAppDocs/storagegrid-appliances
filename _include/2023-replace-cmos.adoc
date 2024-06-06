@@ -4,7 +4,7 @@
 .About this task
 To prevent service interruptions, confirm that all other Storage Nodes are connected to the grid before starting the CMOS battery replacement or replace the battery during a scheduled maintenance window when periods of service disruption are acceptable. See the information about https://docs.netapp.com/us-en/storagegrid-118/monitor/monitoring-system-health.html#monitor-node-connection-states[monitoring node connection states^].
 
-CAUTION: If you have ever used an ILM rule that creates only one copy of an object, you must replace the battery during a scheduled maintenance window. Otherwise, you might temporarily lose access to those objects during this procedure. See information about https://docs.netapp.com/us-en/storagegrid-118/ilm/why-you-should-not-use-single-copy-replication.html[why you should not use single-copy replication^].
+CAUTION: If you have ever used an ILM rule that creates only one copy of an object, you must replace the battery during a scheduled maintenance window because you might temporarily lose access to those objects during this procedure. See information about https://docs.netapp.com/us-en/storagegrid-118/ilm/why-you-should-not-use-single-copy-replication.html[why you should not use single-copy replication^].
 
 .Steps
 
@@ -47,7 +47,7 @@ Install the replacement CMOS battery into the socket on the system board.
 +
 image::../media/sgf6112_two-slot-riser_alignment_hole.png[Alignment hole on large riser assembly]
 +
-. Locate the guide pin on the system board. 
+. Locate the guide pin on the system board 
 +
 image::../media/sgf6112_two-slot-riser_guide-pin.png[Guide pin on system board for two-slot riser assembly]
 
@@ -68,7 +68,7 @@ image::../media/sgf6112_two-slot-riser_guide-pin.png[Guide pin on system board f
   .. Enter the password listed in the `Passwords.txt` file.
   .. Enter the following command to switch to root: `su -`
   .. Enter the password listed in the `Passwords.txt` file.
-. Restore BMC network connectivity for the appliance using one of these options: 
+. Restore BMC network connectivity for the appliance. There are two options: 
 * Use static IP, netmask, and gateway 
 * Use DHCP to obtain an IP, netmask, and gateway
 

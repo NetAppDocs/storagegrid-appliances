@@ -28,7 +28,7 @@ CAUTION: If you remove the working drive, you will bring down the appliance node
 
 .Steps
 
-. Verify that the drive to be replaced has the left LED blinking amber. If a drive issue was reported in the Grid Manager or BMC UIs, HDD02 or HDD2 refer to the drive in the upper slot, and HDD03 or HDD3 refer to the drive in the lower slot.
+. Verify that the drive to be replaced has the left LED blinking amber. If a drive issue was reported in the Grid Manager or BMC user interface, HDD02 or HDD2 refer to the drive in the upper slot, and HDD03 or HDD3 refer to the drive in the lower slot.
 +
 You can also use the Grid Manager to monitor the status of the SSDs. Select *NODES*. Then select `*Appliance Node*` > *Hardware*. If a drive has failed, the Storage RAID Mode field contains a message about which drive has failed.
 

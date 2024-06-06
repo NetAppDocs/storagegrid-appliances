@@ -1,0 +1,81 @@
+---
+permalink: sg110-1100/reinstalling-sg110-and-sg1100-into-cabinet-or-rack.html
+sidebar: sidebar
+keywords: storagegrid, sg110, sg1100, admin node, admin appliance, install, installing, installation, cabinet, rack
+summary: 'Remove the SG110 or SG1100 from a cabinet or rack to access the top cover or to move the appliance to a different location, then reinstall the appliance into a cabinet or rack when hardware maintenance is complete.'
+---
+
+= Relocate SG110 and SG1100 in cabinet or rack
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Remove the SG110 or SG1100 from a cabinet or rack to access the top cover or to move the appliance to a different location, then reinstall the appliance into a cabinet or rack when hardware maintenance is complete.
+
+// Same procedure for SGF6112 - unable to use includes due to specific links in steps
+
+[#remove-from-rack]
+== Remove SG110 or SG1100 from cabinet or rack
+
+.Before you begin
+
+* You have labels to identify each cable that is connected to the SG110 or SG1100.
+* You have link:locating-sg110-and-sg1100-in-data-center.html[physically located the SG110 or SG1100] where you are performing maintenance in the data center.
+
+* You have link:power-sg110-and-sg1100-off-on.html#shut-down-the-appliance[shut down the SG110 or SG1100].
++
+CAUTION: Don't shut down the appliance using the power switch.
+
+.Steps
+
+. Label and then disconnect the appliance power cables.
+. Wrap the strap end of the ESD wristband around your wrist, and secure the clip end to a metal ground to prevent static discharge.
+. Label and then disconnect the appliance data cables and any SFP+ or SFP28 transceivers.
++
+IMPORTANT: To prevent degraded performance, don't twist, fold, pinch, or step on the cables.
+
+. Loosen the two captive screws on the appliance front panel.
++
+image::../media/sg6060_rack_retaining_screws.png[SG110 or SG1100 rack retaining screws]
+
+. Slide the SG110 or SG1100 forward out of the rack until the mounting rails are fully extended and you hear the latches on both sides click.
++
+The appliance top cover is accessible.
+
+. Optional: If you are fully removing the appliance from the cabinet or rack, follow the instructions for the rail kit to remove the appliance from the rails.
+
+include::../_include/fru-statement.adoc[]
+
+
+== Reinstall SG110 or SG1100 into cabinet or rack
+
+.Before you begin
+
+You have reinstalled the appliance cover.
+
+link:reinstalling-sg110-and-sg1100-cover.html[Reinstall SG110 or SG1100 cover]
+
+.Steps
+
+. Press the blue rail releases both rack rails at the same time and slide the SG110 or SG1100 into the rack until it is fully seated.
++
+When you can't move the controller any further, pull the blue latches on both sides of the chassis to slide the controller all the way in.
++
+image::../media/sg6000_cn_rails_blue_button.gif[SG110 or SG1100 sliding on rails]
++
+NOTE: Don't attach the front bezel until after you power on the controller.
+
+. Tighten the captive screws on the controller front panel to secure the controller in the rack.
++
+image::../media/sg6060_rack_retaining_screws.png[SG110 or SG1100 rack retaining screws]
+
+. Wrap the strap end of the ESD wristband around your wrist, and secure the clip end to a metal ground to prevent static discharge.
+. link:../installconfig/cabling-appliance.html[Reconnect the controller data cables and any SFP+ or SFP28 transceivers].
++
+IMPORTANT: To prevent degraded performance, don't twist, fold, pinch, or step on the cables.
+
+. link:../installconfig/connecting-power-cords-and-applying-power.html[Reconnect the controller power cables].
+
+.After you finish
+
+link:power-sg110-and-sg1100-off-on.html#power-on-sg110-or-sg1100-and-verify-operation.html[Restart the appliance].
