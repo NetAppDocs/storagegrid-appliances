@@ -10,6 +10,8 @@ indexpage:
           url: "../commonhardware/checking-dns-server-configuration.html"
         - title: Update MAC address
           url: "../commonhardware/locate-mac-address.html"
+        - title: Manage drives
+          url: "../commonhardware/manage-drives-tab.html"
         - title: Monitor node encryption
           url: "../commonhardware/monitoring-node-encryption-in-maintenance-mode.html"
     - title: Node cloning
