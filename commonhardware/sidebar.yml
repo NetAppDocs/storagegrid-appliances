@@ -12,6 +12,8 @@ entries:
     url: "/commonhardware/checking-dns-server-configuration.html"
   - title: Update MAC address references (SG100, SG1000, SGF6024, and SG6060)
     url: "/commonhardware/locate-mac-address.html"
+  - title: Use Manage drives tab (SG110, SG1100, SGF6112, and SG6160)
+    url: "/commonhardware/manage-drives-tab.html"
   - title: Monitor node encryption in maintenance mode
     url: "/commonhardware/monitoring-node-encryption-in-maintenance-mode.html"
 
