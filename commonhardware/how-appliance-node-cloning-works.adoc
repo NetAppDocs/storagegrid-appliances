@@ -121,7 +121,7 @@ You can successfully clone an SG5812 as the source or the target.
 
 === SG5860 appliance cloning information and restrictions
 
-You can successfully clone an SG5860 as the source or the target with some restrictions (listed by source).
+You can successfully clone an SG5860 as the source or the target with some restrictions (listed in the appliance cloning information and restrictions for each source).
 
 === SG6060 appliance cloning information and restrictions
 
@@ -139,7 +139,7 @@ You can successfully clone an SG5860 as the source or the target with some restr
 
 === SG6160 appliance cloning information and restrictions
 
-You can successfully clone an SG6160 as the source or the target with some restrictions (listed by source).
+You can successfully clone an SG6160 as the source or the target with some restrictions (listed in the appliance cloning information and restrictions for each source).
 
 
 
