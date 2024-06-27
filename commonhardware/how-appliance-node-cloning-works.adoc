@@ -29,33 +29,6 @@ Cloning transfers data from the source node directly to the target appliance ove
 
 When you install the replacement appliance, you must specify temporary IP addresses for StorageGRID connection and data transfer. Because the replacement appliance will be part of the same networks as the appliance node it replaces, you must specify temporary IP addresses for each of these networks on the replacement appliance.
 
-== Target appliance compatibility
-
-Replacement appliances must be the same type as the source node they are replacing and both must be part of the same logical StorageGRID site.
-
-* A replacement services appliance can be different than the Admin Node or Gateway Node it is replacing.
- ** You can clone an SG100 source node appliance to an SG110, SG1000, or SG1100 services target appliance. Cloning the SG100 to an SG1000 or SG1100 services target appliance gives the Admin Node or Gateway Node greater capability.
- ** You can clone an SG110 source node appliance to an SG1100 services appliance target to give the Admin Node or Gateway Node greater capability.
- ** You can clone an SG1000 source node appliance to an SG100, SG110, or SG1100 services target appliance. Cloning the SG1000 to an SG100 or SG110 services target appliance lets you redeploy the SG1000 for a more demanding application.
- ** You can clone an SG1100 source node appliance to an SG110 services target appliance to redeploy the SG1100 for a more demanding application.
-+
-For example, if an SG1100 or SG1000 source node appliance is being used as an Admin Node and you want to use it as a dedicated load-balancing node.
-
- ** Replacing an SG1100 source node appliance with an SG110 services target appliance reduces the maximum speed of the network ports from 100-GbE to 25-GbE.
- ** Replacing an SG1000 source node appliance with an SG100 services target appliance reduces the maximum speed of the network ports from 100-GbE to 25-GbE.
- ** The services appliances have different network connectors. Changing the appliance type might require replacing the cables or SFP modules.
-* A replacement storage appliance must have greater capacity than the Storage Node it is replacing.
- ** If the target storage appliance has the same number of drives as the source node, the drives in the target appliance must have greater capacity (in TB).
- **  If you plan to use the same RAID mode on the target node as was used on the source node, or a less storage efficient RAID mode (for example, switching from RAID 6 to DDP), the drives in the target appliance must be larger (in TB) than the drives in the source appliance.
- ** If the number of standard drives installed in a target storage appliance is less than the number of drives in the source node, due to installation of solid-state drives (SSDs), the overall storage capacity of the standard drives in the target appliance (in TB) must exceed the total functional drive capacity of all drives in the source Storage Node.
-+
-For example, when cloning an SG5760 source Storage Node appliance with 60 drives to an SG6060 target appliance with 58 standard drives, larger drives should be installed in the SG6060 target appliance before cloning to maintain storage capacity. (The two drive slots containing SSDs in the target appliance aren't included in the total appliance-storage capacity.)
-+
-However, if a 60-drive SG5760 source node appliance is configured with SANtricity Dynamic Disk Pools DDP-8, configuring a 58-drive same-size-drive SG6060 target appliance with DDP-16 might make the SG6060 appliance a valid clone target due to its improved storage efficiency.
-+
-You can view information about the current RAID mode of the source appliance node on the *NODES* page in Grid Manager. Select the *Storage* tab for the appliance.
-* The number of volumes in a target storage appliance must be greater than or equal to the number of volumes in the source node. You cannot clone a source node with 16 object store volumes (rangedb) to a target storage appliance with 12 object store volumes even if the target appliance has larger capacity than the source node. Most storage appliances have 16 object store volumes, except the SGF6112 storage appliance that has only 12 object store volumes. 
-
 == What information is not cloned?
 
 The following appliance configurations don't transfer to the replacement appliance during cloning. You must configure them during initial set up of the replacement appliance.
@@ -76,3 +49,105 @@ If any of the following issues are encountered while cloning, the cloning proces
 * For Storage Nodes, a replacement appliance of insufficient capacity
 
 You must resolve each issue for cloning to continue.
+
+== Target appliance compatibility
+
+Replacement appliances must be the same type as the source node they are replacing and both must be part of the same logical StorageGRID site.
+
+Review the general cloning considerations and specific cloning information and restrictions for each appliance type before cloning.
+
+=== General services appliance cloning considerations
+
+ * A replacement services appliance can be different than the Admin Node or Gateway Node it is replacing.
+
+ * The services appliances have different network connectors. Changing the appliance type might require replacing the cables or SFP modules.
+
+=== General storage appliance cloning considerations
+
+* A replacement storage appliance must have greater capacity than the Storage Node it is replacing.
+
+ ** If the target storage appliance has the same number of drives as the source node, the drives in the target appliance must have greater capacity (in TB).
+ **  If you plan to use the same RAID mode on the target node as was used on the source node, or a less storage efficient RAID mode (for example, switching from RAID 6 to DDP), the drives in the target appliance must be larger (in TB) than the drives in the source appliance.
+ ** If the number of standard drives installed in a target storage appliance is less than the number of drives in the source node, due to installation of solid-state drives (SSDs), the overall storage capacity of the standard drives in the target appliance (in TB) must exceed the total functional drive capacity of all drives in the source Storage Node.
++
+For example, when cloning an SG5760 source Storage Node appliance with 60 drives to an SG6060 target appliance with 58 standard drives, larger drives should be installed in the SG6060 target appliance before cloning to maintain storage capacity. (The two drive slots containing SSDs in the target appliance aren't included in the total appliance-storage capacity.)
++
+However, if a 60-drive SG5760 source node appliance is configured with SANtricity Dynamic Disk Pools DDP-8 (DDP), configuring a 58-drive same-size-drive SG6060 target appliance with DDP-16 might make the SG6060 appliance a valid clone target due to its improved storage efficiency.
++
+You can view information about the current RAID mode of the source appliance node on the *NODES* page in Grid Manager. Select the *Storage* tab for the appliance.
+
+** The number of volumes in a target storage appliance must be greater than or equal to the number of volumes in the source node. You cannot clone a source node with 16 object store volumes (rangedb) to a target storage appliance with 12 object store volumes even if the target appliance has larger capacity than the source node. Most storage appliances have 16 object store volumes, except the SGF6112 storage appliance that has only 12 object store volumes. 
+
+=== SG100 appliance cloning information and restrictions
+
+You can clone an SG100 source node appliance to an SG110, SG1000, or SG1100 services target appliance. Cloning the SG100 to an SG1000 or SG1100 services target appliance gives the Admin Node or Gateway Node greater capability.
+
+=== SG110 appliance cloning information and restrictions
+
+You can clone an SG110 source node appliance to an SG1100 services appliance target to give the Admin Node or Gateway Node greater capability.
+
+=== SG1000 appliance cloning information and restrictions
+
+You can clone an SG1000 source node appliance to an SG100, SG110, or SG1100 services target appliance. 
+* Cloning the SG1000 to an SG100 or SG110 services target appliance lets you redeploy the SG1000 for a more demanding application. 
+* Replacing an SG1000 source node appliance with an SG100 services target appliance reduces the maximum speed of the network ports from 100-GbE to 25-GbE.
+
+=== SG1100 appliance cloning information and restrictions
+
+You can clone an SG1100 source node appliance to an SG110 services target appliance.
+* Cloning the SG1100 to an SG110 services target appliance lets you redeploy the SG1100 for a more demanding application. For example, if an SG1100 source node appliance is being used as an Admin Node and you want to use it as a dedicated load-balancing node. 
+* Replacing an SG1100 source node appliance with an SG110 services target appliance reduces the maximum speed of the network ports from 100-GbE to 25-GbE.
+
+=== SG5712 appliance cloning information and restrictions
+
+You can clone an SG5712 source node appliance configured with DDP to an SG5812 services target appliance.
+
+=== SG5760 appliance cloning information and restrictions
+
+* You can clone an SG5760 source node appliance configured with DDP16 to an SG5860 services target appliance.
+
+* An SG5760 source node appliance configured with DDP can _not_ be cloned to an SG5860 services target appliance.
+
+* An SG5760 source node appliance configured with DDP or DDP-16 can _not_ be cloned to an SG5860 services target appliance.
+
+=== SG5812 appliance cloning information and restrictions
+
+You can successfully clone an SG5812 as the source or the target.
+
+=== SG5860 appliance cloning information and restrictions
+
+You can successfully clone an SG5860 as the source or the target with some restrictions.
+
+=== SG6060 appliance cloning information and restrictions
+
+* You can clone an SG6060 source node appliance configured with DDP or DDP16 to an SG5860 services target appliance.
+
+* You can clone an SG6060 source node appliance with one expansion shelf that is configured with DDP or DDP16 to an SG6160 services target appliance with one expansion shelf.
+
+* You can clone an SG6060 source node appliance with 4TB HDDs to an SG6160 services target appliance with 4TB HDDs if the RAID modes and node encryption status are the same.
+
+* You can clone an SG6060 source node appliance with two expansion shelves that is configured with DDP-16 to an SG6160 services target appliance with two expansion shelves.
+
+* An SG6060 source node appliance with two expansion shelves that is configured with DDP can _not_ be cloned to an SG6160 services target appliance with two expansion shelves.
+
+* An SG6060 source node appliance with three expansion shelves that is configured with DDP or DDP-16 can _not_ be cloned to an SG6160 services target appliance with three expansion shelves.
+
+=== SG6160 appliance cloning information and restrictions
+
+You can successfully clone an SG6160 as the source or the target with some restrictions.
+
+
+
+
+
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+ 
