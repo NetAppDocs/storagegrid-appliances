@@ -105,41 +105,41 @@ You can clone an SG1100 source node appliance to an SG110 services target applia
 
 === SG5712 appliance cloning information and restrictions
 
-You can clone an SG5712 source node appliance configured with DDP to an SG5812 services target appliance.
+You can clone an SG5712 source node appliance configured with DDP to an SG5812 storage target appliance.
 
 === SG5760 appliance cloning information and restrictions
 
-* You can clone an SG5760 source node appliance configured with DDP16 to an SG5860 services target appliance.
+* You can clone an SG5760 source node appliance configured with DDP16 to an SG5860 storage target appliance.
 
-* An SG5760 source node appliance configured with DDP can _not_ be cloned to an SG5860 services target appliance.
+* An SG5760 source node appliance configured with DDP can _not_ be cloned to an SG5860 storage target appliance.
 
-* An SG5760 source node appliance configured with DDP or DDP-16 can _not_ be cloned to an SG5860 services target appliance.
+* An SG5760 source node appliance configured with DDP or DDP-16 can _not_ be cloned to an SG5860 storage target appliance.
 
 === SG5812 appliance cloning information and restrictions
 
-You can successfully clone an SG5812 as the source or the target.
+You can successfully clone an SG5812 appliance as the source or the target.
 
 === SG5860 appliance cloning information and restrictions
 
-You can successfully clone an SG5860 as the source or the target with some restrictions (listed in the appliance cloning information and restrictions for each source).
+You can successfully clone an SG5860 appliance as the source or the target with some restrictions (listed in the appliance cloning information and restrictions for each source).
 
 === SG6060 appliance cloning information and restrictions
 
-* You can clone an SG6060 source node appliance configured with DDP or DDP16 to an SG5860 services target appliance.
+* You can clone an SG6060 source node appliance configured with DDP or DDP16 to an SG5860 storage target appliance.
 
-* You can clone an SG6060 source node appliance with one expansion shelf that is configured with DDP or DDP16 to an SG6160 services target appliance with one expansion shelf.
+* You can clone an SG6060 source node appliance with one expansion shelf that is configured with DDP or DDP16 to an SG6160 storage target appliance with one expansion shelf.
 
-* You can clone an SG6060 source node appliance with 4TB HDDs to an SG6160 services target appliance with 4TB HDDs if the RAID modes and node encryption status are the same.
+* You can clone an SG6060 source node appliance with 4TB HDDs to an SG6160 storage target appliance with 4TB HDDs if the RAID modes and node encryption status are the same.
 
-* You can clone an SG6060 source node appliance with two expansion shelves that is configured with DDP-16 to an SG6160 services target appliance with two expansion shelves.
+* You can clone an SG6060 source node appliance with two expansion shelves that is configured with DDP-16 to an SG6160 storage target appliance with two expansion shelves.
 
-* An SG6060 source node appliance with two expansion shelves that is configured with DDP can _not_ be cloned to an SG6160 services target appliance with two expansion shelves.
+* An SG6060 source node appliance with two expansion shelves that is configured with DDP can _not_ be cloned to an SG6160 storage target appliance with two expansion shelves.
 
-* An SG6060 source node appliance with three expansion shelves that is configured with DDP or DDP-16 can _not_ be cloned to an SG6160 services target appliance with three expansion shelves.
+* An SG6060 source node appliance with three expansion shelves that is configured with DDP or DDP-16 can _not_ be cloned to an SG6160 storage target appliance with three expansion shelves.
 
 === SG6160 appliance cloning information and restrictions
 
-You can successfully clone an SG6160 as the source or the target with some restrictions (listed in the appliance cloning information and restrictions for each source).
+You can successfully clone an SG6160 appliance as the source or the target with some restrictions (listed in the appliance cloning information and restrictions for each source).
 
 
 
