@@ -31,7 +31,7 @@ When you install the replacement appliance, you must specify temporary IP addres
 
 == What information is not cloned?
 
-The following appliance configurations don't transfer to the replacement appliance during cloning. You must configure them during initial set up of the replacement appliance.
+The following appliance configurations don't transfer to the replacement appliance during cloning. You must configure them during initial setup of the replacement appliance.
 
 * BMC interface
 * Network links
@@ -58,7 +58,7 @@ Review the general cloning considerations and specific cloning information and r
 
 === General services appliance cloning considerations
 
- * A replacement services appliance can be different than the Admin Node or Gateway Node it is replacing.
+ * A replacement services appliance can be a different model than the Admin Node or Gateway Node it is replacing.
 
  * The services appliances have different network connectors. Changing the appliance type might require replacing the cables or SFP modules.
 
@@ -109,11 +109,11 @@ You can clone an SG5712 source node appliance configured with DDP to an SG5812 s
 
 === SG5760 appliance cloning information and restrictions
 
-* You can clone an SG5760 source node appliance configured with DDP16 to an SG5860 storage target appliance.
+* You can clone an SG5760 source node appliance configured with DDP16 to an SG5860 storage target appliance configured with DDP16.
 
-* An SG5760 source node appliance configured with DDP can _not_ be cloned to an SG5860 storage target appliance.
+* An SG5760 source node appliance configured with DDP _cannot_ be cloned to an SG5860 storage target appliance configured with DDP.
 
-* An SG5760 source node appliance configured with DDP or DDP-16 can _not_ be cloned to an SG5860 storage target appliance.
+* An SG5760 source node appliance configured with DDP or DDP-16 _cannot_ be cloned to an SG6160 storage target appliance with a matching RAID mode.
 
 === SG5812 appliance cloning information and restrictions
 
@@ -127,15 +127,9 @@ You can successfully clone an SG5860 appliance as the source or the target with 
 
 * You can clone an SG6060 source node appliance configured with DDP or DDP16 to an SG5860 storage target appliance.
 
-* You can clone an SG6060 source node appliance with one expansion shelf that is configured with DDP or DDP16 to an SG6160 storage target appliance with one expansion shelf.
+* You can clone an SG6060 source node appliance without any expansion shelves to an SG6160 storage target appliance without any expansion shelves if the drive sizes and RAID modes are the same.
 
-* You can clone an SG6060 source node appliance with 4TB HDDs to an SG6160 storage target appliance with 4TB HDDs if the RAID modes and node encryption status are the same.
-
-* You can clone an SG6060 source node appliance with two expansion shelves that is configured with DDP-16 to an SG6160 storage target appliance with two expansion shelves.
-
-* An SG6060 source node appliance with two expansion shelves that is configured with DDP can _not_ be cloned to an SG6160 storage target appliance with two expansion shelves.
-
-* An SG6060 source node appliance with three expansion shelves that is configured with DDP or DDP-16 can _not_ be cloned to an SG6160 storage target appliance with three expansion shelves.
+* An SG6060 source node appliance with any number of expansion shelves _cannot_ be cloned to an SG6160 storage target appliance even if the number of expansion shelves, drive sizes, and RAID modes are the same.
 
 === SG6160 appliance cloning information and restrictions
 
