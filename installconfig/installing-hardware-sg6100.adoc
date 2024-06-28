@@ -25,6 +25,6 @@ For the SG6160 and SGF6112, you install rails in your cabinet or rack and slide 
 
 | SG6160
 | SG6100-CN compute controller
-| link:sg6100-cn-installing-into-cabinet-or-rack.html[Install SG6000-CN controller]
+| link:sg6100-cn-installing-into-cabinet-or-rack.html[Install SG6100-CN controller]
 
 |===
