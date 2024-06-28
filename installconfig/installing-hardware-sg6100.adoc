@@ -1,0 +1,30 @@
+---
+permalink: installconfig/installing-hardware-sg6100.html
+sidebar: sidebar
+keywords: install, sg6100, sg6112, expansion shelf, cabinet, rack, drives
+summary: 'For the SG6160 and SGF6112, you install rails in your cabinet or rack and slide the controller shelf, any expansion shelves, and the compute controller onto the rails.'
+---
+= Install into cabinet or rack (SG6100)
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+For the SG6160 and SGF6112, you install rails in your cabinet or rack and slide the controller shelf, any expansion shelves, and the compute controller onto the rails.
+
+[cols="1a,2a,2a" options="header"]
+|===
+| Model| Install| For information
+
+| SG6160
+| 60-drive controller shelf and any 60-drive expansion shelves
+| link:sg6160-installing-60-drive-shelves-into-cabinet-or-rack.html[Install 60-drive shelves]
+ 
+| SG6112
+| 12-drive appliance shelf
+| link:installing-appliance-in-cabinet-or-rack-sgf6112.html[Install 12-drive shelves]
+
+| SG6160
+| SG6100-CN compute controller
+| link:sg6100-cn-installing-into-cabinet-or-rack.html[Install SG6000-CN controller]
+
+|===
