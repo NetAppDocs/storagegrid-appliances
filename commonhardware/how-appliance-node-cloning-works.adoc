@@ -125,7 +125,7 @@ You can successfully clone an SG5860 appliance as the source or the target with 
 
 === SG6060 appliance cloning information and restrictions
 
-* You can clone an SG6060 source node appliance configured with DDP or DDP16 to an SG5860 storage target appliance.
+* You can clone an SG6060 source node appliance configured with DDP or DDP16 to an SG5860 storage target appliance with a matching RAID mode.
 
 * You can clone an SG6060 source node appliance without any expansion shelves to an SG6160 storage target appliance without any expansion shelves if the drive sizes and RAID modes are the same.
 
