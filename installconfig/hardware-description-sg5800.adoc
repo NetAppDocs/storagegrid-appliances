@@ -9,13 +9,13 @@ summary: 'The SG5800 StorageGRID appliance is an integrated storage and computin
 :imagesdir: ../media/
 
 [.lead]
-The SG5800 StorageGRID appliance is an integrated storage and computing platform that operates as a Storage Node in a StorageGRID grid.
+The SG5800 series StorageGRID appliances are integrated storage and computing platforms that operate as Storage Nodes in a StorageGRID grid.
 
-StorageGRID SG5800 series appliance provides the following features:
+StorageGRID SG5800 series appliances provide the following features:
 
 * Integrate the storage and computing elements for a StorageGRID Storage Node.
 * Include the StorageGRID Appliance Installer to simplify Storage Node deployment and configuration.
-* Includes E-Series SANtricity System Manager for hardware management and monitoring.
+* Include E-Series SANtricity System Manager for hardware management and monitoring.
 * Support up to four 10-GbE or 25-GbE connections to the StorageGRID Grid Network and Client Network.
 * Support Full Disk Encryption (FDE) drives or FIPS drives. When these drives are used with the Drive Security feature in SANtricity System Manager, unauthorized access to data is prevented.
 
@@ -219,7 +219,7 @@ Port Options:
 
 *Note*: Some optional SANtricity functionality, such as NTP sync for accurate log timestamps, is not available when you choose to leave the management port unwired.
 
-*Note*: StorageGRID 11.8 or greater, and SANtricity 11.8 or greater, are required when you leave the management unwired.
+*Note*: StorageGRID 11.8 or greater, and SANtricity 11.8 or greater, are required when you leave the management port unwired.
 
 | 2
 | Diagnostic and support ports

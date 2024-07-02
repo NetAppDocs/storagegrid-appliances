@@ -22,6 +22,7 @@ include::../_include/2023-locate-appliance.adoc[]
 .After you finish
 
 link:turning-sgf6112-identify-led-on-and-off.html[Turn off the blue identify LED] using one of the following methods if you used it to locate the appliance:
+
  ** Press the identify LED switch on the appliance front panel.
  ** Use the appliance BMC interface.
  
