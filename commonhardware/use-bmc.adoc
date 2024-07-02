@@ -13,12 +13,12 @@ Some StorageGRID appliances include a baseboard management controller (BMC) that
 
 The BMC interface is supported by the following StorageGRID appliance models:
 
-* SG6100
-* SG6000
-* SG1100
+* SG100
 * SG110
 * SG1000
-* SG100
+* SG1100
+* SG6000
+* SG6100
 
 See *ADD-LINK-TO-KB-WITH-QUANTA-PDF* for detailed information about using the BMC interface for these appliances. You should only access BMC functions that are _not_ documented in StorageGRID documentation when directed by technical support.
 
