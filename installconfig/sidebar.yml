@@ -66,6 +66,9 @@ entries:
           url: "/installconfig/sg6000-cn-installing-into-cabinet-or-rack.html"
       - title: SG6100
         entries:
+        - title: Overview
+          pdf-filename: Install SG6100 into cabinet or rack
+          url: "/installconfig/installing-hardware-sg6100.html"
         - title: 'Install 60-drive shelves (SG6160)'
           url: "/installconfig/sg6160-installing-60-drive-shelves-into-cabinet-or-rack.html"
         - title: Install 12-drive shelves (SGF6112)
