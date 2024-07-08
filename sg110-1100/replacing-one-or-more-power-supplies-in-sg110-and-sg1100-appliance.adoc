@@ -41,8 +41,6 @@ image::../media/sgf6112_power_supplies.png[Back of SGF6112 with two power suppli
 . If you are replacing only one power supply, you don't need to shut down the appliance. Go to the <<Unplug_the_power_cord,Unplug the power cord>> step. If you are replacing both power supplies at the same time, do the following before unplugging the power cords:
 
 .. link:power-sg110-and-sg1100-off-on.html#shut-down-the-sg110-or-sg1100-appliance[Shut down the appliance].
-+
-IMPORTANT: If you have ever used an ILM rule that creates only one copy of an object and you are replacing both power supplies at the same time, you must replace the power supplies during a scheduled maintenance window. Otherwise, you might temporarily lose access to those objects during this procedure. See information about https://docs.netapp.com/us-en/storagegrid-118/ilm/why-you-should-not-use-single-copy-replication.html[why you should not use single-copy replication^].
 
 . [[Unplug_the_power_cord, start=2]]Unplug the power cord from each power supply to be replaced.
 +

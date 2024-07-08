@@ -1,5 +1,5 @@
 // Replace CMOS battery in SGF6112, SG110, SG1100
-// Intro, about this task and before you begin, and after you finish are in referencing topic
+// Intro, before you begin, about this task, and after you finish are in referencing topic
 
 .Steps
 
