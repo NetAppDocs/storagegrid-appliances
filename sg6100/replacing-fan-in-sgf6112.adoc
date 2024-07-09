@@ -30,7 +30,7 @@ CAUTION: If you have ever used an ILM rule that creates only one copy of an obje
 
 The appliance node will not be accessible while you replace the fan.
 
-The photograph shows a fan for the appliance. The electrical connector is highlighted. The cooling fans are accessible after you take the top cover off of the appliance.
+The image shows a fan for the appliance with the electrical connector highlighted. The cooling fans are accessible after you take the top cover off of the appliance.
 
 NOTE: Each of the two power supply units also contain a fan. The power supply fans aren't included in this procedure.
 
