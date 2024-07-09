@@ -15,7 +15,7 @@ You might need to replace the appliance if it is not functioning optimally or if
 
 .Before you begin
 
-* You have a replacement appliance with the same part number as the appliance you are replacing.
+* You have a replacement appliance with the same part number as the appliance you are replacing. Check the tags attached to the front of the appliances to confirm that the part numbers match.
 * You have labels to identify each cable that is connected to the appliance.
 * You have link:locating-sgf6112-in-data-center.html[physically located the appliance].
 
