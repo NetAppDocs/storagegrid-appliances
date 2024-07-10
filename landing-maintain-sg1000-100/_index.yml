@@ -2,7 +2,7 @@ indexpage:
    tiles:
     - title: Frequently performed procedures
       links:
-        - title: Turn location LED on or off
+        - title: Turn identify LED on or off
           url: "../sg100-1000/turning-controller-identify-led-on-and-off.html"
         - title: Locate appliance in data center
           url: "../sg100-1000/locating-controller-in-data-center.html"
