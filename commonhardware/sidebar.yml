@@ -16,4 +16,5 @@ entries:
     url: "/commonhardware/manage-drives-tab.html"
   - title: Monitor node encryption in maintenance mode
     url: "/commonhardware/monitoring-node-encryption-in-maintenance-mode.html"
-
+  - title: Use the BMC interface
+    url: "/commonhardware/use-bmc.html"
