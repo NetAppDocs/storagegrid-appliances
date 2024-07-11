@@ -172,7 +172,7 @@ The following examples describe how you can maximize the capabilities of the app
 
 * Use two SG110 or two SG1100 appliances to provide gateway services by configuring them as Gateway Nodes.
 +
-IMPORTANT: Don't deploy the SG110 and SG1100 service appliances in the same site. Unpredictable performance might result.
+IMPORTANT: Mixing services appliances with different levels of performance in the same site, such as an SG100 or SG110 with an SG1000 or SG1100, can cause unpredictable and inconsistent results when using multiple nodes in a high-availability group or when balancing client load across multiple services appliances
 
 * Use two SG110 or two SG1100 appliances to provide redundancy of some grid administration services. Do this by configuring each appliance as Admin Nodes.
 * Use two SG110 or two SG1100 appliances to provide highly available load balancing and traffic shaping services accessed through one or more virtual IP addresses. Do this by configuring the appliances as any combination of Admin Nodes or Gateway Nodes and adding both nodes to the same HA group.
