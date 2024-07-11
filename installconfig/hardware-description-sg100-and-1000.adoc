@@ -180,3 +180,5 @@ NOTE: Mixing services appliances with different levels of performance in the sam
 NOTE: If you use Admin Nodes and Gateway Nodes in the same HA group, Admin Node-only port will not fail over. See the instructions for https://docs.netapp.com/us-en/storagegrid-118/admin/configure-high-availability-group.html[configuring HA groups^].
 
 When used with StorageGRID storage appliances, both the SG100 and the SG1000 services appliances enable deployment of appliance-only grids with no dependencies on external hypervisors or compute hardware.
+
+// 2024 JUL 11, SGRIDDOC-79
