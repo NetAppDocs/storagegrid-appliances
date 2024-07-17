@@ -713,11 +713,9 @@ image::../media/sg6100_e4000_connections.png[SG6100-CN to E4000 Connections]
 |Connects to the network where you access the BMC interface.
 
 |2
-|
-* Four 10/25-GbE network ports on the appliance 
+|Four network ports on the SG6100-CN controller
+|* Four 10/25-GbE network ports on the appliance 
 * Four 10/25/40/100-GbE network ports with optional 100G NIC SKU (SG6160 only)
-
-| 
 |Connect to the Grid Network and the Client Network for StorageGRID. See link:gathering-installation-information-sg6100.html#port-bond-modes[Port bond modes (SG6100)]
 
 |3
