@@ -1,0 +1,4 @@
+---
+permalink: sg6100/manage-drives-tab.html
+redirect: storagegrid-appliances/commonhardware/manage-drives-tab.html
+---
