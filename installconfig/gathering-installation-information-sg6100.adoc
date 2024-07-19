@@ -185,6 +185,7 @@ The four networking ports on the appliance connect to the StorageGRID Grid Netwo
 * Auto (default)
 * 10 GbE
 * 25 GbE
+* 40GbE with the optional 100G NIC SKU (SG6160 only)
 * 100 GbE (SG6160 only)
 
 | Port bond mode
@@ -439,3 +440,5 @@ NOTE: If you need to make a temporary local connection to the appliance when the
 * link:cabling-appliance.html[Cable appliance]
 
 * link:setting-ip-configuration.html[Configure StorageGRID IP addresses]
+
+// 2024 JUL 16, SGRIDDOC-75
