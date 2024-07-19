@@ -13,7 +13,7 @@ You might need to replace the SG6100-CN controller if it is not functioning opti
 
 .Before you begin
 
-* You have a replacement controller with the same part number as the controller you are replacing.
+* You have a replacement controller with the same part number as the controller you are replacing. Check the tags attached to the front of the controllers to confirm that the part numbers match.
 * You have labels to identify each cable that is connected to the controller.
 * You have physically located the controller to replace in the data center.
 +

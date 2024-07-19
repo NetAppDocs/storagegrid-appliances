@@ -1,23 +1,25 @@
 ---
-permalink: sg6100/manage-drives-tab.html
+permalink: commonhardware/manage-drives-tab.html
 sidebar: sidebar
-keywords: sgf6112, manage drives tab, locate drive, fail drive, logically replace drive
-summary: 'You can use the Manage drives tab in the Grid Manager to perform troubleshooting and maintenance tasks on the drives in the SGF6112 appliance.'
+keywords: sgf6112, sg110, sg1100, sg6160, manage drives tab, locate drive, fail drive, logically replace drive
+summary: 'You can use the Manage drives tab in the Grid Manager to perform troubleshooting and maintenance tasks on the drives for appliances that support this feature.'
 ---
-= Use the Manage drives tab (SGF6112)
+= Use the Manage drives tab (SG110, SG1100, SGF6112, and SG6160)
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use the Manage drives tab in the Grid Manager to perform troubleshooting and maintenance tasks on the drives in the SGF6112 appliance.
+You can use the Manage drives tab in the Grid Manager to perform troubleshooting and maintenance tasks on the drives for appliances that support this feature.
 
 .Before you begin
 
-* You are signed in to the Grid Manager using a https://docs.netapp.com/us-en/storagegrid-118/admin/web-browser-requirements.html[supported web browser^].
+* You are signed in to the Grid Manager using a https://review.docs.netapp.com/us-en/storagegrid-119_main/admin/web-browser-requirements.html[supported web browser^].
 
 .About this task
 
-If you have an SGF6112 appliance and either the https://docs.netapp.com/us-en/storagegrid-118/admin/admin-group-permissions.html[Storage appliance administrator or Root access permission^], a Manage drives tab appears on the appliance details page.
+If you have an appliance that supports this feature and either the https://review.docs.netapp.com/us-en/storagegrid-119_main/admin/admin-group-permissions.html[Storage appliance administrator or Root access permission^], a Manage drives tab appears on the appliance details page.
+
+NOTE: For StorageGRID 11.8, The Manage drives tab is supported for only the SGF6112 appliance.
 
 The Manage drives tab contains the following views:
 
