@@ -20,16 +20,11 @@ NOTE: BMC settings made by this procedure might not be preserved if the applianc
 
 .Steps
 
-. From the BMC dashboard, select *Settings* > *SNMP Settings*.
-. On the SNMP Settings page, select *Enable SNMP V1/V2*, and then provide a Read-Only Community String and a Read-Write Community String.
+. Configure SNMP traps as one or more LAN destinations.
+.. From the BMC dashboard, select *Settings* > *Platform Event Filters* > *LAN Destinations*.
+.. Select *SNMP Trap* as the Destination Type
+.. Specify the target IP address of where you want to send SNMP traps as the SNMP Destination Address.
 +
-The Read-Only Community String is like a user ID or password. You should change this value to prevent intruders from getting information about your network setup. The Read-Write Community String protects the device against unauthorized changes.
-
-. Optionally, select *Enable Trap*, and enter the required information.
-+
-NOTE: Enter the Destination IP for each SNMP trap using an IP address. DNS names aren't supported.
-+
-Enable traps if you want the appliance to send immediate notifications to an SNMP console when it is in an unusual state. Depending on the device, traps might indicate hardware failures of various components, link up/down conditions, temperature thresholds being exceeded, or high traffic.
-
-. Optionally, click *Send Test Trap* to test your settings.
-. If the settings are correct, click *Save*.
+NOTE: Enter the SNMP Destination Address for each SNMP trap using an IP address. DNS names aren't supported.
+.. Select *Save*.
+. See the *ADD-LINK-TO-KB-WITH-QUANTA-PDF - link text [BMC User Guide]* for information about using the BMC to configure Alert Policies and Event Filters.
