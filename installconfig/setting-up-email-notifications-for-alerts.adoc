@@ -27,9 +27,9 @@ image::../media/bmc_settings_menu.png[BMC Settings menu]
 
 . Configure email notifications as one or more LAN destinations.
 .. From the BMC dashboard, select *Settings* > *Platform Event Filters* > *LAN Destinations*.
-.. Select *E-Mail* as the Destination Type.
+.. For Destination Type, select *E-Mail*.
 .. Select a BMC Username to receive the email alert from the list of BMC users. Alert email will be sent to the email address configured for this user.
-NOTE: Configure BMC users *Settings* > *User Management*. See the User Management section of the *ADD-LINK-TO-KB-WITH-QUANTA-PDF - link text [BMC User Guide]* for more information.
+NOTE: To configure BMC users, select *Settings* > *User Management*. See the User Management section of the *ADD-LINK-TO-KB-WITH-QUANTA-PDF - link text [BMC User Guide]* for more information.
 .. Enter an EMail Subject and Email Message for the email alert.
 +
 NOTE: An EMail Subject and Email Message are not used for AMI-Format email users.

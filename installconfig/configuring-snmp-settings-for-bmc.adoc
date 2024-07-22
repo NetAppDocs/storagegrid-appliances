@@ -22,9 +22,9 @@ NOTE: BMC settings made by this procedure might not be preserved if the applianc
 
 . Configure SNMP traps as one or more LAN destinations.
 .. From the BMC dashboard, select *Settings* > *Platform Event Filters* > *LAN Destinations*.
-.. Select *SNMP Trap* as the Destination Type.
-.. Specify the target IP address of where you want to send SNMP traps as the SNMP Destination Address.
+.. For Destination Type, select *SNMP Trap*.
+.. For SNMP Destination Address, enter the target IP address.
 +
-NOTE: Enter the SNMP Destination Address for each SNMP trap using an IP address. DNS names aren't supported.
+NOTE: Use an IP address for the SNMP Destination Address. DNS names aren't supported.
 .. Select *Save*.
 . See the Platform Event Filters section of the *ADD-LINK-TO-KB-WITH-QUANTA-PDF - link text [BMC User Guide]* for information about using the BMC to configure Alert Policies and Event Filters.
