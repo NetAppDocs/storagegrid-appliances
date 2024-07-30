@@ -22,6 +22,11 @@ The BMC interface is supported by the following StorageGRID appliance models:
 
 See *ADD-LINK-TO-KB-WITH-QUANTA-PDF* for detailed information about using the BMC interface for these appliances. You should only access BMC functions that are _not_ documented in StorageGRID documentation when directed by technical support.
 
+This BMC user guide is for the latest version of BMC firmware available for some StorageGRID appliances. Your StorageGRID appliance might have a BMC firmware version that is slightly different.
+
+* The BMC firmware updates during StorageGRID software upgrades. If you are not running the latest version of StorageGRID software, you can update your appliance to the latest StorageGRID version to install the https://review.docs.netapp.com/us-en/storagegrid-119_main/upgrade/how-your-system-is-affected-during-upgrade.html#appliance-firmware-is-upgraded[latest BMC firmware version available for your appliance].
+* If your BMC appears different before or after a StorageGRID update, information in the BMC user guide might help you adapt instructions for your BMC version.
+
 == BMC use for StorageGRID appliances
 
 The following BMC procedures are documented for use with supported StorageGRID appliances:
