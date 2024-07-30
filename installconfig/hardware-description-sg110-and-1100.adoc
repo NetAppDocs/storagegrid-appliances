@@ -33,8 +33,6 @@ The two solid-state drives (SSDs), indicated by the orange outline, are used for
 
 The remaining drive slots are blank.
 
-
-
 == SG110 connectors
 
 This figure shows the back of the SG110, including the ports, fans, and power supplies.

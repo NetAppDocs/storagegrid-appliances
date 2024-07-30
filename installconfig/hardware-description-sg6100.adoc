@@ -200,6 +200,7 @@ NOTE: StorageGRID software is not preinstalled on the appliance. This software i
 * Can connect to all three StorageGRID networks, including the Grid Network, the Admin Network, and the Client Network.
 * Connects to the E-Series storage controllers and operates as the initiator.
 
+This figure shows ports on the back of the SG6100-CN compute controller.
 
 image::../media/sg6100_cn_rear_connectors.png[SG6100-CN Rear Connectors]
 
