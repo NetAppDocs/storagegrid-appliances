@@ -34,4 +34,4 @@ These instructions show the latest version of BMC firmware available for some St
 +
 NOTE: Use an IP address for the SNMP Destination Address. DNS names aren't supported.
 .. Select *Save*.
-. If you are using SNMP traps to deliver alert notifications, see the Platform Event Filters section of the *ADD-LINK-TO-KB-WITH-QUANTA-PDF - link text [BMC User Guide]* for information about using the BMC to configure Alert Policies and Event Filters.
+. If you are using SNMP traps to deliver alert notifications, see the Platform Event Filters section of the https://kb.netapp.com/hybrid/StorageGRID/Platforms/How_to_use_StorageGRID_Appliance_BMC_with_vendor_supplied_user_guide[BMC User Guide] for information about using the BMC to configure Alert Policies and Event Filters.

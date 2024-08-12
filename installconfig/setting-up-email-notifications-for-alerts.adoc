@@ -34,9 +34,9 @@ These instructions show the latest version of BMC firmware available for some St
 .. From the BMC dashboard, select *Settings* > *Platform Event Filters* > *LAN Destinations*.
 .. For Destination Type, select *E-Mail*.
 .. Select a BMC Username to receive the email alert from the list of BMC users. Alert email will be sent to the email address configured for this user.
-NOTE: To configure BMC users, select *Settings* > *User Management*. See the User Management section of the *ADD-LINK-TO-KB-WITH-QUANTA-PDF - link text [BMC User Guide]* for more information.
+NOTE: To configure BMC users, select *Settings* > *User Management*. See the User Management section of the https://kb.netapp.com/hybrid/StorageGRID/Platforms/How_to_use_StorageGRID_Appliance_BMC_with_vendor_supplied_user_guide[BMC User Guide] for more information.
 .. Enter an EMail Subject and Email Message for the email alert.
 +
 NOTE: An EMail Subject and Email Message are not used for AMI-Format email users.
 .. Select *Save*.
-. See the Platform Event Filters section of the *ADD-LINK-TO-KB-WITH-QUANTA-PDF - link text [BMC User Guide]* for information about using the BMC to configure Alert Policies and Event Filters.
+. See the Platform Event Filters section of the https://kb.netapp.com/hybrid/StorageGRID/Platforms/How_to_use_StorageGRID_Appliance_BMC_with_vendor_supplied_user_guide[BMC User Guide] for information about using the BMC to configure Alert Policies and Event Filters.
