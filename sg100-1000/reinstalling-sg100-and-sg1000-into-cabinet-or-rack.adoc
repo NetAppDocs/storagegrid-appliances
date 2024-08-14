@@ -21,7 +21,7 @@ Remove the SG100 or SG1000 from a cabinet or rack to access the top cover or to 
 * You have labels to identify each cable that is connected to the SG100 or SG1000 appliance.
 * You have physically located the SG100 or SG1000 appliance where you are performing maintenance in the data center.
 +
-link:locating-sg110-and-sg1100-in-data-center.html[Locate appliance in data center]
+link:locating-controller-in-data-center.html[Locate appliance in data center]
 
 * You have link:shut-down-sg100-and-sg1000.html[shut down the SG100 or SG1000 appliance].
 +
