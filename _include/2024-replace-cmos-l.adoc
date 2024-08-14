@@ -15,7 +15,7 @@ image::../media/sg6060_riser_assembly_location.jpg[Riser assembly location]
 . Place the riser on a flat anti-static surface with the metal frame side down.
 . Locate the CMOS battery on the system board in the position beneath the removed riser assembly.
 
-. Use your finger or a plastic pry tool to press the retaining clip (highlighted) away from the battery to spring it from the socket.
+. Use your finger or a plastic pry tool to press the retaining clip away from the battery to spring it from the socket.
 
 . Remove the battery and dispose of it properly. 
 
