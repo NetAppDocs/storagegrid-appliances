@@ -21,11 +21,19 @@ entries:
   - title: Hardware procedures
     pdf-filename: Hardware procedures - SG100 and SG1000
     entries:
+    - title: Verify component to replace
+      url: "/sg100-1000/verify-component-to-replace-sg100-and-sg1000.html"
+    - title: Replace cover
+      url: "/sg100-1000/reinstalling-sg100-and-sg1000-controller-cover.html"
     - title: Replace one or both power supplies
       url: "/sg100-1000/replacing-one-or-more-power-supplies-in-services-appliance.html"
     - title: Replace fan
       url: "/sg100-1000/replacing-fan-in-services-appliance.html"
     - title: Replace drive
       url: "/sg100-1000/replacing-drive-in-services-appliance.html"
+    - title: Replace CMOS battery
+      url: "/sg100-1000/replace-cmos-in-sg100-and-sg1000.html"
     - title: Replace appliance
       url: "/sg100-1000/replacing-services-appliance.html"
+    - title: Relocate appliance in rack
+      url: "/sg100-1000/reinstalling-sg100-and-sg1000-into-cabinet-or-rack.html"

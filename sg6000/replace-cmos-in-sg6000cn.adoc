@@ -1,0 +1,35 @@
+---
+permalink: sg6000/replace-cmos-in-sg6000cn.html
+sidebar: sidebar
+keywords: storagegrid, sg6000-cn, storage node, storage appliance, Replacing, replace, CMOS, battery
+summary: 'Use this procedure to replace the CMOS coin cell battery on the system board.'
+---
+= Replace SG6000-CN CMOS battery
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Use this procedure to replace the CMOS coin cell battery on the system board.
+
+Use these procedures to: 
+
+* Remove the CMOS battery
+* Reinstall the CMOS battery
+
+== Remove the CMOS battery
+
+.Before you begin
+
+* You have link:verify-component-to-replace-sg6000cn.html[verified the appliance where the CMOS battery needs to be replaced].
+* You have link:locating-controller-in-data-center.html[physically located the SG6000-CN controller] where you are replacing the CMOS battery in the data center.
++
+NOTE: A link:power-sg6000-cn-controller-off-on.html[controlled shutdown of the appliance] is required before removing the appliance from the rack.
+
+* You have disconnected all cables and link:reinstalling-sg6000-cn-controller-cover.html[removed the appliance cover].
+
+.About this task
+To prevent service interruptions, confirm that all other Storage Nodes are connected to the grid before starting the CMOS battery replacement or replace the battery during a scheduled maintenance window when periods of service disruption are acceptable. See the information about https://docs.netapp.com/us-en/storagegrid-118/monitor/monitoring-system-health.html#monitor-node-connection-states[monitoring node connection states^].
+
+CAUTION: If you have ever used an ILM rule that creates only one copy of an object, you must replace the battery during a scheduled maintenance window because you might temporarily lose access to those objects during this procedure. See information about https://docs.netapp.com/us-en/storagegrid-118/ilm/why-you-should-not-use-single-copy-replication.html[why you should not use single-copy replication^].
+
+include::../_include/2024-replace-cmos-l.adoc[]
