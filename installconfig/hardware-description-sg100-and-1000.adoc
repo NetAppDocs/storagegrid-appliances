@@ -33,7 +33,30 @@ The two solid-state drives (SSDs), indicated by the orange outline, are used for
 
 The remaining drive slots are blank.
 
+This figure shows the location of the power supply and identify LEDs on the rear of the SG100 and the SG1000. Additional status and activity LEDs are on the appliance ports. These LEDs might vary by appliance model.
 
+image::../media/q2023_rear_leds.png[Rear LEDs SG100 and SG1000]
+
+[cols="1a,2a,3a" options="header"]
+|===
+|Callout |LED |Description
+a|
+1
+a|
+Power supply LED
+a|
+* Green: the appliance is powered on.
+* Off: the appliance is powered off.
+
+a|
+2
+a|
+Identify LED
+a|
+* Blue, blinking: Identifies the appliance in the cabinet or rack.
+* Blue, solid: Identifies the appliance in the cabinet or rack.
+* Off: The appliance is not visually identifiable in the cabinet or rack.
+|===
 
 == SG100 connectors
 

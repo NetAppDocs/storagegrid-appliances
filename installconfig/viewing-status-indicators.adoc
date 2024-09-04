@@ -28,7 +28,7 @@ Use this information to help link:troubleshooting-hardware-installation-sg100-an
 [[appliance_indicators_SG100_1000]]
 Appliance indicators and buttons::
 +
-The following figure shows status indicators and buttons on the SG100 and SG1000.
+The following figure shows status indicators and buttons on the front of the SG100 and SG1000.
 +
 image::../media/sg6000_cn_front_indicators.gif[Front Indicators - SG1000]
 +
@@ -63,6 +63,31 @@ image::../media/sg6000_cn_front_indicators.gif[Front Indicators - SG1000]
 
 * Off: No errors are present.
 
+|===
+
+This figure shows the location of the power supply and identify LEDs on the rear of the SG100 and the SG1000. Additional status and activity LEDs are on the appliance ports. These LEDs might vary by appliance model.
+
+image::../media/q2023_rear_leds.png[Rear LEDs SG100 and SG1000]
+
+[cols="1a,2a,3a" options="header"]
+|===
+|Callout |LED |Description
+a|
+1
+a|
+Power supply LED
+a|
+* Green: the appliance is powered on.
+* Off: the appliance is powered off.
+
+a|
+2
+a|
+Identify LED
+a|
+* Blue, blinking: Identifies the appliance in the cabinet or rack.
+* Blue, solid: Identifies the appliance in the cabinet or rack.
+* Off: The appliance is not visually identifiable in the cabinet or rack.
 |===
 
 [[general_boot_codes_SG100_1000]]
@@ -114,7 +139,7 @@ Use this information to help link:troubleshooting-hardware-installation-sg110-an
 [[appliance_indicators]]
 Appliance indicators and buttons::
 +
-The following figure shows indicators and buttons on the SG110 and SG1100 appliances.
+The following figure shows indicators and buttons on the front of the SG110 and SG1100 appliances.
 +
 image::../media/sgf6112_front_indicators.png[Front Indicators - SG110 and SG1100]
 +
@@ -150,6 +175,31 @@ image::../media/sgf6112_front_indicators.png[Front Indicators - SG110 and SG1100
 | PFR
 | This light is not used by the SG110 and SG1100 appliances and remains off. 
 
+|===
+
+This figure shows the location of the power supply and identify LEDs on the rear of the SG110 and the SG1100. Additional status and activity LEDs are on the appliance ports. These LEDs might vary by appliance model.
+
+image::../media/q2024_rear_leds.png[Rear LEDs SG110 and SG1100]
+
+[cols="1a,2a,3a" options="header"]
+|===
+|Callout |LED |Description
+a|
+1
+a|
+Power supply LED
+a|
+* Green: the appliance is powered on.
+* Off: the appliance is powered off.
+
+a|
+2
+a|
+Identify LED
+a|
+* Blue, blinking: Identifies the appliance in the cabinet or rack.
+* Blue, solid: Identifies the appliance in the cabinet or rack.
+* Off: The appliance is not visually identifiable in the cabinet or rack.
 |===
 
 [[general_boot_codes]]
@@ -500,7 +550,7 @@ Status indicators and buttons on SG6000-CN controller::
 +
 The SG6000-CN controller includes indicators that help you determine the status of the controller, including the following indicators and buttons.
 +
-The following figure shows status indicators and buttons on the SG6000-CN controller.
+The following figure shows status indicators and buttons on the front of the SG6000-CN controller.
 +
 image::../media/sg6000_cn_front_indicators.gif[Front Indicators - SG6000-CN]
 +
@@ -534,6 +584,31 @@ This button can be set to Blink, On (Solid), or Off.
 *Note:* To view the boot-up and error codes, link:accessing-bmc-interface.html[access the BMC interface].
 * Off: No errors are present.
 |===
+
+This figure shows the location of the power supply and identify LEDs on the rear of the SG6000-CN controller. Additional status and activity LEDs are on the appliance ports. These LEDs might vary by appliance model.
+
+image::../media/q2023_rear_leds.png[Rear LEDs SG6000-CN]
+
+[cols="1a,2a,3a" options="header"]
+|===
+|Callout |LED |Description
+a|
+1
+a|
+Power supply LED (green)
+a|
+* Green: the appliance is powered on.
+* Off: the appliance is powered off.
+a|
+2
+a|
+Identify LED
+a|
+* Blue, blinking: Identifies the appliance in the cabinet or rack.
+* Blue, solid: Identifies the appliance in the cabinet or rack.
+* Off: The appliance is not visually identifiable in the cabinet or rack.
+|===
+
 
 [[general_boot_codes_sg6000]]
 General boot-up codes::
@@ -588,7 +663,7 @@ Use this information to help link:troubleshooting-hardware-installation-sg6100.h
 [[appliance_indicators_SG6100]]
 Appliance indicators and buttons::
 +
-The following figure shows indicators and buttons on the SG6100 appliances.
+The following figure shows indicators and buttons on the front of the SG6100 appliances.
 
 +
 image::../media/sgf6112_front_indicators.png[Front Indicators - SGF6112]
@@ -625,6 +700,30 @@ image::../media/sgf6112_front_indicators.png[Front Indicators - SGF6112]
 | PFR
 | This light is not used by SG6100 appliances and remains off. 
 
+|===
+
+This figure shows the location of the power supply and identify LEDs on the rear of the SGF6112. Additional status and activity LEDs are on the appliance ports. These LEDs might vary by appliance model.
+
+image::../media/q2024_rear_leds.png[Rear LEDs SGF6112]
+
+[cols="1a,2a,3a" options="header"]
+|===
+|Callout |LED |Description
+a|
+1
+a|
+Power supply LED (green)
+a|
+* Green: the appliance is powered on.
+* Off: the appliance is powered off.
+a|
+2
+a|
+Identify LED
+a|
+* Blue, blinking: Identifies the appliance in the cabinet or rack.
+* Blue, solid: Identifies the appliance in the cabinet or rack.
+* Off: The appliance is not visually identifiable in the cabinet or rack.
 |===
 
 [[general_boot_codes_SG6100]]
