@@ -65,7 +65,7 @@ image::../media/sg6000_cn_front_indicators.gif[Front Indicators - SG1000]
 
 |===
 
-This figure shows the location of the power supply and identify LEDs on the rear of the SG100 and the SG1000. Additional status and activity LEDs are on the appliance ports. These LEDs might vary by appliance model.
+The following figure shows the location of the power supply and identify LEDs on the rear of the SG100 and the SG1000. Additional status and activity LEDs are on the appliance ports. These LEDs might vary by appliance model.
 
 image::../media/q2023_rear_leds.png[Rear LEDs SG100 and SG1000]
 
@@ -177,7 +177,8 @@ image::../media/sgf6112_front_indicators.png[Front Indicators - SG110 and SG1100
 
 |===
 
-This figure shows the location of the power supply and identify LEDs on the rear of the SG110 and the SG1100. Additional status and activity LEDs are on the appliance ports. These LEDs might vary by appliance model.
+
+The following figure shows the location of the power supply and identify LEDs on the rear of the SG110 and the SG1100. Additional status and activity LEDs are on the appliance ports. These LEDs might vary by appliance model.
 
 image::../media/q2024_rear_leds.png[Rear LEDs SG110 and SG1100]
 
@@ -585,7 +586,7 @@ This button can be set to Blink, On (Solid), or Off.
 * Off: No errors are present.
 |===
 
-This figure shows the location of the power supply and identify LEDs on the rear of the SG6000-CN controller. Additional status and activity LEDs are on the appliance ports. These LEDs might vary by appliance model.
+The following figure shows the location of the power supply and identify LEDs on the rear of the SG6000-CN controller. Additional status and activity LEDs are on the appliance ports. These LEDs might vary by appliance model.
 
 image::../media/q2023_rear_leds.png[Rear LEDs SG6000-CN]
 
@@ -595,7 +596,7 @@ image::../media/q2023_rear_leds.png[Rear LEDs SG6000-CN]
 a|
 1
 a|
-Power supply LED (green)
+Power supply LED
 a|
 * Green: the appliance is powered on.
 * Off: the appliance is powered off.
@@ -702,7 +703,7 @@ image::../media/sgf6112_front_indicators.png[Front Indicators - SGF6112]
 
 |===
 
-This figure shows the location of the power supply and identify LEDs on the rear of the SGF6112. Additional status and activity LEDs are on the appliance ports. These LEDs might vary by appliance model.
+The following figure shows the location of the power supply and identify LEDs on the rear of the SGF6112. Additional status and activity LEDs are on the appliance ports. These LEDs might vary by appliance model.
 
 image::../media/q2024_rear_leds.png[Rear LEDs SGF6112]
 
@@ -712,7 +713,7 @@ image::../media/q2024_rear_leds.png[Rear LEDs SGF6112]
 a|
 1
 a|
-Power supply LED (green)
+Power supply LED
 a|
 * Green: the appliance is powered on.
 * Off: the appliance is powered off.
