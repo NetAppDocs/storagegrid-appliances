@@ -149,7 +149,7 @@ image::../media/q2024_rear_leds.png[Rear LEDs SGF6112]
 a|
 1
 a|
-Power supply LED (green)
+Power supply LED
 a|
 * Green: the appliance is powered on.
 * Off: the appliance is powered off.
