@@ -86,7 +86,7 @@ image::../media/q2023_rear_leds.png[Rear LEDs SG6000-CN]
 a|
 1
 a|
-Power supply LED (green)
+Power supply LED
 a|
 * Green: the appliance is powered on.
 * Off: the appliance is powered off.
