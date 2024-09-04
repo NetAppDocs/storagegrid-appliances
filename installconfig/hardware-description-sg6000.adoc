@@ -82,7 +82,7 @@ image::../media/q2023_rear_leds.png[Rear LEDs SG6000-CN]
 
 [cols="1a,2a,3a" options="header"]
 |===
-|Callout |LED |Description
+|Callout |LED |State
 a|
 1
 a|

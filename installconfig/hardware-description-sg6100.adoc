@@ -145,7 +145,7 @@ image::../media/q2024_rear_leds.png[Rear LEDs SGF6112]
 
 [cols="1a,2a,3a" options="header"]
 |===
-|Callout |LED |Description
+|Callout |LED |State
 a|
 1
 a|

@@ -71,7 +71,7 @@ image::../media/q2023_rear_leds.png[Rear LEDs SG100 and SG1000]
 
 [cols="1a,2a,3a" options="header"]
 |===
-|Callout |LED |Description
+|Callout |LED |State
 a|
 1
 a|
@@ -184,7 +184,7 @@ image::../media/q2024_rear_leds.png[Rear LEDs SG110 and SG1100]
 
 [cols="1a,2a,3a" options="header"]
 |===
-|Callout |LED |Description
+|Callout |LED |State
 a|
 1
 a|
@@ -592,7 +592,7 @@ image::../media/q2023_rear_leds.png[Rear LEDs SG6000-CN]
 
 [cols="1a,2a,3a" options="header"]
 |===
-|Callout |LED |Description
+|Callout |LED |State
 a|
 1
 a|
@@ -709,7 +709,7 @@ image::../media/q2024_rear_leds.png[Rear LEDs SGF6112]
 
 [cols="1a,2a,3a" options="header"]
 |===
-|Callout |LED |Description
+|Callout |LED |State
 a|
 1
 a|
