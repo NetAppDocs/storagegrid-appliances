@@ -1,0 +1,23 @@
+// Rear LEDs for SG100, SG1000, SG110, SG1100, SG6000-CN, SGF6112, SG6100-CN
+
+[cols="1a,2a,3a" options="header"]
+|===
+|Callout |LED |State
+a|
+1
+a|
+Power supply LED
+a|
+* Green: power applied to appliance.
+* Off: no power applied to appliance.
+* Amber: power supply fault.
+a|
+2
+a|
+Identify LED
+a|
+* Blue, blinking: Identifies the appliance in the cabinet or rack.
+* Blue, solid: Identifies the appliance in the cabinet or rack.
+* Off: The appliance is not visually identifiable in the cabinet or rack.
+|===
+

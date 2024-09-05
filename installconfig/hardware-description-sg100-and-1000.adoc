@@ -37,26 +37,7 @@ This figure shows the location of the power supply and identify LEDs on the rear
 
 image::../media/q2023_rear_leds.png[Rear LEDs SG100 and SG1000]
 
-[cols="1a,2a,3a" options="header"]
-|===
-|Callout |LED |State
-a|
-1
-a|
-Power supply LED
-a|
-* Green: the appliance is powered on.
-* Off: the appliance is powered off.
-
-a|
-2
-a|
-Identify LED
-a|
-* Blue, blinking: Identifies the appliance in the cabinet or rack.
-* Blue, solid: Identifies the appliance in the cabinet or rack.
-* Off: The appliance is not visually identifiable in the cabinet or rack.
-|===
+include::../_include/rear-leds-q.adoc[]
 
 == SG100 connectors
 

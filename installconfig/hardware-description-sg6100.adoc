@@ -143,25 +143,7 @@ This figure shows the location of the power supply and identify LEDs on the rear
 
 image::../media/q2024_rear_leds.png[Rear LEDs SGF6112]
 
-[cols="1a,2a,3a" options="header"]
-|===
-|Callout |LED |State
-a|
-1
-a|
-Power supply LED
-a|
-* Green: the appliance is powered on.
-* Off: the appliance is powered off.
-a|
-2
-a|
-Identify LED
-a|
-* Blue, blinking: Identifies the appliance in the cabinet or rack.
-* Blue, solid: Identifies the appliance in the cabinet or rack.
-* Off: The appliance is not visually identifiable in the cabinet or rack.
-|===
+include::../_include/rear-leds-q.adoc[]
 
 === SG6160 front view
 
@@ -274,6 +256,12 @@ image::../media/sg6100_cn_rear_connectors.png[SG6100-CN Rear Connectors]
 | Connect the SG6100-CN controller to the E4000 controllers. 
 
 |===
+
+This figure shows the location of the power supply and identify LEDs on the rear of the SG6100-CN compute controller. Additional status and activity LEDs are on the appliance ports. These LEDs might vary by appliance model.
+
+image::../media/q2023_rear_leds.png[Rear LEDs SG6100-CN]
+
+include::../_include/rear-leds-q.adoc[]
 
 === SG6160: E4000 storage controller
 

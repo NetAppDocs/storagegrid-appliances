@@ -69,26 +69,7 @@ The following figure shows the location of the power supply and identify LEDs on
 
 image::../media/q2023_rear_leds.png[Rear LEDs SG100 and SG1000]
 
-[cols="1a,2a,3a" options="header"]
-|===
-|Callout |LED |State
-a|
-1
-a|
-Power supply LED
-a|
-* Green: the appliance is powered on.
-* Off: the appliance is powered off.
-
-a|
-2
-a|
-Identify LED
-a|
-* Blue, blinking: Identifies the appliance in the cabinet or rack.
-* Blue, solid: Identifies the appliance in the cabinet or rack.
-* Off: The appliance is not visually identifiable in the cabinet or rack.
-|===
+include::../_include/rear-leds-q.adoc[]
 
 [[general_boot_codes_SG100_1000]]
 General boot-up codes::
@@ -182,26 +163,7 @@ The following figure shows the location of the power supply and identify LEDs on
 
 image::../media/q2024_rear_leds.png[Rear LEDs SG110 and SG1100]
 
-[cols="1a,2a,3a" options="header"]
-|===
-|Callout |LED |State
-a|
-1
-a|
-Power supply LED
-a|
-* Green: the appliance is powered on.
-* Off: the appliance is powered off.
-
-a|
-2
-a|
-Identify LED
-a|
-* Blue, blinking: Identifies the appliance in the cabinet or rack.
-* Blue, solid: Identifies the appliance in the cabinet or rack.
-* Off: The appliance is not visually identifiable in the cabinet or rack.
-|===
+include::../_include/rear-leds-q.adoc[]
 
 [[general_boot_codes]]
 General boot-up codes::
@@ -590,25 +552,7 @@ The following figure shows the location of the power supply and identify LEDs on
 
 image::../media/q2023_rear_leds.png[Rear LEDs SG6000-CN]
 
-[cols="1a,2a,3a" options="header"]
-|===
-|Callout |LED |State
-a|
-1
-a|
-Power supply LED
-a|
-* Green: the appliance is powered on.
-* Off: the appliance is powered off.
-a|
-2
-a|
-Identify LED
-a|
-* Blue, blinking: Identifies the appliance in the cabinet or rack.
-* Blue, solid: Identifies the appliance in the cabinet or rack.
-* Off: The appliance is not visually identifiable in the cabinet or rack.
-|===
+include::../_include/rear-leds-q.adoc[]
 
 
 [[general_boot_codes_sg6000]]
@@ -703,29 +647,11 @@ image::../media/sgf6112_front_indicators.png[Front Indicators - SGF6112]
 
 |===
 
-The following figure shows the location of the power supply and identify LEDs on the rear of the SGF6112. Additional status and activity LEDs are on the appliance ports. These LEDs might vary by appliance model.
+The following figure shows the location of the power supply and identify LEDs on the rear of the SGF6112 and SG6100-CN. Additional status and activity LEDs are on the appliance ports. These LEDs might vary by appliance model.
 
-image::../media/q2024_rear_leds.png[Rear LEDs SGF6112]
+image::../media/q2024_rear_leds.png[Rear LEDs SGF6112 and SG6100-CN]
 
-[cols="1a,2a,3a" options="header"]
-|===
-|Callout |LED |State
-a|
-1
-a|
-Power supply LED
-a|
-* Green: the appliance is powered on.
-* Off: the appliance is powered off.
-a|
-2
-a|
-Identify LED
-a|
-* Blue, blinking: Identifies the appliance in the cabinet or rack.
-* Blue, solid: Identifies the appliance in the cabinet or rack.
-* Off: The appliance is not visually identifiable in the cabinet or rack.
-|===
+include::../_include/rear-leds-q.adoc[]
 
 [[general_boot_codes_SG6100]]
 General boot-up codes::
