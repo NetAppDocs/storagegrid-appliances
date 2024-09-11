@@ -20,7 +20,7 @@ NOTE: BMC settings made by this procedure might not be preserved if a controller
 --
 .Before you begin
 
-You know how to access the BMC dashboard.
+You know how to link:../installconfig/accessing-bmc-interface.html[access the BMC dashboard].
 
 .About this task
 
@@ -51,7 +51,7 @@ NOTE: An EMail Subject and Email Message are not used for AMI-Format email users
 --
 .Before you begin
 
-You know how to access the BMC dashboard.
+You know how to link:../installconfig/accessing-bmc-interface.html[access the BMC dashboard].
 
 .About this task
 

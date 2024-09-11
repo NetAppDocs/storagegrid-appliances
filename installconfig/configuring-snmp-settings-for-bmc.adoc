@@ -18,7 +18,7 @@ If you are familiar with configuring SNMP for hardware, you can use the BMC inte
 --
 .Before you begin
 
-* You know how to access the BMC dashboard.
+* You know how to link:../installconfig/accessing-bmc-interface.html[access the BMC dashboard].
 * You have experience in configuring SNMP settings for SNMPv1-v2c equipment.
 
 NOTE: BMC settings made by this procedure might not be preserved if the appliance fails and has to be replaced.  Make sure you have a record of all settings you have applied, so they can be easily reapplied after a hardware replacement if necessary.
@@ -46,7 +46,7 @@ NOTE: Use an IP address for the SNMP Destination Address. DNS names aren't suppo
 --
 .Before you begin
 
-* You know how to access the BMC dashboard.
+* You know how to link:../installconfig/accessing-bmc-interface.html[access the BMC dashboard].
 * You have experience in configuring SNMP settings for SNMPv1-v2c equipment.
 
 NOTE: BMC settings made by this procedure might not be preserved if the appliance fails and has to be replaced.  Make sure you have a record of all settings you have applied, so they can be easily reapplied after a hardware replacement if necessary.
