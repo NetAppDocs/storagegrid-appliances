@@ -41,17 +41,17 @@ The following BMC procedures are documented for use with supported StorageGRID a
 ** link:../installconfig/troubleshooting-hardware-installation-sg6100.html[SG6100]
 * Determine the appliance power state:
 ** link:../sg100-1000/shut-down-sg100-and-sg1000.html[SG1000 and SG100]
-** link:../sg110-1100/shut-down-sg110-and-sg1100.html[SG1100 and SG110]
+** link:../sg110-1100/power-sg110-and-sg1100-off-on.html[SG1100 and SG110]
 ** link:../sg6000/power-sg6000-cn-controller-off-on.html[SG6000]
 ** link:../sg6100/power-sgf6112-off-on.html[SG6100]
 * Turn the appliance identify LED on and off:
 ** link:../sg100-1000/turning-controller-identify-led-on-and-off.html[SG1000 and SG100]
-** link:../sg110-1100/turning-controller-identify-led-on-and-off.html[SG1100 and SG110]
+** link:../sg110-1100/turning-sg110-and-sg1100-identify-led-on-and-off.html[SG1100 and SG110]
 ** link:../sg6000/turning-controller-identify-led-on-and-off.html[SG6000]
 ** link:../sg6100/turning-sgf6112-identify-led-on-and-off.html[SG6100]
 * Change the appliance link configuation:
 ** link:../sg100-1000/changing-link-configuration-of-services-appliance.html[SG100 and SG1000]
-** link:../sg110-1100/changing-link-configuration-of-services-appliance.html[SG110 and SG1100]
+** link:../sg110-1100/changing-link-configuration-of-sg110-and-sg1100-appliance.html[SG110 and SG1100]
 ** link:../sg5700/changing-link-configuration-of-e5700sg-controller.html[SG5700]
 ** link:../sg6000/changing-link-configuration-of-sg6000-cn-controller.html[SG6000]
 ** link:../sg6100/changing-link-configuration-of-sgf6112-appliance.html[SG6100]
