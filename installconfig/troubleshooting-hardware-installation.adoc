@@ -126,7 +126,7 @@ StorageGRID is running.
 [[error-codes]]
 == View error codes (SG6000-CN controller)
 
-If a hardware error occurs when the SG6000-CN controller is booting up, the BMC logs an error code. As required, you can view these error codes using the BMC interface, and then work with technical support to resolve the issue.
+If a hardware error occurs when the SG6000-CN controller is booting up, the BMC logs an error code. As required, you can view these error codes using the BMC interface or the appliance serial port, and then work with technical support to resolve the issue.
 
 .Before you begin
 
