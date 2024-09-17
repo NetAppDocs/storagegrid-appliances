@@ -106,7 +106,7 @@ The system is awaiting connectivity with the storage controllers and synchronizi
 
 == View error codes (SGF6112 and SG6160 only)
 
-If a hardware error occurs when the appliance is booting up, the BMC logs an error code. As required, you can view these error codes using the BMC interface, and then work with technical support to resolve the issue.
+If a hardware error occurs when the appliance is booting up, the BMC logs an error code. As required, you can view these error codes using the appliance serial port, and then work with technical support to resolve the issue.
 
 .Before you begin
 
