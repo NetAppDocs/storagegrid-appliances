@@ -110,12 +110,15 @@ If a hardware error occurs when the appliance is booting up, the BMC logs an err
 
 .Before you begin
 
-* You know how to link:accessing-bmc-interface.html[access the BMC dashboard].
+* Gather the required equipment:
+** USB cable
+** Virtual serial terminal
 
 .Steps
 
-. From the BMC dashboard, select *BIOS POST Code*.
-. Review the information displayed for Current Code and the Previous Code.
+. Connect to the serial USB port on the back of the appliance.
+. Use settings `115200 8-N-1`.
+. Review the information printed over the serial terminal for Current Code and the Previous Code.
 +
 If any of the following error codes are shown, work with technical support to resolve the issue.
 +
