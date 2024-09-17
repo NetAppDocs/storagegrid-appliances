@@ -93,7 +93,7 @@ When you apply power to the appliance, the BMC logs a series of boot-up codes. Y
 
 == View error codes
 
-If a hardware error occurs when the appliance is booting up, the BMC logs an error code. As required, you can view these error codes using the BMC interface, and then work with technical support to resolve the issue.
+If a hardware error occurs when the appliance is booting up, the BMC logs an error code. As required, you can view these error codes using the appliance serial port, and then work with technical support to resolve the issue.
 
 .Before you begin
 
