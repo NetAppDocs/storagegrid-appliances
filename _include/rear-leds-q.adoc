@@ -8,9 +8,12 @@ a|
 a|
 Power supply LED
 a|
-* Green: power applied to appliance.
+* Green (solid): power applied to appliance, power button is on.
+* Green (blinking): power applied to appliance, power button is off.
 * Off: no power applied to appliance.
 * Amber: power supply fault.
+
+
 a|
 2
 a|
