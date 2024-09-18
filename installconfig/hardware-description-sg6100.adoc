@@ -139,6 +139,12 @@ image::../media/sgf6112_rear_view.png[SGF6112 Rear View]
 * During installation, use port 2 for IP configuration if DHCP-assigned IP addresses aren't available.
 |===
 
+This figure shows the location of the power supply and identify LEDs on the rear of the SGF6112. Additional status and activity LEDs are on the appliance ports. These LEDs might vary by appliance model.
+
+image::../media/q2024_rear_leds.png[Rear LEDs SGF6112]
+
+include::../_include/rear-leds-q.adoc[]
+
 === SG6160 front view
 
 This figure shows the front of the SG6160, which includes a 1U compute controller and a 4U shelf containing two storage controllers and 60 drives in five drive drawers.
@@ -250,6 +256,12 @@ image::../media/sg6100_cn_rear_connectors.png[SG6100-CN Rear Connectors]
 | Connect the SG6100-CN controller to the E4000 controllers. 
 
 |===
+
+This figure shows the location of the power supply and identify LEDs on the rear of the SG6100-CN compute controller. Additional status and activity LEDs are on the appliance ports. These LEDs might vary by appliance model.
+
+image::../media/q2023_rear_leds.png[Rear LEDs SG6100-CN]
+
+include::../_include/rear-leds-q.adoc[]
 
 === SG6160: E4000 storage controller
 
