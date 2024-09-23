@@ -181,7 +181,7 @@ NOTE: StorageGRID software is not preinstalled on the appliance. This software i
 
 ==== SG6000-CN connectors
 
-image::../media/sg6000_cn_rear_connectors.gif[SG6000-CN Rear Connectors]
+image::../media/sg6000_cn_rear_connectors.png[SG6000-CN Rear Connectors]
 
 [cols="1a,2a,2a,3a" options="header"]
 |===
