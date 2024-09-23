@@ -134,7 +134,7 @@ NOTE: If your BMC does not have a BIOS POST Code menu item, access the error cod
 
 * If you are using the BMC, you know how to link:accessing-bmc-interface.html[access the BMC dashboard].
 * If you are using a serial port and terminal, gather the required equipment:
-** USB cable
+** DB-9 serial cable
 ** Virtual serial terminal
 
 .Steps
@@ -157,7 +157,7 @@ If you are using the BMC, perform these steps:
 --
 If you are using a serial port and terminal, perform these steps to view the error codes. BIOS POST codes display on the serial console when the appliance reboots.
 
-. Connect to the serial USB port on the back of the appliance.
+. Connect to the DB-9 serial port on the back of the appliance.
 . Use settings `115200 8-N-1`.
 . View the codes printed over the serial terminal.
 --
