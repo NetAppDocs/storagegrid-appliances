@@ -101,4 +101,5 @@ You can:
 * Use the source appliance as a target for additional cloning operations: no additional configuration is required. This appliance already has the temporary IP address assigned that were originally specified for the first clone target.
 * Install and set up the source appliance as a new appliance node.
 * Discard the source appliance if it is no longer of use with StorageGRID.
+
 // 2023 OCT 11, SGRIDDOC-14
