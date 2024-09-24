@@ -36,6 +36,8 @@ entries:
   - title: Hardware procedures
     pdf-filename: Hardware procedures - SG6000
     entries: 
+    - title: Verify component to replace
+      url: "/sg6000/verify-component-to-replace-sg6000cn.html"
     - title: Add expansion shelf to deployed SG6060
       url: "/sg6000/adding-expansion-shelf-to-deployed-sg6060.html"
     - title: Replace storage controller
@@ -48,6 +50,8 @@ entries:
       url: "/sg6000/replacing-sg6000-cn-controller.html"
     - title: Replace one or both power supplies in the SG6000-CN controller
       url: "/sg6000/replacing-one-or-both-power-supplies-in-sg6000-cn-controller.html"
+    - title: Replace CMOS battery in SG6000-CN controller
+      url: "/sg6000/replace-cmos-in-sg6000cn.html"
     - title: Replace controller in rack
       url: "/sg6000/reinstalling-sg6000-cn-controller-into-cabinet-or-rack.html"
     - title: Replace controller cover

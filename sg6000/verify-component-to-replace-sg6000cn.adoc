@@ -1,0 +1,18 @@
+---
+permalink: sg6000/verify-component-to-replace-sg6000cn.html
+sidebar: sidebar
+keywords: sg6000-cn
+summary: 'If you are unsure which hardware component to replace in your appliance, complete this procedure to identify the component and the location of the appliance in the data center.'
+---
+= Verify component to replace in the SG6000-CN
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+If you are unsure which hardware component to replace in your appliance, complete this procedure to identify the component and the location of the appliance in the data center.
+
+include::../_include/2023-verify-component.adoc[]
+
+.Related information
+
+link:turning-controller-identify-led-on-and-off.html[Turn on the appliance identify LED]
