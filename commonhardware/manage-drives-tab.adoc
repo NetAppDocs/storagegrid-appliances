@@ -19,7 +19,7 @@ You can use the Manage drives tab in the Grid Manager to perform troubleshooting
 
 If you have an appliance that supports this feature and either the https://review.docs.netapp.com/us-en/storagegrid-119_main/admin/admin-group-permissions.html[Storage appliance administrator or Root access permission^], a Manage drives tab appears on the appliance details page.
 
-NOTE: For StorageGRID 11.8, The Manage drives tab is supported for only the SGF6112 appliance.
+NOTE: For StorageGRID 11.8, the Manage drives tab is supported for only the SGF6112 appliance.
 
 The Manage drives tab contains the following views:
 

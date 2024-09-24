@@ -13,9 +13,14 @@ If you want email notifications to be sent when alerts occur, use the BMC interf
 
 NOTE: BMC settings made by this procedure might not be preserved if a controller or appliance fails and has to be replaced. Make sure you have a record of all settings you have applied, so they can be easily reapplied after a hardware replacement if necessary.
 
+[role="tabbed-block"]
+====
+
+.StorageGRID 11.9 and later
+--
 .Before you begin
 
-You know how to access the BMC dashboard.
+You know how to link:../installconfig/accessing-bmc-interface.html[access the BMC dashboard].
 
 .About this task
 
@@ -25,7 +30,7 @@ These instructions show the latest version of BMC firmware available for some St
 
 * The BMC firmware updates during StorageGRID software upgrades. If you are not running the latest version of StorageGRID software, you can update your appliance to the latest StorageGRID version to install the https://review.docs.netapp.com/us-en/storagegrid-119_main/upgrade/how-your-system-is-affected-during-upgrade.html#appliance-firmware-is-upgraded[latest BMC firmware version available for your appliance].
 * If your BMC appears different before or after a StorageGRID update: 
-** See https://docs.netapp.com/us-en/storagegrid-117/installconfig/setting-up-email-notifications-for-alerts.html[Set up email notifications for BMC alerts for alternate BMC firmware versions].
+** See instructions on the StorageGRID 11.8 tab.
 ** link:../commonhardware/use-bmc.html[Use the StorageGRID BMC] might also have information to help you adapt these instructions for your BMC version.
 
 .Steps
@@ -40,3 +45,56 @@ NOTE: To configure BMC users, select *Settings* > *User Management*. See the Use
 NOTE: An EMail Subject and Email Message are not used for AMI-Format email users.
 .. Select *Save*.
 . See the Platform Event Filters section of the https://kb.netapp.com/hybrid/StorageGRID/Platforms/How_to_use_StorageGRID_Appliance_BMC_with_vendor_supplied_user_guide[BMC User Guide^] for information about using the BMC to configure Alert Policies and Event Filters.
+--
+
+.StorageGRID 11.8
+--
+.Before you begin
+
+You know how to link:../installconfig/accessing-bmc-interface.html[access the BMC dashboard].
+
+.About this task
+
+In the BMC interface, you use the *SMTP Settings*, *User Management*, and *Platform Event Filters* options on the Settings page to configure email notifications.
+
+image::../media/bmc_settings_menu.png[BMC Settings menu]
+
+.Steps
+
+. link:configuring-snmp-settings-for-bmc.html[Configure SNMP settings for BMC].
+ .. Select *Settings* > *SMTP Settings*.
+ .. For Sender Email ID, enter a valid email address.
++
+This email address is provided as the From address when the BMC sends email.
+. Set up users to receive alerts.
+ .. From the BMC dashboard, select *Settings* > *User Management*.
+ .. Add at least one user to receive alert notifications.
++
+The email address you configure for a user is the address the BMC sends alert notifications to. For example, you could add a generic user, such as "`notification-user,`" and use the email address of a technical support team email distribution list.
+. Configure the LAN destination for alerts.
+ .. Select *Settings* > *Platform Event Filters* > *LAN Destinations*.
+ .. Configure at least one LAN destination.
+  *** Select *Email* as the Destination Type.
+  *** For BMC Username, select a user name that you added earlier.
+  *** If you added multiple users and want all of them to receive notification emails, add a LAN Destination for each user.
+ .. Send a test alert.
+. Configure alert policies so you can define when and where the BMC sends alerts.
+ .. Select *Settings* > *Platform Event Filters* > *Alert Policies*.
+ .. Configure at least one alert policy for each LAN destination.
+  *** For Policy Group Number, select *1*.
+  *** For Policy Action, select *Always send alert to this destination*.
+  *** For LAN Channel, select *1*.
+  *** In the Destination Selector, select the LAN destination for the policy.
+. Configure event filters to direct alerts for different event types to the appropriate users.
+ .. Select *Settings* > *Platform Event Filters* > *Event Filters*.
+ .. For Alert Policy Group Number, enter *1*.
+ .. Create filters for every event you want the Alert Policy Group to be notified about.
+  *** You can create event filters for power actions, specific sensor events, or all events.
+  *** If you are uncertain which events to monitor, select *All Sensors* for Sensor Type and *All Events* for Event Options. If you receive unwanted notifications, you can change your selections later.
+--
+
+====
+
+
+
+

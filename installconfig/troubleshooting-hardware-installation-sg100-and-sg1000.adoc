@@ -102,18 +102,44 @@ StorageGRID is running.
 
 == View error codes
 
-If a hardware error occurs when the appliance is booting up, the BMC logs an error code. As required, you can view these error codes using the BMC interface, and then work with technical support to resolve the issue.
+If a hardware error occurs when the appliance is booting up, the BMC logs an error code. As required, you can view these error codes using the BMC interface or the appliance serial port, and then work with technical support to resolve the issue.
 
 .Before you begin
 
-* You know how to link:accessing-bmc-interface.html[access the BMC dashboard].
+NOTE: If your BMC does not have a BIOS POST Code menu item, access the error codes using the appliance serial port. 
+
+* If you are using the BMC, you know how to link:accessing-bmc-interface.html[access the BMC dashboard].
+* If you are using a serial port and terminal, gather the required equipment:
+** DB-9 serial cable
+** Virtual serial terminal
 
 .Steps
 
+. Access the error codes using one of the following methods.
++
+[role="tabbed-block"]
+====
+
+.BMC
+--
+If you are using the BMC, perform these steps:
+
+. link:accessing-bmc-interface.html[Access the BMC dashboard].
 . From the BMC dashboard, select *BIOS POST Code*.
 . Review the information displayed for Current Code and the Previous Code.
-+
-If any of the following error codes are shown, work with technical support to resolve the issue.
+--
+
+.Serial port
+--
+If you are using a serial port and terminal, perform these steps to view the error codes. BIOS POST codes display on the serial console when the appliance reboots.
+
+. Connect to the DB-9 serial port on the back of the appliance.
+. Use settings `115200 8-N-1`.
+. View the codes printed over the serial terminal.
+--
+====
+
+. If any of the following error codes are shown, work with technical support to resolve the issue.
 +
 [cols="1a,3a" options="header"]
 |===
