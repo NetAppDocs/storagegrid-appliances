@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storage node, storage appliance, controller, storage controller, upgrade, upgrading, SANtricity OS, SANtricity
 summary: 'For storage controllers currently using SANtricity OS 08.42.20.00 \(11.42\) or newer, you can use the Grid Manager or maintenance mode to apply an upgrade.'
 ---
-= Upgrade SANtricity OS on SG6160 storage controllers using Grid Manager
+= Upgrade SANtricity OS on SG6100 storage controllers using Grid Manager
 :icons: font
 :imagesdir: ../media/
 
@@ -17,4 +17,4 @@ include::../_include/upgrading-santricity-os-on-storage-controllers-using-grid-m
 
 https://mysupport.netapp.com/matrix[NetApp Interoperability Matrix Tool^]
 
-link:upgrading-santricity-os-on-storage-controllers-using-maintenance-mode-sg6160.html[Upgrade SANtricity OS on SG6160 controller using maintenance mode]
+link:upgrading-santricity-os-on-storage-controllers-using-maintenance-mode-sg6160.html[Upgrade SANtricity OS on SG6100 controllers using maintenance mode]
