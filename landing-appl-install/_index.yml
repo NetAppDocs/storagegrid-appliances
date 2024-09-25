@@ -1,5 +1,9 @@
 indexpage:
-   tiles:
+  title: Install StorageGRID appliance hardware
+  lead: "To add a storage or services appliance to your StorageGRID system, you install and configure the appliance hardware. Then, you install StorageGRID software on each appliance and connect the appliance node to the grid."
+  summary: "To add a storage or services appliance to your StorageGRID system, you install and configure the appliance hardware. Then, you install StorageGRID software on each appliance and connect the appliance node to the grid."
+  keywords: storagegrid appliance install, storagegrid hardware install
+  tiles:
     - title: Quick start
       links:
         - title: Quick start for appliance installation

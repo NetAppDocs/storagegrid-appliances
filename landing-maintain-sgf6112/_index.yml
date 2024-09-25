@@ -1,5 +1,9 @@
 indexpage:
-   tiles:
+  title: Maintain SG6100 storage appliance hardware
+  lead: "Maintain the hardware for your SG6100 storage appliance."
+  summary: "Maintain the hardware for your SG6100 storage appliance."
+  keywords: maintain storagegrid sg6100
+  tiles:
     - title: Frequently performed procedures
       links:
         - title: Upgrade SANtricity (SG6160)

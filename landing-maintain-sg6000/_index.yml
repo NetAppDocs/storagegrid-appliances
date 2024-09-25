@@ -1,5 +1,9 @@
 indexpage:
-   tiles:
+  title: Maintain SG6000 storage appliance hardware
+  lead: "Maintain the hardware for your SG6000 storage appliance."
+  summary: "Maintain the hardware for your SG6000 storage appliance."
+  keywords: maintain storagegrid sg6000
+  tiles:
     - title: Frequently performed procedures
       links:
         - title: Turn identify LED on or off
