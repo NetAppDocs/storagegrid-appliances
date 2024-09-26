@@ -9,7 +9,7 @@ indexpage:
         - title: Upgrade SANtricity
           url: "../sg6100/upgrading-santricity-os-on-storage-controllers-using-grid-manager-sg6160.html"      
         - title: Upgrade drive firmware (SG6160)
-          url: "../sg6100/upgrading-drive-firmware-using-santricity-system-manager.html"
+          url: "../sg6100/upgrade-drive-firmware-using-santricity-system-manager.html"
         - title: Turn identify LED on or off
           url: "../sg6100/turning-sgf6112-identify-led-on-and-off.html"
         - title: Locate appliance in data center
