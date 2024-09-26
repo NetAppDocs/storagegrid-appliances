@@ -1,5 +1,5 @@
 ---
-permalink: sg6100/replace-power-supply-e4000.html
+permalink: sg6100/replace-power-supply-sg6100-e4000.html
 sidebar: sidebar
 keywords: E4000 replace canister, replacing E4000 canister, E4000 replace power supply, replacing E4000 power supply, E4000 replace fan, replacing E4000 fan, E4000, E-Series, eseries
 summary: Review E4000 canister types and requirements.
