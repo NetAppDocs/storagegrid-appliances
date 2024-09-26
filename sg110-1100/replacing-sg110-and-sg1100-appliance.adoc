@@ -76,7 +76,7 @@ CAUTION: If you wish to retain the data on the drives, be sure to insert the SSD
  
  . Power on the appliance. 
 
- . If the appliance you replaced had hardware drive encryption enabled for the SED drives, you must link:optional-enabling-node-encryption.html#access-an-encrypted-drive[enter the drive encryption passphrase] to access the encrypted drives when the replacement appliance starts for the first time.
+ . If the appliance you replaced had hardware drive encryption enabled for the SED drives, you must link:../installconfig/optional-enabling-node-encryption.html#access-an-encrypted-drive[enter the drive encryption passphrase] to access the encrypted drives when the replacement appliance starts for the first time.
 
  . Wait for the appliance to rejoin the grid. If the appliance does not rejoin the grid, follow the guidance on the StorageGRID Appliance Installer home page to address any issues.
 +
