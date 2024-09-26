@@ -1,4 +1,4 @@
 ---
 permalink: sg6100/shut-down-sgf6112.html
-redirect: storagegrid-appliances/sg6100/power-sgf6112-off-on.html#shut-down-the-sgf6112-appliance
+redirect: storagegrid-appliances/sg6100/power-sgf6112-off-on.html#shut-down-the-sgf6112-appliance-or-sg6100-cn-controller
 ---

@@ -25,7 +25,7 @@ image::../media/sg6100_cn_ocp_nic_location.png[NIC faceplate.]
 
 * You have link:locating-sgf6112-in-data-center.html[physically located the SG6100-CN controller] where you are replacing the NIC in the data center.
 +
-NOTE: Hot-swapping is *not* supported for this procedure. A link:power-sgf6112-off-on.html#shut-down-the-sgf6112-appliance[controlled shutdown of the appliance] is required before disconnecting cables and removing the NIC.
+NOTE: Hot-swapping is *not* supported for this procedure. A link:power-sgf6112-off-on.html#shut-down-the-sgf6112-appliance-or-sg6100-cn-controller[controlled shutdown of the appliance] is required before disconnecting cables and removing the NIC.
 
 * You have disconnected all cables, including the two power cords on the SG6100-CN.
 * *Optional*: You have removed the controller from the rack if required by local regulations. Removal is not required as the the NIC is externally accessible.
