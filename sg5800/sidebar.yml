@@ -9,8 +9,9 @@ entries:
     pdf-filename: Maintenance configuration procedures - SG5800
     entries:
     - title: Upgrade SANtricity OS on storage controller
-      url: "/sg5800/upgrading-santricity-os-on-storage-controller.html"
       entries:
+      - title: About upgrading SANtricity OS on a SG5800 storage controller
+        url: "/sg5800/upgrading-santricity-os-on-storage-controller.html"
       - title: Upgrade SANtricity OS on storage controllers using Grid Manager
         url: "/sg5800/upgrading-santricity-os-on-storage-controllers-using-grid-manager-sg5800.html"
       - title: Upgrade SANtricity OS on E4000 controller using maintenance mode
