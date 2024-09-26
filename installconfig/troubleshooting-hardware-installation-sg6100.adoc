@@ -104,7 +104,7 @@ The system is awaiting connectivity with the storage controllers and synchronizi
 | StorageGRID is running.
 |===
 
-== View error codes (SGF6112 and SG6160 only)
+== [[view-error-coded]]View error codes (SGF6112 and SG6160 only)
 
 If a hardware error occurs when the appliance is booting up, the BMC logs an error code. As required, you can view these error codes using the appliance serial port, and then work with technical support to resolve the issue.
 

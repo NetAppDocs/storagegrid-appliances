@@ -25,7 +25,7 @@ Use these procedures to:
 
 * You have link:locating-sg110-and-sg1100-in-data-center.html[physically located the SG110 or SG1100 appliance] where you are replacing the NIC in the data center.
 +
-NOTE: A link:power-sg110-and-sg1100-off-on.html#shut-down-the-appliance[controlled shutdown of the appliance] is required before removing the appliance from the rack.
+NOTE: A link:power-sg110-and-sg1100-off-on.html#shut-down-the-sg110-or-sg1100-appliance[controlled shutdown of the appliance] is required before removing the appliance from the rack.
 
 * You have disconnected all cables and link:reinstalling-sg110-and-sg1100-cover.html[removed the appliance cover].
 
