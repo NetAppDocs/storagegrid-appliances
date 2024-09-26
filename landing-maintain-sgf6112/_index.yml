@@ -51,7 +51,7 @@ indexpage:
         - title: Replace internal NIC (SGF6112 and SG6160)
           url: "../sg6100/replace-nic-in-sgf6112.html"
         - title: Replace external NIC (SG6160)
-          url: "../sg6100/replace-ocp-nic-in-sg6100-cn.html"
+          url: "../sg6100/replace-ocp-nic-sg6100-cn.html"
         - title: Replace DIMMs (SG6160)
           url: "../sg6100/replace-dimms-e4000.html"
         - title: Replace batteries (SG6160)
