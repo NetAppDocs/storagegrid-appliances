@@ -1,5 +1,5 @@
 ---
-permalink: sg5800/replace-controller-sg5800sg.html
+permalink: sg5800/replace-controller-5800sg.html
 sidebar: sidebar
 keywords: 
 summary: 
