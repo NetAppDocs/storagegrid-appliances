@@ -1,5 +1,5 @@
 ---
-permalink: sg5800/changing-link-configuration-of-sg5800-controller.html
+permalink: sg5800/changing-link-configuration-of-e5800sg-controller.html
 sidebar: sidebar
 keywords: 
 summary: 
@@ -44,7 +44,7 @@ NOTE: You might lose your connection if you made changes to the network or link 
 If you made changes to the VLAN settings, the subnet for the appliance might have changed. If you need to change the IP addresses for the appliance, follow the link:../installconfig/setting-ip-configuration.html[configure StorageGRID IP addresses] instructions.
 
 . From the StorageGRID Appliance Installer, select *Configure Networking* > *Ping Test*.
-. Use the Ping Test tool to check connectivity to IP addresses on any networks that might have been affected by the link configuration changes you made in the  <<change_link_configuration_sg5700,Change link configuration>> step.
+. Use the Ping Test tool to check connectivity to IP addresses on any networks that might have been affected by the link configuration changes you made in the  <<change_link_configuration_sg5800,Change link configuration>> step.
 +
 In addition to any other tests you choose to perform, confirm that you can ping the grid IP address of the primary Admin Node, and the grid IP address of at least one other Storage Node. If necessary, correct any link configuration issues.
 

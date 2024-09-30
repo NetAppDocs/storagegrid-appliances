@@ -118,9 +118,9 @@ image::../media/drw_E4000_open_controller_module_cover_IEOPS-870.png[Open contro
 image::../media/drw_E4000_replace_nvbattery_IEOPS-862.png[Remove NVMEM battery.]
 +
 |===
-a|image::../media/legend_icon_01.png[] |Battery release tab
+a|image::../media/legend_icon_01.png[Callout reference 1] |Battery release tab
 a|
-image::../media/legend_icon_02.png[]
+image::../media/legend_icon_02.png[Callout reference 2]
 |Battery power connector
 |===
 . Remove the replacement battery from its package. Install the replacement battery:

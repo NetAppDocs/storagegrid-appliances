@@ -17,7 +17,7 @@ The SGF6112 appliance and SG6100-CN controller have eight cooling fans. If one o
 * You have link:verify-component-to-replace.html[determined the location of the fan to replace].
 * You have link:locating-sgf6112-in-data-center.html[physically located the SGF6112 appliance or SG6100-CN controller] where you are replacing the fan in the data center.
 +
-NOTE: A link:power-sgf6112-off-on.html#shut-down-the-sgf6112-appliance[controlled shutdown of the appliance] is required before removing the appliance from the rack.
+NOTE: A link:power-sgf6112-off-on.html#shut-down-the-sgf6112-appliance-or-sg6100-cn-controller[controlled shutdown of the appliance] is required before removing the appliance from the rack.
 
 * You have disconnected all cables and link:reinstalling-sgf6112-cover.html[removed the appliance cover].
 

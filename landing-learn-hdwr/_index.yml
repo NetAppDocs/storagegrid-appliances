@@ -1,5 +1,9 @@
 indexpage:
-   tiles:
+  title: Get started with StorageGRID appliances
+  lead: "Learn about the storage or services appliance in your StorageGRID system."
+  summary: "Learn about the storage or services appliance in your StorageGRID system."
+  keywords: learn storagegrid appliances
+  tiles:
     - title: Get started
       links: 
         - title: What's new for appliances

@@ -62,7 +62,7 @@ entries:
         - title: Internal NIC (SGF6112 and SG6160)
           url: "/sg6100/replace-nic-in-sgf6112.html"
         - title: External NIC (SG6160)
-          url: "/sg6100/replace-ocp-nic-in-sg6100-cn.html"
+          url: "/sg6100/replace-ocp-nic-sg6100-cn.html"
     - title: Replace CMOS battery
       url: "/sg6100/replace-cmos-in-sgf6112.html"  
     - title: Replace DIMMs

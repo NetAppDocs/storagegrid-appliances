@@ -1,5 +1,9 @@
 indexpage:
-   tiles:
+  title: Prepare for StorageGRID installation
+  lead: "Prepare your site for installing a StorageGRID system."
+  summary: "Prepare your site for installing a StorageGRID system."
+  keywords: storagegrid installation preparation
+  tiles:
     - title: Prepare
       links:
         - title: Prepare site

@@ -1,11 +1,15 @@
 indexpage:
-   tiles:
+  title: Maintain SG6100 storage appliance hardware
+  lead: "Maintain the hardware for your SG6100 storage appliance."
+  summary: "Maintain the hardware for your SG6100 storage appliance."
+  keywords: maintain storagegrid sg6100
+  tiles:
     - title: Frequently performed procedures
       links:
-        - title: Upgrade SANtricity (SG6160)
+        - title: Upgrade SANtricity
           url: "../sg6100/upgrading-santricity-os-on-storage-controllers-using-grid-manager-sg6160.html"      
         - title: Upgrade drive firmware (SG6160)
-          url: "../sg6100/upgrading-drive-firmware-using-santricity-system-manager.html"
+          url: "../sg6100/upgrade-drive-firmware-using-santricity-system-manager.html"
         - title: Turn identify LED on or off
           url: "../sg6100/turning-sgf6112-identify-led-on-and-off.html"
         - title: Locate appliance in data center
@@ -24,10 +28,8 @@ indexpage:
           url: "../sg6100/replacing-sg6100-cn-controller.html"
         - title: Replace storage controller controller (SG6160)
           url: "../sg6100/replace-controller-e4000-duplex.html"
-        - title: Relocate SGF6112 in a rack
+        - title: Relocate SGF6112 or SG6100-CN in a rack
           url: "../sg6100/reinstalling-sgf6112-into-cabinet-or-rack.html"
-        - title: Relocate SG6100-CN in a rack
-          url: "../sg6100/reinstalling-sg6100-cn-controller-into-cabinet-or-rack.html"
     - title: Hardware procedures
       links:
         - title: Replace cover
@@ -49,7 +51,7 @@ indexpage:
         - title: Replace internal NIC (SGF6112 and SG6160)
           url: "../sg6100/replace-nic-in-sgf6112.html"
         - title: Replace external NIC (SG6160)
-          url: "../sg6100/replace-ocp-nic-in-sg6100-cn.html"
+          url: "../sg6100/replace-ocp-nic-sg6100-cn.html"
         - title: Replace DIMMs (SG6160)
           url: "../sg6100/replace-dimms-e4000.html"
         - title: Replace batteries (SG6160)

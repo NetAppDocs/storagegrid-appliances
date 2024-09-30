@@ -22,7 +22,7 @@ Remove the SG110 or SG1100 from a cabinet or rack to access the top cover or to 
 * You have labels to identify each cable that is connected to the SG110 or SG1100.
 * You have link:locating-sg110-and-sg1100-in-data-center.html[physically located the SG110 or SG1100] where you are performing maintenance in the data center.
 
-* You have link:power-sg110-and-sg1100-off-on.html#shut-down-the-appliance[shut down the SG110 or SG1100].
+* You have link:power-sg110-and-sg1100-off-on.html#shut-down-the-sg110-or-sg1100-appliance[shut down the SG110 or SG1100].
 +
 CAUTION: Don't shut down the appliance using the power switch.
 
@@ -78,4 +78,4 @@ IMPORTANT: To prevent degraded performance, don't twist, fold, pinch, or step on
 
 .After you finish
 
-link:power-sg110-and-sg1100-off-on.html#power-on-sg110-or-sg1100-and-verify-operation.html[Restart the appliance].
+link:power-sg110-and-sg1100-off-on.html#power-on-sg110-or-sg1100-and-verify-operation[Restart the appliance].

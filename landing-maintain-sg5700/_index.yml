@@ -1,5 +1,9 @@
 indexpage:
-   tiles:
+  title: Maintain SG5700 storage appliance hardware
+  lead: "Maintain the hardware for your SG5700 storage appliance."
+  summary: "Maintain the hardware for your SG5700 storage appliance."
+  keywords: maintain storagegrid sg5700
+  tiles:
     - title: Frequently performed procedures
       links:
         - title: Change link configuration

@@ -1,5 +1,9 @@
 indexpage:
-   tiles:
+  title: Maintain SG1000 and SG100 services appliance hardware
+  lead: "Maintain the hardware for your SG1000 and SG100 services appliance."
+  summary: "Maintain the hardware for your SG1000 and SG100 services appliance."
+  keywords: maintain storagegrid sg100, maintain storagegrid sg1000
+  tiles:
     - title: Frequently performed procedures
       links:
         - title: Turn identify LED on or off
