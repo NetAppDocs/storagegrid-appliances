@@ -55,7 +55,7 @@ Before installing the appliance, you must make sure that the site and the cabine
 |===
 
 . Confirm that your location meets the power requirements for your appliance:
-
++
 NOTE: The power supplies in StorageGRID appliances are rated for significantly higher wattages than the StorageGRID appliance hardware uses, even during periods of maximum power consumption. NetApp recommends using the numbers in the following table to determine whether a proposed rack layout that includes StorageGRID appliances is compatible with your rack power budget.
 +
 [cols="1a,1a,1a" options="header"]
