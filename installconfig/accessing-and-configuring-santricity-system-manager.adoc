@@ -89,7 +89,7 @@ image::../media/sam_home_page.gif[Screen shot of SANtricity System Manager home 
 +
 For specific instructions on configuring a StorageGRID proxy for sending E-Series AutoSupport messages without using the management port, go to the https://docs.netapp.com/us-en/storagegrid-118/admin/configuring-storage-proxy-settings.html[instructions for configuring storage proxy settings^].
 
-. If https://docs.netapp.com/us-en/e-series-santricity/sm-settings/overview-drive-security.html#what-is-drive-security[Drive Security] is enabled for the appliance, create and manage the security key.
+. If https://docs.netapp.com/us-en/e-series-santricity/sm-settings/overview-drive-security.html#what-is-drive-security[Drive Security^] is enabled for the appliance, create and manage the security key.
 +
 [role="tabbed-block"]
 ====
