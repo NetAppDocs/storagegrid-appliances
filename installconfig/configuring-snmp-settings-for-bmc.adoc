@@ -40,6 +40,9 @@ These instructions show the latest version of BMC firmware available for some St
 +
 NOTE: Use an IP address for the SNMP Destination Address. DNS names aren't supported.
 .. Select *Save*.
+. (Optional) Enable and configure SNMP for a BMC user.
+.. From the BMC dashboard, select *Settings* > *User Management*; then, select a BMC User. 
+.. See the User Management section of the https://kb.netapp.com/hybrid/StorageGRID/Platforms/How_to_use_StorageGRID_Appliance_BMC_with_vendor_supplied_user_guide[BMC User Guide^] for information about configuring SNMP settings for a BMC user.
 . If you are using SNMP traps to deliver alert notifications, see the Platform Event Filters section of the https://kb.netapp.com/hybrid/StorageGRID/Platforms/How_to_use_StorageGRID_Appliance_BMC_with_vendor_supplied_user_guide[BMC User Guide^] for information about using the BMC to configure Alert Policies and Event Filters.
 --
 
