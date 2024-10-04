@@ -47,7 +47,7 @@ Before installing the appliance, you must make sure that the site and the cabine
 | 240-volt AC 
 
 | SGF6112
-| 100 to 240-volts AC
+| 240-volts AC
 
 | SG6160
 | 240-volt AC
@@ -441,4 +441,5 @@ NOTE: Before committing to the installation, verify that the cables shipped with
 
 . Install any required network switches. See the link:https://imt.netapp.com/matrix/#welcome[NetApp Interoperability Matrix Tool^] for compatibility information.
 
+// 2024 OCT 4, SGRIDDOC-106
 // 2024 SEP 30, SGRIDDOC-63
