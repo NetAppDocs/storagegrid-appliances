@@ -32,25 +32,25 @@ Before installing the appliance, you must make sure that the site and the cabine
 | 120 to 240 volts AC
 
 | SG5760
-| 240-volt AC
-
-| SG5812
-| 120 to 240-volt AC
-
-| SG5860
-| 240-volt AC
-
-| SGF6024
-| 120-volt AC
-
-| SG6060
-| 240-volt AC 
-
-| SGF6112
 | 240-volts AC
 
+| SG5812
+| 120 to 240-volts AC
+
+| SG5860
+| 240-volts AC
+
+| SGF6024
+| 120-volts AC
+
+| SG6060
+| 240-volts AC 
+
+| SGF6112
+| 120 to 240-volts AC
+
 | SG6160
-| 240-volt AC
+| 240-volts AC
 
 |===
 
