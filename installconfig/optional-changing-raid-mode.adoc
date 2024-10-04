@@ -17,7 +17,7 @@ If you are using ConfigBuilder to generate a JSON file, you can change the RAID 
 
 If supported by your appliance, you can choose one of the following volume configuration options:
 
-NOTE: Volume sizes are not consistent across all DDP and RAID types. Variations in how DDP and RAID6 operate cause different volume sizes.
+NOTE: Volume sizes aren't consistent across all DDP and RAID types. Variations in how DDP and RAID6 operate cause different volume sizes.
 
 * *Dynamic Disk Pools (DDP)*: This mode uses two parity drives for every eight data drives. This is the default and recommended mode for all appliances. 
 
@@ -25,14 +25,14 @@ NOTE: Volume sizes are not consistent across all DDP and RAID types. Variations 
 ** DDP creates all the required logical unit numbers (LUNs) in one group.
 ** DDP provides drawer-loss protection in SG5760, SG5860, and SG6160 appliances.
 +
-NOTE: DDP does not provide drawer loss protection in SG6060 appliances because of the two SSDs. Drawer loss protection is effective in any expansion shelves that are added to an SG6060. 
+NOTE: DDP doesn't provide drawer loss protection in SG6060 appliances because of the two SSDs. Drawer loss protection is effective in any expansion shelves that are added to an SG6060. 
 
 * *DDP16*: This mode uses two parity drives for every 16 data drives, which results in higher storage efficiency compared to DDP. 
 
 ** Compared to RAID 6, DDP16 delivers better system performance, reduced rebuild times after drive failures, ease of management, and comparable storage efficiency. 
 ** To use DDP16 mode, your configuration must contain at least 20 drives. 
-** DDP16 create all the required LUNs in one group.
-** DDP16 does not provide drawer loss protection. 
+** DDP16 creates all the required LUNs in one group.
+** DDP16 doesn't provide drawer loss protection. 
 
 * *RAID6*: This mode uses two parity drives for every 16 or more data drives. It is a hardware protection scheme that uses parity stripes on each disk, and allows for two disk failures within the RAID set before any data is lost. To use RAID 6 mode, your configuration must contain at least 20 drives. Although RAID 6 can increase storage efficiency of the appliance when compared to DDP, it is not recommended for most StorageGRID environments.
 
