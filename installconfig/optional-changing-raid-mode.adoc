@@ -22,7 +22,7 @@ NOTE: Volume sizes aren't consistent across all DDP and RAID types. Variations i
 * *Dynamic Disk Pools (DDP)*: This mode uses two parity drives for every eight data drives. This is the default and recommended mode for all appliances. 
 
 ** When compared to RAID 6, DDP delivers better system performance, reduced rebuild times after drive failures, and ease of management. 
-** DDP creates all the required logical unit numbers (LUNs) in one group.
+** One disk pool is created per storage appliance or expansion shelf.
 ** DDP provides drawer-loss protection in SG5760, SG5860, and SG6160 appliances.
 +
 NOTE: DDP doesn't provide drawer loss protection in SG6060 appliances because of the two SSDs. Drawer loss protection is effective in any expansion shelves that are added to an SG6060. 
@@ -30,16 +30,15 @@ NOTE: DDP doesn't provide drawer loss protection in SG6060 appliances because of
 * *DDP16*: This mode uses two parity drives for every 16 data drives, which results in higher storage efficiency compared to DDP. 
 
 ** Compared to RAID 6, DDP16 delivers better system performance, reduced rebuild times after drive failures, ease of management, and comparable storage efficiency. 
-** To use DDP16 mode, your configuration must contain at least 20 drives. 
-** DDP16 creates all the required LUNs in one group.
+** To use DDP16 mode, your storage appliance must contain at least 20 drives. 
+** One disk pool is created per storage appliance or expansion shelf.
 ** DDP16 doesn't provide drawer loss protection. 
 
 * *RAID6*: This mode uses two parity drives for every 16 or more data drives. It is a hardware protection scheme that uses parity stripes on each disk, and allows for two disk failures within the RAID set before any data is lost. To use RAID 6 mode, your configuration must contain at least 20 drives. Although RAID 6 can increase storage efficiency of the appliance when compared to DDP, it is not recommended for most StorageGRID environments.
 
 ** RAID 6 provides one global hot spare per expansion shelf. For example, an SG6160 with two expansion shelves has three hot spares.
-** The maximum RAID 6 size is 19+2 on an SG6160 or 21+2 on an SGF6024.
-** StorageGRID attempts to create at least two RAID 6 groups. On a 60-drive storage appliance, StorageGRID creates three volume groups, each with a minimum of 18 drives (16+2). In practice, an SG6160 has three volume groups with RAID sizes of 19+2, 17+2, and 17+2 plus one hot spare.
-** On an SG6160, RAID 6 spreads the LUNs across multiple volume groups.
+** On a 60-drive storage appliance StorageGRID creates three volume groups, each with a minimum of 18 drives (16+2) and a maximum size of 21 drives (19+2). 
+** On the SGF6024 a RAID 6 volume group is 23 drives with one hot spare.
 ** RAID 6 volumes are slightly larger, allowing node cloning from DDP16 in many cases. Volume sizes can vary between volume groups in a RAID 6 configuration.
 
 CAUTION: If any volumes have already been configured or if StorageGRID was previously installed, changing the RAID mode causes the volumes to be removed and replaced. Any data on those volumes will be lost.
