@@ -93,9 +93,9 @@ For specific instructions on configuring a StorageGRID proxy for sending E-Serie
 +
 [role="tabbed-block"]
 ====
-.SG5700, SG5800, and SGF6112
+.SG5700 and SG5800
 --
-For the SG5700, SG5800, and SGF6112 storage appliances follow the high-level steps to https://docs.netapp.com/us-en/e-series-santricity/sm-settings/how-the-drive-security-feature-works.html#how-to-implement-drive-security[implement drive security^] in SANtricity System Manager.
+For the SG5700 and SG5800 storage appliances follow the high-level steps to https://docs.netapp.com/us-en/e-series-santricity/sm-settings/how-the-drive-security-feature-works.html#how-to-implement-drive-security[implement drive security^] in SANtricity System Manager.
 --
 
 .SG6060
@@ -108,7 +108,7 @@ For the SG6060 storage appliance, drive security can be automatically enabled on
 * Mixing FIPS and FDE drives in a volume group or pool results in all drives being treated as FDE drives. 
 * An FDE drive cannot be added to or used as a spare in an all-FIPS volume group or pool.
 
-. Create a security key (a string of characters that is shared by the controller and drives for read and write access). 
+. For the E4000 controller shelf, create a security key (a string of characters that is shared by the controller and drives for read and write access). 
 +
 * You can https://docs.netapp.com/us-en/e-series-santricity/sm-settings/create-internal-security-key.html[create an internal key^] from the controller's persistent memory or use an external key provided by a key management server. 
 * To use an external key provided by a key management server, you must first https://docs.netapp.com/us-en/e-series-santricity/sm-settings/overview-drive-security.html[establish authentication with a key management server^] in SANtricity System Manager.
