@@ -42,10 +42,8 @@ To access the API documentation, go to the StorageGRID Appliance Installer on th
 The StorageGRID Appliance Installer API includes the following sections:
 
 * *clone*: Operations to configure and control node cloning.
-* *drive-encryption* (StorageGRID 11.9 and later): Operations to manage drive encryption and view drive encryption status.
-* *encryption*: 
-** For StorageGRID 11.9 and later, operations to manage node encryption and view node encryption status.
-** For StorageGRID 11.8, operations to manage node or drive encryption and view node or drive encryption status.
+* *drive-encryption* (StorageGRID 11.8 and later): Operations to manage drive encryption and view drive encryption status.
+* *encryption*: Operations to manage node encryption and view node encryption status.
 * *hardware config*: Operations to configure system settings on attached hardware.
 * *installation*: Operations for starting the appliance installation and for monitoring installation status.
 * *networking*: Operations related to the Grid, Admin, and Client Network configuration for a StorageGRID appliance and appliance port settings.

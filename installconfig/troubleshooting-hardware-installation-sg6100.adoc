@@ -70,8 +70,14 @@ NOTE: In some cases the default username might be 'root' instead of 'admin'.
 |===
 | Code| Indicates
 
+| HT
+| The master boot script is waiting for OS boot to complete.
+
 | HI
 | The master boot script has started.
+
+| PP
+| The system is checking to see if the FPGA needs to be updated.
 
 | HP
 | The system is checking to see if the network interface card (NIC) firmware needs to be updated.
