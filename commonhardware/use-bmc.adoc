@@ -37,7 +37,7 @@ The following BMC procedures are documented for use with supported StorageGRID a
 * Troubleshoot hardware installation:
 ** link:../installconfig/troubleshooting-hardware-installation-sg100-and-sg1000.html[SG1000 and SG100]
 ** link:../installconfig/troubleshooting-hardware-installation-sg110-and-sg1100.html[SG1100 and SG110]
-** link:../installconfig/troubleshooting-hardware-installation.html[SG6000 and SG5700]
+** link:../installconfig/troubleshooting-hardware-installation.html[SG6000]
 ** link:../installconfig/troubleshooting-hardware-installation-sg6100.html[SG6100]
 * Determine the appliance power state:
 ** link:../sg100-1000/shut-down-sg100-and-sg1000.html[SG1000 and SG100]

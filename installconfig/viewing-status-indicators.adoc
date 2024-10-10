@@ -334,7 +334,8 @@ During a normal boot-up of the appliance, the seven-segment display on the E5700
 [cols="1a,3a" options="header"]
 |===
 | Code| Indicates
-
+| HT
+| The master boot script is waiting for OS boot to complete.
 | HI
 | The master boot script has started.
 | PP
