@@ -78,6 +78,10 @@ a|
  .. Wait for the connection state for the new IP address to become ready.
 |===
 
+. Select the *Node type*. For more information, see https://review.docs.netapp.com/us-en/storagegrid_main/primer/what-storage-node-is.html#types-of-storage-nodes[Types of Storage Nodes]. 
++
+NOTE: The Storage Node type can't be changed after the appliance is deployed.
+
 . In the *Node name* field, provide the system name you want to use for this appliance node, and click *Save*.
 +
 The name that appears here will be the appliance node's system name. System names are required for internal StorageGRID operations and can't be changed.
