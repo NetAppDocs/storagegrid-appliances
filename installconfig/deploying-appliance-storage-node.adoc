@@ -46,7 +46,7 @@ NOTE: If you need to deploy multiple appliance nodes at one time, you can automa
 +
 The StorageGRID Appliance Installer Home page appears.
 
-. Select the *Node type*. For more information, see https://review.docs.netapp.com/us-en/storagegrid_main/primer/what-storage-node-is.html#types-of-storage-nodes[Types of Storage Nodes]. 
+. If your appliance supports Metadata-only storage nodes, select the *Node type*. For more information, see https://review.docs.netapp.com/us-en/storagegrid_main/primer/what-storage-node-is.html#types-of-storage-nodes[Types of Storage Nodes]. 
 +
 NOTE: Metadata-only can only be selected during appliance deployment. If Metadata-only is selected as the Storage Node type, it can't be changed after the appliance is deployed. 
 
