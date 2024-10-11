@@ -45,8 +45,14 @@ NOTE: If you need to deploy multiple appliance nodes at one time, you can automa
 `*https://_Controller_IP_:8443*`
 +
 The StorageGRID Appliance Installer Home page appears.
+
+. Select the *Node type*. For more information, see https://review.docs.netapp.com/us-en/storagegrid_main/primer/what-storage-node-is.html#types-of-storage-nodes[Types of Storage Nodes]. 
 +
-image::../media/appliance_installer_home_start_installation_enabled.gif[Appliance Installer home page for other node types (besides Admin Nodes)]
+NOTE: Metadata-only can only be selected during appliance deployment. If Metadata-only is selected as the Storage Node type, it can't be changed after the appliance is deployed. 
+
+. In the *Node name* field, provide the system name you want to use for this appliance node, and click *Save*.
++
+The name that appears here will be the appliance node's system name. System names are required for internal StorageGRID operations and can't be changed.
 
 . In the *Primary Admin Node connection* section, determine whether you need to specify the IP address for the primary Admin Node.
 +
@@ -77,10 +83,6 @@ a|
  .. Click *Save*.
  .. Wait for the connection state for the new IP address to become ready.
 |===
-
-. In the *Node name* field, provide the system name you want to use for this appliance node, and click *Save*.
-+
-The name that appears here will be the appliance node's system name. System names are required for internal StorageGRID operations and can't be changed.
 
 . In the *Installation* section, confirm that the current state is "Ready to start installation of `_node name_` into grid with primary Admin Node `_admin_ip_` " and that the *Start Installation* button is enabled.
 +
