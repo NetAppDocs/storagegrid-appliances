@@ -16,8 +16,10 @@ indexpage:
           url: "../sg6000/changing-link-configuration-of-sg6000-cn-controller.html" 
         - title: Upgrade SANtricity
           url: "../sg6000/upgrading-santricity-os-on-storage-controllers.html"
-        - title: Upgrade drive firmware
-          url: "../sg6000/upgrading-drive-firmware-using-santricity-system-manager.html"
+        - title: Upgrade drive firmware (online method)
+          url: "../sg6000/upgrading-drive-firmware-using-santricity-system-manager-online.html"
+        - title: Upgrade drive firmware (offline method)
+          url: "../sg6000/upgrading-drive-firmware-using-santricity-system-manager-offline.html"
     - title: Rack procedures
       links:
         - title: Replace controller in rack
