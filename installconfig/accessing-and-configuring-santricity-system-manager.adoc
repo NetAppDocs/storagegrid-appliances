@@ -17,7 +17,7 @@ You might need to access SANtricity System Manager on the storage controller to 
 
 .Before you begin
 
-* You are using a https://docs.netapp.com/us-en/storagegrid-118/admin/web-browser-requirements.html[supported web browser^].
+* You are using a https://docs.netapp.com/us-en/storagegrid/admin/web-browser-requirements.html[supported web browser^].
 * To access SANtricity System Manager through Grid Manager, you have installed StorageGRID, and you have the Storage appliance administrator permission or Root access permission.
 * To access SANtricity System Manager using the StorageGRID Appliance Installer, you have the SANtricity System Manager administrator username and password.
 * To access SANtricity System Manager directly using a web browser, you have the SANtricity System Manager administrator username and password.
@@ -87,7 +87,7 @@ image::../media/sam_home_page.gif[Screen shot of SANtricity System Manager home 
  .. Use the *SUPPORT* > *Support Center* section of the online help to learn about the AutoSupport feature.
  .. Follow the "`How To`" instructions to manage AutoSupport.
 +
-For specific instructions on configuring a StorageGRID proxy for sending E-Series AutoSupport messages without using the management port, go to the https://docs.netapp.com/us-en/storagegrid-118/admin/configuring-storage-proxy-settings.html[instructions for configuring storage proxy settings^].
+For specific instructions on configuring a StorageGRID proxy for sending E-Series AutoSupport messages without using the management port, go to the https://docs.netapp.com/us-en/storagegrid/admin/configuring-storage-proxy-settings.html[instructions for configuring storage proxy settings^].
 
 . If https://docs.netapp.com/us-en/e-series-santricity/sm-settings/overview-drive-security.html#what-is-drive-security[Drive Security^] is enabled for the appliance, create and manage the security key.
 +
@@ -143,7 +143,7 @@ You can use SANtricity System Manager to monitor and manage the individual hardw
 
 .Before you begin
 
-* You are using a https://docs.netapp.com/us-en/storagegrid-118/admin/web-browser-requirements.html[supported web browser^].
+* You are using a https://docs.netapp.com/us-en/storagegrid/admin/web-browser-requirements.html[supported web browser^].
 * To access SANtricity System Manager through Grid Manager, you have the Storage appliance administrator permission or Root access permission.
 * To access SANtricity System Manager using the StorageGRID Appliance Installer, you have the SANtricity System Manager administrator username and password.
 * To access SANtricity System Manager directly using a web browser, you have the SANtricity System Manager administrator username and password.

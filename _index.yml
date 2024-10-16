@@ -7,9 +7,9 @@ indexpage:
     - title: Get started
       links: 
       - title: Learn about StorageGRID
-        url: https://docs.netapp.com/us-en/storagegrid-118/primer/index.html
+        url: https://docs.netapp.com/us-en/storagegrid/primer/index.html
       - title: StorageGRID quick start
-        url: "https://docs.netapp.com/us-en/storagegrid-118/primer/quick-start.html" 
+        url: "https://docs.netapp.com/us-en/storagegrid/primer/quick-start.html" 
       - title: Appliance installation quick start
         url: /installconfig/index.html
       - title: Automate installation and configuration
@@ -58,6 +58,8 @@ indexpage:
         url: /landing-maintain-sgf6112/index.html
     - title: StorageGRID software
       links:
+      - title: StorageGRID 11.9 documentation
+        url: https://docs.netapp.com/us-en/storagegrid/index.html
       - title: StorageGRID 11.8 documentation
         url: https://docs.netapp.com/us-en/storagegrid-118/index.html
       - title: StorageGRID 11.7 documentation

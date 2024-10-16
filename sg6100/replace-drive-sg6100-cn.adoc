@@ -50,6 +50,6 @@ CAUTION: Don't use excessive force while closing the handle.
 +
 When the drive is fully inserted, you hear a click.
 +
-When both SSD drives are functioning normally, the system will automatically restore read-cache functionality. You can https://docs.netapp.com/us-en/storagegrid-118/monitor/running-diagnostics.html[run diagnostics^] to monitor the read-cache hit rate. Since the cache was just rebuilt, the hit rate might be low initially but should increase over time as the cache is repopulated by clients accessing object data.
+When both SSD drives are functioning normally, the system will automatically restore read-cache functionality. You can https://docs.netapp.com/us-en/storagegrid/monitor/running-diagnostics.html[run diagnostics^] to monitor the read-cache hit rate. Since the cache was just rebuilt, the hit rate might be low initially but should increase over time as the cache is repopulated by clients accessing object data.
 
 include::../_include/fru-statement.adoc[]

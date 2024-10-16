@@ -181,7 +181,7 @@ NOTE: Mixing services appliances with different levels of performance in the sam
 * Use two SG100 or two SG1000 appliances to provide redundancy of some grid administration services. Do this by configuring each appliance as Admin Nodes.
 * Use two SG100 or two SG1000 appliances to provide highly available load balancing and traffic shaping services accessed through one or more virtual IP addresses. Do this by configuring the appliances as any combination of Admin Nodes or Gateway Nodes and adding both nodes to the same HA group.
 +
-NOTE: If you use Admin Nodes and Gateway Nodes in the same HA group, Admin Node-only port will not fail over. See the instructions for https://docs.netapp.com/us-en/storagegrid-118/admin/configure-high-availability-group.html[configuring HA groups^].
+NOTE: If you use Admin Nodes and Gateway Nodes in the same HA group, Admin Node-only port will not fail over. See the instructions for https://docs.netapp.com/us-en/storagegrid/admin/configure-high-availability-group.html[configuring HA groups^].
 
 When used with StorageGRID storage appliances, both the SG100 and the SG1000 services appliances enable deployment of appliance-only grids with no dependencies on external hypervisors or compute hardware.
 

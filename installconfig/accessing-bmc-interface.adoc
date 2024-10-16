@@ -20,7 +20,7 @@ You can access the BMC interface using the DHCP or static IP address for the BMC
 
 .Before you begin
 
-* The management client is using a https://docs.netapp.com/us-en/storagegrid-118/admin/web-browser-requirements.html[supported web browser^].
+* The management client is using a https://docs.netapp.com/us-en/storagegrid/admin/web-browser-requirements.html[supported web browser^].
 
 * The BMC management port on the appliance is connected to the management network you plan to use.
 +

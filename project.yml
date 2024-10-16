@@ -1,6 +1,6 @@
 settings:
   name: "StorageGRID Appliances"
-  search: "storagegrid-enable,storagegrid-118,storagegrid-appliances"
+  search: "storagegrid-enable,storagegrid,storagegrid-appliances"
   internal:
     pdf_enabled: true
     termcheck_enabled: false
