@@ -36,8 +36,8 @@ NOTE: If you need to deploy multiple appliance nodes at one time, you can automa
 
 * If you are performing an expansion or recovery operation, follow the appropriate instructions:
 
-** To add an appliance Storage Node to an existing StorageGRID system, see the instructions for https://docs.netapp.com/us-en/storagegrid-118/expand/adding-grid-nodes-to-existing-site-or-adding-new-site.html[adding grid nodes^].
-** To deploy an appliance Storage Node as part of a recovery operation, see instructions https://docs.netapp.com/us-en/storagegrid-118/maintain/recovering-storagegrid-appliance-storage-node.html[recovering an appliance Storage Node^].
+** To add an appliance Storage Node to an existing StorageGRID system, see the instructions for https://docs.netapp.com/us-en/storagegrid/expand/adding-grid-nodes-to-existing-site-or-adding-new-site.html[adding grid nodes^].
+** To deploy an appliance Storage Node as part of a recovery operation, see instructions https://docs.netapp.com/us-en/storagegrid/maintain/recovering-storagegrid-appliance-storage-node.html[recovering an appliance Storage Node^].
 
 .Steps
 

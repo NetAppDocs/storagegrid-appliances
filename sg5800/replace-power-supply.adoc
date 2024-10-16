@@ -28,7 +28,7 @@ NOTE: Do not mix PSUs of the different voltage types. Always replace like for li
 ** A replacement power supply that is supported for your controller appliance model.
 ** An ESD wristband, or you have taken other antistatic precautions.
 ** Access to SANtricity System Manager: 
-*** From Grid Manager, select *NODES* > *_appliance node_* > *SANtricity System Manager*. Controller information is on the https://docs.netapp.com/us-en/storagegrid-118/monitor/viewing-santricity-system-manager-tab.html[SANtricity System Manager tab].
+*** From Grid Manager, select *NODES* > *_appliance node_* > *SANtricity System Manager*. Controller information is on the https://docs.netapp.com/us-en/storagegrid/monitor/viewing-santricity-system-manager-tab.html[SANtricity System Manager tab].
 *** Point a browser in your management station to the controller's domain name or IP address.
 
 
