@@ -20,7 +20,7 @@ indexpage:
       links:            
       - title: SG100 and SG1000
         url: "/installconfig/hardware-description-sg100-and-1000.html"            
-      - title: SG110 and SG1100 (New)
+      - title: SG110 and SG1100
         url: "/installconfig/hardware-description-sg110-and-1100.html"
       - title: SG5700
         url: "/installconfig/hardware-description-sg5700.html"
