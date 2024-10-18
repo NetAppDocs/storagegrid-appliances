@@ -27,4 +27,9 @@ NOTE: A link:power-sg110-and-sg1100-off-on.html#shut-down-the-sg110-or-sg1100-ap
 
 * You have disconnected all cables and link:reinstalling-sg110-and-sg1100-cover.html[removed the appliance cover].
 
+.About this task
+To prevent service interruptions, confirm that all other Storage Nodes are connected to the grid before starting the CMOS battery replacement or replace the battery during a scheduled maintenance window when periods of service disruption are acceptable. See the information about https://docs.netapp.com/us-en/storagegrid/monitor/monitoring-system-health.html#monitor-node-connection-states[monitoring node connection states^].
+
 include::../_include/2023-replace-cmos.adoc[]
+
+// 2024 JUL 4, SGRIDDOC-74

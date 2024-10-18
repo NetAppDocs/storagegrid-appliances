@@ -14,7 +14,7 @@ You must access the StorageGRID Appliance Installer to verify the installer vers
 .Before you begin
 
 * You are using any management client that can connect to the StorageGRID Admin Network, or you have a service laptop.
-* The client or service laptop has a https://docs.netapp.com/us-en/storagegrid-118/admin/web-browser-requirements.html[supported web browser^].
+* The client or service laptop has a https://docs.netapp.com/us-en/storagegrid/admin/web-browser-requirements.html[supported web browser^].
 * The services appliance or storage appliance controller is connected to all of the StorageGRID networks you plan to use.
 * You know the IP address, gateway, and subnet for the services appliance  or storage appliance controller on these networks.
 * You have configured the network switches you plan to use.

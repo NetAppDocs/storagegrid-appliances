@@ -9,8 +9,9 @@ entries:
     pdf-filename: Maintenance configuration procedures - SG5800
     entries:
     - title: Upgrade SANtricity OS on storage controller
-      url: "/sg5800/upgrading-santricity-os-on-storage-controller.html"
       entries:
+      - title: About upgrading SANtricity OS on a SG5800 storage controller
+        url: "/sg5800/upgrading-santricity-os-on-storage-controller.html"
       - title: Upgrade SANtricity OS on storage controllers using Grid Manager
         url: "/sg5800/upgrading-santricity-os-on-storage-controllers-using-grid-manager-sg5800.html"
       - title: Upgrade SANtricity OS on E4000 controller using maintenance mode
@@ -31,7 +32,7 @@ entries:
     pdf-filename: Hardware procedures - SG5800
     entries:
       - title: Replace SG5800 Controller
-        url: "/sg5800/replace-controller-sg5800.html"
+        url: "/sg5800/replace-controller-5800sg.html"
       - title: Replace E4000 controller
         url: "/sg5800/replace-controller-e4000-simplex.html"
       - title: Replace fan (SG5860)

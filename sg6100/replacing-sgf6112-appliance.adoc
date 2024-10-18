@@ -15,7 +15,7 @@ You might need to replace the appliance if it is not functioning optimally or if
 
 .Before you begin
 
-* You have a replacement appliance with the same part number as the appliance you are replacing.
+* You have a replacement appliance with the same part number as the appliance you are replacing. Check the tags attached to the front of the appliances to confirm that the part numbers match.
 * You have labels to identify each cable that is connected to the appliance.
 * You have link:locating-sgf6112-in-data-center.html[physically located the appliance].
 
@@ -35,7 +35,7 @@ NOTE: If you are replacing the appliance before installing StorageGRID software,
 +
 When you are logged in as root, the prompt changes from `$` to `#`.
 .. Enter: `*run-host-command ipmitool lan print*` to display the current BMC configurations for the appliance.
-. link:power-sgf6112-off-on.html#shut-down-the-sgf6112-appliance[Shut down the appliance].
+. link:power-sgf6112-off-on.html#shut-down-the-sgf6112-appliance-or-sg6100-cn-controller[Shut down the appliance].
 
 . If any of the network interfaces on this StorageGRID appliance are configured for DHCP, you need to update the permanent DHCP lease assignments on the DHCP servers to reference the MAC addresses of the replacement appliance. This ensures that the appliance is assigned the expected IP addresses. 
 +
@@ -123,7 +123,7 @@ WARNING: To prevent data loss if the Appliance Installer indicates that physical
 
 . If the appliance you replaced used a key management server (KMS) to manage encryption keys for node encryption, additional configuration might be required before the node can join the grid. If the node does not automatically join the grid, make sure that these configuration settings have transferred to the new appliance and manually configure any settings that don't have the expected configuration:
 ** link:../installconfig/accessing-storagegrid-appliance-installer.html[Configure StorageGRID connections]  
-** https://docs.netapp.com/us-en/storagegrid-118/admin/kms-overview-of-kms-and-appliance-configuration.html#set-up-the-appliance[Configure node encryption for the appliance^]
+** https://docs.netapp.com/us-en/storagegrid/admin/kms-overview-of-kms-and-appliance-configuration.html#set-up-the-appliance[Configure node encryption for the appliance^]
 
 . Log in to the replaced appliance:
   .. Enter the following command: `ssh admin@_grid_node_IP_`
@@ -159,7 +159,7 @@ include::../_include/fru-statement.adoc[]
 
 link:../installconfig/viewing-status-indicators.html[View status indicators]
 
-link:../installconfig/troubleshooting-hardware-installation-sg6100.html#view-error-codes[View boot-up codes for appliance]
+link:../installconfig/troubleshooting-hardware-installation-sg6100.html#view-boot-codes[View boot-up codes for appliance]
 
 // 2023 DEC 21, SGRIDDOC-30
 // 2023 OCT 11, SGRIDDOC-12

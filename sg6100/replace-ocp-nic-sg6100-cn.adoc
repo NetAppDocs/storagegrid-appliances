@@ -1,5 +1,5 @@
 ---
-permalink: sg6100/replace-ocp-nic-in-sg6100-cn.html
+permalink: sg6100/replace-ocp-nic-sg6100-cn.html
 sidebar: sidebar
 keywords: storagegrid, sg6100, storage node, storage appliance, Replacing, replace, NIC, network interface card
 summary: 'You might need to replace a Network Interface Card \(NIC\) in the SG6100-CN if it is not functioning optimally or if it has failed.'
@@ -25,7 +25,7 @@ image::../media/sg6100_cn_ocp_nic_location.png[NIC faceplate.]
 
 * You have link:locating-sgf6112-in-data-center.html[physically located the SG6100-CN controller] where you are replacing the NIC in the data center.
 +
-NOTE: Hot-swapping is *not* supported for this procedure. A link:power-sgf6112-off-on.html#shut-down-the-sgf6112-appliance[controlled shutdown of the appliance] is required before disconnecting cables and removing the NIC.
+NOTE: Hot-swapping is *not* supported for this procedure. A link:power-sgf6112-off-on.html#shut-down-the-sgf6112-appliance-or-sg6100-cn-controller[controlled shutdown of the appliance] is required before disconnecting cables and removing the NIC.
 
 * You have disconnected all cables, including the two power cords on the SG6100-CN.
 * *Optional*: You have removed the controller from the rack if required by local regulations. Removal is not required as the the NIC is externally accessible.
@@ -33,9 +33,9 @@ NOTE: Hot-swapping is *not* supported for this procedure. A link:power-sgf6112-o
 
 .About this task
 
-To prevent service interruptions, confirm that all other Storage Nodes are connected to the grid before started the Network Interface Card (NIC) replacement or replace the NIC during a scheduled maintenance window when periods of service disruption are acceptable. See information about link:https://docs.netapp.com/us-en/storagegrid-118/monitor/monitoring-system-health.html#monitor-node-connection-states[montioring node connection states].
+To prevent service interruptions, confirm that all other Storage Nodes are connected to the grid before started the Network Interface Card (NIC) replacement or replace the NIC during a scheduled maintenance window when periods of service disruption are acceptable. See information about link:https://docs.netapp.com/us-en/storagegrid/monitor/monitoring-system-health.html#monitor-node-connection-states[montioring node connection states].
 
-CAUTION: If you have ever used an ILM rule that creates only one copy of an object, you must replace the NIC during a scheduled maintenance window because you might temporarily lose access to those objects during this procedure. See information about link:https://docs.netapp.com/us-en/storagegrid-118/ilm/why-you-should-not-use-single-copy-replication.html[why you should not use single-copy replication].
+CAUTION: If you have ever used an ILM rule that creates only one copy of an object, you must replace the NIC during a scheduled maintenance window because you might temporarily lose access to those objects during this procedure. See information about link:https://docs.netapp.com/us-en/storagegrid/ilm/why-you-should-not-use-single-copy-replication.html[why you should not use single-copy replication].
 
 == Remove the external NIC
 

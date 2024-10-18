@@ -139,6 +139,12 @@ image::../media/sgf6112_rear_view.png[SGF6112 Rear View]
 * During installation, use port 2 for IP configuration if DHCP-assigned IP addresses aren't available.
 |===
 
+This figure shows the location of the power supply and identify LEDs on the rear of the SGF6112. Additional status and activity LEDs are on the appliance ports. These LEDs might vary by appliance model.
+
+image::../media/q2024_rear_leds.png[Rear LEDs SGF6112]
+
+include::../_include/rear-leds-q.adoc[]
+
 === SG6160 front view
 
 This figure shows the front of the SG6160, which includes a 1U compute controller and a 4U shelf containing two storage controllers and 60 drives in five drive drawers.
@@ -200,6 +206,7 @@ NOTE: StorageGRID software is not preinstalled on the appliance. This software i
 * Can connect to all three StorageGRID networks, including the Grid Network, the Admin Network, and the Client Network.
 * Connects to the E-Series storage controllers and operates as the initiator.
 
+This figure shows ports on the back of the SG6100-CN compute controller.
 
 image::../media/sg6100_cn_rear_connectors.png[SG6100-CN Rear Connectors]
 
@@ -209,7 +216,8 @@ image::../media/sg6100_cn_rear_connectors.png[SG6100-CN Rear Connectors]
 
 | 1
 | Network ports 1-4
-| 10-GbE, 25-GbE, or 100-GbE based on cable or SFP transceiver type, switch speed, and configured link speed
+| * 10/25-GbE based on cable or SFP transceiver type (SFP28 and SFP+ modules are supported), switch speed, and configured link speed.
+* With optional 100G NIC SKU (SG6160 only), 10/25/40/100-GbE based on cable or transceiver type, switch speed, and configured link speed. QSFP56 (limited to 100GbE/port), QSFP28 (100GbE), and QSFP+ (40GbE) are supported natively. Optional SFP+ (10GbE) or SFP28 (25GbE) transceivers can be used with a QSA (sold separately).
 | Connect to the Grid Network and the Client Network for StorageGRID.
 
 | 2
@@ -248,6 +256,12 @@ image::../media/sg6100_cn_rear_connectors.png[SG6100-CN Rear Connectors]
 | Connect the SG6100-CN controller to the E4000 controllers. 
 
 |===
+
+This figure shows the location of the power supply and identify LEDs on the rear of the SG6100-CN compute controller. Additional status and activity LEDs are on the appliance ports. These LEDs might vary by appliance model.
+
+image::../media/q2023_rear_leds.png[Rear LEDs SG6100-CN]
+
+include::../_include/rear-leds-q.adoc[]
 
 === SG6160: E4000 storage controller
 
@@ -317,3 +331,5 @@ image::../media/iom_connectors.gif[IOM Rear]
 | 12Gb/s SAS
 | Connect each port to the storage controllers or additional expansion shelf (if any).
 |===
+
+// 2024 JUL 17, SGRIDDOC-75

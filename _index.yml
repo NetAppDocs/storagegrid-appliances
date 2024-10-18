@@ -1,12 +1,15 @@
 indexpage:
-  lead: NetApp StorageGRID is a software-defined object storage suite that supports a wide range of use cases across public, private, and hybrid multicloud environments. StorageGRID offers native support for the Amazon S3 API and delivers industry-leading innovations such as automated lifecycle management to store, secure, protect, and preserve unstructured data cost effectively over long periods.
+  title: StorageGRID Appliance Documentation
+  lead: "NetApp StorageGRID is a software-defined object storage suite that supports a wide range of use cases across public, private, and hybrid multicloud environments. StorageGRID offers native support for the Amazon S3 API and delivers industry-leading innovations such as automated lifecycle management to store, secure, protect, and preserve unstructured data cost effectively over long periods."
+  summary: "NetApp StorageGRID is a software-defined object storage suite that supports a wide range of use cases across public, private, and hybrid multicloud environments. StorageGRID offers native support for the Amazon S3 API and delivers industry-leading innovations such as automated lifecycle management to store, secure, protect, and preserve unstructured data cost effectively over long periods."
+  keywords: storagegrid appliances, storagegrid hardware, install, configure
   tiles:
     - title: Get started
       links: 
       - title: Learn about StorageGRID
-        url: https://docs.netapp.com/us-en/storagegrid-118/primer/index.html
+        url: https://docs.netapp.com/us-en/storagegrid/primer/index.html
       - title: StorageGRID quick start
-        url: "https://docs.netapp.com/us-en/storagegrid-118/primer/quick-start.html" 
+        url: "https://docs.netapp.com/us-en/storagegrid/primer/quick-start.html" 
       - title: Appliance installation quick start
         url: /installconfig/index.html
       - title: Automate installation and configuration
@@ -17,7 +20,7 @@ indexpage:
       links:            
       - title: SG100 and SG1000
         url: "/installconfig/hardware-description-sg100-and-1000.html"            
-      - title: SG110 and SG1100 (New)
+      - title: SG110 and SG1100
         url: "/installconfig/hardware-description-sg110-and-1100.html"
       - title: SG5700
         url: "/installconfig/hardware-description-sg5700.html"
@@ -55,6 +58,8 @@ indexpage:
         url: /landing-maintain-sgf6112/index.html
     - title: StorageGRID software
       links:
+      - title: StorageGRID 11.9 documentation
+        url: https://docs.netapp.com/us-en/storagegrid/index.html
       - title: StorageGRID 11.8 documentation
         url: https://docs.netapp.com/us-en/storagegrid-118/index.html
       - title: StorageGRID 11.7 documentation

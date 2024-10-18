@@ -25,7 +25,7 @@ The appliance Storage Node may not be accessible when you replace the controller
 ** A flat, static free work area.
 ** Labels to identify each cable that is connected to the controller canister.
 * Access to SANtricity System Manager: 
-** From Grid Manager, select *NODES* > *_appliance node_* > *SANtricity System Manager*. Controller information is on the https://docs.netapp.com/us-en/storagegrid-118/monitor/viewing-santricity-system-manager-tab.html[SANtricity System Manager tab].
+** From Grid Manager, select *NODES* > *_appliance node_* > *SANtricity System Manager*. Controller information is on the https://docs.netapp.com/us-en/storagegrid/monitor/viewing-santricity-system-manager-tab.html[SANtricity System Manager tab].
 +
 NOTE: You may not be able to access SANtricity System Manager using Grid Manager during certain steps of this procedure. If the SG5800 controller is shut down, you will need to access SANtricity System Manager using your browser.
 ** Point a browser in your management station to the controller's domain name or IP address.
@@ -127,9 +127,9 @@ NOTE: Carefully hold the DIMM by the edges to avoid pressure on the components o
 image::../media/drw_E4000_replace_dimms_IEOPS-865.png[Remove DIMMS.]
 +
 |===
-a|image::../media/legend_icon_01.png[] |DIMM ejector tabs
+a|image::../media/legend_icon_01.png[Callout reference 1] |DIMM ejector tabs
 a|
-image::../media/legend_icon_02.png[]
+image::../media/legend_icon_02.png[Callout reference 2]
 |DIMMS
 |===
 . Remove the replacement DIMM from the antistatic shipping bag, hold the DIMM by the corners, and align it to the slot.

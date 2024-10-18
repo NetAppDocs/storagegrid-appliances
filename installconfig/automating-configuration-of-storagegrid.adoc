@@ -34,7 +34,7 @@ m| configure-storagegrid.blank.json
 
 You can use the `configure-storagegrid.py` Python script and the `configure-storagegrid.json` configuration file to automate the configuration of your StorageGRID system.
 
-NOTE: You can also configure the system using the https://docs.netapp.com/us-en/storagegrid-118/primer/exploring-grid-manager.html[Grid Manager^] or the link:overview-of-installation-rest-apis.html[Installation API].
+NOTE: You can also configure the system using the https://docs.netapp.com/us-en/storagegrid/primer/exploring-grid-manager.html[Grid Manager^] or the link:overview-of-installation-rest-apis.html[Installation API].
 
 .Steps
 

@@ -1,5 +1,9 @@
 indexpage:
-   tiles:
+  title: Install appliance hardware
+  lead: "Install appliance hardware at your site."
+  summary: "Install appliance hardware at your site."
+  keywords: storagegrid install hardware, storagegrid install appliance
+  tiles:
     - title: Install storage appliance in cabinet or rack
       links:
         - title: SG5700

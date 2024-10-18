@@ -1,5 +1,9 @@
 indexpage:
-   tiles:
+  title: Deploy an appliance node
+  lead: "Deploy a StorageGRID appliance node and verify its operation."
+  summary: "Deploy a StorageGRID appliance node and verify its operation."
+  keywords: storagegrid deployment, deploy storagegrid
+  tiles:
     - title: Deploy appliance
       links:
         - title: Deploy appliance Storage Node

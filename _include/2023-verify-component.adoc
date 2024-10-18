@@ -5,7 +5,7 @@
 
 * You have the serial number of the storage appliance where the component needs to be replaced.
 
-* You are signed in to the Grid Manager using a https://docs.netapp.com/us-en/storagegrid-118/admin/web-browser-requirements.html[supported web browser^].
+* You are signed in to the Grid Manager using a https://docs.netapp.com/us-en/storagegrid/admin/web-browser-requirements.html[supported web browser^].
 
 .About this task
 
@@ -30,7 +30,7 @@ NOTE: Select the alert, not the heading for a group of alerts.
 
 .. Record the node name and unique identifying label of the component that has failed.
 +
-image::../media/nic-alert-sgf6112.jpg[Alert with component ID]
+image::../media/nic-alert-sgf6112.png[Alert with component ID]
 
 . Identify the chassis with the component that needs to be replaced.
 .. From the Grid Manager, select *NODES*.

@@ -22,9 +22,9 @@ NOTE: Don't rely on the E-Series instructions to replace a controller in the Sto
 * An ESD wristband, or you have taken anti-static precautions.
 * Labels to identify each cable that is connected to the controller.
 * Specific access permissions.
-* You must be signed in to the Grid Manager using a https://docs.netapp.com/us-en/storagegrid-118/admin/web-browser-requirements.html[supported web browser^].
+* You must be signed in to the Grid Manager using a https://docs.netapp.com/us-en/storagegrid/admin/web-browser-requirements.html[supported web browser^].
 * Access to SANtricity System Manager: 
-** From Grid Manager, select *NODES* > *_appliance node_* > *SANtricity System Manager*. Controller information is on the https://docs.netapp.com/us-en/storagegrid-118/monitor/viewing-santricity-system-manager-tab.html[SANtricity System Manager tab].
+** From Grid Manager, select *NODES* > *_appliance node_* > *SANtricity System Manager*. Controller information is on the https://docs.netapp.com/us-en/storagegrid/monitor/viewing-santricity-system-manager-tab.html[SANtricity System Manager tab^].
 ** Point a browser in your management station to the controller's domain name or IP address.
 
 .About this task
@@ -142,9 +142,9 @@ Removed the battery from the impaired controller and install it in the replaceme
 image::../media/drw_E4000_replace_nvbattery_IEOPS-862.png[Remove NVMEM battery.]
 +
 |===
-a|image::../media/legend_icon_01.png[] |Battery release tab
+a|image::../media/legend_icon_01.png[Callout reference 1] |Battery release tab
 a|
-image::../media/legend_icon_02.png[]
+image::../media/legend_icon_02.png[Callout reference 2]
 |Battery power connector
 |===
 . Move the battery to the replacement controller canister:
@@ -175,9 +175,9 @@ NOTE: Carefully hold the DIMM by the edges to avoid pressure on the components o
 image::../media/drw_E4000_replace_dimms_IEOPS-865.png[Remove DIMMS.]
 +
 |===
-a|image::../media/legend_icon_01.png[] |DIMM ejector tabs
+a|image::../media/legend_icon_01.png[Callout reference 1] |DIMM ejector tabs
 a|
-image::../media/legend_icon_02.png[]
+image::../media/legend_icon_02.png[Callout reference 2]
 |DIMMS
 |===
 . Verify that the battery is not plugged into the replacement controller canister.

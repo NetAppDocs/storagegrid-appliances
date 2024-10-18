@@ -17,7 +17,7 @@ You might need to access SANtricity System Manager on the storage controller to 
 
 .Before you begin
 
-* You are using a https://docs.netapp.com/us-en/storagegrid-118/admin/web-browser-requirements.html[supported web browser^].
+* You are using a https://docs.netapp.com/us-en/storagegrid/admin/web-browser-requirements.html[supported web browser^].
 * To access SANtricity System Manager through Grid Manager, you have installed StorageGRID, and you have the Storage appliance administrator permission or Root access permission.
 * To access SANtricity System Manager using the StorageGRID Appliance Installer, you have the SANtricity System Manager administrator username and password.
 * To access SANtricity System Manager directly using a web browser, you have the SANtricity System Manager administrator username and password.
@@ -87,16 +87,55 @@ image::../media/sam_home_page.gif[Screen shot of SANtricity System Manager home 
  .. Use the *SUPPORT* > *Support Center* section of the online help to learn about the AutoSupport feature.
  .. Follow the "`How To`" instructions to manage AutoSupport.
 +
-For specific instructions on configuring a StorageGRID proxy for sending E-Series AutoSupport messages without using the management port, go to the https://docs.netapp.com/us-en/storagegrid-118/admin/configuring-storage-proxy-settings.html[instructions for configuring storage proxy settings^].
+For specific instructions on configuring a StorageGRID proxy for sending E-Series AutoSupport messages without using the management port, go to the https://docs.netapp.com/us-en/storagegrid/admin/configuring-storage-proxy-settings.html[instructions for configuring storage proxy settings^].
 
-. If the Drive Security feature is enabled for the appliance, create and manage the security key.
- .. Select *Help* to access the online help for SANtricity System Manager.
- .. Use the *Settings* > *System* > *Security key management* section of the online help to learn about Drive Security.
- .. Follow the "`How To`" instructions to create and manage the security key.
-. Optionally, change the administrator password.
- .. Select *Help* to access the online help for SANtricity System Manager.
- .. Use the *Home* > *Storage array administration* section of the online help to learn about the administrator password.
- .. Follow the "`How To`" instructions to change the password.
+. If https://docs.netapp.com/us-en/e-series-santricity/sm-settings/overview-drive-security.html#what-is-drive-security[Drive Security^] is enabled for the appliance, create and manage the security key.
++
+[role="tabbed-block"]
+====
+.SG5700 and SG5800
+--
+For the SG5700 and SG5800 storage appliances follow the high-level steps to https://docs.netapp.com/us-en/e-series-santricity/sm-settings/how-the-drive-security-feature-works.html#how-to-implement-drive-security[implement drive security^] in SANtricity System Manager.
+--
+
+.SG6060
+--
+For the SG6060 storage appliance, drive security can be automatically enabled on the SSD drives only if key management was configured before to installing the Storage Appliance.
+
+. Equip your storage array with secure-capable drives (FDE drives or FIPS drives).
++
+* For volumes that require FIPS support, use only FIPS drives. 
+* Mixing FIPS and FDE drives in a volume group or pool results in all drives being treated as FDE drives. 
+* An FDE drive cannot be added to or used as a spare in an all-FIPS volume group or pool.
+
+. For the E4000 controller shelf, create a security key (a string of characters that is shared by the controller and drives for read and write access). 
++
+* You can https://docs.netapp.com/us-en/e-series-santricity/sm-settings/create-internal-security-key.html[create an internal key^] from the controller's persistent memory or use an external key provided by a key management server. 
+* To use an external key provided by a key management server, you must first https://docs.netapp.com/us-en/e-series-santricity/sm-settings/overview-drive-security.html[establish authentication with a key management server^] in SANtricity System Manager.
+
+. link:deploying-appliance-storage-node.html[Start installation] of the appliance.
+
+. After appliance installation is complete, confirm that drive security was enabled for the StorageGRID flash cache and enable drive security for all remaining disk pools or volume groups (See https://docs.netapp.com/us-en/e-series-santricity/sm-storage/enable-security.html[Enable security for a pool or volume group^] in SANtricity System Manager).  
+
+--
+
+.SG6160
+--
+The SG6160 storage appliance can be equipped with FIPS-compliant drives in both the SG6100-CN compute controller and the E4000 controller shelf. Drive encryption is configured separately for the SG6100-CN drives and E4000 drives.
+
+. link:optional-enabling-node-encryption.html#drive-encryption[Enable Drive Encryption] for SED SSDs installed in the SG6100-CN compute node. 
+
+. Create a security key (a string of characters shared by the controller and drives for read/write access). 
++
+* You can https://docs.netapp.com/us-en/e-series-santricity/sm-settings/create-internal-security-key.html[create an internal key^] from the controller's persistent memory or use an external key provided by a key management server.
+* To use an external key provided by a key management server, you must first https://docs.netapp.com/us-en/e-series-santricity/sm-settings/overview-drive-security.html[establish authentication with a key management server^] in SANtricity System Manager.
+
+. link:deploying-appliance-storage-node.html[Start installation] of the appliance.
+
+. After install is complete, https://docs.netapp.com/us-en/e-series-santricity/sm-storage/enable-security.html[enable drive security^] in SANtricity System Manager for all disk pools or volume groups.
+
+--
+====
 
 == Review hardware status in SANtricity System Manager
 
@@ -104,7 +143,7 @@ You can use SANtricity System Manager to monitor and manage the individual hardw
 
 .Before you begin
 
-* You are using a https://docs.netapp.com/us-en/storagegrid-118/admin/web-browser-requirements.html[supported web browser^].
+* You are using a https://docs.netapp.com/us-en/storagegrid/admin/web-browser-requirements.html[supported web browser^].
 * To access SANtricity System Manager through Grid Manager, you have the Storage appliance administrator permission or Root access permission.
 * To access SANtricity System Manager using the StorageGRID Appliance Installer, you have the SANtricity System Manager administrator username and password.
 * To access SANtricity System Manager directly using a web browser, you have the SANtricity System Manager administrator username and password.

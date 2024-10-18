@@ -1,5 +1,9 @@
 indexpage:
-   tiles:
+  title: Maintain appliance hardware
+  lead: "Maintain the hardware for your storage or services appliance."
+  summary: "Maintain the hardware for your storage or services appliance."
+  keywords: maintain storagegrid hardware
+  tiles:
     - title: Frequently performed procedures
       links:
         - title: Place appliance in maintenance mode
@@ -10,6 +14,8 @@ indexpage:
           url: "../commonhardware/checking-dns-server-configuration.html"
         - title: Update MAC address
           url: "../commonhardware/locate-mac-address.html"
+        - title: Manage drives
+          url: "../commonhardware/manage-drives-tab.html"
         - title: Monitor node encryption
           url: "../commonhardware/monitoring-node-encryption-in-maintenance-mode.html"
     - title: Node cloning

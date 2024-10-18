@@ -40,7 +40,7 @@ Prepare to replace a fan canister  by collecting support data about your applian
 The file is saved in the Downloads folder for your browser with the name, *support-data.7z*.
 . From SANtricity System Manager, determine which fan canister has failed.
  .. Select *Hardware*.
- .. Look at the fan image:../media/sam1130_ss_hardware_fan_icon_maint-e2800.gif[] icon to the right of the *Shelf* drop-down lists to determine which appliance has the failed fan canister.
+ .. Look at the fan image:../media/sam1130_ss_hardware_fan_icon_maint-e2800.gif[Fan icon] icon to the right of the *Shelf* drop-down lists to determine which appliance has the failed fan canister.
 +
 If a component has failed, this icon is red.
 

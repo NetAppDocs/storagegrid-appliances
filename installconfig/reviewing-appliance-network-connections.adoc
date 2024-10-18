@@ -9,7 +9,7 @@ summary: 'Before installing the StorageGRID appliance, you should understand whi
 :imagesdir: ../media/
 
 [.lead]
-Before installing the StorageGRID appliance, you should understand which networks can be connected to the appliance and how the ports on each controller are used. StorageGRID network requirements are fully explained in the https://docs.netapp.com/us-en/storagegrid-118/network/index.html[Networking guidelines^].
+Before installing the StorageGRID appliance, you should understand which networks can be connected to the appliance and how the ports on each controller are used. StorageGRID network requirements are fully explained in the https://docs.netapp.com/us-en/storagegrid/network/index.html[Networking guidelines^].
 
 Refer to the instructions for your appliance to determine what information you need:
 
@@ -29,10 +29,12 @@ When you deploy a StorageGRID appliance as a node in a StorageGRID system, you c
 * *Admin Network for StorageGRID*: The Admin Network is a closed network used for system administration and maintenance. The Admin Network is typically a private network and does not need to be routable between sites. The Admin Network is optional.
 * *Client Network for StorageGRID:* The Client Network is an open network used to provide access to client applications, including S3 and Swift. The Client Network provides client protocol access to the grid, so the Grid Network can be isolated and secured. You can configure the Client Network so that the appliance can be accessed over this network using only the ports you choose to open. The Client Network is optional.
 
-* *Management network for SANtricity* (optional for storage appliances, not needed for the SG6100): This network provides access to SANtricity System Manager, allowing you to monitor and manage the hardware components in the appliance and storage controller shelf. This management network can be the same as the Admin Network for StorageGRID, or it can be an independent management network.
+* *Management network for SANtricity* (optional for storage appliances, not needed for the SGF6112): This network provides access to SANtricity System Manager, allowing you to monitor and manage the hardware components in the appliance and storage controller shelf. This management network can be the same as the Admin Network for StorageGRID, or it can be an independent management network.
 
 * *BMC management network* (optional for SG100, SG110, SG1000, SG1100, SG6000, and SG6100): This network provides access to the baseboard management controller in the SG100, SG1000, SG6000, and SG6100 appliances allowing you to monitor and manage the hardware components in the appliance. This management network can be the same as the Admin Network for StorageGRID, or it can be an independent management network.
 +
 If the optional BMC management network is not connected, some support and maintenance procedures will be more difficult to perform. You can leave the BMC management network unconnected except when needed for support purposes.
 
-NOTE: For detailed information about StorageGRID networks, see the https://docs.netapp.com/us-en/storagegrid-118/network/storagegrid-network-types.html[StorageGRID network types^].
+NOTE: For detailed information about StorageGRID networks, see the https://docs.netapp.com/us-en/storagegrid/network/storagegrid-network-types.html[StorageGRID network types^].
+
+// 2024 JUL 4: SGRIDDOC-69
