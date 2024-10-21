@@ -66,7 +66,9 @@ image::../media/sg6000_cn_front_indicators.gif[Front Indicators - SG1000]
 |===
 
 The following figure shows the location of the power supply and identify LEDs on the rear of the SG100 and the SG1000. Additional status and activity LEDs are on the appliance ports. These LEDs might vary by appliance model.
+
 image::../media/q2023_rear_leds.png[Rear LEDs SG100 and SG1000]
+
 include::../_include/rear-leds-q.adoc[]
 
 [[general_boot_codes_SG100_1000]]
@@ -156,8 +158,11 @@ image::../media/sgf6112_front_indicators.png[Front Indicators - SG110 and SG1100
 
 |===
 
+
 The following figure shows the location of the power supply and identify LEDs on the rear of the SG110 and the SG1100. Additional status and activity LEDs are on the appliance ports. These LEDs might vary by appliance model.
+
 image::../media/q2024_rear_leds.png[Rear LEDs SG110 and SG1100]
+
 include::../_include/rear-leds-q.adoc[]
 
 [[general_boot_codes]]
@@ -545,7 +550,9 @@ This button can be set to Blink, On (Solid), or Off.
 |===
 
 The following figure shows the location of the power supply and identify LEDs on the rear of the SG6000-CN controller. Additional status and activity LEDs are on the appliance ports. These LEDs might vary by appliance model.
+
 image::../media/q2023_rear_leds.png[Rear LEDs SG6000-CN]
+
 include::../_include/rear-leds-q.adoc[]
 
 [[general_boot_codes_sg6000]]
