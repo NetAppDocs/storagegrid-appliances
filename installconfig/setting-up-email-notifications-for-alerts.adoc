@@ -28,7 +28,7 @@ In the BMC interface, use the *User Management* and *Platform Event Filters* opt
 
 These instructions show the latest version of BMC firmware available for some StorageGRID appliances. Your StorageGRID appliance might have a BMC firmware version that is slightly different. 
 
-* The BMC firmware updates during StorageGRID software upgrades. If you are not running the latest version of StorageGRID software, you can update your appliance to the latest StorageGRID version to install the https://review.docs.netapp.com/us-en/storagegrid-119_main/upgrade/how-your-system-is-affected-during-upgrade.html#appliance-firmware-is-upgraded[latest BMC firmware version available for your appliance].
+* The BMC firmware updates during StorageGRID software upgrades. If you are not running the latest version of StorageGRID software, you can update your appliance to the latest StorageGRID version to install the https://docs.netapp.com/us-en/storagegrid/upgrade/how-your-system-is-affected-during-upgrade.html#appliance-firmware-is-upgraded[latest BMC firmware version available for your appliance].
 * If your BMC appears different before or after a StorageGRID update: 
 ** See instructions on the StorageGRID 11.8 tab.
 ** link:../commonhardware/use-bmc.html[Use the StorageGRID BMC] might also have information to help you adapt these instructions for your BMC version.

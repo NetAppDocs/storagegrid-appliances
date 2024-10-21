@@ -31,7 +31,7 @@ IMPORTANT: See the information about viewing status indicators to verify the fai
 . Verify that the drive's left fault LED is amber or use the drive slot ID from the alert to locate the drive.
 +
 The drives are in the following positions in the chassis (front of chassis with bezel removed shown): 
-
++
 image::../media/sg1100_front_with_ssds.png[SG110 and SG1100 drive locations]
 
 [start=2]

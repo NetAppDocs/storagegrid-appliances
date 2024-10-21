@@ -28,7 +28,7 @@ Use this information to help link:troubleshooting-hardware-installation-sg100-an
 [[appliance_indicators_SG100_1000]]
 Appliance indicators and buttons::
 +
-The following figure shows status indicators and buttons on the front of the SG100 and SG1000.
+The following figure shows status indicators and buttons on the SG100 and SG1000.
 +
 image::../media/sg6000_cn_front_indicators.gif[Front Indicators - SG1000]
 +
@@ -64,12 +64,6 @@ image::../media/sg6000_cn_front_indicators.gif[Front Indicators - SG1000]
 * Off: No errors are present.
 
 |===
-
-The following figure shows the location of the power supply and identify LEDs on the rear of the SG100 and the SG1000. Additional status and activity LEDs are on the appliance ports. These LEDs might vary by appliance model.
-
-image::../media/q2023_rear_leds.png[Rear LEDs SG100 and SG1000]
-
-include::../_include/rear-leds-q.adoc[]
 
 [[general_boot_codes_SG100_1000]]
 General boot-up codes::
@@ -120,7 +114,7 @@ Use this information to help link:troubleshooting-hardware-installation-sg110-an
 [[appliance_indicators]]
 Appliance indicators and buttons::
 +
-The following figure shows indicators and buttons on the front of the SG110 and SG1100 appliances.
+The following figure shows indicators and buttons on the SG110 and SG1100 appliances.
 +
 image::../media/sgf6112_front_indicators.png[Front Indicators - SG110 and SG1100]
 +
@@ -157,13 +151,6 @@ image::../media/sgf6112_front_indicators.png[Front Indicators - SG110 and SG1100
 | This light is not used by the SG110 and SG1100 appliances and remains off. 
 
 |===
-
-
-The following figure shows the location of the power supply and identify LEDs on the rear of the SG110 and the SG1100. Additional status and activity LEDs are on the appliance ports. These LEDs might vary by appliance model.
-
-image::../media/q2024_rear_leds.png[Rear LEDs SG110 and SG1100]
-
-include::../_include/rear-leds-q.adoc[]
 
 [[general_boot_codes]]
 General boot-up codes::
@@ -334,8 +321,7 @@ During a normal boot-up of the appliance, the seven-segment display on the E5700
 [cols="1a,3a" options="header"]
 |===
 | Code| Indicates
-| HT
-| The master boot script is waiting for OS boot to complete.
+
 | HI
 | The master boot script has started.
 | PP
@@ -493,7 +479,7 @@ Blinking Green: There is Ethernet activity.
 
 .Related information
 
-* https://mysupport.netapp.com/site/global/dashboard[NetApp Support^]
+link:https://mysupport.netapp.com/site/global/dashboard[NetApp Support^]
 
 --
 
@@ -514,7 +500,7 @@ Status indicators and buttons on SG6000-CN controller::
 +
 The SG6000-CN controller includes indicators that help you determine the status of the controller, including the following indicators and buttons.
 +
-The following figure shows status indicators and buttons on the front of the SG6000-CN controller.
+The following figure shows status indicators and buttons on the SG6000-CN controller.
 +
 image::../media/sg6000_cn_front_indicators.gif[Front Indicators - SG6000-CN]
 +
@@ -548,13 +534,6 @@ This button can be set to Blink, On (Solid), or Off.
 *Note:* To view the boot-up and error codes, link:accessing-bmc-interface.html[access the BMC interface].
 * Off: No errors are present.
 |===
-
-The following figure shows the location of the power supply and identify LEDs on the rear of the SG6000-CN controller. Additional status and activity LEDs are on the appliance ports. These LEDs might vary by appliance model.
-
-image::../media/q2023_rear_leds.png[Rear LEDs SG6000-CN]
-
-include::../_include/rear-leds-q.adoc[]
-
 
 [[general_boot_codes_sg6000]]
 General boot-up codes::
@@ -590,7 +569,7 @@ image::../media/seven_segment_display_codes_for_e2800.gif[Seven-Segment Display 
 
 .Related information
 
-* https://mysupport.netapp.com/site/global/dashboard[NetApp Support^]
+* link:https://mysupport.netapp.com/site/global/dashboard[NetApp Support^]
 
 * link:../sg6000/power-sg6000-cn-controller-off-on.html#power-on-sg6000-cn-controller-and-verify-operation[Power on SG6000-CN controller and verify operation]
 --
@@ -609,7 +588,7 @@ Use this information to help link:troubleshooting-hardware-installation-sg6100.h
 [[appliance_indicators_SG6100]]
 Appliance indicators and buttons::
 +
-The following figure shows indicators and buttons on the front of the SG6100 appliances.
+The following figure shows indicators and buttons on the SG6100 appliances.
 
 +
 image::../media/sgf6112_front_indicators.png[Front Indicators - SGF6112]
@@ -647,12 +626,6 @@ image::../media/sgf6112_front_indicators.png[Front Indicators - SGF6112]
 | This light is not used by SG6100 appliances and remains off. 
 
 |===
-
-The following figure shows the location of the power supply and identify LEDs on the rear of the SGF6112 and SG6100-CN. Additional status and activity LEDs are on the appliance ports. These LEDs might vary by appliance model.
-
-image::../media/q2024_rear_leds.png[Rear LEDs SGF6112 and SG6100-CN]
-
-include::../_include/rear-leds-q.adoc[]
 
 [[general_boot_codes_SG6100]]
 General boot-up codes::
@@ -692,7 +665,7 @@ image::../media/ssd_indicators.png[SSD Indicators]
 
 .Related information
 
-* https://mysupport.netapp.com/site/global/dashboard[NetApp Support^]
+https://mysupport.netapp.com/site/global/dashboard[NetApp Support^]
 
 --
 ====

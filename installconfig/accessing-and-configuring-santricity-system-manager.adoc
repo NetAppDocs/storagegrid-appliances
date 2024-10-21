@@ -52,7 +52,7 @@ You can use SANtricity System Manager to configure the following settings:
 * Email alerts, SNMP alerts, or syslog alerts for the components in the storage controller shelf
 * E-Series AutoSupport settings for the components in the storage controller shelf.
 +
-For additional details on E-Series AutoSupport, see the http://mysupport.netapp.com/info/web/ECMP1658252.html[NetApp E-Series Systems Documentation Site^].
+For additional details on E-Series AutoSupport, see the https://docs.netapp.com/us-en/e-series-family/index.html[NetApp E-Series Systems Documentation Site^].
 
 * Drive Security keys, which are needed to unlock secured drives (this step is required if the Drive Security feature is enabled)
 * Administrator password for accessing SANtricity System Manager

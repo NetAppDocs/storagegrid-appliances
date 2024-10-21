@@ -20,7 +20,7 @@ You might need to replace a controller battery, drive, fan, or power supply, in 
 
 To replace the battery in the E2800 controller, see the instructions in these instructions for link:replacing-e2800-controller.html[replacing the E2800 controller]. Those instructions describe how to remove the controller from the appliance, remove the battery from the controller, install the battery, and replace the controller.
 
-To replace a drive, power-fan canister, fan canister, power canister, or drive drawer in the appliance, access the http://mysupport.netapp.com/info/web/ECMP1658252.html[E-Series procedures for maintaining E2800 hardware^].
+To replace a drive, power-fan canister, fan canister, power canister, or drive drawer in the appliance, access the https://docs.netapp.com/us-en/e-series-family/index.html[E-Series procedures for maintaining E2800 hardware^].
 
 == SG5712 component replacement instructions
 

@@ -112,8 +112,7 @@ WARNING: To prevent data loss if the Appliance Installer indicates that physical
 
 .Related information
 
-link:../installconfig/viewing-status-indicators.html[View status indicators]
-
-link:../installconfig/troubleshooting-hardware-installation-sg110-and-sg1100.html#view-error-codes[View boot-up codes for appliance]
+* link:../installconfig/viewing-status-indicators.html[View status indicators]
+* link:../installconfig/troubleshooting-hardware-installation-sg110-and-sg1100.html#view-error-codes[View boot-up codes for appliance]
 
 include::../_include/fru-statement.adoc[] 
