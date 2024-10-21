@@ -157,9 +157,9 @@ include::../_include/fru-statement.adoc[]
 
 .Related information
 
-link:../installconfig/viewing-status-indicators.html[View status indicators]
+* link:../installconfig/viewing-status-indicators.html[View status indicators]
 
-link:../installconfig/troubleshooting-hardware-installation-sg6100.html#view-boot-codes[View boot-up codes for appliance]
+* link:../installconfig/troubleshooting-hardware-installation-sg6100.html#view-boot-codes[View boot-up codes for appliance]
 
 // 2023 DEC 21, SGRIDDOC-30
 // 2023 OCT 11, SGRIDDOC-12

@@ -33,8 +33,6 @@ NOTE: If a bezel is installed on the controller, it might be difficult to see th
 
 .Related information
 
-link:reinstalling-fibre-channel-hba.html#verify-fibre-channel-hba-to-replace[Verify Fibre Channel HBA to replace]
-
-link:locating-controller-in-data-center.html[Locate controller in data center]
-
-link:../installconfig/accessing-bmc-interface.html[Access BMC interface]
+* link:reinstalling-fibre-channel-hba.html#verify-fibre-channel-hba-to-replace[Verify Fibre Channel HBA to replace]
+* link:locating-controller-in-data-center.html[Locate controller in data center]
+* link:../installconfig/accessing-bmc-interface.html[Access BMC interface]

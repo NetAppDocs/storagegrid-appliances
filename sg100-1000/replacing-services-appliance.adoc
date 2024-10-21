@@ -88,8 +88,7 @@ include::../_include/fru-statement.adoc[]
 
 .Related information
 
-link:../installconfig/viewing-status-indicators.html[View status indicators]
-
-link:../installconfig/troubleshooting-hardware-installation-sg100-and-sg1000.html#view-boot-codes[View boot-up codes for appliance]
+* link:../installconfig/viewing-status-indicators.html[View status indicators]
+* link:../installconfig/troubleshooting-hardware-installation-sg100-and-sg1000.html#view-boot-codes[View boot-up codes for appliance]
 
 // 2023 DEC 21, SGRIDDOC-30

@@ -41,8 +41,6 @@ CAUTION: When an appliance is installed with node encryption enabled, a temporar
 
 Without the KMS key needed to decrypt the disk, data on the appliance can't be retrieved and is effectively lost. This is the case whenever the decryption key can't be retrieved from the KMS. The key becomes inaccessible if a customer clears the KMS configuration, a KMS key expires, connection to the KMS is lost, or the appliance is removed from the StorageGRID system where its KMS keys are installed.
 
-.Steps
-
 . Open a browser, and enter one of the IP addresses for the appliance's compute controller.
 +
 `*https://_Controller_IP_:8443*`
@@ -193,6 +191,8 @@ CAUTION: After setting a new passphrase the encrypted drives can't be decrypted 
 . Save the new passphrase and passphrase display text in a secure location, such as a password management application.
 
 === Disable drive encryption
+
+.Steps
 
 . Access the StorageGRID Appliance Installer.
 +

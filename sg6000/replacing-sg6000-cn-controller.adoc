@@ -94,10 +94,10 @@ include::../_include/fru-statement.adoc[]
 
 .Related information
 
-link:../installconfig/sg6000-cn-installing-into-cabinet-or-rack.html[Install SG6000-CN into cabinet or rack]
+* link:../installconfig/sg6000-cn-installing-into-cabinet-or-rack.html[Install SG6000-CN into cabinet or rack]
 
-link:../installconfig/viewing-status-indicators.html[View status indicators]
+* link:../installconfig/viewing-status-indicators.html[View status indicators]
 
-link:../installconfig/troubleshooting-hardware-installation.html#view-boot-codes[View boot-up codes for SG6000-CN controller]
+* link:../installconfig/troubleshooting-hardware-installation.html#view-boot-codes[View boot-up codes for SG6000-CN controller]
 
 // 2023 DEC 21, SGRIDDOC-30
