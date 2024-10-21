@@ -17,7 +17,7 @@ You have previously accessed the StorageGRID Appliance Installer.
 
 .About this task
 
-You can't use remapped ports for load balancer endpoints. If you need to remove a remapped port, follow the steps in https://docs.netapp.com/us-en/storagegrid-118/maintain/removing-port-remaps.html[Remove port remaps^].
+You can't use remapped ports for load balancer endpoints. If you need to remove a remapped port, follow the steps in https://docs.netapp.com/us-en/storagegrid/maintain/removing-port-remaps.html[Remove port remaps^].
 
 .Steps
 
