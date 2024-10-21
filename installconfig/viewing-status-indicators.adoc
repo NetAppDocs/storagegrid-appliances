@@ -555,6 +555,7 @@ image::../media/q2023_rear_leds.png[Rear LEDs SG6000-CN]
 
 include::../_include/rear-leds-q.adoc[]
 
+
 [[general_boot_codes_sg6000]]
 General boot-up codes::
 +
@@ -648,7 +649,9 @@ image::../media/sgf6112_front_indicators.png[Front Indicators - SGF6112]
 |===
 
 The following figure shows the location of the power supply and identify LEDs on the rear of the SGF6112 and SG6100-CN. Additional status and activity LEDs are on the appliance ports. These LEDs might vary by appliance model.
+
 image::../media/q2024_rear_leds.png[Rear LEDs SGF6112 and SG6100-CN]
+
 include::../_include/rear-leds-q.adoc[]
 
 [[general_boot_codes_SG6100]]
