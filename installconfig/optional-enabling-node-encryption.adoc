@@ -16,7 +16,7 @@ You can enable encryption at the node and disk levels to protect the disks in yo
 
 You can perform both encryption levels on supported drives for additional security.
 
-See https://docs.netapp.com/us-en/storagegrid/admin/reviewing-storagegrid-encryption-methods.html[StorageGRID encryption methods^] for information about all encryption methods available for StorageGRID appliances.
+See https://docs.netapp.com/us-en/storagegrid-118/admin/reviewing-storagegrid-encryption-methods.html[StorageGRID encryption methods^] for information about all encryption methods available for StorageGRID appliances.
 
 == Enable node encryption
 
@@ -26,7 +26,7 @@ If you are using ConfigBuilder to generate a JSON file, you can enable node encr
 
 .Before you begin
 
-Review the information about https://docs.netapp.com/us-en/storagegrid/admin/kms-configuring.html[configuring KMS^].
+Review the information about https://docs.netapp.com/us-en/storagegrid-118/admin/kms-configuring.html[configuring KMS^].
 
 .About this task
 
@@ -37,7 +37,7 @@ A KMS can be set up in Grid Manager before or after the appliance is installed i
 * If a KMS is set up before installing the appliance, KMS-controlled encryption begins when you enable node encryption on the appliance and add it to a StorageGRID site where KMS is configured.
 * If a KMS is not set up before you install the appliance, KMS-controlled encryption is performed on each appliance that has node encryption enabled as soon as a KMS is configured and available for the site that contains the appliance node.
 
-CAUTION: When an appliance is installed with node encryption enabled, a temporary key is assigned. The data on the appliance is not protected until the appliance is connected to the Key Management System (KMS) and a KMS security key is set. See the https://docs.netapp.com/us-en/storagegrid/admin/kms-overview-of-kms-and-appliance-configuration.html[KMS appliance configuration overview^] for additional information.
+CAUTION: When an appliance is installed with node encryption enabled, a temporary key is assigned. The data on the appliance is not protected until the appliance is connected to the Key Management System (KMS) and a KMS security key is set. See the https://docs.netapp.com/us-en/storagegrid-118/admin/kms-overview-of-kms-and-appliance-configuration.html[KMS appliance configuration overview^] for additional information.
 
 Without the KMS key needed to decrypt the disk, data on the appliance can't be retrieved and is effectively lost. This is the case whenever the decryption key can't be retrieved from the KMS. The key becomes inaccessible if a customer clears the KMS configuration, a KMS key expires, connection to the KMS is lost, or the appliance is removed from the StorageGRID system where its KMS keys are installed.
 
@@ -90,7 +90,7 @@ You can enable drive encryption during initial appliance installation before loa
 
 .Before you begin
 
-Review the information about https://docs.netapp.com/us-en/storagegrid/admin/reviewing-storagegrid-encryption-methods.html[StorageGRID encryption methods^].
+Review the information about https://docs.netapp.com/us-en/storagegrid-118/admin/reviewing-storagegrid-encryption-methods.html[StorageGRID encryption methods^].
 
 .About this task
 
@@ -99,6 +99,8 @@ A passphrase is set when drive encryption is initially enabled. If a compute nod
 CAUTION: Make sure that you store the drive-encryption passphrase in a secure location. Encrypted SEDs can't be accessed without manually entering the same passphrase if the SED is installed in another StorageGRID appliance.
 
 === Enable drive encryption
+
+.Steps
 
 . Access the StorageGRID Appliance Installer.
 +
@@ -132,6 +134,8 @@ Save the passphrase and passphrase display text in a secure location, such as a 
 
 === View drive-encryption status
 
+.Steps
+
 . link:../commonhardware/placing-appliance-into-maintenance-mode.html[Place the appliance into maintenance mode].
 
 . From the StorageGRID Appliance Installer, select *Configure Hardware* > *Drive Encryption*.
@@ -139,6 +143,8 @@ Save the passphrase and passphrase display text in a secure location, such as a 
 === Access an encrypted drive
 
 You must enter the passphrase to access an encrypted drive after compute node replacement or after a drive is moved to a new compute node.
+
+.Steps
 
 . Access the StorageGRID Appliance Installer.
 +
@@ -165,6 +171,8 @@ The warning banners will no longer display when the drives are unlocked.
 . Return to the StorageGRID Appliance Installer Home page and select *Reboot* in the Installation section banner to restart the compute node and access the encrypted drives.
 
 === Change the drive-encryption passphrase
+
+.Steps
 
 . Access the StorageGRID Appliance Installer.
 +
