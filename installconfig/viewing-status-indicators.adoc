@@ -493,7 +493,7 @@ Blinking Green: There is Ethernet activity.
 
 .Related information
 
-* https://mysupport.netapp.com/site/global/dashboard[NetApp Support^]
+link:https://mysupport.netapp.com/site/global/dashboard[NetApp Support^]
 
 --
 
@@ -692,7 +692,7 @@ image::../media/ssd_indicators.png[SSD Indicators]
 
 .Related information
 
-* https://mysupport.netapp.com/site/global/dashboard[NetApp Support^]
+https://mysupport.netapp.com/site/global/dashboard[NetApp Support^]
 
 --
 ====

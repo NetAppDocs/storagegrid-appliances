@@ -3,7 +3,7 @@
 
 .Before you begin
 
-* You have link:../commonhardware/placing-appliance-into-maintenance-mode.html[placed the appliance into maintenance mode]. 
+You have link:../commonhardware/placing-appliance-into-maintenance-mode.html[placed the appliance into maintenance mode]. 
 
 NOTE: In rare instances, placing a StorageGRID appliance into maintenance mode might make the appliance unavailable for remote access.
 

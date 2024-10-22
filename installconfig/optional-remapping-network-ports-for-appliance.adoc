@@ -13,7 +13,7 @@ You can optionally remap the internal ports on an appliance node to different ex
 
 .Before you begin
 
-* You have previously accessed the StorageGRID Appliance Installer.
+You have previously accessed the StorageGRID Appliance Installer.
 
 .About this task
 

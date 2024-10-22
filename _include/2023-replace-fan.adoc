@@ -8,6 +8,7 @@
 The eight fans are in the following positions in the chassis (front half of StorageGRID appliance with top cover removed shown): 
 +
 image::../media/SGF6112-fan-locations.png[Fan locations]
++
 [options="header"]
 |===
 | | Fan unit 
