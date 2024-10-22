@@ -51,6 +51,5 @@ image::../media/nodes_menu.png[Appliance node rejoined grid]
 
 .Related information
 
-https://imt.netapp.com/matrix/#welcome[NetApp Interoperability Matrix Tool^]
-
-link:upgrading-santricity-os-on-storage-controllers-using-grid-manager-sg6000.html[Upgrade SANtricity OS on storage controllers using Grid Manager]
+* https://imt.netapp.com/matrix/#welcome[NetApp Interoperability Matrix Tool^]
+* link:upgrading-santricity-os-on-storage-controllers-using-grid-manager-sg6000.html[Upgrade SANtricity OS on storage controllers using Grid Manager]
