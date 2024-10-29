@@ -32,7 +32,7 @@ For example, you can test the path between the appliance node and a node at a di
 +
 If the network connection is valid, the "Ping test passed" message appears, with the ping command output listed.
 +
-image::../media/ping_test_passed.png[Screen shot of ping test results in StorageGRID Webscale Appliance Installer]
+image::../media/ping_test_passed.png[Screen shot of ping test results in StorageGRID Appliance Installer]
 
 .Related information
 
