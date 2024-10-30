@@ -13,7 +13,7 @@ You install a set of rails for the E2860 controller shelf in your cabinet or rac
 
 .Before you begin
 
-* You have reviewed the Safety Notices document included in the box, and understand the precautions for moving and installing hardware.
+* You have reviewed the https://library.netapp.com/ecm/ecm_download_file/ECMP12475945[Safety Notices^] document included in the box, and understand the precautions for moving and installing hardware.
 * You have the instructions packaged with the rail kit.
 
 CAUTION: Each 60-drive shelf weighs approximately 132 lb (60 kg) without drives installed. Four people or a mechanized lift are required to safely move the shelf.
