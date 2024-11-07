@@ -17,7 +17,7 @@ You have the BMC IP address of the controller you want to identify.
 
 .Steps
 
-. Access the appliance BMC interface.
+. link:../installconfig/accessing-bmc-interface.html[Access the appliance BMC interface].
 . Select *Server Identify*.
 +
 The current status of the identify LED is selected.
@@ -33,6 +33,5 @@ NOTE: If a bezel is installed on the controller, it might be difficult to see th
 
 .Related information
 
-link:locating-controller-in-data-center.html[Locate controller in data center]
-
-link:../installconfig/accessing-bmc-interface.html[Access BMC interface]
+* link:locating-controller-in-data-center.html[Locate controller in data center]
+* link:../installconfig/accessing-bmc-interface.html[Access BMC interface]

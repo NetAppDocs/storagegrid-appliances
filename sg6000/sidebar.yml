@@ -8,9 +8,10 @@ entries:
   - title: Maintenance configuration procedures
     pdf-filename: Maintenance configuration procedures - SG6000
     entries:
-    - title: Upgrade SANtricity OS on storage controllers
-      url: "/sg6000/upgrading-santricity-os-on-storage-controllers.html"
+    - title: Upgrade SANtricity OS on storage controller
       entries:
+      - title: About upgrading SANtricity OS on SG6000 storage controllers
+        url: "/sg6000/upgrading-santricity-os-on-storage-controllers.html"
       - title: Upgrade SANtricity OS on storage controllers using Grid Manager
         url: "/sg6000/upgrading-santricity-os-on-storage-controllers-using-grid-manager-sg6000.html"
       - title: Upgrade SANtricity OS on storage controllers using maintenance mode

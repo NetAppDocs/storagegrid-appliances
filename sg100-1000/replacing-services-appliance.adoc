@@ -13,7 +13,7 @@ You might need to replace the appliance if it is not functioning optimally or if
 
 .Before you begin
 
-* You have a replacement appliance with the same part number as the appliance you are replacing.
+* You have a replacement appliance with the same part number as the appliance you are replacing. Check the tags attached to the front of the appliances to confirm that the part numbers match.
 * You have labels to identify each cable that is connected to the appliance.
 * You have link:locating-controller-in-data-center.html[physically located the appliance].
 
@@ -88,8 +88,7 @@ include::../_include/fru-statement.adoc[]
 
 .Related information
 
-link:../installconfig/viewing-status-indicators.html[View status indicators]
-
-link:../installconfig/troubleshooting-hardware-installation-sg100-and-sg1000.html#view-boot-codes[View boot-up codes for appliance]
+* link:../installconfig/viewing-status-indicators.html[View status indicators]
+* link:../installconfig/troubleshooting-hardware-installation-sg100-and-sg1000.html#view-boot-codes[View boot-up codes for appliance]
 
 // 2023 DEC 21, SGRIDDOC-30

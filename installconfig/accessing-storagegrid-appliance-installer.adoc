@@ -14,7 +14,7 @@ You must access the StorageGRID Appliance Installer to verify the installer vers
 .Before you begin
 
 * You are using any management client that can connect to the StorageGRID Admin Network, or you have a service laptop.
-* The client or service laptop has a https://docs.netapp.com/us-en/storagegrid-118/admin/web-browser-requirements.html[supported web browser^].
+* The client or service laptop has a https://docs.netapp.com/us-en/storagegrid/admin/web-browser-requirements.html[supported web browser^].
 * The services appliance or storage appliance controller is connected to all of the StorageGRID networks you plan to use.
 * You know the IP address, gateway, and subnet for the services appliance  or storage appliance controller on these networks.
 * You have configured the network switches you plan to use.
@@ -101,7 +101,7 @@ The alert will not appear the next time you access this URL.
 +
 The StorageGRID Appliance Installer Home page appears. The information and messages shown when you first access this page depend on how your appliance is currently connected to StorageGRID networks. Error messages might appear that will be resolved in later steps.
 +
-image::../media/appliance_installer_home_5700_5600.png[Screen shot of the top part of the StorageGRID Webscale Appliance Installer home page]
+image::../media/appliance_installer_home_5700_5600.png[Screen shot of the top part of the StorageGRID Appliance Installer home page]
 
 . If you can't obtain an IP address using DHCP, you can use a link-local connection.
 +

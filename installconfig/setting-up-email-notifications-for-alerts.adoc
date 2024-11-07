@@ -11,11 +11,47 @@ summary: 'If you want email notifications to be sent when alerts occur, use the 
 [.lead]
 If you want email notifications to be sent when alerts occur, use the BMC interface to configure SMTP settings, users, LAN destinations, alert policies, and event filters.
 
-NOTE: BMC settings made by this procedure might not be preserved if the SG6000-CN controller or services appliance fails and has to be replaced. Make sure you have a record of all settings you have applied, so they can be easily reapplied after a hardware replacement if necessary.
+NOTE: BMC settings made by this procedure might not be preserved if a controller or appliance fails and has to be replaced. Make sure you have a record of all settings you have applied, so they can be easily reapplied after a hardware replacement if necessary.
 
+[role="tabbed-block"]
+====
+
+.StorageGRID 11.9 and later
+--
 .Before you begin
 
-You know how to access the BMC dashboard.
+You know how to link:../installconfig/accessing-bmc-interface.html[access the BMC dashboard].
+
+.About this task
+
+In the BMC interface, use the *User Management* and *Platform Event Filters* options on the Settings page to configure email notifications.
+
+These instructions show the latest version of BMC firmware available for some StorageGRID appliances. Your StorageGRID appliance might have a BMC firmware version that is slightly different. 
+
+* The BMC firmware updates during StorageGRID software upgrades. If you are not running the latest version of StorageGRID software, you can update your appliance to the latest StorageGRID version to install the https://docs.netapp.com/us-en/storagegrid/upgrade/how-your-system-is-affected-during-upgrade.html#appliance-firmware-is-upgraded[latest BMC firmware version available for your appliance].
+* If your BMC appears different before or after a StorageGRID update: 
+** See instructions on the StorageGRID 11.8 tab.
+** link:../commonhardware/use-bmc.html[Use the StorageGRID BMC] might also have information to help you adapt these instructions for your BMC version.
+
+.Steps
+
+. Configure email notifications as one or more LAN destinations.
+.. From the BMC dashboard, select *Settings* > *Platform Event Filters* > *LAN Destinations*.
+.. For Destination Type, select *E-Mail*.
+.. Select a BMC Username to receive the email alert from the list of BMC users. Alert email will be sent to the email address configured for this user.
+NOTE: To configure BMC users, select *Settings* > *User Management*. See the User Management section of the https://kb.netapp.com/hybrid/StorageGRID/Platforms/How_to_use_StorageGRID_Appliance_BMC_with_vendor_supplied_user_guide[BMC User Guide^] for more information.
+.. Enter an Email Subject and Email Message for the email alert.
++
+NOTE: An Email Subject and Email Message are not used for AMI-Format email users.
+.. Select *Save*.
+. See the Platform Event Filters section of the https://kb.netapp.com/hybrid/StorageGRID/Platforms/How_to_use_StorageGRID_Appliance_BMC_with_vendor_supplied_user_guide[BMC User Guide^] for information about using the BMC to configure Alert Policies and Event Filters.
+--
+
+.StorageGRID 11.8
+--
+.Before you begin
+
+You know how to link:../installconfig/accessing-bmc-interface.html[access the BMC dashboard].
 
 .About this task
 
@@ -25,7 +61,7 @@ image::../media/bmc_settings_menu.png[BMC Settings menu]
 
 .Steps
 
-. link:configuring-snmp-settings-for-bmc.html[Configure SNMP settings for BMC].
+. Configure SMTP settings for BMC.
  .. Select *Settings* > *SMTP Settings*.
  .. For Sender Email ID, enter a valid email address.
 +
@@ -55,3 +91,10 @@ The email address you configure for a user is the address the BMC sends alert no
  .. Create filters for every event you want the Alert Policy Group to be notified about.
   *** You can create event filters for power actions, specific sensor events, or all events.
   *** If you are uncertain which events to monitor, select *All Sensors* for Sensor Type and *All Events* for Event Options. If you receive unwanted notifications, you can change your selections later.
+--
+
+====
+
+
+
+

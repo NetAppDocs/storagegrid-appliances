@@ -21,7 +21,7 @@ Remove the SGF6112 or SG6100-CN from a cabinet or rack to access the top cover o
 * You have labels to identify each cable that is connected to the SGF6112 or SG6100-CN.
 * You have link:locating-sgf6112-in-data-center.html[physically located the SGF6112 or SG6100-CN] where you are performing maintenance in the data center.
 
-* You have link:power-sgf6112-off-on.html#shut-down-the-sgf6112-appliance[shut down the SGF6112 or SG6100-CN].
+* You have link:power-sgf6112-off-on.html#shut-down-the-sgf6112-appliance-or-sg6100-cn-controller[shut down the SGF6112 or SG6100-CN].
 +
 CAUTION: Don't shut down the appliance using the power switch.
 
@@ -75,4 +75,4 @@ NOTE: To prevent degraded performance, don't twist, fold, pinch, or step on the 
 
 .After you finish
 
-link:power-sgf6112-off-on.html#power-on-sgf6112-and-verify-operation[Restart the appliance].
+link:power-sgf6112-off-on.html#power-on-sgf6112-or-sg6100-cn-and-verify-operation[Restart the appliance].

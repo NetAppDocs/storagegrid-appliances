@@ -13,7 +13,7 @@ You might need to replace the SG6000-CN controller if it is not functioning opti
 
 .Before you begin
 
-* You have a replacement controller with the same part number as the controller you are replacing.
+* You have a replacement controller with the same part number as the controller you are replacing. Check the tags attached to the front of the controllers to confirm that the part numbers match.
 * You have labels to identify each cable that is connected to the controller.
 * You have physically located the controller to replace in the data center.
 +
@@ -62,7 +62,7 @@ NOTE: A service-laptop connection might not be available at some stages of the i
 . If the appliance where you replaced the controller used a key management server (KMS) to encrypt data, additional configuration might be required before the node can join the grid. If the node does not automatically join the grid, make sure that these configuration settings have transferred to the new controller and manually configure any settings that don't have the expected configuration:
 ** link:../installconfig/configuring-network-links.html[Configure network links]
 ** link:../installconfig/setting-ip-configuration.html[Configure StorageGRID IP addresses]
-** https://docs.netapp.com/us-en/storagegrid-118/admin/kms-overview-of-kms-and-appliance-configuration.html#set-up-the-appliance[Configure node encryption for the appliance^]
+** https://docs.netapp.com/us-en/storagegrid/admin/kms-overview-of-kms-and-appliance-configuration.html#set-up-the-appliance[Configure node encryption for the appliance^]
 
 . Log in to the appliance with the replaced controller:
   .. Enter the following command: `ssh admin@_grid_node_IP_`
@@ -94,10 +94,10 @@ include::../_include/fru-statement.adoc[]
 
 .Related information
 
-link:../installconfig/sg6000-cn-installing-into-cabinet-or-rack.html[Install SG6000-CN into cabinet or rack]
+* link:../installconfig/sg6000-cn-installing-into-cabinet-or-rack.html[Install SG6000-CN into cabinet or rack]
 
-link:../installconfig/viewing-status-indicators.html[View status indicators]
+* link:../installconfig/viewing-status-indicators.html[View status indicators]
 
-link:../installconfig/troubleshooting-hardware-installation.html#view-boot-codes[View boot-up codes for SG6000-CN controller]
+* link:../installconfig/troubleshooting-hardware-installation.html#view-boot-codes[View boot-up codes for SG6000-CN controller]
 
 // 2023 DEC 21, SGRIDDOC-30

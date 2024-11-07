@@ -33,7 +33,11 @@ The two solid-state drives (SSDs), indicated by the orange outline, are used for
 
 The remaining drive slots are blank.
 
+This figure shows the location of the power supply and identify LEDs on the rear of the SG100 and the SG1000. Additional status and activity LEDs are on the appliance ports. These LEDs might vary by appliance model.
 
+image::../media/q2023_rear_leds.png[Rear LEDs SG100 and SG1000]
+
+include::../_include/rear-leds-q.adoc[]
 
 == SG100 connectors
 
@@ -172,11 +176,13 @@ The following examples describe how you can maximize the capabilities of the app
 
 * Use two SG100 or two SG1000 appliances to provide gateway services by configuring them as Gateway Nodes.
 +
-NOTE: Don't deploy the SG100 and SG1000 service appliances in the same site. Unpredictable performance might result.
+NOTE: Mixing services appliances with different levels of performance in the same site, such as an SG100 or SG110 with an SG1000 or SG1100, can cause unpredictable and inconsistent results when using multiple nodes in a high-availability group or when balancing client load across multiple services appliances.
 
 * Use two SG100 or two SG1000 appliances to provide redundancy of some grid administration services. Do this by configuring each appliance as Admin Nodes.
 * Use two SG100 or two SG1000 appliances to provide highly available load balancing and traffic shaping services accessed through one or more virtual IP addresses. Do this by configuring the appliances as any combination of Admin Nodes or Gateway Nodes and adding both nodes to the same HA group.
 +
-NOTE: If you use Admin Nodes and Gateway Nodes in the same HA group, Admin Node-only port will not fail over. See the instructions for https://docs.netapp.com/us-en/storagegrid-118/admin/configure-high-availability-group.html[configuring HA groups^].
+NOTE: If you use Admin Nodes and Gateway Nodes in the same HA group, Admin Node-only port will not fail over. See the instructions for https://docs.netapp.com/us-en/storagegrid/admin/configure-high-availability-group.html[configuring HA groups^].
 
 When used with StorageGRID storage appliances, both the SG100 and the SG1000 services appliances enable deployment of appliance-only grids with no dependencies on external hypervisors or compute hardware.
+
+// 2024 JUL 11, SGRIDDOC-79
