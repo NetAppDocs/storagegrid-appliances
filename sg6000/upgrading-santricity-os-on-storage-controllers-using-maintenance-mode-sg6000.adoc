@@ -34,7 +34,7 @@ CAUTION: Upgrading more than one StorageGRID appliance at a time might cause dat
 +
 CAUTION: The NVSRAM is specific to the StorageGRID appliance. Don't use the standard NVSRAM download.
 
-. Follow the instructions in the _Upgrading SANtricity OS_ guide or the SANtricity System Manager online help to upgrade the firmware and NVSRAM.
+. Follow the instructions in the https://docs.netapp.com/us-en/e-series-santricity/sm-support/upgrade-controller-software-and-firmware.html[_Upgrading SANtricity OS_ guide^] or the SANtricity System Manager online help to upgrade the firmware and NVSRAM. 
 +
 NOTE: Activate the upgrade files immediately. Don't defer activation.
 
