@@ -796,8 +796,10 @@ Although this connection is optional, it is recommended to facilitate support.
 
 . If you plan to use the Admin Network for StorageGRID, connect the Admin Network port on the appliance to the Admin Network, using an Ethernet cable.
 
+. If your system includes an expansion shelf, see link:../sg6100/adding-expansion-shelf-to-deployed-sg6160.html[instructions for adding an expansion shelf to a deployed SG6160].
 --
 
 ====
 
+// 2025 JAN 8, storagegrid-appliance-issue-23
 // 2024 JUL 16, SGRIDDOC-75
