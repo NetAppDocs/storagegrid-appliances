@@ -24,7 +24,7 @@ The SG6160 appliance contains two SSD drives in the SG6100-CN controller which f
 +
 The drives are in the following positions in the chassis (front of chassis with bezel removed shown).
 +
-image::../media/sg6160_front_with_ssds.png[SSD location in SG6160]
+image::../media/sg6160_front_with_ssds.png["SSD location in SG6160"] 
 
 . Wrap the strap end of the ESD wristband around your wrist, and secure the clip end to a metal ground to prevent static discharge.
 . Unpack the replacement drive, and set it on a static-free, level surface near the appliance.
@@ -33,7 +33,7 @@ Save all packing materials.
 
 . Press the release button on the failed drive.
 +
-image::../media/h600s_driveremoval.gif[Drive Removal]
+image::../media/h600s_driveremoval.gif["Drive Removal"] 
 +
 The handle on the drive springs open partially, and the drive releases from the slot.
 
@@ -42,7 +42,7 @@ The handle on the drive springs open partially, and the drive releases from the 
 +
 The latch springs open.
 +
-image::../media/h600s_driveinstall.gif[Drive Installation]
+image::../media/h600s_driveinstall.gif["Drive Installation"] 
 
 . Insert the replacement drive in the slot, and then close the drive handle.
 +

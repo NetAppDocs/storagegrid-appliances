@@ -51,7 +51,7 @@ NOTE: To prevent degraded performance, don't twist, fold, pinch, or step on the 
 +
 The twelve drives are in the following positions in the chassis (front of chassis with bezel removed shown): 
 +
-image::../media/sgf6112_ssds_locations.png[Fan locations]
+image::../media/sgf6112_ssds_locations.png["Fan locations"] 
 +
 [options="header"]
 |===

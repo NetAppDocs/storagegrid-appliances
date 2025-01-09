@@ -109,13 +109,13 @@ The maximum raw storage available in the StorageGRID appliance is fixed, based o
 
 The figures show the front and back of the SG5712, a 2U enclosure that holds 12 drives.
 
-image::../media/sg5712_front_and_back_views.gif[The front and back of the SG5712 appliance]
+image::../media/sg5712_front_and_back_views.gif["The front and back of the SG5712 appliance"] 
 
 === SG5712 components
 
 The SG5712 includes two controllers and two power-fan canisters.
 
-image::../media/sg5712_with_callouts.gif[Controllers and power-fan canisters in the SG5712 appliance]
+image::../media/sg5712_with_callouts.gif["Controllers and power-fan canisters in the SG5712 appliance"] 
 
 [cols="1a,3a" options="header"]
 |===
@@ -137,14 +137,14 @@ Power-fan canisters
 === SG5712X front and rear views
 The figures show the front and back of the SG5712X, a 2U enclosure that holds 12 drives.
 
-image::../media/sg5712x_front_and_back_views.gif[The front and back of the SG5712X appliance]
+image::../media/sg5712x_front_and_back_views.gif["The front and back of the SG5712X appliance"] 
 
 
 === SG5712X components
 
 The SG5712X includes two controllers and two power-fan canisters.
 
-image::../media/sg5712x_with_callouts.gif[Controllers and power-fan canisters in the SG5712X appliance]
+image::../media/sg5712x_with_callouts.gif["Controllers and power-fan canisters in the SG5712X appliance"] 
 
 
 [cols="1a,3a" options="header"]
@@ -167,13 +167,13 @@ Power-fan canisters
 === SG5760 front and rear views
 The figures show the front and back of the SG5760 model, a 4U enclosure that holds 60 drives in 5 drive drawers.
 
-image::../media/sg5760_front_and_back_views.gif[Front and back of the SG5760 appliance]
+image::../media/sg5760_front_and_back_views.gif["Front and back of the SG5760 appliance"] 
 
 === SG5760 components
 
 The SG5760 includes two controllers, two fan canisters, and two power canisters.
 
-image::../media/sg5760_with_callouts.gif[Controllers, fan canisters, and power canisters in SG5760 appliance]
+image::../media/sg5760_with_callouts.gif["Controllers, fan canisters, and power canisters in SG5760 appliance"] 
 
 [cols="1a,2a" options="header"]
 |===
@@ -200,13 +200,13 @@ Power canister (1 of 2)
 
 The figures show the front and back of the SG5760X model, a 4U enclosure that holds 60 drives in 5 drive drawers.
 
-image::../media/sg5760x_front_and_back_views.gif[Front and back of the SG5760X appliance]
+image::../media/sg5760x_front_and_back_views.gif["Front and back of the SG5760X appliance"] 
 
 === SG5760X components
 
 The SG5760X includes two controllers, two fan canisters, and two power canisters.
 
-image::../media/sg5760x_with_callouts.gif[Controllers, fan canisters, and power canisters in SG5760X appliance]
+image::../media/sg5760x_with_callouts.gif["Controllers, fan canisters, and power canisters in SG5760X appliance"] 
 
 [cols="1a,3a" options="header"]
 |===
@@ -250,7 +250,7 @@ NOTE: StorageGRID software is not preinstalled on the appliance. This software i
 
 ==== E5700SG connectors
 
-image::../media/e5700sg_controller_with_callouts.gif[Connectors on E5700SG controller]
+image::../media/e5700sg_controller_with_callouts.gif["Connectors on E5700SG controller"] 
 
 [cols="1a,2a,2a,2a" options="header"]
 |===
@@ -312,11 +312,11 @@ The E2800 series storage controller has the following specifications:
 
 ==== E2800A connectors
 
-image::../media/e2800_controller_with_callouts.gif[Connectors on E2800A controller]
+image::../media/e2800_controller_with_callouts.gif["Connectors on E2800A controller"] 
 
 ==== E2800B connectors
 
-image::../media/e2800B_controller_with_callouts.gif[Connectors on E2800B controller]
+image::../media/e2800B_controller_with_callouts.gif["Connectors on E2800B controller"] 
 
 [cols="1a,2a,2a,2a" options="header"]
 |===

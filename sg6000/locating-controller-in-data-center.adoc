@@ -24,7 +24,7 @@ Locate the controller so that you can perform hardware maintenance or upgrades.
 +
 The front identify LED is behind the controller front bezel and might be difficult to see if the bezel is installed.
 +
-image::../media/sg6060_front_panel_service_led_on.jpg[Front identify LED - on]
+image::../media/sg6060_front_panel_service_led_on.jpg["Front identify LED - on"] 
 
  ** Check the tags attached to the front of each controller for a matching part number.
 . Remove the controller front bezel, if one is installed, to access the front panel controls and indicators.

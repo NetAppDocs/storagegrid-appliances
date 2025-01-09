@@ -8,7 +8,7 @@
 +
 The front identify LED is behind the front bezel and might be difficult to see if the bezel is installed.
 +
-image::../media/sgf6112_front_panel_service_led_on.png[Front identify LED - on]
+image::../media/sgf6112_front_panel_service_led_on.png["Front identify LED - on"] 
 +
 The rear identify LED is at the center of the appliance below the Micro-SD slot.
 

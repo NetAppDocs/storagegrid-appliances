@@ -30,7 +30,7 @@ NOTE: Select the alert, not the heading for a group of alerts.
 
 .. Record the node name and unique identifying label of the component that has failed.
 +
-image::../media/nic-alert-sgf6112.png[Alert with component ID]
+image::../media/nic-alert-sgf6112.png["Alert with component ID"] 
 
 . Identify the chassis with the component that needs to be replaced.
 .. From the Grid Manager, select *NODES*.

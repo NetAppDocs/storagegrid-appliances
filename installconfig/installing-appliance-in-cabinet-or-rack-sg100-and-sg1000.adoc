@@ -21,13 +21,13 @@ You install a set of rails for the appliance in your cabinet or rack, and then s
 . Carefully follow the instructions for the rail kit to install the rails in your cabinet or rack.
 . On the two rails installed in the cabinet or rack, extend the movable parts of the rails until you hear a click.
 +
-image::../media/rails_extended_out.gif[SG100 and SG 1000 Rails]
+image::../media/rails_extended_out.gif["SG100 and SG 1000 Rails"] 
 
 . Insert the appliance into the rails.
 . Slide the appliance into the cabinet or rack.
 +
 When you can't move the appliance any further, pull the blue latches on both sides of the chassis to slide the appliance all the way in.
 +
-image::../media/sg6000_cn_rails_blue_button.gif[SG 100 and SG1000 Sliding on Rails]
+image::../media/sg6000_cn_rails_blue_button.gif["SG 100 and SG1000 Sliding on Rails"] 
 +
 NOTE: Don't attach the front bezel until after you power on the appliance.
