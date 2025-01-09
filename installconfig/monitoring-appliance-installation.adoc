@@ -22,7 +22,7 @@ The StorageGRID Appliance Installer provides status until installation is comple
 +
 The Monitor Installation page shows the installation progress.
 +
-image::../media/monitor_installation_configure_storage.gif["This image is explained by the surrounding text."] 
+image::../media/monitor_installation_configure_storage.gif["Monitor Installation page"] 
 +
 The blue status bar indicates which task is currently in progress. Green status bars indicate tasks that have completed successfully.
 +
@@ -39,7 +39,7 @@ During this stage, the installer connects to the storage controller, clears any 
 During this stage, the installer copies the base operating system image for StorageGRID to the appliance.
 . Continue monitoring the installation progress until the *Install StorageGRID* stage pauses and a message appears on the embedded console, prompting you to approve this node on the Admin Node using the Grid Manager. Go to the next step.
 +
-image::../media/monitor_installation_install_sgws.gif["This image is explained by the surrounding text."] 
+image::../media/monitor_installation_install_sgws.gif["Monitor Installation page"] 
 
 . Go to the Grid Manager of the Primary Admin node, approve the pending storage node, and complete the StorageGRID installation process.
 +
@@ -75,7 +75,7 @@ During this stage, the installer copies the base operating system image for Stor
 +
 NOTE: During installation of an appliance primary Admin Node, a fifth phase appears to load the StorageGRID Installer (the example screen shot shows only the first four phases). If loading the StorageGRID Installer (fifth phase) is in progress for more than 10 minutes, refresh the web page manually.
 +
-image::../media/monitor_installation_install_sgws.gif["This image is explained by the surrounding text."] 
+image::../media/monitor_installation_install_sgws.gif["Monitor Installation page"] 
 . https://docs.netapp.com/us-en/storagegrid/admin/signing-in-to-grid-manager.html[Go to the Grid Manager^] of the Primary Admin node, approve the pending grid node, and complete the StorageGRID installation process.
 +
 When you click *Install* from the Grid Manager, Stage 3 completes and stage 4, *Finalize Installation*, begins. When stage 4 completes, the appliance is rebooted.
