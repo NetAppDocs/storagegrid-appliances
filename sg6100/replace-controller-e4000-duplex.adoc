@@ -105,6 +105,8 @@ CAUTION: To prevent degraded performance, do not twist, fold, pinch, or step on 
 
 Your replacement controller may come with parts pre-installed. Determine which parts must be transferred to the replacement controller canister.
 
+.Steps
+
 . Place the replacement controller on a flat, static-free surface with the removable cover facing up.
 . Open the cover by pressing the blue buttons on the sides of the controller canister to release the cover, and then rotate the cover up and off of the controller canister.
 . Determine if the replacement controller contains a battery and/or DIMMs. If it does, reinstall the controller cover and go to <<step8_replace_controller,Step 8: Replace controller>>. Otherwise:
