@@ -33,7 +33,7 @@ The image shows a fan for the appliance with the electrical connector highlighte
 
 NOTE: Each of the two power supply units also contain a fan. The power supply fans aren't included in this procedure.
 
-image::../media/sgf6112_fan_fru.png[Fan FRU]
+image::../media/sgf6112_fan_fru.png["Fan FRU"] 
 
 include::../_include/2023-replace-fan.adoc[]
 

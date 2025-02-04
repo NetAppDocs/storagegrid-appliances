@@ -34,7 +34,7 @@ The SG110 and SG1100 appliances have two power supplies for redundancy. If one o
 
 The figure shows the two power supply units for the SG110 and SG1100. The power supplies are accessible from the back of the appliance. 
 
-image::../media/sgf6112_power_supplies.png[Back of SGF6112 with two power supplies]
+image::../media/sgf6112_power_supplies.png["Back of SGF6112 with two power supplies"] 
 
 .Steps
 
@@ -48,12 +48,12 @@ When viewed from the rear of the appliance, power supply A (PSU0) is on the righ
 . Lift the handle on the first supply to be replaced.
 +
 
-image::../media/sg6000_cn_lift_cam_handle_psu.gif[Lifting the handle to remove PSU]
+image::../media/sg6000_cn_lift_cam_handle_psu.gif["Lifting the handle to remove PSU"] 
 
 . Press the blue latch and pull the power supply out.
 +
 
-image::../media/sg6000_cn_remove_power_supply.gif[Removing a power supply]
+image::../media/sg6000_cn_remove_power_supply.gif["Removing a power supply"] 
 
 . With the blue latch on the right, slide the replacement power supply into the chassis.
 
@@ -68,7 +68,7 @@ You will feel a click when the power supply is locked into place.
 
 +
 //update drawings
-image::../media/sg6000_cn_insert_power_supply.gif[Sliding power supply in]
+image::../media/sg6000_cn_insert_power_supply.gif["Sliding power supply in"] 
 
 . Push the handle back down against the body of the PSU.
 

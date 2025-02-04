@@ -70,13 +70,13 @@ NOTE: If these options aren't available or the login page does not appear, use t
 +
 SANtricity System Manager uses a single administrator password that is shared among all users.
 +
-image::../media/san_setup_wizard.gif[Screen shot showing Cancel button for Set Up wizard]
+image::../media/san_setup_wizard.gif["Screen shot showing Cancel button for Set Up wizard"] 
 
 . Select *Cancel* to close the wizard.
 +
 NOTE: Don't complete the Set Up wizard for a StorageGRID appliance.
 +
-image::../media/sam_home_page.gif[Screen shot of SANtricity System Manager home page]
+image::../media/sam_home_page.gif["Screen shot of SANtricity System Manager home page"] 
 
 . [[config_hardware_alerts_sg6000, start=4]]Configure hardware alerts.
  .. Select *Help* to access the online help for SANtricity System Manager.
@@ -160,13 +160,13 @@ NOTE: Accessing SANtricity System Manager from the Grid Manager or from the Appl
 +
 The SANtricity System Manager home page appears. In SANtricity System Manager, the controller shelf is referred to as a storage array.
 +
-image::../media/sam_home_page.gif[Screen shot of SANtricity System Manager home page]
+image::../media/sam_home_page.gif["Screen shot of SANtricity System Manager home page"] 
 
 . Review the information displayed for appliance hardware and confirm that all hardware components have a status of Optimal.
  .. Click the *Hardware* tab.
  .. Click *Show back of shelf*.
 +
-image::../media/sam_hardware_controllers_a_and_b.gif[Hardware status tab in SANtricity System Manager]
+image::../media/sam_hardware_controllers_a_and_b.gif["Hardware status tab in SANtricity System Manager"] 
 +
 From the back of the shelf, you can view both storage controllers, the battery in each storage controller, the two power canisters, the two fan canisters, and expansion shelves (if any). You can also view component temperatures.
 
@@ -213,7 +213,7 @@ DHCP is the default method for assigning an IP address to the storage controller
 +
 NOTE: It might take a few minutes for the DHCP values to appear.
 +
-image::../media/storage_controller_network_config_ipv4.gif[Storage Controller Network Config IPv4]
+image::../media/storage_controller_network_config_ipv4.gif["Storage Controller Network Config IPv4"] 
 
 . Optionally, set a static IP address for the storage controller management port.
 +
@@ -223,7 +223,7 @@ NOTE: You should either assign a static IP for the management port or assign a p
  .. Enter the IPv4 address, using CIDR notation.
  .. Enter the default gateway.
 +
-image::../media/storage_controller_ipv4_and_def_gateway.gif[Storage Controller Network Config IPv4 and Default Gateway]
+image::../media/storage_controller_ipv4_and_def_gateway.gif["Storage Controller Network Config IPv4 and Default Gateway"] 
 
  .. Click *Save*.
 +

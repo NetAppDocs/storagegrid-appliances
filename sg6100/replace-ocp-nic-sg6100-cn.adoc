@@ -21,7 +21,7 @@ Use these procedures to:
 * You have the correct replacement NIC.
 * You have determined the link:verify-component-to-replace.html[location of the NIC to replace].
 +
-image::../media/sg6100_cn_ocp_nic_location.png[NIC faceplate.]
+image::../media/sg6100_cn_ocp_nic_location.png["NIC faceplate."] 
 
 * You have link:locating-sgf6112-in-data-center.html[physically located the SG6100-CN controller] where you are replacing the NIC in the data center.
 +

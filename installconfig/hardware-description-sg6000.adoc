@@ -53,7 +53,7 @@ The fronts of the SG6060 and SG6060X are identical.
 === SG6060 or SG6060X front view
 This figure shows the front of the SG6060 or SG6060X, which includes a 1U compute controller and a 4U shelf containing two storage controllers and 60 drives in five drive drawers.
 
-image::../media/sg6060_front_view_with_and_without_bezels.gif[SG6060 Front View]
+image::../media/sg6060_front_view_with_and_without_bezels.gif["SG6060 Front View"] 
 
 [cols="1a,2a" options="header"]
 |===
@@ -78,14 +78,14 @@ E2860 controller shelf with front bezel removed (optional expansion shelf appear
 
 This figure shows the location of the power supply and identify LEDs on the rear of the SG6000-CN compute controller used in the SG6060 and SG6060X. Additional status and activity LEDs are on the appliance ports. These LEDs might vary by appliance model.
 
-image::../media/q2023_rear_leds.png[Rear LEDs SG6000-CN]
+image::../media/q2023_rear_leds.png["Rear LEDs SG6000-CN"] 
 
 include::../_include/rear-leds-q.adoc[]
 
 === SG6060 rear view
 This figure shows the back of the SG6060, including the compute and storage controllers, fans, and power supplies.
 
-image::../media/sg6060_rear_view.gif[SG6060 Rear View]
+image::../media/sg6060_rear_view.gif["SG6060 Rear View"] 
 
 [cols="1a,2a" options="header"]
 |===
@@ -115,7 +115,7 @@ Power supply (1 of 2) for E2860 controller shelf
 === SG6060X rear view
 This figure shows the back of the SG6060X.
 
-image::../media/sg6060x_rear_view.gif[SG6060x Rear View]
+image::../media/sg6060x_rear_view.gif["SG6060x Rear View"] 
 
 [cols="1a,2a" options="header"]
 |===
@@ -146,7 +146,7 @@ Power supply (1 of 2) for E2860 controller shelf
 
 This figure shows the back of the optional expansion shelf for the SG6060 and SG6060X, including the input/output modules (IOMs), fans, and power supplies. Each SG6060 can be installed with one or two expansion shelves, which can be included in the initial installation or added later.
 
-image::../media/de460c_expansion_shelf_rear_view.gif[Expansion Shelf Rear]
+image::../media/de460c_expansion_shelf_rear_view.gif["Expansion Shelf Rear"] 
 
 [cols="1a,2a" options="header"]
 |===
@@ -181,7 +181,7 @@ NOTE: StorageGRID software is not preinstalled on the appliance. This software i
 
 ==== SG6000-CN connectors
 
-image::../media/sg6000_cn_rear_connectors.png[SG6000-CN Rear Connectors]
+image::../media/sg6000_cn_rear_connectors.png["SG6000-CN Rear Connectors"] 
 
 [cols="1a,2a,2a,3a" options="header"]
 |===
@@ -239,7 +239,7 @@ image::../media/sg6000_cn_rear_connectors.png[SG6000-CN Rear Connectors]
 
 ==== EF570 connectors
 
-image::../media/ef570_rear_connectors.gif[EF570 Rear Connectors]
+image::../media/ef570_rear_connectors.gif["EF570 Rear Connectors"] 
 
 [cols="1a,2a,2a,3a" options="header"]
 |===
@@ -307,7 +307,7 @@ CAUTION: Don't use an E2800A and an E2800B in the same appliance.
 
 ==== E2800A connectors
 
-image::../media/e2800_controller_with_callouts.gif[Connectors on E2800A controller]
+image::../media/e2800_controller_with_callouts.gif["Connectors on E2800A controller"] 
 
 [cols="1a,2a,2a,3a" options="header"]
 |===
@@ -351,7 +351,7 @@ There are four connections to the SG6000-CN controller (two from each E2800A).
 
 ==== E2800B connectors
 
-image::../media/e2800B_controller_with_callouts.gif[Connectors on E2800B controller]
+image::../media/e2800B_controller_with_callouts.gif["Connectors on E2800B controller"] 
 
 [cols="1a,2a,2a,3a" options="header"]
 |===
@@ -400,7 +400,7 @@ The expansion shelf contains two input/output modules (IOMs) that connect to the
 
 ==== IOM connectors
 
-image::../media/iom_connectors.gif[IOM Rear]
+image::../media/iom_connectors.gif["IOM Rear"] 
 
 [cols="1a,2a,2a,3a" options="header"]
 |===

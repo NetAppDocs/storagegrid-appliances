@@ -33,7 +33,7 @@ For square hole cabinets, first install the provided cage nuts to secure the fro
 +
 Push up on each handle until it clicks into place.
 +
-image::../media/lift_handles.gif[Lift Handles]
+image::../media/lift_handles.gif["Lift Handles"] 
 
 . Place the back of the shelf (the end with the connectors) on the rails.
 . Supporting the shelf from the bottom, slide it into the cabinet. If you are using the handles, use the thumb latches to detach one handle at a time as you slide the shelf in.
@@ -48,7 +48,7 @@ Insert screws into the first and third holes from the top of the shelf on both s
 +
 Place two back brackets on each side of the upper rear section of the shelf. Insert screws into the first and third holes of each bracket.
 +
-image::../media/mount_hardware.gif[Mount Hardware]
+image::../media/mount_hardware.gif["Mount Hardware"] 
 
 . Repeat these steps for any expansion shelves.
 . Install 12 NL-SAS drives in each of of the five drive drawers.
@@ -57,7 +57,7 @@ image::../media/mount_hardware.gif[Mount Hardware]
 .. Raise each drive handle to a vertical position.
 .. Gently position each drive into its slot, and lower the raised drive handle until it clicks into place.
 +
-image::../media/install_drives_in_e2860.gif[Install Drives]
+image::../media/install_drives_in_e2860.gif["Install Drives"] 
 
 .. Install 12 NL-SAS drives into the top drawer.
 .. Slide the drawer back in by pushing on the center and closing both levers gently.

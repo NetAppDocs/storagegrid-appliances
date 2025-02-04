@@ -86,7 +86,7 @@ Leave the cables in the cable management device so that when you reinstall the c
 . Turn the controller canister over and place it on a flat, stable surface.
 . Open the cover by pressing the blue buttons on the sides of the controller canister to release the cover, and then rotate the cover up and off of the controller canister.
 +
-image::../media/drw_E4000_open_controller_module_cover_IEOPS-870.png[Open controller canister cover.]
+image::../media/drw_E4000_open_controller_module_cover_IEOPS-870.png["Open controller canister cover."] 
 
 
 == Step 4: Replace the DIMMs
@@ -114,12 +114,12 @@ The DIMM will rotate up a little.
 +
 NOTE: Carefully hold the DIMM by the edges to avoid pressure on the components on the DIMM circuit board.
 +
-image::../media/drw_E4000_replace_dimms_IEOPS-865.png[Remove DIMMS.]
+image::../media/drw_E4000_replace_dimms_IEOPS-865.png["Remove DIMMS."] 
 +
 |===
-a|image::../media/legend_icon_01.png[Callout reference 1] |DIMM ejector tabs
+a|image::../media/legend_icon_01.png["Callout reference 1"]  |DIMM ejector tabs
 a|
-image::../media/legend_icon_02.png[Callout reference 2]
+image::../media/legend_icon_02.png["Callout reference 2"] 
 |DIMMS
 |===
 . Remove the replacement DIMM from the antistatic shipping bag, hold the DIMM by the corners, and align it to the slot.

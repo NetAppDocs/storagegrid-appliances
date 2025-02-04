@@ -306,7 +306,7 @@ The 10/25-GbE networking ports on the E5700SG controller support Fixed port bond
 
 Fixed mode is the default configuration for the 10/25-GbE networking ports.
 
-image::../media/e5700sg_fixed_port.gif[Ports used for Fixed port bond mode]
+image::../media/e5700sg_fixed_port.gif["Ports used for Fixed port bond mode"] 
 
 [cols="1a,3a" options=header] 
 |===
@@ -331,7 +331,7 @@ NOTE: If you don't need redundant connections, you can use only one port for eac
 
 Aggregate port bond mode significantly increases the throughout for each StorageGRID network and provides additional failover paths.
 
-image::../media/e5700sg_aggregate_port.gif[Ports used for Aggregate port bond mode]
+image::../media/e5700sg_aggregate_port.gif["Ports used for Aggregate port bond mode"] 
 
 [cols="1a,3a" options=header] 
 |===
@@ -362,7 +362,7 @@ In Active-Backup mode, both management ports 1 and 2 are connected to the Admin 
 
 NOTE: If you need to make a temporary local connection to the E5700SG controller when the 1-GbE management ports are configured for Active-Backup mode, remove the cables from both management ports, plug your temporary cable into management port 2, and access the appliance using IP address 169.254.0.1.
 
-image::../media/e5700sg_bonded_management_ports.gif[E5700SG Bonded Management Port]
+image::../media/e5700sg_bonded_management_ports.gif["E5700SG Bonded Management Port"] 
 
 .Related information
 

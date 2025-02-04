@@ -26,7 +26,7 @@ Move the HIC from the failed E2800B controller to the replacement controller.
 +
 There are four screws: one on the top, one on the side, and two on the front.
 +
-image::../media/28_dwg_e2800_hic_faceplace_screws_maint-e2800.png[E2800 faceplate screws]
+image::../media/28_dwg_e2800_hic_faceplace_screws_maint-e2800.png["E2800 faceplate screws"] 
 
 . Remove the HIC faceplate.
 . Using your fingers or a Phillips screwdriver, loosen the three thumbscrews that secure the HIC to the controller card.
@@ -34,7 +34,7 @@ image::../media/28_dwg_e2800_hic_faceplace_screws_maint-e2800.png[E2800 faceplat
 +
 CAUTION: Be careful not to scratch or bump the components on the bottom of the HIC or on the top of the controller card.
 +
-image::../media/28_dwg_e2800_hic_thumbscrews_maint-e2800.png[HIC thumbscrews E2800A]
+image::../media/28_dwg_e2800_hic_thumbscrews_maint-e2800.png["HIC thumbscrews E2800A"] 
 +
 [cols="1a,2a" options="header"]
 |===
@@ -57,7 +57,7 @@ Be careful not to scratch or bump the components on the bottom of the HIC or on 
 +
 CAUTION: *Possible equipment damage* -- Be careful not to pinch the gold ribbon connector for the controller LEDs between the HIC and the thumbscrews.
 +
-image::../media/28_dwg_e2800_hic_thumbscrews_maint-e2800.gif[E2800A HIC thumscrews]
+image::../media/28_dwg_e2800_hic_thumbscrews_maint-e2800.gif["E2800A HIC thumscrews"] 
 +
 [cols="1a,2a" options="header"]
 |===
@@ -76,7 +76,7 @@ Don't use a screwdriver, or you might over tighten the screws.
 
 . Using a #1 Phillips screwdriver, attach the HIC faceplate you removed from the original controller to the new controller with four screws.
 +
-image::../media/28_dwg_e2800_hic_faceplace_screws_maint-e2800.png[E2800A faceplate screws]
+image::../media/28_dwg_e2800_hic_faceplace_screws_maint-e2800.png["E2800A faceplate screws"] 
 
 . Reinstall any removed SFPs into the HIC.
 --

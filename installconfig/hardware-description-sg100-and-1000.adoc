@@ -27,7 +27,7 @@ Both models of the services appliance provide the following features:
 
 This figure shows the front of the SG100 and the SG1000 with the bezel removed. From the front, the two appliances are identical except for the product name on the bezel.
 
-image::../media/sg1000_front_with_ssds.png[Front with SSDs SG100 and SG1000]
+image::../media/sg1000_front_with_ssds.png["Front with SSDs SG100 and SG1000"] 
 
 The two solid-state drives (SSDs), indicated by the orange outline, are used for storing the StorageGRID operating system and are mirrored using RAID 1 for redundancy. When the SG100 or SG1000 services appliance is configured as an Admin Node, these drives might be used to store audit logs, metrics, and database tables.
 
@@ -35,7 +35,7 @@ The remaining drive slots are blank.
 
 This figure shows the location of the power supply and identify LEDs on the rear of the SG100 and the SG1000. Additional status and activity LEDs are on the appliance ports. These LEDs might vary by appliance model.
 
-image::../media/q2023_rear_leds.png[Rear LEDs SG100 and SG1000]
+image::../media/q2023_rear_leds.png["Rear LEDs SG100 and SG1000"] 
 
 include::../_include/rear-leds-q.adoc[]
 
@@ -43,7 +43,7 @@ include::../_include/rear-leds-q.adoc[]
 
 This figure shows the connectors on the back of the SG100.
 
-image::../media/sg100_rear_connectors.png[Rear Connectors SG100]
+image::../media/sg100_rear_connectors.png["Rear Connectors SG100"] 
 
 [cols="1a,2a,2a,2a" options="header"]
 |===
@@ -103,7 +103,7 @@ Options:
 
 This figure shows the connectors on the back of the SG1000.
 
-image::../media/sg1000_rear_connectors.png[Rear Connectors SG1000]
+image::../media/sg1000_rear_connectors.png["Rear Connectors SG1000"] 
 
 [cols="1a,2a,2a,2a" options="header"]
 |===

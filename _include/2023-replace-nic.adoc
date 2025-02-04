@@ -9,7 +9,7 @@
 
 The three NICs in the appliance are in two riser assemblies in the positions in the chassis shown in the photograph (Rear of appliance with top cover removed shown): 
 +
-image::../media/sgf6112-nic-positions.png[NIC locations]
+image::../media/sgf6112-nic-positions.png["NIC locations"] 
 +
 [cols="1a,2a,4a" options="header"]
 |===
@@ -41,10 +41,10 @@ image::../media/sgf6112-nic-positions.png[NIC locations]
 +
 * *Two-slot riser assembly with two NICs*
 +
-image::../media/two-slot-assembly-sgf6112.png[Two NICs in two-slot riser assembly]
+image::../media/two-slot-assembly-sgf6112.png["Two NICs in two-slot riser assembly"] 
 * *One-slot riser assembly with one NIC*
 +
-image::../media/one-slot-assembly-sgf6112.png[NIC in one-slot riser assembly]
+image::../media/one-slot-assembly-sgf6112.png["NIC in one-slot riser assembly"] 
 
 . Open the blue latch (circled) on the NIC to be replaced and carefully remove the NIC from the riser assembly. Rock the NIC slightly to help remove the NIC from its connector. Don't use excessive force.
 . Place the NIC on a flat anti-static surface.
@@ -66,15 +66,15 @@ Install the replacement NIC into the same location as the one that was removed.
 .. Ensure the blue latch is in the open position.
 .. Align the NIC with its connector on the riser assembly. Carefully press the NIC into the connector until it is fully seated, as shown in the photograph, and then close the blue latch.
 +
-image::../media/two-slot-assembly-sgf6112.png[Two NICs in two-slot riser assembly]
+image::../media/two-slot-assembly-sgf6112.png["Two NICs in two-slot riser assembly"] 
 
 .. Locate the alignment hole on the two-slot riser assembly (circled) that aligns with a guide pin on the system board to ensure correct riser assembly positioning.
 +
-image::../media/sgf6112_two-slot-riser_alignment_hole.png[Alignment hole on large riser assembly]
+image::../media/sgf6112_two-slot-riser_alignment_hole.png["Alignment hole on large riser assembly"] 
 +
 .. Locate the guide pin on the system board 
 +
-image::../media/sgf6112_two-slot-riser_guide-pin.png[Guide pin for two-slot riser assembly]
+image::../media/sgf6112_two-slot-riser_guide-pin.png["Guide pin for two-slot riser assembly"] 
 
 .. Position the riser assembly in the chassis, making sure that it aligns with the connector on the system board and guide pin. 
 
@@ -84,15 +84,15 @@ image::../media/sgf6112_two-slot-riser_guide-pin.png[Guide pin for two-slot rise
 .. Ensure the blue latch is in the open position.
 .. Align the NIC with its connector on the riser assembly. Carefully press the NIC into the connector until it is fully seated as shown in the photograph and close the blue latch.
 +
-image::../media/one-slot-assembly-sgf6112.png[NIC in one-slot riser assembly]
+image::../media/one-slot-assembly-sgf6112.png["NIC in one-slot riser assembly"] 
 
 .. Locate the alignment hole on the one-slot riser assembly (circled) that aligns with a guide pin on the system board to ensure correct riser assembly positioning.
 +
-image::../media/sgf6112_one-slot-riser_alignment_hole.png[Alignment hole on one-slot riser assembly]
+image::../media/sgf6112_one-slot-riser_alignment_hole.png["Alignment hole on one-slot riser assembly"] 
 +
 .. Locate the guide pin on the system board 
 +
-image::../media/sgf6112_one-slot-riser_system-pin.png[Guide pin on one-slot riser assembly]
+image::../media/sgf6112_one-slot-riser_system-pin.png["Guide pin on one-slot riser assembly"] 
 
 .. Position the one-slot riser assembly in the chassis, making sure that it aligns with the connector on the system board and guide pin. 
 
