@@ -45,13 +45,9 @@ If possible, use the URL containing the IP address of the appliance's Admin Netw
 NOTE: If you have a direct connection to the appliance's management port, use `+https://169.254.0.1:8443+` to access the StorageGRID Appliance Installer page.
 
 . From the StorageGRID Appliance Installer, confirm that the appliance is in maintenance mode.
-+
-image::../media/maintenance_mode_notification_bar.png["maintenance mode message"] 
 
 . Perform any required maintenance tasks.
 . After completing maintenance tasks, exit maintenance mode and resume normal node operation. From the StorageGRID Appliance Installer, select *Advanced* > *Reboot Controller*, and then select *Reboot into StorageGRID*.
-+
-image::../media/reboot_controller_from_maintenance_mode.png["Reboot controller in maintenance mode"] 
 +
 It can take up to 20 minutes for the appliance to reboot and rejoin the grid. To confirm that the reboot is complete and that the node has rejoined the grid, go back to the Grid Manager. The *NODES* page should display a normal status (green check mark icon image:../media/icon_alert_green_checkmark.png["green check mark"]  to the left of the node name) for the appliance node, indicating that no alerts are active and the node is connected to the grid.
 +
