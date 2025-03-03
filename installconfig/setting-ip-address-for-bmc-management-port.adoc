@@ -76,17 +76,13 @@ The StorageGRID Appliance Installer Home page appears.
 
 . Select *Configure Hardware* > *BMC Configuration*.
 +
-image::../media/bmc_configuration_page.gif["screenshot showing Advanced > BMC Configuration option"] 
-+
 The Baseboard Management Controller Configuration page appears.
 
-. Make a note of the IPv4 address that is automatically displayed.
+. In the LAN IP Settings, make a note of the IPv4 address that is automatically displayed.
 +
 DHCP is the default method for assigning an IP address to this port.
 +
 NOTE: It might take a few minutes for the DHCP values to appear.
-+
-image::../media/bmc_configuration_dhcp_address.gif["Basement Management Controller Configuration Page showing DHCP address"] 
 
 . Optionally, set a static IP address for the BMC management port.
 +
@@ -95,8 +91,6 @@ NOTE: You should either assign a static IP for the BMC management port or assign
  .. Select *Static*.
  .. Enter the IPv4 address, using CIDR notation.
  .. Enter the default gateway.
-+
-image::../media/bmc_configuration_static_ip.gif["Baseboard Management Controller Configuration Static option"] 
 
  .. Click *Save*.
 +

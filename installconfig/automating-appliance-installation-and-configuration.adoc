@@ -68,13 +68,11 @@ After you have generated a JSON file, you can automate the configuration of one 
 
 . In the StorageGRID Appliance Installer, select *Advanced* > *Update Appliance Configuration*. The Update Appliance Configuration page appears.
 
-. Browse for and select the JSON file with the configuration you want to upload.
+. In the Upload JSON section, browse for and select the JSON configuration file you want to upload.
 +
 The file is uploaded and validated. When the validation process is complete, the file name is shown next to a green check mark.
 +
 NOTE: You might lose connection to the appliance if the configuration from the JSON file includes sections for `link_config`, `networks`, or both. If you aren't reconnected within 1 minute, re-enter the appliance URL using one of the other IP addresses assigned to the appliance.
-+
-image::../media/update_appliance_configuration_valid_json.png["Update appliance configuration JSON uploaded"] 
 +
 The *Node name* drop down is populated with the top-level node names defined in the JSON file.
 +

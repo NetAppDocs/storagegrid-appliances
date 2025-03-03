@@ -686,8 +686,6 @@ If you plan to use the 25-GbE link speed for the SG6100, SG6000, SG5800, or SG57
 The Grid Network is required. You can't disable this network.
 
  .. If the appliance is not connected to the Admin Network, clear the *Enable network* checkbox for the Admin Network.
-//+
-//image::../media/admin_network_disabled.gif["Screenshot showing checkbox for enabling or disabling the Admin Network"] 
 
  .. If the appliance is connected to the Client Network, select the *Enable network* checkbox for the Client Network.
 +
@@ -695,13 +693,7 @@ The Client Network settings for the data NIC ports are now shown.
 
 . Refer to the table, and configure the port bond mode and the network bond mode.
 +
-This example shows:
-
- ** *Aggregate* and *LACP* selected for the Grid and the Client Networks. You must specify a unique VLAN tag for each network. You can select values between 0 and 4095.
- ** *Active-Backup* selected for the Admin Network.
-+
-image::../media/sg1000_network_link_configuration_aggregate.png["Network Link Configuration Aggregate"] 
-//image::../media/network_link_configuration_aggregate.gif["Screen shot showing Link Configuration settings for Aggregate mode"] 
+You must specify a unique VLAN tags for the Grid and the Client Networks. You can select values between 0 and 4095.
 
 . When you are satisfied with your selections, click *Save*.
 +

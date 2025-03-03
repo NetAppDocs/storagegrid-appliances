@@ -89,8 +89,6 @@ NOTE: For the best network performance, all nodes should be configured with simi
 . To configure the Admin Network, select either *Static* or *DHCP* in the *Admin Network* section of the page.
 +
 NOTE: To configure the Admin Network, you enable the Admin Network on the Link Configuration page.
-+
-image::../media/admin_network_static.png["Admin Network IP"] 
 
 . If you selected *Static*, follow these steps to configure the Admin Network:
  .. Enter the static IPv4 address, using CIDR notation, for Management Port 1 on the appliance.
@@ -146,8 +144,6 @@ CAUTION: The MTU value of the network must match the value configured on the swi
 . To configure the Client Network, select either *Static* or *DHCP* in the *Client Network* section of the page.
 +
 NOTE: To configure the Client Network, you enable the Client Network on the Link Configuration page.
-+
-image::../media/client_network_static.png["Client Network IP"] 
 
 . If you selected *Static*, follow these steps to configure the Client Network:
  .. Enter the static IPv4 address, using CIDR notation.
