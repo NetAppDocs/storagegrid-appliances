@@ -27,8 +27,6 @@ Options for changing the Ethernet link configuration of the SG6000-CN controller
 .Steps
 
 . From the StorageGRID Appliance Installer, select *Configure Networking* > *Link Configuration*.
-+
-image::../media/link_configuration_option.gif["Link Configuration"] 
 
 . [[link_config_changes, start=2]]Make the desired changes to the link configuration.
 +
@@ -55,8 +53,7 @@ In addition to any other tests you choose to perform, confirm that you can ping 
 +
 * Select *Reboot into Maintenance Mode* to reboot the controller with the node remaining in maintenance mode.  Select this option if you experienced any failures during the procedure and want to start over.  After the node finishes rebooting into maintenance mode, restart from the appropriate step in the procedure that failed.
 +
-image::../media/reboot_controller_from_maintenance_mode.png["Reboot controller in maintenance mode"] 
+It can take up to 20 minutes for the appliance to reboot and rejoin the grid. To confirm that the reboot is complete and that the node has rejoined the grid:
 +
-It can take up to 20 minutes for the appliance to reboot and rejoin the grid. To confirm that the reboot is complete and that the node has rejoined the grid, go back to the Grid Manager. The *NODES* page should display a normal status (green check mark icon image:../media/icon_alert_green_checkmark.png["green check mark"]  to the left of the node name) for the appliance node, indicating that no alerts are active and the node is connected to the grid.
-+
-image::../media/nodes_menu.png["Appliance node rejoined grid"] 
+.. In the Grid Manager, select *NODES*.
+.. Verify that the appliance node has a normal status (green check mark icon image:../media/icon_alert_green_checkmark.png["green check mark"] to the left of the node name), which indicates that no alerts are active and the node is connected to the grid. 
