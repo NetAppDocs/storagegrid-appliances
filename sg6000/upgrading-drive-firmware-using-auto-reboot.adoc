@@ -21,7 +21,7 @@ The latest E-Series drive firmware files are part of the StorageGRID Appliance I
 NOTE: While an appliance reboots, I/O (input/output) activity to the storage controller is stopped.
 
 Upgrade status results and errors are in the `/var/log/symbol-rest.log` log file.
-+
+
 If needed, link:troubleshoot-upgrading-drive-firmware-using-santricity-system-manager.html[troubleshoot drive firmware upgrade errors].
 
 You can also install drive firmware upgrades manually using the SANtricity System Manager link:upgrading-drive-firmware-using-santricity-system-manager-online.html[online] or link:upgrading-drive-firmware-using-santricity-system-manager-offline.html[offline] method. 
