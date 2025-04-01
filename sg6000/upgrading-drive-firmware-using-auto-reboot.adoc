@@ -14,8 +14,8 @@ The StorageGRID Appliance Installer automatically installs the latest E-Series d
 The latest E-Series drive firmware files are part of the StorageGRID Appliance Installer. These updates are install when the StorageGRID Appliance Installer reboots an appliance:
 
 * From link:../installconfig/rebooting-appliance-while-sg-appliance-installer-is-running.html[maintenance mode] 
-* As part of a link:../maintain/rolling-reboot-procedure.html[rolling reboot]
-* During a link:../upgrade/performing-upgrade.html[StorageGRID version upgrade] or link:../maintain/applying-hotfix.html[hotfix installation]  
+* As part of a https://docs.netapp.com/us-en/storagegrid/maintain/rolling-reboot-procedure.html[rolling reboot]
+* During a https://docs.netapp.com/us-en/storagegrid/upgrade/performing-upgrade.html[StorageGRID version upgrade] or https://docs.netapp.com/us-en/storagegrid/maintain/applying-hotfix.html[hotfix installation]  
 * During a link:../sg6000/upgrading-santricity-os-on-storage-controllers-using-maintenance-mode-sg6000.html[SANtricity OS upgrade]
 
 NOTE: While an appliance reboots, I/O (input/output) activity to the storage controller is stopped.
