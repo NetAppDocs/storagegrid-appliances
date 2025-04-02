@@ -19,7 +19,7 @@ E-Series drive firmware files are included in the StorageGRID software. These up
 * During a https://docs.netapp.com/us-en/storagegrid/upgrade/performing-upgrade.html[StorageGRID version upgrade] or https://docs.netapp.com/us-en/storagegrid/maintain/applying-hotfix.html[hotfix installation]  
 * During a link:../sg5700/upgrading-santricity-os-on-e2800-controller-using-maintenance-mode.html[SANtricity OS upgrade] using maintenance mode
 
-CAUTION: The drive firmware upgrade is not attempted for nodes with a status of Needs Attention. 
+CAUTION: The drive firmware upgrade isn't attempted for nodes with a status of Needs Attention. 
 
 NOTE: While an appliance reboots, I/O (input/output) activity to the storage controller is stopped.
 
