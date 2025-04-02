@@ -25,7 +25,7 @@ NOTE: While an appliance reboots, I/O (input/output) activity to the storage con
 
 You can also install drive firmware upgrades manually using the SANtricity System Manager link:upgrading-drive-firmware-using-santricity-system-manager-online.html[online] or link:upgrading-drive-firmware-using-santricity-system-manager-offline.html[offline] method:
 
-* To apply a new drive firmware upgrade before it's packaged in the StorageGRID software
+* To apply a new drive firmware upgrade before it is packaged in the StorageGRID software
 * If an automatic drive firmware upgrade fails
 * To use the SANtricity System Manager link:upgrading-drive-firmware-using-santricity-system-manager-online.html[online drive firmware upgrade] from Grid Manager instead of rebooting the node
 
