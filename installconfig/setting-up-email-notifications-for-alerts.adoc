@@ -57,7 +57,7 @@ You know how to link:../installconfig/accessing-bmc-interface.html[access the BM
 
 In the BMC interface, you use the *SMTP Settings*, *User Management*, and *Platform Event Filters* options on the Settings page to configure email notifications.
 
-image::../media/bmc_settings_menu.png[BMC Settings menu]
+image::../media/bmc_settings_menu.png["BMC Settings menu"] 
 
 .Steps
 

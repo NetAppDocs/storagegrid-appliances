@@ -32,7 +32,7 @@ For example, if the DNS server for the grid changes while an encrypted node was 
 . From the StorageGRID Appliance Installer, select *Configure Networking* > *DNS Configuration*.
 . Verify that the DNS servers specified are correct.
 +
-image::../media/dns_configuration.png[DNS configuration]
+image::../media/dns_configuration.png["DNS configuration"] 
 
 . If required, change the DNS servers.
 +
@@ -46,10 +46,10 @@ The node uses the DNS server settings specified on this page to reconnect to the
  ** Select *Reboot into StorageGRID* to reboot the controller with the node rejoining the grid. Select this option if you are done working in maintenance mode and are ready to return the node to normal operation.
  ** Select *Reboot into Maintenance Mode* to reboot the controller with the node remaining in maintenance mode. (This option is available only when the controller is in maintenance mode.) Select this option if there are additional maintenance operations you need to perform on the node before rejoining the grid.
 +
-image::../media/reboot_controller_from_maintenance_mode.png[Reboot controller in maintenance mode]
+image::../media/reboot_controller_from_maintenance_mode.png["Reboot controller in maintenance mode"] 
 +
 NOTE: When the node reboots and rejoins the grid, it uses the system-wide DNS servers listed in the Grid Manager. After rejoining the grid, the appliance will no longer use the temporary DNS servers specified in the StorageGRID Appliance Installer while the appliance was in maintenance mode.
 +
-It can take up to 20 minutes for the appliance to reboot and rejoin the grid. To confirm that the reboot is complete and that the node has rejoined the grid, go back to the Grid Manager. The *NODES* page should display a normal status (green check mark icon image:../media/icon_alert_green_checkmark.png[green check mark] to the left of the node name) for the appliance node, indicating that no alerts are active and the node is connected to the grid.
+It can take up to 20 minutes for the appliance to reboot and rejoin the grid. To confirm that the reboot is complete and that the node has rejoined the grid, go back to the Grid Manager. The *NODES* page should display a normal status (green check mark icon image:../media/icon_alert_green_checkmark.png["green check mark"]  to the left of the node name) for the appliance node, indicating that no alerts are active and the node is connected to the grid.
 +
-image::../media/nodes_menu.png[Appliance node rejoined grid]
+image::../media/nodes_menu.png["Appliance node rejoined grid"] 

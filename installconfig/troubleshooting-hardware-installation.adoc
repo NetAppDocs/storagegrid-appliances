@@ -487,11 +487,11 @@ You can verify that the expansion shelves are connected to the appliance by view
 
 * The *Home* page contains a message about expansion shelves.
 +
-image::../media/expansion_shelf_home_page_msg.png[Expansion Shelves Msg]
+image::../media/expansion_shelf_home_page_msg.png["Expansion Shelves Msg"] 
 
 * The *Advanced* > *RAID Mode* page indicates by number of drives whether or not the appliance includes expansion shelves. For example, in the following screen shot, two SSDs and 178 HDDs are shown. An SG6060 with two expansion shelves contains 180 total drives.
 
-image::../media/expansion_shelves_shown_by_num_of_drives.png[Number of Drives]
+image::../media/expansion_shelves_shown_by_num_of_drives.png["Number of Drives"] 
 
 If the StorageGRID Appliance Installer pages don't indicate that expansion shelves are present, follow this procedure.
 

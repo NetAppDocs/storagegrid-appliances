@@ -25,15 +25,15 @@ The Manage drives tab contains the following views:
 
 Layout:: Layout of data storage drives in the appliance. Select a drive to view drive details.
 +
-image:../media/manage_drives_tab.png[Manage drives tab Layout view]
+image:../media/manage_drives_tab.png["Manage drives tab Layout view"] 
 
 Table:: Lists information for each drive. Select a drive to view drive details.
 +
-image:../media/manage_drives_tab_table.png[Manage drives tab Table view]
+image:../media/manage_drives_tab_table.png["Manage drives tab Table view"] 
 
 Drive details:: Summary for each drive. Select the appropriate task button, as described in the steps below.
 +
-image:../media/manage_drives_tab_details.png[Manage drives tab Drive details]
+image:../media/manage_drives_tab_details.png["Manage drives tab Drive details"] 
 
 == Turn locator light on or off
 
@@ -47,7 +47,7 @@ The drive details panel appears.
 
 . Select *Turn locator light on*.
 +
-* A light bulb icon image:../media/icon_drive-light-bulb.png[drive light bulb] appears for the drive.
+* A light bulb icon image:../media/icon_drive-light-bulb.png["drive light bulb"]  appears for the drive.
 * An amber LED blinks on the physical drive.
 
 . When you want to turn off the locator light, select *Turn locator light off*.

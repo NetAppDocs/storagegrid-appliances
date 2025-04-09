@@ -55,7 +55,7 @@ CAUTION: After the appliance has been encrypted with a KMS key, the appliance di
 
 . Select *Configure Hardware* > *Node Encryption*.
 +
-image::../media/kms_fde_enabled.png[KMS FDE enabled]
+image::../media/kms_fde_enabled.png["KMS FDE enabled"] 
 
 . Select *Enable node encryption*.
 +

@@ -78,7 +78,7 @@ You must install all 60 drives to ensure correct operation.
  .. Release the levers on the top drive drawer, and slide the drawer out using the levers.
  .. Raise the drive handle to vertical, and align the buttons on the drive with the notches on the drawer.
 +
-image::../media/appliance_drive_insertion.gif[Install drive in 60-drive appliance]
+image::../media/appliance_drive_insertion.gif["Install drive in 60-drive appliance"] 
 
  .. Pressing gently on the top of the drive, rotate the drive handle down until the drive snaps into place.
  .. After installing the first 12 drives, slide the drawer back in by pushing on the center and closing both levers gently.

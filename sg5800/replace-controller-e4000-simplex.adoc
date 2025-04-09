@@ -139,12 +139,12 @@ Removed the battery from the impaired controller and install it in the replaceme
 .. Slide the battery up until it clears the holding brackets, and then lift the battery out of the controller canister.
 .. Unplug the battery plug by squeezing the clip on the face of the battery plug to release the plug from the socket, and then unplug the battery cable from the socket.
 +
-image::../media/drw_E4000_replace_nvbattery_IEOPS-862.png[Remove NVMEM battery.]
+image::../media/drw_E4000_replace_nvbattery_IEOPS-862.png["Remove NVMEM battery."] 
 +
 |===
-a|image::../media/legend_icon_01.png[Callout reference 1] |Battery release tab
+a|image::../media/legend_icon_01.png["Callout reference 1"]  |Battery release tab
 a|
-image::../media/legend_icon_02.png[Callout reference 2]
+image::../media/legend_icon_02.png["Callout reference 2"] 
 |Battery power connector
 |===
 . Move the battery to the replacement controller canister:
@@ -172,12 +172,12 @@ The DIMM will rotate up a little.
 +
 NOTE: Carefully hold the DIMM by the edges to avoid pressure on the components on the DIMM circuit board.
 +
-image::../media/drw_E4000_replace_dimms_IEOPS-865.png[Remove DIMMS.]
+image::../media/drw_E4000_replace_dimms_IEOPS-865.png["Remove DIMMS."] 
 +
 |===
-a|image::../media/legend_icon_01.png[Callout reference 1] |DIMM ejector tabs
+a|image::../media/legend_icon_01.png["Callout reference 1"]  |DIMM ejector tabs
 a|
-image::../media/legend_icon_02.png[Callout reference 2]
+image::../media/legend_icon_02.png["Callout reference 2"] 
 |DIMMS
 |===
 . Verify that the battery is not plugged into the replacement controller canister.
@@ -272,15 +272,15 @@ where:
 
 . If you placed the appliance into maintenance mode during this procedure, return the appliance to normal operating mode. From the StorageGRID Appliance Installer, select *Advanced* > *Reboot Controller*, and then select *Reboot into StorageGRID*.
 +
-image::../media/reboot_controller_from_maintenance_mode.png[Reboot controller in maintenance mode]
+image::../media/reboot_controller_from_maintenance_mode.png["Reboot controller in maintenance mode"] 
 
 . During the reboot, monitor the node's status to determine when it has rejoined the grid. 
 +
 The appliance reboots and rejoins the grid. This process can take up to 20 minutes.
 
-. Confirm that the reboot is complete and that the node has rejoined the grid. In the Grid Manager, verify that the Nodes page displays a normal status (green check mark icon image:../media/icon_alert_green_checkmark.png[green check mark] to the left of the node name) for the appliance node, indicating that no alerts are active and the node is connected to the grid.
+. Confirm that the reboot is complete and that the node has rejoined the grid. In the Grid Manager, verify that the Nodes page displays a normal status (green check mark icon image:../media/icon_alert_green_checkmark.png["green check mark"]  to the left of the node name) for the appliance node, indicating that no alerts are active and the node is connected to the grid.
 +
-image::../media/nodes_menu.png[Appliance node rejoined grid]
+image::../media/nodes_menu.png["Appliance node rejoined grid"] 
 
 . From SANtricity System Manager, confirm that the new controller is Optimal.
 .. Select *Hardware*.

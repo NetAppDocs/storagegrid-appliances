@@ -59,8 +59,8 @@ If you have grid subnets, the Grid Network gateway is required. All grid subnets
 +
 NOTE: The default route is not listed. If the Client Network is not enabled, the default route will use the Grid Network gateway.
 
-  *** To add a subnet, click the insert icon image:../media/icon_plus_sign_black_on_white.gif[insert icon] to the right of the last entry.
-  *** To remove an unused subnet, click the delete icon image:../media/icon_nms_delete_new.gif[delete icon].
+  *** To add a subnet, click the insert icon image:../media/icon_plus_sign_black_on_white.gif["insert icon"]  to the right of the last entry.
+  *** To remove an unused subnet, click the delete icon image:../media/icon_nms_delete_new.gif["delete icon"].
 
  .. Click *Save*.
 . If you selected *DHCP*, follow these steps to configure the Grid Network:
@@ -76,8 +76,8 @@ If you have grid subnets, the Grid Network gateway is required. All grid subnets
 +
 NOTE: The default route is not listed. If the Client Network is not enabled, the default route will use the Grid Network gateway.
 
-  *** To add a subnet, click the insert icon image:../media/icon_plus_sign_black_on_white.gif[insert icon] to the right of the last entry.
-  *** To remove an unused subnet, click the delete icon image:../media/icon_nms_delete_new.gif[delete icon].
+  *** To add a subnet, click the insert icon image:../media/icon_plus_sign_black_on_white.gif["insert icon"]  to the right of the last entry.
+  *** To remove an unused subnet, click the delete icon image:../media/icon_nms_delete_new.gif["delete icon"].
 
  .. If you want to use jumbo frames, change the MTU field to a value suitable for jumbo frames, such as 9000. Otherwise, keep the default value of 1500.
 +
@@ -90,7 +90,7 @@ NOTE: For the best network performance, all nodes should be configured with simi
 +
 NOTE: To configure the Admin Network, you enable the Admin Network on the Link Configuration page.
 +
-image::../media/admin_network_static.png[Admin Network IP]
+image::../media/admin_network_static.png["Admin Network IP"] 
 
 . If you selected *Static*, follow these steps to configure the Admin Network:
  .. Enter the static IPv4 address, using CIDR notation, for Management Port 1 on the appliance.
@@ -118,8 +118,8 @@ You must verify that all subnets can be reached using the gateway you provided.
 +
 NOTE: The default route can't be made to use the Admin Network gateway.
 
-  *** To add a subnet, click the insert icon image:../media/icon_plus_sign_black_on_white.gif[insert icon] to the right of the last entry.
-  *** To remove an unused subnet, click the delete icon image:../media/icon_nms_delete_new.gif[delete icon].
+  *** To add a subnet, click the insert icon image:../media/icon_plus_sign_black_on_white.gif["insert icon"]  to the right of the last entry.
+  *** To remove an unused subnet, click the delete icon image:../media/icon_nms_delete_new.gif["delete icon"].
 
  .. Click *Save*.
 . If you selected *DHCP*, follow these steps to configure the Admin Network:
@@ -135,8 +135,8 @@ You must verify that all subnets can be reached using the gateway you provided.
 +
 NOTE: The default route can't be made to use the Admin Network gateway.
 
-  *** To add a subnet, click the insert icon image:../media/icon_plus_sign_black_on_white.gif[insert icon] to the right of the last entry.
-  *** To remove an unused subnet, click the delete icon image:../media/icon_nms_delete_new.gif[delete icon].
+  *** To add a subnet, click the insert icon image:../media/icon_plus_sign_black_on_white.gif["insert icon"]  to the right of the last entry.
+  *** To remove an unused subnet, click the delete icon image:../media/icon_nms_delete_new.gif["delete icon"].
 
  .. If you want to use jumbo frames, change the MTU field to a value suitable for jumbo frames, such as 9000. Otherwise, keep the default value of 1500.
 +
@@ -147,7 +147,7 @@ CAUTION: The MTU value of the network must match the value configured on the swi
 +
 NOTE: To configure the Client Network, you enable the Client Network on the Link Configuration page.
 +
-image::../media/client_network_static.png[Client Network IP]
+image::../media/client_network_static.png["Client Network IP"] 
 
 . If you selected *Static*, follow these steps to configure the Client Network:
  .. Enter the static IPv4 address, using CIDR notation.
