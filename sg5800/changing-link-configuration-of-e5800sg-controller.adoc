@@ -1,5 +1,5 @@
 ---
-permalink: sg5800/changing-link-configuration-of-sg5800-controller.html
+permalink: sg5800/changing-link-configuration-of-e5800sg-controller.html
 sidebar: sidebar
 keywords: 
 summary: 
