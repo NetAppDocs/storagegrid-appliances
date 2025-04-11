@@ -23,6 +23,7 @@ Options for changing the Ethernet link configuration of the SG5800 controller in
 
 * Changing *Port bond mode* from Fixed to Aggregate, or from Aggregate to Fixed
 * Changing *Network bond mode* from Active-Backup to LACP, or from LACP to Active-Backup
+* Changing the *LACP transmit hash policy* and *LACP PDU rate* values
 * Enabling or disabling VLAN tagging, or changing the value of a VLAN tag
 * Changing the link speed to or from Auto (recommended), 10-GbE, or 25-GbE.
 
