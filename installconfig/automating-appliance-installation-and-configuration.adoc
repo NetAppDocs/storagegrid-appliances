@@ -21,6 +21,7 @@ You can automate the configuration of the following:
 ** Port bond mode
 ** Network bond mode
 ** Link speed
+** LACP transmit hash policy and PDU rate
 
 [[automation-options]]
 == Automation options
