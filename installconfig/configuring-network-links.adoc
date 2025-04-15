@@ -32,6 +32,8 @@ You only need to configure the settings on the Link Configuration page if you wa
 
 NOTE: The LACP transmit hash policy is layer2+3.
 
+NOTE: LACP PDU rate changes that are made following these instructions remain persistent in the StorageGRID environment. To make temporary changes to the LACP PDU rate when performing maintenance operations on network components installed in your appliance, see https://docs.netapp.com/us-en/storagegrid/maintain/changing-nodes-network-configuration.html#temporarily-changing-the-lacp-pdu-rate[Temporarily changing the LACP PDU rate^]. 
+
 The figures and tables summarize the options for the port bond mode and network bond mode for each appliance. See the following for more information:
 
 * link:gathering-installation-information-sg100-and-sg1000.html#port-bond-modes[Port bond modes (SG1000 and SG100)]
