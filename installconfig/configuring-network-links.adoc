@@ -32,7 +32,9 @@ You only need to configure the settings on the Link Configuration page if you wa
 
 NOTE: The LACP transmit hash policy is layer2+3.
 
-The figures and tables summarize the options for the port bond mode and network bond mode for each appliance. See the following for more information:
+NOTE: LACP PDU rate changes that are made following these instructions remain persistent in the StorageGRID environment. To make temporary changes to the LACP PDU rate when performing maintenance operations on network components installed in your appliance, see https://docs.netapp.com/us-en/storagegrid/maintain/changing-nodes-network-configuration.html#temporarily-changing-the-lacp-pdu-rate[Temporarily changing the LACP PDU rate^]. 
+
+[[port_config_tables]]The figures and tables summarize the options for the port bond mode and network bond mode for each appliance. See the following for more information:
 
 * link:gathering-installation-information-sg100-and-sg1000.html#port-bond-modes[Port bond modes (SG1000 and SG100)]
 * link:gathering-installation-information-sg110-and-sg1100.html#port-bond-modes[Port bond modes (SG1100 and SG110)]
@@ -40,8 +42,7 @@ The figures and tables summarize the options for the port bond mode and network 
 * link:gathering-installation-information-sg5800.html#port-bond-modes[Port bond modes (SG5800)]
 * link:gathering-installation-information-sg6000.html#port-bond-modes[Port bond modes (SG6000-CN)]
 * link:gathering-installation-information-sg6100.html#port-bond-modes[Port bond modes (SGF6112 and SG6100-CN)]
-
-
+ 
 [role="tabbed-block"]
 ====
 
@@ -95,11 +96,13 @@ The table summarizes the options for configuring the four network ports. You onl
  ** Ports 2 and 4 use an LACP bond for the Grid Network.
  ** Ports 1 and 3 aren't used.
  ** A VLAN tag is optional.
+ ** LACP PDU rate and LACP transmit hash policy values can be specified in the Grid network and Client network sections.
 
 |
  ** Ports 2 and 4 use an LACP bond for the Grid Network.
  ** Ports 1 and 3 use an LACP bond for the Client Network.
  ** VLAN tags can be specified for both networks for the convenience of the network administrator.
+ ** LACP PDU rate and LACP transmit hash policy values can be specified in the Grid network and Client network sections.
 
 |===
 
@@ -135,11 +138,13 @@ a|
 
  ** Ports 1-4 use a single LACP bond for the Grid Network.
  ** A single VLAN tag identifies Grid Network packets.
+ ** LACP PDU rate and LACP transmit hash policy values can be specified in the Link settings section.
 
 a|
 
  ** Ports 1-4 use a single LACP bond for the Grid Network and the Client Network.
  ** Two VLAN tags allow Grid Network packets to be segregated from Client Network packets.
+ ** LACP PDU rate and LACP transmit hash policy values can be specified in the Link settings section.
 
 |===
 
@@ -204,11 +209,13 @@ The table summarizes the options for configuring the four network ports. You onl
  ** Ports 2 and 4 use an LACP bond for the Grid Network.
  ** Ports 1 and 3 aren't used.
  ** A VLAN tag is optional.
+ ** LACP PDU rate and LACP transmit hash policy values can be specified in the Grid network and Client network sections.
 
 |
  ** Ports 2 and 4 use an LACP bond for the Grid Network.
  ** Ports 1 and 3 use an LACP bond for the Client Network.
  ** VLAN tags can be specified for both networks for the convenience of the network administrator.
+ ** LACP PDU rate and LACP transmit hash policy values can be specified in the Grid network and Client network sections.
 
 |===
 
@@ -240,9 +247,11 @@ The table summarizes the options for configuring the network ports. You only nee
 |LACP (802.3ad) only
 | ** Ports 1-4 use a single LACP bond for the Grid Network.
 ** A single VLAN tag identifies Grid Network packets.
+** LACP PDU rate and LACP transmit hash policy values can be specified in the Link settings section.
 
 | ** Ports 1-4 use a single LACP bond for the Grid Network and the Client Network.
 ** Two VLAN tags allow Grid Network packets to be segregated from Client Network packets.
+** LACP PDU rate and LACP transmit hash policy values can be specified in the Link settings section.
 
 |===
 
@@ -308,12 +317,14 @@ a|
  ** Ports 2 and 4 use an LACP bond for the Grid Network.
  ** Ports 1 and 3 aren't used.
  ** A VLAN tag is optional.
+ ** LACP PDU rate and LACP transmit hash policy values can be specified in the Grid network and Client network sections.
 
 a|
 
  ** Ports 2 and 4 use an LACP bond for the Grid Network.
  ** Ports 1 and 3 use an LACP bond for the Client Network.
  ** VLAN tags can be specified for both networks for the convenience of the network administrator.
+ ** LACP PDU rate and LACP transmit hash policy values can be specified in the Grid network and Client network sections.
 |===
 
 Aggregate port bond mode:: 
@@ -342,11 +353,13 @@ a|
 
  ** Ports 1-4 use a single LACP bond for the Grid Network.
  ** A single VLAN tag identifies Grid Network packets.
+ ** LACP PDU rate and LACP transmit hash policy values can be specified in the Link settings section.
 
 a|
 
  ** Ports 1-4 use a single LACP bond for the Grid Network and the Client Network.
  ** Two VLAN tags allow Grid Network packets to be segregated from Client Network packets.
+ ** LACP PDU rate and LACP transmit hash policy values can be specified in the Link settings section.
 
 |===
 
@@ -407,12 +420,14 @@ a|
  ** Ports 2 and 4 use an LACP bond for the Grid Network.
  ** Ports 1 and 3 aren't used.
  ** A VLAN tag is optional.
+ ** LACP PDU rate and LACP transmit hash policy values can be specified in the Grid network and Client network sections.
 
 a|
 
  ** Ports 2 and 4 use an LACP bond for the Grid Network.
  ** Ports 1 and 3 use an LACP bond for the Client Network.
  ** VLAN tags can be specified for both networks for the convenience of the network administrator.
+ ** LACP PDU rate and LACP transmit hash policy values can be specified in the Grid network and Client network sections.
 |===
 
 Aggregate port bond mode:: 
@@ -441,11 +456,13 @@ a|
 
  ** Ports 1-4 use a single LACP bond for the Grid Network.
  ** A single VLAN tag identifies Grid Network packets.
+ ** LACP PDU rate and LACP transmit hash policy values can be specified in the Link settings section.
 
 a|
 
  ** Ports 1-4 use a single LACP bond for the Grid Network and the Client Network.
  ** Two VLAN tags allow Grid Network packets to be segregated from Client Network packets.
+ ** LACP PDU rate and LACP transmit hash policy values can be specified in the Link settings section.
 
 |===
 
@@ -494,11 +511,13 @@ The table summarizes the options for configuring the network ports. You only nee
  ** Ports 2 and 4 use an LACP bond for the Grid Network.
  ** Ports 1 and 3 aren't used.
  ** A VLAN tag is optional.
+ ** LACP PDU rate and LACP transmit hash policy values can be specified in the Grid network and Client network sections.
 
 |
  ** Ports 2 and 4 use an LACP bond for the Grid Network.
  ** Ports 1 and 3 use an LACP bond for the Client Network.
  ** VLAN tags can be specified for both networks for the convenience of the network administrator.
+ ** LACP PDU rate and LACP transmit hash policy values can be specified in the Grid network and Client network sections.
 |===
 
 Aggregate port bond mode::
@@ -523,10 +542,12 @@ The table summarizes the options for configuring the network ports. You only nee
 |
  ** Ports 1-4 use a single LACP bond for the Grid Network.
  ** A single VLAN tag identifies Grid Network packets.
+ ** LACP PDU rate and LACP transmit hash policy values can be specified in the Link settings section.
 
 |
  ** Ports 1-4 use a single LACP bond for the Grid Network and the Client Network.
  ** Two VLAN tags allow Grid Network packets to be segregated from Client Network packets.
+ ** LACP PDU rate and LACP transmit hash policy values can be specified in the Link settings section.
 |===
 
 Active-Backup network bond mode for management ports::
@@ -584,11 +605,13 @@ The table summarizes the options for configuring the network ports. You only nee
  ** Ports 2 and 4 use an LACP bond for the Grid Network.
  ** Ports 1 and 3 aren't used.
  ** A VLAN tag is optional.
+ ** LACP PDU rate and LACP transmit hash policy values can be specified in the Grid network and Client network sections.
 
 |
  ** Ports 2 and 4 use an LACP bond for the Grid Network.
  ** Ports 1 and 3 use an LACP bond for the Client Network.
  ** VLAN tags can be specified for both networks for the convenience of the network administrator.
+ ** LACP PDU rate and LACP transmit hash policy values can be specified in the Grid network and Client network sections.
 
 |===
 
@@ -620,9 +643,11 @@ The table summarizes the options for configuring the network ports. You only nee
 |LACP (802.3ad) only
 | ** Ports 1-4 use a single LACP bond for the Grid Network.
 ** A single VLAN tag identifies Grid Network packets.
+ ** LACP PDU rate and LACP transmit hash policy values can be specified in the Link settings section.
 
 | ** Ports 1-4 use a single LACP bond for the Grid Network and the Client Network.
 ** Two VLAN tags allow Grid Network packets to be segregated from Client Network packets.
+ ** LACP PDU rate and LACP transmit hash policy values can be specified in the Link settings section.
 
 |===
 
@@ -691,7 +716,7 @@ The Grid Network is required. You can't disable this network.
 +
 The Client Network settings for the data NIC ports are now shown.
 
-. Refer to the table, and configure the port bond mode and the network bond mode.
+. Refer to the <<port_config_tables,fixed and aggregate port bond mode configuration table>> for each appliance type, and configure the port bond mode and the network bond mode to match your network configuration.
 +
 You must specify a unique VLAN tags for the Grid and the Client Networks. You can select values between 0 and 4095.
 
