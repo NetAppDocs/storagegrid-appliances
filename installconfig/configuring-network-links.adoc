@@ -42,8 +42,8 @@ The figures and tables summarize the options for the port bond mode and network 
 * link:gathering-installation-information-sg5800.html#port-bond-modes[Port bond modes (SG5800)]
 * link:gathering-installation-information-sg6000.html#port-bond-modes[Port bond modes (SG6000-CN)]
 * link:gathering-installation-information-sg6100.html#port-bond-modes[Port bond modes (SGF6112 and SG6100-CN)]
-
-
+ 
+[[port_config_tables]]
 [role="tabbed-block"]
 ====
 
@@ -717,7 +717,7 @@ The Grid Network is required. You can't disable this network.
 +
 The Client Network settings for the data NIC ports are now shown.
 
-. Refer to the table, and configure the port bond mode and the network bond mode.
+. Refer to the <<port_config_tables,fixed and aggregate port bond mode configuration table>> for each appliance type, and configure the port bond mode and the network bond mode to match your network configuration.
 +
 You must specify a unique VLAN tags for the Grid and the Client Networks. You can select values between 0 and 4095.
 
