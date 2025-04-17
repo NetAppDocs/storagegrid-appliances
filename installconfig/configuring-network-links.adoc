@@ -30,7 +30,7 @@ If you plan to use Aggregate port bond mode, LACP network bond mode, or VLAN tag
 
 You only need to configure the settings on the Link Configuration page if you want to use a non-default setting.
 
-NOTE: The LACP transmit hash policy is layer2+3.
+NOTE: The default LACP transmit hash policy is layer2+3.
 
 NOTE: LACP PDU rate changes that are made following these instructions remain persistent in the StorageGRID environment. To make temporary changes to the LACP PDU rate when performing maintenance operations on network components installed in your appliance, see https://docs.netapp.com/us-en/storagegrid/maintain/changing-nodes-network-configuration.html#temporarily-changing-the-lacp-pdu-rate[Temporarily changing the LACP PDU rate^]. 
 
