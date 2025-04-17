@@ -1,5 +1,5 @@
 settings:
-  name: "StorageGRID appliances"
+  name: "StorageGRID Appliances"
   search: "storagegrid-enable,storagegrid,storagegrid-appliances"
   internal:
     pdf_enabled: true
@@ -10,7 +10,7 @@ settings:
     hide_language_selector: false
 sidebar:
   entries:
-    - title: StorageGRID appliance documentation
+    - title: StorageGRID Appliance Docs
       url: "/index.html"
     - title: StorageGRID software documentation
       url: "/storagegrid-documentation.html"
