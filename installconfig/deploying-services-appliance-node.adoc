@@ -20,7 +20,7 @@ When you deploy a services appliance as a primary Admin Node, you use the Storag
 * The appliance has been installed in a rack or cabinet, connected to your networks, and powered on.
 * Network links, IP addresses, and port remapping (if necessary) have been configured for the appliance using the StorageGRID Appliance Installer.
 +
-NOTE: Support for port remapping is deprecated and will be removed in a future release. To remove remapped ports, see https://docs.netapp.com/us-en/storagegrid/maintain/removing-port-remaps.html[removing port remaps on StorageGRID appliances^].
+NOTE: Support for port remapping is deprecated and will be removed in a future release. To remove remapped ports, refer to https://docs.netapp.com/us-en/storagegrid/maintain/removing-port-remaps.html[Remove port remaps on StorageGRID appliances^].
 
 * You have a service laptop with a https://docs.netapp.com/us-en/storagegrid/admin/web-browser-requirements.html[supported web browser^].
 * You know one of the IP addresses assigned to the appliance. You can use the IP address for any attached StorageGRID network.
@@ -74,7 +74,7 @@ When you deploy a services appliance as a Gateway Node or non-primary Admin Node
 * The appliance has been installed in a rack or cabinet, connected to your networks, and powered on.
 * Network links, IP addresses, and port remapping (if necessary) have been configured for the appliance using the StorageGRID Appliance Installer.
 +
-NOTE: Support for port remapping is deprecated and will be removed in a future release. To remove remapped ports, see https://docs.netapp.com/us-en/storagegrid/maintain/removing-port-remaps.html[removing port remaps on StorageGRID appliances^].
+NOTE: Support for port remapping is deprecated and will be removed in a future release. To remove remapped ports, refer to https://docs.netapp.com/us-en/storagegrid/maintain/removing-port-remaps.html[Remove port remaps on StorageGRID appliances^].
 
 * The primary Admin Node for the StorageGRID system has been deployed.
 * All Grid Network subnets listed on the IP Configuration page of the StorageGRID Appliance Installer have been defined in the Grid Network Subnet List on the primary Admin Node.
