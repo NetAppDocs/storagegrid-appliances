@@ -30,8 +30,6 @@ If you plan to use Aggregate port bond mode, LACP network bond mode, or VLAN tag
 
 You only need to configure the settings on the Link Configuration page if you want to use a non-default setting.
 
-NOTE: The default LACP transmit hash policy is layer2+3.
-
 NOTE: LACP PDU rate changes that are made following these instructions remain persistent in the StorageGRID environment. To make temporary changes to the LACP PDU rate when performing maintenance operations on network components installed in your appliance, see https://docs.netapp.com/us-en/storagegrid/maintain/changing-nodes-network-configuration.html#temporarily-changing-the-lacp-pdu-rate[Temporarily changing the LACP PDU rate^]. 
 
 [[port_config_tables]]The figures and tables summarize the options for the port bond mode and network bond mode for each appliance. See the following for more information:
@@ -689,9 +687,12 @@ The first time you access this page:
 
  ** *Link Speed* is set to *Auto*.
  ** *Port bond mode* is set to *Fixed*.
+ ** *LACP transmit hash policy* is set to *Layer2+3*.
+ ** *LACP PDU rate*  is set to *Fast*.
  ** *Network bond mode* is set to *Active-Backup* for the Grid Network.
  ** The *Admin Network* is enabled, and the network bond mode is set to *Independent*.
  ** The *Client Network* is disabled.
+  
 //+
 //image::../media/sg1000_network_link_configuration_fixed.png["Network Link Configuration Fixed"] 
 //image::../media/network_link_configuration_fixed.png["Network Link Configuration Fixed"] 
