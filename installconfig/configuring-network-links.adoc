@@ -28,7 +28,7 @@ If you plan to use Aggregate port bond mode, LACP network bond mode, or VLAN tag
 
 .About this task
 
-You only need to configure the settings on the Link Configuration page if you want to use a non-default setting.
+You only need to configure the settings on the Link Configuration page if you want to use values other than the <<default_values,default settings>>.
 
 NOTE: LACP PDU rate changes that are made following these instructions remain persistent in the StorageGRID environment. To make temporary changes to the LACP PDU rate when performing maintenance operations on network components installed in your appliance, see https://docs.netapp.com/us-en/storagegrid/maintain/changing-nodes-network-configuration.html#temporarily-changing-the-lacp-pdu-rate[Temporarily changing the LACP PDU rate^]. 
 
@@ -683,7 +683,7 @@ The Link Status table lists the link state, link speed, and other statistics of 
 //image::../media/sg5712_configuring_network_linkstatus.png["SG5712 Link Status"] 
 //image::../media/sg1000_configuring_network_link_status.png["SG1000 Link Status"] 
 +
-The first time you access this page:
+[[default_values]]The first time you access this page, the default values are:
 
  ** *Link Speed* is set to *Auto*.
  ** *Port bond mode* is set to *Fixed*.
