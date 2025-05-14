@@ -26,7 +26,7 @@ Be sure to choose the SANtricity OS version for your storage controllers.
 
 . Select *MAINTENANCE* > *System* > *Software update*.
 +
-image::../media/software_update_landing.png[Software Update Landing Page]
+image::../media/software_update_landing.png["Software Update Landing Page"] 
 
 . In the SANtricity OS update section, select *Update*.
 +
@@ -65,7 +65,7 @@ NOTE: If any errors are reported, resolve them and select *Start* again.
 +
 NOTE: The table shows all appliance Storage Nodes. Software-based Storage Nodes aren't displayed. Select *Approve* for all nodes that require the upgrade.
 +
-image::../media/santricity_upgrade_progress_table.png[screenshot showing the SANtricity OS Upgrade Progress part of the SANtricity OS Upgrade page]
+image::../media/santricity_upgrade_progress_table.png["screenshot showing the SANtricity OS Upgrade Progress part of the SANtricity OS Upgrade page"] 
 
 . Optionally, sort the list of nodes in ascending or descending order by:
 

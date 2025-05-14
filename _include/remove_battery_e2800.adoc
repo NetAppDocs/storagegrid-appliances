@@ -9,7 +9,7 @@ Remove the battery from the failed controller, and install it into the replaceme
 +
 If this green LED is on, the controller is still using battery power. You must wait for this LED to go off before removing any components.
 +
-image::../media/e2800_internal_cache_active_led.gif[Green LED on E2800]
+image::../media/e2800_internal_cache_active_led.gif["Green LED on E2800"] 
 +
 [cols="1a,2a" options="header"]
 |===
@@ -25,7 +25,7 @@ image::../media/e2800_internal_cache_active_led.gif[Green LED on E2800]
  . Locate the blue release latch for the battery.
  . Unlatch the battery by pushing the release latch down and away from the controller.
 +
-image::../media/e2800_remove_battery.gif[Battery Latch]
+image::../media/e2800_remove_battery.gif["Battery Latch"] 
 +
 [cols="1a,2a" options="header"]
 |===
@@ -55,9 +55,9 @@ CAUTION: *Possible hardware damage* -- The metal flange at the front of the batt
 
   *** *Correct -- The battery's metal flange is completely inserted into the slot on the controller:*
 +
-image::../media/e2800_battery_flange_ok.gif[Battery Flange Correct]
+image::../media/e2800_battery_flange_ok.gif["Battery Flange Correct"] 
 
   *** *Incorrect -- The battery's metal flange is not inserted into the slot on the controller:*
 +
-image::../media/e2800_battery_flange_not_ok.gif[Battery Flange Incorrect]
+image::../media/e2800_battery_flange_not_ok.gif["Battery Flange Incorrect"] 
 . Replace the controller cover.

@@ -92,13 +92,13 @@ The E-Series DE460C enclosure is a 4U shelf that includes:
 
 This figure shows the front of the SGF6112 without the bezel. The appliance includes a 1U compute and storage platform that contains 12 SSD drives. 
 
-image::../media/sgf6112_front_with_ssds.png[SGF6112 Front View]
+image::../media/sgf6112_front_with_ssds.png["SGF6112 Front View"] 
 
 === SGF6112 rear view
 
 This figure shows the back of the SGF6112, including the ports, fans, and power supplies.
 
-image::../media/sgf6112_rear_view.png[SGF6112 Rear View]
+image::../media/sgf6112_rear_view.png["SGF6112 Rear View"] 
 
 [cols="1a,2a,2a,2a" options="header"]
 |===
@@ -141,7 +141,7 @@ image::../media/sgf6112_rear_view.png[SGF6112 Rear View]
 
 This figure shows the location of the power supply and identify LEDs on the rear of the SGF6112. Additional status and activity LEDs are on the appliance ports. These LEDs might vary by appliance model.
 
-image::../media/q2024_rear_leds.png[Rear LEDs SGF6112]
+image::../media/q2024_rear_leds.png["Rear LEDs SGF6112"] 
 
 include::../_include/rear-leds-q.adoc[]
 
@@ -149,7 +149,7 @@ include::../_include/rear-leds-q.adoc[]
 
 This figure shows the front of the SG6160, which includes a 1U compute controller and a 4U shelf containing two storage controllers and 60 drives in five drive drawers.
 
-image::../media/sg6160_front_view_without_bezels.png[SG6160 Front View]
+image::../media/sg6160_front_view_without_bezels.png["SG6160 Front View"] 
 
 [cols="1a,2a" options="header"]
 |===
@@ -168,7 +168,7 @@ E4000 controller shelf with front bezel removed (optional expansion shelf appear
 
 This figure shows the back of the SG6160, including the compute and storage controllers, fans, and power supplies.
 
-image::../media/sg6160_rear_view.png[SG6160 Rear View]
+image::../media/sg6160_rear_view.png["SG6160 Rear View"] 
 
 [cols="1a,2a" options="header"]
 |===
@@ -208,7 +208,7 @@ NOTE: StorageGRID software is not preinstalled on the appliance. This software i
 
 This figure shows ports on the back of the SG6100-CN compute controller.
 
-image::../media/sg6100_cn_rear_connectors.png[SG6100-CN Rear Connectors]
+image::../media/sg6100_cn_rear_connectors.png["SG6100-CN Rear Connectors"] 
 
 [cols="1a,2a,2a,3a" options="header"]
 |===
@@ -259,7 +259,7 @@ image::../media/sg6100_cn_rear_connectors.png[SG6100-CN Rear Connectors]
 
 This figure shows the location of the power supply and identify LEDs on the rear of the SG6100-CN compute controller. Additional status and activity LEDs are on the appliance ports. These LEDs might vary by appliance model.
 
-image::../media/q2023_rear_leds.png[Rear LEDs SG6100-CN]
+image::../media/q2023_rear_leds.png["Rear LEDs SG6100-CN"] 
 
 include::../_include/rear-leds-q.adoc[]
 
@@ -274,7 +274,7 @@ include::../_include/rear-leds-q.adoc[]
 * Connect to the SG6100-CN controller and provide access to the storage.
 
 
-image::../media/e4000_controller_with_callouts.png[Connectors on E4000 controller]
+image::../media/e4000_controller_with_callouts.png["Connectors on E4000 controller"] 
 
 [cols="1a,2a,2a,3a" options="header"]
 |===
@@ -320,7 +320,7 @@ The expansion shelf contains two input/output modules (IOMs) that connect to the
 
 ==== IOM connectors
 
-image::../media/iom_connectors.gif[IOM Rear]
+image::../media/iom_connectors.gif["IOM Rear"] 
 
 [cols="1a,2a,2a,3a" options="header"]
 |===

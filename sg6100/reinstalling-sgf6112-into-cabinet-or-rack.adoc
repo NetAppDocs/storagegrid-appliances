@@ -35,7 +35,7 @@ NOTE: To prevent degraded performance, don't twist, fold, pinch, or step on the 
 
 . Loosen the two captive screws on the appliance front panel.
 +
-image::../media/sg6060_rack_retaining_screws.png[SGF6112 or SG6100-CN rack retaining screws]
+image::../media/sg6060_rack_retaining_screws.png["SGF6112 or SG6100-CN rack retaining screws"] 
 
 . Slide the SGF6112 or SG6100-CN forward out of the rack until the mounting rails are fully extended and you hear the latches on both sides click.
 +
@@ -58,13 +58,13 @@ You have link:reinstalling-sgf6112-cover.html[reinstalled the appliance cover].
 +
 When you can't move the controller any further, pull the blue latches on both sides of the chassis to slide the controller all the way in.
 +
-image::../media/sg6000_cn_rails_blue_button.gif[SG6000 Sliding on Rails]
+image::../media/sg6000_cn_rails_blue_button.gif["SG6000 Sliding on Rails"] 
 +
 NOTE: Don't attach the front bezel until after you power on the controller.
 
 . Tighten the captive screws on the controller front panel to secure the controller in the rack.
 +
-image::../media/sg6060_rack_retaining_screws.png[SG6060 rack retaining screws]
+image::../media/sg6060_rack_retaining_screws.png["SG6060 rack retaining screws"] 
 
 . Wrap the strap end of the ESD wristband around your wrist, and secure the clip end to a metal ground to prevent static discharge.
 . link:../installconfig/cabling-appliance.html[Reconnect the controller data cables and any SFP+ or SFP28 transceivers].

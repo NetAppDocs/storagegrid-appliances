@@ -54,11 +54,11 @@ The figures show how the four network ports on the SG1000 or SG100 are bonded in
 +
 SG1000:
 +
-image::../media/sg1000_fixed_port.png[SG1000 Fixed Port Bond Mode]
+image::../media/sg1000_fixed_port.png["SG1000 Fixed Port Bond Mode"] 
 +
 SG100:
 +
-image::../media/sg100_fixed_port_draft.png[SG100 Fixed Port Bond Mode]
+image::../media/sg100_fixed_port_draft.png["SG100 Fixed Port Bond Mode"] 
 +
 [cols="1a,3a" options="header"]
 |===
@@ -109,11 +109,11 @@ These figures show how the four network ports are bonded in aggregate port bond 
 +
 SG1000:
 +
-image::../media/sg1000_aggregate_ports.png[Aggregate Port Bond Mode SG1000]
+image::../media/sg1000_aggregate_ports.png["Aggregate Port Bond Mode SG1000"] 
 +
 SG100:
 +
-image::../media/sg100_aggregate_ports.png[Aggregate Port Bond Mode SG100]
+image::../media/sg100_aggregate_ports.png["Aggregate Port Bond Mode SG100"] 
 +
 [cols="1a,3a" options="header"]
 |===
@@ -149,11 +149,11 @@ These figures show how the two 1-GbE management ports on the appliances are bond
 +
 SG1000:
 +
-image::../media/sg1000_bonded_management_ports.png[Admin Network Ports Bonded SG1000]
+image::../media/sg1000_bonded_management_ports.png["Admin Network Ports Bonded SG1000"] 
 +
 SG100:
 +
-image::../media/sg100_bonded_management_ports.png[Admin Network Ports Bonded SG100]
+image::../media/sg100_bonded_management_ports.png["Admin Network Ports Bonded SG100"] 
 
 --
 
@@ -166,11 +166,11 @@ The figures show how the four network ports on the SG1100 or SG110 are bonded in
 +
 SG1100:
 +
-image::../media/sg1100_fixed_port.png[SG1100 Fixed Port Bond Mode]
+image::../media/sg1100_fixed_port.png["SG1100 Fixed Port Bond Mode"] 
 +
 SG110:
 +
-image::../media/sgf6112_fixed_port.png[SG110 Fixed Port Bond Mode]
+image::../media/sgf6112_fixed_port.png["SG110 Fixed Port Bond Mode"] 
 +
 [cols="1a,3a" options="header"]
 |===
@@ -218,11 +218,11 @@ These figures show how the four network ports are bonded in aggregate port bond 
 +
 SG1100:
 +
-image::../media/sg1100_aggregate_ports.png[Aggregate Port Bond Mode SG1100]
+image::../media/sg1100_aggregate_ports.png["Aggregate Port Bond Mode SG1100"] 
 +
 SG110:
 +
-image::../media/sgf6112_aggregate_ports.png[SG110 Aggregate Port Bond Mode ]
+image::../media/sgf6112_aggregate_ports.png["SG110 Aggregate Port Bond Mode "] 
 +
 [cols="1a,3a" options="header"]
 |===
@@ -252,11 +252,11 @@ These figures show how the two 1-GbE management ports on the appliances are bond
 +
 SG1100:
 +
-image::../media/sg1100_bonded_management_ports.png[Admin Network Ports Bonded SG1100]
+image::../media/sg1100_bonded_management_ports.png["Admin Network Ports Bonded SG1100"] 
 +
 SG110:
 +
-image::../media/sgf6112_bonded_management_ports.png[Admin Network Ports Bonded SG110]
+image::../media/sgf6112_bonded_management_ports.png["Admin Network Ports Bonded SG110"] 
 --
 
 .SG5700
@@ -267,7 +267,7 @@ Fixed port bond mode (default)::
 +
 This figure shows how the four 10/25-GbE ports are bonded in Fixed port bond mode (default configuration).
 +
-image::../media/e5700sg_fixed_port.gif[Image showing how the 10/25-GbE ports on the E5700SG controller are bonded in fixed mode]
+image::../media/e5700sg_fixed_port.gif["Image showing how the 10/25-GbE ports on the E5700SG controller are bonded in fixed mode"] 
 +
 [cols="1a,3a" options="header"]
 |===
@@ -320,7 +320,7 @@ Aggregate port bond mode::
 +
 This figure shows how the four 10/25-GbE ports are bonded in Aggregate port bond mode.
 +
-image::../media/e5700sg_aggregate_port.gif[Image showing how the 10/25-GbE ports on the E5700SG controller are bonded in aggregate mode]
+image::../media/e5700sg_aggregate_port.gif["Image showing how the 10/25-GbE ports on the E5700SG controller are bonded in aggregate mode"] 
 +
 [cols="1a,3a" options="header"]
 |===
@@ -355,7 +355,7 @@ Active-Backup network bond mode for management ports::
 +
 This figure shows how the two 1-GbE management ports on the E5700SG controller are bonded in Active-Backup network bond mode for the Admin Network.
 +
-image::../media/e5700sg_bonded_management_ports.gif[E5700SG Bonded management Ports]
+image::../media/e5700sg_bonded_management_ports.gif["E5700SG Bonded management Ports"] 
 
 --
 
@@ -366,7 +366,7 @@ Fixed port bond mode (default)::
 +
 This figure shows how the four 10/25-GbE ports are bonded in Fixed port bond mode (default configuration).
 +
-image::../media/sg5800_fixed_port.png[Image showing how the 10/25-GbE ports on the SG5800 controller are bonded in fixed mode]
+image::../media/sg5800_fixed_port.png["Image showing how the 10/25-GbE ports on the SG5800 controller are bonded in fixed mode"] 
 +
 [cols="1a,3a" options="header"]
 |===
@@ -419,7 +419,7 @@ Aggregate port bond mode::
 +
 This figure shows how the four 10/25-GbE ports are bonded in Aggregate port bond mode.
 +
-image::../media/sg5800_aggregate_port.png[Image showing how the 10/25-GbE ports on the SG5800 controller are bonded in aggregate mode]
+image::../media/sg5800_aggregate_port.png["Image showing how the 10/25-GbE ports on the SG5800 controller are bonded in aggregate mode"] 
 +
 [cols="1a,3a" options="header"]
 |===
@@ -460,7 +460,7 @@ Fixed port bond mode (default)::
 +
 This figure shows how the four network ports are bonded in fixed port bond mode (default configuration)
 +
-image::../media/sg6000_cn_fixed_port.gif[Image showing how the network ports on the SG6000-CN controller are bonded in fixed mode]
+image::../media/sg6000_cn_fixed_port.gif["Image showing how the network ports on the SG6000-CN controller are bonded in fixed mode"] 
 +
 [cols="1a,3a" options="header"]
 |===
@@ -505,7 +505,7 @@ Aggregate port bond mode::
 +
 This figure shows how the four network ports are bonded in aggregate port bond mode.
 +
-image::../media/sg6000_cn_aggregate_port.gif[Image showing how the network ports on the SG6000-CN controller are bonded in aggregate mode]
+image::../media/sg6000_cn_aggregate_port.gif["Image showing how the network ports on the SG6000-CN controller are bonded in aggregate mode"] 
 +
 [cols="1a,3a" options="header"]
 |===
@@ -533,7 +533,7 @@ Active-Backup network bond mode for management ports::
 +
 This figure shows how the two 1-GbE management ports on the SG6000-CN controller are bonded in Active-Backup network bond mode for the Admin Network.
 +
-image::../media/sg6000_cn_bonded_managemente_ports.png[Admin Network Ports Bonded]
+image::../media/sg6000_cn_bonded_managemente_ports.png["Admin Network Ports Bonded"] 
 
 --
 
@@ -546,11 +546,11 @@ The figure shows how the four network ports are bonded in fixed port bond mode (
 +
 *SGF6112*:
 +
-image::../media/sgf6112_fixed_port.png[SGF6112 Fixed Port Bond Mode]
+image::../media/sgf6112_fixed_port.png["SGF6112 Fixed Port Bond Mode"] 
 +
 *SG6100*:
 +
-image::../media/sg6100_cn_fixed_port.png[SG6100-CN Fixed Port Bond Mode]
+image::../media/sg6100_cn_fixed_port.png["SG6100-CN Fixed Port Bond Mode"] 
 +
 [cols="1a,3a" options="header"]
 |===
@@ -598,11 +598,11 @@ The figure shows how the four network ports are bonded in aggregate port bond mo
 +
 *SGF6112*:
 +
-image::../media/sgf6112_aggregate_ports.png[SGF6112 Aggregate Port Bond Mode ]
+image::../media/sgf6112_aggregate_ports.png["SGF6112 Aggregate Port Bond Mode "] 
 +
 *SG6100*:
 +
-image::../media/sg6100_cn_aggregate_ports.png[SG6100-CN Aggregate Port Bond Mode ]
+image::../media/sg6100_cn_aggregate_ports.png["SG6100-CN Aggregate Port Bond Mode "] 
 +
 [cols="1a,3a" options="header"]
 |===
@@ -632,11 +632,11 @@ This figure shows how the two 1-GbE management ports are bonded in Active-Backup
 +
 *SGF6112*:
 +
-image::../media/sgf6112_bonded_management_ports.png[Admin Network Ports Bonded SGF6112]
+image::../media/sgf6112_bonded_management_ports.png["Admin Network Ports Bonded SGF6112"] 
 +
 *SG6100*:
 +
-image::../media/sg6100_cn_bonded_management_ports.png[Admin Network Ports Bonded SG6100-CN]
+image::../media/sg6100_cn_bonded_management_ports.png["Admin Network Ports Bonded SG6100-CN"] 
 
 --
 ====
@@ -647,18 +647,18 @@ image::../media/sg6100_cn_bonded_management_ports.png[Admin Network Ports Bonded
 +
 The Network Link Configuration page displays a diagram of your appliance with the network and management ports numbered.
 //+
-//image::../media/sgf6112_configuring_network_ports.png[SGF6112 rear connectors]
-//image::../media/sg6060_configuring_network_ports.png[SG6060 Network Ports]
-//image::../media/sg5712_configuring_network_ports.png[SG5712 Network and Management Ports]
-//image::../media/sg100_configuring_network_ports.png[SG100 rear connectors]
-//image::../media/sg1000_configuring_network_ports.png[SG1000 Ports]
+//image::../media/sgf6112_configuring_network_ports.png["SGF6112 rear connectors"] 
+//image::../media/sg6060_configuring_network_ports.png["SG6060 Network Ports"] 
+//image::../media/sg5712_configuring_network_ports.png["SG5712 Network and Management Ports"] 
+//image::../media/sg100_configuring_network_ports.png["SG100 rear connectors"] 
+//image::../media/sg1000_configuring_network_ports.png["SG1000 Ports"] 
 +
 The Link Status table lists the link state, link speed, and other statistics of the numbered ports.
 //+
-//image::../media/SGF6112_link_status_table.png[SGF6112 Link Status]
-//image::../media/sg6060_configuring_network_linkstatus.png[Link Status Table]
-//image::../media/sg5712_configuring_network_linkstatus.png[SG5712 Link Status]
-//image::../media/sg1000_configuring_network_link_status.png[SG1000 Link Status]
+//image::../media/SGF6112_link_status_table.png["SGF6112 Link Status"] 
+//image::../media/sg6060_configuring_network_linkstatus.png["Link Status Table"] 
+//image::../media/sg5712_configuring_network_linkstatus.png["SG5712 Link Status"] 
+//image::../media/sg1000_configuring_network_link_status.png["SG1000 Link Status"] 
 +
 The first time you access this page:
 
@@ -668,8 +668,8 @@ The first time you access this page:
  ** The *Admin Network* is enabled, and the network bond mode is set to *Independent*.
  ** The *Client Network* is disabled.
 //+
-//image::../media/sg1000_network_link_configuration_fixed.png[Network Link Configuration Fixed]
-//image::../media/network_link_configuration_fixed.png[Network Link Configuration Fixed]
+//image::../media/sg1000_network_link_configuration_fixed.png["Network Link Configuration Fixed"] 
+//image::../media/network_link_configuration_fixed.png["Network Link Configuration Fixed"] 
 
 . Select the link speed for the network ports from the *Link speed* drop-down list.
 +
@@ -687,7 +687,7 @@ The Grid Network is required. You can't disable this network.
 
  .. If the appliance is not connected to the Admin Network, clear the *Enable network* checkbox for the Admin Network.
 //+
-//image::../media/admin_network_disabled.gif[Screenshot showing checkbox for enabling or disabling the Admin Network]
+//image::../media/admin_network_disabled.gif["Screenshot showing checkbox for enabling or disabling the Admin Network"] 
 
  .. If the appliance is connected to the Client Network, select the *Enable network* checkbox for the Client Network.
 +
@@ -700,8 +700,8 @@ This example shows:
  ** *Aggregate* and *LACP* selected for the Grid and the Client Networks. You must specify a unique VLAN tag for each network. You can select values between 0 and 4095.
  ** *Active-Backup* selected for the Admin Network.
 +
-image::../media/sg1000_network_link_configuration_aggregate.png[Network Link Configuration Aggregate]
-//image::../media/network_link_configuration_aggregate.gif[Screen shot showing Link Configuration settings for Aggregate mode]
+image::../media/sg1000_network_link_configuration_aggregate.png["Network Link Configuration Aggregate"] 
+//image::../media/network_link_configuration_aggregate.gif["Screen shot showing Link Configuration settings for Aggregate mode"] 
 
 . When you are satisfied with your selections, click *Save*.
 +

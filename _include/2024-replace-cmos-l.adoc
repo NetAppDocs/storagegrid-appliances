@@ -9,7 +9,7 @@
 
 //The NICs in the appliance are in two riser assemblies in the positions in the chassis shown in the photograph (Rear of appliance with top cover removed shown): 
 +
-image::../media/sg6060_riser_assembly_location.jpg[Riser assembly location]
+image::../media/sg6060_riser_assembly_location.jpg["Riser assembly location"] 
 
 . Grasp the riser assembly through the blue-marked holes and carefully lift it upwards. Move the riser assembly toward the front of the chassis as you lift it to allow the external connectors in its installed adapters to clear the chassis.
 . Place the riser on a flat anti-static surface with the metal frame side down.
@@ -36,7 +36,7 @@ Install the replacement CMOS battery into the socket on the system board.
 
 . Locate the alignment hole on the riser assembly (circled) that aligns with a guide pin on the system board to ensure correct riser assembly positioning.
 +
-image::../media/sg6060_riser_alignment_hole.jpg[Alignment hole on riser assembly]
+image::../media/sg6060_riser_alignment_hole.jpg["Alignment hole on riser assembly"] 
 +
 . Position the riser assembly in the chassis, making sure that it aligns with the connector and guide pin on the system board; then, insert the riser assembly.
 

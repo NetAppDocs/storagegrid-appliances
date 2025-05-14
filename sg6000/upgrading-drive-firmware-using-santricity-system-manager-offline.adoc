@@ -51,7 +51,7 @@ The Upgrade Drive Firmware page displays the drive firmware files currently inst
 
  .. Note the current drive firmware revisions and drive identifiers in the Current Drive Firmware column.
 +
-image::../media/storagegrid_update_drive_firmware.png[Upgrade Drive Firmware]
+image::../media/storagegrid_update_drive_firmware.png["Upgrade Drive Firmware"] 
 +
 In this example:
 
@@ -72,7 +72,7 @@ The E-Series Disk Firmware page displays.
   *** If the firmware revision is not a link, this drive identifier has the latest firmware revision.
   *** If one or more drive part numbers are listed for a drive identifier, a firmware upgrade is available for these drives. You can select any link to download the firmware file.
 +
-image::../media/storagegrid_drive_firmware_download.png[E-Series Disk Firmware page]
+image::../media/storagegrid_drive_firmware_download.png["E-Series Disk Firmware page"] 
  .. If a later firmware revision is listed, select the link in the Firmware Rev. (Download) column to download a `.zip` archive containing the firmware file.
  .. Extract (unzip) the drive firmware archive files you downloaded from the Support site.
 . Install the drive firmware upgrade:
@@ -120,8 +120,8 @@ link:troubleshoot-upgrading-drive-firmware-using-santricity-system-manager.html[
 +
 * *Reboot into Maintenance Mode*. Reboot the controller and keep the node in maintenance mode. Select this option if there were any failures during the procedure and you want to start over. After the node finishes rebooting into maintenance mode, restart from the appropriate step in the procedure that failed.
 +
-It can take up to 20 minutes for the appliance to reboot and rejoin the grid. To confirm that the reboot is complete and that the node has rejoined the grid, go back to the Grid Manager. The Nodes page should display a normal status (green check mark icon image:../media/icon_alert_green_checkmark.png[green check mark] to the left of the node name) for the appliance node, indicating that no alerts are active and the node is connected to the grid.
+It can take up to 20 minutes for the appliance to reboot and rejoin the grid. To confirm that the reboot is complete and that the node has rejoined the grid, go back to the Grid Manager. The Nodes page should display a normal status (green check mark icon image:../media/icon_alert_green_checkmark.png["green check mark"]  to the left of the node name) for the appliance node, indicating that no alerts are active and the node is connected to the grid.
 +
-image::../media/nodes_menu.png[Appliance node rejoined grid]
+image::../media/nodes_menu.png["Appliance node rejoined grid"] 
 
 // 2024 MAR 22, SGIRDDOC-52

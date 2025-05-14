@@ -35,7 +35,7 @@ You should clone only one appliance node at a time to maintain StorageGRID netwo
 +
 The Primary Admin Node connection section is replaced with the Clone target node connection section.
 +
-image::../media/clone_peer_node_connection_section.png[Clone target node connection section]
+image::../media/clone_peer_node_connection_section.png["Clone target node connection section"] 
 
 . For *Clone target node IP*, enter the temporary IP address assigned to the target node for the network to use for clone data-transfer traffic, and then select *Save*.
 +
@@ -54,7 +54,7 @@ When *Start Cloning* is enabled, the *Current state* indicates the StorageGRID n
 +
 The StorageGRID Appliance Installer on both the source and target nodes indicate similar status.
 +
-image::../media/cloning_progress.png[Cloning progress]
+image::../media/cloning_progress.png["Cloning progress"] 
 +
 The Monitor Cloning page provides detailed progress for each stage of the cloning process:
 

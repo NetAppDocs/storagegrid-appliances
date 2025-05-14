@@ -22,17 +22,17 @@ You install a set of rails for the SG6000-CN controller in your cabinet or rack,
 . Carefully follow the instructions for the rail kit to install the rails in your cabinet or rack.
 . On the two rails installed in the cabinet or rack, extend the movable parts of the rails until you hear a click.
 +
-image::../media/rails_extended_out.gif[SG6000 Rails]
+image::../media/rails_extended_out.gif["SG6000 Rails"] 
 
 . Insert the SG6000-CN controller into the rails.
 . Slide the controller into the cabinet or rack.
 +
 When you can't move the controller any further, pull the blue latches on both sides of the chassis to slide the controller all the way in.
 +
-image::../media/sg6000_cn_rails_blue_button.gif[SG6000 Sliding on Rails]
+image::../media/sg6000_cn_rails_blue_button.gif["SG6000 Sliding on Rails"] 
 +
 NOTE: Don't attach the front bezel until after you power on the controller.
 
 . Tighten the captive screws on the controller front panel to secure the controller in the rack.
 +
-image::../media/sg6060_rack_retaining_screws.png[SG6060 rack retaining screws]
+image::../media/sg6060_rack_retaining_screws.png["SG6060 rack retaining screws"] 

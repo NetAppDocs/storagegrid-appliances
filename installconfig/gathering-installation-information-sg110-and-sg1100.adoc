@@ -32,11 +32,11 @@ The Admin Network for StorageGRID is an optional network, used for system admini
 
 SG110 RJ-45 ports:
 
-image::../media/sg6100_rj_45_ports_circled.png[SG110 RJ-45 ports]
+image::../media/sg6100_rj_45_ports_circled.png["SG110 RJ-45 ports"] 
 
 SG1100 RJ-45 ports:
 
-image::../media/sg1100_rj_45_ports_circled.png[SG1100 RJ-45 ports]
+image::../media/sg1100_rj_45_ports_circled.png["SG1100 RJ-45 ports"] 
 
 [cols="2a,1a" options="header"]
 |===
@@ -271,11 +271,11 @@ include::../_include/enable-disable-ipmi.adoc[]
 
 SG110 BMC management port:
 
-image::../media/sgf6112_cn_bmc_management_port.png[SG110 management port]
+image::../media/sgf6112_cn_bmc_management_port.png["SG110 management port"] 
 
 SG1100 BMC management port:
 
-image::../media/sg1100_bmc_management_port.png[SG1100 BMC management port]
+image::../media/sg1100_bmc_management_port.png["SG1100 BMC management port"] 
 
 
 [cols="2a,1a" options="header"]
@@ -311,11 +311,11 @@ Fixed port bond mode is the default configuration for the networking ports. The 
 
 SG110: 
 
-image::../media/sgf6112_fixed_port.png[SG110 Fixed Port Bond Mode]
+image::../media/sgf6112_fixed_port.png["SG110 Fixed Port Bond Mode"] 
 
 SG1100:
 
-image::../media/sg1100_fixed_port.png[SG1100 Fixed Port Bond Mode]
+image::../media/sg1100_fixed_port.png["SG1100 Fixed Port Bond Mode"] 
 
 [cols="1a,3a" options=header] 
 |===
@@ -342,11 +342,11 @@ Aggregate port bond mode significantly increases the throughput for each Storage
 
 SG110:
 
-image::../media/sgf6112_aggregate_ports.png[SG110 aggregate port bond mode]
+image::../media/sgf6112_aggregate_ports.png["SG110 aggregate port bond mode"] 
 
 SG1100:
 
-image::../media/sg1100_aggregate_ports.png[SG1100 Aggregate Port Bond Mode]
+image::../media/sg1100_aggregate_ports.png["SG1100 Aggregate Port Bond Mode"] 
 
 [cols="1a,3a" options=header] 
 |===
@@ -374,11 +374,11 @@ For the two 1/10-GbE management ports on the services appliance, you can choose 
 
 SG110:
 
-image::../media/sgf6112_bonded_management_ports.png[SG110 Bonded Network Management Ports]
+image::../media/sgf6112_bonded_management_ports.png["SG110 Bonded Network Management Ports"] 
 
 SG1100:
 
-image::../media/sg1100_bonded_management_ports.png[SG1100 Bonded Network Management Ports]
+image::../media/sg1100_bonded_management_ports.png["SG1100 Bonded Network Management Ports"] 
 
 [cols="1a,3a" options="header"]
 |===

@@ -32,7 +32,7 @@ IMPORTANT: See the information about viewing status indicators to verify the fai
 +
 The drives are in the following positions in the chassis (front of chassis with bezel removed shown): 
 +
-image::../media/sg1100_front_with_ssds.png[SG110 and SG1100 drive locations]
+image::../media/sg1100_front_with_ssds.png["SG110 and SG1100 drive locations"] 
 
 [start=2]
 . Wrap the strap end of the ESD wristband around your wrist, and secure the clip end to a metal ground to prevent static discharge.
@@ -42,7 +42,7 @@ Save all packing materials.
 
 . Press the release button on the failed drive.
 +
-image::../media/h600s_driveremoval.gif[Drive Removal]
+image::../media/h600s_driveremoval.gif["Drive Removal"] 
 +
 The handle on the drive springs open partially, and the drive releases from the slot.
 
@@ -51,7 +51,7 @@ The handle on the drive springs open partially, and the drive releases from the 
 +
 The latch springs open.
 +
-image::../media/h600s_driveinstall.gif[Drive Installation]
+image::../media/h600s_driveinstall.gif["Drive Installation"] 
 
 . Insert the replacement drive in the slot, and then close the drive handle.
 +

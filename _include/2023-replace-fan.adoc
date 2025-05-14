@@ -7,7 +7,7 @@
 +
 The eight fans are in the following positions in the chassis (front half of StorageGRID appliance with top cover removed shown): 
 +
-image::../media/SGF6112-fan-locations.png[Fan locations]
+image::../media/SGF6112-fan-locations.png["Fan locations"] 
 +
 [options="header"]
 |===
@@ -48,7 +48,7 @@ Fan_SYS7
 [start=3]
 . Using the blue tabs on the fan, lift the failed fan out of the chassis.
 +
-image::../media/fan_removal.png[Fan Removal]
+image::../media/fan_removal.png["Fan Removal"] 
 
 . Slide the replacement fan into the open slot in the chassis.
 +
@@ -56,6 +56,6 @@ Be sure to align the connector on the fan with the socket in the circuit board.
 +
 . Press the fan's connector firmly into the circuit board (socket highlighted).
 +
-image::../media/sgf6112_fan_socket_check.png[Fan Connector Check]
+image::../media/sgf6112_fan_socket_check.png["Fan Connector Check"] 
 
 

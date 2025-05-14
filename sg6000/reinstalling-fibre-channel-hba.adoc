@@ -32,7 +32,7 @@ NOTE: If the serial number of the storage appliance containing the Fibre Channel
 +
 Check the *Storage appliance chassis serial number* and the *Compute controller serial number* in the StorageGRID Appliance section. See if one of these serial numbers matches the serial number of the storage appliance where you are replacing the Fibre Channel HBA. If either serial number matches, you have found the correct appliance.
 +
-image::../media/nodes_page_hardware_tab_for_appliance_verify_HBA.png[Appliance section for Fibre Channel HCA]
+image::../media/nodes_page_hardware_tab_for_appliance_verify_HBA.png["Appliance section for Fibre Channel HCA"] 
 
  ** If the StorageGRID Appliance section does not display, the node selected is not a StorageGRID appliance. Select a different node from the tree view.
  ** If the Appliance Model is not SG6060 or SG6060X, select a different node from the tree view.
@@ -74,12 +74,12 @@ See information about https://docs.netapp.com/us-en/storagegrid/ilm/why-you-shou
 . Wrap the strap end of the ESD wristband around your wrist, and secure the clip end to a metal ground to prevent static discharge.
 . Locate the riser assembly at the rear of the controller that contains the Fibre Channel HBA.
 +
-image::../media/sg6060_riser_assembly_location.jpg[SG6060 riser assembly location]
+image::../media/sg6060_riser_assembly_location.jpg["SG6060 riser assembly location"] 
 
 . Grasp the riser assembly through the blue-marked holes and carefully lift it upwards. Move the riser assembly toward the front of the chassis as you lift it to allow the external connectors in its installed adapters to clear the chassis.
 . Place the riser card on a flat anti-static surface with the metal frame side down to access the adapters.
 +
-image::../media/sg6060_fc_hba_location.jpg[SG6060 Fibre Channel HBA in riser assembly]
+image::../media/sg6060_fc_hba_location.jpg["SG6060 Fibre Channel HBA in riser assembly"] 
 +
 There are two adapters in the riser assembly: a Fibre Channel HBA and an Ethernet network adapter. The Fibre Channel HBA is indicated in the illustration.
 
@@ -109,13 +109,13 @@ link:reinstalling-fibre-channel-hba.html#remove-fibre-channel-hba[Remove Fibre C
 . Remove the replacement Fibre Channel HBA from its packaging.
 . With the blue adapter latch in the open position, align the Fibre Channel HBA with its connector on the riser assembly; then, carefully press the adapter into the connector until it is fully seated.
 +
-image::../media/sg6060_fc_hba_location.jpg[SG6060 Fibre Channel HBA in riser assembly]
+image::../media/sg6060_fc_hba_location.jpg["SG6060 Fibre Channel HBA in riser assembly"] 
 +
 There are two adapters in the riser assembly: a Fibre Channel HBA and an Ethernet network adapter. The Fibre Channel HBA is indicated in the illustration.
 
 . Locate the alignment hole on the riser assembly (circled) that aligns with a guide pin on the system board to ensure correct riser assembly positioning.
 +
-image::../media/sg6060_riser_alignment_hole.jpg[Alignment hole on SG6060 riser assembly]
+image::../media/sg6060_riser_alignment_hole.jpg["Alignment hole on SG6060 riser assembly"] 
 
 . Position the riser assembly in the chassis, making sure that it aligns with the connector and guide pin on the system board; then, insert the riser assembly.
 . Carefully press the riser assembly in place along its center line, next to the blue-marked holes, until it is fully seated.

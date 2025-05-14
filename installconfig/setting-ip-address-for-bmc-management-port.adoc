@@ -24,37 +24,37 @@ If you are using ConfigBuilder to generate a JSON file, you can configure IP add
 
 .SG100
 --
-image::../media/sg100_bmc_management_port.png[SG100 BMC Management Port]
+image::../media/sg100_bmc_management_port.png["SG100 BMC Management Port"] 
 --
 .SG110
 --
-image::../media/sgf6112_cn_bmc_management_port.png[BMC management port SG110]
+image::../media/sgf6112_cn_bmc_management_port.png["BMC management port SG110"] 
 --
 
 .SG1000
 --
-image::../media/sg1000_bmc_management_port.png[SG1000 BMC Management Port]
+image::../media/sg1000_bmc_management_port.png["SG1000 BMC Management Port"] 
 --
 
 .SG1100
 --
-image::../media/sg1100_bmc_management_port.png[BMC management port SG1100]
+image::../media/sg1100_bmc_management_port.png["BMC management port SG1100"] 
 --
 
 .SG6000
 --
-image::../media/sg6000_cn_bmc_management_port.gif[BMC management port on SG6000-CN controller]
+image::../media/sg6000_cn_bmc_management_port.gif["BMC management port on SG6000-CN controller"] 
 --
 
 .SG6100
 --
 _SGF6112_:
 
-image::../media/sgf6112_cn_bmc_management_port.png[BMC management port SGF6112]
+image::../media/sgf6112_cn_bmc_management_port.png["BMC management port SGF6112"] 
 
 _SG6100-CN_:
 
-image::../media/sg6100_cn_bmc_management_port.png[BMC management port SG610-CN]
+image::../media/sg6100_cn_bmc_management_port.png["BMC management port SG610-CN"] 
 --
 
 ====
@@ -76,7 +76,7 @@ The StorageGRID Appliance Installer Home page appears.
 
 . Select *Configure Hardware* > *BMC Configuration*.
 +
-image::../media/bmc_configuration_page.gif[screenshot showing Advanced > BMC Configuration option]
+image::../media/bmc_configuration_page.gif["screenshot showing Advanced > BMC Configuration option"] 
 +
 The Baseboard Management Controller Configuration page appears.
 
@@ -86,7 +86,7 @@ DHCP is the default method for assigning an IP address to this port.
 +
 NOTE: It might take a few minutes for the DHCP values to appear.
 +
-image::../media/bmc_configuration_dhcp_address.gif[Basement Management Controller Configuration Page showing DHCP address]
+image::../media/bmc_configuration_dhcp_address.gif["Basement Management Controller Configuration Page showing DHCP address"] 
 
 . Optionally, set a static IP address for the BMC management port.
 +
@@ -96,7 +96,7 @@ NOTE: You should either assign a static IP for the BMC management port or assign
  .. Enter the IPv4 address, using CIDR notation.
  .. Enter the default gateway.
 +
-image::../media/bmc_configuration_static_ip.gif[Baseboard Management Controller Configuration Static option]
+image::../media/bmc_configuration_static_ip.gif["Baseboard Management Controller Configuration Static option"] 
 
  .. Click *Save*.
 +

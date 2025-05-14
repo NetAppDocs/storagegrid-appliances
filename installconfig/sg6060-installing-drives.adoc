@@ -30,7 +30,7 @@ NOTE: Expansion shelves don't use SSD drives.
 . Install the two SSD drives in slots 0 and 1 (the first two slots along the lefthand side of the drawer).
 . Gently position each drive into its slot, and lower the raised drive handle until it clicks into place.
 +
-image::../media/install_drives_in_e2860.gif[Install Drives]
+image::../media/install_drives_in_e2860.gif["Install Drives"] 
 
 . Install 10 HDD drives into the top drawer.
 . Slide the drawer back in by pushing on the center and closing both levers gently.

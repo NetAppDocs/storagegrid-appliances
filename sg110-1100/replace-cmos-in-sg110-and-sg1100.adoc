@@ -22,6 +22,15 @@ Use these procedures to:
 
 * You have link:verify-component-to-replace.html[verified the SG110 or SG1100 where the CMOS battery needs to be replaced].
 * You have link:locating-sg110-and-sg1100-in-data-center.html[physically located the SG110 or SG1100 appliance] where you are replacing the CMOS battery in the data center.
+* You have recorded the current BMC configuration of the appliance, if it remains available.
+. Log in to the appliance to be replaced:
+  .. Enter the following command: `ssh admin@_grid_node_IP_`
+  .. Enter the password listed in the `Passwords.txt` file.
+  .. Enter the following command to switch to root: `su -`
+  .. Enter the password listed in the `Passwords.txt` file.
++
+When you are logged in as root, the prompt changes from `$` to `#`.
+. Enter: `*run-host-command ipmitool lan print*` to display the current BMC configuration for the appliance.
 +
 NOTE: A link:power-sg110-and-sg1100-off-on.html#shut-down-the-sg110-or-sg1100-appliance[controlled shutdown of the appliance] is required before removing the appliance from the rack.
 

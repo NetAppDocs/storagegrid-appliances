@@ -32,11 +32,11 @@ The Admin Network for StorageGRID is an optional network, used for system admini
 
 SG100 RJ-45 ports:
 
-image::../media/sg100_rj_45_ports_circled.png[SG100 RJ-45 ports]
+image::../media/sg100_rj_45_ports_circled.png["SG100 RJ-45 ports"] 
 
 SG1000 RJ-45 ports:
 
-image::../media/sg1000_rj_45_ports_circled.png[SG1000 RJ-45 ports]
+image::../media/sg1000_rj_45_ports_circled.png["SG1000 RJ-45 ports"] 
 
 [cols="2a,1a" options="header"]
 |===
@@ -276,11 +276,11 @@ include::../_include/enable-disable-ipmi.adoc[]
 
 SG100 BMC management port:
 
-image::../media/sg100_bmc_management_port.png[SG100 management port]
+image::../media/sg100_bmc_management_port.png["SG100 management port"] 
 
 SG1000 BMC management port:
 
-image::../media/sg1000_bmc_management_port.png[SG1000 BMC management port]
+image::../media/sg1000_bmc_management_port.png["SG1000 BMC management port"] 
 
 
 [cols="2a,1a" options="header"]
@@ -316,11 +316,11 @@ Fixed port bond mode is the default configuration for the networking ports. The 
 
 SG100: 
 
-image::../media/sg100_fixed_port.png[SG100 Fixed Port Bond Mode]
+image::../media/sg100_fixed_port.png["SG100 Fixed Port Bond Mode"] 
 
 SG1000:
 
-image::../media/sg1000_fixed_port.png[SG1000 Fixed Port Bond Mode]
+image::../media/sg1000_fixed_port.png["SG1000 Fixed Port Bond Mode"] 
 
 [cols="1a,3a" options=header] 
 |===
@@ -347,11 +347,11 @@ Aggregate port bond mode significantly increases the throughput for each Storage
 
 SG100:
 
-image::../media/sg100_aggregate_ports.png[SG100 aggregate port bond mode]
+image::../media/sg100_aggregate_ports.png["SG100 aggregate port bond mode"] 
 
 SG1000:
 
-image::../media/sg1000_aggregate_ports.png[SG1000 Aggregate Port Bond Mode]
+image::../media/sg1000_aggregate_ports.png["SG1000 Aggregate Port Bond Mode"] 
 
 [cols="1a,3a" options=header] 
 |===
@@ -379,11 +379,11 @@ For the two 1-GbE management ports on the services appliance, you can choose Ind
 
 SG100:
 
-image::../media/sg100_bonded_management_ports.png[SG100 Bonded Network Management Ports]
+image::../media/sg100_bonded_management_ports.png["SG100 Bonded Network Management Ports"] 
 
 SG1000:
 
-image::../media/sg1000_bonded_management_ports.png[SG1000 Bonded Network Management Ports]
+image::../media/sg1000_bonded_management_ports.png["SG1000 Bonded Network Management Ports"] 
 
 [cols="1a,3a" options="header"]
 |===

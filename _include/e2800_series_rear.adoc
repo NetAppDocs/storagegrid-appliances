@@ -4,11 +4,11 @@ These figures show the E2800A controller and the E2800B controller. The procedur
 
 E2800A storage controller:
 
-image::../media/e2800_labels_on_controller.gif[MAC and FRU labels on E2800A controller]
+image::../media/e2800_labels_on_controller.gif["MAC and FRU labels on E2800A controller"] 
 
 E2800B storage controller:
 
-image::../media/e2800B_labels_on_controller.gif[MAC and FRU labels on E2800A controller]
+image::../media/e2800B_labels_on_controller.gif["MAC and FRU labels on E2800A controller"] 
 
 [cols="1a,2a,4a" options=header] 
 |===
