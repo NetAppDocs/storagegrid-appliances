@@ -1,10 +1,5 @@
 // Replace CMOS battery in SGF6112, SG110, SG1100
-// Intro and before you begin, and after you finish are in referencing topic
-
-.About this task
-To prevent service interruptions, confirm that all other Storage Nodes are connected to the grid before starting the CMOS battery replacement or replace the battery during a scheduled maintenance window when periods of service disruption are acceptable. See the information about https://docs.netapp.com/us-en/storagegrid-118/monitor/monitoring-system-health.html#monitor-node-connection-states[monitoring node connection states^].
-
-CAUTION: If you have ever used an ILM rule that creates only one copy of an object, you must replace the battery during a scheduled maintenance window because you might temporarily lose access to those objects during this procedure. See information about https://docs.netapp.com/us-en/storagegrid-118/ilm/why-you-should-not-use-single-copy-replication.html[why you should not use single-copy replication^].
+// Intro, before you begin, about this task, and after you finish are in referencing topic
 
 .Steps
 
@@ -14,17 +9,17 @@ CAUTION: If you have ever used an ILM rule that creates only one copy of an obje
 
 //The three NICs in the appliance are in two riser assemblies in the positions in the chassis shown in the photograph (Rear of appliance with top cover removed shown): 
 +
-image::../media/SGF6112-two-slot-riser-position.png[Two-slot riser location]
+image::../media/SGF6112-two-slot-riser-position.png["Two-slot riser location"] 
 
 . Grasp the riser assembly through the blue-marked holes and carefully lift it upwards. Move the riser assembly toward the front of the chassis as you lift it to allow the external connectors in its installed NICs to clear the chassis.
 . Place the riser on a flat anti-static surface with the metal frame side down.
 . Locate the CMOS battery on the system board in the position beneath the removed riser assembly. 
 +
-image::../media/SGF6112-cmos-position.png[CMOS battery location]
+image::../media/SGF6112-cmos-position.png["CMOS battery location"] 
 
 . Use your finger or a plastic pry tool to press the retaining clip (highlighted) away from the battery to spring it from the socket. 
 +
-image::../media/SGF6112-battery-cmos.png[CMOS battery clip]
+image::../media/SGF6112-battery-cmos.png["CMOS battery clip"] 
 
 . Remove the battery and dispose of it properly. 
 
@@ -45,11 +40,11 @@ Install the replacement CMOS battery into the socket on the system board.
 
 . Locate the alignment hole on the two-slot riser assembly (circled) that aligns with the guide pin on the system board to ensure correct riser assembly positioning.
 +
-image::../media/sgf6112_two-slot-riser_alignment_hole.png[Alignment hole on large riser assembly]
+image::../media/sgf6112_two-slot-riser_alignment_hole.png["Alignment hole on large riser assembly"] 
 +
 . Locate the guide pin on the system board 
 +
-image::../media/sgf6112_two-slot-riser_guide-pin.png[Guide pin on system board for two-slot riser assembly]
+image::../media/sgf6112_two-slot-riser_guide-pin.png["Guide pin on system board for two-slot riser assembly"] 
 
 . Position the riser assembly in the chassis, making sure that it aligns with the connector on the system board and guide pin. 
 
@@ -61,7 +56,7 @@ image::../media/sgf6112_two-slot-riser_guide-pin.png[Guide pin on system board f
 
 . If the appliance you replaced used a key management server (KMS) to manage encryption keys for node encryption, additional configuration might be required before the node can join the grid. If the node does not automatically join the grid, make sure that these configuration settings have transferred to the new appliance and manually configure any settings that don't have the expected configuration:
 ** link:../installconfig/accessing-storagegrid-appliance-installer.html[Configure StorageGRID connections]
-** https://docs.netapp.com/us-en/storagegrid-118/admin/kms-overview-of-kms-and-appliance-configuration.html#set-up-the-appliance[Configure node encryption for the appliance^]
+** https://docs.netapp.com/us-en/storagegrid/admin/kms-overview-of-kms-and-appliance-configuration.html#set-up-the-appliance[Configure node encryption for the appliance^]
 
 . Log in to the appliance:
   .. Enter the following command: `ssh admin@_grid_node_IP_`

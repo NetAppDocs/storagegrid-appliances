@@ -20,7 +20,7 @@ Shut down the appliance to perform hardware maintenance.
 
 .Before you begin
 
-* You have link:locating-sg110-and-sg1100-in-data-center.html[physically located the appliance].
+You have link:locating-sg110-and-sg1100-in-data-center.html[physically located the appliance].
 
 
 .About this task
@@ -72,7 +72,7 @@ You might have to remove the bezel to access the power switch; if so, remember t
   ... Select *Power Control*.
   ... Select *Power On* and then select *Perform Action*.
 +
-image::../media/sgf6112_power_on_from_bmc.png[Power on appliance from BMC]
+image::../media/sgf6112_power_on_from_bmc.png["Power on appliance from BMC"] 
 +
 Use the BMC interface to monitor start-up status.
 . Confirm that the appliance controller displays in the Grid Manager and with no alerts.

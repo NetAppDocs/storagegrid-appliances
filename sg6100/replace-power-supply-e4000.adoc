@@ -1,5 +1,5 @@
 ---
-permalink: sg6100/replace-power-supply.html
+permalink: sg6100/replace-power-supply-e4000.html
 sidebar: sidebar
 keywords: E4000 replace canister, replacing E4000 canister, E4000 replace power supply, replacing E4000 power supply, E4000 replace fan, replacing E4000 fan, E4000, E-Series, eseries
 summary: Review E4000 canister types and requirements.
@@ -28,7 +28,7 @@ NOTE: Do not mix PSUs of the different voltage types. Always replace like for li
 ** A replacement power supply that is supported for your controller shelf or drive shelf model.
 ** An ESD wristband, or you have taken other antistatic precautions.
 ** Access to SANtricity System Manager: 
-*** From Grid Manager, select *NODES* > *_appliance node_* > *SANtricity System Manager*. Controller information is on the https://docs.netapp.com/us-en/storagegrid-118/monitor/viewing-santricity-system-manager-tab.html[SANtricity System Manager tab].
+*** From Grid Manager, select *NODES* > *_appliance node_* > *SANtricity System Manager*. Controller information is on the https://docs.netapp.com/us-en/storagegrid/monitor/viewing-santricity-system-manager-tab.html[SANtricity System Manager tab].
 *** Point a browser in your management station to the controller's domain name or IP address.
 
 
@@ -49,7 +49,7 @@ The file is saved in the Downloads folder for your browser with the name, *suppo
 You can find this information in the Details area of the Recovery Guru, or you can review the information displayed for the shelf.
 
  .. Select *Hardware*.
- .. Look at the power image:../media/sam1130_ss_hardware_power_icon_maint-e2800.gif[] and fan image:../media/sam1130_ss_hardware_fan_icon_maint-e2800.gif[] icons to the right of the *Shelf* drop-down lists to determine which shelf has the failed power supply.
+ .. Look at the power image:../media/sam1130_ss_hardware_power_icon_maint-e2800.gif["Power icon"]  and fan image:../media/sam1130_ss_hardware_fan_icon_maint-e2800.gif["Fan icon"]  icons to the right of the *Shelf* drop-down lists to determine which shelf has the failed power supply.
 +
 If a component has failed, either or both of these icons are red.
 

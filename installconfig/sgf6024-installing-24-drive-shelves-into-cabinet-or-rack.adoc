@@ -13,7 +13,7 @@ You install a set of rails for the EF570 controller shelf in your cabinet or rac
 
 .Before you begin
 
-* You have reviewed the Safety Notices document included in the box, and understand the precautions for moving and installing hardware.
+* You have reviewed the https://library.netapp.com/ecm/ecm_download_file/ECMP12475945[Safety Notices^] document included in the box, and understand the precautions for moving and installing hardware.
 * You have the instructions packaged with the rail kit.
 
 .Steps
@@ -37,9 +37,9 @@ NOTE: If applicable, you might need to remove the shelf end caps or the system b
 
 . Secure the enclosure to the front of the cabinet or rack and rails by inserting two M5 screws through the mounting brackets (preinstalled on either side of the front of the enclosure), the holes on the rack or system cabinet, and the holes on the front of rails.
 +
-image::../media/secure_shelf.png[Secure Shelf to Front of Cabinet]
+image::../media/secure_shelf.png["Secure Shelf to Front of Cabinet"] 
 
 . Secure the enclosure to the back of the rails by inserting two M5 screws through the brackets at the enclosure and the rail kit bracket.
 . If applicable, replace the shelf end caps or the system bezel.
 +
-image::../media/install_endcaps.png[Replace Shelf Endcaps]
+image::../media/install_endcaps.png["Replace Shelf Endcaps"] 

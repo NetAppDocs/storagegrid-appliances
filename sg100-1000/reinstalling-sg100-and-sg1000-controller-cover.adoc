@@ -1,0 +1,57 @@
+---
+permalink: sg100-1000/reinstalling-sg100-and-sg1000-controller-cover.html
+sidebar: sidebar
+keywords: storagegrid, sg100, sg1000, cover, install, installing, installation, reinstall, reinstalling, reinstallation, remove, removing, removal
+summary: 'Remove the appliance cover to access internal components for maintenance, and replace the cover when you are finished.'
+---
+= Replace SG100 or SG1000 appliance cover
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Remove the appliance cover to access internal components for maintenance, and replace the cover when you are finished.
+
+== Remove SG100 or SG1000 appliance cover
+
+Remove the appliance cover to access internal components for maintenance.
+
+.Before you begin
+
+Remove the appliance from the cabinet or rack to access the top cover.
+
+link:reinstalling-sg100-and-sg1000-into-cabinet-or-rack.html[Remove SG100 or SG1000 appliance from cabinet or rack]
+
+.Steps
+
+. Make sure that the appliance cover latch is not locked. If necessary, turn the blue plastic latch lock one-quarter turn in the unlock direction, as shown on the latch lock.
+. Rotate the latch up and back toward the rear of the appliance chassis until it stops; then, carefully lift the cover from the chassis and set it aside.
++
+image::../media/sg6060_cover_latch_open.jpg["Cover latch open"] 
++
+CAUTION: Wrap the strap end of an ESD wristband around your wrist and secure the clip end to a metal ground to prevent static discharge when working inside the appliance.
+
+include::../_include/fru-statement.adoc[]
+
+== Reinstall SG100 or SG1000 appliance cover
+
+Reinstall the appliance cover when internal hardware maintenance is complete.
+
+.Before you begin
+
+You have completed all maintenance procedures inside the appliance.
+
+.Steps
+
+. With the cover latch open, hold the cover above the chassis and align the hole in the top cover latch with the pin in the chassis. When the cover is aligned, lower it onto the chassis.
++
+image::../media/sg6060_cover_latch_alignment_pin.jpg["Cover latch alignment pin"] 
+
+. Rotate the cover latch forward and down until it stops and the cover fully seats into the chassis. Verify that there are no gaps along the front edge of the cover.
++
+If the cover is not fully seated, you might not be able to slide the appliance into the rack.
+
+. Optional: Turn the blue plastic latch lock one-quarter turn in the lock direction, as shown on the latch lock, to lock it.
+
+.After you finish
+
+link:reinstalling-sg100-and-sg1000-into-cabinet-or-rack.html[Reinstall the appliance in the cabinet or rack.]

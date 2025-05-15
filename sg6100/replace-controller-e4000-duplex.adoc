@@ -126,12 +126,12 @@ Remove the battery from the impaired controller and install it in the replacemen
 .. Slide the battery up until it clears the holding brackets, and then lift the battery out of the controller canister.
 .. Unplug the battery plug by squeezing the clip on the face of the battery plug to release the plug from the socket, and then unplug the battery cable from the socket.
 +
-image::../media/drw_E4000_replace_nvbattery_IEOPS-862.png[Remove NVMEM battery.]
+image::../media/drw_E4000_replace_nvbattery_IEOPS-862.png["Remove NVMEM battery."] 
 +
 |===
-a|image::../media/legend_icon_01.png[] |Battery release tab
+a|image::../media/legend_icon_01.png["Callout reference 1"]  |Battery release tab
 a|
-image::../media/legend_icon_02.png[]
+image::../media/legend_icon_02.png["Callout reference 2"] 
 |Battery power connector
 |===
 . Move the battery to the replacement controller canister and install it:
@@ -159,12 +159,12 @@ The DIMM will rotate up a little.
 +
 NOTE: Carefully hold the DIMM by the edges to avoid pressure on the components on the DIMM circuit board.
 +
-image::../media/drw_E4000_replace_dimms_IEOPS-865.png[Remove DIMMS.]
+image::../media/drw_E4000_replace_dimms_IEOPS-865.png["Remove DIMMS."] 
 +
 |===
-a|image::../media/legend_icon_01.png[] |DIMM ejector tabs
+a|image::../media/legend_icon_01.png["Callout reference 1"]  |DIMM ejector tabs
 a|
-image::../media/legend_icon_02.png[]
+image::../media/legend_icon_02.png["Callout reference 2"] 
 |DIMMS
 |===
 . Verify that the battery is not plugged into the replacement controller canister.
@@ -234,9 +234,9 @@ NOTE: If you cannot resolve the problem, contact technical support.
 +
 The file is saved in the Downloads folder for your browser with the name, *support-data.7z*.
 
-. If you placed the appliance in maintenance mode during this procedure, exit maintenace mode and wait for the node to reboot and rejoin the grid. This process can take up to 20 minutes. Then, in the Grid Manager, verify that the Nodes page displays a normal status (green check mark icon image:../media/icon_alert_green_checkmark.png[green check mark] to the left of the node name) for the appliance node, indicating that no alerts are active and the node is connected to the grid.
+. If you placed the appliance in maintenance mode during this procedure, exit maintenace mode and wait for the node to reboot and rejoin the grid. This process can take up to 20 minutes. Then, in the Grid Manager, verify that the Nodes page displays a normal status (green check mark icon image:../media/icon_alert_green_checkmark.png["green check mark"]  to the left of the node name) for the appliance node, indicating that no alerts are active and the node is connected to the grid.
 +
-image::../media/nodes_menu.png[Appliance node rejoined grid]
+image::../media/nodes_menu.png["Appliance node rejoined grid"] 
 
 .What's next?
 Your controller replacement is complete. You can resume normal operations.

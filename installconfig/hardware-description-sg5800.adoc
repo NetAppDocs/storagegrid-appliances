@@ -74,13 +74,13 @@ The maximum raw storage available in the StorageGRID appliance is fixed, based o
 
 The figures show the front and back of the SG5812, a 2U enclosure that holds 12 drives.
 
-image::../media/sg5812_front_and_back_views.png[The front and back of the SG5812 appliance]
+image::../media/sg5812_front_and_back_views.png["The front and back of the SG5812 appliance"] 
 
 === SG5812 components
 
 The SG5812 includes two controllers and two power-fan canisters.
 
-image::../media/sg5812_with_callouts.png[Controllers and power-fan canisters in the SG5812 appliance]
+image::../media/sg5812_with_callouts.png["Controllers and power-fan canisters in the SG5812 appliance"] 
 
 [cols="1a,3a" options="header"]
 |===
@@ -103,13 +103,13 @@ Power-fan canisters
 === SG5860 front and rear views
 The figures show the front and back of the SG5860 model, a 4U enclosure that holds 60 drives in 5 drive drawers.
 
-image::../media/sg5860_front_and_back_views.png[Front and back of the SG5860 appliance]
+image::../media/sg5860_front_and_back_views.png["Front and back of the SG5860 appliance"] 
 
 === SG5860 components
 
 The SG5860 includes two controllers, two fan canisters, and two power canisters.
 
-image::../media/sg5860_with_callouts.png[Controllers, fan canisters, and power canisters in SG5860 appliance]
+image::../media/sg5860_with_callouts.png["Controllers, fan canisters, and power canisters in SG5860 appliance"] 
 
 [cols="1a,2a" options="header"]
 |===
@@ -150,7 +150,7 @@ NOTE: StorageGRID software is not preinstalled on the appliance. This software i
 
 ==== SG5800 connectors
 
-image::../media/sg5800_controller_with_callouts.png[Connectors on SG5800 controller]
+image::../media/sg5800_controller_with_callouts.png["Connectors on SG5800 controller"] 
 
 [cols="1a,2a,2a,2a" options="header"]
 |===
@@ -202,7 +202,7 @@ The E4000 series storage controller has the following specifications:
 
 ==== E4000 connectors
 
-image::../media/e4000_controller_with_callouts.png[Connectors on E4000 controller]
+image::../media/e4000_controller_with_callouts.png["Connectors on E4000 controller"] 
 
 
 [cols="1a,2a,2a,2a" options="header"]
@@ -244,4 +244,4 @@ Port Options:
 
 .Related information
 
-http://mysupport.netapp.com/info/web/ECMP1658252.html[NetApp E-Series Systems Documentation Site^]
+https://docs.netapp.com/us-en/e-series-family/index.html[NetApp E-Series documentation^]

@@ -44,7 +44,7 @@ Completing the procedure for one or two expansion shelves should take one hour o
 +
 This drawing shows two expansion shelves. If you have only one, connect IOM A to controller A and connect IOM B to controller B.
 +
-image::../media/expansion_shelves_connections_sg6060.png[SG6060 Expansion Shelf Connections]
+image::../media/expansion_shelves_connections_sg6060.png["SG6060 Expansion Shelf Connections"] 
 +
 [cols="1a,2a" options="header"]
 |===
@@ -103,7 +103,7 @@ NOTE: Expansion shelves that are already deployed aren't included in this messag
 
   *** The message will not appear if new expansion shelves aren't detected.
 +
-image::../media/appl_installer_home_expansion_shelf_ready_to_install.png[Expansion Shelf Installation]
+image::../media/appl_installer_home_expansion_shelf_ready_to_install.png["Expansion Shelf Installation"] 
 
 . As necessary, resolve any issues described in the messages on the Home page.
 +
@@ -118,7 +118,7 @@ NOTE: If the new expansion shelves have not been detected, verify that they are 
 +
 Progress bars appear on the web page, just as they do during initial installation.
 +
-image::../media/monitor_expansion_for_new_appliance_shelf.png[Monitor Expansion Shelf Configuration]
+image::../media/monitor_expansion_for_new_appliance_shelf.png["Monitor Expansion Shelf Configuration"] 
 +
 When configuration is complete, the appliance automatically reboots to exit maintenance mode and rejoin the grid. This process can take up to 20 minutes.
 +
@@ -126,12 +126,12 @@ NOTE: To retry the expansion shelf configuration if it fails, go to the StorageG
 +
 When the reboot is complete, the *Tasks* tab looks like the following screenshot:
 +
-image::../media/appliance_installer_reboot_complete.png[Reboot Complete]
+image::../media/appliance_installer_reboot_complete.png["Reboot Complete"] 
 
 . Verify the status of the appliance Storage Node and the new expansion shelves.
  .. In the Grid Manager, select *NODES* and verify that the appliance Storage Node has a green check mark icon.
 +
-The green check mark icon means that no alerts are active and the node is connected to the grid. For a description of node icons, see https://docs.netapp.com/us-en/storagegrid-118/monitor/monitoring-system-health.html#monitor-node-connection-states[Monitor node connection states^].
+The green check mark icon means that no alerts are active and the node is connected to the grid. For a description of node icons, see https://docs.netapp.com/us-en/storagegrid/monitor/monitoring-system-health.html#monitor-node-connection-states[Monitor node connection states^].
 
  .. Select the *Storage* tab and confirm that 16 new object stores are shown in the Object Storage table for each expansion shelf you added.
  .. Verify that each new expansion shelf has a shelf status of Nominal and a configuration status of Configured.

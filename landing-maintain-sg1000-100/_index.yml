@@ -1,8 +1,12 @@
 indexpage:
-   tiles:
+  title: Maintain SG1000 and SG100 services appliance hardware
+  lead: "Maintain the hardware for your SG1000 and SG100 services appliance."
+  summary: "Maintain the hardware for your SG1000 and SG100 services appliance."
+  keywords: maintain storagegrid sg100, maintain storagegrid sg1000
+  tiles:
     - title: Frequently performed procedures
       links:
-        - title: Turn location LED on or off
+        - title: Turn identify LED on or off
           url: "../sg100-1000/turning-controller-identify-led-on-and-off.html"
         - title: Locate appliance in data center
           url: "../sg100-1000/locating-controller-in-data-center.html"
@@ -14,12 +18,18 @@ indexpage:
       links:
         - title: Replace appliance
           url: "../sg100-1000/replacing-services-appliance.html"
+        - title: Relocate SG100 or SG1000 in a rack
+          url: "../sg100-1000/reinstalling-sg100-and-sg1000-into-cabinet-or-rack.html"
     - title: Hardware procedures
       links:
+        - title: Replace cover
+          url: "../sg100-1000/reinstalling-sg100-and-sg1000-controller-cover.html"
         - title: Replace power supply
           url: "../sg100-1000/replacing-one-or-more-power-supplies-in-services-appliance.html"
         - title: Replace fan
           url: "../sg100-1000/replacing-fan-in-services-appliance.html"
         - title: Replace drive
           url: "../sg100-1000/replacing-drive-in-services-appliance.html"
+        - title: Replace CMOS battery
+          url: "../sg100-1000/replace-cmos-in-sg100-and-sg1000.html"
           

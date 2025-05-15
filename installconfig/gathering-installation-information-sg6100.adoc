@@ -121,11 +121,11 @@ The Admin Network for StorageGRID is an optional network, used for system admini
 
 RJ-45 ports on the SGF6112 appliance:
 
-image::../media/sg6100_rj_45_ports_circled.png[SGF6112 RJ-45 ports]
+image::../media/sg6100_rj_45_ports_circled.png["SGF6112 RJ-45 ports"] 
 
 RJ-45 ports on the SG6100-CN controller:
 
-image::../media/sg6100_cn_rj_45_ports_circled.png[SG6100-CN RJ-45 ports]
+image::../media/sg6100_cn_rj_45_ports_circled.png["SG6100-CN RJ-45 ports"] 
 
 [cols="2a,1a" options="header"]
 |===
@@ -185,6 +185,7 @@ The four networking ports on the appliance connect to the StorageGRID Grid Netwo
 * Auto (default)
 * 10 GbE
 * 25 GbE
+* 40GbE with the optional 100G NIC SKU (SG6160 only)
 * 100 GbE (SG6160 only)
 
 | Port bond mode
@@ -306,11 +307,11 @@ The following figures show the BMC management port on the SGF6112 and SG6100-CN.
 
 _SGF6112_
 
-image::../media/sgf6112_cn_bmc_management_port.png[SGF6112 management port]
+image::../media/sgf6112_cn_bmc_management_port.png["SGF6112 management port"] 
 
 _SG6100-CN_
 
-image::../media/sg6100_cn_bmc_management_port.png[SG6100-CN management port]
+image::../media/sg6100_cn_bmc_management_port.png["SG6100-CN management port"] 
 
 [cols="2a,1a" options="header"]
 |===
@@ -347,11 +348,11 @@ Fixed port bond mode is the default configuration for the networking ports.
 
 _SGF6112:_
 
-image::../media/sgf6112_fixed_port.png[SGF6112 Fixed Port Bond Mode]
+image::../media/sgf6112_fixed_port.png["SGF6112 Fixed Port Bond Mode"] 
 
 _SG6100-CN:_
 
-image::../media/sg6100_cn_fixed_port.png[SG6100-CN Fixed Port Bond Mode]
+image::../media/sg6100_cn_fixed_port.png["SG6100-CN Fixed Port Bond Mode"] 
 
 [cols="1a,3a" options="header"]
 |===
@@ -378,11 +379,11 @@ Aggregate port bond mode significantly increases the throughput for each Storage
 
 _SGF6112:_
 
-image::../media/sgf6112_aggregate_ports.png[SGF6112 aggregate port bond mode]
+image::../media/sgf6112_aggregate_ports.png["SGF6112 aggregate port bond mode"] 
 
 _SG6100-CN:_
 
-image::../media/sg6100_cn_aggregate_ports.png[SG6100-CN aggregate port bond mode]
+image::../media/sg6100_cn_aggregate_ports.png["SG6100-CN aggregate port bond mode"] 
 
 [cols="1a,3a" options="header"]
 |===
@@ -409,11 +410,11 @@ For the two 1/10-GbE management ports, you can choose Independent network bond m
 
 _SGF6112:_
 
-image::../media/sgf6112_bonded_management_ports.png[SGF6112 Network Management Ports]
+image::../media/sgf6112_bonded_management_ports.png["SGF6112 Network Management Ports"] 
 
 _SG6100-CN:_
 
-image::../media/sg6100_cn_bonded_management_ports.png[SG6100-CN Network Management Ports]
+image::../media/sg6100_cn_bonded_management_ports.png["SG6100-CN Network Management Ports"] 
 
 [cols="1a,3a" options="header"]
 |===
@@ -439,3 +440,5 @@ NOTE: If you need to make a temporary local connection to the appliance when the
 * link:cabling-appliance.html[Cable appliance]
 
 * link:setting-ip-configuration.html[Configure StorageGRID IP addresses]
+
+// 2024 JUL 16, SGRIDDOC-75

@@ -50,7 +50,7 @@ Configuring your appliance using an uploaded JSON file is often more efficient t
 ** `configure-storagegrid.py`: Configure other components of the entire StorageGRID system (the "grid"). See link:automating-configuration-of-storagegrid.html[Automate StorageGRID configuration].
 
 +
-NOTE: You can use StorageGRID automation Python scripts directly, or you can use them as examples of how to use the StorageGRID Installation REST API in grid deployment and configuration tools you develop yourself. See the instructions for https://docs.netapp.com/us-en/storagegrid-118/maintain/downloading-and-extracting-storagegrid-installation-files.html[downloading and extracting the StorageGRID installation files^].
+NOTE: You can use StorageGRID automation Python scripts directly, or you can use them as examples of how to use the StorageGRID Installation REST API in grid deployment and configuration tools you develop yourself. See the instructions for https://docs.netapp.com/us-en/storagegrid/maintain/downloading-and-extracting-storagegrid-installation-files.html[downloading and extracting the StorageGRID installation files^].
 
 [[automate-with-appliance-installer]]
 == Automate appliance configuration using StorageGRID Appliance Installer
@@ -62,7 +62,7 @@ After you have generated a JSON file, you can automate the configuration of one 
 *	The appliance has been installed in a rack, connected to your networks, and powered on.
 * You have <<automation-options,generated the JSON file>> with the guidance of your NetApp Professional Services consultant.
 * Your appliance contains the latest firmware compatible with StorageGRID 11.5 or higher.
-* You are connected to the StorageGRID Appliance Installer on the appliance you are configuring using a https://docs.netapp.com/us-en/storagegrid-118/admin/web-browser-requirements.html[supported web browser^].
+* You are connected to the StorageGRID Appliance Installer on the appliance you are configuring using a https://docs.netapp.com/us-en/storagegrid/admin/web-browser-requirements.html[supported web browser^].
 
 .Steps
 
@@ -74,7 +74,7 @@ The file is uploaded and validated. When the validation process is complete, the
 +
 NOTE: You might lose connection to the appliance if the configuration from the JSON file includes sections for `link_config`, `networks`, or both. If you aren't reconnected within 1 minute, re-enter the appliance URL using one of the other IP addresses assigned to the appliance.
 +
-image::../media/update_appliance_configuration_valid_json.png[Update appliance configuration JSON uploaded]
+image::../media/update_appliance_configuration_valid_json.png["Update appliance configuration JSON uploaded"] 
 +
 The *Node name* drop down is populated with the top-level node names defined in the JSON file.
 +

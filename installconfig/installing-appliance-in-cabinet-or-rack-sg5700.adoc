@@ -13,7 +13,7 @@ You install a set of rails in your cabinet or rack and then slide the appliance 
 
 .Before you begin
 
-* You have reviewed the Safety Notices document included in the box, and understand the precautions for moving and installing hardware.
+* You have reviewed the https://library.netapp.com/ecm/ecm_download_file/ECMP12475945[Safety Notices^] document included in the box, and understand the precautions for moving and installing hardware.
 * You have the instructions packaged with the rail kit.
 
 
@@ -78,7 +78,7 @@ You must install all 60 drives to ensure correct operation.
  .. Release the levers on the top drive drawer, and slide the drawer out using the levers.
  .. Raise the drive handle to vertical, and align the buttons on the drive with the notches on the drawer.
 +
-image::../media/appliance_drive_insertion.gif[Install drive in 60-drive appliance]
+image::../media/appliance_drive_insertion.gif["Install drive in 60-drive appliance"] 
 
  .. Pressing gently on the top of the drive, rotate the drive handle down until the drive snaps into place.
  .. After installing the first 12 drives, slide the drawer back in by pushing on the center and closing both levers gently.

@@ -1,13 +1,17 @@
 indexpage:
-   tiles:
+  title: Get started with StorageGRID appliances
+  lead: "Learn about the storage or services appliance in your StorageGRID system."
+  summary: "Learn about the storage or services appliance in your StorageGRID system."
+  keywords: learn storagegrid appliances
+  tiles:
     - title: Get started
       links: 
         - title: What's new for appliances
           url: "../whats-new-appliances.html"
         - title: Learn about StorageGRID
-          url: https://docs.netapp.com/us-en/storagegrid-118/primer/index.html
+          url: https://docs.netapp.com/us-en/storagegrid/primer/index.html
         - title: StorageGRID quick start
-          url: "https://docs.netapp.com/us-en/storagegrid-118/primer/quick-start.html"
+          url: "https://docs.netapp.com/us-en/storagegrid/primer/quick-start.html"
         - title: Quick start for appliance installation
           url: ../installconfig/index.html
     - title: Learn about storage appliances

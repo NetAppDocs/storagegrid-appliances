@@ -2,8 +2,8 @@
 .Before you begin
 
 * If you did not obtain the SANtricity OS version you want to upgrade to from https://mysupport.netapp.com/site/products/all/details/storagegrid-appliance/downloads-tab[NetApp Downloads: StorageGRID Appliance^], you have consulted https://mysupport.netapp.com/site/products/all/details/storagegrid-appliance/downloads-tab[NetApp Downloads: StorageGRID Appliance^] or the https://imt.netapp.com/matrix/#welcome[NetApp Interoperability Matrix Tool (IMT)^] to confirm that the SANtricity OS version you are using for the upgrade is compatible with your appliance.
-* You have the https://docs.netapp.com/us-en/storagegrid-118/admin/admin-group-permissions.html[Maintenance or Root access permission^].
-* You are signed in to the Grid Manager using a https://docs.netapp.com/us-en/storagegrid-118/admin/web-browser-requirements.html[supported web browser^].
+* You have the https://docs.netapp.com/us-en/storagegrid/admin/admin-group-permissions.html[Maintenance or Root access permission^].
+* You are signed in to the Grid Manager using a https://docs.netapp.com/us-en/storagegrid/admin/web-browser-requirements.html[supported web browser^].
 * You have the provisioning passphrase.
 
 .About this task
@@ -16,7 +16,7 @@ CAUTION: The following steps are only applicable when you are using the Grid Man
 
 NOTE: This procedure will automatically upgrade the NVSRAM to the most recent version associated with the SANtricity OS upgrade. You don't need to apply a separate NVSRAM upgrade file.
 
-NOTE: Be sure to apply the latest StorageGRID hotfix before you begin this procedure. See https://docs.netapp.com/us-en/storagegrid-118/maintain/storagegrid-hotfix-procedure.html[StorageGRID hotfix procedure^] for details. 
+NOTE: Be sure to apply the latest StorageGRID hotfix before you begin this procedure. See https://docs.netapp.com/us-en/storagegrid/maintain/storagegrid-hotfix-procedure.html[StorageGRID hotfix procedure^] for details. 
 
 .Steps
 
@@ -26,7 +26,7 @@ Be sure to choose the SANtricity OS version for your storage controllers.
 
 . Select *MAINTENANCE* > *System* > *Software update*.
 +
-image::../media/software_update_landing.png[Software Update Landing Page]
+image::../media/software_update_landing.png["Software Update Landing Page"] 
 
 . In the SANtricity OS update section, select *Update*.
 +
@@ -65,7 +65,7 @@ NOTE: If any errors are reported, resolve them and select *Start* again.
 +
 NOTE: The table shows all appliance Storage Nodes. Software-based Storage Nodes aren't displayed. Select *Approve* for all nodes that require the upgrade.
 +
-image::../media/santricity_upgrade_progress_table.png[screenshot showing the SANtricity OS Upgrade Progress part of the SANtricity OS Upgrade page]
+image::../media/santricity_upgrade_progress_table.png["screenshot showing the SANtricity OS Upgrade Progress part of the SANtricity OS Upgrade page"] 
 
 . Optionally, sort the list of nodes in ascending or descending order by:
 

@@ -2,14 +2,14 @@
 permalink: sg6100/turning-sgf6112-identify-led-on-and-off.html
 sidebar: sidebar
 keywords: sgf6112, locate, find, locating, finding, identify, blue led, blue light
-summary: 'The blue identify LED on the front of the appliance can be turned on to help locate the appliance in a data center.'
+summary: 'The blue identify LED on the front and rear of the appliance can be turned on to help locate the appliance in a data center.'
 ---
 = Turn SGF6112 appliance or SG6100-CN controller identify LED on and off
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-The blue identify LED on the front and back of the appliance can be turned on to help locate the appliance in a data center.
+The blue identify LED on the front and rear of the appliance can be turned on to help locate the appliance in a data center.
 
 include::../_include/2023-turn-identify-led-on-off.adoc[]
 

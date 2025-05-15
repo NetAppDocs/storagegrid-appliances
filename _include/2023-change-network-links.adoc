@@ -3,7 +3,7 @@
 
 .Before you begin
 
-* You have link:../commonhardware/placing-appliance-into-maintenance-mode.html[placed the appliance into maintenance mode]. 
+You have link:../commonhardware/placing-appliance-into-maintenance-mode.html[placed the appliance into maintenance mode]. 
 
 NOTE: In rare instances, placing a StorageGRID appliance into maintenance mode might make the appliance unavailable for remote access.
 
@@ -16,7 +16,7 @@ NOTE: In rare instances, placing a StorageGRID appliance into maintenance mode m
 For more information about the options, see link:../installconfig/configuring-network-links.html[Configure network links].
 +
 NOTE: IP configuration changes made while the appliance is in maintenance mode are not applied to the installed StorageGRID environment. Run the 
-https://docs.netapp.com/us-en/storagegrid-118/maintain/changing-nodes-network-configuration.html[`change-ip` command] after rebooting the appliance into StorageGRID.
+https://docs.netapp.com/us-en/storagegrid/maintain/changing-nodes-network-configuration.html[`change-ip` command] after rebooting the appliance into StorageGRID.
 
 . When you are satisfied with your selections, click *Save*.
 +
@@ -35,8 +35,8 @@ In addition to any other tests you choose to perform, confirm that you can ping 
  ** Select *Reboot into StorageGRID* to reboot the compute controller with the node rejoining the grid. Select this option if you are done working in maintenance mode and are ready to return the node to normal operation.
  ** Select *Reboot into Maintenance Mode* to reboot the compute controller with the node remaining in maintenance mode. (This option is available only when the controller is in maintenance mode.) Select this option if there are additional maintenance operations you need to perform on the node before it rejoins the grid.
 +
-image::../media/reboot_controller_from_maintenance_mode.png[Reboot controller in maintenance mode]
+image::../media/reboot_controller_from_maintenance_mode.png["Reboot controller in maintenance mode"] 
 +
-It can take up to 20 minutes for the appliance to reboot and rejoin the grid. To confirm that the reboot is complete and that the node has rejoined the grid, go back to the Grid Manager. The Nodes page should display a normal status (green check mark icon image:../media/icon_alert_green_checkmark.png[green check mark] to the left of the node name) for the appliance node, indicating that no alerts are active and the node is connected to the grid.
+It can take up to 20 minutes for the appliance to reboot and rejoin the grid. To confirm that the reboot is complete and that the node has rejoined the grid, go back to the Grid Manager. The Nodes page should display a normal status (green check mark icon image:../media/icon_alert_green_checkmark.png["green check mark"]  to the left of the node name) for the appliance node, indicating that no alerts are active and the node is connected to the grid.
 +
-image::../media/nodes_menu.png[Appliance node rejoined grid]
+image::../media/nodes_menu.png["Appliance node rejoined grid"] 

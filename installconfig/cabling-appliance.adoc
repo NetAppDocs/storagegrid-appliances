@@ -35,11 +35,11 @@ The following figures show the ports on the back of the appliance.
 
 SG100 port connections:
 
-image::../media/sg100_connections.png[SG100 rear connectors]
+image::../media/sg100_connections.png["SG100 rear connectors"] 
 
 SG1000 port connections:
 
-image::../media/sg1000_connections.png[SG1000 port connections]
+image::../media/sg1000_connections.png["SG1000 port connections"] 
 
 [cols="1a,2a,2a,3a" options="header"]
 |===
@@ -157,11 +157,11 @@ The following figures show the ports on the back of the appliance.
 
 SG110 port connections:
 
-image::../media/sgf6112_connections.png[SG110 rear connectors]
+image::../media/sgf6112_connections.png["SG110 rear connectors"] 
 
 SG1100 port connections:
 
-image::../media/sg1100_connections.png[SG1000 port connections]
+image::../media/sg1100_connections.png["SG1000 port connections"] 
 
 [cols="1a,2a,2a,3a" options="header"]
 |===
@@ -282,11 +282,11 @@ The figures show the two controllers in the SG5760 and SG5760X, with the E2800 s
 
 SG5760 connections:
 
-image::../media/sg5760_connections.gif[Connections on the SG5760 appliance]
+image::../media/sg5760_connections.gif["Connections on the SG5760 appliance"] 
 
 SG5760X connections:
 
-image::../media/sg5760X_connections.png[Connections on the SG5760X appliance]
+image::../media/sg5760X_connections.png["Connections on the SG5760X appliance"] 
 
 [cols="1a,2a,2a,2a" options="header"]
 |===
@@ -433,7 +433,7 @@ The figures show the two controllers in the SG5860, with the E4000 series storag
 
 SG5860 connections:
 
-image::../media/sg5860_connections.png[Connections on the SG5860 appliance]
+image::../media/sg5860_connections.png["Connections on the SG5860 appliance"] 
 
 
 [cols="1a,2a,2a,2a" options="header"]
@@ -557,24 +557,24 @@ CAUTION: Don't use an E2800A and E2800B controller in the same appliance.
 
 SG6060 connections:
 
-image::../media/sg6000_e2800_connections.png[SG6060 to E2800A Connections]
+image::../media/sg6000_e2800_connections.png["SG6060 to E2800A Connections"] 
 
 SG6060X connections:
 
 * Version 1
 +
-image::../media/sg6000x_e2800B_connections.png[SG6060 to E2800B Connections]
+image::../media/sg6000x_e2800B_connections.png["SG6060 to E2800B Connections"] 
 * Version 2
 +
 NOTE: If the FC transceivers in the E2800B controller are installed in the upper FC connection ports (6), move them to the lower-right FC connection ports (7).
 +
-image::../media/sg6000x_e2800B2_connections.png[SG6060 to E2800B Connections]
+image::../media/sg6000x_e2800B2_connections.png["SG6060 to E2800B Connections"] 
 
 The following figure shows the three controllers in the SGF6024 appliance, with the SG6000-CN compute controller on the top and the two EF570 storage controllers side by side below the compute controller.
 
 SGF6024 connections:
 
-image::../media/sg6000_ef570_connections.png[SG6000 to SGF570 Connections]
+image::../media/sg6000_ef570_connections.png["SG6000 to SGF570 Connections"] 
 
 [cols="1a,2a,2a,3a" options="header"]
 |===
@@ -697,11 +697,11 @@ The following figures show the ports on the back of the SGF6112 and the three co
 
 SGF6112 connections:
 
-image::../media/sgf6112_connections.png[SGF6112 rear connectors]
+image::../media/sgf6112_connections.png["SGF6112 rear connectors"] 
 
 SG6160 connections:
 
-image::../media/sg6100_e4000_connections.png[SG6100-CN to E4000 Connections]
+image::../media/sg6100_e4000_connections.png["SG6100-CN to E4000 Connections"] 
 
 [cols="1a,2a,2a,3a" options="header"]
 |===
@@ -713,10 +713,9 @@ image::../media/sg6100_e4000_connections.png[SG6100-CN to E4000 Connections]
 |Connects to the network where you access the BMC interface.
 
 |2
-|
-Four 10/25-GbE network ports on the appliance
-
-| 
+|Four network ports on the SG6100-CN controller
+|* Four 10/25-GbE network ports on the appliance 
+* Four 10/25/40/100-GbE network ports with optional 100G NIC SKU (SG6160 only)
 |Connect to the Grid Network and the Client Network for StorageGRID. See link:gathering-installation-information-sg6100.html#port-bond-modes[Port bond modes (SG6100)]
 
 |3
@@ -797,6 +796,10 @@ Although this connection is optional, it is recommended to facilitate support.
 
 . If you plan to use the Admin Network for StorageGRID, connect the Admin Network port on the appliance to the Admin Network, using an Ethernet cable.
 
+. If your appliance includes an expansion shelf, see the link:../sg6100/adding-expansion-shelf-to-deployed-sg6160.html[instructions for adding an expansion shelf to a deployed SG6160] for cabling information.
 --
 
 ====
+
+// 2025 JAN 8, storagegrid-appliance-issue-23
+// 2024 JUL 16, SGRIDDOC-75

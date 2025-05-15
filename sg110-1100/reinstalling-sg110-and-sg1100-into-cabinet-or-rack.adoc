@@ -22,7 +22,7 @@ Remove the SG110 or SG1100 from a cabinet or rack to access the top cover or to 
 * You have labels to identify each cable that is connected to the SG110 or SG1100.
 * You have link:locating-sg110-and-sg1100-in-data-center.html[physically located the SG110 or SG1100] where you are performing maintenance in the data center.
 
-* You have link:power-sg110-and-sg1100-off-on.html#shut-down-the-appliance[shut down the SG110 or SG1100].
+* You have link:power-sg110-and-sg1100-off-on.html#shut-down-the-sg110-or-sg1100-appliance[shut down the SG110 or SG1100].
 +
 CAUTION: Don't shut down the appliance using the power switch.
 
@@ -36,7 +36,7 @@ IMPORTANT: To prevent degraded performance, don't twist, fold, pinch, or step on
 
 . Loosen the two captive screws on the appliance front panel.
 +
-image::../media/sg6060_rack_retaining_screws.png[SG110 or SG1100 rack retaining screws]
+image::../media/sg6060_rack_retaining_screws.png["SG110 or SG1100 rack retaining screws"] 
 
 . Slide the SG110 or SG1100 forward out of the rack until the mounting rails are fully extended and you hear the latches on both sides click.
 +
@@ -61,13 +61,13 @@ link:reinstalling-sg110-and-sg1100-cover.html[Reinstall SG110 or SG1100 cover]
 +
 When you can't move the controller any further, pull the blue latches on both sides of the chassis to slide the controller all the way in.
 +
-image::../media/sg6000_cn_rails_blue_button.gif[SG110 or SG1100 sliding on rails]
+image::../media/sg6000_cn_rails_blue_button.gif["SG110 or SG1100 sliding on rails"] 
 +
 NOTE: Don't attach the front bezel until after you power on the controller.
 
 . Tighten the captive screws on the controller front panel to secure the controller in the rack.
 +
-image::../media/sg6060_rack_retaining_screws.png[SG110 or SG1100 rack retaining screws]
+image::../media/sg6060_rack_retaining_screws.png["SG110 or SG1100 rack retaining screws"] 
 
 . Wrap the strap end of the ESD wristband around your wrist, and secure the clip end to a metal ground to prevent static discharge.
 . link:../installconfig/cabling-appliance.html[Reconnect the controller data cables and any SFP+ or SFP28 transceivers].
@@ -78,4 +78,4 @@ IMPORTANT: To prevent degraded performance, don't twist, fold, pinch, or step on
 
 .After you finish
 
-link:power-sg110-and-sg1100-off-on.html#power-on-sg110-or-sg1100-and-verify-operation.html[Restart the appliance].
+link:power-sg110-and-sg1100-off-on.html#power-on-sg110-or-sg1100-and-verify-operation[Restart the appliance].

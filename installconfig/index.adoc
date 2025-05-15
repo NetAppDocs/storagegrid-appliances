@@ -14,7 +14,7 @@ Follow these high-level steps to install and set up a StorageGRID appliance and 
 // Start snippet: Quick start headings as block titles
 // 1 placeholder per entry: Heading text here
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png[One] Prepare for installation
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["One"]  Prepare for installation
 
 [role="quick-margin-list"]
 . Work with your NetApp Professional Services consultant to automate installation and configuration. See link:automating-appliance-installation-and-configuration.html[Automate appliance installation and configuration].
@@ -23,10 +23,10 @@ This step is optional. However, streamlining and automating configuration steps 
 . link:preparing-site.html[Prepare site]
 . link:unpacking-boxes.html[Unpack boxes]
 . link:obtaining-additional-equipment-and-tools.html[Obtain additional equipment and tools]
-. https://docs.netapp.com/us-en/storagegrid-118/admin/web-browser-requirements.html[Review web browser requirements^]
+. https://docs.netapp.com/us-en/storagegrid/admin/web-browser-requirements.html[Review web browser requirements^]
 . link:reviewing-appliance-network-connections.html[Gather network information]
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png[Two] Install hardware
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["Two"]  Install hardware
 
 [role="quick-margin-list"]
 . link:registering-hardware.html[Register hardware]
@@ -46,7 +46,7 @@ This step is optional. However, streamlining and automating configuration steps 
 . link:viewing-status-indicators.html[View status indicators and codes]
 
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png[Three] Set up hardware
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["Three"]  Set up hardware
 
 [role="quick-margin-para"]
 If you are configuring and deploying more than one appliance, use the NetApp ConfigBuilder tool to automate the following configuration and deployment steps. For guidance, contact your NetApp Professional Services consultant. See link:automating-appliance-installation-and-configuration.html[Automate appliance installation and configuration]. 
@@ -69,7 +69,7 @@ If you are configuring and deploying more than one appliance, use the NetApp Con
 ** link:optional-changing-raid-mode.html[Change RAID mode (SG6160, SG6000, SG5860, and SG5760)]
 ** link:optional-remapping-network-ports-for-appliance.html[Remap network ports]
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png[Four] Deploy appliance node
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["Four"]  Deploy appliance node
 
 [role="quick-margin-para"]
 Deploy the appliance as a new node in your StorageGRID system. 

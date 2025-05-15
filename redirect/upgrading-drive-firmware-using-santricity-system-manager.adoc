@@ -1,0 +1,4 @@
+---
+permalink: sg5800/upgrading-drive-firmware-using-santricity-system-manager.html
+redirect: storagegrid-appliances/sg5800/upgrading-drive-firmware-using-santricity-system-manager-online.html
+---

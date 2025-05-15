@@ -11,7 +11,7 @@ summary: 'If you encounter issues during the installation, you might find it hel
 [.lead]
 If you encounter issues during the installation, you might find it helpful to review troubleshooting information related to hardware setup and connectivity issues.
 
-== View boot-up codes (SGF6112 and SG6160 only)
+== [[view-boot-codes]]View boot-up codes (SGF6112 and SG6160 only)
 
 When you apply power to the appliance, the BMC logs a series of boot-up codes. You can view these codes on a graphical console that is connected to the BMC management port.
 
@@ -70,8 +70,14 @@ NOTE: In some cases the default username might be 'root' instead of 'admin'.
 |===
 | Code| Indicates
 
+| HT
+| The master boot script is waiting for OS boot to complete.
+
 | HI
 | The master boot script has started.
+
+| PP
+| The system is checking to see if the FPGA needs to be updated.
 
 | HP
 | The system is checking to see if the network interface card (NIC) firmware needs to be updated.
@@ -104,18 +110,21 @@ The system is awaiting connectivity with the storage controllers and synchronizi
 | StorageGRID is running.
 |===
 
-== View error codes (SGF6112 and SG6160 only)
+== [[view-error-codes]]View error codes (SGF6112 and SG6160 only)
 
-If a hardware error occurs when the appliance is booting up, the BMC logs an error code. As required, you can view these error codes using the BMC interface, and then work with technical support to resolve the issue.
+If a hardware error occurs when the appliance is booting up, the BMC logs an error code. As required, you can view these error codes using the appliance serial port, and then work with technical support to resolve the issue.
 
 .Before you begin
 
-* You know how to link:accessing-bmc-interface.html[access the BMC dashboard].
+* Gather the required equipment:
+** USB cable
+** Virtual serial terminal
 
 .Steps
 
-. From the BMC dashboard, select *BIOS POST Code*.
-. Review the information displayed for Current Code and the Previous Code.
+. Connect to the serial USB port on the back of the appliance.
+. Use settings `115200 8-N-1`.
+. Review the information printed over the serial terminal for Current Code and the Previous Code.
 +
 If any of the following error codes are shown, work with technical support to resolve the issue.
 +
@@ -342,7 +351,7 @@ You can verify that the expansion shelves are connected to the appliance by view
 
 * The *Home* page contains a message about expansion shelves.
 +
-image::../media/expansion_shelf_home_page_msg.png[Expansion Shelves Msg]
+image::../media/expansion_shelf_home_page_msg.png["Expansion Shelves Msg"] 
 
 * The *Advanced* > *RAID Mode* page indicates by number of drives whether or not the appliance includes expansion shelves.
 

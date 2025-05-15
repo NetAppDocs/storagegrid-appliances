@@ -11,7 +11,7 @@ summary: 'You can use maintenance mode to upgrade SANtricity OS on the E4000 con
 [.lead]
 You can use maintenance mode to upgrade SANtricity OS on the E4000 controller.
 
-NOTE: For storage controllers currently using SANtricity OS newer than 08.42.20.00 (11.42), it is recommended to link:upgrading-santricity-os-on-storage-controllers-using-grid-manager-sg5800.html[use Grid Manager to apply an upgrade]. However, you may use the maintenance mode procedure if you prefer it or have been instructed to do so by technical support.
+NOTE: For storage controllers currently using SANtricity OS newer than 08.42.20.00 (11.42), it is recommended to link:upgrading-santricity-os-on-storage-controllers-using-grid-manager-sg6160.html[use Grid Manager to apply an upgrade]. However, you may use the maintenance mode procedure if you prefer it or have been instructed to do so by technical support.
  
 .Before you begin
 
@@ -47,12 +47,12 @@ NOTE: Activate the upgrade files immediately. Don't defer activation.
 +
 * Select *Reboot into Maintenance Mode* to reboot the controller with the node remaining in maintenance mode.  Select this option if you experienced any failures during the procedure and want to start over.  After the node finishes rebooting into maintenance mode, restart from the appropriate step in the procedure that failed.
 +
-image::../media/reboot_controller_from_maintenance_mode.png[Reboot controller in maintenance mode]
+image::../media/reboot_controller_from_maintenance_mode.png["Reboot controller in maintenance mode"] 
 +
-It can take up to 20 minutes for the appliance to reboot and rejoin the grid. To confirm that the reboot is complete and that the node has rejoined the grid, go back to the Grid Manager. The Nodes page should display a normal status (green check mark icon image:../media/icon_alert_green_checkmark.png[green check mark] to the left of the node name) for the appliance node, indicating that no alerts are active and the node is connected to the grid.
+It can take up to 20 minutes for the appliance to reboot and rejoin the grid. To confirm that the reboot is complete and that the node has rejoined the grid, go back to the Grid Manager. The Nodes page should display a normal status (green check mark icon image:../media/icon_alert_green_checkmark.png["green check mark"]  to the left of the node name) for the appliance node, indicating that no alerts are active and the node is connected to the grid.
 +
-image::../media/nodes_menu.png[Appliance node rejoined grid]
+image::../media/nodes_menu.png["Appliance node rejoined grid"] 
 
 .Related information
 
-link:upgrading-santricity-os-on-storage-controllers-using-grid-manager-sg5800.html[Upgrade SANtricity OS on storage controllers using Grid Manager]
+link:upgrading-santricity-os-on-storage-controllers-using-grid-manager-sg6160.html[Upgrade SANtricity OS on storage controllers using Grid Manager]

@@ -17,7 +17,7 @@ You have the BMC IP address of the controller you want to identify.
 
 .Steps
 
-. Access the appliance BMC interface.
+. link:../installconfig/accessing-bmc-interface.html[Access the appliance BMC interface].
 . Select *Server Identify*.
 +
 The current status of the identify LED is selected.
@@ -25,7 +25,7 @@ The current status of the identify LED is selected.
 +
 When you select *ON*, the blue identify LEDs light on the front (shown) and rear of the appliance.
 +
-image::../media/sg6060_front_panel_service_led_on.jpg[Front identify LED - on]
+image::../media/sg6060_front_panel_service_led_on.jpg["Front identify LED - on"] 
 +
 NOTE: If a bezel is installed on the controller, it might be difficult to see the front identify LED.
 +
@@ -33,6 +33,5 @@ NOTE: If a bezel is installed on the controller, it might be difficult to see th
 
 .Related information
 
-link:locating-controller-in-data-center.html[Locate controller in data center]
-
-link:../installconfig/accessing-bmc-interface.html[Access BMC interface]
+* link:locating-controller-in-data-center.html[Locate controller in data center]
+* link:../installconfig/accessing-bmc-interface.html[Access BMC interface]

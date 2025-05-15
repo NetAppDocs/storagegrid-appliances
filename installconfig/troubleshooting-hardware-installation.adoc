@@ -81,9 +81,17 @@ NOTE: In some cases the default username for an SG6000 appliance might be `root`
 |===
 | Code| Indicates
 a|
+HT
+a|
+The master boot script is waiting for OS boot to complete.
+a|
 HI
 a|
 The master boot script has started.
+a|
+PP
+a|
+The system is checking to see if the FPGA needs to be updated.
 a|
 HP
 a|
@@ -126,18 +134,44 @@ StorageGRID is running.
 [[error-codes]]
 == View error codes (SG6000-CN controller)
 
-If a hardware error occurs when the SG6000-CN controller is booting up, the BMC logs an error code. As required, you can view these error codes using the BMC interface, and then work with technical support to resolve the issue.
+If a hardware error occurs when the SG6000-CN controller is booting up, the BMC logs an error code. As required, you can view these error codes using the BMC interface or the appliance serial port, and then work with technical support to resolve the issue.
 
 .Before you begin
 
-* You know how to link:accessing-bmc-interface.html[access the BMC dashboard].
+NOTE: If your BMC does not have a BIOS POST Code menu item, access the error codes using the appliance serial port. 
+
+* If you are using the BMC, you know how to link:accessing-bmc-interface.html[access the BMC dashboard].
+* If you are using a serial port and terminal, gather the required equipment:
+** DB-9 serial cable
+** Virtual serial terminal
 
 .Steps
 
+. Access the error codes using one of the following methods.
++
+[role="tabbed-block"]
+====
+
+.BMC
+--
+If you are using the BMC, perform these steps:
+
+. link:accessing-bmc-interface.html[Access the BMC dashboard].
 . From the BMC dashboard, select *BIOS POST Code*.
 . Review the information displayed for Current Code and the Previous Code.
-+
-If any of the following error codes are shown, work with technical support to resolve the issue.
+--
+
+.Serial port
+--
+If you are using a serial port and terminal, perform these steps to view the error codes. BIOS POST codes display on the serial console when the appliance reboots.
+
+. Connect to the DB-9 serial port on the back of the appliance.
+. Use settings `115200 8-N-1`.
+. View the codes printed over the serial terminal.
+--
+====
+
+. If any of the following error codes are shown, work with technical support to resolve the issue.
 +
 [cols="1a,3a" options="header"]
 |===
@@ -453,11 +487,11 @@ You can verify that the expansion shelves are connected to the appliance by view
 
 * The *Home* page contains a message about expansion shelves.
 +
-image::../media/expansion_shelf_home_page_msg.png[Expansion Shelves Msg]
+image::../media/expansion_shelf_home_page_msg.png["Expansion Shelves Msg"] 
 
 * The *Advanced* > *RAID Mode* page indicates by number of drives whether or not the appliance includes expansion shelves. For example, in the following screen shot, two SSDs and 178 HDDs are shown. An SG6060 with two expansion shelves contains 180 total drives.
 
-image::../media/expansion_shelves_shown_by_num_of_drives.png[Number of Drives]
+image::../media/expansion_shelves_shown_by_num_of_drives.png["Number of Drives"] 
 
 If the StorageGRID Appliance Installer pages don't indicate that expansion shelves are present, follow this procedure.
 

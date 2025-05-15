@@ -16,7 +16,7 @@ You might need to replace the appliance if it is not functioning optimally or if
 
 .Before you begin
 
-* You have a replacement appliance with the same part number as the appliance you are replacing.
+* You have a replacement appliance with the same part number as the appliance you are replacing. Check the tags attached to the front of the appliances to confirm that the part numbers match.
 * You have labels to identify each cable that is connected to the appliance.
 * You have link:locating-sg110-and-sg1100-in-data-center.html[physically located the appliance].
 
@@ -36,7 +36,7 @@ NOTE: If you are replacing the appliance before installing StorageGRID software,
 +
 When you are logged in as root, the prompt changes from `$` to `#`.
 .. Enter: `*run-host-command ipmitool lan print*` to display the current BMC configurations for the appliance.
-. link:power-sg110-and-sg1100-off-on.html#shut-down-the-sgf6112-appliance[Shut down the appliance].
+. link:power-sg110-and-sg1100-off-on.html#shut-down-the-sg110-or-sg1100-appliance[Shut down the appliance].
 
 . If any of the network interfaces on this StorageGRID appliance are configured for DHCP, you need to update the permanent DHCP lease assignments on the DHCP servers to reference the MAC addresses of the replacement appliance. This ensures that the appliance is assigned the expected IP addresses. 
 +
@@ -52,7 +52,7 @@ IMPORTANT: To prevent degraded performance, don't twist, fold, pinch, or step on
 +
 The two drives are in the following positions in the chassis (front of chassis with bezel removed shown): 
 +
-image::../media/sg110-1100_ssds_locations.png[Fan locations]
+image::../media/sg110-1100_ssds_locations.png["Fan locations"] 
 +
 [options="header"]
 |===
@@ -76,7 +76,7 @@ CAUTION: If you wish to retain the data on the drives, be sure to insert the SSD
  
  . Power on the appliance. 
 
- . If the appliance you replaced had hardware drive encryption enabled for the SED drives, you must link:optional-enabling-node-encryption.html#access-an-encrypted-drive[enter the drive encryption passphrase] to access the encrypted drives when the replacement appliance starts for the first time.
+ . If the appliance you replaced had hardware drive encryption enabled for the SED drives, you must link:../installconfig/optional-enabling-node-encryption.html#access-an-encrypted-drive[enter the drive encryption passphrase] to access the encrypted drives when the replacement appliance starts for the first time.
 
  . Wait for the appliance to rejoin the grid. If the appliance does not rejoin the grid, follow the guidance on the StorageGRID Appliance Installer home page to address any issues.
 +
@@ -84,7 +84,7 @@ WARNING: To prevent data loss if the Appliance Installer indicates that physical
 
 . If the appliance you replaced used a key management server (KMS) to manage encryption keys for node encryption, additional configuration might be required before the node can join the grid. If the node does not automatically join the grid, make sure that these configuration settings have transferred to the new appliance and manually configure any settings that don't have the expected configuration:
 ** link:../installconfig/accessing-storagegrid-appliance-installer.html[Configure StorageGRID connections]  
-** https://docs.netapp.com/us-en/storagegrid-118/admin/kms-overview-of-kms-and-appliance-configuration.html#set-up-the-appliance[Configure node encryption for the appliance^]
+** https://docs.netapp.com/us-en/storagegrid/admin/kms-overview-of-kms-and-appliance-configuration.html#set-up-the-appliance[Configure node encryption for the appliance^]
 
 . Log in to the replaced appliance:
   .. Enter the following command: `ssh admin@_grid_node_IP_`
@@ -112,8 +112,7 @@ WARNING: To prevent data loss if the Appliance Installer indicates that physical
 
 .Related information
 
-link:../installconfig/viewing-status-indicators.html[View status indicators]
-
-link:../installconfig/troubleshooting-hardware-installation-sg110-and-sg1100.html#view-error-codes[View boot-up codes for appliance]
+* link:../installconfig/viewing-status-indicators.html[View status indicators]
+* link:../installconfig/troubleshooting-hardware-installation-sg110-and-sg1100.html#view-error-codes[View boot-up codes for appliance]
 
 include::../_include/fru-statement.adoc[] 
