@@ -54,8 +54,6 @@ The StorageGRID Appliance Installer Home page appears.
 CAUTION: After the appliance has been encrypted with a KMS key, the appliance disks can't be decrypted without using the same KMS key.
 
 . Select *Configure Hardware* > *Node Encryption*.
-+
-image::../media/kms_fde_enabled.png["KMS FDE enabled"] 
 
 . Select *Enable node encryption*.
 +

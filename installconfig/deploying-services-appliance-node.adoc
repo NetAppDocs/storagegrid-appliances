@@ -19,6 +19,8 @@ When you deploy a services appliance as a primary Admin Node, you use the Storag
 
 * The appliance has been installed in a rack or cabinet, connected to your networks, and powered on.
 * Network links, IP addresses, and port remapping (if necessary) have been configured for the appliance using the StorageGRID Appliance Installer.
++
+NOTE: Support for port remapping is deprecated and will be removed in a future release. To remove remapped ports, refer to https://docs.netapp.com/us-en/storagegrid/maintain/removing-port-remaps.html[Remove port remaps on StorageGRID appliances^].
 
 * You have a service laptop with a https://docs.netapp.com/us-en/storagegrid/admin/web-browser-requirements.html[supported web browser^].
 * You know one of the IP addresses assigned to the appliance. You can use the IP address for any attached StorageGRID network.
@@ -51,8 +53,6 @@ https://mysupport.netapp.com/site/products/all/details/storagegrid/downloads-tab
  .. Extract the archive.
  .. From the StorageGRID Appliance Installer, select *Advanced* > *Upload StorageGRID Software*.
  .. Click *Remove* to remove the current software package.
-+
-image::../media/appliance_installer_rmv_current_software.png["Appliance Installer - Remove Current Software"] 
  .. Click *Browse* for the software package you downloaded and extracted. Select the `storagegrid-webscale-images-_version_.deb` package.
  .. Select *Home* to return to the Home page.
 . Confirm that the current state is "`Ready to start installation of primary Admin Node name with software version x.y`" and that the *Start Installation* button is enabled.
@@ -60,8 +60,6 @@ image::../media/appliance_installer_rmv_current_software.png["Appliance Installe
 NOTE: If you are deploying the Admin Node appliance as a node cloning target, stop the deployment process here and continue the link:../commonhardware/appliance-node-cloning-procedure.html[node cloning procedure].
 
 . From the StorageGRID Appliance Installer home page, click *Start Installation*.
-+
-image::../media/appliance_installer_home_start_installation_enabled_primary_an.png["Appliance Primary Admin Node Installation"] 
 +
 The Current state changes to "`Installation is in progress,`" and the Monitor Installation page is displayed.
 +
@@ -76,6 +74,7 @@ When you deploy a services appliance as a Gateway Node or non-primary Admin Node
 * The appliance has been installed in a rack or cabinet, connected to your networks, and powered on.
 * Network links, IP addresses, and port remapping (if necessary) have been configured for the appliance using the StorageGRID Appliance Installer.
 +
+NOTE: Support for port remapping is deprecated and will be removed in a future release. To remove remapped ports, refer to https://docs.netapp.com/us-en/storagegrid/maintain/removing-port-remaps.html[Remove port remaps on StorageGRID appliances^].
 
 * The primary Admin Node for the StorageGRID system has been deployed.
 * All Grid Network subnets listed on the IP Configuration page of the StorageGRID Appliance Installer have been defined in the Grid Network Subnet List on the primary Admin Node.
@@ -143,8 +142,6 @@ https://mysupport.netapp.com/site/products/all/details/storagegrid/downloads-tab
  .. Extract the archive.
  .. From the StorageGRID Appliance Installer, select *Advanced* > *Upload StorageGRID Software*.
  .. Click *Remove* to remove the current software package.
-+
-image::../media/appliance_installer_rmv_current_software.png["Appliance Installer - Remove Current Software"] 
  .. Click *Browse* for the software package you downloaded and extracted. Select the `storagegrid-webscale-images-_version_.deb` package.
  .. Select *Home* to return to the Home page.
 . In the Installation section, confirm that the current state is "Ready to start installation of `_node name_` into grid with primary Admin Node `_admin_ip_` " and that the *Start Installation* button is enabled.
