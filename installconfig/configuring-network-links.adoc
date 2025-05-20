@@ -76,7 +76,7 @@ The table summarizes the options for configuring the four network ports. You onl
 +
 [cols="1a,2a,2a" options="header"]
 |===
-| Network bond mode| Client Network disabled (default)| Client Network enabled
+| Network bond mode| Client Network disabled| Client Network enabled (default)
 
 |Active-Backup (default)
 |
@@ -129,7 +129,7 @@ The table summarizes the options for configuring the four network ports. You onl
 +
 [cols="1a,2a,2a" options="header"]
 |===
-| Network bond mode| Client Network disabled (default)| Client Network enabled
+| Network bond mode| Client Network disabled| Client Network enabled (default)
 a|
 LACP (802.3ad) only
 a|
@@ -190,7 +190,7 @@ The table summarizes the options for configuring the four network ports. You onl
 +
 [cols="1a,2a,2a" options="header"]
 |===
-| Network bond mode| Client Network disabled (default)| Client Network enabled
+| Network bond mode| Client Network disabled| Client Network enabled (default)
 |Active-Backup (default)
 |
  ** Ports 2 and 4 use an active-backup bond for the Grid Network.
@@ -241,7 +241,7 @@ The table summarizes the options for configuring the network ports. You only nee
 +
 [cols="1a,2a,2a" options="header"]
 |===
-| Network bond mode| Client Network disabled (default)| Client Network enabled
+| Network bond mode| Client Network disabled| Client Network enabled (default)
 |LACP (802.3ad) only
 | ** Ports 1-4 use a single LACP bond for the Grid Network.
 ** A single VLAN tag identifies Grid Network packets.
@@ -293,7 +293,7 @@ The table summarizes the options for configuring the four 10/25-GbE ports. You o
 +
 [cols="1a,2a,2a" options="header"]
 |===
-| Network bond mode| Client Network disabled (default)| Client Network enabled
+| Network bond mode| Client Network disabled| Client Network enabled (default)
 a|
 Active-Backup (default)
 a|
@@ -344,7 +344,7 @@ The table summarizes the options for configuring the four 10/25-GbE ports. You o
 +
 [cols="1a,2a,2a" options="header"]
 |===
-| Network bond mode| Client Network disabled (default)| Client Network enabled
+| Network bond mode| Client Network disabled| Client Network enabled (default)
 a|
 LACP (802.3ad) only
 a|
@@ -396,7 +396,7 @@ The table summarizes the options for configuring the four 10/25-GbE ports. You o
 +
 [cols="1a,2a,2a" options="header"]
 |===
-| Network bond mode| Client Network disabled (default)| Client Network enabled
+| Network bond mode| Client Network disabled| Client Network enabled (default)
 a|
 Active-Backup (default)
 a|
@@ -447,7 +447,7 @@ The table summarizes the options for configuring the four 10/25-GbE ports. You o
 +
 [cols="1a,2a,2a" options="header"]
 |===
-| Network bond mode| Client Network disabled (default)| Client Network enabled
+| Network bond mode| Client Network disabled| Client Network enabled (default)
 a|
 LACP (802.3ad) only
 a|
@@ -491,7 +491,7 @@ The table summarizes the options for configuring the network ports. You only nee
 +
 [cols="1a,3a,3a" options="header"]
 |===
-| Network bond mode| Client Network disabled (default)| Client Network enabled
+| Network bond mode| Client Network disabled| Client Network enabled (default)
 
 |Active-Backup (default)
 |
@@ -535,7 +535,7 @@ The table summarizes the options for configuring the network ports. You only nee
 +
 [cols="1a,3a,3a" options="header"]
 |===
-| Network bond mode| Client Network disabled (default)| Client Network enabled
+| Network bond mode| Client Network disabled| Client Network enabled (default)
 |LACP (802.3ad) only
 |
  ** Ports 1-4 use a single LACP bond for the Grid Network.
@@ -586,7 +586,7 @@ The table summarizes the options for configuring the network ports. You only nee
 +
 [cols="1a,2a,2a" options="header"]
 |===
-| Network bond mode| Client Network disabled (default)| Client Network enabled
+| Network bond mode| Client Network disabled| Client Network enabled (default)
 |Active-Backup (default)
 |
  ** Ports 2 and 4 use an active-backup bond for the Grid Network.
@@ -637,7 +637,7 @@ The table summarizes the options for configuring the network ports. You only nee
 +
 [cols="1a,2a,2a" options="header"]
 |===
-| Network bond mode| Client Network disabled (default)| Client Network enabled
+| Network bond mode| Client Network disabled| Client Network enabled (default)
 |LACP (802.3ad) only
 | ** Ports 1-4 use a single LACP bond for the Grid Network.
 ** A single VLAN tag identifies Grid Network packets.
@@ -691,8 +691,7 @@ The Link Status table lists the link state, link speed, and other statistics of 
  ** *LACP PDU rate*  is set to *Fast*.
  ** *Network bond mode* is set to *Active-Backup* for the Grid Network.
  ** The *Admin Network* is enabled, and the network bond mode is set to *Independent*.
- ** The *Client Network* is disabled.
-  
+ ** The *Client Network* is enabled.
 //+
 //image::../media/sg1000_network_link_configuration_fixed.png["Network Link Configuration Fixed"] 
 //image::../media/network_link_configuration_fixed.png["Network Link Configuration Fixed"] 

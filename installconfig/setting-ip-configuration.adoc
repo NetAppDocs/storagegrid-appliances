@@ -57,7 +57,7 @@ If you lose your connection to the StorageGRID Appliance Installer, re-enter the
 +
 If you have grid subnets, the Grid Network gateway is required. All grid subnets specified must be reachable through this gateway. These Grid Network subnets must also be defined in the Grid Network Subnet List on the primary Admin Node when you start StorageGRID installation.
 +
-NOTE: The default route is not listed. If the Client Network is not enabled, the default route will use the Grid Network gateway.
+NOTE: If the Client Network is not enabled, the default route will use the Grid Network gateway.
 
   *** To add a subnet, click the insert icon image:../media/icon_plus_sign_black_on_white.gif["insert icon"]  to the right of the last entry.
   *** To remove an unused subnet, click the delete icon image:../media/icon_nms_delete_new.gif["delete icon"].
@@ -74,7 +74,7 @@ Your web browser is automatically redirected to the new IP address for the Stora
 +
 If you have grid subnets, the Grid Network gateway is required. All grid subnets specified must be reachable through this gateway. These Grid Network subnets must also be defined in the Grid Network Subnet List on the primary Admin Node when you start StorageGRID installation.
 +
-NOTE: The default route is not listed. If the Client Network is not enabled, the default route will use the Grid Network gateway.
+NOTE: If the Client Network is not enabled, the default route will use the Grid Network gateway.
 
   *** To add a subnet, click the insert icon image:../media/icon_plus_sign_black_on_white.gif["insert icon"]  to the right of the last entry.
   *** To remove an unused subnet, click the delete icon image:../media/icon_nms_delete_new.gif["delete icon"].
@@ -93,7 +93,7 @@ NOTE: To configure the Admin Network, you enable the Admin Network on the Link C
 . If you selected *Static*, follow these steps to configure the Admin Network:
  .. Enter the static IPv4 address, using CIDR notation, for Management Port 1 on the appliance.
 +
-Management Port 1 is the left of the two 1-GbE RJ45 ports on the right end of the appliance.
+See link:../installconfig/cabling-appliance.html[Cable appliance] for the Management Port 1 location on your appliance.
 
  .. Enter the gateway.
 +

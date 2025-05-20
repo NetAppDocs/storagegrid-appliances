@@ -32,9 +32,9 @@ You can test the connectivity between the appliance ports listed in the table an
 . From the *Network* drop-down, select the network you want to test: *Grid*, *Admin*, or *Client*.
 . Specify a range of IPv4 addresses for the hosts on that network.
 +
-For example, you might want to probe the gateway on the network or the primary Admin Node.
+For example, to probe the gateway on the network or the primary Admin Node, specify a range using a hyphen.
 +
-Specify a range using a hyphen, as shown in the example.
+In this example, to scan all IPs between 172.16.1.5 and 172.16.1.10, enter 172.16.1.5-10. Ranges are limited to the last two octets.
 
 . Enter a TCP port number, a list of ports separated by commas, or a range of ports.
 

@@ -126,7 +126,7 @@ a|
 
  .. Select the *Enable Admin Node discovery* checkbox.
  .. Wait for the list of discovered IP addresses to be displayed.
- .. Select the primary Admin Node for the grid where this appliance Storage Node will be deployed.
+ .. Select the primary Admin Node for the grid where this appliance Gateway or non-primary Admin Node will be deployed.
  .. Click *Save*.
  .. Wait for the connection state for the new IP address to become ready.
 
@@ -134,7 +134,8 @@ a|
 
 . In the *Node name* field, provide the system name you want to use for this appliance node, and click *Save*.
 +
-The name that appears here will be the appliance node's system name. System names are required for internal StorageGRID operations and can't be changed.
+The name that appears here will be the appliance node's system name. System names are required for internal StorageGRID operations and can't be changed. To change an appliance node's display name, see https://docs.netapp.com/us-en/storagegrid/maintain/rename-grid-site-node.html#how-to-rename-grid-sites-or-nodes[How to rename grid, sites, or nodes
+^].
 . Optionally, to install a different version of the StorageGRID software, follow these steps:
  .. Download the installation archive:
 +
