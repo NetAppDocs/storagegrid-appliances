@@ -39,19 +39,19 @@ The IP Configuration page appears.
 
 .Static
 --
- If you selected *Static*, follow these steps to configure the Grid Network:
- . Enter the static IPv4 address, using CIDR notation.
- . Enter the gateway.
+If you selected *Static*, follow these steps to configure the Grid Network:
+. Enter the static IPv4 address, using CIDR notation.
+. Enter the gateway.
 +
 If your network does not have a gateway, re-enter the same static IPv4 address.
 
- . If you want to use jumbo frames, change the MTU field to a value suitable for jumbo frames, such as 9000. Otherwise, keep the default value of 1500.
+. If you want to use jumbo frames, change the MTU field to a value suitable for jumbo frames, such as 9000. Otherwise, keep the default value of 1500.
 +
 CAUTION: The MTU value of the network must match the value configured on the switch port the node is connected to. Otherwise, network performance issues or packet loss might occur.
 +
 NOTE: For the best network performance, all nodes should be configured with similar MTU values on their Grid Network interfaces. The *Grid Network MTU mismatch* alert is triggered if there is a significant difference in MTU settings for the Grid Network on individual nodes. The MTU values don't have to be the same for all network types.
 
- . Click *Save*.
+. Click *Save*.
 +
 When you change the IP address, the gateway and list of subnets might also change.
 +
@@ -64,8 +64,8 @@ If you have grid subnets, the Grid Network gateway is required. All grid subnets
 +
 NOTE: If the Client Network is not enabled, the default route will use the Grid Network gateway.
 
-  *** To add a subnet, click the insert icon image:../media/icon_plus_sign_black_on_white.gif["insert icon"]  to the right of the last entry.
-  *** To remove an unused subnet, click the delete icon image:../media/icon_nms_delete_new.gif["delete icon"].
+*** To add a subnet, click the insert icon image:../media/icon_plus_sign_black_on_white.gif["insert icon"]  to the right of the last entry.
+*** To remove an unused subnet, click the delete icon image:../media/icon_nms_delete_new.gif["delete icon"].
 --
 
 .DHCP
@@ -83,8 +83,8 @@ If you have grid subnets, the Grid Network gateway is required. All grid subnets
 +
 NOTE: If the Client Network is not enabled, the default route will use the Grid Network gateway.
 
-  *** To add a subnet, click the insert icon image:../media/icon_plus_sign_black_on_white.gif["insert icon"]  to the right of the last entry.
-  *** To remove an unused subnet, click the delete icon image:../media/icon_nms_delete_new.gif["delete icon"].
+*** To add a subnet, click the insert icon image:../media/icon_plus_sign_black_on_white.gif["insert icon"]  to the right of the last entry.
+*** To remove an unused subnet, click the delete icon image:../media/icon_nms_delete_new.gif["delete icon"].
 
 . If you want to use jumbo frames, change the MTU field to a value suitable for jumbo frames, such as 9000. Otherwise, keep the default value of 1500.
 +
@@ -105,8 +105,8 @@ NOTE: To configure the Admin Network, you enable the Admin Network on the Link C
 
 .Static
 --
- If you selected *Static*, follow these steps to configure the Admin Network:
- . Enter the static IPv4 address, using CIDR notation, for Management Port 1 on the appliance.
+If you selected *Static*, follow these steps to configure the Admin Network:
+. Enter the static IPv4 address, using CIDR notation, for Management Port 1 on the appliance.
 +
 See link:../installconfig/cabling-appliance.html[Cable appliance] for the Management Port 1 location on your appliance.
 
@@ -130,9 +130,9 @@ If you lose your connection to the StorageGRID Appliance Installer, re-enter the
 You must verify that all subnets can be reached using the gateway you provided.
 +
 NOTE: The default route can't be made to use the Admin Network gateway.
-
-  *** To add a subnet, click the insert icon image:../media/icon_plus_sign_black_on_white.gif["insert icon"]  to the right of the last entry.
-  *** To remove an unused subnet, click the delete icon image:../media/icon_nms_delete_new.gif["delete icon"].
++
+*** To add a subnet, click the insert icon image:../media/icon_plus_sign_black_on_white.gif["insert icon"]  to the right of the last entry.
+*** To remove an unused subnet, click the delete icon image:../media/icon_nms_delete_new.gif["delete icon"].
 
 --
 
@@ -151,8 +151,8 @@ You must verify that all subnets can be reached using the gateway you provided.
 +
 NOTE: The default route can't be made to use the Admin Network gateway.
 
-  *** To add a subnet, click the insert icon image:../media/icon_plus_sign_black_on_white.gif["insert icon"]  to the right of the last entry.
-  *** To remove an unused subnet, click the delete icon image:../media/icon_nms_delete_new.gif["delete icon"].
+*** To add a subnet, click the insert icon image:../media/icon_plus_sign_black_on_white.gif["insert icon"]  to the right of the last entry.
+*** To remove an unused subnet, click the delete icon image:../media/icon_nms_delete_new.gif["delete icon"].
 
 . If you want to use jumbo frames, change the MTU field to a value suitable for jumbo frames, such as 9000. Otherwise, keep the default value of 1500.
 +
