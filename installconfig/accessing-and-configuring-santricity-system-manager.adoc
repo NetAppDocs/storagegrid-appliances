@@ -100,7 +100,7 @@ For the SG5700 and SG5800 storage appliances follow the high-level steps to http
 
 .SG6060
 --
-For the SG6060 storage appliance, drive security can be automatically enabled on the SSD drives only if key management was configured before to installing the Storage Appliance.
+For the SG6060 storage appliance, drive security can be automatically enabled on the SSD drives only if key management was configured before installing the Storage Appliance.
 
 . Equip your storage array with secure-capable drives (FDE drives or FIPS drives).
 +
