@@ -14,6 +14,9 @@ summary: "Learn what's new in this doc site."
 [.lead]
 Learn what's new for StorageGRID appliances.
 
+== Version numbers for StorageGRID software and Appliance Installer aligned
+With StorgeGRID version 12.0, the version number of the StorageGRID Appliance Installer matches the version of StorageGRID software. Users will no longer need to calculate the which versions are compatible. See link:./installconfig/verifying-and-upgrading-storagegrid-appliance-installer-version.html[Verify and upgrade StorageGRID Appliance Installer version].
+
 == BMC information
 Detailed information about using the StorageGRID appliance BMC interface is now available. See link:./commonhardware/use-bmc.html[Use the StorageGRID appliance baseboard management controller (BMC)].
 
