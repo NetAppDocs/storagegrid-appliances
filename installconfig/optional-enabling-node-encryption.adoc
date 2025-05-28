@@ -86,7 +86,7 @@ Encrypted SEDs automatically lock when the appliance is powered down or when the
 
 Drive encryption doesn't apply to SANtricity-managed drives. If you have a StorageGRID appliance with SEDs and SANtricity controllers, you can enable drive security in link:../installconfig/accessing-and-configuring-santricity-system-manager.html[SANtricity System Manager].
 
-You can enable drive encryption during initial appliance installation before loading Grid Manager. You can also enable node encryption or change your passphrase by placing the appliance in maintenance mode.
+You can enable drive encryption during initial appliance installation before loading Grid Manager. You can also enable drive encryption or change your passphrase by placing the appliance in maintenance mode.
 
 .Before you begin
 
@@ -102,13 +102,13 @@ CAUTION: Make sure that you store the drive-encryption passphrase in a secure lo
 
 . Access the StorageGRID Appliance Installer.
 +
-* During initial appliance installation, open a browser and enter one of the IP addresses for the appliance's compute controller.
+* link:../commonhardware/placing-appliance-into-maintenance-mode.html[Place the appliance into maintenance mode].
++
+* Open a browser and enter one of the IP addresses for the appliance's compute controller.
 +
 `*https://_Controller_IP_:8443*`
 +
 `_Controller_IP_` is the IP address of the compute controller (not the storage controller) on any of the three StorageGRID networks.
-
-* For an existing StorageGRID appliance, link:../commonhardware/placing-appliance-into-maintenance-mode.html[place the appliance into maintenance mode].
 
 . From the StorageGRID Appliance Installer Home page, select *Configure Hardware* > *Drive Encryption*.
 
@@ -142,13 +142,13 @@ You must enter the passphrase to access an encrypted drive after compute node re
 
 . Access the StorageGRID Appliance Installer.
 +
+* link:../commonhardware/placing-appliance-into-maintenance-mode.html[Place the appliance into maintenance mode].
++
 * Open a browser and enter one of the IP addresses for the appliance's compute controller.
 +
 `*https://_Controller_IP_:8443*`
 +
 `_Controller_IP_` is the IP address of the compute controller (not the storage controller) on any of the three StorageGRID networks.
-
-* link:../commonhardware/placing-appliance-into-maintenance-mode.html[Place the appliance into maintenance mode].
 
 . From the StorageGRID Appliance Installer, select the *Drive Encryption* link in the warning banner.
 
@@ -168,13 +168,13 @@ The warning banners will no longer display when the drives are unlocked.
 
 . Access the StorageGRID Appliance Installer.
 +
+* link:../commonhardware/placing-appliance-into-maintenance-mode.html[Place the appliance into maintenance mode].
++
 * Open a browser and enter one of the IP addresses for the appliance's compute controller.
 +
 `*https://_Controller_IP_:8443*`
 +
 `_Controller_IP_` is the IP address of the compute controller (not the storage controller) on any of the three StorageGRID networks.
-
-* link:../commonhardware/placing-appliance-into-maintenance-mode.html[Place the appliance into maintenance mode].
 
 . From the StorageGRID Appliance Installer, select *Configure Hardware* > *Drive Encryption*.
 
@@ -194,13 +194,13 @@ CAUTION: After setting a new passphrase the encrypted drives can't be decrypted 
 
 . Access the StorageGRID Appliance Installer.
 +
+* link:../commonhardware/placing-appliance-into-maintenance-mode.html[Place the appliance into maintenance mode].
++
 * Open a browser and enter one of the IP addresses for the appliance's compute controller.
 +
 `*https://_Controller_IP_:8443*`
 +
 `_Controller_IP_` is the IP address of the compute controller (not the storage controller) on any of the three StorageGRID networks.
-
-* link:../commonhardware/placing-appliance-into-maintenance-mode.html[Place the appliance into maintenance mode].
 
 . From the StorageGRID Appliance Installer, select *Configure Hardware* > *Drive Encryption*.
 

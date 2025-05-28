@@ -37,7 +37,7 @@ During this stage, the installer connects to the storage controller, clears any 
 During this stage, the installer copies the base operating system image for StorageGRID to the appliance.
 . Continue monitoring the installation progress until the *Install StorageGRID* stage pauses and a message appears on the embedded console, prompting you to approve this node on the Admin Node using the Grid Manager; then, go to the next step.
 
-. Go to the Grid Manager of the Primary Admin node, approve the pending storage node, and complete the StorageGRID installation process.
+. https://docs.netapp.com/us-en/storagegrid/admin/signing-in-to-grid-manager.html[Go to the Grid Manager^] of the Primary Admin node, approve the pending storage node, and complete the StorageGRID installation process.
 +
 When you click *Install* from the Grid Manager, Stage 3 completes and stage 4, *Finalize Installation*, begins. When stage 4 completes, the controller is rebooted.
 
@@ -47,7 +47,7 @@ Close the window after all installation stages are complete.
 
 .Services appliance
 --
-. To monitor the installation progress, click *Monitor Installation* from the menu bar.
+. To monitor the installation progress, click *Monitor Installation*.
 +
 The Monitor Installation page shows the installation progress.
 +
@@ -55,12 +55,13 @@ The blue status bar indicates which task is currently in progress. Green status 
 +
 NOTE: The installer ensures that tasks completed in a previous install aren't re-run. If you are re-running an installation, any tasks that don't need to be re-run are shown with a green status bar and a status of "`Skipped.`"
 
-. Review the progress of first two installation stages.
- ** *1. Configure storage*
+. Review the progress of the first two installation stages.
++
+*1. Configure storage*
 +
 During this stage, the installer clears any existing configuration from the drives in the appliance, and configures host settings.
-
- ** *2. Install OS*
++
+*2. Install OS*
 +
 During this stage, the installer copies the base operating system image for StorageGRID to the appliance.
 . Continue monitoring the installation progress until one of the following processes occurs:

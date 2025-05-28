@@ -30,11 +30,7 @@ The port connectivity table lists node types that require TCP connectivity on th
 You can test the connectivity between the appliance ports listed in the table and the other nodes in your Grid Network.
 
 . From the *Network* drop-down, select the network you want to test: *Grid*, *Admin*, or *Client*.
-. Specify a range of IPv4 addresses for the hosts on that network.
-+
-For example, you might want to probe the gateway on the network or the primary Admin Node.
-+
-Specify a range using a hyphen, as shown in the example.
+. Specify a space-separated list or a range of IPv4 addresses for the hosts on that network.
 
 . Enter a TCP port number, a list of ports separated by commas, or a range of ports.
 

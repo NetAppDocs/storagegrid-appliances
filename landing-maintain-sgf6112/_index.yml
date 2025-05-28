@@ -60,8 +60,6 @@ indexpage:
           url: "../sg6100/replace-dimms-e4000.html"
         - title: Replace batteries (SG6160)
           url: "../sg6100/replace-battery-e4000.html"
-        - title: Replace cover
-          url: "../sg6100/reinstalling-sgf6112-cover.html"
         - title: Replace CMOS battery
           url: "../sg6100/replace-cmos-in-sgf6112.html"
         - title: Add expansion shelf to deployed SG6160
