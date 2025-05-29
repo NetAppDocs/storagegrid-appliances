@@ -167,9 +167,11 @@ CAUTION: The MTU value of the network must match the value configured on the swi
 --
 ====
 
-. To configure the Client Network, select either *Static* or *DHCP* in the *Client Network* section of the page and then enter your network settings.
+. To configure the Client Network, select either *Static*, *DHCP*, or *None* in the *Client Network* section of the page and then enter your network settings.
 +
 NOTE: To configure the Client Network, make sure that the Client Network is enabled on the Link Configuration page.
++
+NOTE: You can select *None* only if VLAN tags are used for the Client Network.
 +
 [role="tabbed-block"]
 ====
@@ -210,6 +212,11 @@ NOTE: If the Client Network is enabled, the default route is displayed. The defa
 . If you want to use jumbo frames, change the MTU field to a value suitable for jumbo frames, such as 9000. Otherwise, keep the default value of 1500.
 +
 CAUTION: The MTU value of the network must match the value configured on the switch port the node is connected to. Otherwise, network performance issues or packet loss might occur.
+--
+
+.None
+--
+If VLAN tags are used for the Client Network, you can select *None* to enable the Client Network without specifying an IP address. The Client Network will then use the IP address already assigned to the VLAN, saving an IP address from your block for other use.
 --
 ====
 
