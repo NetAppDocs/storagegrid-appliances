@@ -14,6 +14,9 @@ summary: "Learn what's new in this doc site."
 [.lead]
 Learn what's new for StorageGRID appliances.
 
+== Client network can use VLAN IP address
+When specifying the Client Network IP address in the StorageGRID Appliance Installer, you can now use the VLAN IP address instead of specifying one from your IP address block. See link:.//installconfig/setting-ip-configuration.html[Configure StorageGRID IP addresses].
+
 == Version numbers for StorageGRID software and Appliance Installer aligned
 With StorgeGRID version 12.0, the version number of the StorageGRID Appliance Installer matches the version of StorageGRID software. Users will no longer need to calculate which versions are compatible. See link:./installconfig/verifying-and-upgrading-storagegrid-appliance-installer-version.html[Verify and upgrade StorageGRID Appliance Installer version].
 
