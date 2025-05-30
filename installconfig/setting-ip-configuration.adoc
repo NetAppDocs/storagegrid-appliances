@@ -9,7 +9,7 @@ summary: 'You use the StorageGRID Appliance Installer to configure the IP addres
 :imagesdir: ../media/
 
 [.lead]
-You use the StorageGRID Appliance Installer to configure the IP addresses and routing information used for the services appliance or appliance Storage Node on the StorageGRID Grid, Admin, and Client Networks.
+Use the StorageGRID Appliance Installer to configure IP addresses and routing for the services appliance or Storage Node on the Grid, Admin, and Client Networks.
 
 If you are using ConfigBuilder to generate a JSON file, you can configure IP addresses automatically. See link:automating-appliance-installation-and-configuration.html[Automate appliance installation and configuration].
 
@@ -17,7 +17,7 @@ If you are using ConfigBuilder to generate a JSON file, you can configure IP add
 
 You must either assign a static IP for the appliance on each connected network or assign a permanent lease for the address on the DHCP server.
 
-To change the link configuration, see the following instructions:
+To enable or disable a link or change the link configuration, see the following instructions:
 
 * link:../sg100-1000/changing-link-configuration-of-services-appliance.html[Change link configuration of the SG100 or SG1000 services appliance]
 * link:../sg110-1100/changing-link-configuration-of-sg110-and-sg1100-appliance.html[Change link configuration of the SG110 or SG1100 services appliance]
@@ -171,8 +171,6 @@ CAUTION: The MTU value of the network must match the value configured on the swi
 +
 NOTE: To configure the Client Network, make sure that the Client Network is enabled on the Link Configuration page.
 +
-NOTE: You can select *None* only if VLAN tags are used for the Client Network.
-+
 [role="tabbed-block"]
 ====
 
@@ -216,7 +214,7 @@ CAUTION: The MTU value of the network must match the value configured on the swi
 
 .None
 --
-If VLAN tags are used for the Client Network, you can select *None* to enable the Client Network without specifying an IP address. The Client Network will then use the IP address already assigned to the VLAN, saving an IP address from your block for other use.
+Select *None* to enable the Client Network without specifying an IP address. The Client Network only needs an IP address for direct access. Enabling the Client Network without an IP address lets you to configure the Client Network VLAN interfaces in StorageGRID.
 --
 ====
 
