@@ -14,8 +14,8 @@ summary: "Learn what's new in this doc site."
 [.lead]
 Learn what's new in StorageGRID appliances.
 
-== Client network can be configured without an IP address
-You can now enable the Client network without specifying an IP address. This allows the Client network to have VLAN interfaces configured in StorageGRID without requiring an extra IP address for the interface itself. Refer to link:.//installconfig/setting-ip-configuration.html[Configure StorageGRID IP addresses].
+== Client Network can be configured without an IP address
+You can now enable the Client Network without specifying an IP address. This allows the Client Network to have VLAN interfaces configured in StorageGRID without requiring an extra IP address for the interface itself. Refer to link:.//installconfig/setting-ip-configuration.html[Configure StorageGRID IP addresses].
 
 == Version numbers for StorageGRID software and Appliance Installer aligned
 With StorgeGRID version 12.0, the version number of the StorageGRID Appliance Installer matches the version of StorageGRID software. Users no longer need to figure out which versions work together. Refer to link:./installconfig/verifying-and-upgrading-storagegrid-appliance-installer-version.html[Verify and upgrade StorageGRID Appliance Installer version].
