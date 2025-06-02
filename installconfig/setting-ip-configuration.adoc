@@ -15,7 +15,7 @@ If you are using ConfigBuilder to generate a JSON file, you can configure IP add
 
 .About this task
 
-You must either assign a static IP for the appliance on each connected network or assign a permanent lease for the address on the DHCP server.
+You must either assign a static IP address for the appliance on each connected Grid or Admin Network or assign a permanent lease for the address on the DHCP server. Static IP address or DHCP configuration is optional for a connected Client Network.
 
 To enable or disable a link or change the link configuration, see the following instructions:
 
