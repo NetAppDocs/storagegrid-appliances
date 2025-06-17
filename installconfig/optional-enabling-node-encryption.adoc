@@ -24,6 +24,8 @@ If you enable node encryption, the disks in your appliance can be protected by s
 
 If you are using ConfigBuilder to generate a JSON file, you can enable node encryption automatically. See link:automating-appliance-installation-and-configuration.html[Automate appliance installation and configuration].
 
+Additionally, node encryption provides FIPS certified encryption of data at rest when you enable FIPS mode. Refer to https://review.docs.netapp.com/us-en/storagegrid_sgws35312-pc-16jun2025/admin/manage-tls-ssh-policy.html#select-a-security-policy[Select a security policy^] for more information.
+
 .Before you begin
 
 Review the information about https://docs.netapp.com/us-en/storagegrid/admin/kms-configuring.html[configuring KMS^].
@@ -37,7 +39,7 @@ A KMS can be set up in Grid Manager before or after the appliance is installed i
 * If a KMS is set up before installing the appliance, KMS-controlled encryption begins when you enable node encryption on the appliance and add it to a StorageGRID site where KMS is configured.
 * If a KMS is not set up before you install the appliance, KMS-controlled encryption is performed on each appliance that has node encryption enabled as soon as a KMS is configured and available for the site that contains the appliance node.
 
-CAUTION: When an appliance is installed with node encryption enabled, a temporary key is assigned. The data on the appliance is not protected until the appliance is connected to the Key Management System (KMS) and a KMS security key is set. See the https://docs.netapp.com/us-en/storagegrid/admin/kms-overview-of-kms-and-appliance-configuration.html[KMS appliance configuration overview^] for additional information.
+CAUTION: When an appliance is installed with node encryption enabled, a temporary key is assigned. The data on the appliance is not protected until the appliance is connected to the Key Management System (KMS) and a KMS security key is set. Refer to the https://docs.netapp.com/us-en/storagegrid/admin/kms-overview-of-kms-and-appliance-configuration.html[KMS appliance configuration overview^] for additional information.
 
 Without the KMS key needed to decrypt the disk, data on the appliance can't be retrieved and is effectively lost. This is the case whenever the decryption key can't be retrieved from the KMS. The key becomes inaccessible if a customer clears the KMS configuration, a KMS key expires, connection to the KMS is lost, or the appliance is removed from the StorageGRID system where its KMS keys are installed.
 
@@ -85,6 +87,8 @@ Drive encryption can be used for any SED SSD installed in an SG100, SG1000, SG11
 Encrypted SEDs automatically lock when the appliance is powered down or when the drive is removed from the appliance. An encrypted SED remains locked after power is restored to it until the correct passphrase is entered. To allow drives to be accessed without manually reentering the passphrase, the passphrase is stored on the StorageGRID appliance to unlock encrypted drives that remain in the appliance when the appliance restarts. Drives encrypted with an SED passphrase can be accessed by anyone who knows the passphrase. 
 
 Drive encryption doesn't apply to SANtricity-managed drives. If you have a StorageGRID appliance with SEDs and SANtricity controllers, you can enable drive security in link:../installconfig/accessing-and-configuring-santricity-system-manager.html[SANtricity System Manager].
+
+If you have a StorageGRID appliance with FIPS drives, enabling Drive Encryption provides FIPS certified encryption of data at rest.
 
 You can enable drive encryption during initial appliance installation before loading Grid Manager. You can also enable drive encryption or change your passphrase by placing the appliance in maintenance mode.
 
@@ -214,4 +218,5 @@ NOTE: The data erasure option is only avaliable from the StorageGRID Appliance I
 
 The drive contents are unencrypted or cryptographically erased, the encryption passphrase is erased, and the SEDs are now accessible without a passphrase.
 
+// 2025 JUN 17, SGWS-35312
 // 2023 SEP 8, SGRIDDOC-18
