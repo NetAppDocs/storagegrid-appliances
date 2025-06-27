@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storagegrid, sg5700, storage node, storage appliance, Replacing, replace, E5700sg, controller, remove, removing, removal, install, installing, installation
 summary: 'You might need to replace the E5700SG controller if it is not functioning optimally or if it has failed.'
 ---
-= Replace E5700SG compute controller
+= Replace StorageGRID E5700SG compute controller
 :icons: font
 :imagesdir: ../media/
 
@@ -16,13 +16,13 @@ You might need to replace the E5700SG controller if it is not functioning optima
 * You have a replacement controller with the same part number as the controller you are replacing.
 * You have downloaded the E-Series instructions for replacing a failed E5700 controller.
 +
-NOTE: Use the E-Series instructions for reference only if you need more details to perform a specific step. Don't rely on the E-Series instructions to replace a controller in the StorageGRID appliance, because the procedures aren't the same. For example, the E-Series instructions for the E5700 controller describe how to remove the battery and the host interface card (HIC) from a failed controller and install them in a replacement controller. These steps don't apply to the E5700SG controller.
+NOTE: Refer to the E-Series instructions only for additional details on specific steps. Do not use them to replace a controller in the StorageGRID appliance, as the procedures differ. For example, the E-Series instructions for the E5700 controller describe how to remove the battery and the host interface card (HIC) from a failed controller and install them in a replacement controller. These steps don't apply to the StorageGRID E5700SG controller.
 
 * You have labels to identify each cable that is connected to the controller.
 
 .About this task
 
-The appliance Storage Node will not be accessible when you replace the controller. If the E5700SG controller is functioning sufficiently, you can perform a controlled shutdown at the start of this procedure.
+You will not be able to access the appliance Storage Node when you replace the controller. If the E5700SG controller is functioning sufficiently, you can perform a controlled shutdown at the start of this procedure.
 
 NOTE: If you are replacing the controller before installing StorageGRID software, you might not be able to access the StorageGRID Appliance Installer immediately after completing this procedure. While you can access the StorageGRID Appliance Installer from other hosts on the same subnet as the appliance, you can't access it from hosts on other subnets. This condition should resolve itself within 15 minutes (when any ARP cache entries for the original controller time out), or you can clear the condition immediately by purging any old ARP cache entries manually from the local router or gateway.
 
@@ -47,7 +47,7 @@ CAUTION: You must ensure that the IP addresses for the original controller have 
  .. Put on an ESD wristband or take other antistatic precautions.
  .. Label the cables and then disconnect the cables and SFPs.
 +
-NOTE: To prevent degraded performance, don't twist, fold, pinch, or step on the cables.
+NOTE: To prevent degraded performance, do not twist, fold, pinch, or step on the cables.
 
  .. Release the controller from the appliance by squeezing the latch on the cam handle until it releases, and then open the cam handle to the right.
  .. Using two hands and the cam handle, slide the controller out of the appliance.

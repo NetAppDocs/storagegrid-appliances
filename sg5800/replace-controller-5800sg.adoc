@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: 
 summary: 
 ---
-= Replace SG5800 controller
+= Replace StorageGRID SG5800 controller
 :icons: font
 :imagesdir: ../media/
 
@@ -18,7 +18,7 @@ You might need to replace the SG5800 controller if it is not functioning optimal
 
 .About this task
 
-The appliance Storage Node will not be accessible when you replace the controller. If the SG5800 controller is functioning sufficiently, you can perform a controlled shutdown at the start of this procedure.
+You will not be able to access the appliance Storage Node when you replace the controller. If the SG5800 controller is functioning sufficiently, you can perform a controlled shutdown at the start of this procedure.
 
 NOTE: If you are replacing the controller before installing StorageGRID software, you might not be able to access the StorageGRID Appliance Installer immediately after completing this procedure. While you can access the StorageGRID Appliance Installer from other hosts on the same subnet as the appliance, you can’t access it from hosts on other subnets. This condition should resolve itself within 15 minutes (when any ARP cache entries for the original controller time out), or you can clear the condition immediately by purging any old ARP cache entries manually from the local router or gateway.
 
