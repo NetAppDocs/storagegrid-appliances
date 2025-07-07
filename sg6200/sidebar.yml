@@ -1,0 +1,91 @@
+section: sg6200
+title: Maintain sg6200 hardware
+url: "/landing-maintain-sg6200/index.html"
+entries:
+  - title: Overview
+    pdf-filename: sg6200 hardware maintenance
+    url: "/sg6200/index.html"
+
+  - title: Maintenance configuration procedures
+    pdf-filename: Maintenance configuration procedures - SG6200
+    entries:
+    - title: Upgrade SANtricity (SG6260)
+      entries:
+      - title: Upgrade SANtricity OS on storage controllers using Grid Manager
+        url: "/sg6200/upgrading-santricity-os-on-storage-controllers-using-grid-manager-sg6260.html" 
+      - title: Upgrade SANtricity OS on SG6260 controller using maintenance mode
+        url: "/sg6200/upgrading-santricity-os-on-storage-controllers-using-maintenance-mode-sg6260.html"     
+    - title: Upgrade drive firmware using SANtricity System Manager (sg6260)
+      entries:
+      - title: Upgrade sg6200 drive firmware using SANtricity System Manager online method
+        url: "/sg6200/upgrading-drive-firmware-using-santricity-system-manager-online.html"
+      - title: Upgrade sg6200 drive firmware using SANtricity System Manager offline method
+        url: "/sg6200/upgrading-drive-firmware-using-santricity-system-manager-offline.html"
+      - title: Troubleshoot drive firmware upgrade errors
+        url: "/sg6200/troubleshoot-upgrading-drive-firmware-using-santricity-system-manager.html" 
+    - title: Turn identify LED on and off
+      url: "/sg6200/turning-sg6200-identify-led-on-and-off.html"
+    - title: Locate appliance in data center
+      url: "/sg6200/locating-sg6200-in-data-center.html"
+    - title: Power the appliance off and on
+      url: "/sg6200/power-sg6200-off-on.html"      
+    - title: Change link configuration
+      url: "/sg6200/changing-link-configuration-of-sg6200-appliance.html"
+
+  - title: Hardware maintenance procedures
+    pdf-filename: Hardware maintenance procedures - sg6200
+    entries:
+    - title: Verify component to replace
+      url: "/sg6200/verify-component-to-replace.html"    
+    - title: Replace fan
+      entries:
+        - title: SGF6212 or SG6200-CN (SG6260)
+          url: "/sg6200/replacing-fan-in-sg6200.html"
+        - title: Storage controller shelf or expansion shelf (SG6260)
+          url: "/sg6200/replace-e4000-fan-canister.html"
+    - title: Replace power supply
+      entries:
+        - title: SGF6212 or SG6200-CN (SG6260)
+          url: "/sg6200/replacing-one-or-more-power-supplies-in-sg6200-appliance.html"
+        - title: Storage controller shelf or expansion shelf (SG6260)
+          url: "/sg6200/replace-e4000-power-canister.html"
+    - title: Replace drive
+      entries:
+      - title: SGF6212
+        url: "/sg6200/replacing-drive-in-sgf6212.html"
+      - title: SG6200-CN (SG6260)
+        url: "/sg6200/replace-drive-sg6200-cn.html"
+      - title: Storage controller shelf or expansion shelf (SG6260)
+        url: "/sg6200/replace-6160-drives-60.html"
+    - title: Replace NIC
+      entries:
+        - title: Internal NIC (SGF6212 and SG6260)
+          url: "/sg6200/replace-nic-in-sg6200.html"
+        - title: External NIC (SG6260)
+          url: "/sg6200/replace-ocp-nic-sg6200-cn.html"
+    - title: Replace CMOS battery
+      url: "/sg6200/replace-cmos-in-sg6200.html"  
+    - title: Replace DIMMs
+      url: "/sg6200/replace-dimms-e4000.html"
+    - title: Replace batteries
+      url: "/sg6200/replace-battery-e4000.html"
+    - title: Replace cover
+      url: "/sg6200/reinstalling-sg6200-cover.html" 
+    - title: Add expansion shelf to deployed SG6260
+      url: "/sg6200/adding-expansion-shelf-to-deployed-sg6260.html"   
+    - title: Replace appliance
+      entries:
+        - title: SGF6212
+          url: "/sg6200/replacing-sgf6212-appliance.html"
+        - title: SG6200-CN controller (SG6260)
+          url: "/sg6200/replacing-sg6200-cn-controller.html"
+        - title: E4000 controller (SG6260)
+          url: "/sg6200/replace-controller-e4000-duplex.html"
+    - title: Relocate in rack
+      url: "/sg6200/reinstalling-sg6200-into-cabinet-or-rack.html"
+
+
+
+
+
+      
