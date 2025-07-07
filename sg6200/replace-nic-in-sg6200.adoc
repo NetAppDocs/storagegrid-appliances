@@ -23,11 +23,11 @@ Use these procedures to:
 * You have the correct replacement NIC.
 * You have determined the link:verify-component-to-replace.html[location of the NIC to replace].
 
-* You have link:locating-sgf6212-in-data-center.html[physically located the SGF6212 appliance or SG6200-CN controller] where you are replacing the NIC in the data center.
+* You have link:locating-sg6200-in-data-center.html[physically located the SGF6212 appliance or SG6200-CN controller] where you are replacing the NIC in the data center.
 +
-NOTE: A link:power-sgf6212-off-on.html#shut-down-the-sgf6212-appliance-or-sg6200-cn-controller[controlled shutdown of the appliance] is required before removing the appliance from the rack.
+NOTE: A link:power-sg6200-off-on.html#shut-down-the-sgf6212-appliance-or-sg6200-cn-controller[controlled shutdown of the appliance] is required before removing the appliance from the rack.
 
-* You have disconnected all cables and link:reinstalling-sgf6212-cover.html[removed the appliance cover].
+* You have disconnected all cables and link:reinstalling-sg6200-cover.html[removed the appliance cover].
 
 .About this task
 To prevent service interruptions, confirm that all other Storage Nodes are connected to the grid before starting the Network Interface Card (NIC) replacement or replace the NIC during a scheduled maintenance window when periods of service disruption are acceptable. See the information about https://docs.netapp.com/us-en/storagegrid/monitor/monitoring-system-health.html#monitor-node-connection-states[monitoring node connection states^].

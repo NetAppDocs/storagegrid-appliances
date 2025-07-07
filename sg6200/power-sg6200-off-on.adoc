@@ -19,7 +19,7 @@ Shut down the appliance to perform hardware maintenance.
 
 .Before you begin
 
-You have link:locating-sgf6212-in-data-center.html[physically located the appliance].
+You have link:locating-sg6200-in-data-center.html[physically located the appliance].
 
 
 .About this task
@@ -54,9 +54,9 @@ Power on the controller after completing maintenance.
 
 .Before you begin
 
-* You have link:reinstalling-sgf6212-into-cabinet-or-rack.html[installed the controller in a cabinet or rack] and connected the data and power cables.
+* You have link:reinstalling-sg6200-into-cabinet-or-rack.html[installed the controller in a cabinet or rack] and connected the data and power cables.
 
-* You have link:locating-sgf6212-in-data-center.html[physically located the controller in the data center].
+* You have link:locating-sg6200-in-data-center.html[physically located the controller in the data center].
 
 .Steps
 

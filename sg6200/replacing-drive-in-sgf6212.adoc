@@ -17,7 +17,7 @@ The failure of a second drive before an initial drive failure has been corrected
 
 .Before you begin
 
-* You have link:locating-sgf6212-in-data-center.html[physically located the appliance].
+* You have link:locating-sg6200-in-data-center.html[physically located the appliance].
 
 * You have verified which drive has failed by noting that the drive's left LED is solid amber or using the Grid Manager to link:verify-component-to-replace.html[view the alert caused by the failed drive].
 

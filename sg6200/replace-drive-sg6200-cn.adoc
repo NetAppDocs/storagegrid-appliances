@@ -13,7 +13,7 @@ The SG6260 appliance contains two SSD drives in the SG6200-CN controller which f
 
 .Before you begin
 
-* You have link:locating-sgf6212-in-data-center.html[physically located the appliance].
+* You have link:locating-sg6200-in-data-center.html[physically located the appliance].
 * You have verified which drive has failed by noting that its left LED is solid amber or using Grid Manager to link:verify-component-to-replace.html[view the alert caused by the failed drive].
 * You have obtained the replacement drive.
 * You have obtained proper ESD protection.

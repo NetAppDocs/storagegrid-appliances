@@ -15,7 +15,7 @@ The SGF6212 appliance and SG6200-CN compute node have two power supplies for red
 
 .Before you begin
 
-* You have link:locating-sgf6212-in-data-center.html[physically located the appliance] with the power supply to be replaced.
+* You have link:locating-sg6200-in-data-center.html[physically located the appliance] with the power supply to be replaced.
 
 * You have link:verify-component-to-replace.html[determined the location of the power supply to replace].
 
@@ -39,7 +39,7 @@ image::../media/sgf6212_power_supplies.png["Back of SGF6212 or SG6200-CN with tw
 
 . If you are replacing only one power supply, you don't need to shut down the appliance. Go to the <<Unplug_the_power_cord,Unplug the power cord>> step. If you are replacing both power supplies at the same time, do the following before unplugging the power cords:
 
-.. link:power-sgf6212-off-on.html#shut-down-the-sgf6212-appliance-or-sg6200-cn-controller[Shut down the appliance].
+.. link:power-sg6200-off-on.html#shut-down-the-sgf6212-appliance-or-sg6200-cn-controller[Shut down the appliance].
 +
 CAUTION: If you have ever used an ILM rule that creates only one copy of an object and you are replacing both power supplies at the same time, you must replace the power supplies during a scheduled maintenance window because you might temporarily lose access to those objects during this procedure. See information about https://docs.netapp.com/us-en/storagegrid/ilm/why-you-should-not-use-single-copy-replication.html[why you should not use single-copy replication^].
 

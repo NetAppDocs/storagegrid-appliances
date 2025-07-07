@@ -15,4 +15,4 @@ include::../_include/2023-verify-component.adoc[]
 
 .Related information
 
-link:turning-sgf6212-identify-led-on-and-off.html[Turn on the appliance identify LED]
+link:turning-sg6200-identify-led-on-and-off.html[Turn on the appliance identify LED]

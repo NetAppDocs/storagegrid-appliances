@@ -15,4 +15,4 @@ include::../_include/2023-turn-identify-led-on-off.adoc[]
 
 .Related information
 
-link:locating-sgf6212-in-data-center.html[Locate appliance in data center]
+link:locating-sg6200-in-data-center.html[Locate appliance in data center]

@@ -15,10 +15,10 @@ Remove the appliance cover to access internal components for maintenance, and re
 
 .Before you begin
 
-link:reinstalling-sgf6212-into-cabinet-or-rack.html[Remove the appliance from the cabinet or rack] to access the top cover.
+link:reinstalling-sg6200-into-cabinet-or-rack.html[Remove the appliance from the cabinet or rack] to access the top cover.
 
 include::../_include/2023-replace-cover.adoc[]
 
 .After you finish
 
-link:reinstalling-sgf6212-into-cabinet-or-rack.html[Reinstall the appliance in the cabinet or rack].
+link:reinstalling-sg6200-into-cabinet-or-rack.html[Reinstall the appliance in the cabinet or rack].
