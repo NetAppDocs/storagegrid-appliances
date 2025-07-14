@@ -1,5 +1,5 @@
 ---
-permalink: sg120-1100/replace-cmos-in-sg120-and-sg1200.html
+permalink: sg120-1200/replace-cmos-in-sg120-and-sg1200.html
 sidebar: sidebar
 keywords: storagegrid, sg120, sg1200, admin node, admin appliance, replacing, replace, CMOS, battery
 summary: 'Use this procedure to replace the CMOS coin cell battery on the system board.'

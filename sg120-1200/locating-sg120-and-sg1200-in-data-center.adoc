@@ -1,5 +1,5 @@
 ---
-permalink: sg120-1100/locating-sg120-and-sg1200-in-data-center.html
+permalink: sg120-1200/locating-sg120-and-sg1200-in-data-center.html
 sidebar: sidebar
 keywords: storagegrid, sg120, sg1200, appliance, locate, find, locating, finding, identify, blue led, blue light
 summary: 'Locate the appliance so that you can perform hardware maintenance or upgrades.'

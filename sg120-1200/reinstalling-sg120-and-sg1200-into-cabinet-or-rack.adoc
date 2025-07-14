@@ -1,5 +1,5 @@
 ---
-permalink: sg120-1100/reinstalling-sg120-and-sg1200-into-cabinet-or-rack.html
+permalink: sg120-1200/reinstalling-sg120-and-sg1200-into-cabinet-or-rack.html
 sidebar: sidebar
 keywords: storagegrid, sg120, sg1200, admin node, admin appliance, install, installing, installation, cabinet, rack
 summary: 'Remove the SG120 or SG1200 from a cabinet or rack to access the top cover or to move the appliance to a different location, then reinstall the appliance into a cabinet or rack when hardware maintenance is complete.'

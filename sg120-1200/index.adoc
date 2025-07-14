@@ -1,5 +1,5 @@
 ---
-permalink: sg120-1100/index.html
+permalink: sg120-1200/index.html
 sidebar: sidebar
 keywords: storagegrid, sg120, sg1200, service appliance, services appliance, gateway Node, admin node, maintain, maintaining, hardware, procedures, tasks
 summary: 'You might need to perform maintenance procedures on the appliance. The procedures in this section assume that the appliance has already been deployed as a Gateway Node or an Admin Node in a StorageGRID system.'

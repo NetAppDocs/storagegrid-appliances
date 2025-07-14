@@ -1,5 +1,5 @@
 ---
-permalink: sg120-1100/replacing-one-or-more-power-supplies-in-sg120-and-sg1200-appliance.html
+permalink: sg120-1200/replacing-one-or-more-power-supplies-in-sg120-and-sg1200-appliance.html
 sidebar: sidebar
 keywords: storagegrid, sg120, sg1200, Replacing, replace, power supply, remove, removing, removal, install, installing, installation 
 summary: 'SG120 and SG1200 appliances have two power supplies for redundancy. If one of the power supplies fails, you must replace it as soon as possible to ensure that the appliance has redundant power. Both power supplies operating in the appliance must be of the same model and wattage.'

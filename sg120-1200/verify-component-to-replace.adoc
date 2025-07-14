@@ -1,5 +1,5 @@
 ---
-permalink: sg120-1100/verify-component-to-replace.html
+permalink: sg120-1200/verify-component-to-replace.html
 sidebar: sidebar
 keywords: sg120, sg1200
 summary: 'If you are unsure which hardware component to replace in your appliance, complete this procedure to identify the component and the location of the appliance in the data center.'

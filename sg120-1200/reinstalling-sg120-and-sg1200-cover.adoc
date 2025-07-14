@@ -1,5 +1,5 @@
 ---
-permalink: sg120-1100/reinstalling-sg120-and-sg1200-cover.html
+permalink: sg120-1200/reinstalling-sg120-and-sg1200-cover.html
 sidebar: sidebar
 keywords: storagegrid, sg120, sg1200, storage node, admin appliance, cover, install, installing, installation, reinstall, reinstalling, reinstallation
 summary: 'Remove the appliance cover to access internal components for maintenance, and replace the cover when you are finished.'

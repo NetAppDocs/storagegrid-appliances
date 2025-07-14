@@ -1,5 +1,5 @@
 ---
-permalink: sg120-1100/replacing-fan-in-sg120-and-sg1200.html
+permalink: sg120-1200/replacing-fan-in-sg120-and-sg1200.html
 sidebar: sidebar
 keywords: storagegrid, sg120, sg1200, admin appliance, replacing, replace, fan, remove, removing, removal, install, installing
 summary: 'The SG120 or SG1200 appliances have eight cooling fans. If one of the fans fails, you must replace it as soon as possible to ensure that the appliance has proper cooling.'

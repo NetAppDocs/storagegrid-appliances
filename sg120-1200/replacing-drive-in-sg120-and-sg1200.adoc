@@ -1,5 +1,5 @@
 ---
-permalink: sg120-1100/replacing-drive-in-sg120-and-sg1200.html
+permalink: sg120-1200/replacing-drive-in-sg120-and-sg1200.html
 sidebar: sidebar
 keywords: storagegrid, sg120, sg1200, Replacing, replace, drive, remove, removing, removal, install, installing, installation
 summary: 'The SG120 and SG1200 services appliances contains two SSD drives. The drives are mirrored using RAID1 for redundancy. If one of the drives fails, you must replace it as soon as possible to ensure redundancy.'
