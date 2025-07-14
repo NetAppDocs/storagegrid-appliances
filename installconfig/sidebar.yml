@@ -22,6 +22,8 @@ entries:
         url: "/installconfig/gathering-installation-information-sg100-and-sg1000.html"
       - title: SG110 and SG1100
         url: "/installconfig/gathering-installation-information-sg110-and-sg1100.html"
+      - title: SG120 and SG1200
+        url: "/installconfig/gathering-installation-information-sg120-and-sg1200.html"
       - title: SG5700
         url: "/installconfig/gathering-installation-information-sg5700.html"
       - title: SG5800
@@ -47,6 +49,8 @@ entries:
         url: "/installconfig/installing-appliance-in-cabinet-or-rack-sg100-and-sg1000.html"
       - title: SG110 and SG1100
         url: "/installconfig/installing-appliance-in-cabinet-or-rack-sg110-and-sg1100.html"
+      - title: SG120 and SG1200
+        url: "/installconfig/installing-appliance-in-cabinet-or-rack-sg120-and-sg1200.html"
       - title: SG5700
         url: "/installconfig/installing-appliance-in-cabinet-or-rack-sg5700.html"
       - title: SG5800
@@ -136,6 +140,8 @@ entries:
       url: "/installconfig/troubleshooting-hardware-installation-sg100-and-sg1000.html"
     - title: 'Troubleshoot installation (SG110 and SG1100)'
       url: "/installconfig/troubleshooting-hardware-installation-sg110-and-sg1100.html"
+    - title: 'Troubleshoot installation (SG120 and SG1200)'
+      url: "/installconfig/troubleshooting-hardware-installation-sg120-and-sg1200.html"
     - title: 'Troubleshoot installation (SG5700 or SG6000)'
       url: "/installconfig/troubleshooting-hardware-installation.html"
     - title: 'Troubleshoot installation (SG5800 or SG6100)'      
