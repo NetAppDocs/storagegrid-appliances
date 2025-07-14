@@ -1,0 +1,35 @@
+---
+permalink: sg120-1100/replace-nic-in-sg120-and-sg1200.html
+sidebar: sidebar
+keywords: storagegrid, sg120, sg1200, admin node, admin appliance, replacing, replace, NIC, network interface card
+summary: 'You might need to replace a Network Interface Card \(NIC\) in the SG120 or SG1200 if it is not functioning optimally or if it has failed.'
+---
+= Replace NIC in an SG120 or SG1200
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You might need to replace a Network Interface Card (NIC) in the SG120 or SG1200 if it is not functioning optimally or if it has failed.
+
+Use these procedures to: 
+
+* Remove the NIC
+* Reinstall the NIC
+
+== Remove the NIC
+
+.Before you begin
+
+* You have the correct replacement NIC.
+* You have determined the link:verify-component-to-replace.html[location of the NIC to replace].
+
+* You have link:locating-sg120-and-sg1200-in-data-center.html[physically located the SG120 or SG1200 appliance] where you are replacing the NIC in the data center.
++
+NOTE: A link:power-sg120-and-sg1200-off-on.html#shut-down-the-sg120-or-sg1200-appliance[controlled shutdown of the appliance] is required before removing the appliance from the rack.
+
+* You have disconnected all cables and link:reinstalling-sg120-and-sg1200-cover.html[removed the appliance cover].
+
+.About this task
+To prevent service interruptions, confirm that all other Storage Nodes are connected to the grid before starting the Network Interface Card (NIC) replacement or replace the NIC during a scheduled maintenance window when periods of service disruption are acceptable. See the information about https://docs.netapp.com/us-en/storagegrid/monitor/monitoring-system-health.html#monitor-node-connection-states[monitoring node connection states^].
+
+include::../_include/2023-replace-nic.adoc[]

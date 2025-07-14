@@ -49,6 +49,7 @@ sidebar:
           url: "/commonhardware/appliance-node-cloning-procedure.html"
       - section: sg100-1000
       - section: sg110-1100
+      - section: sg120-1200
       - section: sg5600
       - section: sg5700
       - section: sg5800

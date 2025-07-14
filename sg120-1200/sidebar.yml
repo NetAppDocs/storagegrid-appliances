@@ -1,0 +1,41 @@
+section: sg120-1100
+title: Maintain SG120 and SG1200 hardware
+url: "/landing-maintain-sg1200-110/index.html"
+entries:
+  - title: Overview
+    pdf-filename: SG120 and SG1200 hardware maintenance
+    url: "/sg120-1100/index.html"
+
+  - title: Maintenance configuration procedures
+    pdf-filename: Maintenance configuration procedures - SG120 and SG1200
+    entries:
+    - title: Turn identify LED on and off
+      url: "/sg120-1100/turning-sg120-and-sg1200-identify-led-on-and-off.html"
+    - title: Locate appliance in data center
+      url: "/sg120-1100/locating-sg120-and-sg1200-in-data-center.html"
+    - title: Power the appliance off and on
+      url: "/sg120-1100/power-sg120-and-sg1200-off-on.html"      
+    - title: Change link configuration
+      url: "/sg120-1100/changing-link-configuration-of-sg120-and-sg1200-appliance.html"
+
+  - title: Hardware maintenance procedures
+    pdf-filename: Hardware maintenance procedures - SG120 and SG1200
+    entries:
+    - title: Verify component to replace
+      url: "/sg120-1100/verify-component-to-replace.html"    
+    - title: Replace one or more power supplies 
+      url: "/sg120-1100/replacing-one-or-more-power-supplies-in-sg120-and-sg1200-appliance.html"
+    - title: Replace fan
+      url: "/sg120-1100/replacing-fan-in-sg120-and-sg1200.html"
+    - title: Replace drive
+      url: "/sg120-1100/replacing-drive-in-sg120-and-sg1200.html"
+    - title: Replace NIC
+      url: "/sg120-1100/replace-nic-in-sg120-and-sg1200.html"
+    - title: Replace CMOS battery
+      url: "/sg120-1100/replace-cmos-in-sg120-and-sg1200.html" 
+    - title: Replace cover
+      url: "/sg120-1100/reinstalling-sg120-and-sg1200-cover.html"    
+    - title: Replace appliance
+      url: "/sg120-1100/replacing-sg120-and-sg1200-appliance.html"
+    - title: Relocate appliance in rack
+      url: "/sg120-1100/reinstalling-sg120-and-sg1200-into-cabinet-or-rack.html" 
