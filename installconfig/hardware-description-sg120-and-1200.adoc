@@ -1,5 +1,5 @@
 ---
-permalink: installconfig/hardware-description-sg120-and-1100.html
+permalink: installconfig/hardware-description-sg120-and-1200.html
 sidebar: sidebar
 keywords: storagegrid, sg120, sg1200, service appliance, services appliance, gateway Node, admin node, overview, models, features, applications, how to use, services 
 summary: 'The StorageGRID SG120 services appliance and the SG1200 services appliance can operate as a Gateway Node and as an Admin Node to provide high availability load balancing services in a StorageGRID system. Both appliances can operate as Gateway Nodes and Admin Nodes \(primary or non-primary\) at the same time.'
