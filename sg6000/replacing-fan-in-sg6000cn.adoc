@@ -50,7 +50,7 @@ image::../media/fan_guide_pin.png["Fan Guide Pin"]
 image::../media/fan_connector_check.png["Fan Connector Check"] 
 
 . Put the top cover back on the appliance, and press the latch down to secure the cover in place.
-. link:power-sg6000-cn-controller-off-on.html#:#power=on=sg6000-cn-controller-and-verify-operation[Power on the SG6000-CN controller].
+. link:power-sg6000-cn-controller-off-on.html#power=on=sg6000-cn-controller-and-verify-operation[Power on the SG6000-CN controller].
 . Confirm that the appliance node appears in the Grid Manager and that no alerts appear.
 
 include::../_include/fru-statement.adoc[]
