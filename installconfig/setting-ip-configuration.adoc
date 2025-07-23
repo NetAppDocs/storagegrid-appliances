@@ -235,13 +235,3 @@ CAUTION: The MTU value of the network must match the value configured on the swi
 Select *None* to enable the Client Network without specifying an IP address. The Client Network only needs an IP address for direct access. Enabling the Client Network without an IP address lets you to configure the Client Network VLAN interfaces in StorageGRID.
 --
 ====
-
-
-
-
-
-
-
-
-
-
