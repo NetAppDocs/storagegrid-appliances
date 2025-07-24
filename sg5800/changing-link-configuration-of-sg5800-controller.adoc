@@ -1,5 +1,5 @@
 ---
-permalink: sg5800/changing-link-configuration-of-e5800sg-controller.html
+permalink: sg5800/changing-link-configuration-of-sg5800-controller.html
 sidebar: sidebar
 keywords: 
 summary: 
@@ -53,4 +53,3 @@ It can take up to 20 minutes for the appliance to reboot and rejoin the grid. To
 +
 .. In the Grid Manager, select *NODES*.
 .. Verify that the appliance node has a normal status (green check mark icon image:../media/icon_alert_green_checkmark.png["green check mark"] to the left of the node name), which indicates that no alerts are active and the node is connected to the grid. 
-
