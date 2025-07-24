@@ -24,6 +24,8 @@ If you enable node encryption, the disks in your appliance can be protected by s
 
 If you are using ConfigBuilder to generate a JSON file, you can enable node encryption automatically. See link:automating-appliance-installation-and-configuration.html[Automate appliance installation and configuration].
 
+Additionally, when you enable FIPS mode after enabling node encryption, the NetApp StorageGRID Kernel Crypto API 6.1.129-1-ntap1-amd64 module is used for encryption of data at rest. Refer to https://review.docs.netapp.com/us-en/storagegrid_storagegrid-120-dev/admin/manage-tls-ssh-policy.html#select-a-security-policy[Select a security policy^] for more information.
+
 .Before you begin
 
 Review the information about https://docs.netapp.com/us-en/storagegrid/admin/kms-configuring.html[configuring KMS^].
@@ -37,7 +39,7 @@ A KMS can be set up in Grid Manager before or after the appliance is installed i
 * If a KMS is set up before installing the appliance, KMS-controlled encryption begins when you enable node encryption on the appliance and add it to a StorageGRID site where KMS is configured.
 * If a KMS is not set up before you install the appliance, KMS-controlled encryption is performed on each appliance that has node encryption enabled as soon as a KMS is configured and available for the site that contains the appliance node.
 
-CAUTION: When an appliance is installed with node encryption enabled, a temporary key is assigned. The data on the appliance is not protected until the appliance is connected to the Key Management System (KMS) and a KMS security key is set. See the https://docs.netapp.com/us-en/storagegrid/admin/kms-overview-of-kms-and-appliance-configuration.html[KMS appliance configuration overview^] for additional information.
+CAUTION: When an appliance is installed with node encryption enabled, a temporary key is assigned. The data on the appliance is not protected until the appliance is connected to the Key Management System (KMS) and a KMS security key is set. Refer to the https://docs.netapp.com/us-en/storagegrid/admin/kms-overview-of-kms-and-appliance-configuration.html[KMS appliance configuration overview^] for additional information.
 
 Without the KMS key needed to decrypt the disk, data on the appliance can't be retrieved and is effectively lost. This is the case whenever the decryption key can't be retrieved from the KMS. The key becomes inaccessible if a customer clears the KMS configuration, a KMS key expires, connection to the KMS is lost, or the appliance is removed from the StorageGRID system where its KMS keys are installed.
 
@@ -54,8 +56,6 @@ The StorageGRID Appliance Installer Home page appears.
 CAUTION: After the appliance has been encrypted with a KMS key, the appliance disks can't be decrypted without using the same KMS key.
 
 . Select *Configure Hardware* > *Node Encryption*.
-+
-image::../media/kms_fde_enabled.png["KMS FDE enabled"] 
 
 . Select *Enable node encryption*.
 +
@@ -88,7 +88,9 @@ Encrypted SEDs automatically lock when the appliance is powered down or when the
 
 Drive encryption doesn't apply to SANtricity-managed drives. If you have a StorageGRID appliance with SEDs and SANtricity controllers, you can enable drive security in link:../installconfig/accessing-and-configuring-santricity-system-manager.html[SANtricity System Manager].
 
-You can enable drive encryption during initial appliance installation before loading Grid Manager. You can also enable node encryption or change your passphrase by placing the appliance in maintenance mode.
+When you enable Drive Encryption for a StorageGRID appliance with FIPS drives, the FIPS encryption provided by the FIPS drives is used for encryption of data at rest.
+
+You can enable drive encryption during initial appliance installation before loading Grid Manager. You can also enable drive encryption or change your passphrase by placing the appliance in maintenance mode.
 
 .Before you begin
 
@@ -104,13 +106,13 @@ CAUTION: Make sure that you store the drive-encryption passphrase in a secure lo
 
 . Access the StorageGRID Appliance Installer.
 +
-* During initial appliance installation, open a browser and enter one of the IP addresses for the appliance's compute controller.
+* link:../commonhardware/placing-appliance-into-maintenance-mode.html[Place the appliance into maintenance mode].
++
+* Open a browser and enter one of the IP addresses for the appliance's compute controller.
 +
 `*https://_Controller_IP_:8443*`
 +
 `_Controller_IP_` is the IP address of the compute controller (not the storage controller) on any of the three StorageGRID networks.
-
-* For an existing StorageGRID appliance, link:../commonhardware/placing-appliance-into-maintenance-mode.html[place the appliance into maintenance mode].
 
 . From the StorageGRID Appliance Installer Home page, select *Configure Hardware* > *Drive Encryption*.
 
@@ -144,13 +146,13 @@ You must enter the passphrase to access an encrypted drive after compute node re
 
 . Access the StorageGRID Appliance Installer.
 +
+* link:../commonhardware/placing-appliance-into-maintenance-mode.html[Place the appliance into maintenance mode].
++
 * Open a browser and enter one of the IP addresses for the appliance's compute controller.
 +
 `*https://_Controller_IP_:8443*`
 +
 `_Controller_IP_` is the IP address of the compute controller (not the storage controller) on any of the three StorageGRID networks.
-
-* link:../commonhardware/placing-appliance-into-maintenance-mode.html[Place the appliance into maintenance mode].
 
 . From the StorageGRID Appliance Installer, select the *Drive Encryption* link in the warning banner.
 
@@ -170,13 +172,13 @@ The warning banners will no longer display when the drives are unlocked.
 
 . Access the StorageGRID Appliance Installer.
 +
+* link:../commonhardware/placing-appliance-into-maintenance-mode.html[Place the appliance into maintenance mode].
++
 * Open a browser and enter one of the IP addresses for the appliance's compute controller.
 +
 `*https://_Controller_IP_:8443*`
 +
 `_Controller_IP_` is the IP address of the compute controller (not the storage controller) on any of the three StorageGRID networks.
-
-* link:../commonhardware/placing-appliance-into-maintenance-mode.html[Place the appliance into maintenance mode].
 
 . From the StorageGRID Appliance Installer, select *Configure Hardware* > *Drive Encryption*.
 
@@ -196,13 +198,13 @@ CAUTION: After setting a new passphrase the encrypted drives can't be decrypted 
 
 . Access the StorageGRID Appliance Installer.
 +
+* link:../commonhardware/placing-appliance-into-maintenance-mode.html[Place the appliance into maintenance mode].
++
 * Open a browser and enter one of the IP addresses for the appliance's compute controller.
 +
 `*https://_Controller_IP_:8443*`
 +
 `_Controller_IP_` is the IP address of the compute controller (not the storage controller) on any of the three StorageGRID networks.
-
-* link:../commonhardware/placing-appliance-into-maintenance-mode.html[Place the appliance into maintenance mode].
 
 . From the StorageGRID Appliance Installer, select *Configure Hardware* > *Drive Encryption*.
 
@@ -216,4 +218,5 @@ NOTE: The data erasure option is only avaliable from the StorageGRID Appliance I
 
 The drive contents are unencrypted or cryptographically erased, the encryption passphrase is erased, and the SEDs are now accessible without a passphrase.
 
+// 2025 JUN 17, SGWS-35312
 // 2023 SEP 8, SGRIDDOC-18

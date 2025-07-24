@@ -11,14 +11,16 @@ summary: 'Before cloning an appliance node, you must understand the consideratio
 [.lead]
 Before cloning an appliance node, you must understand the considerations and requirements.
 
+TIP: Node clone is disabled for Gateway Nodes. To replace a Gateway Node, decommission it and then perform an expansion to add a new appliance Gateway Node. The decommissioning and expansion procedure is much faster for a Gateway Node than for a Storage Node.
+
 == Hardware requirements for the replacement appliance
 
 Ensure that the replacement appliance meets the following criteria:
 
 * The source node (appliance being replaced) and the target (new) appliance must be the same type of appliance:
- ** You can only clone an Admin Node appliance or a Gateway Node appliance to a new services appliance.
- ** You can only clone a Storage Node appliance to a new storage appliance.
-* For Admin Node or Gateway Node appliances, the source node appliance and the target appliance don't need to be the same appliance model; however, changing the appliance model might require replacing the cables or SFP modules.
+** You can only clone an Admin Node appliance to a new services appliance.
+** You can only clone a Storage Node appliance to a new storage appliance.
+* For an Admin Node appliance, the source node appliance and the target appliance don't need to be the same appliance model; however, changing the appliance model might require replacing the cables or SFP modules.
 +
 For example, you can replace a SG1000 node appliance with a SG100 or replace a SG100 appliance with a SG1000 appliance.
 
@@ -28,7 +30,7 @@ For example, you can replace a SG1000 node appliance with a SG100 or replace a S
 For example, you can replace a SG5700 node appliance with a SG6000 appliance.
 ** The target appliance must have an equal or greater number of object storage volumes than the source appliance.
 +
-For example, you cannot replace a SG6000 node appliance (16 object store volumes) with a SGF6112 appliance (12 object store volumes).
+For example, you can't replace a SG6000 node appliance (16 object store volumes) with a SGF6112 appliance (12 object store volumes).
 
 Contact your StorageGRID sales representative for help choosing compatible replacement appliances to clone specific appliance nodes in your StorageGRID installation.
 
@@ -44,7 +46,7 @@ Temporary IP addresses are normally on the same subnet as the source node applia
 +
 NOTE: Using the 1-GbE Admin Network for clone data transfer results in slower cloning.
 
-* Determine if node encryption using a key management server (KMS) will be used on the target appliance, so that you can enable node encryption during initial target appliance installation before cloning. You can check if node encryption is enabled on the source appliance node as described in the link:../installconfig/optional-enabling-node-encryption.html[enabling node encryption].
+* Determine if you'll use node encryption using a key management server (KMS) on the target appliance, so that you can enable node encryption during initial target appliance installation before cloning. You can check if node encryption is enabled on the source appliance node as described in the link:../installconfig/optional-enabling-node-encryption.html[enabling node encryption].
 +
 The source node and target appliance can have different node-encryption settings. Data decryption and encryption is performed automatically during data transfer and when the target node restarts and joins the grid.
 

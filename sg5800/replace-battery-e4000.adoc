@@ -179,9 +179,11 @@ If needed, collect support data for your storage array using SANtricity System M
 +
 The file is saved in the Downloads folder for your browser with the name, *support-data.7z*.
 
-. Confirm that the reboot is complete and that the node has rejoined the grid. In the Grid Manager, verify that the *Nodes* page displays a normal status (green check mark to the left of the node name) for the appliance node, indicating that no alerts are active and the node is connected to the grid.  
+. Confirm that the reboot is complete and that the node has rejoined the grid:
+.. In the Grid Manager, select *NODES*.
+.. Verify that the appliance node has a normal status (green check mark icon image:../media/icon_alert_green_checkmark.png["green check mark"] to the left of the node name), which indicates that no alerts are active and the node is connected to the grid.  
 +
-NOTE: it may take 20 minutes from when you turn on the power switches to when the node rejoins the grid and displays a normal status in Grid Manager.”
+NOTE: It may take 20 minutes from when you turn on the power switches to when the node rejoins the grid and displays a normal status in Grid Manager.
 
 .What's next?
 Your battery replacement is complete. You can resume normal operations.

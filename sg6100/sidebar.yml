@@ -14,12 +14,14 @@ entries:
       - title: Upgrade SANtricity OS on storage controllers using Grid Manager
         url: "/sg6100/upgrading-santricity-os-on-storage-controllers-using-grid-manager-sg6160.html" 
       - title: Upgrade SANtricity OS on SG6160 controller using maintenance mode
-        url: "/sg6100/upgrading-santricity-os-on-storage-controllers-using-maintenance-mode-sg6160.html"     
-    - title: Upgrade drive firmware using SANtricity System Manager (SG6160)
+        url: "/sg6100/upgrading-santricity-os-on-storage-controllers-using-maintenance-mode-sg6160.html" 
+    - title: Upgrade drive firmware (SG6160)
       entries:
-      - title: Upgrade SG6100 drive firmware using SANtricity System Manager online method
+      - title: Upgrade SG6160 drive firmware automatically during appliance reboot
+        url: "/sg6100/upgrading-drive-firmware-using-auto-reboot.html"
+      - title: Upgrade SG6160 drive firmware using SANtricity System Manager online method
         url: "/sg6100/upgrading-drive-firmware-using-santricity-system-manager-online.html"
-      - title: Upgrade SG6100 drive firmware using SANtricity System Manager offline method
+      - title: Upgrade SG6160 drive firmware using SANtricity System Manager offline method
         url: "/sg6100/upgrading-drive-firmware-using-santricity-system-manager-offline.html"
       - title: Troubleshoot drive firmware upgrade errors
         url: "/sg6100/troubleshoot-upgrading-drive-firmware-using-santricity-system-manager.html" 
