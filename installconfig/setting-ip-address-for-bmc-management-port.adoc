@@ -30,6 +30,10 @@ image::../media/sg100_bmc_management_port.png["SG100 BMC Management Port"]
 --
 image::../media/sgf6112_cn_bmc_management_port.png["BMC management port SG110"] 
 --
+.SG120
+--
+image::../media/sg120_bmc_management_port.png["BMC management port SG120"] 
+--
 
 .SG1000
 --
@@ -39,6 +43,10 @@ image::../media/sg1000_bmc_management_port.png["SG1000 BMC Management Port"]
 .SG1100
 --
 image::../media/sg1100_bmc_management_port.png["BMC management port SG1100"] 
+--
+.SG1200
+--
+image::../media/sg1200_bmc_management_port.png["BMC management port SG1200"] 
 --
 
 .SG6000
