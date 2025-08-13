@@ -34,6 +34,7 @@ This step is optional. However, streamlining and automating configuration steps 
 . Install into cabinet or rack
 ** link:installing-appliance-in-cabinet-or-rack-sg100-and-sg1000.html[SG100 and SG1000]
 ** link:installing-appliance-in-cabinet-or-rack-sg110-and-sg1100.html[SG110 and SG1100]
+** link:installing-appliance-in-cabinet-or-rack-sg120-and-sg1200.html[SG120 and SG1200]
 ** link:installing-appliance-in-cabinet-or-rack-sg5700.html[SG5700]
 ** link:installing-appliance-in-cabinet-or-rack-sg5800.html[SG5800]
 ** link:installing-hardware-sg6000.html[SG6000]

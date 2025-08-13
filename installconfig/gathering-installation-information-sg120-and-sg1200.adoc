@@ -32,11 +32,11 @@ The Admin Network for StorageGRID is an optional network, used for system admini
 
 SG120 RJ-45 ports:
 
-image::../media/sg6100_rj_45_ports_circled.png["SG120 RJ-45 ports"] 
+image::../media/sg120_rj_45_ports.png["SG120 RJ-45 ports"] 
 
 SG1200 RJ-45 ports:
 
-image::../media/sg1200_rj_45_ports_circled.png["SG1200 RJ-45 ports"] 
+image::../media/sg1200_rj_45_ports.png["SG1200 RJ-45 ports"] 
 
 [cols="2a,1a" options="header"]
 |===
@@ -271,7 +271,7 @@ include::../_include/enable-disable-ipmi.adoc[]
 
 SG120 BMC management port:
 
-image::../media/sgf6112_cn_bmc_management_port.png["SG120 management port"] 
+image::../media/sg120_bmc_management_port.png["SG120 management port"] 
 
 SG1200 BMC management port:
 
@@ -311,7 +311,7 @@ Fixed port bond mode is the default configuration for the networking ports. The 
 
 SG120: 
 
-image::../media/sgf6112_fixed_port.png["SG120 Fixed Port Bond Mode"] 
+image::../media/sg120_fixed_port.png["SG120 Fixed Port Bond Mode"] 
 
 SG1200:
 
@@ -342,7 +342,7 @@ Aggregate port bond mode significantly increases the throughput for each Storage
 
 SG120:
 
-image::../media/sgf6112_aggregate_ports.png["SG120 aggregate port bond mode"] 
+image::../media/sg120_aggregate_ports.png["SG120 aggregate port bond mode"] 
 
 SG1200:
 
@@ -374,7 +374,7 @@ For the two 1/10-GbE management ports on the services appliance, you can choose 
 
 SG120:
 
-image::../media/sgf6112_bonded_management_ports.png["SG120 Bonded Network Management Ports"] 
+image::../media/sg120_bonded_management_ports.png["SG120 Bonded Network Management Ports"] 
 
 SG1200:
 
