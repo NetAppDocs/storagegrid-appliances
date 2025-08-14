@@ -10,6 +10,8 @@ indexpage:
           url: "../sg5700/changing-link-configuration-of-e5700sg-controller.html" 
         - title: Upgrade SANtricity
           url: "../sg5700/upgrading-santricity-os-on-storage-controller.html"
+        - title: Upgrade drive firmware (automatic reboot method)
+          url: "../sg5700/upgrading-drive-firmware-using-auto-reboot.html"
         - title: Upgrade drive firmware (online method)
           url: "../sg5700/upgrading-drive-firmware-using-santricity-system-manager-online.html"
         - title: Upgrade drive firmware (offline method)
