@@ -683,6 +683,8 @@ The Link Status table lists the link state, link speed, and other statistics of 
 //image::../media/sg5712_configuring_network_linkstatus.png["SG5712 Link Status"] 
 //image::../media/sg1000_configuring_network_link_status.png["SG1000 Link Status"] 
 +
+NOTE: For the SG5800, the link state for port 1 must be physically verified using the status LED on the E4000 controller.
++
 [[default_values]]The first time you access this page, the default values are:
 
  ** *Link Speed* is set to *Auto*.
@@ -717,6 +719,8 @@ The Grid Network is required. You can't disable this network.
 The Client Network settings for the data NIC ports are now shown.
 
 . Refer to the <<port_config_tables,fixed and aggregate port bond mode configuration table>> for each appliance type, and configure the port bond mode and the network bond mode to match your network configuration.
++
+NOTE: For the SG5800, clear the *Enable network* checkbox for the Client Network and then re-select it before changing the port bond mode.
 +
 You must specify a unique VLAN tags for the Grid and the Client Networks. You can select values between 0 and 4095.
 
