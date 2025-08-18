@@ -496,6 +496,8 @@ Interconnect port 2 on the SG5800 controller
 . Optionally, connect management port 1 (P1) on the E4000 controller (the RJ-45 port on the left) to the management network for SANtricity System Manager using an Ethernet cable.
 
 . If you plan to use the Admin Network for StorageGRID, connect management port 1 on the SG5800 controller (the RJ-45 port on the left) to the Admin Network, using an Ethernet cable.
++
+NOTE: The physical link state for port 1 is unavailable in software and must be verified at this time using the status LED on the SG5800 controller.
 
 . Connect the 10/25-GbE ports on the SG5800 controller to the appropriate network switches, using copper cables or optical cables and SFP+ or SFP28 transceivers.
 +
