@@ -48,6 +48,7 @@ NOTE: Using the 1-GbE Admin Network for clone data transfer results in slower cl
 
 * Determine if you'll use node encryption using a key management server (KMS) on the target appliance, so that you can enable node encryption during initial target appliance installation before cloning. You can check if node encryption is enabled on the source appliance node as described in the link:../installconfig/optional-enabling-node-encryption.html[enabling node encryption].
 +
+// 12.0
 The source node and target appliance can have different node-encryption settings with the following exceptions. Node cloning is not supported from unencrypted-node sources to node-encrypted targets for the following appliances:
 +
 ** An SGF6112 node appliance without node encryption to an SGF6112 appliance with node encryption 
