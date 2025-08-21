@@ -16,13 +16,13 @@ CAUTION: The following steps are only applicable when you are using the Grid Man
 
 NOTE: This procedure will automatically upgrade the NVSRAM to the most recent version associated with the SANtricity OS upgrade. You don't need to apply a separate NVSRAM upgrade file.
 
-NOTE: Be sure to apply the latest StorageGRID hotfix before you begin this procedure. See https://docs.netapp.com/us-en/storagegrid/maintain/storagegrid-hotfix-procedure.html[StorageGRID hotfix procedure^] for details. 
+NOTE: Apply the latest StorageGRID hotfix before you begin this procedure. See https://docs.netapp.com/us-en/storagegrid/maintain/storagegrid-hotfix-procedure.html[StorageGRID hotfix procedure^] for details. 
 
 .Steps
 
 . [[download-santricity-os]] Download the new SANtricity OS Software file from https://mysupport.netapp.com/site/products/all/details/storagegrid-appliance/downloads-tab[NetApp Downloads: StorageGRID Appliance^].
 +
-Be sure to choose the SANtricity OS version for your storage controllers.
+Choose the SANtricity OS version for your storage controllers.
 
 . Select *MAINTENANCE* > *System* > *Software update*.
 +
