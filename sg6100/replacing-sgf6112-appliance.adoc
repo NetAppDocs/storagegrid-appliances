@@ -109,7 +109,7 @@ HDD11
 +
 Follow the maintenance instructions provided for reinstalling the replaceable components.
 +
-CAUTION: If you wish to retain the data on the drives, be sure to insert the SSD drives into the same drive slots they occupied in the failed appliance. If you don't, the Appliance Installer will display a warning message and you will have to put the drives into the correct slots and reboot the appliance before the appliance can rejoin the grid.  
+CAUTION: If you want to retain the data on the drives, insert the SSD drives into the same drive slots they occupied in the failed appliance. If you don't, the Appliance Installer will display a warning and you will have to put the drives into the correct slots and reboot the appliance before the appliance can rejoin the grid.  
  .. link:reinstalling-sgf6112-into-cabinet-or-rack.html[Install the replacement appliance into the cabinet or rack].
  .. Replace the cables and any optical transceivers.
 
