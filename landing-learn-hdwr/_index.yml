@@ -30,4 +30,5 @@ indexpage:
           url: "../installconfig/hardware-description-sg100-and-1000.html"
         - title: SG110 and SG1100 services appliances
           url: "../installconfig/hardware-description-sg110-and-1100.html"
-    
+        - title: SG120 and SG1200 services appliances
+          url: "../installconfig/hardware-description-sg120-and-1200.html"
