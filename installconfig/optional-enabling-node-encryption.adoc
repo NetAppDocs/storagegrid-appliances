@@ -78,7 +78,7 @@ You can view node-encryption status, KMS details, and the certificates in use wh
 
 Drive encryption is managed on self-encrypting drive (SED) hardware during the write and read processes. Access to data on these drives is controlled by a user-defined passphrase. 
 
-Drive encryption can be used for any SED SSD installed in an SG100, SG1000, SG110, SG1100, SGF6112, or SG6100-CN compute node or controller.
+Drive encryption can be used for any SED SSD installed in an SG100, SG1000, SG110, SG120, SG1100, SG120, SGF6112, or SG6100-CN compute node or controller.
 
 * For services appliances, the SSDs are the node root disks.
 * In an SG6100-CN controller, the SSDs are used for caching.

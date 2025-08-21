@@ -40,6 +40,11 @@ image::../media/sg100_admin_network_port.png["Admin Network port on the SG100"]
 image::../media/sg6100_admin_network_port.png["Admin Network port on the SG110"] 
 --
 
+.SG120
+--
+image::../media/sg120_admin_network_port.png["Admin Network port on the SG120"] 
+--
+
 .SG1000
 --
 image::../media/sg1000_admin_network_port.png["Admin Network port on the SG1000"] 
@@ -48,6 +53,11 @@ image::../media/sg1000_admin_network_port.png["Admin Network port on the SG1000"
 .SG1100
 --
 image::../media/sg1100_admin_network_port.png["Admin Network port on the SG1100"] 
+--
+
+.SG1200
+--
+image::../media/sg1200_admin_network_port.png["Admin Network port on the SG1200"] 
 --
 
 .E5700SG
