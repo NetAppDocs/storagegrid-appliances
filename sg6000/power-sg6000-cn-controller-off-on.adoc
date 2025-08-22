@@ -16,7 +16,7 @@ Shut down the SG6000-CN controller to perform hardware maintenance.
 
 .Before you begin
 
-* You have physically located the SG6000-CN controller requiring maintenance in the data center. See link:locating-controller-in-data-center.html[Locate controller in data center].
+You have physically located the SG6000-CN controller requiring maintenance in the data center. See link:locating-controller-in-data-center.html[Locate controller in data center].
 
 
 .About this task
