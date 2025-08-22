@@ -683,6 +683,8 @@ The Link Status table lists the link state, link speed, and other statistics of 
 //image::../media/sg5712_configuring_network_linkstatus.png["SG5712 Link Status"] 
 //image::../media/sg1000_configuring_network_link_status.png["SG1000 Link Status"] 
 +
+NOTE: For the SG5800, the link state for port 1 is unavailable in software and must be physically verified using the status LED on the SG5800 controller.
++
 [[default_values]]The first time you access this page, the default values are:
 
  ** *Link Speed* is set to *Auto*.

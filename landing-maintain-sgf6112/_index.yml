@@ -36,9 +36,9 @@ indexpage:
           url: "../sg6100/reinstalling-sgf6112-into-cabinet-or-rack.html"
     - title: Hardware procedures
       links:
-        - title: Replace cover
+        - title: Replace cover (SGF6112 or SG6100-CN)
           url: "../sg6100/reinstalling-sgf6112-cover.html"
-        - title: Replace power supply
+        - title: Replace power supply (SGF6112 or SG6100-CN)
           url: "../sg6100/replacing-one-or-more-power-supplies-in-sgf6112-appliance.html"
         - title: Replace power supply in storage controller shelf or expansion shelf (SG6160)
           url: "../sg6100/replace-6100-cn-power-canister.html"
@@ -56,11 +56,11 @@ indexpage:
           url: "../sg6100/replace-nic-in-sgf6112.html"
         - title: Replace external NIC (SG6100-CN)
           url: "../sg6100/replace-ocp-nic-sg6100-cn.html"
-        - title: Replace DIMMs (SG6160)
+        - title: Replace DIMMs in storage controller shelf (SG6160)
           url: "../sg6100/replace-dimms-e4000.html"
-        - title: Replace batteries (SG6160)
+        - title: Replace batteries in storage controller shelf (SG6160)
           url: "../sg6100/replace-battery-e4000.html"
-        - title: Replace CMOS battery
+        - title: Replace CMOS battery (SGF6112 or SG6100-CN)
           url: "../sg6100/replace-cmos-in-sgf6112.html"
         - title: Add expansion shelf to deployed SG6160
           url: "../sg6100/adding-expansion-shelf-to-deployed-sg6160.html" 
