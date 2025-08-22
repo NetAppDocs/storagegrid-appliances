@@ -52,7 +52,7 @@ indexpage:
           url: "../sg6100/replace-drive-sg6100-cn.html"
         - title: Replace drive in storage controller shelf or expansion shelf (SG6160)
           url: "../sg6100/replace-6160-drives-60.html"
-        - title: Replace internal NIC (SGF6112 and SG6100-CN)
+        - title: Replace internal NIC (SGF6112 or SG6100-CN)
           url: "../sg6100/replace-nic-in-sgf6112.html"
         - title: Replace external NIC (SG6100-CN)
           url: "../sg6100/replace-ocp-nic-sg6100-cn.html"
