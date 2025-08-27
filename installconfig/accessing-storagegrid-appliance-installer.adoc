@@ -130,6 +130,13 @@ Connect a service laptop directly to the rightmost RJ-45 port on the appliance, 
 image::../media/sg6100_link_local_port.png["SG110 Link-Local Connection"] 
 --
 
+.SG120
+--
+Connect a service laptop directly to the rightmost RJ-45 port on the appliance, using an Ethernet cable.
+
+image::../media/sg120_link_local_port.png["SG120 Link-Local Connection"] 
+--
+
 .SG1000
 --
 Connect a service laptop directly to the rightmost RJ-45 port on the services appliance, using an Ethernet cable.

@@ -14,7 +14,7 @@ If you are familiar with configuring SNMP for hardware, you can use the BMC inte
 [role="tabbed-block"]
 ====
 
-.SG110, SG1100, SG6100-CN, SGF6112
+.SG110, SG120, SG1100, SG1200, SG6100-CN, SGF6112
 --
 .Before you begin
 
