@@ -13,105 +13,9 @@ Before installing the appliance, you must make sure that the site and the cabine
 
 .Steps
 
-. Confirm that the site meets the requirements for temperature, humidity, altitude range, airflow, heat dissipation, wiring, power, and grounding. See the https://hwu.netapp.com[NetApp Hardware Universe^] for more information.
-
-. Confirm that your location provides the correct voltage of AC power:
+. Use https://hwu.netapp.com[NetApp Hardware Universe^] to confirm that your site meets the environmental and electrical requirements for your storage system.
 +
-[cols="1a,1a" options="header"]
-|===
-| Model
-| Requirement
-
-| SG100 and SG1000
-| 120 to 240-volts AC
-
-| SG110 and SG1100
-| 100 to 240 volts AC
-
-| SG5712
-| 120 to 240 volts AC
-
-| SG5760
-| 240-volts AC
-
-| SG5812
-| 120 to 240-volts AC
-
-| SG5860
-| 240-volts AC
-
-| SGF6024
-| 120-volts AC
-
-| SG6060
-| 240-volts AC 
-
-| SGF6112
-| 240-volts AC
-
-| SG6160
-| 240-volts AC
-
-|===
-
-. Confirm that your location meets the power requirements for your appliance:
-+
-NOTE: The power supplies in StorageGRID appliances are rated for significantly higher wattages than the StorageGRID appliance hardware uses, even during periods of maximum power consumption. NetApp recommends using the numbers in the following table to determine whether a proposed rack layout that includes StorageGRID appliances is compatible with your rack power budget.
-+
-[cols="1a,1a,1a" options="header"]
-|===
-| Model
-| Average power required (W)
-| Maximum power required (W)
-
-| SG100
-| 273
-| 400
-
-| SG1000
-| 337
-| 600
-
-| SG110
-| 352
-| 500
-
-| SG1100
-| 422
-| 700
-
-| SG5712
-| 578
-| 700
-
-| SG5760
-| 1394
-| 1800
-
-| SG5812
-| 449
-| 600
-
-| SG5860
-| 1048
-| 1300
-
-| SGF6024
-| 1027
-| 1900
-
-| SG6060
-| 1484
-| 2300
-
-| SGF6112
-| 446
-| 700
-
-| SG6160
-| 1312
-| 1800
-|===
+NOTE: The power supplies in StorageGRID appliances are rated for significantly higher wattages than the StorageGRID appliance hardware uses, even during periods of maximum power consumption. NetApp recommends using the https://hwu.netapp.com[NetApp Hardware Universe^] to determine whether a proposed rack layout that includes StorageGRID appliances is compatible with your rack power budget. 
 
 . Obtain a 19-inch (48.3-cm) cabinet or rack to fit shelves of the following size (without cables).
 +
@@ -164,6 +68,23 @@ a|
 43.83 lb.
 
 (19.88 kg)
+
+|===
+--
+
+.SG120 and SG1200
+--
+[cols="1a,1a,1a,1a" options="header"]
+|===
+| Height| Width| Depth| Maximum weight
+a|
+
+a|
+
+a|
+
+a|
+
 
 |===
 --
