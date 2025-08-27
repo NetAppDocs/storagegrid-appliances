@@ -11,4 +11,4 @@ summary: 'You install a set of rails for the appliance in your cabinet or rack, 
 [.lead]
 You install a set of rails for the appliance in your cabinet or rack, and then slide the appliance onto the rails.
 
-include::../_include/2023-install-appliance-in-rack.adoc[]
+include::../_include/2025-install-appliance-in-rack.adoc[]
