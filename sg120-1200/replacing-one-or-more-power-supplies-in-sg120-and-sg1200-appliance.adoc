@@ -34,7 +34,7 @@ The SG120 and SG1200 appliances have two power supplies for redundancy. If one o
 
 The figure shows the two power supply units for the SG120 and SG1200. The power supplies are accessible from the back of the appliance. 
 
-image::../media/sgf6112_power_supplies.png["Back of SGF6112 with two power supplies"] 
+image::../media/sg120_sg1200_power_supplies.png["Back of SGF6112 with two power supplies"] 
 
 .Steps
 

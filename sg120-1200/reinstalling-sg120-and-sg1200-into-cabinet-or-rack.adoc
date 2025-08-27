@@ -15,7 +15,7 @@ Remove the SG120 or SG1200 from a cabinet or rack to access the top cover or to 
 // Same procedure for SGF6112 - unable to use includes due to specific links in steps
 
 [#remove-from-rack]
-== Remove SG120 or SG1200 from cabinet or rack
+== Step 1: Remove SG120 or SG1200 from cabinet or rack
 
 .Before you begin
 
@@ -36,7 +36,7 @@ IMPORTANT: To prevent degraded performance, don't twist, fold, pinch, or step on
 
 . Loosen the two captive screws on the appliance front panel.
 +
-image::../media/sg6060_rack_retaining_screws.png["SG120 or SG1200 rack retaining screws"] 
+image::../media/sg120_sg1200_rack_retaining_screws.png["SG120 or SG1200 rack retaining screws"] 
 
 . Slide the SG120 or SG1200 forward out of the rack until the mounting rails are fully extended and you hear the latches on both sides click.
 +
@@ -47,13 +47,11 @@ The appliance top cover is accessible.
 include::../_include/fru-statement.adoc[]
 
 
-== Reinstall SG120 or SG1200 into cabinet or rack
+== Step 2: Reinstall SG120 or SG1200 into cabinet or rack
 
 .Before you begin
 
-You have reinstalled the appliance cover.
-
-link:reinstalling-sg120-and-sg1200-cover.html[Reinstall SG120 or SG1200 cover]
+You have link:reinstalling-sg120-and-sg1200-cover.html[Reinstalled the appliance cover].
 
 .Steps
 
@@ -67,7 +65,7 @@ NOTE: Don't attach the front bezel until after you power on the controller.
 
 . Tighten the captive screws on the controller front panel to secure the controller in the rack.
 +
-image::../media/sg6060_rack_retaining_screws.png["SG120 or SG1200 rack retaining screws"] 
+image::../media/sg120_sg1200_rack_retaining_screws.png["SG120 or SG1200 rack retaining screws"] 
 
 . Wrap the strap end of the ESD wristband around your wrist, and secure the clip end to a metal ground to prevent static discharge.
 . link:../installconfig/cabling-appliance.html[Reconnect the controller data cables and any SFP+ or SFP28 transceivers].
@@ -76,6 +74,4 @@ IMPORTANT: To prevent degraded performance, don't twist, fold, pinch, or step on
 
 . link:../installconfig/connecting-power-cords-and-applying-power.html[Reconnect the controller power cables].
 
-.After you finish
-
-link:power-sg120-and-sg1200-off-on.html#power-on-sg120-or-sg1200-and-verify-operation[Restart the appliance].
+. link:power-sg120-and-sg1200-off-on.html#power-on-sg120-or-sg1200-and-verify-operation[Restart the appliance].

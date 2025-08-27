@@ -10,7 +10,7 @@ summary: 'The SG120 and SG1200 services appliances contains two SSD drives. The 
 :imagesdir: ../media/
 
 [.lead]
-The SG120 and SG1200 services appliances contains two SSD drives. The drives are mirrored using RAID1 for redundancy. If one of the drives fails, you must replace it as soon as possible to ensure redundancy. 
+The SG120 and SG1200 services appliances contain two SSD drives. The drives are mirrored using RAID1 for redundancy. If one of the drives fails, you must replace it as soon as possible to ensure redundancy. 
 
 // Similar procedure for SGF6112 - unable to use includes due to differences in configuration, not operation.
 
@@ -32,7 +32,7 @@ IMPORTANT: See the information about viewing status indicators to verify the fai
 +
 The drives are in the following positions in the chassis (front of chassis with bezel removed shown): 
 +
-image::../media/sg1200_front_with_ssds.png["SG120 and SG1200 drive locations"] 
+image::../media/sg120_sg1200_front_with_ssds.png["SG120 and SG1200 drive locations"] 
 
 [start=2]
 . Wrap the strap end of the ESD wristband around your wrist, and secure the clip end to a metal ground to prevent static discharge.
