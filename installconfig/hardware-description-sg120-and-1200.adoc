@@ -21,13 +21,13 @@ Both models of the services appliance provide the following features:
 * A baseboard management controller (BMC) for monitoring and diagnosing some of the appliance hardware.
 * The ability to connect to all three StorageGRID networks, including the Grid Network, the Admin Network, and the Client Network:
  ** The SG120 supports up to four 10- or 25-GbE connections to the Grid Network and Client Network.
- ** The SG1200 supports up to four 10-, 25-, 40-, or 100-GbE connections to the Grid Network and Client Network.
+ ** The SG1200 supports up to four 10-, 25-, 40-, 100-, and 200-GbE connections to the Grid Network and Client Network.
 
 == SG120 and SG1200 diagrams
 
 This figure shows the front of the SG120 and the SG1200 with the bezel removed. From the front, the two appliances are identical except for the product name on the bezel.
 
-image::../media/sg1200_front_with_ssds.png["Front with SSDs SG120 and SG1200"] 
+image::../media/sg120_sg1200_front_with_ssds.png["Front with SSDs SG120 and SG1200"] 
 
 The two solid-state drives (SSDs), indicated by the orange outline, are used for storing the StorageGRID operating system and are mirrored using RAID 1 for redundancy. When the SG120 or SG1200 services appliance is configured as an Admin Node, these drives might be used to store audit logs, metrics, and database tables.
 
@@ -35,7 +35,7 @@ The remaining drive slots are blank.
 
 This figure shows the location of the power supply and identify LEDs on the rear of the SG120 and the SG1200. Additional status and activity LEDs are on the appliance ports. These LEDs might vary by appliance model.
 
-image::../media/q2024_rear_leds.png["Rear LEDs SG120 and SG1200"] 
+image::../media/sg120_sg1200_rear_leds.png["Rear LEDs SG120 and SG1200"] 
 
 include::../_include/rear-leds-q.adoc[]
 
@@ -43,7 +43,7 @@ include::../_include/rear-leds-q.adoc[]
 
 This figure shows the back of the SG120, including the ports, fans, and power supplies.
 
-image::../media/sg120_rear_view.png["Rear Connectors SG120"] 
+image::../media/sg120_rear_connectors.png["Rear Connectors SG120"] 
 
 [cols="1a,2a,2a,2a" options="header"]
 |===
@@ -69,10 +69,9 @@ a|
 a|
 Diagnostic and support ports
 a|
-* VGA
-* USB
-* Micro-USB console port
-* Micro-SD slot module
+* USB 3.0 ports
+* Mini display port
+* COM Port (micro USB type-B)
 
 a|
 Reserved for technical support use.
@@ -103,7 +102,7 @@ Options:
 
 This figure shows the connectors on the back of the SG1200.
 
-image::../media/sg1200_rear_view.png["Rear Connectors SG1200"] 
+image::../media/sg1200_rear_connectors.png["Rear Connectors SG1200"] 
 
 [cols="1a,2a,2a,2a" options="header"]
 |===
@@ -130,10 +129,10 @@ a|
 a|
 Diagnostic and support ports
 a|
-* VGA
+
+* Mini display port
 * USB
 * Micro-USB console port
-* Micro-SD slot module
 
 a|
 Reserved for technical support use.
@@ -176,7 +175,7 @@ The following examples describe how you can maximize the capabilities of the app
 
 * Use two SG120 or two SG1200 appliances to provide gateway services by configuring them as Gateway Nodes.
 +
-IMPORTANT: Mixing services appliances with different levels of performance in the same site, such as an SG100 or SG120 with an SG1000 or SG1200, can cause unpredictable and inconsistent results when using multiple nodes in a high-availability group or when balancing client load across multiple services appliances
+IMPORTANT: Mixing services appliances with different levels of performance in the same site, such as an SG110 or SG120 with an SG1100 or SG1200, can cause unpredictable and inconsistent results when using multiple nodes in a high-availability group or when balancing client load across multiple services appliances
 
 * Use two SG120 or two SG1200 appliances to provide redundancy of some grid administration services. Do this by configuring each appliance as Admin Nodes.
 * Use two SG120 or two SG1200 appliances to provide highly available load balancing and traffic shaping services accessed through one or more virtual IP addresses. Do this by configuring the appliances as any combination of Admin Nodes or Gateway Nodes and adding both nodes to the same HA group.
