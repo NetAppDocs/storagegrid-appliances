@@ -21,9 +21,9 @@ Before installing an SG120 or SG1200 services appliance, confirm your StorageGRI
 |===
 | Appliance| Required StorageGRID version
 | SG1200
-| 11.8 or later (latest hotfix recommended)
+| 12.0 or later (latest hotfix recommended)
 | SG120
-| 11.8 or later (latest hotfix recommended)
+| 12.0 or later (latest hotfix recommended)
 |===
 
 == Administration and maintenance ports
@@ -117,6 +117,7 @@ For the SG1200, choose one of the following:
 * 25 GbE
 * 40 GbE
 * 100 GbE
+* 200 GbE
 
 *Note:* For the SG1200, 10- and 25-GbE speeds require the use of QSA adapters.
 
