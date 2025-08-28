@@ -199,6 +199,99 @@ image::../media/ssd_indicators.png["SSD Indicators"]
 |===
 --
 
+.SG120 and SG1200
+--
+
+The appliance includes indicators that help you determine the status of the appliance controller and the SSDs:
+
+* <<appliance_indicators_sg120_sg1200,Appliance indicators and buttons>>
+* <<general_boot_codes_sg120_sg1200,General boot-up codes>>
+* <<ssd_indicators_sg120_sg1200,SSD indicators>>
+
+Use this information to help link:troubleshooting-hardware-installation-sg120-and-sg1200.html[troubleshoot SG120 and SG1200 hardware installation].
+
+[[appliance_indicators_sg120_sg1200]]
+Appliance indicators and buttons::
++
+The following figure shows indicators and buttons on the front of the SG120 and SG1200 appliances.
++
+image::../media/sg120_sg1200_front_indicators.png["Front Indicators - SG120 and SG1200"] 
++
+[cols="1a,2a,3a" options="header"]
+|===
+| Callout | Display| State
+| 1
+| Power button
+| * Blue: the appliance is powered on.
+* Off: the appliance is powered off.
+
+| 2
+| Reset button
+| Use this button to perform a hard reset of the controller.
+
+| 3
+| Identify button
+| Using the BMC, this button can be set to blink, On (Solid), or Off.
+
+* Blue, blinking: Identifies the appliance in the cabinet or rack.
+* Blue, solid: Identifies the appliance in the cabinet or rack.
+* Off: The appliance is not visually identifiable in the cabinet or rack.
+
+| 4
+| Status LED
+| * Amber, solid: An error has occurred.
++
+*Note:* To view the boot-up and error codes, link:accessing-bmc-interface.html[access the BMC interface].
+
+* Off: No errors are present.
+
+| 5
+| PFR
+| This light is not used by the SG120 and SG1200 appliances and remains off.
+
+|===
+
+
+The following figure shows the location of the power supply and identify LEDs on the rear of the SG120 and the SG1200. Additional status and activity LEDs are on the appliance ports. These LEDs might vary by appliance model.
+
+image::../media/sg120_sg1200_rear_leds.png["Rear LEDs SG120 and SG1200"] 
+
+include::../_include/rear-leds-q.adoc[]
+
+[[general_boot_codes_sg120_sg1200]]
+General boot-up codes::
++
+During boot-up or after a hard reset of the appliance, the following occurs:
++
+. The baseboard management controller (BMC) logs codes for the boot-up sequence, including any errors that occur.
+. The power button lights up.
+. If any errors occur during boot-up, the alarm LED lights up.
++
+To view the boot-up and error codes, link:accessing-bmc-interface.html[access the BMC interface].
+
+[[ssd_indicators_sg120_sg1200]]
+SSD indicators::
++
+The following figure shows SSD indicators on the SG120 and SG1200 appliances.
++
+image::../media/ssd_indicators.png["SSD Indicators"] 
++
+[cols="1a,2a,2a" options="header"]
+|===
+| LED| Display| State
+
+| 1
+| Drive status/fault
+| * Blue (solid): drive is online
+* Amber (solid): drive failure
+* Off: slot is empty
+
+| 2
+| Drive active
+| Blue (blinking): drive is being accessed
+|===
+--
+
 .SG5700
 --
 
