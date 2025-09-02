@@ -69,9 +69,10 @@ a|
 a|
 Diagnostic and support ports
 a|
-* USB 3.0 ports
+
 * Mini display port
-* COM Port (micro USB type-B)
+* USB 3.0 port
+* Micro-USB console port
 
 a|
 Reserved for technical support use.
@@ -131,7 +132,7 @@ Diagnostic and support ports
 a|
 
 * Mini display port
-* USB
+* USB 3.0 port
 * Micro-USB console port
 
 a|
