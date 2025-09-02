@@ -30,6 +30,8 @@ indexpage:
         url: "/installconfig/hardware-description-sg6000.html"        
       - title: SG6100
         url: "/installconfig/hardware-description-sg6100.html"
+      - title: SG6200
+        url: "/installconfig/hardware-description-sg6200.html"
     - title: Install hardware
       links:
       - title: Prepare for installation
@@ -55,7 +57,9 @@ indexpage:
       - title: SG6000
         url: /landing-maintain-sg6000/index.html
       - title: SG6100
-        url: /landing-maintain-sgf6112/index.html
+        url: /landing-maintain-sg6100/index.html
+      - title: SG6200
+        url: /landing-maintain-sg6200/index.html
     - title: StorageGRID software
       links:
       - title: StorageGRID 12.0 documentation

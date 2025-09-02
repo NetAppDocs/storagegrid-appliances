@@ -1,0 +1,66 @@
+indexpage:
+  title: Maintain SG6200 storage appliance hardware
+  lead: "Maintain the hardware for your SG6200 storage appliance."
+  summary: "Maintain the hardware for your SG6200 storage appliance."
+  keywords: maintain storagegrid sg6200
+  tiles:
+    - title: Frequently performed procedures
+      links:
+        - title: Upgrade SANtricity
+          url: "../sg6200/upgrading-santricity-os-on-storage-controllers-using-grid-manager-sg6200.html"
+        - title: Upgrade drive firmware (SG6200 - automatic reboot method)
+          url: "../sg6200/upgrading-drive-firmware-using-auto-reboot.html"
+        - title: Upgrade drive firmware (SG6200 - online method)
+          url: "../sg6200/upgrading-drive-firmware-using-santricity-system-manager-online.html"
+        - title: Upgrade drive firmware (SG6200 - offline method)
+          url: "../sg6200/upgrading-drive-firmware-using-santricity-system-manager-offline.html"
+        - title: Turn identify LED on or off
+          url: "../sg6200/turning-sg6200-identify-led-on-and-off.html"
+        - title: Locate appliance in data center
+          url: "../sg6200/locating-sg6200-in-data-center.html"
+        - title: Power appliance off and on
+          url: "../sg6200/power-sg6200-off-on.html"
+        - title: Change link configuration
+          url: "../sg6200/changing-link-configuration-of-sg6200-appliance.html"
+        - title: Verify component to replace
+          url: "../sg6200/verify-component-to-replace.html"
+    - title: Rack procedures
+      links:
+        - title: Replace SGF6212 appliance
+          url: "../sg6200/replacing-sgf6212-appliance.html"
+        - title: Replace SG6200-CN controller (SG6260)
+          url: "../sg6200/replacing-sg6200-cn-controller.html"
+        - title: Replace storage controller controller (SG6260)
+          url: "../sg6200/replace-controller-e4000-duplex.html"
+        - title: Relocate SGF6212 or SG6200-CN in a rack
+          url: "../sg6200/reinstalling-sgf6212-into-cabinet-or-rack.html"
+    - title: Hardware procedures
+      links:
+        - title: Replace cover (SGF6212 or SG6200-CN)
+          url: "../sg6200/reinstalling-sgf6212-cover.html"
+        - title: Replace power supply (SGF6212 or SG6200-CN)
+          url: "../sg6200/replacing-one-or-more-power-supplies-in-sgf6212-appliance.html"
+        - title: Replace power supply in storage controller shelf or expansion shelf (SG6260)
+          url: "../sg6200/replace-6100-cn-power-canister.html"
+        - title: Replace fan in SGF6212 or SG6200-CN (SG6260)
+          url: "../sg6200/replacing-fan-in-sg6200.html"
+        - title: Replace fan in in storage controller shelf or expansion shelf (SG6260)
+          url: "../sg6200/replace-e4000-fan-canister.html"
+        - title: Replace drive in SGF6212
+          url: "../sg6200/replacing-drive-in-sgf6212.html"
+        - title: Replace drive in SG6200-CN
+          url: "../sg6200/replace-drive-sg6200-cn.html"
+        - title: Replace drive in storage controller shelf or expansion shelf (SG6260)
+          url: "../sg6200/replace-6160-drives-60.html"
+        - title: Replace internal NIC (SGF6212 or SG6200-CN)
+          url: "../sg6200/replace-nic-in-sg6200.html"
+        - title: Replace external NIC (SG6200-CN)
+          url: "../sg6200/replace-ocp-nic-sg6200-cn.html"
+        - title: Replace DIMMs in storage controller shelf (SG6260)
+          url: "../sg6200/replace-dimms-e4000.html"
+        - title: Replace batteries in storage controller shelf (SG6260)
+          url: "../sg6200/replace-battery-e4000.html"
+        - title: Replace CMOS battery (SGF6212 or SG6200-CN)
+          url: "../sg6200/replace-cmos-in-sg6200.html"
+        - title: Add expansion shelf to deployed SG6260
+          url: "../sg6200/adding-expansion-shelf-to-deployed-sg6260.html"

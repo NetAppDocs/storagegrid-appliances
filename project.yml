@@ -33,6 +33,8 @@ sidebar:
           url: "/installconfig/hardware-description-sg6000.html"
         - title: SG6100 storage appliances
           url: "/installconfig/hardware-description-sg6100.html"
+        - title: SG6200 storage appliances
+          url: "/installconfig/hardware-description-sg6200.html"
     - section: installconfig
     - title: Maintain appliance hardware
       url: "/landing-maintain-hdwr/index.html"

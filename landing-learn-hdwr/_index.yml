@@ -24,6 +24,8 @@ indexpage:
           url: "../installconfig/hardware-description-sg6000.html"
         - title: SG6100 storage appliances
           url: "../installconfig/hardware-description-sg6100.html"
+        - title: SG6200 storage appliances
+          url: "../installconfig/hardware-description-sg6200.html"
     - title: Learn about services appliances
       links:
         - title: SG100 and SG1000 services appliances

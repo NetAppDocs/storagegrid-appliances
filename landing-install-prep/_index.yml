@@ -28,3 +28,5 @@ indexpage:
           url: "../installconfig/gathering-installation-information-sg6000.html"
         - title: SG6100 network information
           url: "../installconfig/gathering-installation-information-sg6100.html"
+        - title: SG6200 network information
+          url: "../installconfig/gathering-installation-information-sg6200.html"
