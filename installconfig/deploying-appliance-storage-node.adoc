@@ -17,6 +17,9 @@ After installing and configuring the storage appliance, you can deploy it as a S
 
 * The appliance has been installed in a rack or cabinet, connected to your networks, and powered on.
 * Network links, IP addresses, and port remapping (if necessary) have been configured for the appliance using the StorageGRID Appliance Installer.
++
+NOTE: Support for port remapping is deprecated and will be removed in a future release. To remove remapped ports, refer to https://docs.netapp.com/us-en/storagegrid/maintain/removing-port-remaps.html[Remove port remaps on StorageGRID appliances^].
+
 * You know one of the IP addresses assigned to the appliance's compute controller. You can use the IP address for any attached StorageGRID network.
 * The primary Admin Node for the StorageGRID system has been deployed.
 * All Grid Network subnets listed on the IP Configuration page of the StorageGRID Appliance Installer have been defined in the Grid Network Subnet List on the primary Admin Node.
@@ -52,7 +55,8 @@ NOTE: Metadata-only can only be selected during appliance deployment. If Metadat
 
 . In the *Node name* field, provide the system name you want to use for this appliance node, and click *Save*.
 +
-The name that appears here will be the appliance node's system name. System names are required for internal StorageGRID operations and can't be changed.
+The name that appears here will be the appliance node's system name. System names are required for internal StorageGRID operations and can't be changed. To change an appliance node's display name, see https://docs.netapp.com/us-en/storagegrid/maintain/rename-grid-site-node.html#how-to-rename-grid-sites-or-nodes[How to rename grid, sites, or nodes
+^].
 
 . In the *Primary Admin Node connection* section, determine whether you need to specify the IP address for the primary Admin Node.
 +

@@ -26,7 +26,7 @@ NOTE: A link:power-sgf6112-off-on.html#shut-down-the-sgf6112-appliance-or-sg6100
 .About this task
 To prevent service interruptions, confirm that all other Storage Nodes are connected to the grid before starting the fan replacement or replace the fan during a scheduled maintenance window when periods of service disruption are acceptable. See the information about https://docs.netapp.com/us-en/storagegrid/monitor/monitoring-system-health.html#monitor-node-connection-states[monitoring node connection states^].
 
-CAUTION: If you have ever used an ILM rule that creates only one copy of an object, you must replace the fan during a scheduled maintenance window because you might temporarily lose access to those objects during this procedure. See information about https://docs.netapp.com/us-en/storagegrid/ilm/why-you-should-not-use-single-copy-replication.html[why you should not use single-copy replication^].
+CAUTION: If you have ever used an ILM rule that creates only one copy of an object, you must replace the fan during a scheduled maintenance window because you might temporarily lose access to those objects during this procedure. See information about https://docs.netapp.com/us-en/storagegrid/ilm/why-you-should-not-use-single-copy-replication.html[why you should not use single-copy replication^]. 
 
 The appliance node will not be accessible while you replace the fan.
 

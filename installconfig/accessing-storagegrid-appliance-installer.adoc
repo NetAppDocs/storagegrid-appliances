@@ -100,8 +100,6 @@ For `_Appliance_IP_`, use the DHCP address (use the IP address for the Admin Net
 The alert will not appear the next time you access this URL.
 +
 The StorageGRID Appliance Installer Home page appears. The information and messages shown when you first access this page depend on how your appliance is currently connected to StorageGRID networks. Error messages might appear that will be resolved in later steps.
-+
-image::../media/appliance_installer_home_5700_5600.png["Screen shot of the top part of the StorageGRID Appliance Installer home page"] 
 
 . If you can't obtain an IP address using DHCP, you can use a link-local connection.
 +
@@ -190,6 +188,4 @@ After accessing the StorageGRID Appliance Installer:
 link:verifying-and-upgrading-storagegrid-appliance-installer-version.html[Verify and upgrade StorageGRID Appliance Installer version]
 
 * Review any messages displayed on the StorageGRID Appliance Installer Home page and configure the link configuration and the IP configuration, as required.
-+
-image::../media/appliance_installer_home_services_appliance.png["Appliance Installer Home"] 
 

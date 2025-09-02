@@ -271,16 +271,14 @@ where:
 .. Go to the next step to confirm that the new controller is Optimal.
 
 . If you placed the appliance into maintenance mode during this procedure, return the appliance to normal operating mode. From the StorageGRID Appliance Installer, select *Advanced* > *Reboot Controller*, and then select *Reboot into StorageGRID*.
-+
-image::../media/reboot_controller_from_maintenance_mode.png["Reboot controller in maintenance mode"] 
 
 . During the reboot, monitor the node's status to determine when it has rejoined the grid. 
 +
 The appliance reboots and rejoins the grid. This process can take up to 20 minutes.
 
-. Confirm that the reboot is complete and that the node has rejoined the grid. In the Grid Manager, verify that the Nodes page displays a normal status (green check mark icon image:../media/icon_alert_green_checkmark.png["green check mark"]  to the left of the node name) for the appliance node, indicating that no alerts are active and the node is connected to the grid.
-+
-image::../media/nodes_menu.png["Appliance node rejoined grid"] 
+. Confirm that the reboot is complete and that the node has rejoined the grid:
+.. In the Grid Manager, select *NODES*.
+.. Verify that the appliance node has a normal status (green check mark icon image:../media/icon_alert_green_checkmark.png["green check mark"] to the left of the node name), which indicates that no alerts are active and the node is connected to the grid. 
 
 . From SANtricity System Manager, confirm that the new controller is Optimal.
 .. Select *Hardware*.

@@ -234,9 +234,9 @@ NOTE: If you cannot resolve the problem, contact technical support.
 +
 The file is saved in the Downloads folder for your browser with the name, *support-data.7z*.
 
-. If you placed the appliance in maintenance mode during this procedure, exit maintenace mode and wait for the node to reboot and rejoin the grid. This process can take up to 20 minutes. Then, in the Grid Manager, verify that the Nodes page displays a normal status (green check mark icon image:../media/icon_alert_green_checkmark.png["green check mark"]  to the left of the node name) for the appliance node, indicating that no alerts are active and the node is connected to the grid.
-+
-image::../media/nodes_menu.png["Appliance node rejoined grid"] 
+. If you placed the appliance in maintenance mode during this procedure, exit maintenance mode and wait for the node to reboot and rejoin the grid. This process can take up to 20 minutes. To confirm that the reboot is complete and that the node has rejoined the grid:
+.. In the Grid Manager, select *NODES*.
+.. Verify that the appliance node has a normal status (green check mark icon image:../media/icon_alert_green_checkmark.png["green check mark"] to the left of the node name), which indicates that no alerts are active and the node is connected to the grid.
 
 .What's next?
 Your controller replacement is complete. You can resume normal operations.

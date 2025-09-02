@@ -368,6 +368,4 @@ image::../media/e5700sg_bonded_management_ports.gif["E5700SG Bonded Management P
 
 * link:cabling-appliance-sg5700.html[Cable appliance (SG5700)]
 
-* link:gathering-installation-information-sg5700.html#port-bond-modes[Port bond modes (E5700SG controller)]
-
 * link:configuring-hardware.html[Configure hardware (SG5700)]

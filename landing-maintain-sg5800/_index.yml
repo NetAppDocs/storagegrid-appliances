@@ -7,9 +7,11 @@ indexpage:
     - title: Frequently performed procedures
       links:
         - title: Change link configuration
-          url: "../sg5800/changing-link-configuration-of-e5800sg-controller.html" 
+          url: "../sg5800/changing-link-configuration-of-sg5800-controller.html" 
         - title: Upgrade SANtricity
           url: "../sg5800/upgrading-santricity-os-on-storage-controller.html"
+        - title: Upgrade drive firmware (automatic reboot method)
+          url: "../sg5800/upgrading-drive-firmware-using-auto-reboot.html"
         - title: Upgrade drive firmware (online method)
           url: "../sg5800/upgrading-drive-firmware-using-santricity-system-manager-online.html"
         - title: Upgrade drive firmware (offline method)
