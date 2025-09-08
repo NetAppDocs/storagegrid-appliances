@@ -70,7 +70,7 @@ indexpage:
         url: https://docs.netapp.com/us-en/storagegrid-116/index.html
       - title: StorageGRID 11.5 documentation
         url: https://docs.netapp.com/us-en/storagegrid-115/index.html
-    - title: Enable StorageGRID
+    - title: StorageGRID solutions and resources
       links:
       - title: Integrate other applications
         url: https://docs.netapp.com/us-en/storagegrid-enable/index.html
