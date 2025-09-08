@@ -38,9 +38,7 @@ image::../media/sg120_sg1200_power_supplies.png["Back of SGF6112 with two power 
 
 .Steps
 
-. If you are replacing only one power supply, you don't need to shut down the appliance. Go to the <<Unplug_the_power_cord,Unplug the power cord>> step. If you are replacing both power supplies at the same time, do the following before unplugging the power cords:
-
-.. link:power-sg120-and-sg1200-off-on.html#shut-down-the-sg120-or-sg1200-appliance[Shut down the appliance].
+. If you are replacing only one power supply, you don't need to shut down the appliance. Go to the <<Unplug_the_power_cord,Unplug the power cord>> step. If you are replacing both power supplies at the same time,  link:power-sg120-and-sg1200-off-on.html#shut-down-the-sg120-or-sg1200-appliance[Shut down the appliance] before unplugging the power cords.
 
 . [[Unplug_the_power_cord, start=2]]Unplug the power cord from each power supply to be replaced.
 +

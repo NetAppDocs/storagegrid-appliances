@@ -1,0 +1,15 @@
+// Replace fan in SGF6112, SG110, SG1100
+// Intro, before you begin, about this task, and after you finish are in referencing topic
+
+.Steps
+. Wrap the strap end of the ESD wristband around your wrist, and secure the clip end to a metal ground to prevent static discharge.
+. Locate the fan that you need to replace.
+. Using the blue tabs on the fan, lift the failed fan out of the chassis.
+. Slide the replacement fan into the open slot in the chassis.
++
+Align the connector on the fan with the socket in the circuit board.
++
+. Press the fan's connector firmly into the circuit board.
+
+
+

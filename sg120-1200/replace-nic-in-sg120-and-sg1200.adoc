@@ -11,13 +11,6 @@ summary: 'You might need to replace a Network Interface Card \(NIC\) in the SG12
 [.lead]
 You might need to replace a Network Interface Card (NIC) in the SG120 or SG1200 if it is not functioning optimally or if it has failed.
 
-Use these procedures to: 
-
-* Remove the NIC
-* Reinstall the NIC
-
-== Remove the NIC
-
 .Before you begin
 
 * You have the correct replacement NIC.
@@ -32,4 +25,4 @@ NOTE: A link:power-sg120-and-sg1200-off-on.html#shut-down-the-sg120-or-sg1200-ap
 .About this task
 To prevent service interruptions, confirm that all other Storage Nodes are connected to the grid before starting the Network Interface Card (NIC) replacement or replace the NIC during a scheduled maintenance window when periods of service disruption are acceptable. See the information about https://docs.netapp.com/us-en/storagegrid/monitor/monitoring-system-health.html#monitor-node-connection-states[monitoring node connection states^].
 
-include::../_include/2023-replace-nic.adoc[]
+include::../_include/2025-replace-nic.adoc[]

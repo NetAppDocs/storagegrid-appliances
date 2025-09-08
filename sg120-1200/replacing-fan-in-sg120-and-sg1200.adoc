@@ -29,13 +29,11 @@ To prevent service interruptions, confirm that all other Storage Nodes are conne
 
 The appliance node will not be accessible while you replace the fan.
 
-The image shows a fan for the appliance with the electrical connector highlighted. The cooling fans are accessible after you take the top cover off of the appliance.
+The cooling fans are accessible after you take the top cover off of the appliance.
 
 NOTE: Each of the two power supply units also contain a fan. The power supply fans aren't included in this procedure.
 
-image::../media/sgf6112_fan_fru.png["Fan FRU"] 
-
-include::../_include/2023-replace-fan.adoc[]
+include::../_include/2025-replace-fan.adoc[]
 
 .After you finish
 
