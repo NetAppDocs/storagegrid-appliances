@@ -151,6 +151,13 @@ Connect a service laptop directly to the rightmost RJ-45 port on the appliance, 
 image::../media/sg1100_link_local_port.png["SG1100 Link-Local Connection"] 
 --
 
+.SG1200
+--
+Connect a service laptop directly to the rightmost RJ-45 port on the appliance, using an Ethernet cable.
+
+image::../media/sg1200_link_local_port.png["SG1200 Link-Local Connection"] 
+--
+
 .E5700SG
 --
 Connect the service laptop to management port 2 on the E5700SG controller, using an Ethernet cable.
