@@ -102,20 +102,20 @@ For the SG5700 and SG5800 storage appliances follow the high-level steps to http
 --
 For the SG6060 storage appliance, drive security can be automatically enabled on the SSD drives only if key management was configured before installing the Storage Appliance.
 
-. Equip your storage array with secure-capable drives (FDE drives or FIPS drives).
+.. Equip your storage array with secure-capable drives (FDE drives or FIPS drives).
 +
 * For volumes that require FIPS support, use only FIPS drives. 
 * Mixing FIPS and FDE drives in a volume group or pool results in all drives being treated as FDE drives. 
 * An FDE drive cannot be added to or used as a spare in an all-FIPS volume group or pool.
 
-. For the E2800 controller shelf, create a security key (a string of characters that is shared by the controller and drives for read and write access). 
+.. For the E2800 controller shelf, create a security key (a string of characters that is shared by the controller and drives for read and write access). 
 +
 * You can https://docs.netapp.com/us-en/e-series-santricity/sm-settings/create-internal-security-key.html[create an internal key^] from the controller's persistent memory or use an external key provided by a key management server. 
 * To use an external key provided by a key management server, you must first https://docs.netapp.com/us-en/e-series-santricity/sm-settings/overview-drive-security.html[establish authentication with a key management server^] in SANtricity System Manager.
 
-. link:deploying-appliance-storage-node.html[Start installation] of the appliance.
+.. link:deploying-appliance-storage-node.html[Start installation] of the appliance.
 
-. After appliance installation is complete, confirm that drive security was enabled for the StorageGRID flash cache and enable drive security for all remaining disk pools or volume groups (See https://docs.netapp.com/us-en/e-series-santricity/sm-storage/enable-security.html[Enable security for a pool or volume group^] in SANtricity System Manager).  
+.. After appliance installation is complete, confirm that drive security was enabled for the StorageGRID flash cache and enable drive security for all remaining disk pools or volume groups (See https://docs.netapp.com/us-en/e-series-santricity/sm-storage/enable-security.html[Enable security for a pool or volume group^] in SANtricity System Manager).  
 
 --
 
@@ -123,16 +123,16 @@ For the SG6060 storage appliance, drive security can be automatically enabled on
 --
 The SG6160 storage appliance can be equipped with FIPS-compliant drives in both the SG6100-CN compute controller and the E4000 controller shelf. Drive encryption is configured separately for the SG6100-CN drives and E4000 drives.
 
-. link:optional-enabling-node-encryption.html#drive-encryption[Enable Drive Encryption] for SED SSDs installed in the SG6100-CN compute node. 
+.. link:optional-enabling-node-encryption.html#drive-encryption[Enable Drive Encryption] for SED SSDs installed in the SG6100-CN compute node. 
 
-. Create a security key (a string of characters shared by the controller and drives for read/write access). 
+.. Create a security key (a string of characters shared by the controller and drives for read/write access). 
 +
 * You can https://docs.netapp.com/us-en/e-series-santricity/sm-settings/create-internal-security-key.html[create an internal key^] from the controller's persistent memory or use an external key provided by a key management server.
 * To use an external key provided by a key management server, you must first https://docs.netapp.com/us-en/e-series-santricity/sm-settings/overview-drive-security.html[establish authentication with a key management server^] in SANtricity System Manager.
 
-. link:deploying-appliance-storage-node.html[Start installation] of the appliance.
+.. link:deploying-appliance-storage-node.html[Start installation] of the appliance.
 
-. After install is complete, https://docs.netapp.com/us-en/e-series-santricity/sm-storage/enable-security.html[enable drive security^] in SANtricity System Manager for all disk pools or volume groups.
+.. After install is complete, https://docs.netapp.com/us-en/e-series-santricity/sm-storage/enable-security.html[enable drive security^] in SANtricity System Manager for all disk pools or volume groups.
 
 --
 ====

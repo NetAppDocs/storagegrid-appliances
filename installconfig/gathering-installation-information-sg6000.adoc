@@ -446,8 +446,6 @@ The port on the left is connected to the Admin Network. The port on the right is
 
 * link:../installconfig/reviewing-appliance-network-connections.html[Determine appliance network connections]
 
-* link:../installconfig/gathering-installation-information-sg6000.html#port-bond-modes[Port bond modes (SG6000-CN controller)]
-
 * link:cabling-appliance.html[Cable appliance]
 
 * link:../installconfig/setting-ip-configuration.html[Configure StorageGRID IP addresses]

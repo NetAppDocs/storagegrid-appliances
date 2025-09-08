@@ -53,6 +53,8 @@ entries:
       url: "/sg6000/replacing-sg6000-cn-controller.html"
     - title: Replace one or both power supplies in the SG6000-CN controller
       url: "/sg6000/replacing-one-or-both-power-supplies-in-sg6000-cn-controller.html"
+    - title: Replace fan
+      url: "/sg6000/replacing-fan-in-sg6000cn.html"
     - title: Replace CMOS battery in SG6000-CN controller
       url: "/sg6000/replace-cmos-in-sg6000cn.html"
     - title: Replace controller in rack
