@@ -12,20 +12,20 @@ summary: 'You can shut down the SGF6112 appliance and power it back on to perfor
 [.lead]
 You can shut down the SG120 or SG1200 appliance and power it back on to perform maintenance.
 
-// Same procedure for SGF6112 - unable to use includes due to specific links in steps
+// Same procedure for SG6200 - unable to use includes due to specific links in steps
 
 == Shut down the SG120 or SG1200 appliance
 
 Shut down the appliance to perform hardware maintenance.
 
+.About this task
+
+To prevent service interruptions, shut down the appliance during a scheduled maintenance window when periods of service disruption are acceptable. 
+
 .Before you begin
 
 You have link:locating-sg120-and-sg1200-in-data-center.html[physically located the appliance].
 
-
-.About this task
-
-To prevent service interruptions, shut down the appliance during a scheduled maintenance window when periods of service disruption are acceptable. 
 
 .Steps
 

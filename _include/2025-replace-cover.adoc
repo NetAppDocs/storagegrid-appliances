@@ -1,4 +1,4 @@
-// Replace cover SGF6212, SG120, SG1200
+// Replace cover SG6200-CN, SGF6212, SG120, SG1200
 // Intro, before you begin, and after you finish are in referencing topic
 == Remove cover
 
@@ -7,6 +7,8 @@
 . Wrap the strap end of an ESD wristband around your wrist and secure the clip end to a metal ground to prevent static discharge when working inside the appliance.
 . link:reinstalling-sg120-and-sg1200-into-cabinet-or-rack.html[Remove the appliance from the cabinet or rack] to access the top cover.
 . Unlock the cover latch by pressing the blue lock button on the appliance cover.
++
+*Illustration shows blue button connected to the cover latch. Users press the button (callout one (1)), and then a curved arrow shows the latch swinging up (callout two (2)).*
 . Rotate the latch up and back toward the rear of the appliance chassis until it stops; then, carefully lift the cover from the chassis and set it aside.
 
 
@@ -20,5 +22,6 @@
 +
 If the cover is not fully seated, you might not be able to slide the appliance into the rack.
 
-. Optional: Turn the blue plastic latch lock one-quarter turn in the lock direction, as shown on the latch lock, to lock it.
+. link:reinstalling-sg120-and-sg1200-into-cabinet-or-rack.html[Reinstall the appliance in the cabinet or rack].
+
 

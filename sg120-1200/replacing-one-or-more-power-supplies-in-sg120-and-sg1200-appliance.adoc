@@ -12,7 +12,13 @@ summary: 'SG120 and SG1200 appliances have two power supplies for redundancy. If
 [.lead]
 The SG120 and SG1200 appliances have two power supplies for redundancy. If one of the power supplies fails, you must replace it as soon as possible to ensure that the appliance has redundant power. Both power supplies operating in the appliance must be of the same model and wattage.
 
-// Same procedure for SGF6112 - unable to use includes due to specific links in steps.
+// Same procedure for SG6200 - unable to use includes due to specific links in steps.
+
+.About this task
+
+The figure shows the two power supply units for the SG120 and SG1200. The power supplies are accessible from the back of the appliance. 
+
+image::../media/sg120_sg1200_power_supplies.png["Back of SG120/Sg1200 with two power supplies"] 
 
 .Before you begin
 
@@ -30,11 +36,7 @@ The SG120 and SG1200 appliances have two power supplies for redundancy. If one o
 
 ** You have unpacked the replacement power supply units and ensured they are the same model and wattage.
 
-.About this task
 
-The figure shows the two power supply units for the SG120 and SG1200. The power supplies are accessible from the back of the appliance. 
-
-image::../media/sg120_sg1200_power_supplies.png["Back of SGF6112 with two power supplies"] 
 
 .Steps
 
@@ -65,13 +67,12 @@ Ensure that the blue latch is on the right side when you slide the replacement u
 You will feel a click when the power supply is locked into place. 
 
 +
-//update drawings
 image::../media/sg6000_cn_insert_power_supply.gif["Sliding power supply in"] 
 
 . Push the handle back down against the body of the PSU.
 
 . If you are replacing both power supplies, repeat steps 2 though 6 to replace the second power supply. 
-//update link
+
 . link:../installconfig/connecting-power-cords-and-applying-power.html[Connect the power cords to the replaced units and apply power].
 
 include::../_include/fru-statement.adoc[] 

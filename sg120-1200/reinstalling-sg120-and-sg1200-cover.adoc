@@ -13,7 +13,4 @@ Remove the appliance cover to access internal components for maintenance, and re
 
 include::../_include/2025-replace-cover.adoc[]
 
-.After you finish
-
-link:reinstalling-sg120-and-sg1200-into-cabinet-or-rack.html[Reinstall the appliance in the cabinet or rack].
 

@@ -12,7 +12,7 @@ summary: 'The SG120 and SG1200 services appliances contains two SSD drives. The 
 [.lead]
 The SG120 and SG1200 services appliances contain two SSD drives. The drives are mirrored using RAID1 for redundancy. If one of the drives fails, you must replace it as soon as possible to ensure redundancy. 
 
-// Similar procedure for SGF6112 - unable to use includes due to differences in configuration, not operation.
+// Similar procedure for SG6200 - unable to use includes due to differences in configuration, not operation.
 
 .Before you begin
 
@@ -42,16 +42,16 @@ Save all packing materials.
 
 . Press the release button on the failed drive.
 +
-image::../media/h600s_driveremoval.gif["Drive Removal"] 
+*Illustration of drive removal. Callout one (1) shows user pressing the release button on the drive. An arrow shows the drive handle swinging in and out. Callout two (2) shows an arrow with the drive moving out of the appliance.*
 +
 The handle on the drive springs open partially, and the drive releases from the slot.
 
 . Open the handle, slide the drive out, and place it on a static-free, level surface.
++
+NOTE: Verify the tray handle is fully open before you attempt to remove the drive.
 . Press the release button on the replacement drive before you insert it into the drive slot.
 +
 The latch springs open.
-+
-image::../media/h600s_driveinstall.gif["Drive Installation"] 
 
 . Insert the replacement drive in the slot, and then close the drive handle.
 +
