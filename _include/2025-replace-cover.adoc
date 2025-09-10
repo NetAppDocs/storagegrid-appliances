@@ -1,6 +1,6 @@
 // Replace cover SG6200-CN, SGF6212, SG120, SG1200
 // Intro, before you begin, and after you finish are in referencing topic
-== Remove cover
+== Step 1: Remove cover
 
 .Steps
 
@@ -12,7 +12,7 @@
 . Rotate the latch up and back toward the rear of the appliance chassis until it stops; then, carefully lift the cover from the chassis and set it aside.
 
 
-== Reinstall cover
+== Step 2: Reinstall cover
 
 .Steps
 
