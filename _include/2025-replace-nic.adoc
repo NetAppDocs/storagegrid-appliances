@@ -5,7 +5,7 @@
 
 [role="tabbed-block"]
 ====
-NIC 1/NIC 2
+.NIC 1/NIC 2
 --
 
 .Steps
@@ -28,7 +28,7 @@ NIC 1/NIC 2
 
 --
 
-NIC 3
+.NIC 3
 --
 
 .Steps
@@ -48,12 +48,14 @@ NIC 3
 . Place the NIC on a flat anti-static surface.
 --
 ====
+
+
 == Step 2: Reinstall the internal NIC
 Install the replacement NIC into the same location as the one that was removed.
 
 [role="tabbed-block"]
 ====
-NIC 1/NIC 2
+.NIC 1/NIC 2
 --
 
 .Steps
@@ -81,7 +83,7 @@ include::../_include/fru-statement.adoc[]
 
 --
 
-NIC 3
+.NIC 3
 --
 
 .Steps
