@@ -14,6 +14,12 @@ summary: "Learn what's new in this doc site."
 [.lead]
 Learn what's new in StorageGRID appliances.
 
+== SG120 and SG1200 services appliances
+The new StorageGRID SG120 and SG1200 services appliances are an evolutionary hardware update that provide improved administrative and load-balancing performance. Refer to link:./installconfig/hardware-description-sg120-and-1200.html[SG120 and SG1200 services appliance: Overview].
+
+== Appliance now found in NetApp Hardware Universe
+Environmental and electrical specifications for all StorageGRID appliances are now available in https://hwu.netapp.com[NetApp Hardware Universe^]. Users will have access to the most current specifications for this hardware. Refer to link:./installconfig/preparing-site.html[Prepare site].
+
 == Client Network can be configured without an IP address
 You can now enable the Client Network without specifying an IP address. This allows the Client Network to have VLAN interfaces configured in StorageGRID without requiring an extra IP address for the interface itself. Refer to link:.//installconfig/setting-ip-configuration.html[Configure StorageGRID IP addresses].
 
@@ -24,6 +30,4 @@ With StorgeGRID version 12.0, the version number of the StorageGRID Appliance In
 Detailed information about using the StorageGRID appliance BMC interface is now available. Refer to link:./commonhardware/use-bmc.html[Use the StorageGRID appliance baseboard management controller (BMC)].
 
 
-== SG120 and SG1200 services appliances
-The new StorageGRID SG120 and SG1200 services appliances are an evolutionary hardware update that provide improved administrative and load-balancing performance. Refer to link:./installconfig/hardware-description-sg120-and-1200.html[SG120 and SG1200 services appliance: Overview].
 
