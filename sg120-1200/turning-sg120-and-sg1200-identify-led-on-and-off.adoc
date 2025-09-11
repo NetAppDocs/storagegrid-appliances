@@ -11,7 +11,7 @@ summary: 'The blue identify LED on the front and rear of the appliance can be tu
 [.lead]
 The blue identify LED on the front and rear of the appliance can be turned on to help locate the appliance in a data center.
 
-include::../_include/2023-turn-identify-led-on-off.adoc[]
+include::../_include/2025-turn-identify-led-on-off.adoc[]
 
 .Related information
 

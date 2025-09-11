@@ -78,13 +78,20 @@ a|
 |===
 | Height| Width| Depth| Maximum weight
 a|
+1.70 in.
 
+(4.32 cm)
+a|
+18.98 in.
+
+(18.98 cm)
+a|
+30.56 in.
+
+(77.62 cm)
 a|
 
-a|
-
-a|
-
+*Awaiting weight information from Quanta*
 
 |===
 --

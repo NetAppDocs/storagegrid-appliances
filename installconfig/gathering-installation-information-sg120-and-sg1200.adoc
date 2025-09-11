@@ -110,14 +110,25 @@ For the SG120, choose one of the following:
 * 10 GbE
 * 25 GbE
 
-For the SG1200, choose one of the following:
+For the SG1200 with 100G NIC SKU, choose one of the following:
+
 
 * Auto (default)
 * 10 GbE
 * 25 GbE
 * 40 GbE
 * 100 GbE
-* 200 GbE
+
+*Note:* For the SG1200, 10- and 25-GbE speeds require the use of QSA adapters.
+
+For the SG1200 with 200G NIC SKU, choose one of the following:
+
+* Auto (default)
+* 10 GbE
+* 25 GbE
+* 50 GbE
+* 100 GbE
+* 200 GbE (200G NIC only)
 
 *Note:* For the SG1200, 10- and 25-GbE speeds require the use of QSA adapters.
 

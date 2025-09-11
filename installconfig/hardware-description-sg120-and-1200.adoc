@@ -21,7 +21,8 @@ Both models of the services appliance provide the following features:
 * A baseboard management controller (BMC) for monitoring and diagnosing some of the appliance hardware.
 * The ability to connect to all three StorageGRID networks, including the Grid Network, the Admin Network, and the Client Network:
  ** The SG120 supports up to four 10- or 25-GbE connections to the Grid Network and Client Network.
- ** The SG1200 supports up to four 10-, 25-, 40-, 100-, and 200-GbE connections to the Grid Network and Client Network.
+ ** The SG1200 supports up to four 10-, 25-, 40-, 100-GbE connections to the Grid Network and Client Network (or up to four 200GbE connections with optional 200G NIC).
+
 
 == SG120 and SG1200 diagrams
 
@@ -114,7 +115,8 @@ a|
 a|
 Network ports 1-4
 a|
-10/25/40/100-GbE, based on cable or transceiver type, switch speed, and configured link speed. QSFP56 (limited to 100GbE/port), QSFP28 (100GbE), and QSFP+ (40GbE) are supported natively. Optional SFP+ (10GbE) or SFP28 (25GbE) transceivers can be used with a QSA (sold separately).
+10/25/40/100/200-GbE, based on cable or transceiver type, switch speed, and configured link speed. QSFP56 (max 200GbE/port), QSFP28 (max 100GbE/port), and QSFP+ (40GbE) are supported natively (200GbE speeds require 200GbE NIC option). Optional SFP+ (10GbE) or SFP28 (25GbE) transceivers can be used with a QSA (sold separately).
+
 a|
 Connect to the Grid Network and the Client Network for StorageGRID.
 a|

@@ -105,7 +105,7 @@ h| SG1000 link speed (GbE) h| Required equipment
 |QSFP+ transceiver
 
 |100
-|QFSP28 transceiver
+|QSFP28 transceiver
 |===
 
 * On models that support Autonegotiate as a port speed option, if Fixed port bonding mode is selected you can run the ports dedicated to the StorageGRID Grid network at a different speed than the ports dedicated to the Client network.
@@ -227,7 +227,7 @@ h| SG1100 link speed (GbE) h| Required equipment
 |QSFP+ transceiver
 
 |100
-|QFSP28 transceiver
+|QSFP28 transceiver
 |===
 
 * On models that support Autonegotiate as a port speed option, if Fixed port bonding mode is selected you can run the ports dedicated to the StorageGRID Grid network at a different speed than the ports dedicated to the Client network.
@@ -297,8 +297,15 @@ image::../media/sg1200_connections.png["SG1200 port connections"]
 |2
 |Four network ports on the appliance
 |
-* For the SG120: 10/25-GbE
-* For the SG1200: 10/25/40/100/200-GbE
+For the SG120:
+
+* 10/25-GbE
+
+For the SG1200:
+
+* 10/25/40/100-GbE with 100G NIC
+* 10/25/50/100/200-GbE with 200G NIC
+
 |Connect to the Grid Network and the Client Network for StorageGRID. See link:gathering-installation-information-sg120-and-sg1200.html#port-bond-modes[Port bond modes (SG120 and SG1200)]
 
 |3
@@ -351,11 +358,14 @@ See the following table for the equipment required for your hardware and link sp
 |40
 |QSFP+ transceiver
 
-|100
-|QFSP28 transceiver
+|50
+|QSFP56 transceiver
 
-|200
-|QFSP28 transceiver
+|100
+|QSFP28 transceiver
+
+|200 (200G NIC only)
+|QSFP56 transceiver
 |===
 
 * On models that support Autonegotiate as a port speed option, if Fixed port bonding mode is selected you can run the ports dedicated to the StorageGRID Grid network at a different speed than the ports dedicated to the Client network.
