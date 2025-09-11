@@ -9,7 +9,7 @@ summary: 'The SG120 or SG1200 appliances have eight cooling fans. If one of the 
 :imagesdir: ../media/
 
 [.lead]
-The SG120 or SG1200 appliances have eight cooling fans. If one of the fans fails, you must replace it as soon as possible to ensure that the appliance has proper cooling.
+The SG120 or SG1200 appliances have seven cooling fans. If one of the fans fails, you must replace it as soon as possible to ensure that the appliance has proper cooling.
 
 .About this task
 To prevent service interruptions, confirm that all other Storage Nodes are connected to the grid before starting the fan replacement or replace the fan during a scheduled maintenance window when periods of service disruption are acceptable. See the information about https://docs.netapp.com/us-en/storagegrid/monitor/monitoring-system-health.html#monitor-node-connection-states[monitoring node connection states^].

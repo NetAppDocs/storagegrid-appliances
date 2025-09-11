@@ -115,7 +115,9 @@ a|
 a|
 Network ports 1-4
 a|
-10/25/40/100/200-GbE, based on cable or transceiver type, switch speed, and configured link speed. QSFP56 (max 200GbE/port), QSFP28 (max 100GbE/port), and QSFP+ (40GbE) are supported natively (200GbE speeds require 200GbE NIC option). Optional SFP+ (10GbE) or SFP28 (25GbE) transceivers can be used with a QSA (sold separately).
+10/25/40/100/200-GbE, based on cable or transceiver type, switch speed, and configured link speed. 
+
+QSFP56 (max 200GbE/port), QSFP28 (max 100GbE/port), and QSFP+ (40GbE) are supported natively (200GbE speeds require 200GbE NIC option). Optional SFP+ (10GbE) or SFP28 (25GbE) transceivers can be used with a QSA (sold separately).
 
 a|
 Connect to the Grid Network and the Client Network for StorageGRID.
