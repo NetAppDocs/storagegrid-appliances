@@ -24,7 +24,7 @@
 +
 *In illustration, callout one (1) shows a curved arrow for swinging the blue locking latch into open position. Callout two (2) is an arrow going back and forth for aligning and pressing the NIC into the connector.*
 
-. Place the NIC on a flat anti-static surface.
+. Place the riser and NIC on a flat anti-static surface.
 
 --
 
@@ -32,6 +32,8 @@
 --
 
 .Steps
+
+. Wrap the strap end of the ESD wristband around your wrist, and secure the clip end to a metal ground to prevent static discharge.
 
 . Rotate the blue lock on the riser with the failed NIC to the open position.
 +
@@ -45,7 +47,7 @@
 +
 *In illustration, callout one (1) shows a curved arrow for swinging the blue locking latch into open position. Callout two (2) is an arrow going back and forth for aligning and pressing the NIC card into the connector.*
 
-. Place the NIC on a flat anti-static surface.
+. Place the riser and NIC on a flat anti-static surface.
 --
 ====
 
