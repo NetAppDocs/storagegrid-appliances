@@ -105,7 +105,7 @@ Optical cables and transceivers::
 *** 25-GbE QSFP-to-SFP adapter (QSA) and SFP28 
 *** 40-GbE QSFP+
 *** 100-GbE QSFP28
-*** 200-GbE QSFP56 (200G NIC only)
+*** 200-GbE QSFP56 (200GbE NIC only)
 
 Ethernet cables:: RJ-45 (Cat5/Cat5e/Cat6/Cat6a)
 --

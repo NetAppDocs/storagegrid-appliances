@@ -72,7 +72,7 @@ Rail kit with instructions::
 +
 image::../media/rail_kit.gif["Rail kit"] 
 
-Front bezel::
+Front bezel (not shown)::
 
 
 * *Power cords*

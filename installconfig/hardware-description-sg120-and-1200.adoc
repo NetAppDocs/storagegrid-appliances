@@ -21,7 +21,7 @@ Both models of the services appliance provide the following features:
 * A baseboard management controller (BMC) for monitoring and diagnosing some of the appliance hardware.
 * The ability to connect to all three StorageGRID networks, including the Grid Network, the Admin Network, and the Client Network:
  ** The SG120 supports up to four 10- or 25-GbE connections to the Grid Network and Client Network.
- ** The SG1200 supports up to four 10-, 25-, 40-, 100-GbE connections to the Grid Network and Client Network (or up to four 200GbE connections with optional 200G NIC).
+ ** The SG1200 supports up to four 10-, 25-, 40-, 100-GbE connections to the Grid Network and Client Network (or up to four 200GbE connections with optional 200GbE NIC).
 
 
 == SG120 and SG1200 diagrams

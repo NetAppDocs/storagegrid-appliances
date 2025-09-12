@@ -20,9 +20,9 @@ Before installing an SG120 or SG1200 services appliance, confirm your StorageGRI
 [cols="1a,2a" options="header"]
 |===
 | Appliance| Required StorageGRID version
-| SG1200
-| 12.0 or later (latest hotfix recommended)
 | SG120
+| 12.0 or later (latest hotfix recommended)
+| SG1200
 | 12.0 or later (latest hotfix recommended)
 |===
 
@@ -118,7 +118,7 @@ For the SG1200, choose one of the following:
 * 25 GbE
 * 40 GbE
 * 100 GbE
-* 200 GbE (200G NIC only)
+* 200 GbE (200GbE NIC only)
 
 *Note:* For the SG1200, 10- and 25-GbE speeds require the use of QSA adapters.
 

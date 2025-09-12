@@ -269,7 +269,7 @@ You connect the management port on the appliance to the service laptop and conne
 * You have one of the following options for the network ports. These items aren't provided with the appliance.
  ** One to four TwinAx cables for connecting the four network ports.
  ** For the SG120, one to four SFP+ or SFP28 transceivers if you plan to use optical cables for the ports.
- ** For the SG1200, one to four QSFP+, QSFP28, or QSFP56 (200 NIC only) transceivers if you plan to use optical cables for the ports.
+ ** For the SG1200, one to four QSFP+, QSFP28, or QSFP56 (200GbE NIC only) transceivers if you plan to use optical cables for the ports.
 
 CAUTION: *Risk of exposure to laser radiation* -- Don't disassemble or remove any part of an SFP or QSFP transceiver. You might be exposed to laser radiation.
 
@@ -304,7 +304,7 @@ For the SG120:
 For the SG1200:
 
 * 10/25/40/100-GbE with 100G NIC
-* 10/25/50/100/200-GbE (200G NIC only)
+* 10/25/50/100/200-GbE (200GbE NIC only)
 
 |Connect to the Grid Network and the Client Network for StorageGRID. See link:gathering-installation-information-sg120-and-sg1200.html#port-bond-modes[Port bond modes (SG120 and SG1200)]
 
@@ -364,7 +364,7 @@ See the following table for the equipment required for your hardware and link sp
 |100
 |QSFP28 transceiver
 
-|200 (200G NIC only)
+|200 (200GbE NIC only)
 |QSFP56 transceiver
 |===
 
