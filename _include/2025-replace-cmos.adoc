@@ -1,11 +1,11 @@
-// Replace CMOS battery in SG6200-CN, SGF6212, SG120, SG1200
+// Replace CMOS batteries in SG6200-CN, SGF6212, SG120, SG1200
 // Intro, before you begin, about this task, and after you finish are in referencing topic
 
 .Steps
 
 . Wrap the strap end of the ESD wristband around your wrist, and secure the clip end to a metal ground to prevent static discharge.
 
-. Remove the CMOS battery.
+. Remove the first CMOS battery.
 .. Locate the CMOS battery on the system board. 
 .. Use your finger or a plastic pry tool to press the retaining clip away from the battery to spring it from the socket.
 +

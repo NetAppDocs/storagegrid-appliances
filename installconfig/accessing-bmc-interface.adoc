@@ -93,8 +93,6 @@ NOTE: If you haven't yet configured `BMC_Port_IP`, follow the instructions in li
 NOTE: The default user depends on when you installed your StorageGRID appliance. The default user is *admin* for new installations and *root* for older installations.
 
 . Select *Sign me in*.
-+
-image::../media/bmc_dashboard.gif["BMC Dashboard"] 
 
 . Optionally, create additional users by selecting *Settings* > *User Management* and clicking on any "`disabled`" user.
 +

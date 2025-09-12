@@ -53,7 +53,9 @@ The source node and target appliance can have different node-encryption settings
 +
 ** An SGF6112 node appliance without node encryption to an SGF6112 appliance with node encryption 
 ** An SG1100 node appliance without node encryption to an SG1100 appliance with node encryption 
+** An SG1200 node appliance without node encryption to an SG1200 appliance with node encryption 
 ** An SG110 node appliance without node encryption to an SG110 appliance with node encryption
+** An SG120 node appliance without node encryption to an SG120 appliance with node encryption
 
 +
 Data decryption and encryption is performed automatically during data transfer and when the target node restarts and joins the grid.

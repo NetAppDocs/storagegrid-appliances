@@ -1,8 +1,8 @@
 indexpage:
-  title: Maintain SG1200 and SG1200 services appliance hardware
-  lead: "Maintain the hardware for your SG1200 and SG1200 services appliance."
-  summary: "Maintain the hardware for your SG1200 and SG1200 services appliance."
-  keywords: maintain storagegrid sg1200, maintain storagegrid sg1200
+  title: Maintain SG120 and SG1200 services appliance hardware
+  lead: "Maintain the hardware for your SG120 and SG1200 services appliance."
+  summary: "Maintain the hardware for your SG120 and SG1200 services appliance."
+  keywords: maintain storagegrid sg120, maintain storagegrid sg1200
   tiles:
     - title: Frequently performed procedures
       links:

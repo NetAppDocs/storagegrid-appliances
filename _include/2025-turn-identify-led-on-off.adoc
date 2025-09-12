@@ -11,7 +11,7 @@ You have the BMC IP address of the appliance you want to identify.
 . Select *Server Identify*.
 +
 The current status of the identify LED is selected.
-. Select *ON* or *OFF*, and then select *Perform Action*.
+. Select *ON*, *OFF*, or *BLINK*, and then select *Perform Action*.
 +
 When you select *ON*, the blue identify LEDs light on the front and rear of the appliance.
 +
