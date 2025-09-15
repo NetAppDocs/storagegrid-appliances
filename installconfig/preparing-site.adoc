@@ -74,9 +74,12 @@ a|
 
 .SG120 and SG1200
 --
-[cols="1a,1a,1a,1a" options="header"]
+[cols="1a,1a,1a,1a,1a" options="header"]
 |===
-| Height| Width| Depth| Maximum weight
+| Appliance model| Height| Width| Depth| Maximum weight
+a|
+SG120
+
 a|
 1.70 in.
 
@@ -91,7 +94,31 @@ a|
 (77.62 cm)
 a|
 
-*Awaiting weight information from Quanta*
+42.13 lb.
+
+(19.11 kg)
+
+
+a|
+SG1200
+
+a|
+1.70 in.
+
+(4.32 cm)
+a|
+18.98 in.
+
+(48.21 cm)
+a|
+30.56 in.
+
+(77.62 cm)
+a|
+
+43.43 lb.
+
+(19.70 kg)
 
 |===
 --
