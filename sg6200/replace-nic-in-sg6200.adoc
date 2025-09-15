@@ -34,4 +34,4 @@ To prevent service interruptions, confirm that all other Storage Nodes are conne
 
 CAUTION: If you have ever used an ILM rule that creates only one copy of an object, you must replace the NIC during a scheduled maintenance window because you might temporarily lose access to those objects during this procedure. See information about https://docs.netapp.com/us-en/storagegrid/ilm/why-you-should-not-use-single-copy-replication.html[why you should not use single-copy replication^].
 
-include::../_include/2023-replace-nic.adoc[]
+include::../_include/2025-replace-nic.adoc[]

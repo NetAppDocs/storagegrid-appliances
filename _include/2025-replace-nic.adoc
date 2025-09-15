@@ -1,0 +1,121 @@
+// Replace NIC SG6200-CN, SGF6212, SG120, SG1200
+// Intro, before you begin, and about this task are in referencing topic
+
+== Step 1: Remove the NIC
+
+[role="tabbed-block"]
+====
+.NIC 1/NIC 2
+--
+
+.Steps
+
+. Wrap the strap end of the ESD wristband around your wrist, and secure the clip end to a metal ground to prevent static discharge.
+. Locate the riser assembly that contains the NIC at the rear of the appliance.
+. Rotate the blue locking latch on the riser with the failed NIC up and open.
++
+*In illustration, callout one (1) shows arrow with user lifting blue locking latch up/down. Callout two (2) shows two arrows connected to two finger holes for lifting the NIC card out of appliance (arrow goes in both directions). Callout three (3) points to the pin on the motherboard where the NIC card should line up.*
+
+. Carefully lift the riser assembly with the failed NIC upwards using the blue-marked holes. Move the riser assembly toward the front of the chassis as you lift it to allow the external connectors in its installed NIC to clear the chassis.
+
+. Place the riser on a flat anti-static surface with the metal frame side down to access the NIC.
+
+. Open the blue latch on the failed NIC and carefully remove it from the riser assembly. Rock the NIC slightly to help remove the NIC from its connector. Don't use excessive force.
++
+*In illustration, callout one (1) shows a curved arrow for swinging the blue locking latch into open position. Callout two (2) is an arrow going back and forth for aligning and pressing the NIC into the connector.*
+
+. Place the riser and NIC on a flat anti-static surface.
+
+--
+
+.NIC 3
+--
+
+.Steps
+
+. Wrap the strap end of the ESD wristband around your wrist, and secure the clip end to a metal ground to prevent static discharge.
+
+. Rotate the blue lock on the riser with the failed NIC to the open position.
++
+*In illustration, callout one (1) shows an arrow curving to untwist the locking mechanism on NIC. Arrow two (2) shows lifting the NIC at an angle. All arrows go back and forth in both directions.*
+
+. Carefully lift the riser assembly upwards using the blue-marked hole and riser edge. Move the riser assembly toward the front of the chassis as you lift it to allow the external connectors in its installed NIC to clear the chassis.
+
+. Place the riser on a flat anti-static surface with the metal frame side down to access the NIC.
+
+. Open the blue latch on the failed NIC and carefully remove it from the riser assembly. Rock the NIC slightly to help remove the NIC from its connector. Don't use excessive force.
++
+*In illustration, callout one (1) shows a curved arrow for swinging the blue locking latch into open position. Callout two (2) is an arrow going back and forth for aligning and pressing the NIC card into the connector.*
+
+. Place the riser and NIC on a flat anti-static surface.
+--
+====
+
+
+== Step 2: Reinstall the internal NIC
+Install the replacement NIC into the same location as the one that was removed.
+
+[role="tabbed-block"]
+====
+.NIC 1/NIC 2
+--
+
+.Steps
+
+. Wrap the strap end of the ESD wristband around your wrist, and secure the clip end to a metal ground to prevent static discharge.
+. Remove the replacement NIC from its packaging.
+. Install the replacement NIC into the riser assembly.
+.. Ensure the blue latch is in the open position.
++
+*In illustration, callout one (1) shows a curved arrow for swinging the blue locking latch into open position. Callout two (2) is an arrow going back and forth for aligning and pressing the IO card into the connector.*
+.. Align the NIC with its connector on the riser assembly. Carefully press the NIC into the connector until it is fully seated, and then close the blue latch.
+
+. Reinstall the riser assembly into chassis.
+.. Locate the alignment hole on the riser assembly that aligns with a guide pin on the system board to ensure correct riser assembly positioning.
++
+*In illustration, callout one (1) shows arrow with user lifting blue locking latch up/down. Callout two (2) shows two arrows connected to two finger holes for lifting the NIC card out of appliance (arrow goes in both directions). Callout three (3) points to the pin on the motherboard where the NIC card should line up.*
+
+.. Position the riser assembly in the chassis, making sure that it aligns with the connector on the system board and guide pin. 
+
+.. Carefully press the riser assembly in place along its center line, next to the blue-marked holes, until it is fully seated.
+
+. If you have no other maintenance procedures to perform in the appliance, reinstall the appliance cover, return the appliance to the rack, attach cables, and apply power.
+
+include::../_include/fru-statement.adoc[] 
+
+--
+
+.NIC 3
+--
+
+.Steps
+
+. Wrap the strap end of the ESD wristband around your wrist, and secure the clip end to a metal ground to prevent static discharge.
+. Remove the replacement NIC from its packaging.
+. Install the replacement NIC into the riser assembly.
+.. Ensure the blue latch is in the open position.
++
+*In illustration, callout one (1) shows a curved arrow for swinging the blue locking latch into open position. Callout two (2) is an arrow going back and forth for aligning and pressing the NIC into the connector.*
+
+.. Align the NIC with its connector on the riser assembly. Carefully press the NIC into the connector until it is fully seated, and then close the blue latch.
+
+. Reinstall the riser assembly into chassis.
+.. Position the riser assembly in the chassis, making sure that the edges of the riser assembly correctly align with the edges of the chassis.
++
+*Callout one (1) shows an arrow curving to untwist the locking mechanism on NIC. Arrow two (2) shows lifting the NIC at an angle. All arrows go back and forth in both directions.*
+
+.. Carefully press the riser assembly in place along its center line, next to the blue-marked hole, until it is fully seated.
+.. Rotate the blue lock on the riser to the closed position.
+
+. Remove the protective caps from the NIC ports where you will be reinstalling cables.
+
+
+. If you have no other maintenance procedures to perform in the appliance, reinstall the appliance cover, return the appliance to the rack, attach cables, and apply power.
+
+include::../_include/fru-statement.adoc[]
+
+--
+====
+
+
+

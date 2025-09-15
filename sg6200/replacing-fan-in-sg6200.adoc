@@ -36,7 +36,7 @@ NOTE: Each of the two power supply units also contain a fan. The power supply fa
 
 image::../media/sgf6212_fan_fru.png["Fan FRU"] 
 
-include::../_include/2023-replace-fan.adoc[]
+include::../_include/2025-replace-fan.adoc[]
 
 .After you finish
 

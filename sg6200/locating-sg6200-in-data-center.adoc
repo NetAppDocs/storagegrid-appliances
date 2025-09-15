@@ -17,7 +17,7 @@ Locate the appliance so that you can perform hardware maintenance or upgrades.
 
 * To help locate the appliance in your data center, link:turning-sg6200-identify-led-on-and-off.html[turn on the blue identify LED].
 
-include::../_include/2023-locate-appliance.adoc[]
+include::../_include/2025-locate-appliance.adoc[]
 
 .After you finish
 
