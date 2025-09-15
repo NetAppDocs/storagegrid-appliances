@@ -49,7 +49,7 @@ Contact your network or DHCP-server administrator to update the permanent DHCP l
 IMPORTANT: To prevent degraded performance, don't twist, fold, pinch, or step on the cables.
 
  .. link:reinstalling-sg120-and-sg1200-into-cabinet-or-rack.html[Remove the failed appliance from the cabinet or rack].
- .. Note the position of the replaceable components (two power supplies, eight cooling fans, three NICs, and two SSDs) in the failed appliance.
+ .. Note the position of the replaceable components (two power supplies, seven cooling fans, three NICs, and two SSDs) in the failed appliance.
 +
 The two drives are in the following positions in the chassis (front of chassis with bezel removed shown): 
 +
