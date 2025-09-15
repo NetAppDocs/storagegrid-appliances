@@ -30,6 +30,8 @@ entries:
         url: "/installconfig/gathering-installation-information-sg6000.html"
       - title: SG6100
         url: "/installconfig/gathering-installation-information-sg6100.html"
+      - title: SG6200
+        url: "/installconfig/gathering-installation-information-sg6200.html"
   - title: 'Automate appliance installation and configuration'
     url: "/installconfig/automating-appliance-installation-and-configuration.html"
   - title: Automate StorageGRID configuration
@@ -75,6 +77,17 @@ entries:
           url: "/installconfig/installing-appliance-in-cabinet-or-rack-sgf6112.html"
         - title: 'Install SG6100-CN controller (SG6160)'
           url: "/installconfig/sg6100-cn-installing-into-cabinet-or-rack.html"
+      - title: SG6200
+        entries:
+        - title: Overview
+          pdf-filename: Install SG6200 into cabinet or rack
+          url: "/installconfig/installing-hardware-sg6200.html"
+        - title: 'Install 60-drive shelves (SG6260)'
+          url: "/installconfig/sg6260-installing-60-drive-shelves-into-cabinet-or-rack.html"
+        - title: Install 12-drive shelves (SGF6212)
+          url: "/installconfig/installing-appliance-in-cabinet-or-rack-sgf6212.html"
+        - title: 'Install SG6200-CN controller (SG6260)'
+          url: "/installconfig/sg6200-cn-installing-into-cabinet-or-rack.html"
     - title: Cable appliance
       url: "/installconfig/cabling-appliance.html"
     - title: Connect and apply power
@@ -99,9 +112,9 @@ entries:
         url: "/installconfig/verifying-network-connections.html"
       - title: Verify port-level network connections
         url: "/installconfig/verifying-port-level-network-connections.html"
-    - title: 'Set up SANtricity System Manager (SG5700, SG5800, SG6000, and SG6100)'
+    - title: 'Set up SANtricity System Manager (SG5700, SG5800, SG6000, SG6160, and SG6260)'
       url: "/installconfig/accessing-and-configuring-santricity-system-manager.html"
-    - title: 'Configure BMC interface (SG100, SG110, SG1000, SG1100, SG6000, and SG6100)'
+    - title: 'Configure BMC interface (SG100, SG110, SG1000, SG1100, SG6000, SG6100, and SG6200)'
       entries:
       - title: Overview
         url: "/installconfig/configuring-bmc-interface.html"
@@ -117,7 +130,7 @@ entries:
         url: "/installconfig/setting-up-email-notifications-for-alerts.html"
     - title: 'Optional: Enable node or drive encryption'
       url: "/installconfig/optional-enabling-node-encryption.html"
-    - title: 'Optional: Change RAID mode (SG5760, SG5860, SG6000, and SG6160)'
+    - title: 'Optional: Change RAID mode (SG5760, SG5860, SG6000, SG6160, and SG6260)'
       url: "/installconfig/optional-changing-raid-mode.html"
     - title: 'Optional: Remap network ports'
       url: "/installconfig/optional-remapping-network-ports-for-appliance.html"
@@ -140,3 +153,5 @@ entries:
       url: "/installconfig/troubleshooting-hardware-installation.html"
     - title: 'Troubleshoot installation (SG5800 or SG6100)'      
       url: "/installconfig/troubleshooting-hardware-installation-sg6100.html"
+    - title: 'Troubleshoot installation (SG6200)'      
+      url: "/installconfig/troubleshooting-hardware-installation-sg6200.html"
