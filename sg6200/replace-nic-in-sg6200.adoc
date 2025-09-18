@@ -11,17 +11,15 @@ summary: 'You might need to replace a Network Interface Card \(NIC\) in the SGF6
 [.lead]
 You might need to replace an internal Network Interface Card (NIC) in the SGF6212 or SG6200-CN if it is not functioning optimally or if it has failed.
 
-Use these procedures to: 
 
-* Remove the NIC
-* Reinstall the NIC
+.About this task
+To prevent service interruptions, confirm that all other Storage Nodes are connected to the grid before starting the Network Interface Card (NIC) replacement or replace the NIC during a scheduled maintenance window when periods of service disruption are acceptable. See the information about https://docs.netapp.com/us-en/storagegrid/monitor/monitoring-system-health.html#monitor-node-connection-states[monitoring node connection states^].
 
-== Remove the internal NIC
+CAUTION: If you have ever used an ILM rule that creates only one copy of an object, you must replace the NIC during a scheduled maintenance window because you might temporarily lose access to those objects during this procedure. See information about https://docs.netapp.com/us-en/storagegrid/ilm/why-you-should-not-use-single-copy-replication.html[why you should not use single-copy replication^].
 
 .Before you begin
 
 * You have the correct replacement NIC.
-* You have determined the link:verify-component-to-replace.html[location of the NIC to replace].
 
 * You have link:locating-sg6200-in-data-center.html[physically located the SGF6212 appliance or SG6200-CN controller] where you are replacing the NIC in the data center.
 +
@@ -29,9 +27,10 @@ NOTE: A link:power-sg6200-off-on.html#shut-down-the-sgf6212-appliance-or-sg6200-
 
 * You have disconnected all cables and link:reinstalling-sg6200-cover.html[removed the appliance cover].
 
-.About this task
-To prevent service interruptions, confirm that all other Storage Nodes are connected to the grid before starting the Network Interface Card (NIC) replacement or replace the NIC during a scheduled maintenance window when periods of service disruption are acceptable. See the information about https://docs.netapp.com/us-en/storagegrid/monitor/monitoring-system-health.html#monitor-node-connection-states[monitoring node connection states^].
-
-CAUTION: If you have ever used an ILM rule that creates only one copy of an object, you must replace the NIC during a scheduled maintenance window because you might temporarily lose access to those objects during this procedure. See information about https://docs.netapp.com/us-en/storagegrid/ilm/why-you-should-not-use-single-copy-replication.html[why you should not use single-copy replication^].
+* You have determined the link:verify-component-to-replace.html[location of the NIC to replace].
++
+The three NICs in the appliance are in three riser assemblies in the following positions in the chassis (rear of appliance with top cover removed shown): 
++
+*Image of HIC/riser locations numbered 1-3.*
 
 include::../_include/2025-replace-nic.adoc[]

@@ -16,9 +16,9 @@ To increase storage capacity, you can add one or two expansion shelves to an SG6
 * You must have the provisioning passphrase.
 * You must be running StorageGRID 11.8 or later.
 * You have the expansion shelf and two SAS cables for each expansion shelf.
-* You have physically located the storage appliance where you are adding the expansion shelf in the data center.
-+
-link:locating-sg6200-in-data-center.html[Locate controller in data center]
+* You have link:locating-sg6200-in-data-center.html[physically located the controller] where you are adding the expansion shelf in the data center.
+
+
 
 .About this task
 
