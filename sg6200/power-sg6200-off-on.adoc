@@ -2,7 +2,7 @@
 permalink: sg6200/power-sg6200-off-on.html
 sidebar: sidebar
 keywords: storagegrid, sgf6212, sg6200, power off, turn off, shut off, shutdown, shut down, power on, turn on, start
-summary: 'You can shut down the sg6200 appliance and power it back on to perform maintenance.'
+summary: 'You can shut down the SG6200 appliance and power it back on to perform maintenance.'
 ---
 = Power SGF6212 appliance or SG6200-CN controller off and on
 :icons: font
@@ -17,14 +17,14 @@ You can shut down the SGF6212 appliance or SG6200-CN controller and power them b
 
 Shut down the appliance to perform hardware maintenance.
 
+.About this task
+
+To prevent service interruptions, shut down the appliance during a scheduled maintenance window when periods of service disruption are acceptable. 
+
 .Before you begin
 
 You have link:locating-sg6200-in-data-center.html[physically located the appliance].
 
-
-.About this task
-
-To prevent service interruptions, shut down the appliance during a scheduled maintenance window when periods of service disruption are acceptable. 
 
 .Steps
 
