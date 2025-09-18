@@ -345,25 +345,31 @@ a|
 SGF6212 appliance
 
 a|
-
+1.70 in.
+(4.32 cm)
 a|
-
+18.98 in.
+(48.21 cm)
 a|
-
+30.56 in.
+(77.62 cm)
 a|
-
-
+55.98 lb.
+(25.39 kg)
 a|
 SG6200-CN compute controller (SG6260)
 a|
-
+1.70 in.
+(4.32 cm)
 a|
-
+18.98 in.
+(48.21 cm)
 a|
-
+30.56 in.
+(77.62 cm)
 a|
-
-
+44.0 lb.
+(19.70 kg)
 a|
 E4060 controller shelf (SG6260)
 a|

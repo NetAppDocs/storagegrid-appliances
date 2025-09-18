@@ -153,4 +153,27 @@ RJ-45 (Cat5/Cat5e/Cat6/Cat6a)
 Optional tools::
 Mechanized lift for 60-drive shelves
 --
+
+.SG6200
+--
+You need the following additional equipment to install and configure the SG6100 hardware.
+
+Cables and transceivers::
+
+* Cables, 1 to 4 of either:
+** TwinAx/Copper
+** Fibre/Optical
+
+* Transceivers/adapters, 1 to 8 of each, based on link speed (mixed speeds aren't supported):
+** 10-GbE SFP+ 
+** 25-GbE SFP28 
+** 100-GbE QSFP28
+** 200-GbE QSFP56 (200 GbE NIC only)
+
+Ethernet cables::
+RJ-45 (Cat5/Cat5e/Cat6/Cat6a)
+
+Optional tools::
+Mechanized lift for 60-drive shelves
+--
 ====
