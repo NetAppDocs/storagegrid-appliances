@@ -17,6 +17,7 @@ You can access the BMC interface using the DHCP or static IP address for the BMC
 * SG1100
 * SG6000
 * SG6100
+* SG6200
 
 .Before you begin
 
@@ -63,6 +64,17 @@ _SG6100-CN_:
 
 image::../media/sg6100_cn_bmc_management_port.png["BMC management port SG610-CN"] 
 --
+
+.SG6200
+--
+_SGF6212_:
+
+image::../media/sgf6212_bmc_management_port.png["BMC management port SGF6212"] 
+
+_SG6200-CN_:
+
+image::../media/sg6200_cn_bmc_management_port.png["BMC management port SG6200-CN"] 
+--
 ====
 
 .Steps
@@ -82,8 +94,6 @@ NOTE: If you haven't yet configured `BMC_Port_IP`, follow the instructions in li
 NOTE: The default user depends on when you installed your StorageGRID appliance. The default user is *admin* for new installations and *root* for older installations.
 
 . Select *Sign me in*.
-+
-image::../media/bmc_dashboard.gif["BMC Dashboard"] 
 
 . Optionally, create additional users by selecting *Settings* > *User Management* and clicking on any "`disabled`" user.
 +

@@ -1,7 +1,7 @@
 ---
 permalink: installconfig/troubleshooting-hardware-installation-sg6200.html
 sidebar: sidebar
-keywords: storagegrid, sg6200, sgf6212, troubleshoot, troubleshooting, hardware, install, installation, boot codes, boot-up codes, start codes, codes, boot, start, bmc, error codes, setup, hang, hangs, fails, failure, stop, terminate, terminates, stuck, connection, sg6160, e4000
+keywords: storagegrid, sg6200, sgf6212, troubleshoot, troubleshooting, hardware, install, installation, boot codes, boot-up codes, start codes, codes, boot, start, bmc, error codes, setup, hang, hangs, fails, failure, stop, terminate, terminates, stuck, connection, sg6260, e4000
 summary: 'If you encounter issues during the installation, you might find it helpful to review troubleshooting information related to hardware setup and connectivity issues.'
 ---
 = Troubleshoot hardware installation (SG6200)
@@ -11,7 +11,7 @@ summary: 'If you encounter issues during the installation, you might find it hel
 [.lead]
 If you encounter issues during the installation, you might find it helpful to review troubleshooting information related to hardware setup and connectivity issues.
 
-== [[view-boot-codes]]View boot-up codes (SGF6212 and SG6160 only)
+== [[view-boot-codes]]View boot-up codes (SGF6212 and SG6260 only)
 
 When you apply power to the appliance, the BMC logs a series of boot-up codes. You can view these codes on a graphical console that is connected to the BMC management port.
 
@@ -90,7 +90,7 @@ NOTE: In some cases the default username might be 'root' instead of 'admin'.
 
 | HE
 |
-For the SG6160 only:
+For the SG6260 only:
 
 The system is awaiting connectivity with the storage controllers and synchronizing with the SANtricity operating system.
 
@@ -110,7 +110,7 @@ The system is awaiting connectivity with the storage controllers and synchronizi
 | StorageGRID is running.
 |===
 
-== [[view-error-codes]]View error codes (SGF6212 and SG6160 only)
+== [[view-error-codes]]View error codes (SGF6212 and SG6260 only)
 
 If a hardware error occurs when the appliance is booting up, the BMC logs an error code. As required, you can view these error codes using the appliance serial port, and then work with technical support to resolve the issue.
 
@@ -341,7 +341,7 @@ The StorageGRID Appliance Installer might not be available if hardware faults or
 
 == Connection issues
 
-=== Expansion shelves don't appear in Appliance Installer (SG6160)
+=== Expansion shelves don't appear in Appliance Installer (SG6260)
 
 If you have installed expansion shelves and they don't appear in the StorageGRID Appliance Installer, you should verify that the shelves have been completely installed and powered on.
 

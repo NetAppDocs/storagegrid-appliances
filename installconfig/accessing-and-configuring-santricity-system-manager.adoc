@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storage node, storage appliance, SANtricity System Manager, SANtricity, System Manager, configure, configuring, setup, set up, setting up, access, accessing, E-Series AutoSupport, autosupport, configure, configuring, setup, set up, setting up, access, accessing, hardware, status, diagnostic, environment drives, drive, temperature, IP, IP address, management port, Appliance Installer
 summary: 'You can use SANtricity System Manager to monitor the status of the storage controllers, storage disks, and other hardware components in the storage controller shelf. You can also configure a proxy for E-Series AutoSupport that enables you to send AutoSupport messages from the appliance without the use of the management port.'
 ---
-= Configure SANtricity System Manager (SG6160, SG6000, SG5700, and SG5800)
+= Configure SANtricity System Manager (SG6260, SG6160, SG6000, SG5700, and SG5800)
 :icons: font
 :imagesdir: ../media/
 
@@ -124,6 +124,23 @@ For the SG6060 storage appliance, drive security can be automatically enabled on
 The SG6160 storage appliance can be equipped with FIPS-compliant drives in both the SG6100-CN compute controller and the E4000 controller shelf. Drive encryption is configured separately for the SG6100-CN drives and E4000 drives.
 
 .. link:optional-enabling-node-encryption.html#drive-encryption[Enable Drive Encryption] for SED SSDs installed in the SG6100-CN compute node. 
+
+.. Create a security key (a string of characters shared by the controller and drives for read/write access). 
++
+* You can https://docs.netapp.com/us-en/e-series-santricity/sm-settings/create-internal-security-key.html[create an internal key^] from the controller's persistent memory or use an external key provided by a key management server.
+* To use an external key provided by a key management server, you must first https://docs.netapp.com/us-en/e-series-santricity/sm-settings/overview-drive-security.html[establish authentication with a key management server^] in SANtricity System Manager.
+
+.. link:deploying-appliance-storage-node.html[Start installation] of the appliance.
+
+.. After install is complete, https://docs.netapp.com/us-en/e-series-santricity/sm-storage/enable-security.html[enable drive security^] in SANtricity System Manager for all disk pools or volume groups.
+
+--
+
+.SG6260
+--
+The SG6260 storage appliance can be equipped with FIPS-compliant drives in both the SG6200-CN compute controller and the E4000 controller shelf. Drive encryption is configured separately for the SG6200-CN drives and E4000 drives.
+
+.. link:optional-enabling-node-encryption.html#drive-encryption[Enable Drive Encryption] for SED SSDs installed in the SG6200-CN compute node.
 
 .. Create a security key (a string of characters shared by the controller and drives for read/write access). 
 +
