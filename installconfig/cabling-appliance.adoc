@@ -814,13 +814,13 @@ You connect the management port on the appliance to the service laptop and conne
 ** SG6200 only: Up to four additional RJ-45 Ethernet cables for the optional ports you plan to use, including the second Admin port and the BMC port on the SG6200-CN, and the maintenance ports on each of the two E4000 controllers.
 * You have one of the following options for the network ports. These items aren't provided with the appliance.
  ** One to four TwinAx cables for connecting the four network ports.
- ** One to eight SFP+ or SFP28 transceivers if you plan to use optical cables for the ports.
+ ** One to eight SFP+, SFP28, QSFP28, or QSFP56 transceivers if you plan to use optical cables for the ports.
 
 CAUTION: *Risk of exposure to laser radiation* -- Don't disassemble or remove any part of an SFP transceiver. You might be exposed to laser radiation.
 
 .About this task
 
-The following figures show the ports on the back of the SGF6112 and the three controllers in the SG6200 appliance. The SG6200 appliance includes a SG6200-CN compute controller on top and two E4000 storage controllers on the bottom.
+The following figures show the ports on the back of the SGF6212 and the three controllers in the SG6200 appliance. The SG6200 appliance includes a SG6200-CN compute controller on top and two E4000 storage controllers on the bottom.
 
 
 SGF6212 connections:
