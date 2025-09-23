@@ -1,7 +1,7 @@
 ---
 permalink: sg6200/reinstalling-sg6200-into-cabinet-or-rack.html
 sidebar: sidebar
-keywords: storagegrid, sgf6212, storage node, storage appliance, install, installing, installation, cabinet, rack
+keywords: storagegrid, sgf6212, sg6200, sg6200cn, storage node, storage appliance, install, installing, installation, cabinet, rack
 summary: 'Remove the SGF6212 from a cabinet or rack to access the top cover or to move the appliance to a different location, then reinstall the appliance into a cabinet or rack when hardware maintenance is complete.'
 ---
 = Relocate SGF6212 or SG6200-CN in cabinet or rack
@@ -11,7 +11,7 @@ summary: 'Remove the SGF6212 from a cabinet or rack to access the top cover or t
 [.lead]
 Remove the SGF6212 or SG6200-CN from a cabinet or rack to access the top cover or to move the appliance to a different location, then reinstall the appliance into a cabinet or rack when hardware maintenance is complete.
 
-// Same procedure for SG110 and SG1100 - unable to use includes due to specific links in steps.
+// Same procedure for SG120 and SG1200 - unable to use includes due to specific links in steps.
 
 [#remove-from-rack]
 == Remove SGF6212 or SG6200-CN from cabinet or rack
@@ -35,7 +35,7 @@ NOTE: To prevent degraded performance, don't twist, fold, pinch, or step on the 
 
 . Loosen the two captive screws on the appliance front panel.
 +
-image::../media/sg6060_rack_retaining_screws.png["SGF6212 or SG6200-CN rack retaining screws"] 
+image::../media/s25_rack_retaining_screws.png["SGF6212 or SG6200-CN rack retaining screws"] 
 
 . Slide the SGF6212 or SG6200-CN forward out of the rack until the mounting rails are fully extended and you hear the latches on both sides click.
 +
@@ -54,7 +54,7 @@ You have link:reinstalling-sg6200-cover.html[reinstalled the appliance cover].
 
 .Steps
 
-. Press the blue rail releases both rack rails at the same time and slide the SGF6212 into the rack until it is fully seated.
+. Press the blue rail releases both rack rails at the same time and slide the SGF6212 or SG6200-CN into the rack until it is fully seated.
 +
 When you can't move the controller any further, pull the blue latches on both sides of the chassis to slide the controller all the way in.
 +
@@ -64,7 +64,7 @@ NOTE: Don't attach the front bezel until after you power on the controller.
 
 . Tighten the captive screws on the controller front panel to secure the controller in the rack.
 +
-image::../media/sg6060_rack_retaining_screws.png["SG6060 rack retaining screws"] 
+image::../media/s25_rack_retaining_screws.png["SG6060 rack retaining screws"] 
 
 . Wrap the strap end of the ESD wristband around your wrist, and secure the clip end to a metal ground to prevent static discharge.
 . link:../installconfig/cabling-appliance.html[Reconnect the controller data cables and any SFP+ or SFP28 transceivers].

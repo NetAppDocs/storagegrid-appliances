@@ -11,10 +11,11 @@ summary: 'You might need to replace a Network Interface Card \(NIC\) in the SG62
 [.lead]
 You might need to replace an external Network Interface Card (NIC) in the SG6200-CN if it is not functioning optimally or if it has failed.
 
-Use these procedures to: 
+.About this task
 
-* Remove the NIC
-* Reinstall the NIC
+To prevent service interruptions, confirm that all other Storage Nodes are connected to the grid before started the Network Interface Card (NIC) replacement or replace the NIC during a scheduled maintenance window when periods of service disruption are acceptable. See information about link:https://docs.netapp.com/us-en/storagegrid/monitor/monitoring-system-health.html#monitor-node-connection-states[montioring node connection states].
+
+CAUTION: If you have ever used an ILM rule that creates only one copy of an object, you must replace the NIC during a scheduled maintenance window because you might temporarily lose access to those objects during this procedure. See information about link:https://docs.netapp.com/us-en/storagegrid/ilm/why-you-should-not-use-single-copy-replication.html[why you should not use single-copy replication].
 
 .Before you begin
 
@@ -31,13 +32,7 @@ NOTE: Hot-swapping is *not* supported for this procedure. A link:power-sg6200-of
 * *Optional*: You have removed the controller from the rack if required by local regulations. Removal is not required as the the NIC is externally accessible.
 
 
-.About this task
-
-To prevent service interruptions, confirm that all other Storage Nodes are connected to the grid before started the Network Interface Card (NIC) replacement or replace the NIC during a scheduled maintenance window when periods of service disruption are acceptable. See information about link:https://docs.netapp.com/us-en/storagegrid/monitor/monitoring-system-health.html#monitor-node-connection-states[montioring node connection states].
-
-CAUTION: If you have ever used an ILM rule that creates only one copy of an object, you must replace the NIC during a scheduled maintenance window because you might temporarily lose access to those objects during this procedure. See information about link:https://docs.netapp.com/us-en/storagegrid/ilm/why-you-should-not-use-single-copy-replication.html[why you should not use single-copy replication].
-
-== Remove the external NIC
+== Step 1: Remove the external NIC
 
 .Steps
 
@@ -47,7 +42,7 @@ CAUTION: If you have ever used an ILM rule that creates only one copy of an obje
 CAUTION: Hot-swapping is *not* supported for this procedure. The controller must be disconnected from power before removing the NIC.
 . Carefully remove the NIC by pulling on the faceplate handle. Place the NIC on a flat, anti-static surface.
 
-== Reinstall the external NIC
+== Step 2: Reinstall the external NIC
 
 .Steps
 

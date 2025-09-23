@@ -20,8 +20,6 @@ The appliance node will not be accessible while you replace the fan.
 
 NOTE: Each of the two power supply units also contain a fan. The power supply fans aren't included in this procedure.
 
-image::../media/sgf6212_fan_fru.png["Fan FRU"] 
-
 .Before you begin
 
 * You have the correct replacement fan.

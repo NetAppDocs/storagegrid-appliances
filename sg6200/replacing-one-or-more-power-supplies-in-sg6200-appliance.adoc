@@ -11,7 +11,16 @@ summary: 'The SGF6212 appliance and SG6200-CN compute node have two power suppli
 [.lead]
 The SGF6212 appliance and SG6200-CN compute node have two power supplies for redundancy. If one of the power supplies fails, you must replace it as soon as possible to ensure that the appliance has redundant power. Both power supplies operating in the appliance must be of the same model and wattage.
 
-// Same procedure for SG110 and SG1100 - unable to use includes due to specific links in steps.
+// Same procedure for SG120 and SG1200 - unable to use includes due to specific links in steps.
+
+.About this task
+
+The figure shows the location of the two power supply units. The power supplies are accessible from the back of the appliance. 
+
+image::../media/sgf6212_power_supplies.png["Back of SGF6212 or SG6200-CN with two power supplies"] 
++
+NOTE: The image shows the SGF6212 appliance, but the power supplies are located in the same position on the SG6200-CN compute node.
+
 
 .Before you begin
 
@@ -29,11 +38,7 @@ The SGF6212 appliance and SG6200-CN compute node have two power supplies for red
 
 ** You have unpacked the replacement power supply units and ensured they are the same model and wattage.
 
-.About this task
 
-The figure shows the two power supply units for the SGF6212 appliance or SG6200-CN compute node. The power supplies are accessible from the back of the appliance. 
-
-image::../media/sgf6212_power_supplies.png["Back of SGF6212 or SG6200-CN with two power supplies"] 
 
 .Steps
 

@@ -33,7 +33,7 @@ Save all packing materials.
 
 . Press the release button on the failed drive.
 +
-image::../media/h600s_driveremoval.gif["Drive Removal"] 
+*Illustration of drive removal. Callout one (1) shows user pressing the release button on the drive. An arrow shows the drive handle swinging in and out. Callout two (2) shows an arrow with the drive moving out of the appliance.*
 +
 The handle on the drive springs open partially, and the drive releases from the slot.
 
@@ -41,8 +41,6 @@ The handle on the drive springs open partially, and the drive releases from the 
 . Press the release button on the replacement drive before you insert it into the drive slot.
 +
 The latch springs open.
-+
-image::../media/h600s_driveinstall.gif["Drive Installation"] 
 
 . Insert the replacement drive in the slot, and then close the drive handle.
 +

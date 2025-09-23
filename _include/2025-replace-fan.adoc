@@ -50,10 +50,5 @@ Fan_SYS6
 Align the connector on the fan with the socket in the circuit board.
 +
 . Press the fan's connector firmly into the circuit board.
-. link:reinstalling-sg120-and-sg1200-cover.html[Put the top cover back on the appliance], and press the latch down to secure the cover in place.
-. link:power-sg120-and-sg1200-off-on.html[Power on the appliance] and monitor the appliance LEDs and boot-up codes.
-+
-Use the BMC interface to monitor boot-up status.
 
-. Confirm that the appliance node appears in the Grid Manager and that no alerts appear.
 
