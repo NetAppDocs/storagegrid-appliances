@@ -398,7 +398,7 @@ Expansion shelf with no drives installed::
 +
 image::../media/de460c_table_size.gif["E4000 4U controller"] 
 
-Front bezel::
+Front bezel (Not shown)::
 
 60 NL-SAS drives::
 +
@@ -427,7 +427,7 @@ Rail kit with instructions::
 +
 image::../media/rail_kit.gif["Rail kit"] 
 
-Front bezel::
+Front bezel (Not shown)::
 
 
 * *Power cords*

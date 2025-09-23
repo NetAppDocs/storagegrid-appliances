@@ -97,7 +97,7 @@ The E-Series DE460C enclosure is a 4U shelf that includes:
 
 This figure shows the front of the SGF6212 without the bezel. The appliance includes a 1U compute and storage platform that contains 12 SSD drives. 
 
-image::../media/sgf6212_front_with_ssds.png["SGF6212 Front View"] 
+image::../media/s25_front_with_ssds.png["SGF6212 Front View"] 
 
 === SGF6212 rear view
 
@@ -111,7 +111,7 @@ image::../media/sgf6212_rear_view.png["SGF6212 Rear View"]
 
 | 1
 | Network ports 1-4
-| 10/25-GbE, based on cable or SFP transceiver type (SFP28 and SFP+ modules are supported), switch speed, and configured link speed.  
+| 10/25/100/200-GbE, based on cable or SFP transceiver type (SFP28 and SFP+ modules are supported), switch speed, and configured link speed.  
 | Connect to the Grid Network and the Client Network for StorageGRID.
 
 | 2
@@ -146,7 +146,7 @@ image::../media/sgf6212_rear_view.png["SGF6212 Rear View"]
 
 This figure shows the location of the power supply and identify LEDs on the rear of the SGF6212. Additional status and activity LEDs are on the appliance ports. These LEDs might vary by appliance model.
 
-image::../media/q2024_rear_leds.png["Rear LEDs SGF6212"] 
+image::../media/s25_rear_leds.png["Rear LEDs SGF6212"] 
 
 include::../_include/rear-leds-q.adoc[]
 
