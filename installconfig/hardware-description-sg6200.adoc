@@ -111,7 +111,9 @@ image::../media/sgf6212_rear_view.png["SGF6212 Rear View"]
 
 | 1
 | Network ports 1-4
-| 10/25/100/200-GbE, based on cable or SFP transceiver type (SFP28 and SFP+ modules are supported), switch speed, and configured link speed.  
+| 10/25/40/100/200-GbE, based on cable or transceiver type, switch speed, and configured link speed. 
+
+QSFP56 (max 200GbE/port), QSFP28 (max 100GbE/port), and QSFP+ (40GbE) are supported natively (200GbE speeds require 200GbE NIC option). Optional SFP+ (10GbE) or SFP28 (25GbE) transceivers can be used with a QSA (sold separately).
 | Connect to the Grid Network and the Client Network for StorageGRID.
 
 | 2
@@ -122,10 +124,9 @@ image::../media/sgf6212_rear_view.png["SGF6212 Rear View"]
 | 3
 | Diagnostic and support ports
 | 
-* VGA
-* USB
+* Mini display port
+* USB 3.0 port
 * Micro-USB console port
-* Micro-SD slot module
 
 | Reserved for technical support use.
 
@@ -221,8 +222,8 @@ image::../media/sg6200_cn_rear_connectors.png["SG6200-CN Rear Connectors"]
 
 | 1
 | Network ports 1-4
-| * 10/25-GbE based on cable or SFP transceiver type (SFP28 and SFP+ modules are supported), switch speed, and configured link speed.
-* With optional 100G NIC SKU (SG6260 only), 10/25/40/100-GbE based on cable or transceiver type, switch speed, and configured link speed. QSFP56 (limited to 100GbE/port), QSFP28 (100GbE), and QSFP+ (40GbE) are supported natively. Optional SFP+ (10GbE) or SFP28 (25GbE) transceivers can be used with a QSA (sold separately).
+| 10/25/40/100/200-GbE, based on cable or transceiver type, switch speed, and configured link speed. 
+QSFP56 (max 200GbE/port), QSFP28 (max 100GbE/port), and QSFP+ (40GbE) are supported natively (200GbE speeds require 200GbE NIC option). Optional SFP+ (10GbE) or SFP28 (25GbE) transceivers can be used with a QSA (sold separately).
 | Connect to the Grid Network and the Client Network for StorageGRID.
 
 | 2
@@ -233,10 +234,9 @@ image::../media/sg6200_cn_rear_connectors.png["SG6200-CN Rear Connectors"]
 | 3
 | Diagnostic and support ports
 | 
-* VGA
-* USB
+* Mini display port
+* USB 3.0 port
 * Micro-USB console port
-* Micro-SD slot module
 
 | Reserved for technical support use.
 

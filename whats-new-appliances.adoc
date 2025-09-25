@@ -14,6 +14,13 @@ summary: "Learn what's new in this doc site."
 [.lead]
 Learn what's new in StorageGRID appliances.
 
+== SGF6212 appliance
+
+The new StorageGRID SGF6212 storage appliance features a compact design with compute controller and storage controller integrated into a 1U chassis. The appliance supports 12 SSD NVMe drives in a RAID that provides resilient object storage. See link:installconfig/hardware-description-sg6100.html[SGF6112 appliance: Overview].
+
+== SG6260 appliance
+The new StorageGRID SG6260 appliance includes a compute controller and a storage controller shelf that contains two storage controllers and 60 drives, as well as two NVMe SSD drives for caching. Optionally, 60-drive expansion shelves can be added to the SG6260. Refer to link:./installconfig/hardware-description-sg6200.html[SGF6200 appliances: Overview] to learn more.
+
 == Client Network can be configured without an IP address
 You can now enable the Client Network without specifying an IP address. This allows the Client Network to have VLAN interfaces configured in StorageGRID without requiring an extra IP address for the interface itself. Refer to link:.//installconfig/setting-ip-configuration.html[Configure StorageGRID IP addresses].
 
@@ -23,12 +30,6 @@ With StorgeGRID version 12.0, the version number of the StorageGRID Appliance In
 == BMC information
 Detailed information about using the StorageGRID appliance BMC interface is now available. Refer to link:./commonhardware/use-bmc.html[Use the StorageGRID appliance baseboard management controller (BMC)].
 
-== SG5812 and SG5860 appliances
-The StorageGRID SG5812 and SG5860 appliances are integrated storage and computing platforms that operate as Storage Nodes in a StorageGRID grid. Refer to the link:./installconfig/hardware-description-sg5800.html[SG5800 appliances: Overview] to learn more.
 
-== SG6160 appliance
-The new StorageGRID SG6160 appliance includes a compute controller and a storage controller shelf that contains two storage controllers and 60 drives, as well as two NVMe SSD drives for caching. Optionally, 60-drive expansion shelves can be added to the SG6160. Refer to link:./installconfig/hardware-description-sg6100.html[SGF6100 appliances: Overview] to learn more.
 
-== SG110 and SG1100 services appliances
-The new StorageGRID SG110 and SG1100 services appliances are an evolutionary hardware update that provide improved administrative and load-balancing performance. Refer to link:./installconfig/hardware-description-sg110-and-1100.html[SG110 and SG1100 services appliance: Overview].
 
