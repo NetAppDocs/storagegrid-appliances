@@ -36,7 +36,7 @@ include::../_include/2025-replace-fan.adoc[]
 
 
 . link:reinstalling-sg6200-cover.html[Put the top cover back on the appliance], and press the latch down to secure the cover in place.
-. link:power-sgf6212-off-on.html[Power on the appliance] and monitor the appliance LEDs and boot-up codes.
+. link:power-sg6200-off-on.html[Power on the appliance] and monitor the appliance LEDs and boot-up codes.
 +
 Use the BMC interface to monitor boot-up status.
 

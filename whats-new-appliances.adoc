@@ -16,7 +16,7 @@ Learn what's new in StorageGRID appliances.
 
 == SGF6212 appliance
 
-The new StorageGRID SGF6212 storage appliance features a compact design with compute controller and storage controller integrated into a 1U chassis. The appliance supports 12 SSD NVMe drives in a RAID that provides resilient object storage. See link:installconfig/hardware-description-sg6100.html[SGF6112 appliance: Overview].
+The new StorageGRID SGF6212 storage appliance features a compact design with compute controller and storage controller integrated into a 1U chassis. The appliance supports 12 SSD NVMe drives in a RAID that provides resilient object storage. See link:installconfig/hardware-description-sg6200.html[SGF6212 appliance: Overview].
 
 == SG6260 appliance
 The new StorageGRID SG6260 appliance includes a compute controller and a storage controller shelf that contains two storage controllers and 60 drives, as well as two NVMe SSD drives for caching. Optionally, 60-drive expansion shelves can be added to the SG6260. Refer to link:./installconfig/hardware-description-sg6200.html[SGF6200 appliances: Overview] to learn more.

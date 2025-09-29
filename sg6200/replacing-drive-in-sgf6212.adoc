@@ -33,7 +33,7 @@ NOTE: See the information about viewing status indicators to verify the failure.
 +
 The twelve drives are in the following positions in the chassis (front of chassis with bezel removed shown): 
 +
-image::../media/sgf6212_ssds_locations.png["Drive locations"] 
+image::../media/sgf6212_front_with_ssds.png["Drive locations"] 
 +
 [options="header"]
 |===

@@ -167,6 +167,7 @@ Cables and transceivers::
 * Transceivers/adapters, 1 to 8 of each, based on link speed (mixed speeds aren't supported):
 ** 10-GbE SFP+ 
 ** 25-GbE SFP28 
+** 40-GbE QSFP+
 ** 100-GbE QSFP28
 ** 200-GbE QSFP56 (200 GbE NIC only)
 

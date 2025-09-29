@@ -33,15 +33,15 @@ indexpage:
         - title: Replace storage controller controller (SG6260)
           url: "../sg6200/replace-controller-e4000-duplex.html"
         - title: Relocate SGF6212 or SG6200-CN in a rack
-          url: "../sg6200/reinstalling-sgf6212-into-cabinet-or-rack.html"
+          url: "../sg6200/reinstalling-sgf6200-into-cabinet-or-rack.html"
     - title: Hardware procedures
       links:
         - title: Replace cover (SGF6212 or SG6200-CN)
-          url: "../sg6200/reinstalling-sgf6212-cover.html"
+          url: "../sg6200/reinstalling-sg6200-cover.html"
         - title: Replace power supply (SGF6212 or SG6200-CN)
-          url: "../sg6200/replacing-one-or-more-power-supplies-in-sgf6212-appliance.html"
+          url: "../sg6200/replacing-one-or-more-power-supplies-in-sg6200-appliance.html"
         - title: Replace power supply in storage controller shelf or expansion shelf (SG6260)
-          url: "../sg6200/replace-6100-cn-power-canister.html"
+          url: "../sg6200/replace-e4000-power-canister.html"
         - title: Replace fan in SGF6212 or SG6200-CN (SG6260)
           url: "../sg6200/replacing-fan-in-sg6200.html"
         - title: Replace fan in in storage controller shelf or expansion shelf (SG6260)
@@ -51,7 +51,7 @@ indexpage:
         - title: Replace drive in SG6200-CN
           url: "../sg6200/replace-drive-sg6200-cn.html"
         - title: Replace drive in storage controller shelf or expansion shelf (SG6260)
-          url: "../sg6200/replace-6160-drives-60.html"
+          url: "../sg6200/replace-6260-drives-60.html"
         - title: Replace internal NIC (SGF6212 or SG6200-CN)
           url: "../sg6200/replace-nic-in-sg6200.html"
         - title: Replace external NIC (SG6200-CN)

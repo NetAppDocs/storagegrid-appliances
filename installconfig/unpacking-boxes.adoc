@@ -366,7 +366,7 @@ E4000 controller shelf with no drives installed::
 +
 image::../media/de460c_table_size.gif["E4000 4U controller"] 
 
-Two front bezels::
+Two front bezels (Not shown)::
 
 Two rail kits with instructions::
 +

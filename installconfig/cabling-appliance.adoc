@@ -814,7 +814,7 @@ You connect the management port on the appliance to the service laptop and conne
 ** SG6200 only: Up to four additional RJ-45 Ethernet cables for the optional ports you plan to use, including the second Admin port and the BMC port on the SG6200-CN, and the maintenance ports on each of the two E4000 controllers.
 * You have one of the following options for the network ports. These items aren't provided with the appliance.
  ** One to four TwinAx cables for connecting the four network ports.
- ** One to eight SFP+, SFP28, QSFP28, or QSFP56 transceivers if you plan to use optical cables for the ports.
+ ** One to eight SFP+, SFP28, QSFP+, QSFP28, or QSFP56 transceivers if you plan to use optical cables for the ports.
 
 CAUTION: *Risk of exposure to laser radiation* -- Don't disassemble or remove any part of an SFP transceiver. You might be exposed to laser radiation.
 
@@ -933,7 +933,7 @@ Although this connection is optional, it is recommended to facilitate support.
 
 . If you plan to use the Admin Network for StorageGRID, connect the Admin Network port on the appliance to the Admin Network, using an Ethernet cable.
 
-. If your appliance includes an expansion shelf, see the link:../sg6200/adding-expansion-shelf-to-deployed-sg6200.html[instructions for adding an expansion shelf to a deployed SG6200] for cabling information.
+. If your appliance includes an expansion shelf, see the link:../sg6200/adding-expansion-shelf-to-deployed-sg6260.html[instructions for adding an expansion shelf to a deployed SG6200] for cabling information.
 --
 
 ====

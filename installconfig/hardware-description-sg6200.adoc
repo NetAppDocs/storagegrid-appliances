@@ -264,7 +264,7 @@ QSFP56 (max 200GbE/port), QSFP28 (max 100GbE/port), and QSFP+ (40GbE) are suppor
 
 This figure shows the location of the power supply and identify LEDs on the rear of the SG6200-CN compute controller. Additional status and activity LEDs are on the appliance ports. These LEDs might vary by appliance model.
 
-image::../media/q2023_rear_leds.png["Rear LEDs SG6200-CN"] 
+image::../media/s25_rear_leds.png["Rear LEDs SG6200-CN"] 
 
 include::../_include/rear-leds-q.adoc[]
 
