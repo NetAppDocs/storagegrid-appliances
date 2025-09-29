@@ -19,6 +19,7 @@ The BMC interface is supported by the following StorageGRID appliance models:
 * SG1100
 * SG6000
 * SG6100
+* SG6200
 
 See the https://kb.netapp.com/hybrid/StorageGRID/Platforms/How_to_use_StorageGRID_Appliance_BMC_with_vendor_supplied_user_guide[BMC User Guide^] for detailed information about using the BMC interface for these appliances. You should only access BMC functions that are _not_ documented in StorageGRID documentation when directed by technical support.
 
@@ -39,16 +40,19 @@ The following BMC procedures are documented for use with supported StorageGRID a
 ** link:../installconfig/troubleshooting-hardware-installation-sg110-and-sg1100.html[SG1100 and SG110]
 ** link:../installconfig/troubleshooting-hardware-installation.html[SG6000]
 ** link:../installconfig/troubleshooting-hardware-installation-sg6100.html[SG6100]
+** link:../installconfig/troubleshooting-hardware-installation-sg6200.html[SG6200]
 * Determine the appliance power state:
 ** link:../sg100-1000/shut-down-sg100-and-sg1000.html[SG1000 and SG100]
 ** link:../sg110-1100/power-sg110-and-sg1100-off-on.html[SG1100 and SG110]
 ** link:../sg6000/power-sg6000-cn-controller-off-on.html[SG6000]
 ** link:../sg6100/power-sgf6112-off-on.html[SG6100]
+** link:../sg6200/power-sg6200-off-on.html[SG6200]
 * Turn the appliance identify LED on and off:
 ** link:../sg100-1000/turning-controller-identify-led-on-and-off.html[SG1000 and SG100]
 ** link:../sg110-1100/turning-sg110-and-sg1100-identify-led-on-and-off.html[SG1100 and SG110]
 ** link:../sg6000/turning-controller-identify-led-on-and-off.html[SG6000]
 ** link:../sg6100/turning-sgf6112-identify-led-on-and-off.html[SG6100]
+** link:../sg6200/turning-sg6200-identify-led-on-and-off.html[SG6200]
 
 == BMC features not supported for StorageGRID appliances
 

@@ -142,7 +142,7 @@ You can successfully clone an SG5860 appliance as the source or the target with 
 // 12.0
 === SGF6112 appliance cloning information and restrictions
 
-Node cloning is not supported from an SGF6112 source node appliance without node encryption to an SGF6112 appliance target with node encryption.
+Node cloning is not supported from an SGF6112 source node appliance without node encryption to an SGF6112 or SGF6212 appliance target with node encryption.
 
 === SG6160 appliance cloning information and restrictions
 
