@@ -7,7 +7,7 @@ indexpage:
     - title: Frequently performed procedures
       links:
         - title: Upgrade SANtricity
-          url: "../sg6200/upgrading-santricity-os-on-storage-controllers-using-grid-manager-sg6200.html"
+          url: "../sg6200/upgrading-santricity-os-on-storage-controllers-using-grid-manager-sg6260.html"
         - title: Upgrade drive firmware (SG6200 - automatic reboot method)
           url: "../sg6200/upgrading-drive-firmware-using-auto-reboot.html"
         - title: Upgrade drive firmware (SG6200 - online method)
@@ -33,7 +33,7 @@ indexpage:
         - title: Replace storage controller controller (SG6260)
           url: "../sg6200/replace-controller-e4000-duplex.html"
         - title: Relocate SGF6212 or SG6200-CN in a rack
-          url: "../sg6200/reinstalling-sgf6200-into-cabinet-or-rack.html"
+          url: "../sg6200/reinstalling-sg6200-into-cabinet-or-rack.html"
     - title: Hardware procedures
       links:
         - title: Replace cover (SGF6212 or SG6200-CN)
