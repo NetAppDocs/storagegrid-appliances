@@ -27,6 +27,7 @@ The SGF6112 provides the following data protection features:
 NOTE: Depending on your configured ILM policy, requests for locally unavailable objects can be serviced by other nodes, so there will usually be no reduction in availability.
 * Fully recoverable, while in service, from SSD failures that don't result in extreme damage to the RAID housing the node's root volume (the StorageGRID operating system).
 * Object data can be restored automatically from copies or erasure coded chunks on other nodes if multiple SSD failures result in local data loss.
+* Ability to operate as a https://docs.netapp.com/us-en/storagegrid/admin/managing-load-balancing.html[Gateway Node with caching^].
 
 The SG6160 provides the following data protection features:
 
