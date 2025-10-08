@@ -33,7 +33,7 @@ The offline method is faster than the online method and will be significantly fa
 
 . Access SANtricity System Manager using one of these methods:
 ** Use the StorageGRID Appliance Installer and select *Advanced* > *SANtricity System Manager*
-** Use the Grid Manager and select *NODES* > *_Storage Node_* > *SANtricity System Manager* 
+** Use the Grid Manager and select *Nodes* > *_Storage Node_* > *SANtricity System Manager* 
 ** Use SANtricity System Manager by browsing to the storage controller IP: 
 +
 `*https://_Storage_Controller_IP_*`
@@ -118,7 +118,7 @@ link:troubleshoot-upgrading-drive-firmware-using-santricity-system-manager.html[
 +
 It can take up to 20 minutes for the appliance to reboot and rejoin the grid. To confirm that the reboot is complete and that the node has rejoined the grid:
 +
-.. In the Grid Manager, select *NODES*.
+.. In the Grid Manager, select *Nodes*.
 .. Verify that the appliance node has a normal status (green check mark icon image:../media/icon_alert_green_checkmark.png["green check mark"] to the left of the node name), which indicates that no alerts are active and the node is connected to the grid. 
 
 // 2024 FEB 29, SGIRDDOC-52

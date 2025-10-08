@@ -101,7 +101,7 @@ If management port 1 is connected to a network with a DHCP server, the new contr
 The appliance reboots and rejoins the grid. This process can take up to 20 minutes.
 
 . Confirm that the reboot is complete and that the node has rejoined the grid:
-.. In the Grid Manager, select *NODES*.
+.. In the Grid Manager, select *Nodes*.
 .. Verify that the appliance node has a normal status (green check mark icon image:../media/icon_alert_green_checkmark.png["green check mark"] to the left of the node name), which indicates that no alerts are active and the node is connected to the grid. 
 
 . From SANtricity System Manager, confirm that the new controller is Optimal, and collect support data.

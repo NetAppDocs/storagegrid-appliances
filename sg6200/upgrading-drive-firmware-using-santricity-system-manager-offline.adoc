@@ -35,7 +35,7 @@ The offline method is faster than the online method and will be significantly fa
 
 . Access SANtricity System Manager using one of these methods:
 ** Use the StorageGRID Appliance Installer and select *Advanced* > *SANtricity System Manager*
-** Use the Grid Manager and select *NODES* > *_Storage Node_* > *SANtricity System Manager* 
+** Use the Grid Manager and select *Nodes* > *_Storage Node_* > *SANtricity System Manager* 
 ** Use SANtricity System Manager by browsing to the storage controller IP: 
 +
 `*https://_Storage_Controller_IP_*`

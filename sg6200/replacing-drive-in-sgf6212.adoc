@@ -89,7 +89,7 @@ HDD11
 
 
 |=== 
-You can also use the Grid Manager to monitor the status of the SSD drives. Select *NODES*. Then select `*Storage Node*` > *Hardware*. If a drive has failed, the Storage RAID Mode field contains a message about which drive has failed.
+You can also use the Grid Manager to monitor the status of the SSD drives. Select *Nodes*. Then select `*Storage Node*` > *Hardware*. If a drive has failed, the Storage RAID Mode field contains a message about which drive has failed.
 
 [start=2]
 . Wrap the strap end of the ESD wristband around your wrist, and secure the clip end to a metal ground to prevent static discharge.
@@ -119,8 +119,8 @@ The replaced drive is automatically rebuilt with mirrored data from the working 
 + 
 You can check the status of the rebuild by using the Grid Manager.
 
-. If more than one drive failed and has been replaced, you might have alerts indicating that some volumes need to have data restored to them. If you receive an alert, before attempting volume recovery, select *NODES* > `*appliance Storage Node*` > *Hardware*. In the StorageGRID Appliance section of the page, verify that the Storage RAID mode is healthy or rebuilding. If the status lists one or more failed drives, correct this condition before attempting volume restoration. 
+. If more than one drive failed and has been replaced, you might have alerts indicating that some volumes need to have data restored to them. If you receive an alert, before attempting volume recovery, select *Nodes* > `*appliance Storage Node*` > *Hardware*. In the StorageGRID Appliance section of the page, verify that the Storage RAID mode is healthy or rebuilding. If the status lists one or more failed drives, correct this condition before attempting volume restoration. 
 
-. In the Grid Manager, go to *NODES* > `*appliance Storage Node*` > *Hardware*. In the StorageGRID Appliance section of the page, verify that the Storage RAID mode is healthy.
+. In the Grid Manager, go to *Nodes* > `*appliance Storage Node*` > *Hardware*. In the StorageGRID Appliance section of the page, verify that the Storage RAID mode is healthy.
 
 include::../_include/fru-statement.adoc[] 

@@ -3,7 +3,7 @@
 
 .Before you begin
 
-* You have the serial number of the storage appliance where the component needs to be replaced.
+* You have the serial number of the appliance where the component needs to be replaced.
 
 * You are signed in to the Grid Manager using a https://docs.netapp.com/us-en/storagegrid/admin/web-browser-requirements.html[supported web browser^].
 
@@ -33,8 +33,8 @@ NOTE: Select the alert, not the heading for a group of alerts.
 image::../media/nic-alert-sgf6112.png["Alert with component ID"] 
 
 . Identify the chassis with the component that needs to be replaced.
-.. From the Grid Manager, select *NODES*.
-.. From the table on the Nodes page, select the appliance Storage Node name with the failed component.
+.. From the Grid Manager, select *Nodes*.
+.. From the table on the Nodes page, select the StorageGRID appliance name with the failed component.
 .. Select the *Hardware* tab.
 +
 Check the *Compute controller serial number* in the StorageGRID Appliance section. Check if the serial number matches the serial number of the storage appliance where you are replacing the component. If the serial number matches, you have found the correct appliance.

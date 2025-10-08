@@ -39,7 +39,7 @@ image:../media/manage_drives_tab_details.png["Manage drives tab Drive details"]
 
 To physically locate a drive in the appliance:
 
-. From the Grid Manager, select *NODES* > *_data center_*.
+. From the Grid Manager, select *Nodes* > *_data center_*.
 
 . Select *_appliance storage node_* > *Manage drives* > *Layout* > *_drive_*.
 +
@@ -56,7 +56,7 @@ The drive details panel appears.
 
 If a drive in the storage appliance needs to be rebuilt or reinitialized:
 
-. From the Grid Manager, select *NODES* > *_data center_*.
+. From the Grid Manager, select *Nodes* > *_data center_*.
 
 . Select *_appliance storage node_* > *Manage drives* > *Layout* > *_drive_*.
 +
@@ -70,7 +70,7 @@ On the drive details panel, the drive's status indicates _Rebuilding_. Rebuildin
 
 For troubleshooting, you can manually "fail" a drive that you suspect is faulty. The system will then run without that drive.
 
-. From the Grid Manager, select *NODES* > *_data center_*.
+. From the Grid Manager, select *Nodes* > *_data center_*.
 
 . Select *_appliance storage node_* > *Manage drives* > *Layout* > *_drive_*.
 +
