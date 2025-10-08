@@ -332,7 +332,8 @@ If you can't connect to the services appliance, there might be a network issue, 
 
 .Steps
 
-. Try to ping the appliance using the IP address for the appliance : +
+. Try to ping the appliance using the IP address for the appliance: 
++
 `*ping _appliance_IP_*`
 . If you receive no response from the ping, confirm you are using the correct IP address.
 +

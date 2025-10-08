@@ -20,7 +20,7 @@
 
 . Rotate the cover latch forward and down until it stops and the cover fully seats into the chassis. Verify that there are no gaps along the front edge of the cover.
 +
-If the cover is not fully seated, you might not be able to slide the appliance into the rack.
+If the cover isn't fully seated, you might not be able to slide the appliance into the rack.
 
 . link:reinstalling-sg120-and-sg1200-into-cabinet-or-rack.html[Reinstall the appliance in the cabinet or rack].
 

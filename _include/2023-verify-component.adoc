@@ -9,7 +9,7 @@
 
 .About this task
 
-Use this procedure to identify the appliance with failed hardware and which of the replaceable hardware components is not operating properly. Components that might be identified for replacement can include: 
+Use this procedure to identify the appliance with failed hardware and which of the replaceable hardware components isn't operating properly. Components that might be identified for replacement can include: 
 
 * Power supplies
 * Fans
@@ -33,13 +33,13 @@ NOTE: Select the alert, not the heading for a group of alerts.
 image::../media/nic-alert-sgf6112.png["Alert with component ID"] 
 
 . Identify the chassis with the component that needs to be replaced.
-.. From the Grid Manager, select *NODES*.
-.. From the table on the Nodes page, select the appliance Storage Node name with the failed component.
+.. From the Grid Manager, select *Nodes*.
+.. From the table on the Nodes page, select the StorageGRID appliance name with the failed component.
 .. Select the *Hardware* tab.
 +
 Check the *Compute controller serial number* in the StorageGRID Appliance section. Check if the serial number matches the serial number of the storage appliance where you are replacing the component. If the serial number matches, you have found the correct appliance.
 
- ** If the StorageGRID Appliance section in Grid Manager does not display, the node selected is not a StorageGRID appliance. Select a different node from the tree view.
+ ** If the StorageGRID Appliance section in Grid Manager does not display, the node selected isn't a StorageGRID appliance. Select a different node from the tree view.
  ** If the serial numbers don't match, select a different node from the tree view.
 
 . After you locate the node where the component needs to be replaced, write down the appliance BMC IP address listed the StorageGRID Appliance section.

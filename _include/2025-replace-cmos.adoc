@@ -31,7 +31,7 @@
   .. Enter the password listed in the `Passwords.txt` file.
   .. Enter the following command to switch to root: `su -`
   .. Enter the password listed in the `Passwords.txt` file.
-. Restore BMC network connectivity for the appliance. There are two options: 
+. Restore BMC network connectivity for the appliance using one of the following options: 
 * Use static IP, netmask, and gateway 
 * Use DHCP to obtain an IP, netmask, and gateway
 

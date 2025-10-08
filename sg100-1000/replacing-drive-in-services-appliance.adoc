@@ -30,7 +30,7 @@ CAUTION: If you remove the working drive, you will bring down the appliance node
 
 . Verify that the drive to be replaced has the left LED blinking amber. If a drive issue was reported in the Grid Manager or BMC user interface, HDD02 or HDD2 refer to the drive in the upper slot, and HDD03 or HDD3 refer to the drive in the lower slot.
 +
-You can also use the Grid Manager to monitor the status of the SSDs. Select *NODES*. Then select `*Appliance Node*` > *Hardware*. If a drive has failed, the Storage RAID Mode field contains a message about which drive has failed.
+You can also use the Grid Manager to monitor the status of the SSDs. Select *Nodes*. Then select `*Appliance Node*` > *Hardware*. If a drive has failed, the Storage RAID Mode field contains a message about which drive has failed.
 
 . Wrap the strap end of the ESD wristband around your wrist, and secure the clip end to a metal ground to prevent static discharge.
 . Unpack the replacement drive, and set it on a static-free, level surface near the appliance.
@@ -56,6 +56,6 @@ CAUTION: Don't use excessive force while closing the handle.
 +
 When the drive is fully inserted, you hear a click.
 +
-The drive is automatically rebuilt with mirrored data from the working drive. You can check the status of the rebuild by using the Grid Manager. Select *NODES*. Then select `*Appliance Node*` > *Hardware*. The Storage RAID Mode field contains a "`rebuilding`" message until the drive is completely rebuilt.
+The drive is automatically rebuilt with mirrored data from the working drive. You can check the status of the rebuild by using the Grid Manager. Select *Nodes*. Then select `*Appliance Node*` > *Hardware*. The Storage RAID Mode field contains a "`rebuilding`" message until the drive is completely rebuilt.
 
 include::../_include/fru-statement.adoc[]
