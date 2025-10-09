@@ -69,6 +69,8 @@ Review the general cloning considerations and specific cloning information and r
 
  **  If you plan to use the same RAID mode on the target node as was used on the source node, or a less storage efficient RAID mode (for example, switching from RAID 6 to DDP), the drives in the target appliance must be larger (in TB) than the drives in the source appliance.
 
+** The number of volumes in a target storage appliance must be greater than or equal to the number of volumes in the source node. The SGF6112 has 12 volumes, and the SGF6212 has 13 volumes. All other storage appliances have 16 volumes.
+
  ** Exceptions to the general storage appliance cloning considerations include:
 
  *** If the number of standard drives installed in a target storage appliance is less than the number of drives in the source node, due to installation of solid-state drives (SSDs), the overall storage capacity of the standard drives in the target appliance (in TB) must exceed the total functional drive capacity of all drives in the source Storage Node.
@@ -79,7 +81,7 @@ However, if a 60-drive SG5760 source node appliance is configured with SANtricit
 +
 You can view information about the current RAID mode of the source appliance node on the *Nodes* page in Grid Manager. Select the *Storage* tab for the appliance.
 
-*** The number of volumes in a target storage appliance must be greater than or equal to the number of volumes in the source node. You cannot clone a source node with 16 object store volumes (rangedb) to a target storage appliance with 12 object store volumes even if the target appliance has larger capacity than the source node. Most storage appliances have 16 object store volumes, except the SGF6112 storage appliance that has only 12 object store volumes. 
+*** You cannot clone a source node with 16 object store volumes (rangedb) to a target storage appliance with fewer object store volumes, even if the target appliance has larger capacity than the source node.
 
 === SG100 appliance cloning information and restrictions
 
@@ -148,9 +150,9 @@ Node cloning is not supported from an SGF6112 source node appliance without node
 
 You can successfully clone an SG6160 appliance as the source or the target with some restrictions (listed in the appliance cloning information and restrictions for each source).
 
+=== SG6260 appliance cloning information and restrictions
 
-
-
+You can successfully clone an SG6260 appliance as the source or the target with some restrictions (listed in the appliance cloning information and restrictions for each source).
 
  
  

@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: storagegrid, sg6260, storage node, storage appliance, upgrade, firmware, drive, disk, automatic
 summary: 'The StorageGRID Appliance Installer automatically installs the latest E-Series drive firmware files during appliance reboot.'
 ---
-= Upgrade SG6160 drive firmware automatically during appliance reboot
+= Upgrade SG6260 drive firmware automatically during appliance reboot
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 The StorageGRID Appliance Installer automatically installs the latest E-Series drive firmware files during appliance reboot.
 
-//Automatic drive firmware upgrade procedure common for SG5700, SG5800, SG6000, SG6160, and SG6200
+//Automatic drive firmware upgrade procedure common for SG5700, SG5800, SG6000, SG6160, and SG6260
 E-Series drive firmware files are included in the StorageGRID software. These updates are installed automatically whenever a StorageGRID appliance reboots:
 
 * Into link:../installconfig/rebooting-appliance-while-sg-appliance-installer-is-running.html[maintenance mode] 

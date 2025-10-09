@@ -55,6 +55,7 @@ A one-rack unit (1U) server that includes:
 * 240 GB Internal Boot drive (includes StorageGRID software) 
 * 2 × 1/10 GBase-T ports
 * 4 × 10/25/40/100GbE Ethernet ports for Grid/Client network traffic (or 4 x 200GbE with optional 200 GbE NIC)
+* 12 NVMe SSDs for data storage
 * Baseboard management controller (BMC) that simplifies hardware management
 * Redundant power supplies and fans
 
