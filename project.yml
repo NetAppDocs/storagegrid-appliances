@@ -57,7 +57,6 @@ sidebar:
       - section: sg6000
       - section: sg6100
       - section: sg6200
-    - title: Enable StorageGRID
     - title: StorageGRID solutions and resources
       url: /storagegrid-enable.html
     - title: Legal notices
