@@ -28,6 +28,6 @@ NOTE: A link:power-sg120-and-sg1200-off-on.html#shut-down-the-sg120-or-sg1200-ap
 +
 The three NICs in the appliance are in three riser assemblies in the following positions in the chassis (rear of appliance with top cover removed shown): 
 +
-*Image of HIC/riser locations numbered 1-3.*
+image::../media/drw_s2025_io_numbers_ieops-2554.svg[internal NIC locations in StorageGRID appliance chassis]
 
 include::../_include/2025-replace-nic.adoc[]
