@@ -14,7 +14,7 @@
 . Locate the riser assembly that contains the NIC at the rear of the appliance.
 . Rotate the blue locking latch on the riser with the failed NIC up and open.
 +
-*In illustration, callout one (1) shows arrow with user lifting blue locking latch up/down. Callout two (2) shows two arrows connected to two finger holes for lifting the NIC card out of appliance (arrow goes in both directions). Callout three (3) points to the pin on the motherboard where the NIC card should line up.*
+image:../media/drw_s2025_io_1_2_replace_ieops-2555.svg[Removing NIC 1 or NIC 2 from the riser assembly]
 
 . Carefully lift the riser assembly with the failed NIC upwards using the blue-marked holes. Move the riser assembly toward the front of the chassis as you lift it to allow the external connectors in its installed NIC to clear the chassis.
 
@@ -22,7 +22,7 @@
 
 . Open the blue latch on the failed NIC and carefully remove it from the riser assembly. Rock the NIC slightly to help remove the NIC from its connector. Don't use excessive force.
 +
-*In illustration, callout one (1) shows a curved arrow for swinging the blue locking latch into open position. Callout two (2) is an arrow going back and forth for aligning and pressing the NIC into the connector.*
+image:../media/drw_s2025_IO_card_replace_ieops-2557.svg[Removing an IO card from the riser assembly]
 
 . Place the riser and NIC on a flat anti-static surface.
 
@@ -37,7 +37,7 @@
 
 . Rotate the blue lock on the riser with the failed NIC to the open position.
 +
-*In illustration, callout one (1) shows an arrow curving to untwist the locking mechanism on NIC. Arrow two (2) shows lifting the NIC at an angle. All arrows go back and forth in both directions.*
+image:../media/drw_s2025_io_3_replace_ieops-2556.svg[Removing NIC 3 from the riser assembly]
 
 . Carefully lift the riser assembly upwards using the blue-marked hole and riser edge. Move the riser assembly toward the front of the chassis as you lift it to allow the external connectors in its installed NIC to clear the chassis.
 
@@ -45,7 +45,7 @@
 
 . Open the blue latch on the failed NIC and carefully remove it from the riser assembly. Rock the NIC slightly to help remove the NIC from its connector. Don't use excessive force.
 +
-*In illustration, callout one (1) shows a curved arrow for swinging the blue locking latch into open position. Callout two (2) is an arrow going back and forth for aligning and pressing the NIC card into the connector.*
+image:../media/drw_s2025_IO_card_replace_ieops-2557.svg[Removing an IO card from the riser assembly]
 
 . Place the riser and NIC on a flat anti-static surface.
 --
@@ -67,13 +67,13 @@ Install the replacement NIC into the same location as the one that was removed.
 . Install the replacement NIC into the riser assembly.
 .. Ensure the blue latch is in the open position.
 +
-*In illustration, callout one (1) shows a curved arrow for swinging the blue locking latch into open position. Callout two (2) is an arrow going back and forth for aligning and pressing the IO card into the connector.*
+image:../media/drw_s2025_IO_card_replace_ieops-2557.svg[Installing an IO card into the riser assembly]
 .. Align the NIC with its connector on the riser assembly. Carefully press the NIC into the connector until it is fully seated, and then close the blue latch.
 
 . Reinstall the riser assembly into chassis.
 .. Locate the alignment hole on the riser assembly that aligns with a guide pin on the system board to ensure correct riser assembly positioning.
 +
-*In illustration, callout one (1) shows arrow with user lifting blue locking latch up/down. Callout two (2) shows two arrows connected to two finger holes for lifting the NIC card out of appliance (arrow goes in both directions). Callout three (3) points to the pin on the motherboard where the NIC card should line up.*
+image:../media/drw_s2025_io_1_2_replace_ieops-2555.svg[Replacing NIC 1 or NIC 2 in the riser assembly]
 
 .. Position the riser assembly in the chassis, making sure that it aligns with the connector on the system board and guide pin. 
 
@@ -95,14 +95,14 @@ include::../_include/fru-statement.adoc[]
 . Install the replacement NIC into the riser assembly.
 .. Ensure the blue latch is in the open position.
 +
-*In illustration, callout one (1) shows a curved arrow for swinging the blue locking latch into open position. Callout two (2) is an arrow going back and forth for aligning and pressing the NIC into the connector.*
+image:../media/drw_s2025_IO_card_replace_ieops-2557.svg[Installing an IO card into the riser assembly]
 
 .. Align the NIC with its connector on the riser assembly. Carefully press the NIC into the connector until it is fully seated, and then close the blue latch.
 
 . Reinstall the riser assembly into chassis.
 .. Position the riser assembly in the chassis, making sure that the edges of the riser assembly correctly align with the edges of the chassis.
 +
-*Callout one (1) shows an arrow curving to untwist the locking mechanism on NIC. Arrow two (2) shows lifting the NIC at an angle. All arrows go back and forth in both directions.*
+image:../media/drw_s2025_io_3_replace_ieops-2556.svg[Replacing NIC 3 in the riser assembly]
 
 .. Carefully press the riser assembly in place along its center line, next to the blue-marked hole, until it is fully seated.
 .. Rotate the blue lock on the riser to the closed position.

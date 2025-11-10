@@ -99,7 +99,7 @@ Save all packing materials.
 
 . Press the release button on the failed drive.
 +
-*Illustration of drive removal. Callout one (1) shows user pressing the release button on the drive. An arrow shows the drive handle swinging in and out. Callout two (2) shows an arrow with the drive moving out of the appliance.*
+image:../media/drw_s2025_drive_replace_ieops-2553.svg[Removing a drive from the chassis]
 +
 The handle on the drive springs open partially, and the drive releases from the slot.
 
