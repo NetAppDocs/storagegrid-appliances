@@ -24,9 +24,11 @@ The procedures in this section assume that the appliance has already been deploy
 
 == Drive firmware upgrade
 
-The firmware on the drives in the SGF6212 is automatically checked every time the appliance is rebooted. When necessary, the firmware is automatically upgraded to the version expected by the current StorageGRID release. Usually, firmware upgrades occur during StorageGRID software upgrades. Any necessary drive firmware upgrades for existing StorageGRID versions will be included in hotfixes. Follow the instructions provided with each hotfix to ensure that the upgrade is applied to all drives that could benefit from it. 
+The firmware on the drives in the and SG6260 are automatically checked every time the appliance is rebooted. When necessary, the firmware is automatically upgraded to the version expected by the current StorageGRID release. Usually, firmware upgrades occur during StorageGRID software upgrades. Any necessary drive firmware upgrades for existing StorageGRID versions will be included in hotfixes. Follow the instructions provided with each hotfix to ensure that the upgrade is applied to all drives that could benefit from it. 
 
-NOTE:  SANtricity System Manager is not needed to maintain the SGF6212 appliance. 
+Additionally, the drives in the SG6260 can be updated via SANtricity using the link:upgrading-drive-firmware-using-santricity-system-manager-online.html[SANtricity System Manager online] or link:upgrading-drive-firmware-using-santricity-system-manager-offline.html[SANtricity System Manager offline] procedures.
+
+NOTE: SANtricity System Manager is not needed to maintain the SGF6212 appliance. 
 
 == General Maintenance procedures
 

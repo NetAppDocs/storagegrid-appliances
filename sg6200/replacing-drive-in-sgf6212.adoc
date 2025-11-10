@@ -9,11 +9,15 @@ summary: 'The SGF6212 storage appliance contains 12 SSD drives. Data on the driv
 :imagesdir: ../media/
 
 [.lead]
-The SGF6212 storage appliance contains 12 SSD drives. Data on the drives is protected by a RAID scheme that enables the appliance to recover from any single drive failure without having to copy data from another node. 
+The SGF6212 storage appliance contains 12 SSD drives. For an SGF6212 operating as a storage node, data on the drives is protected by a RAID scheme that enables the appliance to recover from any single drive failure without having to copy data from another node. For an SGF6212 operating as a gateway node, a single drive failure results in a reduction in cache capacity.
 
-// Similar procedure for SG110 and SG1100 - unable to use includes due to differences in configuration, not operation.
+// Similar procedure for SG120 and SG1200 - unable to use includes due to differences in configuration, not operation.
 
-The failure of a second drive before an initial drive failure has been corrected might require data be copied from other nodes to restore redundancy. This restoration of redundancy can take longer, and might be impossible, if single-copy ILM rules are in use or were used in the past, or if data redundancy has been impacted by failures on other nodes. Therefore, if one of the SGF6212 drives fails, you must replace it as soon as possible to ensure redundancy.
+If the SGF6212 is operating as a storage node, the failure of a second drive before an initial drive failure has been corrected might require data be copied from other nodes to restore redundancy. This restoration of redundancy can take longer, and might be impossible, if single-copy ILM rules are in use or were used in the past, or if data redundancy has been impacted by failures on other nodes. Therefore, if one of the SGF6212 drives fails, you must replace it as soon as possible to ensure redundancy.
+
+If the SGF6212 is operating as a gateway node, each drive failure in a SGF6212 results in a further reduction in cache capacity. In addition, any cached data on the failed drive will no longer be cached. Additional drive failures may result in a failure of the operating system, so you must replace a failed drive as soon as possible to ensure availability.
+
+CAUTION: If three or more drives fail, the node may become unable to run StorageGRID. It will leave the grid, reboot, and launch the StorageGRID Appliance Installer to facilitate diagnosis and repair of the storage issue.
 
 .Before you begin
 
@@ -119,7 +123,7 @@ The replaced drive is automatically rebuilt with mirrored data from the working 
 + 
 You can check the status of the rebuild by using the Grid Manager.
 
-. If more than one drive failed and has been replaced, you might have alerts indicating that some volumes need to have data restored to them. If you receive an alert, before attempting volume recovery, select *Nodes* > `*appliance Storage Node*` > *Hardware*. In the StorageGRID Appliance section of the page, verify that the Storage RAID mode is healthy or rebuilding. If the status lists one or more failed drives, correct this condition before attempting volume restoration. 
+. If the SGF6212 is operating as a storage node and more than one drive has failed and been replaced, you might have alerts indicating that some volumes need to have data restored to them. If you receive an alert, before attempting volume recovery, select *Nodes* > `*appliance Storage Node*` > *Hardware*. In the StorageGRID Appliance section of the page, verify that the Storage RAID mode is healthy or rebuilding. If the status lists one or more failed drives, correct this condition before attempting volume restoration. 
 
 . In the Grid Manager, go to *Nodes* > `*appliance Storage Node*` > *Hardware*. In the StorageGRID Appliance section of the page, verify that the Storage RAID mode is healthy.
 
