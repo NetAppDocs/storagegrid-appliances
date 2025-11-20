@@ -104,7 +104,7 @@ image::../media/s25_front_with_ssds.png["SGF6212 Front View"]
 
 This figure shows the back of the SGF6212, including the ports, fans, and power supplies.
 
-image::../media/sgf6212_rear_view.png["SGF6212 Rear View"] 
+image::../media/sgf6212_rear_connectors.png["SGF6212 Rear View"] 
 
 [cols="1a,2a,2a,2a" options="header"]
 |===
