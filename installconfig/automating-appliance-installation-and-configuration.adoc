@@ -21,6 +21,7 @@ You can automate the configuration of the following:
 ** Port bond mode
 ** Network bond mode
 ** Link speed
+** LACP transmit hash policy and PDU rate
 
 [[automation-options]]
 == Automation options
@@ -68,13 +69,11 @@ After you have generated a JSON file, you can automate the configuration of one 
 
 . In the StorageGRID Appliance Installer, select *Advanced* > *Update Appliance Configuration*. The Update Appliance Configuration page appears.
 
-. Browse for and select the JSON file with the configuration you want to upload.
+. In the Upload JSON section, browse for and select the JSON configuration file you want to upload.
 +
 The file is uploaded and validated. When the validation process is complete, the file name is shown next to a green check mark.
 +
 NOTE: You might lose connection to the appliance if the configuration from the JSON file includes sections for `link_config`, `networks`, or both. If you aren't reconnected within 1 minute, re-enter the appliance URL using one of the other IP addresses assigned to the appliance.
-+
-image::../media/update_appliance_configuration_valid_json.png["Update appliance configuration JSON uploaded"] 
 +
 The *Node name* drop down is populated with the top-level node names defined in the JSON file.
 +
@@ -224,6 +223,24 @@ Connecting to +https://10.224.2.30:8443+ (Checking version and connectivity.)
 +
 `./configure-sga.py configure --admin-ip 172.16.2.99 _SGA-INSTALL-IP_`
 +
+[NOTE]
+====
+Do not use subnets that contain the following IPv4 addresses for the Grid Network, Admin Network, or Client Network of any node:
+
+* 192.168.130.101
+* 192.168.131.101
+* 192.168.130.102
+* 192.168.131.102
+* 198.51.100.2
+* 198.51.100.4
+
+For example, do not use the following subnet ranges for the Grid Network, Admin Network, or Client Network of any node:
+
+* 192.168.130.0/24 because this subnet range contains the IP addresses 192.168.130.101 and 192.168.130.102 
+* 192.168.131.0/24 because this subnet range contains the IP addresses 192.168.131.101 and 192.168.131.102
+* 198.51.100.0/24 because this subnet range contains the IP addresses 198.51.100.2 and 198.51.100.4
+====
+
 . [[back-up-appliance-config]] If you want to back up the appliance configuration to a JSON file, use the advanced and `backup-file` subcommands. For example, if you want to back up the configuration of an appliance with IP address `_SGA-INSTALL-IP_` to a file named `appliance-SG1000.json`, enter the following: +
 `./configure-sga.py advanced --backup-file appliance-SG1000.json _SGA-INSTALL-IP_`
 

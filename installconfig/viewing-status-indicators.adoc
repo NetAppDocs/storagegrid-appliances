@@ -493,7 +493,7 @@ Blinking Green: There is Ethernet activity.
 
 .Related information
 
-link:https://mysupport.netapp.com/site/global/dashboard[NetApp Support^]
+https://mysupport.netapp.com/site/global/dashboard[NetApp Support^]
 
 --
 

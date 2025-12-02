@@ -52,7 +52,7 @@ image::../media/fan_removal.png["Fan Removal"]
 
 . Slide the replacement fan into the open slot in the chassis.
 +
-Be sure to align the connector on the fan with the socket in the circuit board.
+Align the connector on the fan with the socket in the circuit board.
 +
 . Press the fan's connector firmly into the circuit board (socket highlighted).
 +

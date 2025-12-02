@@ -89,6 +89,9 @@ You can clone an SG100 source node appliance to an SG110, SG1000, or SG1100 serv
 
 You can clone an SG110 source node appliance to an SG1100 services appliance target to give the Admin Node or Gateway Node greater capability.
 
+// 12.0
+Node cloning is not supported from an SG110 source node appliance without node encryption to an SG110 appliance target with node encryption.
+
 === SG1000 appliance cloning information and restrictions
 
 You can clone an SG1000 source node appliance to an SG100, SG110, or SG1100 services target appliance. 
@@ -104,6 +107,9 @@ You can clone an SG1100 source node appliance to an SG110 services target applia
 * Cloning the SG1100 to an SG110 services target appliance lets you redeploy the SG1100 for a more demanding application. For example, if an SG1100 source node appliance is being used as an Admin Node and you want to use it as a dedicated load-balancing node. 
 
 * Replacing an SG1100 source node appliance with an SG110 services target appliance reduces the maximum speed of the network ports from 100-GbE to 25-GbE.
+
+// 12.0
+Node cloning is not supported from an SG1100 source node appliance without node encryption to an SG1100 appliance target with node encryption.
 
 === SG5712 appliance cloning information and restrictions
 
@@ -132,6 +138,11 @@ You can successfully clone an SG5860 appliance as the source or the target with 
 * You can clone an SG6060 source node appliance without any expansion shelves to an SG6160 storage target appliance without any expansion shelves if the drive sizes and RAID modes are the same.
 
 * An SG6060 source node appliance with any number of expansion shelves _cannot_ be cloned to an SG6160 storage target appliance even if the number of expansion shelves, drive sizes, and RAID modes are the same.
+
+// 12.0
+=== SGF6112 appliance cloning information and restrictions
+
+Node cloning is not supported from an SGF6112 source node appliance without node encryption to an SGF6112 appliance target with node encryption.
 
 === SG6160 appliance cloning information and restrictions
 

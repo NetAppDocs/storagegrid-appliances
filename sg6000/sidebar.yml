@@ -16,8 +16,10 @@ entries:
         url: "/sg6000/upgrading-santricity-os-on-storage-controllers-using-grid-manager-sg6000.html"
       - title: Upgrade SANtricity OS on storage controllers using maintenance mode
         url: "/sg6000/upgrading-santricity-os-on-storage-controllers-using-maintenance-mode-sg6000.html"
-    - title: Upgrade drive firmware using SANtricity System Manager
+    - title: Upgrade drive firmware
       entries:
+      - title: Upgrade SG6000 drive firmware automatically during appliance reboot
+        url: "/sg6000/upgrading-drive-firmware-using-auto-reboot.html"
       - title: Upgrade SG6000 drive firmware using SANtricity System Manager using online method
         url: "/sg6000/upgrading-drive-firmware-using-santricity-system-manager-online.html"
       - title: Upgrade SG6000 drive firmware using SANtricity System Manager using offline method
@@ -51,6 +53,8 @@ entries:
       url: "/sg6000/replacing-sg6000-cn-controller.html"
     - title: Replace one or both power supplies in the SG6000-CN controller
       url: "/sg6000/replacing-one-or-both-power-supplies-in-sg6000-cn-controller.html"
+    - title: Replace fan
+      url: "/sg6000/replacing-fan-in-sg6000cn.html"
     - title: Replace CMOS battery in SG6000-CN controller
       url: "/sg6000/replace-cmos-in-sg6000cn.html"
     - title: Replace controller in rack

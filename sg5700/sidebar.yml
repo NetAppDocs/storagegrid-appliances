@@ -16,8 +16,10 @@ entries:
         url: "/sg5700/upgrading-santricity-os-on-storage-controllers-using-grid-manager-sg5700.html"
       - title: Upgrade SANtricity OS on E2800 controller using maintenance mode
         url: "/sg5700/upgrading-santricity-os-on-e2800-controller-using-maintenance-mode.html"
-    - title: Upgrade drive firmware using SANtricity System Manager
+    - title: Upgrade drive firmware
       entries:
+      - title: Upgrade SG5700 drive firmware automatically during appliance reboot
+        url: "/sg5700/upgrading-drive-firmware-using-auto-reboot.html"
       - title: Upgrade drive firmware using SANtricity System Manager using online method 
         url: "/sg5700/upgrading-drive-firmware-using-santricity-system-manager-online.html"
       - title: Upgrade drive firmware using SANtricity System Manager using offline method 
