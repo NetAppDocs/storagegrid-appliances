@@ -9,7 +9,7 @@ summary:
 :imagesdir: ../media/
 
 [.lead]
-You might need to replace an E4000 controller  if it is not functioning optimally or if it has failed.
+You might need to replace an E4000 controller if it is not functioning optimally or if it has failed.
 
 .Before you begin
 
