@@ -91,19 +91,17 @@ image::../media/expansion_shelves_connections_sg6060.png["SG6060 Expansion Shelf
 +
 In approximately five minutes, the expansion shelves finish powering up and are detected by the system. The Home page shows the number of new expansion shelves detected, and the Start Expansion button is enabled.
 +
-The screenshot shows examples of the messages that could appear on the Home page, depending on the number of existing or new expansion shelves, as follows:
+Examples of the messages that could appear on the Home page, depending on the number of existing or new expansion shelves:
 
- ** The banner circled at the top of the page indicates the total number of expansion shelves detected.
+ ** A banner that displays at the top of the page indicates the total number of expansion shelves detected.
   *** The banner indicates the total number of expansion shelves, whether the shelves are configured and deployed or new and unconfigured.
   *** If no expansion shelves are detected, the banner will not appear.
- ** The message circled at the bottom of the page indicates an expansion is ready to be started.
+ ** A message at the bottom of the page indicates that an expansion is ready to be started.
   *** The message indicates the number of new expansion shelves StorageGRID detects. "`Attached`" indicates that the shelf is detected. "`Unconfigured`" indicates that the shelf is new and not yet configured using the StorageGRID Appliance Installer.
 +
 NOTE: Expansion shelves that are already deployed aren't included in this message. They are included in the count in the banner at the top of the page.
 
   *** The message will not appear if new expansion shelves aren't detected.
-+
-image::../media/appl_installer_home_expansion_shelf_ready_to_install.png["Expansion Shelf Installation"] 
 
 . As necessary, resolve any issues described in the messages on the Home page.
 +
@@ -118,15 +116,11 @@ NOTE: If the new expansion shelves have not been detected, verify that they are 
 +
 Progress bars appear on the web page, just as they do during initial installation.
 +
-image::../media/monitor_expansion_for_new_appliance_shelf.png["Monitor Expansion Shelf Configuration"] 
-+
 When configuration is complete, the appliance automatically reboots to exit maintenance mode and rejoin the grid. This process can take up to 20 minutes.
 +
 NOTE: To retry the expansion shelf configuration if it fails, go to the StorageGRID Appliance Installer, select *Advanced* > *Reboot Controller*, and then select *Reboot into Maintenance Mode*. After the node reboots, retry the <<start_expansion,expansion shelf configuration>>.
 +
-When the reboot is complete, the *Tasks* tab looks like the following screenshot:
-+
-image::../media/appliance_installer_reboot_complete.png["Reboot Complete"] 
+When the reboot is complete, the *Tasks* tab displays with selections to reboot the node or place the appliance in maintenance mode.
 
 . Verify the status of the appliance Storage Node and the new expansion shelves.
  .. In the Grid Manager, select *NODES* and verify that the appliance Storage Node has a green check mark icon.

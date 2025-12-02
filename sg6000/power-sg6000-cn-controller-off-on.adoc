@@ -16,7 +16,7 @@ Shut down the SG6000-CN controller to perform hardware maintenance.
 
 .Before you begin
 
-* You have physically located the SG6000-CN controller requiring maintenance in the data center. See link:locating-controller-in-data-center.html[Locate controller in data center].
+You have physically located the SG6000-CN controller requiring maintenance in the data center. See link:locating-controller-in-data-center.html[Locate controller in data center].
 
 
 .About this task
@@ -63,7 +63,7 @@ link:../installconfig/accessing-bmc-interface.html[Access BMC interface]
 +
 image::../media/bmc_power_control_page_controller_off.png["BMC Power control page - controller off"] 
 
-== Power on SG6000-CN controller and verify operation
+== [[poweron]]Power on SG6000-CN controller and verify operation
 
 Power on the controller after completing maintenance.
 

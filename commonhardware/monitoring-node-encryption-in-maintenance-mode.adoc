@@ -22,8 +22,6 @@ See https://docs.netapp.com/us-en/storagegrid/admin/kms-configuring.html[Configu
 
 . From the StorageGRID Appliance Installer, select *Configure Hardware* > *Node Encryption*.
 +
-image::../media/fde_monitor_in_maint_mode.png["KMS clear configuration"] 
-+
 The Node Encryption page includes three sections:
 
  ** Encryption Status shows whether node encryption is enabled or disabled for the appliance.
@@ -39,11 +37,10 @@ CAUTION: Clearing the KMS configuration deletes data from the appliance, renderi
  ** Select *Reboot into StorageGRID* to reboot the controller with the node rejoining the grid. Select this option if you are done working in maintenance mode and are ready to return the node to normal operation.
  ** Select *Reboot into Maintenance Mode* to reboot the controller with the node remaining in maintenance mode. (This option is available only when the controller is in maintenance mode.) Select this option if there are additional maintenance operations you need to perform on the node before rejoining the grid.
 +
-image::../media/reboot_controller_from_maintenance_mode.png["Reboot controller in maintenance mode"] 
+It can take up to 20 minutes for the appliance to reboot and rejoin the grid. To confirm that the reboot is complete and that the node has rejoined the grid:
 +
-It can take up to 20 minutes for the appliance to reboot and rejoin the grid. To confirm that the reboot is complete and that the node has rejoined the grid, go back to the Grid Manager. The *NODES* page should display a normal status (green check mark icon image:../media/icon_alert_green_checkmark.png["green check mark"]  to the left of the node name) for the appliance node, indicating that no alerts are active and the node is connected to the grid.
-+
-image::../media/nodes_menu.png["Appliance node rejoined grid"] 
+.. In the Grid Manager, select *NODES*.
+.. Verify that the appliance node has a normal status (green check mark icon image:../media/icon_alert_green_checkmark.png["green check mark"] to the left of the node name), which indicates that no alerts are active and the node is connected to the grid. 
 
 == Clear key management server configuration
 
@@ -69,7 +66,7 @@ CAUTION: Don't clear the KMS configuration if you plan to reinstall an appliance
 
 * Before you can recover and reinstall a node where the KMS configuration was lost and the KMS key is not recoverable.
 * Before returning any appliance that was previously in use at your site.
-* After decommissioning a appliance that had node encryption enabled.
+* After decommissioning an appliance that had node encryption enabled.
 
 CAUTION: Decommission the appliance before clearing KMS to move its data to other nodes in your StorageGRID system. Clearing KMS before decommissioning the appliance will result in data loss and might render the appliance inoperable.
 
@@ -90,7 +87,7 @@ CAUTION: If the KMS configuration is cleared, data on the appliance will be perm
 . At the bottom of the window, select *Clear KMS Key and Delete Data*.
 . If you are sure that you want to clear the KMS configuration, type `*clear*` in the warning dialog box and select *Clear KMS Key and Delete Data*.
 +
-The KMS encryption key and all data are deleted from the node, and the appliance reboots. This can take up to 20 minutes.
+The KMS encryption key and all data are deleted from the node, and the appliance reboots. A dialog box appears while the appliance reboot is in process, which can take up to 20 minutes.
 
 . Open a browser, and enter one of the IP addresses for the appliance's compute controller. +
 `*https://_Controller_IP_:8443*`

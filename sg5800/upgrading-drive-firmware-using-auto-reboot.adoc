@@ -1,0 +1,32 @@
+---
+permalink: sg5800/upgrading-drive-firmware-using-auto-reboot.html
+sidebar: sidebar
+keywords: storagegrid, sg5800, storage node, storage appliance, upgrade, firmware, drive, disk, automatic
+summary: 'The StorageGRID Appliance Installer automatically installs the latest E-Series drive firmware files during appliance reboot.'
+---
+= Upgrade SG5800 drive firmware automatically during appliance reboot
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The StorageGRID Appliance Installer automatically installs the latest E-Series drive firmware files during appliance reboot.
+
+//Automatic drive firmware upgrade procedure common for SG5700, SG5800, SG6000, and SG6160
+E-Series drive firmware files are included in the StorageGRID software. These updates are installed automatically whenever a StorageGRID appliance reboots:
+
+* Into link:../installconfig/rebooting-appliance-while-sg-appliance-installer-is-running.html[maintenance mode] 
+* As part of a https://docs.netapp.com/us-en/storagegrid/maintain/rolling-reboot-procedure.html[rolling reboot]
+* During a https://docs.netapp.com/us-en/storagegrid/upgrade/performing-upgrade.html[StorageGRID version upgrade] or https://docs.netapp.com/us-en/storagegrid/maintain/applying-hotfix.html[hotfix installation]  
+* During a link:../sg5800/upgrading-santricity-os-on-e4000-controller-using-maintenance-mode.html[SANtricity OS upgrade] using maintenance mode
+
+CAUTION: The drive firmware upgrade isn't attempted for nodes with a status of Needs Attention. 
+
+NOTE: While an appliance reboots, I/O (input/output) activity to the storage controller is stopped.
+
+You can also install drive firmware upgrades manually using the SANtricity System Manager link:upgrading-drive-firmware-using-santricity-system-manager-online.html[online] or link:upgrading-drive-firmware-using-santricity-system-manager-offline.html[offline] method:
+
+* To apply a new drive firmware upgrade before it's packaged in the StorageGRID software
+* If an automatic drive firmware upgrade fails
+* To use the SANtricity System Manager link:upgrading-drive-firmware-using-santricity-system-manager-online.html[online drive firmware upgrade] from Grid Manager instead of rebooting the node
+
+ 

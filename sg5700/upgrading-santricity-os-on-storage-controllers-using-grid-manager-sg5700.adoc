@@ -15,5 +15,5 @@ include::../_include/upgrading-santricity-os-on-storage-controllers-using-grid-m
 
 .Related information
 
-* link:https://mysupport.netapp.com/matrix[NetApp Interoperability Matrix Tool^]
+* https://mysupport.netapp.com/matrix[NetApp Interoperability Matrix Tool^]
 * link:upgrading-santricity-os-on-e2800-controller-using-maintenance-mode.html[Upgrade SANtricity OS on E2800 controller using maintenance mode]
