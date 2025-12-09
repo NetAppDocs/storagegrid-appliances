@@ -52,17 +52,17 @@ image::../media/drw_sg5800_open_controller_module_cover_IEOPS-695.svg[Open SG580
 
 .Steps
 
-. Locate the RTC battery.
+. Locate the CMOS battery.
 +
 image::../media/drw_sg5800_replace_rtc_battery_IEOPS-701.svg[Replace CMOS battery location in SG5800 controller]
 +
-NOTE: Your controller might look different from the one shown in the illustration. However, the RTC battery location is the same.
+NOTE: Your controller might look different from the one shown in the illustration. However, the CMOS battery location is the same.
 . Gently push and rotate the battery away from the holder, and then lift it out of the appliance.
 +
 NOTE: Note the polarity of the battery as you remove it from the holder. The battery is marked with a plus sign and must be positioned in the holder correctly. A plus sign near the holder tells you how the battery should be positioned.
 . Remove the replacement battery from the antistatic shipping bag.
 . Locate the empty battery holder in the controller module.
-. Note the polarity of the RTC battery, and then insert it into the holder by tilting the battery at an angle and pushing down.
+. Note the polarity of the CMOS battery, and then insert it into the holder by tilting the battery at an angle and pushing down.
 . Visually inspect the battery to make sure that it is completely installed into the holder and that the polarity is correct.
 . Reinstall the controller cover.
 
