@@ -75,7 +75,7 @@ NOTE: Note the polarity of the battery as you remove it from the holder. The bat
 .. Turn the controller over so that the removable cover faces down.
 .. With the cam handle in the open position, slide the controller all the way into the appliance.
 .. Move the cam handle to the left to lock the controller in place.
-.. Replace the cables.
+.. Reconnect the cables.
 . After the controller reboots and the appliance rejoins the grid, confirm that the appliance Storage Node appears in the Grid Manager and that no alarms appear.
 
 After replacing the part, return the failed part to NetApp, as described in the RMA instructions shipped with the kit. See the https://mysupport.netapp.com/site/info/rma[Part Return & Replacements] page for further information.
