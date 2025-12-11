@@ -689,7 +689,6 @@ image::../media/ssd_indicators.png["SSD Indicators"]
 | Blue (blinking): drive is being accessed
 |===
 
-
 .Related information
 
 https://mysupport.netapp.com/site/global/dashboard[NetApp Support^]
