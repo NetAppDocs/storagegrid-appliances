@@ -15,7 +15,7 @@ To increase storage capacity, you can add one or two expansion shelves to an SG6
 
 * You must have the provisioning passphrase.
 * You must be running StorageGRID 11.4 or later.
-* You have the expansion shelf and two SAS cables for each expansion shelf.
+* You have the expansion shelf and four SAS cables for each expansion shelf.
 * You have physically located the storage appliance where you are adding the expansion shelf in the data center.
 +
 link:locating-controller-in-data-center.html[Locate controller in data center]
@@ -130,3 +130,4 @@ The green check mark icon means that no alerts are active and the node is connec
  .. Select the *Storage* tab and confirm that 16 new object stores are shown in the Object Storage table for each expansion shelf you added.
  .. Verify that each new expansion shelf has a shelf status of Nominal and a configuration status of Configured.
 
+// 2025 DEC 10, storagegrid-appliances-issue-44

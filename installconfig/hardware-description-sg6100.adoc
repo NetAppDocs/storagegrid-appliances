@@ -189,7 +189,7 @@ Fan (1 of 2) for E4000 controller shelf
 a|
 4
 a|
-E-Series E400 storage controller (1 of 2) and connectors
+E-Series E4000 storage controller (1 of 2) and connectors
 a|
 5
 a|
