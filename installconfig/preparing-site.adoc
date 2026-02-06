@@ -29,7 +29,7 @@ Before installing the appliance, you must make sure that the site and the cabine
 | 100 to 240 volts AC
 
 | SG120 and SG1200
-| *TBD*
+| 240 volts AC
 
 | SG5712
 | 120 to 240 volts AC
@@ -82,12 +82,12 @@ Before installing the appliance, you must make sure that the site and the cabine
 | 700
 
 | SG120
-| *TBD*
-| *TBD*
+| 432
+| 519
 
 | SG1200
-| *TBD*
-| *TBD*
+| 557
+| 668
 
 | SG5712
 | 578

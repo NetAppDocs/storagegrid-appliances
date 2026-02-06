@@ -53,7 +53,7 @@ NOTE: If you are fully removing the appliance from the cabinet or rack, follow t
 
 .Steps
 
-. Press the blue rail releases both rack rails at the same time and slide the SG120 or SG1200 into the rack until it is fully seated.
+. Press the blue rail releases on both rack rails at the same time and slide the SG120 or SG1200 into the rack until it is fully seated.
 +
 When you can't move the controller any further, pull the blue latches on both sides of the chassis to slide the controller all the way in.
 +
