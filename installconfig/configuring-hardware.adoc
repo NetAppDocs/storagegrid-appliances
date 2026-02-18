@@ -21,11 +21,10 @@ You must configure and verify the required network connections for all appliance
 * link:../installconfig/configuring-network-links.html[Configure network links]
 * link:../installconfig/verifying-port-level-network-connections.html[Verify port-level network connections]
 
-You also link:../installconfig/verifying-and-upgrading-storagegrid-appliance-installer-version.html[verify and upgrade the StorageGRID Appliance Installer version], link:../installconfig/verifying-network-connections.html[verify the network connections for your appliance], and link:../installconfig/setting-ip-configuration.html[set the IP configuration for your appliance].
 
 === SANtricity System Manager
 
-You must configure SANtricity System Manager if you have one of the following appliances:
+You must link:../installconfig/acccessing-and-configuring-santricity-system-manager.html[configure SANtricity System Manager] if you have one of the following appliances:
 
 * SG5712
 * SG5760
@@ -34,11 +33,16 @@ You must configure SANtricity System Manager if you have one of the following ap
 * SG6000
 * SG6160
 
-SANtricity System Manager software allows you to monitor and manage the health of your storage controllers and disks and configure access to E-Series AutoSupport.
+SANtricity System Manager software allows you to:
+
+* Monitor system performance data, hardware component status, and support functions for your appliance
+* Manage drive security keys, SNMP and syslofg alerts, and administrator passwords for accessing SANtricity System Manager
+* Configure access to E-Series AutoSupport
+
 
 === BMC interface 
 
-You must configure the baseboard management controller (BMC) interface if you have one of the following appliances:
+You must link:../installconfig/configuring-bmc-interface.html[configure the baseboard management controller (BMC) interface] if you have one of the following appliances:
 
 * SG100
 * SG110
@@ -50,7 +54,7 @@ You must configure the baseboard management controller (BMC) interface if you ha
 
 You can use the BMC interface to configure SNMP and other low-level settings for your appliances. It also enables you to troubleshoot your hardware installation, determine your appliance's power state, and control the identify LED on your appliance.
 
-To use the BMC with a supported StorageGRID appliance, link:../installconfig/configuring-bmc-interface.html[configure the network settings for the BMC interface]. To learn more about what features you can use with the BMC, refer to link:../commonhardware/use-bmc.html[Use the BMC interface].
+ To learn more about what features you can use with the BMC, refer to link:../commonhardware/use-bmc.html[Use the BMC interface].
 
 
 == Optional hardware configurations
