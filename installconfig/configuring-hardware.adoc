@@ -42,7 +42,7 @@ SANtricity System Manager software allows you to:
 
 === BMC interface 
 
-You must link:../installconfig/configuring-bmc-interface.html[configure the baseboard management controller (BMC) interface] if you have one of the following appliances:
+You must link:../installconfig/configuring-bmc-interface.html[configure the baseboard management controller (BMC) interface] if you are installing one of the following appliances:
 
 * SG100
 * SG110
@@ -54,7 +54,7 @@ You must link:../installconfig/configuring-bmc-interface.html[configure the base
 
 You can use the BMC interface to configure SNMP and other low-level settings for your appliances. It also enables you to troubleshoot your hardware installation, determine your appliance's power state, and control the identify LED on your appliance.
 
- To learn more about what features you can use with the BMC, refer to link:../commonhardware/use-bmc.html[Use the BMC interface].
+To learn more about what features you can use with the BMC, refer to link:../commonhardware/use-bmc.html[Use the BMC interface].
 
 
 == Optional hardware configurations
