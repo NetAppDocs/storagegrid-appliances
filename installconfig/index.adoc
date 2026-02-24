@@ -69,7 +69,12 @@ If you are configuring and deploying more than one appliance, use the NetApp Con
 ** link:optional-changing-raid-mode.html[Change RAID mode (SG6160, SG6000, SG5860, and SG5760)]
 ** link:optional-remapping-network-ports-for-appliance.html[Remap network ports]
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["Four"]  Deploy appliance node
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["Four"]  Configuration
+
+[role="quick-margin-para"]
+When all nodes have been deployed, use the Grid Manager to link:https://docs.netapp.com/us-en/storagegrid/swnodes/navigating-to-grid-manager.html[configure the grid and complete the installation^].
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-5.png["Five"]  Deploy appliance node
 
 [role="quick-margin-para"]
 Deploy the appliance as a new node in your StorageGRID system. 

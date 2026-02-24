@@ -156,3 +156,7 @@ The Current state changes to "`Installation is in progress,`" and the link:../in
 NOTE: If you need to access the Monitor Installation page manually, click *Monitor Installation* from the menu bar.
 
 . If your grid includes multiple appliance nodes, repeat the previous steps for each appliance.
+
+.What's next?
+
+Learn about link:https://docs.netapp.com/us-en/storagegrid/swnodes/navigating-to-grid-manager.html[configuring the grid and completing the installation^].
