@@ -159,4 +159,4 @@ NOTE: If you need to access the Monitor Installation page manually, click *Monit
 
 .What's next?
 
-Learn about link:https://docs.netapp.com/us-en/storagegrid/swnodes/navigating-to-grid-manager.html[configuring the grid and completing the installation^].
+Learn about link:https://docs.netapp.com/us-en/storagegrid/swnodes/navigating-to-grid-manager.html[configuring the grid and completing the installation^] and link:monitoring-appliance-installation.html[monitoring the appliance installation].
