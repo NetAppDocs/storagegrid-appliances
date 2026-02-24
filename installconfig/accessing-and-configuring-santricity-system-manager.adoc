@@ -17,8 +17,10 @@ The following StorageGRID appliances can access SANtricity System Manager:
 * SG5760
 * SG5812
 * SG5860
-* SG6000
+* SGF6024
+* SG6060
 * SG6160
+* SG6260
 
 You use SANtricity System Manager to monitor the following:
 

@@ -22,35 +22,22 @@ You must configure and verify the required network connections for all appliance
 * link:../installconfig/verifying-port-level-network-connections.html[Verify port-level network connections]
 
 
-=== SANtricity System Manager
-
-You must link:../installconfig/acccessing-and-configuring-santricity-system-manager.html[configure SANtricity System Manager] if you have one of the following appliances:
-
-* SG5712
-* SG5760
-* SG5812
-* SG5860
-* SG6000
-* SG6160
-
-SANtricity System Manager software allows you to:
-
-* Monitor system performance data, hardware component status, and support functions for your appliance
-* Manage drive security keys, SNMP and syslofg alerts, and administrator passwords for accessing SANtricity System Manager
-* Configure access to E-Series AutoSupport
-
-
 === BMC interface 
 
 You must link:../installconfig/configuring-bmc-interface.html[configure the baseboard management controller (BMC) interface] if you are installing one of the following appliances:
 
 * SG100
 * SG110
+* SG120
 * SG1000
 * SG1100
-* SG6000
+* SG1200
+* SG6060
+* SGF6024
 * SGF6112
+* SGF6212
 * SG6160
+* SG6260
 
 You can use the BMC interface to configure SNMP and other low-level settings for your appliances. It also enables you to troubleshoot your hardware installation, determine your appliance's power state, and control the identify LED on your appliance.
 
@@ -58,6 +45,24 @@ To learn more about what features you can use with the BMC, refer to link:../com
 
 
 == Optional hardware configurations
+
+=== SANtricity System Manager
+
+You can link:../installconfig/acccessing-and-configuring-santricity-system-manager.html[configure SANtricity System Manager] if you have one of the following appliances:
+
+* SG5712
+* SG5760
+* SG5812
+* SG5860
+* SG6060
+* SG6160
+* SG6260
+
+SANtricity System Manager software allows you to:
+
+* Monitor system performance data, hardware component status, and support functions for your appliance
+* Manage drive security keys, SNMP and syslofg alerts, and administrator passwords for accessing SANtricity System Manager
+* Configure access to E-Series AutoSupport
 
 === Enable node or drive encryption
 
@@ -71,8 +76,10 @@ The following appliances support changing the RAID mode:
 
 * SG5760
 * SG5860
-* SG6000
+* SG6060
+* SGF6024
 * SG6160
+* SG6260
 
 === Remap network ports
 

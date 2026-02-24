@@ -17,8 +17,10 @@ You can change the RAID mode on the following appliances:
 
 * SG5760
 * SG5860
-* SG6000
+* SGF6024
+* SG6060
 * SG6160
+* SG6260
 
 .About this task
 

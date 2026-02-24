@@ -22,11 +22,16 @@ The following StorageGRID appliances support the BMC interface:
 
 * SG100
 * SG110
+* SG120
 * SG1000
 * SG1100
-* SG6000
+* SG1200
+* SGF6024
 * SGF6112
+* SGF6212
+* SG6060
 * SG6160
+* SG6260
 
 If you are installing your appliance, use the following procedures to configure the BMC:
 
