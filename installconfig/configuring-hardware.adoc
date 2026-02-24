@@ -32,10 +32,10 @@ You must link:../installconfig/configuring-bmc-interface.html[configure the base
 * SG1000
 * SG1100
 * SG1200
-* SG6060
 * SGF6024
 * SGF6112
 * SGF6212
+* SG6060
 * SG6160
 * SG6260
 
@@ -54,6 +54,7 @@ You can link:../installconfig/acccessing-and-configuring-santricity-system-manag
 * SG5760
 * SG5812
 * SG5860
+* SGF6024
 * SG6060
 * SG6160
 * SG6260
@@ -76,8 +77,8 @@ The following appliances support changing the RAID mode:
 
 * SG5760
 * SG5860
-* SG6060
 * SGF6024
+* SG6060
 * SG6160
 * SG6260
 
