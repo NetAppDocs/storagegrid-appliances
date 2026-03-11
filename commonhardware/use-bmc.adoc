@@ -19,6 +19,7 @@ The BMC interface is supported by the following StorageGRID appliance models:
 * SG1100
 * SG6000
 * SG6100
+* SG6200
 
 See the https://kb.netapp.com/hybrid/StorageGRID/Platforms/How_to_use_StorageGRID_Appliance_BMC_with_vendor_supplied_user_guide[BMC User Guide^] for detailed information about using the BMC interface for these appliances. You should only access BMC functions that are _not_ documented in StorageGRID documentation when directed by technical support.
 
