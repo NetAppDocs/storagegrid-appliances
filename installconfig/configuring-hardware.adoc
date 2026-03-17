@@ -30,8 +30,10 @@ The following appliances have a BMC interface that must be configured:
 
 * SG100
 * SG110
+* SG120
 * SG1000
 * SG1100
+* SG1200
 * SG6000
 * SG6100
 * SG6200
@@ -44,4 +46,4 @@ The following appliances have a BMC interface that must be configured:
 ** link:../installconfig/accessing-bmc-interface.html[Access the BMC interface] for the SG6000-CN, SG6100-CN, SG6200-CN controller
 
 * Services appliances
-** link:../installconfig/accessing-bmc-interface.html[Access the BMC interface] for the SG100, SG110, SG1000, and SG1100
+** link:../installconfig/accessing-bmc-interface.html[Access the BMC interface] for the SG100, SG110, SG120, SG1000, SG1100, and SG1200

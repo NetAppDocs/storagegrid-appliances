@@ -22,6 +22,8 @@ indexpage:
           url: "../installconfig/installing-appliance-in-cabinet-or-rack-sg100-and-sg1000.html"
         - title: SG110 and SG1100
           url: "../installconfig/installing-appliance-in-cabinet-or-rack-sg110-and-sg1100.html"
+        - title: SG120 and SG1200
+          url: "../installconfig/installing-appliance-in-cabinet-or-rack-sg120-and-sg1200.html"
     - title: Cable and apply power
       links:
         - title: Connect cables

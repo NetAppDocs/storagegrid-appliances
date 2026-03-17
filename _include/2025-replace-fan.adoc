@@ -7,7 +7,7 @@
 +
 The seven fans are in the following positions in the chassis (front half of StorageGRID appliance with top cover removed shown): 
 +
-image:../media/drw_fan_position_ieops-2614.svg[Fan positions in appliance chassis]
+image::../media/drw_fan_position_ieops-2614.svg[Fan positions in StorageGRID appliance chassis]
 +
 [options="header"]
 |===
@@ -50,5 +50,4 @@ image:../media/drw_s2025_fan_replace_ieops-2552.svg[Removing a fan from the chas
 Align the connector on the fan with the socket in the circuit board.
 +
 . Press the fan's connector firmly into the circuit board.
-
 

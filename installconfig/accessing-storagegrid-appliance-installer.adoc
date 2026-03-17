@@ -41,6 +41,11 @@ image::../media/sg100_admin_network_port.png["Admin Network port on the SG100"]
 image::../media/sg6100_admin_network_port.png["Admin Network port on the SG110"] 
 --
 
+.SG120
+--
+image::../media/sg120_admin_network_port.png["Admin Network port on the SG120"] 
+--
+
 .SG1000
 --
 image::../media/sg1000_admin_network_port.png["Admin Network port on the SG1000"] 
@@ -49,6 +54,11 @@ image::../media/sg1000_admin_network_port.png["Admin Network port on the SG1000"
 .SG1100
 --
 image::../media/sg1100_admin_network_port.png["Admin Network port on the SG1100"] 
+--
+
+.SG1200
+--
+image::../media/sg1200_admin_network_port.png["Admin Network port on the SG1200"] 
 --
 
 .E5700SG
@@ -131,6 +141,13 @@ Connect a service laptop directly to the rightmost RJ-45 port on the appliance, 
 image::../media/sg6100_link_local_port.png["SG110 Link-Local Connection"] 
 --
 
+.SG120
+--
+Connect a service laptop directly to the rightmost RJ-45 port on the appliance, using an Ethernet cable.
+
+image::../media/sg120_link_local_port.png["SG120 Link-Local Connection"] 
+--
+
 .SG1000
 --
 Connect a service laptop directly to the rightmost RJ-45 port on the services appliance, using an Ethernet cable.
@@ -143,6 +160,13 @@ image::../media/sg1000_link_local_port.png["SG1000 Link-Local Connection"]
 Connect a service laptop directly to the rightmost RJ-45 port on the appliance, using an Ethernet cable.
 
 image::../media/sg1100_link_local_port.png["SG1100 Link-Local Connection"] 
+--
+
+.SG1200
+--
+Connect a service laptop directly to the rightmost RJ-45 port on the appliance, using an Ethernet cable.
+
+image::../media/sg1200_link_local_port.png["SG1200 Link-Local Connection"] 
 --
 
 .E5700SG

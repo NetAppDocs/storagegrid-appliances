@@ -36,6 +36,7 @@ NOTE: LACP PDU rate changes that are made following these instructions remain pe
 
 * link:gathering-installation-information-sg100-and-sg1000.html#port-bond-modes[Port bond modes (SG1000 and SG100)]
 * link:gathering-installation-information-sg110-and-sg1100.html#port-bond-modes[Port bond modes (SG1100 and SG110)]
+* link:gathering-installation-information-sg120-and-sg1200.html#port-bond-modes[Port bond modes (SG1200 and SG120)]
 * link:gathering-installation-information-sg5700.html#port-bond-modes[Port bond modes (E5700SG)]
 * link:gathering-installation-information-sg5800.html#port-bond-modes[Port bond modes (SG5800)]
 * link:gathering-installation-information-sg6000.html#port-bond-modes[Port bond modes (SG6000-CN)]
@@ -265,6 +266,113 @@ image::../media/sg1100_bonded_management_ports.png["Admin Network Ports Bonded S
 SG110:
 +
 image::../media/sgf6112_bonded_management_ports.png["Admin Network Ports Bonded SG110"] 
+--
+
+
+.SG120 and SG1200
+--
+
+Fixed port bond mode (default)::
++
+The figures show how the four network ports on the SG120 and SG1200 are bonded in fixed port bond mode (default configuration).
++
+SG120:
++
+image::../media/sg120_fixed_port.png["SG120 Fixed Port Bond Mode"] 
++
+SG1200:
++
+image::../media/sg1200_fixed_port.png["SG1200 Fixed Port Bond Mode"] 
++
+[cols="1a,3a" options="header"]
+|===
+| Callout| Which ports are bonded
+
+| C
+| Ports 1 and 3 are bonded together for the Client Network, if this network is used.
+
+| G
+| Ports 2 and 4 are bonded together for the Grid Network.
+|===
++
+The table summarizes the options for configuring the four network ports. You only need to configure the settings on the Link Configuration page if you want to use a non-default setting.
++
+[cols="1a,2a,2a" options="header"]
+|===
+| Network bond mode| Client Network disabled| Client Network enabled (default)
+|Active-Backup (default)
+|
+ ** Ports 2 and 4 use an active-backup bond for the Grid Network.
+ ** Ports 1 and 3 aren't used.
+ ** A VLAN tag is optional.
+
+|
+ ** Ports 2 and 4 use an active-backup bond for the Grid Network.
+ ** Ports 1 and 3 use an active-backup bond for the Client Network.
+ ** VLAN tags can be specified for both networks for the convenience of the network administrator.
+
+|LACP (802.3ad)
+|
+ ** Ports 2 and 4 use an LACP bond for the Grid Network.
+ ** Ports 1 and 3 aren't used.
+ ** A VLAN tag is optional.
+ ** LACP PDU rate and LACP transmit hash policy values can be specified in the Grid Network section.
+
+|
+ ** Ports 2 and 4 use an LACP bond for the Grid Network.
+ ** Ports 1 and 3 use an LACP bond for the Client Network.
+ ** VLAN tags can be specified for both networks for the convenience of the network administrator.
+ ** LACP PDU rate and LACP transmit hash policy values can be specified in the Grid Network and Client Network sections.
+
+|===
+
+Aggregate port bond mode::
++
+These figures show how the four network ports are bonded in aggregate port bond mode.
++
+SG120:
++
+image::../media/sg120_aggregate_ports.png["SG120 Aggregate Port Bond Mode"] 
++
+SG1200:
++
+image::../media/sg1200_aggregate_ports.png["SG1200Aggregate Port Bond Mode"] 
++
+[cols="1a,3a" options="header"]
+|===
+| Callout| Which ports are bonded
+
+| 1
+| All four ports are grouped in a single LACP bond, allowing all ports to be used for Grid Network and Client Network traffic.
+|===
++
+The table summarizes the options for configuring the network ports. You only need to configure the settings on the Link Configuration page if you want to use a non-default setting.
++
+[cols="1a,2a,2a" options="header"]
+|===
+| Network bond mode| Client Network disabled| Client Network enabled (default)
+|LACP (802.3ad) only
+| ** Ports 1-4 use a single LACP bond for the Grid Network.
+** A single VLAN tag identifies Grid Network packets.
+** LACP PDU rate and LACP transmit hash policy values can be specified in the Link settings section.
+
+| ** Ports 1-4 use a single LACP bond for the Grid Network and the Client Network.
+** Two VLAN tags allow Grid Network packets to be segregated from Client Network packets.
+** LACP PDU rate and LACP transmit hash policy values can be specified in the Link settings section.
+
+|===
+
+Active-Backup network bond mode for management ports::
++
+These figures show how the two 1-GbE management ports on the appliances are bonded in Active-Backup network bond mode for the Admin Network.
++
+SG120:
++
+image::../media/sg120_bonded_management_ports.png["Admin Network Ports Bonded SG120"] 
++
+SG1200:
++
+image::../media/sg1200_bonded_management_ports.png["Admin Network Ports Bonded SG1200"] 
 --
 
 .SG5700

@@ -22,6 +22,8 @@ indexpage:
         url: "/installconfig/hardware-description-sg100-and-1000.html"            
       - title: SG110 and SG1100
         url: "/installconfig/hardware-description-sg110-and-1100.html"
+      - title: SG120 and SG1200
+        url: "/installconfig/hardware-description-sg120-and-1200.html"
       - title: SG5700
         url: "/installconfig/hardware-description-sg5700.html"
       - title: SG5800
@@ -48,6 +50,8 @@ indexpage:
         url: /landing-maintain-sg1000-100/index.html
       - title: SG110 and SG1100
         url: /landing-maintain-sg1100-110/index.html
+      - title: SG120 and SG1200
+        url: /landing-maintain-sg1200-120/index.html
       - title: SG5600
         url: /sg5600/index.html
       - title: SG5700

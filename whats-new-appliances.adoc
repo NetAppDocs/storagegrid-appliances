@@ -14,6 +14,9 @@ summary: "Learn what's new in this doc site."
 [.lead]
 Learn what's new in StorageGRID appliances.
 
+== SG120 and SG1200 services appliances
+The new StorageGRID SG120 and SG1200 services appliances are an evolutionary hardware update that provide improved administrative and load-balancing performance. Refer to link:./installconfig/hardware-description-sg120-and-1200.html[SG120 and SG1200 services appliance: Overview].
+
 == SGF6212 appliance
 
 The new StorageGRID SGF6212 storage appliance features a compact design with compute controller and storage controller integrated into a 1U chassis. The appliance supports 12 SSD NVMe drives in a RAID that provides resilient object storage. See link:installconfig/hardware-description-sg6200.html[SGF6212 appliance: Overview].
@@ -29,7 +32,6 @@ With StorgeGRID version 12.0, the version number of the StorageGRID Appliance In
 
 == BMC information
 Detailed information about using the StorageGRID appliance BMC interface is now available. Refer to link:./commonhardware/use-bmc.html[Use the StorageGRID appliance baseboard management controller (BMC)].
-
 
 
 

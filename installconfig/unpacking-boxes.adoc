@@ -60,6 +60,30 @@ Two power cords for your country::
 image::../media/power_cords.gif["Power cords"] 
 --
 
+.SG120 and SG1200
+--
+* *Hardware*
+
+SG120 or SG1200::
++
+image::../media/sg120_front_view.png["Front drives SG120 and SG1200 appliances"] 
+
+Rail kit with instructions::
++
+image::../media/rail_kit.gif["Rail kit"] 
+
+Front bezel (not shown)::
+
+
+* *Power cords*
++
+TIP: Your cabinet might have special power cords that you use instead of the power cords that ship with the appliance.
++
+Two power cords for your country::
++
+image::../media/power_cords.gif["Power cords"] 
+--
+
 .SG5700
 --
 

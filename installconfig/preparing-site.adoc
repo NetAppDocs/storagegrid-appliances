@@ -28,6 +28,9 @@ Before installing the appliance, you must make sure that the site and the cabine
 | SG110 and SG1100
 | 100 to 240 volts AC
 
+| SG120 and SG1200
+| 240 volts AC
+
 | SG5712
 | 120 to 240 volts AC
 
@@ -82,6 +85,14 @@ Before installing the appliance, you must make sure that the site and the cabine
 | SG1100
 | 422
 | 700
+
+| SG120
+| 432
+| 519
+
+| SG1200
+| 557
+| 668
 
 | SG5712
 | 578
@@ -180,6 +191,57 @@ a|
 43.83 lb.
 
 (19.88 kg)
+
+|===
+--
+
+.SG120 and SG1200
+--
+[cols="1a,1a,1a,1a,1a" options="header"]
+|===
+| Appliance model| Height| Width| Depth| Maximum weight
+a|
+SG120
+
+a|
+1.70 in.
+
+(4.32 cm)
+a|
+18.98 in.
+
+(48.21 cm)
+a|
+30.56 in.
+
+(77.62 cm)
+a|
+
+42.13 lb.
+
+(19.11 kg)
+
+
+a|
+SG1200
+
+a|
+1.70 in.
+
+(4.32 cm)
+a|
+18.98 in.
+
+(48.21 cm)
+a|
+30.56 in.
+
+(77.62 cm)
+a|
+
+43.43 lb.
+
+(19.70 kg)
 
 |===
 --

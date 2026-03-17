@@ -9,7 +9,7 @@
 .. Locate the CMOS battery on the system board. 
 .. Use your finger or a plastic pry tool to press the retaining clip away from the battery to spring it from the socket.
 +
-image:../media/drw_s2025_cmos_battery_replace_ieops-2558.svg[Removing a CMOS battery from the system board]
+image::../media/drw_s2025_cmos_battery_replace_ieops-2558.svg[Removing a CMOS battery from the system board]
 .. Remove the battery and dispose of it properly. 
 
 . Install the replacement CMOS battery.

@@ -1,0 +1,24 @@
+---
+permalink: sg120-1200/locating-sg120-and-sg1200-in-data-center.html
+sidebar: sidebar
+keywords: storagegrid, sg120, sg1200, appliance, locate, find, locating, finding, identify, blue led, blue light
+summary: 'Locate the appliance so that you can perform hardware maintenance or upgrades.'
+---
+= Locate SG120 or SG1200 in data center
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Locate the appliance so that you can perform hardware maintenance or upgrades.
+
+.Before you begin
+
+* You have determined which appliance requires maintenance.
+
+* To help locate the appliance in your data center, link:turning-sg120-and-sg1200-identify-led-on-and-off.html[turn on the blue identify LED].
+
+include::../_include/2025-locate-appliance.adoc[]
+
+. link:turning-sg120-and-sg1200-identify-led-on-and-off.html[Turn off the blue identify LED] if you used it to locate the appliance.
+ ** Press the identify LED switch on the appliance front panel.
+ ** Use the appliance BMC interface.
