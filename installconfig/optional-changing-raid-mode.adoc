@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storage node, storage appliance, raid, raid mode, change, changing, modify, DDP, ddp16, RAID 6
 summary: 'On some appliance models, you can change to a different RAID mode on the appliance to accommodate your storage and recovery requirements. You can only change the mode before deploying the appliance Storage Node.'
 ---
-= Optional: Change RAID mode (SG5760, SG5860, SG6000, SG6160, SG6260)
+= Change RAID mode (Optional)
 :icons: font
 :imagesdir: ../media/
 
@@ -12,6 +12,15 @@ summary: 'On some appliance models, you can change to a different RAID mode on t
 On some appliance models, you can change to a different RAID mode on the appliance to accommodate your storage and recovery requirements. You can only change the mode before deploying the appliance Storage Node.
 
 If you are using ConfigBuilder to generate a JSON file, you can change the RAID mode automatically. See link:automating-appliance-installation-and-configuration.html[Automate appliance installation and configuration].
+
+You can change the RAID mode on the following appliances:
+
+* SG5760
+* SG5860
+* SGF6024
+* SG6060
+* SG6160
+* SG6260
 
 .About this task
 

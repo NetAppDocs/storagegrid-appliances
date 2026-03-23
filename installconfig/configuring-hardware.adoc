@@ -4,29 +4,26 @@ sidebar: sidebar
 keywords: storage node, storage appliance, hardware, configure, configuration, set up, setup, network, networking
 summary: 'After applying power to the appliance, you configure the network connections that will be used by StorageGRID. '
 ---
-= Set up hardware: Overview
+= Set up hardware overview
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 After applying power to the appliance, you configure the network connections that will be used by StorageGRID. 
 
-== Configure required network connections
-For all appliances, you perform several tasks to configure required network connections such as:
+== Required hardware configurations
 
-* Access the Appliance Installer
-* Configure network links
-* Verify port-level network connections
+=== Network connections
 
-== Additional configuration that might be required
-Depending upon which appliance types you are configuring, additional hardware configuration might be required.
+You must configure and verify the required network connections for all appliances:
 
-=== SANtricity System Manager
+* link:../installconfig/accessing-storagegrid-appliance-installer.html[Access the Appliance Installer]
+* link:../installconfig/configuring-network-links.html[Configure network links]
+* link:../installconfig/verifying-port-level-network-connections.html[Verify port-level network connections]
 
-For the SG6260, SG6160, SG6000, SG5800, and SG5700, you configure SANtricity System Manager. The SANtricity software is used to monitor the hardware for these appliances. 
+=== BMC interface
 
-=== BMC interface 
-The following appliances have a BMC interface that must be configured: 
+You must link:../installconfig/configuring-bmc-interface.html[configure the baseboard management controller (BMC) interface] if you are installing one of the following appliances:
 
 * SG100
 * SG110
@@ -34,16 +31,56 @@ The following appliances have a BMC interface that must be configured:
 * SG1000
 * SG1100
 * SG1200
-* SG6000
-* SG6100
-* SG6200
+* SGF6024
+* SGF6112
+* SGF6212
+* SG6060
+* SG6160
+* SG6260
 
-== Optional configuration
+You can use the BMC interface to configure SNMP and other low-level settings for your appliances. It also enables you to troubleshoot your hardware installation, determine your appliance's power state, and control the identify LED on your appliance.
 
-* Storage appliances
-** Configure SANtricity System Manager (SG5700, SG5800, SG6000, SG6100, SG6200) the software you will use to monitor the hardware
-** Change the RAID mode
-** link:../installconfig/accessing-bmc-interface.html[Access the BMC interface] for the SG6000-CN, SG6100-CN, SG6200-CN controller
+To learn more about what features you can use with the BMC, refer to link:../commonhardware/use-bmc.html[Use the BMC interface].
 
-* Services appliances
-** link:../installconfig/accessing-bmc-interface.html[Access the BMC interface] for the SG100, SG110, SG120, SG1000, SG1100, and SG1200
+
+== Optional hardware configurations
+
+=== SANtricity System Manager
+
+You can link:../installconfig/acccessing-and-configuring-santricity-system-manager.html[configure SANtricity System Manager] if you have one of the following appliances:
+
+* SG5712
+* SG5760
+* SG5812
+* SG5860
+* SGF6024
+* SG6060
+* SG6160
+* SG6260
+
+SANtricity System Manager software allows you to:
+
+* Monitor system performance data, hardware component status, and support functions for your appliance
+* Manage drive security keys, SNMP and syslofg alerts, and administrator passwords for accessing SANtricity System Manager
+* Configure access to E-Series AutoSupport
+
+=== Enable node or drive encryption
+
+You can link:../installconfig/optional-enabling-node-encryption.html[enable node or drive encryption] to protect the drives and disks in your appliance.
+
+=== Change RAID mode
+
+You can link:../installconfig/optional-changing-raid-mode.html[change the RAID mode of your storage appliance] to accommodate your storage and recovery needs.
+
+The following appliances support changing the RAID mode:
+
+* SG5760
+* SG5860
+* SGF6024
+* SG6060
+* SG6160
+* SG6260
+
+=== Remap network ports
+
+You can link:../installconfig/optional-remapping-network-ports-for-appliance.html[remap the network ports on your appliance] to optimize your network connections.
