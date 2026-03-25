@@ -5,7 +5,7 @@ keywords: storagegrid, sg110, sg1100, admin node, admin appliance, install, inst
 summary: 'Remove the SG110 or SG1100 from a cabinet or rack to access the top cover or to move the appliance to a different location, then reinstall the appliance into a cabinet or rack when hardware maintenance is complete.'
 ---
 
-= Relocate SG110 and SG1100 in cabinet or rack
+= Relocate an SG110 and SG1100 in a cabinet or rack
 :icons: font
 :imagesdir: ../media/
 
