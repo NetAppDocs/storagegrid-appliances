@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: E4000 replace drive, replacing E4000 drive, E4000 replace drive, replacing E4000 drive, E4000, E-Series, eseries. sg5812
 summary: You can replace a drive in the SG5812.
 ---
-= Replace drive in SG5812
+= Replace a drive in the SG5812
 :icons: font
 :imagesdir: ../media/
 
