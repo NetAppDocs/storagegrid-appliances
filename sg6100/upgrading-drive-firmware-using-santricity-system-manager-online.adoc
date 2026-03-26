@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storagegrid, sg6100, storage node, storage appliance, upgrade, upgrading, firmware, drive, disk, SANtricity System Manager, SANtricity
 summary: 'You upgrade your drive firmware to make sure you have all the latest features and bug fixes.'
 ---
-= Upgrade SG6100 drive firmware using SANtricity System Manager online method (SG6160)
+= Upgrade SG6160 drive firmware with SANtricity online method
 :icons: font
 :imagesdir: ../media/
 
