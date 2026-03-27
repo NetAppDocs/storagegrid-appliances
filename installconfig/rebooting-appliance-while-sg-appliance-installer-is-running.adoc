@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storage node, storage appliance, service appliance, services appliance, gateway Node, admin node, reboot, restart 
 summary: 'You might need to reboot the appliance while the StorageGRID Appliance Installer is running. For example, you might need to reboot the appliance if the installation fails.'
 ---
-= Reboot appliance while StorageGRID Appliance Installer is running
+= Reboot a StorageGRID appliance while Appliance Installer is running
 :icons: font
 :imagesdir: ../media/
 

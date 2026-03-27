@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storagegrid, sg110, sg1100, service appliance, services appliance, gateway Node, admin node, overview, models, features, applications, how to use, services 
 summary: 'The StorageGRID SG110 services appliance and the SG1100 services appliance can operate as a Gateway Node and as an Admin Node to provide high availability load balancing services in a StorageGRID system. Both appliances can operate as Gateway Nodes and Admin Nodes \(primary or non-primary\) at the same time.'
 ---
-= SG110 and SG1100 appliances: Overview
+= StorageGRID SG110 and SG1100 appliances
 :icons: font
 :imagesdir: ../media/
 

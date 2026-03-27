@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: equipment to install appliance, tools for installation
 summary: 'Before installing a StorageGRID appliance, confirm you have all of the additional equipment and tools that you need.'
 ---
-= Obtain additional equipment and tools
+= Obtain additional equipment and tools for StorageGRID appliances
 :icons: font
 :imagesdir: ../media/
 

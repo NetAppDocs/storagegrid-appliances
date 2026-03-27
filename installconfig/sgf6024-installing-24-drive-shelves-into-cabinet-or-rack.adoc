@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storagegrid, sg6000, storage node, storage appliance, install, installing, installation, cabinet, rack, controller, drive shelf, drive shelves, 24-drive, shelf, shelves, rail, rails
 summary: 'You install a set of rails for the EF570 controller shelf in your cabinet or rack, and then slide the array onto the rails.'
 ---
-= Install 24-drive shelves (SGF6024)
+= Install 24-drive shelves for StorageGRID SGF6024
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storagegrid, sg5700, sg5712, sg5760, install, cabinet, rack, rails, drives
 summary: 'You install a set of rails in your cabinet or rack and then slide the appliance onto the rails. If you have an SG5760, install the drives after installing the appliance.'
 ---
-= Install into cabinet or rack (SG5700)
+= Install the SG5700 into a cabinet or rack
 :icons: font
 :imagesdir: ../media/
 

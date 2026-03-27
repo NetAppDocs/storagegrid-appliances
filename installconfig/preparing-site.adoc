@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: site prep, site preparation, preparing site, site requirements, requirements, site, dimensions, weight, weights, temperature, humidity, altitude, airflow, heat, wiring, power, grounding, facility
 summary: 'Before installing the appliance, you must make sure that the site and the cabinet or rack you plan to use meet the specifications for a StorageGRID appliance.'
 ---
-= Prepare site
+= Prepare the site for StorageGRID appliances
 :icons: font
 :imagesdir: ../media/
 

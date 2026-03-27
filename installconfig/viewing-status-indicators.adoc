@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: status, indicators, lights, leds, light, led, display, switch , button, power, reset, identify, alarm, ssd, indicator, boot codes, boot, code, start, startup, start up, start-up, progress
 summary: 'The appliances and controllers include indicators that help you determine the status of the appliance components.'
 ---
-= View status indicators and codes
+= View status indicators and codes on StorageGRID appliances
 :icons: font
 :imagesdir: ../media/
 

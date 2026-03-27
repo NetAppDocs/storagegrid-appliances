@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: node encryption, encryption, kms, key management server, drive encryption, self-encrypting drives, sed, full-disk encryption, fde
 summary: 'You can enable encryption at the node and disk levels to protect the disks in your appliance against physical loss or removal from the site.'
 ---
-= Optional: Enable node or drive encryption
+= Enable node or drive encryption for StorageGRID appliances
 :icons: font
 :imagesdir: ../media/
 

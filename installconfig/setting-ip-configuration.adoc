@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, setup, set up, IP, IP address
 summary: 'You use the StorageGRID Appliance Installer to configure the IP addresses and routing information used for the the services appliance or appliance Storage Node on the StorageGRID Grid, Admin, and Client Networks.'
 ---
-= Configure StorageGRID IP addresses
+= Configure StorageGRID appliance IP addresses
 :icons: font
 :imagesdir: ../media/
 
