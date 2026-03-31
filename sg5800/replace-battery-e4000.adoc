@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: 
 summary: 
 ---
-= Replace the battery in the E4000 controller in SG5800
+= Replace the battery in the E4000 controller in an SG5800
 :icons: font
 :imagesdir: ../media/
 
