@@ -102,7 +102,7 @@ image:../media/drw_s2025_IO_card_replace_ieops-2557.svg[Installing an IO card in
 . Reinstall the riser assembly into chassis.
 .. Position the riser assembly in the chassis, making sure that the edges of the riser assembly correctly align with the edges of the chassis.
 +
-image:../media/drw_s2025_io_3_replace_ieops-2686.svg[Replacing NIC 3 in the riser assembly]
+image:../media/drw_s2025_IO_3_replace_ieops-2686.svg[Replacing NIC 3 in the riser assembly]
 
 .. Carefully press the riser assembly in place along its center line, next to the blue-marked hole, until it is fully seated.
 .. Rotate the blue lock on the riser to the closed position.
