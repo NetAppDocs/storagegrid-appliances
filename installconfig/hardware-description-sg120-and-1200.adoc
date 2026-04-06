@@ -13,7 +13,7 @@ The StorageGRID SG120 services appliance and the SG1200 services appliance can o
 
 == Appliance features
 
-Both models of the services appliance provide the following features:
+The SG120 and SG1200 appliances provide the following features:
 
 * Gateway Node or Admin Node functions for a StorageGRID system.
 * The StorageGRID Appliance Installer to simplify node deployment and configuration.
@@ -30,9 +30,7 @@ This figure shows the front of the SG120 and the SG1200 with the bezel removed. 
 
 image::../media/sg120_sg1200_front_with_ssds.png["Front with SSDs SG120 and SG1200"] 
 
-The two solid-state drives (SSDs), indicated by the orange outline, are used for storing the StorageGRID operating system and are mirrored using RAID 1 for redundancy. When the SG120 or SG1200 services appliance is configured as an Admin Node, these drives might be used to store audit logs, metrics, and database tables.
-
-The remaining drive slots are blank.
+The two solid-state drives (SSDs), indicated by the orange outline, are used for storing the StorageGRID operating system and are mirrored using RAID 1 for redundancy. When the SG120 or SG1200 services appliance is configured as an Admin Node, these drives might be used to store audit logs, metrics, and database tables. The remaining drive slots are blank.
 
 This figure shows the location of the power supply and identify LEDs on the rear of the SG120 and the SG1200. Additional status and activity LEDs are on the appliance ports. These LEDs might vary by appliance model.
 
@@ -166,9 +164,7 @@ Options:
 
 == SG120 and SG1200 applications
 
-You can configure the StorageGRID services appliances in various ways to provide gateway services as well as redundancy of some grid administration services.
-
-Appliances can be deployed in the following ways:
+You can configure the StorageGRID services appliances in the following ways to provide gateway services as well as redundancy of some grid administration services.
 
 * Add to a new or existing grid as a Gateway Node
 * Add to a new grid as a primary or non-primary Admin Node, or to an existing grid as a non-primary Admin Node

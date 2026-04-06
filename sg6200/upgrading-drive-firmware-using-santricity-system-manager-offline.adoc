@@ -11,7 +11,7 @@ summary: 'You upgrade your drive firmware to make sure you have all the latest f
 [.lead]
 Use the SANtricity System Manager offline method to upgrade the firmware on the drives in your appliance to make sure you have all the latest features and bug fixes. 
 
-NOTE: This procedure does *not* apply to the NVMe SSDs in the SG6200-CN, which are updated during StorageGRID software upgrades. Only drives in the E4000 can be updated using this procedure.
+NOTE: This procedure does *not* apply to the NVMe SSDs in the SG6200-CN, which are updated during StorageGRID software upgrades. Only drives in the E4000 can be updated using this procedure. 
 
 .Before you begin
 
@@ -119,7 +119,6 @@ link:troubleshoot-upgrading-drive-firmware-using-santricity-system-manager.html[
 * *Reboot into Maintenance Mode*. Reboot the controller and keep the node in maintenance mode. Select this option if there were any failures during the procedure and you want to start over. After the node finishes rebooting into maintenance mode, restart from the appropriate step in the procedure that failed.
 +
 It can take up to 20 minutes for the appliance to reboot and rejoin the grid. To confirm that the reboot is complete and that the node has rejoined the grid, go back to the Grid Manager. The Nodes page should display a normal status (green check mark icon image:../media/icon_alert_green_checkmark.png["green check mark"]  to the left of the node name) for the appliance node, indicating that no alerts are active and the node is connected to the grid.
-+
-image::../media/nodes_menu.png["Appliance node rejoined grid"] 
+
 
 // 2024 FEB 29, SGIRDDOC-52
