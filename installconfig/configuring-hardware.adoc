@@ -47,7 +47,7 @@ To learn more about what features you can use with the BMC, refer to link:../com
 
 === SANtricity System Manager
 
-You can link:../installconfig/acccessing-and-configuring-santricity-system-manager.html[configure SANtricity System Manager] if you have one of the following appliances:
+You can link:../installconfig/accessing-and-configuring-santricity-system-manager.html[configure SANtricity System Manager] if you have one of the following appliances:
 
 * SG5712
 * SG5760
