@@ -11,16 +11,6 @@ summary:
 [.lead]
 You might need to replace an E4000 controller  if it is not functioning optimally or if it has failed.
 
-.Before you begin
-
-* You have a replacement controller with the same part number as the controller you are replacing.
-* You have labels to identify each cable that is connected to the controller.
-* You have an ESD wristband, or you have taken other antistatic precautions.
-* You have a #1 Phillips screwdriver.
-* You have physically located the storage appliance where you are replacing the controller in the data center.
-
-NOTE: Don't rely on the E-Series instructions to replace a controller in the StorageGRID appliance, because the procedures aren't the same.
-
 .About this task
 
 You can determine if you have a failed controller in two ways:
@@ -38,6 +28,17 @@ If your appliance contains two storage controllers, you can replace one of the c
 NOTE: When possible, place the appliance into maintenance mode for this replacement procedure to minimize the potential impact of unforeseen errors or failures.
 
 NOTE: If the second controller in the shelf does not have Optimal status or if the Recovery Guru indicates that it is not OK to remove the controller, contact technical support.
+
+.Before you begin
+
+* You have a replacement controller with the same part number as the controller you are replacing.
+* You have labels to identify each cable that is connected to the controller.
+* You have an ESD wristband, or you have taken other antistatic precautions.
+* You have a #1 Phillips screwdriver.
+* You have physically located the storage appliance where you are replacing the controller in the data center.
+
+NOTE: Don't rely on the E-Series instructions to replace a controller in the StorageGRID appliance, because the procedures aren't the same.
+
 
 
 == Step 1: Prepare the replacement controller

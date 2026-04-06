@@ -13,6 +13,12 @@ Use the SANtricity System Manager offline method to upgrade the firmware on the 
 
 NOTE: This procedure does *not* apply to the NVMe SSDs in the SG6200-CN, which are updated during StorageGRID software upgrades. Only drives in the E4000 can be updated using this procedure. 
 
+.About this task
+
+The drives are upgraded in parallel while the appliance is in maintenance mode. If the pool or volume group does not support redundancy or is degraded, you must use the offline method to upgrade the drive firmware. You should also use the offline method for any drive associated with flash read cache, or any pool or volume group that is currently degraded. The offline method upgrades firmware only while all I/O activity is stopped on the drives to be upgraded. To stop I/O activity, place the node into maintenance mode.
+
+The offline method is faster than the online method and will be significantly faster when many drives in a single appliance need upgrades. However, it requires that nodes be taken out of service, which might require scheduling a maintenance window and monitoring progress. Choose the method that is the best fit for your operational procedures and the number of drives that need to be upgraded.
+
 .Before you begin
 
 * The storage appliance has an Optimal status.
@@ -23,11 +29,7 @@ NOTE: While the appliance is in maintenance mode, I/O (input/output) activity to
 
 CAUTION: Don't upgrade the drive firmware on more than one StorageGRID appliance at a time. Doing so might cause data unavailability, depending on your deployment model and ILM policy.
 
-.About this task
 
-The drives are upgraded in parallel while the appliance is in maintenance mode. If the pool or volume group does not support redundancy or is degraded, you must use the offline method to upgrade the drive firmware. You should also use the offline method for any drive associated with flash read cache, or any pool or volume group that is currently degraded. The offline method upgrades firmware only while all I/O activity is stopped on the drives to be upgraded. To stop I/O activity, place the node into maintenance mode.
-
-The offline method is faster than the online method and will be significantly faster when many drives in a single appliance need upgrades. However, it requires that nodes be taken out of service, which might require scheduling a maintenance window and monitoring progress. Choose the method that is the best fit for your operational procedures and the number of drives that need to be upgraded.
 
 .Steps
 
