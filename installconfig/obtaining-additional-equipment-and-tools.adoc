@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: equipment to install appliance, tools for installation
 summary: 'Before installing a StorageGRID appliance, confirm you have all of the additional equipment and tools that you need.'
 ---
-= Obtain additional equipment and tools
+= Obtain additional equipment and tools for StorageGRID appliances
 :icons: font
 :imagesdir: ../media/
 
@@ -56,7 +56,7 @@ Optical cables and transceivers::
 *** 10-GbE QSFP-to-SFP adapter (QSA) and SFP+ 
 *** 25-GbE QSFP-to-SFP adapter (QSA) and SFP28 
 *** 40-GbE QSFP+
-*** 100-GbE QFSP28
+*** 100-GbE QSFP28
 
 Ethernet cables:: RJ-45 (Cat5/Cat5e/Cat6/Cat6a)
 --
@@ -80,7 +80,32 @@ Optical cables and transceivers::
 *** 10-GbE QSFP-to-SFP adapter (QSA) and SFP+ 
 *** 25-GbE QSFP-to-SFP adapter (QSA) and SFP28 
 *** 40-GbE QSFP+
-*** 100-GbE QFSP28
+*** 100-GbE QSFP28
+
+Ethernet cables:: RJ-45 (Cat5/Cat5e/Cat6/Cat6a)
+--
+
+.SG120 and SG1200
+--
+You need the following additional equipment to install and configure the SG120 and SG1200 hardware.
+
+Optical cables and transceivers::
+* Cables, 1 to 4 of either:
+** TwinAx/Copper 
+** Fibre/Optical 
+
+* Transceivers/adapters, 1 to 4 of each, based on link speed (mixed speeds aren't supported):
+** SG120:
+*** 10-GbE SFP+
+*** 25-GbE SFP28
+
+** SG1200:
+
+*** 10-GbE QSFP-to-SFP adapter (QSA) and SFP+ 
+*** 25-GbE QSFP-to-SFP adapter (QSA) and SFP28 
+*** 40-GbE QSFP+
+*** 100-GbE QSFP28
+*** 200-GbE QSFP56 (200GbE NIC only)
 
 Ethernet cables:: RJ-45 (Cat5/Cat5e/Cat6/Cat6a)
 --
@@ -146,6 +171,30 @@ Cables and transceivers::
 ** 10-GbE SFP+ 
 ** 25-GbE SFP28 
 ** 100-GbE QSFP28
+
+Ethernet cables::
+RJ-45 (Cat5/Cat5e/Cat6/Cat6a)
+
+Optional tools::
+Mechanized lift for 60-drive shelves
+--
+
+.SG6200
+--
+You need the following additional equipment to install and configure the SG6100 hardware.
+
+Cables and transceivers::
+
+* Cables, 1 to 4 of either:
+** TwinAx/Copper
+** Fibre/Optical
+
+* Transceivers/adapters, 1 to 8 of each, based on link speed (mixed speeds aren't supported):
+** 10-GbE SFP+ 
+** 25-GbE SFP28 
+** 40-GbE QSFP+
+** 100-GbE QSFP28
+** 200-GbE QSFP56 (200 GbE NIC only)
 
 Ethernet cables::
 RJ-45 (Cat5/Cat5e/Cat6/Cat6a)

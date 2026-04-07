@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: BMC, baseboard management controller, access, open, login
 summary: 'You can access the BMC interface using the DHCP or static IP address for the BMC management port on the following appliance models: '
 ---
-= Access BMC interface
+= Access the BMC interface on a StorageGRID appliance
 :icons: font
 :imagesdir: ../media/
 
@@ -13,10 +13,15 @@ You can access the BMC interface using the DHCP or static IP address for the BMC
 
 * SG100
 * SG110
+* SG120
 * SG1000
 * SG1100
-* SG6000
-* SG6100
+* SG1200
+* SG6060
+* SGF6112
+* SGF6212
+* SG6160
+* SG6260
 
 .Before you begin
 
@@ -37,6 +42,10 @@ image::../media/sg100_bmc_management_port.png["SG100 BMC management port"]
 --
 image::../media/sgf6112_cn_bmc_management_port.png["BMC management port SG110"] 
 --
+.SG120
+--
+image::../media/sg120_bmc_management_port.png["BMC management port SG120"] 
+--
 
 .SG1000
 --
@@ -46,6 +55,11 @@ image::../media/sg1000_bmc_management_port.png["SG1000 BMC Management Port"]
 .SG1100
 --
 image::../media/sg1100_bmc_management_port.png["BMC management port SG1100"] 
+--
+
+.SG1200
+--
+image::../media/sg1200_bmc_management_port.png["BMC management port SG1200"] 
 --
 
 .SG6000
@@ -62,6 +76,17 @@ image::../media/sgf6112_cn_bmc_management_port.png["BMC management port SGF6112"
 _SG6100-CN_:
 
 image::../media/sg6100_cn_bmc_management_port.png["BMC management port SG610-CN"] 
+--
+
+.SG6200
+--
+_SGF6212_:
+
+image::../media/sgf6212_bmc_management_port.png["BMC management port SGF6212"] 
+
+_SG6200-CN_:
+
+image::../media/sg6200_cn_bmc_management_port.png["BMC management port SG6200-CN"] 
 --
 ====
 
@@ -82,8 +107,6 @@ NOTE: If you haven't yet configured `BMC_Port_IP`, follow the instructions in li
 NOTE: The default user depends on when you installed your StorageGRID appliance. The default user is *admin* for new installations and *root* for older installations.
 
 . Select *Sign me in*.
-+
-image::../media/bmc_dashboard.gif["BMC Dashboard"] 
 
 . Optionally, create additional users by selecting *Settings* > *User Management* and clicking on any "`disabled`" user.
 +

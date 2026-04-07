@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: E4000 replace drive, replacing E4000 drive, E4000 replace drive, replacing E4000 drive, E4000, sg6160, sg6100cn
 summary: Replace a drive in an E4000 with a 60-drive shelf.
 ---
-= Replace drive in storage controller shelf or expansion shelf (SG6160)
+= Replace a drive in an SG6160 storage controller shelf or expansion shelf
 :icons: font
 :imagesdir: ../media/
 
@@ -23,7 +23,7 @@ StorageGRID Grid Manager monitors storage array status and raises alerts when dr
 ** A replacement drive that is supported by NetApp for your controller shelf or drive shelf.
 ** An ESD wristband, or you have taken other antistatic precautions.
 ** Access to SANtricity System Manager: 
-*** From Grid Manager, select *NODES* > *_appliance node_* > *SANtricity System Manager*. Controller information is on the https://docs.netapp.com/us-en/storagegrid/monitor/viewing-santricity-system-manager-tab.html[SANtricity System Manager tab].
+*** From Grid Manager, select *Nodes* > *_appliance node_* > *SANtricity System Manager*. Controller information is on the https://docs.netapp.com/us-en/storagegrid/monitor/viewing-santricity-system-manager-tab.html[SANtricity System Manager tab].
 *** Point a browser in your management station to the controller's domain name or IP address.
 
 == Step 1: Prepare to replace drive

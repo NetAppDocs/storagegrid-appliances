@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: kms, key management server, monitor, monitoring, status, encryption
 summary: 'If you enabled node encryption for the appliance during installation, you can monitor the node-encryption status of each appliance node, including the node-encryption state and key management server \(KMS\) details.'
 ---
-= Monitor node encryption in maintenance mode
+= Monitor node encryption for a StorageGRID appliance in maintenance mode
 :icons: font
 :imagesdir: ../media/
 
@@ -39,7 +39,7 @@ CAUTION: Clearing the KMS configuration deletes data from the appliance, renderi
 +
 It can take up to 20 minutes for the appliance to reboot and rejoin the grid. To confirm that the reboot is complete and that the node has rejoined the grid:
 +
-.. In the Grid Manager, select *NODES*.
+.. In the Grid Manager, select *Nodes*.
 .. Verify that the appliance node has a normal status (green check mark icon image:../media/icon_alert_green_checkmark.png["green check mark"] to the left of the node name), which indicates that no alerts are active and the node is connected to the grid. 
 
 == Clear key management server configuration

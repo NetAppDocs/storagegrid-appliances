@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storagegrid, sg6000, storage node, storage appliance, power off, turn off, shut off, shutdown, shut down, sg6000-cn, controller, power on, turn on, start
 summary: 'You can shut down the SG6000-CN controller and power it back on to perform maintenance.'
 ---
-= Power SG6000-CN controller off and on
+= Power the SG6000-CN controller off and on
 :icons: font
 :imagesdir: ../media/
 

@@ -1,0 +1,45 @@
+---
+permalink: sg6200/replacing-fan-in-sg6200.html
+sidebar: sidebar
+keywords: storagegrid, sgf6212, sg6200-cn, sg6260, storage appliance, Replacing, replace, fan, remove, removing, removal, install, installing
+summary: 'The SGF6212 appliance and SG6200-CN controller have seven cooling fans. If one of the fans fails, you must replace it as soon as possible to ensure that the appliance has proper cooling.'
+---
+= Replace fan in an SGF6212 or SG6200-CN (SG6260)
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The SGF6212 appliance and SG6200-CN controller have seven cooling fans. If one of the fans fails, you must replace it as soon as possible to ensure that the appliance has proper cooling.
+
+.About this task
+To prevent service interruptions, confirm that all other Storage Nodes are connected to the grid before starting the fan replacement or replace the fan during a scheduled maintenance window when periods of service disruption are acceptable. See the information about https://docs.netapp.com/us-en/storagegrid/monitor/monitoring-system-health.html#monitor-node-connection-states[monitoring node connection states^].
+
+CAUTION: If you have ever used an ILM rule that creates only one copy of an object, you must replace the fan during a scheduled maintenance window because you might temporarily lose access to those objects during this procedure. See information about https://docs.netapp.com/us-en/storagegrid/ilm/why-you-should-not-use-single-copy-replication.html[why you should not use single-copy replication^].
+
+The appliance node will not be accessible while you replace the fan.
+
+NOTE: Each of the two power supply units also contain a fan. The power supply fans aren't included in this procedure.
+
+.Before you begin
+
+* You have the correct replacement fan.
+* You have link:verify-component-to-replace.html[determined the location of the fan to replace].
+* You have link:locating-sg6200-in-data-center.html[physically located the SGF6212 appliance or SG6200-CN controller] where you are replacing the fan in the data center.
++
+NOTE: A link:power-sg6200-off-on.html#shut-down-the-sgf6212-appliance-or-sg6200-cn-controller[controlled shutdown of the appliance] is required before removing the appliance from the rack.
+
+* You have disconnected all cables and link:reinstalling-sg6200-cover.html[removed the appliance cover].
+
+* You have confirmed that the other fans are installed and running.
+
+include::../_include/2025-replace-fan.adoc[]
+
+
+. link:reinstalling-sg6200-cover.html[Put the top cover back on the appliance], and press the latch down to secure the cover in place.
+. link:power-sg6200-off-on.html[Power on the appliance] and monitor the appliance LEDs and boot-up codes.
++
+Use the BMC interface to monitor boot-up status.
+
+. Confirm that the appliance node appears in the Grid Manager and that no alerts appear.
+
+include::../_include/fru-statement.adoc[] 

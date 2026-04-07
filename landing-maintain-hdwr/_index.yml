@@ -30,6 +30,8 @@ indexpage:
           url: "../landing-maintain-sg1000-100/index.html"        
         - title: SG110 and SG1100
           url: "../landing-maintain-sg1100-110/index.html"
+        - title: SG120 and SG1200
+          url: "../landing-maintain-sg1200-120/index.html"
         - title: SG5600
           url: "../sg5600/index.html" 
         - title: SG5700
@@ -40,3 +42,5 @@ indexpage:
           url: "../landing-maintain-sg6000/index.html"
         - title: SG6100
           url: "../landing-maintain-sgf6112/index.html"
+        - title: SG6200
+          url: "../landing-maintain-sg6200/index.html"
