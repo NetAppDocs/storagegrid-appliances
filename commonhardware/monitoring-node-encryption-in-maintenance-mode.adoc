@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: kms, key management server, monitor, monitoring, status, encryption
 summary: 'If you enabled node encryption for the appliance during installation, you can monitor the node-encryption status of each appliance node, including the node-encryption state and key management server \(KMS\) details.'
 ---
-= Monitor node encryption in maintenance mode
+= Monitor node encryption for a StorageGRID appliance in maintenance mode
 :icons: font
 :imagesdir: ../media/
 

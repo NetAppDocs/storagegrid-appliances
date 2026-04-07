@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storagegrid, appliance node clone, appliance node cloning, node clone, node cloning
 summary: 'The cloning process might take several days to transfer data between the source node \(appliance being replaced\) and the target \(new\) appliance.'
 ---
-= Clone appliance node
+= Clone a StorageGRID appliance node
 :icons: font
 :imagesdir: ../media/
 

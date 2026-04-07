@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: DNS, server, servers, check, checking, change, changing, modify, modifying, modification 
 summary: 'You can check and temporarily change the DNS servers that are currently in use by this appliance node.'
 ---
-= Check DNS server configuration
+= Check the DNS server configuration for a StorageGRID appliance
 :icons: font
 :imagesdir: ../media/
 
