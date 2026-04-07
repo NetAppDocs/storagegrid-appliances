@@ -5,7 +5,7 @@ keywords: storagegrid, sg100, sg1000, appliance, install, installing, installati
 summary: 'Remove the SG100 or SG1000 from a cabinet or rack to access the top cover or to move the appliance to a different location, then reinstall the appliance into a cabinet or rack when hardware maintenance is complete.'
 ---
 
-= Relocate SG100 or SG1000 in cabinet or rack
+= Relocate an SG100 or SG1000 in a cabinet or rack
 :icons: font
 :imagesdir: ../media/
 
