@@ -4,27 +4,46 @@ sidebar: sidebar
 keywords: storage node, storage appliance, SANtricity System Manager, SANtricity, System Manager, configure, configuring, setup, set up, setting up, access, accessing, E-Series AutoSupport, autosupport, configure, configuring, setup, set up, setting up, access, accessing, hardware, status, diagnostic, environment drives, drive, temperature, IP, IP address, management port, Appliance Installer
 summary: 'You can use SANtricity System Manager to monitor the status of the storage controllers, storage disks, and other hardware components in the storage controller shelf. You can also configure a proxy for E-Series AutoSupport that enables you to send AutoSupport messages from the appliance without the use of the management port.'
 ---
-= Configure SANtricity System Manager (SG6160, SG6000, SG5700, and SG5800)
+= Configure SANtricity System Manager
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You can use SANtricity System Manager to monitor the status of the storage controllers, storage disks, and other hardware components in the storage controller shelf. You can also configure a proxy for E-Series AutoSupport that enables you to send AutoSupport messages from the appliance without the use of the management port.
 
+The following StorageGRID appliances can access SANtricity System Manager:
+
+* SG5712
+* SG5760
+* SG5812
+* SG5860
+* SGF6024
+* SG6060
+* SG6160
+* SG6260
+
+You use SANtricity System Manager to monitor the following:
+
+* Performance data such as storage array level performance, I/O latency, CPU utilization, and throughput
+* Hardware component status
+* Support functions including viewing diagnostic data
+
+You can use SANtricity System Manager to configure the following settings:
+
+* Email alerts, SNMP alerts, or syslog alerts for the components in the storage controller shelf
+* E-Series AutoSupport settings for the components in the storage controller shelf.
++
+For additional details on E-Series AutoSupport, see the https://docs.netapp.com/us-en/e-series-family/index.html[NetApp E-Series documentation^].
+
+* Drive Security keys, which are needed to unlock secured drives
++
+NOTE: You must set up and have access to SANtricity System Manager if the Drive Security feature is enabled for your appliance.
+* Administrator password for accessing SANtricity System Manager
+
+
 == Set up and access SANtricity System Manager
 
 You might need to access SANtricity System Manager on the storage controller to monitor the hardware in the storage controller shelf or to configure E-Series AutoSupport.
-
-.Before you begin
-
-* You are using a https://docs.netapp.com/us-en/storagegrid/admin/web-browser-requirements.html[supported web browser^].
-* To access SANtricity System Manager through Grid Manager, you have installed StorageGRID, and you have the Storage appliance administrator permission or Root access permission.
-* To access SANtricity System Manager using the StorageGRID Appliance Installer, you have the SANtricity System Manager administrator username and password.
-* To access SANtricity System Manager directly using a web browser, you have the SANtricity System Manager administrator username and password.
-
-NOTE: You must have SANtricity firmware 8.70 or higher to access SANtricity System Manager using the Grid Manager or the StorageGRID Appliance Installer. You can check your firmware version by using the StorageGRID Appliance Installer and selecting *Help* > *About*.
-
-NOTE: Accessing SANtricity System Manager from the Grid Manager or from the Appliance Installer is generally meant only for monitoring your hardware and configuring E-Series AutoSupport. Many features and operations within SANtricity System Manager such as upgrading firmware don't apply to monitoring your StorageGRID appliance. To avoid issues, always follow the hardware installation and maintenance instructions for your appliance.
 
 .About this task
 
@@ -57,11 +76,23 @@ For additional details on E-Series AutoSupport, see the https://docs.netapp.com/
 * Drive Security keys, which are needed to unlock secured drives (this step is required if the Drive Security feature is enabled)
 * Administrator password for accessing SANtricity System Manager
 
+.Before you begin
+
+* You are using a https://docs.netapp.com/us-en/storagegrid/admin/web-browser-requirements.html[supported web browser^].
+* To access SANtricity System Manager through Grid Manager, you have installed StorageGRID, and you have the Storage appliance administrator permission or Root access permission.
+* To access SANtricity System Manager using the StorageGRID Appliance Installer, you have the SANtricity System Manager administrator username and password.
+* To access SANtricity System Manager directly using a web browser, you have the SANtricity System Manager administrator username and password.
+
+NOTE: You must have SANtricity firmware 8.70 or higher to access SANtricity System Manager using the Grid Manager or the StorageGRID Appliance Installer. You can check your firmware version by using the StorageGRID Appliance Installer and selecting *Help* > *About*.
+
+NOTE: Accessing SANtricity System Manager from the Grid Manager or from the Appliance Installer is generally meant only for monitoring your hardware and configuring E-Series AutoSupport. Many features and operations within SANtricity System Manager such as upgrading firmware don't apply to monitoring your StorageGRID appliance. To avoid issues, always follow the hardware installation and maintenance instructions for your appliance.
+
+
 .Steps
 
 . Do one of the following:
  ** Use the StorageGRID Appliance Installer and select *Advanced* > *SANtricity System Manager*
- ** Use the Grid Manager and select *NODES* > `*_appliance Storage Node_*` > *SANtricity System Manager*
+ ** Use the Grid Manager and select *Nodes* > `*_appliance Storage Node_*` > *SANtricity System Manager*
 
 +
 NOTE: If these options aren't available or the login page does not appear, use the <<Set IP addresses for storage controllers using StorageGRID Appliance Installer,IP addresses for the storage controllers>>. Access SANtricity System Manager by browsing to the storage controller IP.
@@ -135,6 +166,23 @@ The SG6160 storage appliance can be equipped with FIPS-compliant drives in both 
 .. After install is complete, https://docs.netapp.com/us-en/e-series-santricity/sm-storage/enable-security.html[enable drive security^] in SANtricity System Manager for all disk pools or volume groups.
 
 --
+
+.SG6260
+--
+The SG6260 storage appliance can be equipped with FIPS-compliant drives in both the SG6200-CN compute controller and the E4000 controller shelf. Drive encryption is configured separately for the SG6200-CN drives and E4000 drives.
+
+.. link:optional-enabling-node-encryption.html#drive-encryption[Enable Drive Encryption] for SED SSDs installed in the SG6200-CN compute node.
+
+.. Create a security key (a string of characters shared by the controller and drives for read/write access). 
++
+* You can https://docs.netapp.com/us-en/e-series-santricity/sm-settings/create-internal-security-key.html[create an internal key^] from the controller's persistent memory or use an external key provided by a key management server.
+* To use an external key provided by a key management server, you must first https://docs.netapp.com/us-en/e-series-santricity/sm-settings/overview-drive-security.html[establish authentication with a key management server^] in SANtricity System Manager.
+
+.. link:deploying-appliance-storage-node.html[Start installation] of the appliance.
+
+.. After install is complete, https://docs.netapp.com/us-en/e-series-santricity/sm-storage/enable-security.html[enable drive security^] in SANtricity System Manager for all disk pools or volume groups.
+
+--
 ====
 
 == Review hardware status in SANtricity System Manager
@@ -191,7 +239,7 @@ Management port 1 on each storage controller connects the appliance to the manag
 
 DHCP-assigned addresses can change at any time. Assign static IP addresses to the controllers to ensure consistent accessibility.
 
-NOTE: Follow this procedure only if you don't have access to SANtricity System Manager from the StorageGRID Appliance Installer (*Advanced* > *SANtricity System Manager*) or Grid Manager (*NODES* > *SANtricity System Manager*).
+NOTE: Follow this procedure only if you don't have access to SANtricity System Manager from the StorageGRID Appliance Installer (*Advanced* > *SANtricity System Manager*) or Grid Manager (*Nodes* > *SANtricity System Manager*).
 
 .Steps
 

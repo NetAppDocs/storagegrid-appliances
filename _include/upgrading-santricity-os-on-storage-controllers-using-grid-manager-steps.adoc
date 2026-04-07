@@ -86,7 +86,7 @@ CAUTION: Don't approve the SANtricity OS upgrade for an appliance Storage Node u
 +
 NOTE: If the order in which nodes are upgraded is important, approve nodes or groups of nodes one at a time and wait until the upgrade is complete on each node before approving the next node.
 
-** Select one or more *Approve* buttons to add one or more nodes to the SANtricity OS upgrade queue. The *Approve* button is disabled if the Status is not Nominal. 
+** Select one or more *Approve* buttons to add one or more nodes to the SANtricity OS upgrade queue. The *Approve* button is disabled if the Status isn't Nominal. 
 +
 After you select *Approve*, the upgrade process determines if the node can be upgraded. If a node can be upgraded, it is added to the upgrade queue. 
 +
@@ -120,10 +120,10 @@ NOTE: The SANtricity OS upgrade process will not be complete until you approve t
 | Storage Node was already upgraded.
 | No further action required.
 
-| SANtricity OS upgrade is not applicable to this node.
+| SANtricity OS upgrade isn't applicable to this node.
 | The node does not have a storage controller that can be managed by the StorageGRID system. Complete the upgrade process without upgrading the node displaying this message.
 
-| SANtricity OS file is not compatible with this node.
+| SANtricity OS file isn't compatible with this node.
 | The node requires a SANtricity OS file different than the one you selected.
 After completing the current upgrade, download the correct SANtricity OS file for the node and repeat the upgrade process.
 

@@ -13,6 +13,12 @@ Before you can access the BMC interface, configure the IP address for the BMC ma
 
 If you are using ConfigBuilder to generate a JSON file, you can configure IP addresses automatically. See link:automating-appliance-installation-and-configuration.html[Automate appliance installation and configuration].
 
+.About this task
+
+For support purposes, the BMC management port allows low-level hardware access.
+
+NOTE: You should only connect this port to a secure, trusted, internal management network. If no such network is available, leave the BMC port unconnected or blocked, unless a BMC connection is requested by technical support.
+
 .Before you begin
 
 * The management client is using a https://docs.netapp.com/us-en/storagegrid/admin/web-browser-requirements.html[supported web browser^].
@@ -30,6 +36,10 @@ image::../media/sg100_bmc_management_port.png["SG100 BMC Management Port"]
 --
 image::../media/sgf6112_cn_bmc_management_port.png["BMC management port SG110"] 
 --
+.SG120
+--
+image::../media/sg120_bmc_management_port.png["BMC management port SG120"] 
+--
 
 .SG1000
 --
@@ -39,6 +49,10 @@ image::../media/sg1000_bmc_management_port.png["SG1000 BMC Management Port"]
 .SG1100
 --
 image::../media/sg1100_bmc_management_port.png["BMC management port SG1100"] 
+--
+.SG1200
+--
+image::../media/sg1200_bmc_management_port.png["BMC management port SG1200"] 
 --
 
 .SG6000
@@ -57,13 +71,19 @@ _SG6100-CN_:
 image::../media/sg6100_cn_bmc_management_port.png["BMC management port SG610-CN"] 
 --
 
+.SG6200
+--
+_SGF6212_:
+
+image::../media/sgf6212_bmc_management_port.png["BMC management port SGF6212"] 
+
+_SG6200-CN_:
+
+image::../media/sg6200_cn_bmc_management_port.png["BMC management port SG6200-CN"] 
+--
 ====
 
-.About this task
 
-For support purposes, the BMC management port allows low-level hardware access.
-
-NOTE: You should only connect this port to a secure, trusted, internal management network. If no such network is available, leave the BMC port unconnected or blocked, unless a BMC connection is requested by technical support.
 
 .Steps
 

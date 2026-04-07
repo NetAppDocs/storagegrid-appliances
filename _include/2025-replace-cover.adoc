@@ -1,0 +1,22 @@
+// Replace cover SG6200-CN, SGF6212, SG120, SG1200
+// Intro, before you begin, and after you finish are in referencing topic
+
+. Unlock the cover latch by pressing the blue lock button on the appliance cover.
++
+image:../media/drw_s2025_cover_replace_ieops-2559.svg[Unlocking and removing the appliance cover]
+
+. Rotate the latch up and back toward the rear of the appliance chassis until it stops; then, carefully lift the cover from the chassis and set it aside.
+
+
+== Step 2: Reinstall cover
+
+.Steps
+
+. With the cover latch open, align the cover above the chassis and carefully lower it.
+
+. Rotate the cover latch forward and down until it stops and the cover fully seats into the chassis. Verify that there are no gaps along the front edge of the cover.
++
+If the cover is not fully seated, you might not be able to slide the appliance into the rack.
+
+
+

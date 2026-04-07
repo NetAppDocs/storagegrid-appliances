@@ -43,7 +43,7 @@ NOTE: Using the 1-GbE Admin Network for clone data transfer results in slower cl
 +
 After the target appliance is configured and validated, in the Installation section, *Start Cloning* is enabled on the source node.
 +
-If issues exist that prevent cloning, *Start Cloning* is not enabled and issues that you must resolve are listed as the *Connection state*. These issues are listed on the StorageGRID Appliance Installer Home page of both the source node and the target appliance. Only one issue displays at a time and the state automatically updates as conditions change. Resolve all cloning issues to enable *Start Cloning*.
+If issues exist that prevent cloning, *Start Cloning* isn't enabled and issues that you must resolve are listed as the *Connection state*. These issues are listed on the StorageGRID Appliance Installer Home page of both the source node and the target appliance. Only one issue displays at a time and the state automatically updates as conditions change. Resolve all cloning issues to enable *Start Cloning*.
 +
 When *Start Cloning* is enabled, the *Current state* indicates the StorageGRID network that was selected for cloning traffic, along with information about using that network connection. See link:considerations-and-requirements-for-appliance-node-cloning.html[Considerations and requirements for appliance node cloning].
 
