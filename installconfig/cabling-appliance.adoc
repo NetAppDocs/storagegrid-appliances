@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storagegrid, cabling, wiring, connecting, cable, wire, connect
 summary: 'Connect the network ports on the appliance or controller to the Grid Network and optional Client Network for StorageGRID. For some appliances, you also connect the management port on the appliance to the service laptop or make connections between the controller management ports.'
 ---
-= Cable a StorageGRID appliance controller
+= Cable a StorageGRID appliance or controller
 :icons: font
 :imagesdir: ../media/
 

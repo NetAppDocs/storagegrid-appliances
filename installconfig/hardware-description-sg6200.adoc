@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storagegrid, sg6200, sgf6212, storage node, storage appliance, appliance models, appliance features, specifications
 summary: 'The StorageGRID SG6200 series appliances operate as Storage Nodes in a StorageGRID system.  Like all StorageGRID appliances, they can be freely intermixed with other appliance models and software-only nodes in a single deployment.'
 ---
-= StorageGRID SG6200 appliance components
+= StorageGRID SG6200 appliances
 :icons: font
 :imagesdir: ../media/
 
