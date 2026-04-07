@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storagegrid, sg5800, storage node, storage appliance, upgrade, firmware, drive, disk, automatic
 summary: 'The StorageGRID Appliance Installer automatically installs the latest E-Series drive firmware files during appliance reboot.'
 ---
-= Upgrade SG5800 StorageGRID appliance drive firmware automatically during reboot
+= Upgrade SG5800 drive firmware automatically during reboot
 :icons: font
 :imagesdir: ../media/
 

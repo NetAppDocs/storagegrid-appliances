@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: E4000 replace 60-drive power canister, replacing E4000 power canister, E4000, E-Series, eseries
 summary: Replace a 60-drive controller shelf or drive shelf, which includes two power canisters for power redundancy.
 ---
-= Replace a power canister in the SG5860 StorageGRID appliance
+= Replace a power canister in the SG5860
 :experimental:
 :icons: font
 :imagesdir: ../media/
