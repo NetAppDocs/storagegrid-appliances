@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storagegrid, bmc
 summary: 'Some StorageGRID appliances include a baseboard management controller (BMC) that allows low-level hardware access for appliance configuration, monitoring, and diagnosis.'
 ---
-= Use the StorageGRID appliance baseboard management controller (BMC)
+= Baseboard management controller for StorageGRID appliances
 :icons: font
 :imagesdir: ../media/
 

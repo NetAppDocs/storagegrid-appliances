@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storagegrid, clone appliance node, cloning appliance node
 summary: 'Before cloning an appliance node, you must understand the considerations and requirements.'
 ---
-= Considerations and requirements for appliance node cloning
+= Requirements for StorageGRID appliance node cloning
 :icons: font
 :imagesdir: ../media/
 

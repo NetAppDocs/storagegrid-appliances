@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: 
 summary: 
 ---
-= Replace battery in storage controller shelf (SG6160)
+= Replace a battery in an SG6160 storage controller shelf
 :icons: font
 :imagesdir: ../media/
 

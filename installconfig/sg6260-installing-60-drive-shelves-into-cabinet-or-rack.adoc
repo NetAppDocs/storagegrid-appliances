@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storagegrid, sg6200, storage node, storage appliance, install, installing, installation, 60-drive shelves, 60-drive shelf, 60 drive shelves, 60 drive shelf, 60 drive, 60-drive, shelf, shelves, drive, disk, 60
 summary: 'You install a set of rails for the E4000 controller shelf in your cabinet or rack, and then slide the controller shelf onto the rails. If you are installing 60-drive expansion shelves, the same procedure applies.'
 ---
-= Install 60-drive shelves (SG6260)
+= Install the 60-drive shelves for an SG6260
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: E4000 replace drive, replacing E4000 drive, E4000 replace drive, replacing E4000 drive, E4000, sg5860
 summary: You can replace a drive in the SG5860.
 ---
-= Replace drive in SG5860
+= Replace a drive in the SG5860
 :icons: font
 :imagesdir: ../media/
 

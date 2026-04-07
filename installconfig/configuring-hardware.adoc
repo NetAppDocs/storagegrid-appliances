@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storage node, storage appliance, hardware, configure, configuration, set up, setup, network, networking
 summary: 'After applying power to the appliance, you configure the network connections that will be used by StorageGRID. '
 ---
-= Set up hardware overview
+= Set up StorageGRID appliance hardware
 :icons: font
 :imagesdir: ../media/
 

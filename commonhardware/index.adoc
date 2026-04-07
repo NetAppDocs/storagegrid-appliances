@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: maintain overview, maintenance overview, about maintain, about maintenance
 summary: 'Use these instructions to maintain your StorageGRID system.'
 ---
-= Common procedures for node maintenance: Overview
+= Common maintenance procedures for StorageGRID appliances
 :icons: font
 :imagesdir: ../media/
 
