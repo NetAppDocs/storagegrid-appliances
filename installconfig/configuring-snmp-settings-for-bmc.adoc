@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SNMP, configure, setup, set up 
 summary: 'If you are familiar with configuring SNMP for hardware, you can use the BMC interface to configure the SNMP settings for the SG6100, SG6000, and services appliances. You can provide secure community strings, enable SNMP Trap, and specify up to five SNMP destinations.'
 ---
-= Configure SNMP settings for BMC
+= Configure SNMP settings for the BMC in StorageGRID appliances
 :icons: font
 :imagesdir: ../media/
 

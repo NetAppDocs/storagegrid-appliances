@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storagegrid, sg120, sg1200, troubleshoot, troubleshooting, hardware, install, installation, boot codes, boot-up codes, start codes, codes, boot, start, bmc, error codes, setup, hang, hangs, fails, failure, stop, terminate, terminates, stuck, connection
 summary: 'If you encounter issues during the installation, you might find it helpful to review troubleshooting information related to hardware setup and connectivity issues.'
 ---
-= Troubleshoot hardware installation (SG120 and SG1200)
+= Troubleshoot hardware installation for an SG120 and SG1200
 :icons: font
 :imagesdir: ../media/
 
