@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: sgf6112, sg110, sg1100, sg6160, sg6200, sg6260, sgf6212 manage drives tab, locate drive, fail drive, logically replace drive
 summary: 'You can use the Manage drives tab in the Grid Manager to perform troubleshooting and maintenance tasks on the drives for appliances that support this feature.'
 ---
-= Use the Manage drives tab for StorageGRID appliances
+= Use the Manage drives tab for the SG110, SG120, SG1100, SG1200, SG6100, and SG6200 StorageGRID appliances
 :icons: font
 :imagesdir: ../media/
 
