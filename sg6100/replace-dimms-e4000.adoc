@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: 
 summary: 
 ---
-= Replace DIMMs in SG6160 storage controller shelf
+= Replace the DIMMs in an SG6160 storage controller shelf
 :icons: font
 :imagesdir: ../media/
 

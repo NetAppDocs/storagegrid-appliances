@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: 
 summary: 
 ---
-= Replace E4000 storage controller in SG6160
+= Replace an E4000 storage controller in an SG6160
 :icons: font
 :imagesdir: ../media/
 
