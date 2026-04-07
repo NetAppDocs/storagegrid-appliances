@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storagegrid, sg6100, storage node, storage appliance, Replacing, replace, sg6100-cn, controller, remove, removing, removal, install, installing, installation
 summary: 'You might need to replace the SG6100-CN controller if it is not functioning optimally or if it has failed.'
 ---
-= Replace SG6100-CN controller
+= Replace the SG6100-CN controller
 :icons: font
 :imagesdir: ../media/
 

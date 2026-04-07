@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storage node, storage appliance, controller, storage controller, upgrade, upgrading, SANtricity OS, SANtricity
 summary: 'You can use the Grid Manager or maintenance mode to apply an upgrade.'
 ---
-= Upgrade SANtricity OS on SG6100 storage controllers using Grid Manager
+= Upgrade the SANtricity OS on SG6160 storage controllers using Grid Manager
 :icons: font
 :imagesdir: ../media/
 
