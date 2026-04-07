@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: 
 summary: 
 ---
-= Change link configuration of SG5800 controller
+= Change the link configuration of an SG5800 controller
 :icons: font
 :imagesdir: ../media/
 
