@@ -17,9 +17,11 @@ You can access the BMC interface using the DHCP or static IP address for the BMC
 * SG1000
 * SG1100
 * SG1200
-* SG6000
-* SG6100
-* SG6200
+* SG6060
+* SGF6112
+* SGF6212
+* SG6160
+* SG6260
 
 .Before you begin
 

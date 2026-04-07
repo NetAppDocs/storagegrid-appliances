@@ -116,9 +116,9 @@ entries:
         url: "/installconfig/verifying-network-connections.html"
       - title: Verify port-level network connections
         url: "/installconfig/verifying-port-level-network-connections.html"
-    - title: 'Set up SANtricity System Manager (SG5700, SG5800, SG6000, SG6160, and SG6260)'
+    - title: 'Set up SANtricity System Manager'
       url: "/installconfig/accessing-and-configuring-santricity-system-manager.html"
-    - title: 'Configure BMC interface (SG6000, SG6100, and services appliances)'
+    - title: 'Configure BMC interface'
       entries:
       - title: Overview
         url: "/installconfig/configuring-bmc-interface.html"
@@ -132,11 +132,11 @@ entries:
         url: "/installconfig/configuring-snmp-settings-for-bmc.html"
       - title: Set up email notifications
         url: "/installconfig/setting-up-email-notifications-for-alerts.html"
-    - title: 'Optional: Enable node or drive encryption'
+    - title: 'Enable node or drive encryption (Optional)'
       url: "/installconfig/optional-enabling-node-encryption.html"
-    - title: 'Optional: Change RAID mode (SG5760, SG5860, SG6000, SG6160, and SG6260)'
+    - title: 'Change RAID mode (Optional)'
       url: "/installconfig/optional-changing-raid-mode.html"
-    - title: 'Optional: Remap network ports'
+    - title: 'Remap network ports (Optional)'
       url: "/installconfig/optional-remapping-network-ports-for-appliance.html"
   - title: Deploy appliance node
     url: "/landing-deploy-appliance/index.html"

@@ -13,17 +13,19 @@ You might need to replace the appliance if it is not functioning optimally or if
 
 // Same procedure for SG110 and SG1100 - unable to use includes due to specific links in steps.
 
+.About this task
+
+The StorageGRID node will not be accessible while you replace the appliance. If the appliance is functioning sufficiently, you can perform a controlled shutdown at the start of this procedure.
+
+NOTE: If you are replacing the appliance before installing StorageGRID software, you might not be able to access the StorageGRID Appliance Installer immediately after completing this procedure. While you can access the StorageGRID Appliance Installer from other hosts on the same subnet as the appliance, you can't access it from hosts on other subnets. This condition should resolve itself within 15 minutes (when any ARP cache entries for the original appliance time out), or you can clear the condition immediately by purging any old ARP cache entries manually from the local router or gateway.
+
 .Before you begin
 
 * You have a replacement appliance with the same part number as the appliance you are replacing. Check the tags attached to the front of the appliances to confirm that the part numbers match.
 * You have labels to identify each cable that is connected to the appliance.
 * You have link:locating-sg6200-in-data-center.html[physically located the appliance].
 
-.About this task
 
-The StorageGRID node will not be accessible while you replace the appliance. If the appliance is functioning sufficiently, you can perform a controlled shutdown at the start of this procedure.
-
-NOTE: If you are replacing the appliance before installing StorageGRID software, you might not be able to access the StorageGRID Appliance Installer immediately after completing this procedure. While you can access the StorageGRID Appliance Installer from other hosts on the same subnet as the appliance, you can't access it from hosts on other subnets. This condition should resolve itself within 15 minutes (when any ARP cache entries for the original appliance time out), or you can clear the condition immediately by purging any old ARP cache entries manually from the local router or gateway.
 
 .Steps
 . Display the current configurations of the appliance and record them.

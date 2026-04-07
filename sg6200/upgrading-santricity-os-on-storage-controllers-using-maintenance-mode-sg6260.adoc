@@ -12,7 +12,13 @@ summary: 'For storage controllers currently using SANtricity OS older than 08.42
 You can use maintenance mode to upgrade SANtricity OS on the SG6260 controller.
 
 NOTE: For storage controllers currently using SANtricity OS newer than 08.42.20.00 (11.42), it is recommended to link:upgrading-santricity-os-on-storage-controllers-using-grid-manager-sg6260.html[use Grid Manager to apply an upgrade]. However, you may use the maintenance mode procedure if you prefer it or have been instructed to do so by technical support.
- 
+
+.About this task
+
+Don't upgrade the SANtricity OS or NVSRAM in the storage controller on more than one StorageGRID appliance at a time.
+
+CAUTION: Upgrading more than one StorageGRID appliance at a time might cause data unavailability, depending on your deployment model and ILM policies.
+
 .Before you begin
 
 * You have consulted the https://imt.netapp.com/matrix/#welcome[NetApp Interoperability Matrix Tool (IMT)^] to confirm that the SANtricity OS version you are using for the upgrade is compatible with your appliance.
@@ -20,11 +26,6 @@ NOTE: For storage controllers currently using SANtricity OS newer than 08.42.20.
 +
 NOTE: In rare instances, placing a StorageGRID appliance into maintenance mode might make the appliance unavailable for remote access.
 
-.About this task
-
-Don't upgrade the SANtricity OS or NVSRAM in the storage controller on more than one StorageGRID appliance at a time.
-
-CAUTION: Upgrading more than one StorageGRID appliance at a time might cause data unavailability, depending on your deployment model and ILM policies.
 
 .Steps
 

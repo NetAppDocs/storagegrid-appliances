@@ -13,13 +13,6 @@ Use the SANtricity System Manager online method to upgrade the firmware on the d
 
 NOTE: This procedure does *not* apply to the NVMe SSDs in the SG6200-CN, which are updated during StorageGRID software upgrades. Only drives in the E4000 can be updated using this procedure.
 
-.Before you begin
-
-* The storage appliance has an Optimal status.
-* All drives have an Optimal status.
-
-CAUTION: Don't upgrade the drive firmware on more than one StorageGRID appliance at a time. Doing so might cause data unavailability, depending on your deployment model and ILM policy.
-
 .About this task
 
 The drives are upgraded one at a time while the appliance is performing I/O. This method does not require you to place the appliance in maintenance mode. However, system performance might be impacted and the upgrade might take several hours longer than the offline method. 
@@ -28,6 +21,14 @@ The drives are upgraded one at a time while the appliance is performing I/O. Thi
 ====
 Drives belonging to volumes that don't have redundancy must be updated using the link:upgrading-drive-firmware-using-santricity-system-manager-offline.html[offline method]. The offline method should be used for any pool or volume group that is currently degraded.
 ====
+
+.Before you begin
+
+* The storage appliance has an Optimal status.
+* All drives have an Optimal status.
+
+CAUTION: Don't upgrade the drive firmware on more than one StorageGRID appliance at a time. Doing so might cause data unavailability, depending on your deployment model and ILM policy.
+
 
 .Steps
 

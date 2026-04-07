@@ -13,6 +13,15 @@ On some appliance models, you can change to a different RAID mode on the applian
 
 If you are using ConfigBuilder to generate a JSON file, you can change the RAID mode automatically. See link:automating-appliance-installation-and-configuration.html[Automate appliance installation and configuration].
 
+You can change the RAID mode on the following appliances:
+
+* SG5760
+* SG5860
+* SGF6024
+* SG6060
+* SG6160
+* SG6260
+
 .About this task
 
 If supported by your appliance, you can choose one of the following volume configuration options:
