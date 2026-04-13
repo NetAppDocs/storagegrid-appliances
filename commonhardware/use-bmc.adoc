@@ -33,6 +33,7 @@ This BMC user guide is for the latest version of BMC firmware available for some
 The following BMC procedures are documented for use with supported StorageGRID appliances:
 
 * link:../installconfig/accessing-bmc-interface.html[Access the BMC dashboard]
+* https://docs.netapp.com/us-en/storagegrid/harden/hardening-guidelines-for-storagegrid-nodes.html#change-appliance-bmc-password[Change appliance BMC password in Grid Manager^]
 * link:../installconfig/configuring-snmp-settings-for-bmc.html[Configure BMC SNMP settings]
 * link:../installconfig/setting-up-email-notifications-for-alerts.html[Set up email alert notifications]
 * Troubleshoot hardware installation:
