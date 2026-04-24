@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: install, sg6100, sg6112, expansion shelf, cabinet, rack, drives
 summary: 'For the SG6160 and SGF6112, you install rails in your cabinet or rack and slide the controller shelf, any expansion shelves, and the compute controller onto the rails.'
 ---
-= Install into cabinet or rack (SG6100)
+= Install the SG6100 into a cabinet or rack
 :icons: font
 :imagesdir: ../media/
 

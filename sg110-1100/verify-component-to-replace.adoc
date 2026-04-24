@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: sg110, sg1100
 summary: 'If you are unsure which hardware component to replace in your appliance, complete this procedure to identify the component and the location of the appliance in the data center.'
 ---
-= Verify component to replace in the SG110 or SG1100
+= Verify the component to replace in the SG110 or SG1100
 :icons: font
 :imagesdir: ../media/
 

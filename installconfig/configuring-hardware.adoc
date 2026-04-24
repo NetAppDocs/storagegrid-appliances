@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storage node, storage appliance, hardware, configure, configuration, set up, setup, network, networking
 summary: 'After applying power to the appliance, you configure the network connections that will be used by StorageGRID. '
 ---
-= Set up hardware overview
+= Set up StorageGRID appliance hardware
 :icons: font
 :imagesdir: ../media/
 
@@ -21,8 +21,7 @@ You must configure and verify the required network connections for all appliance
 * link:../installconfig/configuring-network-links.html[Configure network links]
 * link:../installconfig/verifying-port-level-network-connections.html[Verify port-level network connections]
 
-
-=== BMC interface 
+=== BMC interface
 
 You must link:../installconfig/configuring-bmc-interface.html[configure the baseboard management controller (BMC) interface] if you are installing one of the following appliances:
 
@@ -48,7 +47,7 @@ To learn more about what features you can use with the BMC, refer to link:../com
 
 === SANtricity System Manager
 
-You can link:../installconfig/acccessing-and-configuring-santricity-system-manager.html[configure SANtricity System Manager] if you have one of the following appliances:
+You can link:../installconfig/accessing-and-configuring-santricity-system-manager.html[configure SANtricity System Manager] if you have one of the following appliances:
 
 * SG5712
 * SG5760
@@ -85,4 +84,3 @@ The following appliances support changing the RAID mode:
 === Remap network ports
 
 You can link:../installconfig/optional-remapping-network-ports-for-appliance.html[remap the network ports on your appliance] to optimize your network connections.
-

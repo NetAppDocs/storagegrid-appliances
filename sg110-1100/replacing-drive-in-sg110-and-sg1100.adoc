@@ -59,6 +59,6 @@ IMPORTANT: Don't use excessive force while closing the handle.
 +
 When the drive is fully inserted, you hear a click.
 +
-The replaced drive is automatically rebuilt with mirrored data from the working drive.  You can check the status of the rebuild by using the Grid Manager. Go to *NODES* > `*Appliance Node*` > *Hardware*. The Storage RAID Mode field contains a “rebuilding” message until the drive is completely rebuilt.
+The replaced drive is automatically rebuilt with mirrored data from the working drive.  You can check the status of the rebuild by using the Grid Manager. Go to *Nodes* > `*Appliance Node*` > *Hardware*. The Storage RAID Mode field contains a “rebuilding” message until the drive is completely rebuilt.
 
 include::../_include/fru-statement.adoc[] 

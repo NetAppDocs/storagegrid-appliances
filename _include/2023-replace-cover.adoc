@@ -3,7 +3,7 @@
 
 .Steps
 
-. Make sure that the appliance cover latch is not locked. If necessary, turn the blue plastic latch lock one-quarter turn in the unlock direction, as shown on the latch lock.
+. Make sure that the appliance cover latch isn't locked. If necessary, turn the blue plastic latch lock one-quarter turn in the unlock direction, as shown on the latch lock.
 . Rotate the latch up and back toward the rear of the appliance chassis until it stops; then, carefully lift the cover from the chassis and set it aside.
 +
 image::../media/sg6060_cover_latch_open.jpg["Appliance cover latch open"] 
@@ -24,7 +24,7 @@ image::../media/sg6060_cover_latch_alignment_pin.jpg["SG6060 cover latch alignme
 
 . Rotate the cover latch forward and down until it stops and the cover fully seats into the chassis. Verify that there are no gaps along the front edge of the cover.
 +
-If the cover is not fully seated, you might not be able to slide the appliance into the rack.
+If the cover isn't fully seated, you might not be able to slide the appliance into the rack.
 
 . Optional: Turn the blue plastic latch lock one-quarter turn in the lock direction, as shown on the latch lock, to lock it.
 

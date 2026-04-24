@@ -5,7 +5,7 @@ keywords: storagegrid, sg6000, storage node, storage appliance, install, install
 summary: 'Remove the SG6000-CN controller from a cabinet or rack to access the top cover or to move the appliance to a different location, then reinstall the controller into a cabinet or rack when hardware maintenance is complete.'
 ---
 
-= Relocate SG6000-CN controller in cabinet or rack
+= Relocate the SG6000-CN controller in a cabinet or rack
 :icons: font
 :imagesdir: ../media/
 

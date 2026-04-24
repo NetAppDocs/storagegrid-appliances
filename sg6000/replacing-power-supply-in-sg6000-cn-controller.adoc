@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storagegrid, sg6000, storage node, storage appliance, Replacing, replace, sg6000-cn, power supply, remove, removing, removal, install, installing, installation 
 summary: 'The SG6000-CN controller has two power supplies for redundancy. If one of the power supplies fails, you must replace it as soon as possible to ensure that the compute controller has redundant power.'
 ---
-= Replace power supply in SG6000-CN controller
+= Replace a power supply in an SG6000-CN controller
 :icons: font
 :imagesdir: ../media/
 

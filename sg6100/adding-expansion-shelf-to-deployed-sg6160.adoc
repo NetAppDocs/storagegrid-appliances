@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storagegrid, sg6100, storage node, storage appliance, sg6160, expansion shelf, expansion, drive, disk, install, installing, installation, add, adding, expand
 summary: 'To increase storage capacity, you can add one or two expansion shelves to an SG6160 that is deployed in a StorageGRID system.'
 ---
-= Add expansion shelf to deployed SG6160
+= Add an expansion shelf to a deployed SG6160
 :icons: font
 :imagesdir: ../media/
 
@@ -121,7 +121,7 @@ NOTE: To retry the expansion shelf configuration if it fails, go to the StorageG
 When the reboot is complete, the *Tasks* tab displays with selections to reboot the node or place the appliance in maintenance mode.
 
 . Verify the status of the appliance Storage Node and the new expansion shelves.
- .. In the Grid Manager, select *NODES* and verify that the appliance Storage Node has a green check mark icon.
+ .. In the Grid Manager, select *Nodes* and verify that the appliance Storage Node has a green check mark icon.
 +
 The green check mark icon means that no alerts are active and the node is connected to the grid. For a description of node icons, see https://docs.netapp.com/us-en/storagegrid/monitor/monitoring-system-health.html#monitor-node-connection-states[Monitor node connection states^].
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: maintain overview, maintenance overview, about maintain, about maintenance
 summary: 'Use these instructions to maintain your StorageGRID system.'
 ---
-= Common procedures for node maintenance: Overview
+= Common maintenance procedures for StorageGRID appliances
 :icons: font
 :imagesdir: ../media/
 
@@ -32,14 +32,18 @@ NOTE: In these instructions, "`Linux`" refers to a Red Hat® Enterprise Linux®,
 
 Specific maintenance procedures for each type of StorageGRID appliance are in the appliance maintenance sections:
 
+* link:../sg6200/index.html[Maintain SG6200 appliance]
+
 * link:../sg6100/index.html[Maintain SG6100 appliance]
 
 * link:../sg6000/index.html[Maintain SG6000 appliance]
 
+* link:../sg5700/index.html[Maintain SG5700 appliance]
+
 * link:../sg5800/index.html[Maintain SG5800 appliance]
 
-* link:../sg5700/index.html[Maintain SG5700 appliance]
+* link:../sg100-1000/index.html[Maintain SG100 and SG1000 appliances]
 
 * link:../sg110-1100/index.html[Maintain SG110 and SG1100 appliances]
 
-* link:../sg100-1000/index.html[Maintain SG100 and SG1000 appliances]
+* link:../sg120-1200/index.html[Maintain SG120 and SG1200 appliances]

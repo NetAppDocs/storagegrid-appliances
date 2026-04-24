@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: 
 summary: 
 ---
-= Replace E4000 storage controller (SG6160)
+= Replace an E4000 storage controller in an SG6160
 :icons: font
 :imagesdir: ../media/
 
@@ -235,7 +235,7 @@ NOTE: If you cannot resolve the problem, contact technical support.
 The file is saved in the Downloads folder for your browser with the name, *support-data.7z*.
 
 . If you placed the appliance in maintenance mode during this procedure, exit maintenance mode and wait for the node to reboot and rejoin the grid. This process can take up to 20 minutes. To confirm that the reboot is complete and that the node has rejoined the grid:
-.. In the Grid Manager, select *NODES*.
+.. In the Grid Manager, select *Nodes*.
 .. Verify that the appliance node has a normal status (green check mark icon image:../media/icon_alert_green_checkmark.png["green check mark"] to the left of the node name), which indicates that no alerts are active and the node is connected to the grid.
 
 .What's next?
