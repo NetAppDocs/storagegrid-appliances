@@ -24,7 +24,7 @@ If you enable node encryption, the disks in your appliance can be protected by s
 
 If you are using ConfigBuilder to generate a JSON file, you can enable node encryption automatically. See link:automating-appliance-installation-and-configuration.html[Automate appliance installation and configuration].
 
-Additionally, when you enable FIPS mode after enabling node encryption, the NetApp StorageGRID Kernel Crypto API 6.1.129-1-ntap1-amd64 module is used for encryption of data at rest. Refer to https://review.docs.netapp.com/us-en/storagegrid_storagegrid-120-dev/admin/manage-tls-ssh-policy.html#select-a-security-policy[Select a security policy^] for more information.
+Additionally, when you enable FIPS mode after enabling node encryption, the NetApp StorageGRID Kernel Crypto API 6.1.129-1-ntap1-amd64 module is used for encryption of data at rest. Refer to https://docs.netapp.com/us-en/storagegrid/admin/manage-tls-ssh-policy.html#select-a-security-policy[Select a security policy^] for more information.
 
 .Before you begin
 
