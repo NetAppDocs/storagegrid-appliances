@@ -72,7 +72,7 @@ When cloning successfully completes:
 * The source and target nodes swap IP addresses:
  ** The target node now uses the IP addresses originally assigned to the source node for the Grid, Admin, and Client Networks.
 +
-NOTE: If you encounter an IP address conflict at the end of the cloning process, make sure that that there were no permanent DHCP leases assigned for any of the source node static MAC addresses of any ports enabled for DHCP on the target node.
+NOTE: If you encounter an IP address conflict at the end of the cloning process, make sure that there were no permanent DHCP leases assigned for any of the MAC addresses of ports that had static IPs on the source node that were enabled for DHCP on the target node. Remove or update the permanent DHCP leases on the DHCP server to resolve this conflict.
 
  ** The source node now uses the temporary IP address initially assigned to the target node.
 * The target node exits maintenance mode and joins StorageGRID, replacing the source node.
