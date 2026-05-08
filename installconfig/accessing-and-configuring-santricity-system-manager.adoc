@@ -45,6 +45,18 @@ NOTE: You must set up and have access to SANtricity System Manager if the Drive 
 
 You might need to access SANtricity System Manager on the storage controller to monitor the hardware in the storage controller shelf or to configure E-Series AutoSupport.
 
+
+.Before you begin
+
+* You are using a https://docs.netapp.com/us-en/storagegrid/admin/web-browser-requirements.html[supported web browser^].
+* To access SANtricity System Manager through Grid Manager, you have installed StorageGRID, and you have the Storage appliance administrator permission or Root access permission.
+* To access SANtricity System Manager using the StorageGRID Appliance Installer, you have the SANtricity System Manager administrator username and password.
+* To access SANtricity System Manager directly using a web browser, you have the SANtricity System Manager administrator username and password.
+
+NOTE: You must have SANtricity firmware 8.70 or higher to access SANtricity System Manager using the Grid Manager or the StorageGRID Appliance Installer. You can check your firmware version by using the StorageGRID Appliance Installer and selecting *Help* > *About*.
+
+NOTE: Accessing SANtricity System Manager from the Grid Manager or from the Appliance Installer is generally meant only for monitoring your hardware and configuring E-Series AutoSupport. Many features and operations within SANtricity System Manager such as upgrading firmware don't apply to monitoring your StorageGRID appliance. To avoid issues, always follow the hardware installation and maintenance instructions for your appliance.
+
 .About this task
 
 There are three ways to access SANtricity System Manager, depending upon what stage of the installation and configuration process you are in:
@@ -59,31 +71,6 @@ NOTE: Once the node is deployed, you can no longer use the StorageGRID Appliance
 This procedure includes steps for your initial access to SANtricity System Manager. If you have already set up SANtricity System Manager, go to the  <<config_hardware_alerts_sg6000,configure hardware alerts step>>.
 
 NOTE: Using either the Grid Manager or the StorageGRID Appliance Installer enables you to access SANtricity System Manager without having to configure or connect the management port of the appliance.
-
-
-.Before you begin
-
-* You are using a https://docs.netapp.com/us-en/storagegrid/admin/web-browser-requirements.html[supported web browser^].
-* To access SANtricity System Manager through Grid Manager, you have installed StorageGRID, and you have the Storage appliance administrator permission or Root access permission.
-* To access SANtricity System Manager using the StorageGRID Appliance Installer, you have the SANtricity System Manager administrator username and password.
-* To access SANtricity System Manager directly using a web browser, you have the SANtricity System Manager administrator username and password.
-
-NOTE: You must have SANtricity firmware 8.70 or higher to access SANtricity System Manager using the Grid Manager or the StorageGRID Appliance Installer. You can check your firmware version by using the StorageGRID Appliance Installer and selecting *Help* > *About*.
-
-NOTE: Accessing SANtricity System Manager from the Grid Manager or from the Appliance Installer is generally meant only for monitoring your hardware and configuring E-Series AutoSupport. Many features and operations within SANtricity System Manager such as upgrading firmware don't apply to monitoring your StorageGRID appliance. To avoid issues, always follow the hardware installation and maintenance instructions for your appliance.
-
-
-.Before you begin
-
-* You are using a https://docs.netapp.com/us-en/storagegrid/admin/web-browser-requirements.html[supported web browser^].
-* To access SANtricity System Manager through Grid Manager, you have installed StorageGRID, and you have the Storage appliance administrator permission or Root access permission.
-* To access SANtricity System Manager using the StorageGRID Appliance Installer, you have the SANtricity System Manager administrator username and password.
-* To access SANtricity System Manager directly using a web browser, you have the SANtricity System Manager administrator username and password.
-
-NOTE: You must have SANtricity firmware 8.70 or higher to access SANtricity System Manager using the Grid Manager or the StorageGRID Appliance Installer. You can check your firmware version by using the StorageGRID Appliance Installer and selecting *Help* > *About*.
-
-NOTE: Accessing SANtricity System Manager from the Grid Manager or from the Appliance Installer is generally meant only for monitoring your hardware and configuring E-Series AutoSupport. Many features and operations within SANtricity System Manager such as upgrading firmware don't apply to monitoring your StorageGRID appliance. To avoid issues, always follow the hardware installation and maintenance instructions for your appliance.
-
 
 .Steps
 
@@ -227,17 +214,16 @@ If the status of any component is Needs Attention, follow the steps in the Recov
 
 Management port 1 on each storage controller connects the appliance to the management network for SANtricity System Manager. If you can't access SANtricity System Manager from the StorageGRID Appliance Installer, set a static IP address for each storage controller to ensure that you don't lose your management connection to the hardware and the controller firmware in the controller shelf.
 
-.About this task
-
-DHCP-assigned addresses can change at any time. Assign static IP addresses to the controllers to ensure consistent accessibility.
-
-NOTE: Follow this procedure only if you don't have access to SANtricity System Manager from the StorageGRID Appliance Installer (*Advanced* > *SANtricity System Manager*) or Grid Manager (*Nodes* > *SANtricity System Manager*).
-
 .Before you begin
 
 * You are using any management client that can connect to the StorageGRID Admin Network, or you have a service laptop.
 * The client or service laptop has a supported web browser.
 
+.About this task
+
+DHCP-assigned addresses can change at any time. Assign static IP addresses to the controllers to ensure consistent accessibility.
+
+NOTE: Follow this procedure only if you don't have access to SANtricity System Manager from the StorageGRID Appliance Installer (*Advanced* > *SANtricity System Manager*) or Grid Manager (*Nodes* > *SANtricity System Manager*).
 
 .Steps
 
