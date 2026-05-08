@@ -18,6 +18,7 @@ The SG120 and SG1200 appliances provide the following features:
 * Gateway Node or Admin Node functions for a StorageGRID system.
 * The StorageGRID Appliance Installer to simplify node deployment and configuration.
 * When deployed, can access StorageGRID software from an existing Admin Node or from software downloaded to a local drive. To further simplify the deployment process, a recent version of the software is preloaded onto the appliance during manufacturing.
+* One AMD 3.65 GHz processor providing 16 cores (32 threads)
 * A baseboard management controller (BMC) for monitoring and diagnosing some of the appliance hardware.
 * The ability to connect to all three StorageGRID networks, including the Grid Network, the Admin Network, and the Client Network:
  ** The SG120 supports up to four 10- or 25-GbE connections to the Grid Network and Client Network.
