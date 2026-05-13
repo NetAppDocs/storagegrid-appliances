@@ -24,4 +24,4 @@ https://library.netapp.com/ecm/ecm_download_file/ECMLP3330669[^]
 https://library.netapp.com/ecm/ecm_download_file/ECMLP3351268[^]
 
 // Add required links (Open source for StorageGRID 12.1)
-
+https://library.netapp.com/ecm/ecm_download_file/ECMLP3373066[^]
