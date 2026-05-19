@@ -22,6 +22,8 @@ entries:
         url: "/installconfig/gathering-installation-information-sg100-and-sg1000.html"
       - title: SG110 and SG1100
         url: "/installconfig/gathering-installation-information-sg110-and-sg1100.html"
+      - title: SG120 and SG1200
+        url: "/installconfig/gathering-installation-information-sg120-and-sg1200.html"
       - title: SG5700
         url: "/installconfig/gathering-installation-information-sg5700.html"
       - title: SG5800
@@ -30,6 +32,8 @@ entries:
         url: "/installconfig/gathering-installation-information-sg6000.html"
       - title: SG6100
         url: "/installconfig/gathering-installation-information-sg6100.html"
+      - title: SG6200
+        url: "/installconfig/gathering-installation-information-sg6200.html"
   - title: 'Automate appliance installation and configuration'
     url: "/installconfig/automating-appliance-installation-and-configuration.html"
   - title: Automate StorageGRID configuration
@@ -47,6 +51,8 @@ entries:
         url: "/installconfig/installing-appliance-in-cabinet-or-rack-sg100-and-sg1000.html"
       - title: SG110 and SG1100
         url: "/installconfig/installing-appliance-in-cabinet-or-rack-sg110-and-sg1100.html"
+      - title: SG120 and SG1200
+        url: "/installconfig/installing-appliance-in-cabinet-or-rack-sg120-and-sg1200.html"
       - title: SG5700
         url: "/installconfig/installing-appliance-in-cabinet-or-rack-sg5700.html"
       - title: SG5800
@@ -75,6 +81,17 @@ entries:
           url: "/installconfig/installing-appliance-in-cabinet-or-rack-sgf6112.html"
         - title: 'Install SG6100-CN controller (SG6160)'
           url: "/installconfig/sg6100-cn-installing-into-cabinet-or-rack.html"
+      - title: SG6200
+        entries:
+        - title: Overview
+          pdf-filename: Install SG6200 into cabinet or rack
+          url: "/installconfig/installing-hardware-sg6200.html"
+        - title: 'Install 60-drive shelves (SG6260)'
+          url: "/installconfig/sg6260-installing-60-drive-shelves-into-cabinet-or-rack.html"
+        - title: Install 12-drive shelves (SGF6212)
+          url: "/installconfig/installing-appliance-in-cabinet-or-rack-sgf6212.html"
+        - title: 'Install SG6200-CN controller (SG6260)'
+          url: "/installconfig/sg6200-cn-installing-into-cabinet-or-rack.html"
     - title: Cable appliance
       url: "/installconfig/cabling-appliance.html"
     - title: Connect and apply power
@@ -99,9 +116,9 @@ entries:
         url: "/installconfig/verifying-network-connections.html"
       - title: Verify port-level network connections
         url: "/installconfig/verifying-port-level-network-connections.html"
-    - title: 'Set up SANtricity System Manager (SG5700, SG5800, SG6000, and SG6100)'
+    - title: 'Set up SANtricity System Manager'
       url: "/installconfig/accessing-and-configuring-santricity-system-manager.html"
-    - title: 'Configure BMC interface (SG100, SG110, SG1000, SG1100, SG6000, and SG6100)'
+    - title: 'Configure BMC interface'
       entries:
       - title: Overview
         url: "/installconfig/configuring-bmc-interface.html"
@@ -115,11 +132,11 @@ entries:
         url: "/installconfig/configuring-snmp-settings-for-bmc.html"
       - title: Set up email notifications
         url: "/installconfig/setting-up-email-notifications-for-alerts.html"
-    - title: 'Optional: Enable node or drive encryption'
+    - title: 'Enable node or drive encryption (Optional)'
       url: "/installconfig/optional-enabling-node-encryption.html"
-    - title: 'Optional: Change RAID mode (SG5760, SG5860, SG6000, and SG6160)'
+    - title: 'Change RAID mode (Optional)'
       url: "/installconfig/optional-changing-raid-mode.html"
-    - title: 'Optional: Remap network ports'
+    - title: 'Remap network ports (Optional)'
       url: "/installconfig/optional-remapping-network-ports-for-appliance.html"
   - title: Deploy appliance node
     url: "/landing-deploy-appliance/index.html"
@@ -136,7 +153,11 @@ entries:
       url: "/installconfig/troubleshooting-hardware-installation-sg100-and-sg1000.html"
     - title: 'Troubleshoot installation (SG110 and SG1100)'
       url: "/installconfig/troubleshooting-hardware-installation-sg110-and-sg1100.html"
+    - title: 'Troubleshoot installation (SG120 and SG1200)'
+      url: "/installconfig/troubleshooting-hardware-installation-sg120-and-sg1200.html"
     - title: 'Troubleshoot installation (SG5700 or SG6000)'
       url: "/installconfig/troubleshooting-hardware-installation.html"
     - title: 'Troubleshoot installation (SG5800 or SG6100)'      
       url: "/installconfig/troubleshooting-hardware-installation-sg6100.html"
+    - title: 'Troubleshoot installation (SG6200)'      
+      url: "/installconfig/troubleshooting-hardware-installation-sg6200.html"

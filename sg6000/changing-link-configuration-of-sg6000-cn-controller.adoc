@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storagegrid, sg6000, storage node, storage appliance, admin node, link configuration, link, configure, configuring, ethernet, port bond mode, port bond, network bond mode, network bond, link speed, vlan tagging, vlan tag
 summary: 'You can change the Ethernet link configuration of the SG6000-CN controller. You can change the port bond mode, the network bond mode, and the link speed.'
 ---
-= Change link configuration of SG6000-CN controller
+= Change the link configuration of the SG6000-CN controller
 :icons: font
 :imagesdir: ../media/
 
@@ -56,5 +56,5 @@ In addition to any other tests you choose to perform, confirm that you can ping 
 +
 It can take up to 20 minutes for the appliance to reboot and rejoin the grid. To confirm that the reboot is complete and that the node has rejoined the grid:
 +
-.. In the Grid Manager, select *NODES*.
+.. In the Grid Manager, select *Nodes*.
 .. Verify that the appliance node has a normal status (green check mark icon image:../media/icon_alert_green_checkmark.png["green check mark"] to the left of the node name), which indicates that no alerts are active and the node is connected to the grid. 

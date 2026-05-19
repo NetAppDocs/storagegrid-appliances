@@ -1,0 +1,38 @@
+---
+permalink: sg6200/index.html
+sidebar: sidebar
+keywords: storagegrid, sg6200 storage appliance, SGF6212 storage appliance, maintain, maintaining, hardware, procedures, tasks
+summary: 'You might need to perform maintenance procedures on your appliance. Procedures specific to maintaining your sg6200 appliance are in this section.'
+---
+= Maintain SG6200 appliance
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You might need to perform maintenance procedures on your appliance. Procedures specific to maintaining your SG6200 appliance are in this section. 
+
+The procedures in this section assume that the appliance has already been deployed as a Storage Node in a StorageGRID system.
+
+*Maintenance configuration procedures* are performed using the Appliance Installer, Grid Manager, or BMC interface. These procedures include:
+
+* link:turning-sg6200-identify-led-on-and-off.html[Turn appliance identify LED on and off]
+* link:locating-sg6200-in-data-center.html[Locate appliance in data center]
+* link:power-sg6200-off-on.html[Shut down the appliance]
+* link:changing-link-configuration-of-sg6200-appliance.html[Change link configuration of the appliance]
+
+*Hardware maintenance procedures* require the physical manipulation of specific SGF6212 or SG6260 components. 
+
+== Drive firmware upgrade
+
+The firmware on the drives in the and SG6260 are automatically checked every time the appliance is rebooted. When necessary, the firmware is automatically upgraded to the version expected by the current StorageGRID release. Usually, firmware upgrades occur during StorageGRID software upgrades. Any necessary drive firmware upgrades for existing StorageGRID versions will be included in hotfixes. Follow the instructions provided with each hotfix to ensure that the upgrade is applied to all drives that could benefit from it. 
+
+Additionally, the drives in the SG6260 can be updated via SANtricity using the link:upgrading-drive-firmware-using-santricity-system-manager-online.html[SANtricity System Manager online] or link:upgrading-drive-firmware-using-santricity-system-manager-offline.html[SANtricity System Manager offline] procedures.
+
+NOTE: SANtricity System Manager is not needed to maintain the SGF6212 appliance. 
+
+== General Maintenance procedures
+
+See link:../commonhardware/index.html[Common maintenance procedures] for procedures that are the same for all appliances, such as applying a hotfix, recovering a node or site, and performing network maintenance.
+
+See link:../installconfig/configuring-hardware.html[Set up appliance hardware] for appliance maintenance procedures that are also performed during initial appliance installation and configuration.
+

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storagegrid, sg6000-cn, storage node, storage appliance, Replacing, replace, CMOS, battery
 summary: 'Use this procedure to replace the CMOS coin cell battery on the system board.'
 ---
-= Replace SG6000-CN CMOS battery
+= Replace the SG6000-CN CMOS battery
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storage node, storage appliance, raid, raid mode, change, changing, modify, DDP, ddp16, RAID 6
 summary: 'On some appliance models, you can change to a different RAID mode on the appliance to accommodate your storage and recovery requirements. You can only change the mode before deploying the appliance Storage Node.'
 ---
-= Optional: Change RAID mode (SG5760, SG5860, SG6000, and SG6160)
+= Change the RAID mode for an SG5760, SG5860, SG6000, SG6160, or SG6260
 :icons: font
 :imagesdir: ../media/
 
@@ -12,6 +12,15 @@ summary: 'On some appliance models, you can change to a different RAID mode on t
 On some appliance models, you can change to a different RAID mode on the appliance to accommodate your storage and recovery requirements. You can only change the mode before deploying the appliance Storage Node.
 
 If you are using ConfigBuilder to generate a JSON file, you can change the RAID mode automatically. See link:automating-appliance-installation-and-configuration.html[Automate appliance installation and configuration].
+
+You can change the RAID mode on the following appliances:
+
+* SG5760
+* SG5860
+* SGF6024
+* SG6060
+* SG6160
+* SG6260
 
 .About this task
 
@@ -23,7 +32,7 @@ NOTE: Volume sizes aren't consistent across all DDP and RAID types. Variations i
 
 ** When compared to RAID 6, DDP delivers better system performance, reduced rebuild times after drive failures, and ease of management. 
 ** One disk pool is created per storage appliance or expansion shelf.
-** DDP provides drawer-loss protection in SG5760, SG5860, and SG6160 appliances.
+** DDP provides drawer-loss protection in SG5760, SG5860, SG6160, and SG6260 appliances.
 +
 NOTE: DDP doesn't provide drawer loss protection in SG6060 appliances because of the two SSDs. Drawer loss protection is effective in any expansion shelves that are added to an SG6060. 
 
@@ -110,6 +119,28 @@ The StorageGRID Appliance Installer Home page appears.
 --
 
 .SG6160
+--
+.Before you begin
+
+* You are using any client that can connect to StorageGRID.
+* The client has a  https://docs.netapp.com/us-en/storagegrid/admin/web-browser-requirements.html[supported web browser^].
+
+.Steps
+
+. Open a browser, and enter one of the IP addresses for the appliance's compute controller.
++
+`*https://_Controller_IP_:8443*`
++
+`_Controller_IP_` is the IP address of the compute controller (not the storage controller) on any of the three StorageGRID networks.
++
+The StorageGRID Appliance Installer Home page appears.
+
+. Select *Advanced* > *RAID Mode*.
+. On the *Configure RAID Mode* page, select the desired RAID mode from the Mode drop-down list.
+. Click *Save*.
+--
+
+.SG6260
 --
 .Before you begin
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storagegrid, sg6100, sgf6112, storage node, storage appliance, appliance models, appliance features, specifications
 summary: 'The StorageGRID SG6100 series appliances operate as Storage Nodes in a StorageGRID system.  Like all StorageGRID appliances, they can be freely intermixed with other appliance models and software-only nodes in a single deployment.'
 ---
-= SG6100 appliances: Overview
+= StorageGRID SG6100 appliances
 :icons: font
 :imagesdir: ../media/
 
@@ -48,7 +48,7 @@ A one-rack unit (1U) server that includes:
 * Two 2.1/2.6 GHz 165 W processors providing 48 cores (96 threads)
 * 256 GB RAM
 * 2 × 1/10 GBase-T ports
-* 4 × 10/25 GbE Ethernet ports for Grid/Client network traffic
+* 4 × 10/25 GbE Ethernet ports for Grid/Client network traffic (or up 4 x 100 GbE with optional 100G NIC SKU)
 * 1 × 256 GB Internal Boot drive (includes StorageGRID software) 
 * Baseboard management controller (BMC) that simplifies hardware management
 * Redundant power supplies and fans
