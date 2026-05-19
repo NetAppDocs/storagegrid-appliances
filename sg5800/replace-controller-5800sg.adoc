@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: 
 summary: 
 ---
-= Replace StorageGRID SG5800 controller
+= Replace the SG5800 controller
 :icons: font
 :imagesdir: ../media/
 

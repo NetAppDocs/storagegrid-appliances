@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: 
 summary: 
 ---
-= Maintain SG5800 appliance
+= Maintain the SG5800 appliance
 :icons: font
 :imagesdir: ../media/
 

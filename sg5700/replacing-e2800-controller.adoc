@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storagegrid, sg5700, storage node, storage appliance, Replacing, replace, e2800, controller, remove, removing, removal, install, installing, installation
 summary: 'You might need to replace the E2800 controller if it is not functioning optimally or if it has failed.'
 ---
-= Replace E2800 series storage controller in the SG5700
+= Replace the E2800 series storage controller in the SG5700
 :icons: font
 :imagesdir: ../media/
 
@@ -101,7 +101,7 @@ If management port 1 is connected to a network with a DHCP server, the new contr
 The appliance reboots and rejoins the grid. This process can take up to 20 minutes.
 
 . Confirm that the reboot is complete and that the node has rejoined the grid:
-.. In the Grid Manager, select *NODES*.
+.. In the Grid Manager, select *Nodes*.
 .. Verify that the appliance node has a normal status (green check mark icon image:../media/icon_alert_green_checkmark.png["green check mark"] to the left of the node name), which indicates that no alerts are active and the node is connected to the grid. 
 
 . From SANtricity System Manager, confirm that the new controller is Optimal, and collect support data.

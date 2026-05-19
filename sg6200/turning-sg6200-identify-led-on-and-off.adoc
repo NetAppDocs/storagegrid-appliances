@@ -1,0 +1,18 @@
+---
+permalink: sg6200/turning-sg6200-identify-led-on-and-off.html
+sidebar: sidebar
+keywords: sgf6212, locate, find, locating, finding, identify, blue led, blue light
+summary: 'The blue identify LED on the front and rear of the appliance can be turned on to help locate the appliance in a data center.'
+---
+= Turn SGF6212 appliance or SG6200-CN controller identify LED on and off
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The blue identify LED on the front and rear of the appliance can be turned on to help locate the appliance in a data center.
+
+include::../_include/2025-turn-identify-led-on-off.adoc[]
+
+.Related information
+
+link:locating-sg6200-in-data-center.html[Locate appliance in data center]

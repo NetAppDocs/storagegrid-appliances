@@ -1,0 +1,53 @@
+// Replace fan in SG6200-CN, SGF6212, SG120, SG1200
+// Intro, before you begin, about this task, and after you finish are in referencing topic
+
+.Steps
+. Wrap the strap end of the ESD wristband around your wrist, and secure the clip end to a metal ground to prevent static discharge.
+. Locate the fan that you need to replace.
++
+The seven fans are in the following positions in the chassis (front half of StorageGRID appliance with top cover removed shown): 
++
+image::../media/drw_fan_position_ieops-2614.svg[Fan positions in StorageGRID appliance chassis]
++
+[options="header"]
+|===
+| Chassis position| Fan unit 
+a|
+1
+a|
+Fan_SYS0
+a|
+2
+a|
+Fan_SYS1
+a|
+3
+a|
+Fan_SYS2
+a|
+4
+a|
+Fan_SYS3
+a|
+5
+a|
+Fan_SYS4
+a|
+6
+a|
+Fan_SYS5
+a|
+7
+a|
+Fan_SYS6
+
+|===
+. Using the blue tabs on the fan, lift the failed fan out of the chassis.
++
+image:../media/drw_s2025_fan_replace_ieops-2552.svg[Removing a fan from the chassis]
+. Slide the replacement fan into the open slot in the chassis.
++
+Align the connector on the fan with the socket in the circuit board.
++
+. Press the fan's connector firmly into the circuit board.
+

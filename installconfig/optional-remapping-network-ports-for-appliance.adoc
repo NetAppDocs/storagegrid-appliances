@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: remap appliance ports, network, internal to external port mapping 
 summary: 'You can optionally remap the internal ports on an appliance node to different external ports. For example, you might need to remap ports because of a firewall issue.'
 ---
-= Optional: Remap network ports for appliance
+= Remap network ports for StorageGRID appliances
 :icons: font
 :imagesdir: ../media/
 

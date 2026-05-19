@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: email, notifications, alerts, set up, setup, configure, configuration, bmc 
 summary: 'If you want email notifications to be sent when alerts occur, use the BMC interface to configure SMTP settings, users, LAN destinations, alert policies, and event filters.'
 ---
-= Set up email notifications for BMC alerts
+= Set up email notifications for BMC alerts on a StorageGRID appliance
 :icons: font
 :imagesdir: ../media/
 

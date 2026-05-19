@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storagegrid, sg5700, storage node, storage appliance, controller, e2800, storage controller, upgrade, upgrading, SANtricity OS, SANtricity, maintenance mode
 summary: 'For storage controllers currently using SANtricity OS older than 08.42.20.00 \(11.42\), you must use the maintenance mode procedure to apply an upgrade.'
 ---
-= Upgrade SANtricity OS on E2800 controller using maintenance mode
+= Upgrade SANtricity OS on the SG5700 E2800 controller using maintenance mode
 :icons: font
 :imagesdir: ../media/
 
@@ -47,7 +47,7 @@ NOTE: Activate the upgrade files immediately. Don't defer activation.
 +
 It can take up to 20 minutes for the appliance to reboot and rejoin the grid. To confirm that the reboot is complete and that the node has rejoined the grid:
 +
-.. In the Grid Manager, select *NODES*.
+.. In the Grid Manager, select *Nodes*.
 .. Verify that the appliance node has a normal status (green check mark icon image:../media/icon_alert_green_checkmark.png["green check mark"] to the left of the node name), which indicates that no alerts are active and the node is connected to the grid.
 
 .Related information

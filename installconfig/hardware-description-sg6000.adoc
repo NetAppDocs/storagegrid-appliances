@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: sg6000, sg6060, sg6060x, storage appliance
 summary: 'The StorageGRID SG6060 and SG6060X appliances each include a compute controller and a storage controller shelf that contains two storage controllers and 60 drives.'
 ---
-= SG6060 and SG6060X appliances: Overview
+= StorageGRID SG6060 and SG6060X appliances
 :icons: font
 :imagesdir: ../media/
 

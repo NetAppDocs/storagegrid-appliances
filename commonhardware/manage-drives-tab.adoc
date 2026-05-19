@@ -1,10 +1,10 @@
 ---
 permalink: commonhardware/manage-drives-tab.html
 sidebar: sidebar
-keywords: sgf6112, sg110, sg1100, sg6160, manage drives tab, locate drive, fail drive, logically replace drive
+keywords: sgf6112, sg110, sg1100, sg6160, sg6200, sg6260, sgf6212 manage drives tab, locate drive, fail drive, logically replace drive
 summary: 'You can use the Manage drives tab in the Grid Manager to perform troubleshooting and maintenance tasks on the drives for appliances that support this feature.'
 ---
-= Use the Manage drives tab (SG110, SG1100, SGF6112, and SG6160)
+= Use the Manage drives tab for the SG110, SG120, SG1100, SG1200, SG6100, and SG6200 StorageGRID appliances
 :icons: font
 :imagesdir: ../media/
 
@@ -39,7 +39,7 @@ image:../media/manage_drives_tab_details.png["Manage drives tab Drive details"]
 
 To physically locate a drive in the appliance:
 
-. From the Grid Manager, select *NODES* > *_data center_*.
+. From the Grid Manager, select *Nodes* > *_data center_*.
 
 . Select *_appliance storage node_* > *Manage drives* > *Layout* > *_drive_*.
 +
@@ -56,7 +56,7 @@ The drive details panel appears.
 
 If a drive in the storage appliance needs to be rebuilt or reinitialized:
 
-. From the Grid Manager, select *NODES* > *_data center_*.
+. From the Grid Manager, select *Nodes* > *_data center_*.
 
 . Select *_appliance storage node_* > *Manage drives* > *Layout* > *_drive_*.
 +
@@ -70,7 +70,7 @@ On the drive details panel, the drive's status indicates _Rebuilding_. Rebuildin
 
 For troubleshooting, you can manually "fail" a drive that you suspect is faulty. The system will then run without that drive.
 
-. From the Grid Manager, select *NODES* > *_data center_*.
+. From the Grid Manager, select *Nodes* > *_data center_*.
 
 . Select *_appliance storage node_* > *Manage drives* > *Layout* > *_drive_*.
 +

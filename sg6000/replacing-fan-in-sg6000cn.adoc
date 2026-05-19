@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storagegrid, sg6000-cn, storage node, storage appliance, replacing, replace, fan, remove, removing, removal, install, installing, installation
 summary: 'The SG6000-CN compute controller has eight cooling fans. If one of the fans fails, you must replace it as soon as possible to ensure that the controller has proper cooling.'
 ---
-= Replace fan in SG6000-CN compute controller
+= Replace a fan in the SG6000-CN compute controller
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: register, registering, registration, support
 summary: 'Registering the appliance hardware provides support benefits.'
 ---
-= Register hardware
+= Register StorageGRID appliance hardware
 :icons: font
 :imagesdir: ../media/
 
