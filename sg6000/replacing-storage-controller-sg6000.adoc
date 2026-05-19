@@ -58,7 +58,7 @@ Save the packing materials to use when shipping the failed controller.
 include::../_include/e2800_series_rear.adoc[] 
 
 == Step 2: Take the controller offline
-Prepare to remove the failed controller and and take it offline. You use SANtricity System Manager to perform these steps.
+Prepare to remove the failed controller and take it offline. You use SANtricity System Manager to perform these steps.
 
 .Steps
 
