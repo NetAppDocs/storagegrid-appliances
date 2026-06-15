@@ -2,7 +2,7 @@
 permalink: sg110-1100/replace-nic-in-sg110-and-sg1100.html
 sidebar: sidebar
 keywords: storagegrid, sg110, sg1100, admin node, admin appliance, replacing, replace, NIC, network interface card
-summary: 'You might need to replace a Network Interface Card \(NIC\) in the SG110 or SG1100 if it is not functioning optimally or if it has failed.'
+summary: "You might need to replace a Network Interface Card (NIC) in the SG110 or SG1100 if it is not functioning optimally or if it has failed."
 ---
 = Replace a NIC in an SG110 or SG1100
 :icons: font

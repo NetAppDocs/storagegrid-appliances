@@ -2,7 +2,7 @@
 permalink: sg6200/replace-nic-in-sg6200.html
 sidebar: sidebar
 keywords: storagegrid, sg6200, storage node, storage appliance, Replacing, replace, NIC, network interface card
-summary: 'You might need to replace a Network Interface Card \(NIC\) in the SGF6212 if it is not functioning optimally or if it has failed.'
+summary: "You might need to replace a Network Interface Card (NIC) in the SGF6212 if it is not functioning optimally or if it has failed."
 ---
 = Replace internal NIC in the SGF6212 or SG6200-CN
 :icons: font
