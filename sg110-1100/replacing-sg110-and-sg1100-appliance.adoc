@@ -3,7 +3,7 @@ permalink: sg110-1100/replacing-sg110-and-sg1100-appliance.html
 sidebar: sidebar
 keywords: storagegrid, sg110, sg1100, Replacing, replace, remove, removing, removal, install, installing, installation
 summary: 'You might need to replace the appliance if it is not functioning optimally or if it has failed.'
----.
+---
 
 = Replace the SG110 or SG1100 appliance
 :icons: font
