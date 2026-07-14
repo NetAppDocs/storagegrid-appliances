@@ -46,6 +46,7 @@ If any of the following issues are encountered while cloning, the cloning proces
 * Wrong network configuration
 * Lack of connectivity between the source and target appliances
 * Source and target appliance incompatibility
+* NVSRAM firmware on target appliance is newer than firmware on source appliance
 * For Storage Nodes, a replacement appliance of insufficient capacity
 
 You must resolve each issue for cloning to continue.

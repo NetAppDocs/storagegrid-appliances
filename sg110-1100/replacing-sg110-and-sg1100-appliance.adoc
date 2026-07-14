@@ -3,7 +3,7 @@ permalink: sg110-1100/replacing-sg110-and-sg1100-appliance.html
 sidebar: sidebar
 keywords: storagegrid, sg110, sg1100, Replacing, replace, remove, removing, removal, install, installing, installation
 summary: 'You might need to replace the appliance if it is not functioning optimally or if it has failed.'
----
+---.
 
 = Replace the SG110 or SG1100 appliance
 :icons: font
@@ -96,6 +96,8 @@ WARNING: To prevent data loss if the Appliance Installer indicates that physical
 * Use DHCP to obtain an IP, netmask, and gateway
 
 .. To restore the BMC configuration to use a static IP, netmask, and gateway, enter the following commands:
++
+`*run-host-command ipmitool lan set 1 ipsrc static*`
 +
 `*run-host-command ipmitool lan set 1 ipaddr _Appliance_IP_*`
 +
