@@ -39,7 +39,7 @@ image:../media/drw_s2025_io_numbers_ieops-2554.svg[Location of NICs in the appli
 
 | 1
 | NIC 1 in the one-slot riser assembly
-| 10/25/40/100/200-GbE Ethernet network ports for Grid and Client Networks
+| 10/25-GbE Ethernet network ports for Grid and Client Networks
 
 | 2
 | NIC 2 in the one-slot riser assembly
@@ -47,8 +47,10 @@ image:../media/drw_s2025_io_numbers_ieops-2554.svg[Location of NICs in the appli
 
 | 3
 | NIC 3 in the one-slot riser assembly
-| 10/25/40/100/200-GbE Ethernet network ports for Grid and Client Networks
+| 10/25-GbE Ethernet network ports for Grid and Client Networks
 
 |===
++
+NOTE:: Some appliances support higher speed network ports and might have higher speed NICs installed.
 
 include::../_include/2025-replace-nic.adoc[]
