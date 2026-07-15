@@ -51,6 +51,6 @@ image:../media/drw_s2025_io_numbers_ieops-2554.svg[Location of NICs in the appli
 
 |===
 +
-NOTE:: Some appliances support higher speed network ports and might have higher speed NICs installed.
+NOTE: Some appliances support higher speed network ports and might have higher speed NICs installed.
 
 include::../_include/2025-replace-nic.adoc[]
