@@ -2,7 +2,7 @@
 permalink: commonhardware/appliance-node-cloning-procedure.html
 sidebar: sidebar
 keywords: storagegrid, appliance node clone, appliance node cloning, node clone, node cloning
-summary: 'The cloning process might take several days to transfer data between the source node \(appliance being replaced\) and the target \(new\) appliance.'
+summary: "The cloning process might take several days to transfer data between the source node (appliance being replaced) and the target (new) appliance."
 ---
 = Clone a StorageGRID appliance node
 :icons: font
@@ -17,6 +17,7 @@ The cloning process might take several days to transfer data between the source 
 * You have verified that the StorageGRID Appliance Installer version on the replacement appliance matches the software version of your StorageGRID system, upgrading or downgrading the StorageGRID Appliance Installer firmware, if necessary.
 * You have configured the target appliance, including configuring StorageGRID connections, SANtricity System Manager (storage appliances only), and the BMC interface.
  ** When configuring StorageGRID connections, use the temporary IP addresses.
+ ** If you are enabling DHCP on any ports of the target node that were configured as static on the source node, make sure that there are no permanent DHCP leases for any of the source node MAC addresses. Failure to do so could cause an IP address conflict at the end of the cloning process.
  ** When configuring network links, use the final link configuration.
 
 NOTE: Leave the StorageGRID Appliance Installer open after you complete initial target appliance configuration. You will return to the target appliance's installer page after you start the node cloning process.
@@ -70,6 +71,9 @@ When cloning successfully completes:
 
 * The source and target nodes swap IP addresses:
  ** The target node now uses the IP addresses originally assigned to the source node for the Grid, Admin, and Client Networks.
++
+NOTE: If you encounter an IP address conflict at the end of the cloning process, make sure that there were no permanent DHCP leases assigned for any of the MAC addresses of ports that had static IPs on the source node that were enabled for DHCP on the target node. Remove or update the permanent DHCP leases on the DHCP server to resolve this conflict.
+
  ** The source node now uses the temporary IP address initially assigned to the target node.
 * The target node exits maintenance mode and joins StorageGRID, replacing the source node.
 * The source appliance is in a pre-installed state, as if you had https://docs.netapp.com/us-en/storagegrid/maintain/preparing-appliance-for-reinstallation-platform-replacement-only.html[prepared it for reinstallation^].
