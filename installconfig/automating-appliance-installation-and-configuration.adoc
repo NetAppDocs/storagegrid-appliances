@@ -28,7 +28,7 @@ You can automate the configuration of the following:
 
 To automate appliance installation and configuration, use one or more of the following options:
 
-* Generate a JSON file that contains configuration details. Work with your NetApp Professional Services consultant to use the link:https://configbuilder.netapp.com/index.aspx[NetApp ConfigBuilder tool^] to complete these steps:
+* Generate a JSON file that contains configuration details. Work with your NetApp Professional Services consultant to use the link:https://configbuilder.netapp.com/Index.aspx[NetApp ConfigBuilder tool^] (login required) to complete these steps:
 
 . Consult with NetApp Professional Services to get a sales order number.
 . Get the workbook from ConfigBuilder.

@@ -2,7 +2,7 @@
 permalink: installconfig/hardware-description-sg120-and-1200.html
 sidebar: sidebar
 keywords: storagegrid, sg120, sg1200, service appliance, services appliance, gateway Node, admin node, overview, models, features, applications, how to use, services 
-summary: 'The StorageGRID SG120 services appliance and the SG1200 services appliance can operate as a Gateway Node and as an Admin Node to provide high availability load balancing services in a StorageGRID system. Both appliances can operate as Gateway Nodes and Admin Nodes \(primary or non-primary\) at the same time.'
+summary: "The StorageGRID SG120 services appliance and the SG1200 services appliance can operate as a Gateway Node and as an Admin Node to provide high availability load balancing services in a StorageGRID system. Both appliances can operate as Gateway Nodes and Admin Nodes (primary or non-primary) at the same time."
 ---
 = StorageGRID SG120 and SG1200 appliances
 :icons: font
@@ -18,6 +18,7 @@ The SG120 and SG1200 appliances provide the following features:
 * Gateway Node or Admin Node functions for a StorageGRID system.
 * The StorageGRID Appliance Installer to simplify node deployment and configuration.
 * When deployed, can access StorageGRID software from an existing Admin Node or from software downloaded to a local drive. To further simplify the deployment process, a recent version of the software is preloaded onto the appliance during manufacturing.
+* One AMD 3.65 GHz processor providing 16 cores (32 threads)
 * A baseboard management controller (BMC) for monitoring and diagnosing some of the appliance hardware.
 * The ability to connect to all three StorageGRID networks, including the Grid Network, the Admin Network, and the Client Network:
  ** The SG120 supports up to four 10- or 25-GbE connections to the Grid Network and Client Network.
