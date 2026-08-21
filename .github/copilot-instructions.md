@@ -51,7 +51,6 @@ NetApp StorageGRID appliances are purpose-built hardware platforms that run as n
 - *SG6000-CN* – The compute controller in SG6000 series appliances
 - *SG6100-CN* – The compute controller in SG6100 and SG6200 series appliances
 - Storage controller generations used across appliance families: *E2800* (SG5700, SG6000), *E4000* (SG5800, SG6100, SG6200), *EF570* (SGF6024)
-- "X" suffix models (e.g., SG5712X, SG6060X) differ from base models only in interconnect port location on the storage controller; do not mix A and B (or X and non-X) storage controllers in the same appliance
 - *FRU (Field Replaceable Unit)* – Components that can be replaced on-site; the term is used in maintenance procedures
 - *Expansion shelf* – An additional drive shelf (DE460C or DE212C enclosure) that can be added to SG6060, SG6160, and SG6260 appliances to increase drive capacity
 
