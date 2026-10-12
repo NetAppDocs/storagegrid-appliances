@@ -58,28 +58,25 @@ Save the packing materials to use when shipping the failed controller.
 include::../_include/e2800_series_rear.adoc[] 
 
 == Step 2: Take the controller offline
-Prepare to remove the failed controller and and take it offline.
+Prepare to remove the failed controller and take it offline. You use SANtricity System Manager to perform these steps.
 
 .Steps
 
-. Prepare to remove the controller. You use SANtricity System Manager to perform these steps.
-+
-.. Confirm that the replacement part number for the failed controller is the same as the FRU part number for the replacement controller.
+. Confirm that the replacement part number for the failed controller is the same as the FRU part number for the replacement controller.
 +
 When a controller has a fault and needs to be replaced, the replacement part number is displayed in the Details area of the Recovery Guru. If you need to find this number manually, you can look on the *Base* tab for the controller.
 +
 CAUTION: *Possible loss of data access &#8212;* If the two part numbers aren't the same, don't attempt this procedure.
 
- .. Back up the configuration database.
+. Back up the configuration database.
 +
 If a problem occurs when you remove a controller, you can use the saved file to restore your configuration.
 
- .. Collect support data for the appliance.
+. Collect support data for the appliance.
 +
 NOTE: Collecting support data before and after replacing a component ensures you can send a full set of logs to technical support if the replacement does not resolve the problem.
 
- .. Take the controller you plan to replace offline.
-. Power off the controller shelf.
+. Take the controller you plan to replace offline.
 
 include::../_include/remove_controller_e2800.adoc[]
 include::../_include/remove_battery_e2800.adoc[]
@@ -110,4 +107,5 @@ NOTE: If the original controller did not use DHCP for the IP address, the new co
 
 include::../_include/fru-statement.adoc[] 
 
+// 2025 JAN 17, SGRIDDOC-119
 // 2024 FEB 26, SGRIDDOC-22

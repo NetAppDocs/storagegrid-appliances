@@ -9,7 +9,7 @@ summary:
 :imagesdir: ../media/
 
 [.lead]
-You might need to replace an E4000 controller  if it is not functioning optimally or if it has failed.
+You might need to replace an E4000 controller if it is not functioning optimally or if it has failed.
 
 .Before you begin
 
@@ -51,7 +51,7 @@ Save the packing materials to use when shipping the failed controller.
 . Locate the MAC address and FRU part number labels on the back of the replacement controller. 
 
 == Step 2: Take the controller offline
-Prepare to remove the failed controller and and take it offline. You can use SANtricity System Manager to perform these steps.
+Prepare to remove the failed controller and take it offline. You can use SANtricity System Manager to perform these steps.
 
 .Steps
 
@@ -104,6 +104,8 @@ CAUTION: To prevent degraded performance, do not twist, fold, pinch, or step on 
 == Step 4: Determine parts to transfer to replacement controller
 
 Your replacement controller may come with parts pre-installed. Determine which parts must be transferred to the replacement controller canister.
+
+.Steps
 
 . Place the replacement controller on a flat, static-free surface with the removable cover facing up.
 . Open the cover by pressing the blue buttons on the sides of the controller canister to release the cover, and then rotate the cover up and off of the controller canister.

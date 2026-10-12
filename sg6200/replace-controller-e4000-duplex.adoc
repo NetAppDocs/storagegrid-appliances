@@ -52,7 +52,7 @@ Save the packing materials to use when shipping the failed controller.
 . Locate the MAC address and FRU part number labels on the back of the replacement controller. 
 
 == Step 2: Take the controller offline
-Prepare to remove the failed controller and and take it offline. You can use SANtricity System Manager to perform these steps.
+Prepare to remove the failed controller and take it offline. You can use SANtricity System Manager to perform these steps.
 
 .Steps
 
