@@ -43,10 +43,15 @@ The following appliance configurations don't transfer to the replacement applian
 
 If any of the following issues are encountered while cloning, the cloning process halts and an error message is generated:
 
+* Cloning already in progress
 * Wrong network configuration
+* Target appliance cannot reach the Primary Admin Node
 * Lack of connectivity between the source and target appliances
-* Source and target appliance incompatibility
-* For Storage Nodes, a replacement appliance of insufficient capacity
+* Source and target appliances are not compatible
+* Source and target appliances are in different maintenance mode states
+* StorageGRID Appliance Installer versions on source and target appliances do not match
+* For Storage Nodes, the target appliance has incompatible storage or insufficient capacity
+* Target appliance is not ready
 
 You must resolve each issue for cloning to continue.
 

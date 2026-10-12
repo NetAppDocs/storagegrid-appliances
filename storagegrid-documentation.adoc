@@ -12,7 +12,7 @@ summary: "Learn how to configure and use a StorageGRID system."
 :imagesdir: ./media/
 
 [.lead]
-Go to https://docs.netapp.com/us-en/storagegrid/index.html[StorageGRID 12.0 Documentation^] to learn how to configure and use a StorageGRID 12.0 system.
+Go to https://docs.netapp.com/us-en/storagegrid/index.html[StorageGRID 12.1 Documentation^] to learn how to configure and use a StorageGRID 12.1 system.
 
 The StorageGRID doc site includes information such as:
 
@@ -27,6 +27,8 @@ The StorageGRID doc site includes information such as:
 == Other versions
 
 You can find documentation for other versions of NetApp StorageGRID software here:
+
+* https://docs.netapp.com/us-en/storagegrid-120/index.html[StorageGRID 12.0 documentation^]
 
 * https://docs.netapp.com/us-en/storagegrid-119/index.html[StorageGRID 11.9 documentation^]
 

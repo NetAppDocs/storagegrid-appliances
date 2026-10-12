@@ -42,6 +42,8 @@ You must have the following information before you clone an appliance node:
 +
 Temporary IP addresses are normally on the same subnet as the source node appliance being cloned and aren't needed after cloning completes. The source and target appliances must both connect to the primary Admin Node of your StorageGRID to establish a cloning connection.
 
+* If you are enabling DHCP on any ports of the target node that were configured as static on the source node, make sure that there are no permanent DHCP leases for any of the source node MAC addresses. Failure to do so could cause an IP address conflict at the end of the cloning process.
+
 * Determine which network to use for cloning data-transfer traffic that provides the best data-transfer performance without degrading StorageGRID network performance or data availability.
 +
 NOTE: Using the 1-GbE Admin Network for clone data transfer results in slower cloning.
